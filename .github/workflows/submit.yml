@@ -75,7 +75,6 @@ jobs:
     timeout-minutes: 20
     env:
       RA_DATA_DIR: ${{ github.workspace }}/data
-      RA_EVENT_PATH: ${{ github.event_path }}
       RA_RUN_ID: ${{ github.run_id }}-${{ github.run_attempt }}
       RA_TRIGGER: ${{ github.event_name }}
       RA_ENV: production
@@ -84,9 +83,10 @@ jobs:
       # Runs before checkout so nothing that follows can print the key. Masks the dispatch input and, on the
       # Issue path, the first non-blank line after the "### owner_key" heading, in both forms the engine accepts.
       - name: Mask the owner key
-        env:
-          OWNER_KEY: ${{ inputs.owner_key }}
-          ISSUE_BODY: ${{ github.event.issue.body }}
+        # Runs before checkout so nothing that follows can print the key. The values are read from the event
+        # payload file on purpose: a step `env:` would be echoed in the log's step header before the mask exists.
+        # Masks the dispatch input and, on the Issue path, the first non-blank line after the "### owner_key"
+        # heading, in both forms the engine accepts.
         run: |
           mask() {
             local v="$1"
@@ -97,9 +97,11 @@ jobs:
             [ "$canonical" != "$v" ] && [ "${#canonical}" -ge 16 ] && echo "::add-mask::$canonical"
             return 0
           }
-          if [ -n "$OWNER_KEY" ]; then mask "$OWNER_KEY"; fi
-          if [ -n "$ISSUE_BODY" ]; then
-            key="$(printf '%s' "$ISSUE_BODY" | tr -d '\r' | awk '/^### owner_key[[:space:]]*$/ { while ((getline line) > 0) { if (line !~ /^[[:space:]]*$/) { print line; exit } } }')"
+          key="$(jq -r '.inputs.owner_key // empty' "$GITHUB_EVENT_PATH")"
+          if [ -n "$key" ]; then mask "$key"; fi
+          body="$(jq -r '.issue.body // empty' "$GITHUB_EVENT_PATH")"
+          if [ -n "$body" ]; then
+            key="$(printf '%s' "$body" | tr -d '\r' | awk '/^### owner_key[[:space:]]*$/ { while ((getline line) > 0) { if (line !~ /^[[:space:]]*$/) { print line; exit } } }')"
             if [ -n "$key" ]; then mask "$key"; fi
           fi
 
@@ -124,7 +126,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: node engine/src/cli.ts submit --event "$RA_EVENT_PATH" --summary "$GITHUB_STEP_SUMMARY"
+        run: node engine/src/cli.ts submit --event "$GITHUB_EVENT_PATH" --summary "$GITHUB_STEP_SUMMARY"
 
       # Every run re-enables the schedules so the 60-day inactivity disable never sticks (spec D-57).
       - name: Keep schedules enabled
@@ -142,5 +144,5 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RA_LLM_MODE: mock
-        run: node engine/src/cli.ts record-failure --workflow submit --event "$RA_EVENT_PATH" --run "$RA_RUN_ID" || true
+        run: node engine/src/cli.ts record-failure --workflow submit --event "$GITHUB_EVENT_PATH" --run "$RA_RUN_ID" || true
 # Re-indexed 2026-10-04: GitHub did not register this workflow from the branch-creating push until the file changed.
