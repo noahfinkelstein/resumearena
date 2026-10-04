@@ -1,0 +1,144 @@
+name: zz-probe-f
+
+on:
+  workflow_dispatch:
+    # Exactly the ten inputs of SubmissionPayload (spec D-12, §7.1). The Issue Forms carry the same ids.
+    inputs:
+      action:
+        type: string
+        required: true
+        default: "submit"
+        description: "submit | delete | set_visibility"
+      submission_id:
+        type: string
+        required: true
+        description: "10-char base32 id"
+      handle:
+        type: string
+        required: true
+        description: "3-20 chars [a-z0-9-]"
+      owner_hash:
+        type: string
+        required: true
+        description: "hex sha256 of the owner key"
+      visibility:
+        type: string
+        required: false
+        default: "anonymous"
+        description: "handle | anonymous"
+      text:
+        type: string
+        required: false
+        default: ""
+        description: "anonymized text <= 15000 chars"
+      metrics_json:
+        type: string
+        required: false
+        default: "{}"
+        description: "LayoutMetrics JSON"
+      ladder_hint:
+        type: string
+        required: false
+        default: ""
+        description: "general | finance | tech | academia"
+      client_version:
+        type: string
+        required: false
+        default: ""
+        description: "SPA build id"
+      owner_key:
+        type: string
+        required: false
+        default: ""
+        description: "raw owner key (manage actions, resubmission)"
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write   # push to the data branch
+  issues: write     # comment, label, close, lock on the Issue path
+  actions: write    # count runs for the hourly cap; re-enable the schedules
+
+# One run per submission id at a time. A re-run of a finished run finds its document and exits noop.
+concurrency:
+  group: "submit-${{ inputs.submission_id || github.event.issue.number }}"
+  cancel-in-progress: false
+
+jobs:
+  intake:
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      contains(github.event.issue.labels.*.name, 'ra:submission') ||
+      contains(github.event.issue.labels.*.name, 'ra:delete')
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      RA_DATA_DIR: ${{ github.workspace }}/data
+      RA_EVENT_PATH: ${{ github.event_path }}
+      RA_RUN_ID: ${{ github.run_id }}-${{ github.run_attempt }}
+      RA_TRIGGER: ${{ github.event_name }}
+      RA_ENV: production
+      RA_LLM_MODE: live
+    steps:
+      # Runs before checkout so nothing that follows can print the key. Masks the dispatch input and, on the
+      # Issue path, the first non-blank line after the "### owner_key" heading, in both forms the engine accepts.
+      - name: Mask the owner key
+        env:
+          OWNER_KEY: ${{ inputs.owner_key }}
+          ISSUE_BODY: ${{ github.event.issue.body }}
+        run: |
+          mask() {
+            local v="$1"
+            [ "${#v}" -ge 16 ] || return 0
+            echo "::add-mask::$v"
+            local canonical
+            canonical="$(printf '%s' "$v" | tr -d ' \t-' | tr '[:upper:]' '[:lower:]' | sed -e 's/^rak//')"
+            [ "$canonical" != "$v" ] && [ "${#canonical}" -ge 16 ] && echo "::add-mask::$canonical"
+            return 0
+          }
+          if [ -n "$OWNER_KEY" ]; then mask "$OWNER_KEY"; fi
+          if [ -n "$ISSUE_BODY" ]; then
+            key="$(printf '%s' "$ISSUE_BODY" | tr -d '\r' | awk '/^### owner_key[[:space:]]*$/ { while ((getline line) > 0) { if (line !~ /^[[:space:]]*$/) { print line; exit } } }')"
+            if [ -n "$key" ]; then mask "$key"; fi
+          fi
+
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+
+      - uses: ./.github/actions/setup
+
+      - uses: ./.github/actions/data-checkout
+        with:
+          patterns: |
+            /settings.json
+            /status.json
+            /.gitattributes
+            /usage/
+
+      # The engine adapts the event, checks paused / hourly cap / budget, materializes the shards it needs with
+      # `git sparse-checkout add --no-cone`, runs gate then analysis, and commits through the retry loop (spec §9.3).
+      - name: Intake
+        id: intake
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node engine/src/cli.ts submit --event "$RA_EVENT_PATH" --summary "$GITHUB_STEP_SUMMARY"
+
+      # Every run re-enables the schedules so the 60-day inactivity disable never sticks (spec D-57).
+      - name: Keep schedules enabled
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for w in rerank.yml maintenance.yml; do
+            gh api --silent -X PUT "repos/$GITHUB_REPOSITORY/actions/workflows/$w/enable" || true
+          done
+
+      # record-failure never calls a model; mock mode keeps it from needing the API key.
+      - name: Record failure
+        if: failure()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RA_LLM_MODE: mock
+        run: node engine/src/cli.ts record-failure --workflow submit --event "$RA_EVENT_PATH" --run "$RA_RUN_ID" || true

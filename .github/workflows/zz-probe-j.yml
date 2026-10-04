@@ -1,0 +1,33 @@
+name: zz-probe-j
+run-name: "rerank ${{ github.event_name }}"
+
+on:
+  schedule:
+    - cron: "*/10 * * * *"   # may be delayed under load; every submission also triggers a run
+  workflow_run:
+    workflows: [submit]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      reason:
+        type: string
+        required: false
+        default: manual
+        description: "why (shows in the run list)"
+
+permissions:
+  contents: write   # ratings, history, matches, arena, queue, status
+  actions: write    # re-enable the schedules; dispatch deploy
+
+# Serialized writer. A burst of submissions collapses into one running + one pending run. Nightly maintenance
+# shares this group.
+concurrency:
+  group: rerank
+  cancel-in-progress: false
+
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - run: echo probe
