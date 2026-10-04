@@ -36,6 +36,7 @@ jobs:
       - uses: actions/setup-node@v5
         with:
           node-version-file: .nvmrc
+          package-manager-cache: false   # no pnpm on this job; the default tries to detect it and fails
       - id: plan
         run: node scripts/plan-maintenance.ts --event "$GITHUB_EVENT_NAME" --dir ops/commands --out "$GITHUB_OUTPUT"
 

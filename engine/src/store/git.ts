@@ -56,10 +56,12 @@ export async function isSparse(root: string): Promise<boolean> {
   }
 }
 
-/** `git sparse-checkout add --no-cone <patterns>`: one batched blob fetch on a partial clone. No-op on a full checkout. */
+/** `git sparse-checkout add <patterns>`: one batched blob fetch on a partial clone. No-op on a full checkout.
+ *  The cone/non-cone mode is fixed when the sparse checkout is initialised (core.sparseCheckoutCone); `add`
+ *  inherits it, and some git builds reject `--no-cone` on `add`, so the flag is deliberately not passed. */
 export async function sparseAdd(root: string, patterns: readonly string[]): Promise<void> {
   if (patterns.length === 0 || !(await isSparse(root))) return;
-  await git(root, ['sparse-checkout', 'add', '--no-cone', ...patterns]);
+  await git(root, ['sparse-checkout', 'add', ...patterns]);
 }
 
 export async function headSha(root: string): Promise<string | null> {
