@@ -1,0 +1,119 @@
+name: zz-probe-e
+true:
+  workflow_dispatch:
+    inputs:
+      action:
+        type: string
+        required: true
+        default: submit
+        description: submit | delete | set_visibility
+      submission_id:
+        type: string
+        required: true
+        description: 10-char base32 id
+      handle:
+        type: string
+        required: true
+        description: 3-20 chars [a-z0-9-]
+      owner_hash:
+        type: string
+        required: true
+        description: hex sha256 of the owner key
+      visibility:
+        type: string
+        required: false
+        default: anonymous
+        description: handle | anonymous
+      text:
+        type: string
+        required: false
+        default: ''
+        description: anonymized text <= 15000 chars
+      metrics_json:
+        type: string
+        required: false
+        default: '{}'
+        description: LayoutMetrics JSON
+      ladder_hint:
+        type: string
+        required: false
+        default: ''
+        description: general | finance | tech | academia
+      client_version:
+        type: string
+        required: false
+        default: ''
+        description: SPA build id
+      owner_key:
+        type: string
+        required: false
+        default: ''
+        description: raw owner key (manage actions, resubmission)
+  issues:
+    types:
+    - opened
+permissions:
+  contents: write
+  issues: write
+  actions: write
+jobs:
+  intake:
+    if: github.event_name == 'workflow_dispatch' || contains(github.event.issue.labels.*.name,
+      'ra:submission') || contains(github.event.issue.labels.*.name, 'ra:delete')
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      RA_DATA_DIR: ${{ github.workspace }}/data
+      RA_EVENT_PATH: ${{ github.event_path }}
+      RA_RUN_ID: ${{ github.run_id }}-${{ github.run_attempt }}
+      RA_TRIGGER: ${{ github.event_name }}
+      RA_ENV: production
+      RA_LLM_MODE: live
+    steps:
+    - name: Mask the owner key
+      env:
+        OWNER_KEY: ${{ inputs.owner_key }}
+        ISSUE_BODY: ${{ github.event.issue.body }}
+      run: "mask() {\n  local v=\"$1\"\n  [ \"${#v}\" -ge 16 ] || return 0\n  echo\
+        \ \"::add-mask::$v\"\n  local canonical\n  canonical=\"$(printf '%s' \"$v\"\
+        \ | tr -d ' \\t-' | tr '[:upper:]' '[:lower:]' | sed -e 's/^rak//')\"\n  [\
+        \ \"$canonical\" != \"$v\" ] && [ \"${#canonical}\" -ge 16 ] && echo \"::add-mask::$canonical\"\
+        \n  return 0\n}\nif [ -n \"$OWNER_KEY\" ]; then mask \"$OWNER_KEY\"; fi\n\
+        if [ -n \"$ISSUE_BODY\" ]; then\n  key=\"$(printf '%s' \"$ISSUE_BODY\" | tr\
+        \ -d '\\r' | awk '/^### owner_key[[:space:]]*$/ { while ((getline line) >\
+        \ 0) { if (line !~ /^[[:space:]]*$/) { print line; exit } } }')\"\n  if [\
+        \ -n \"$key\" ]; then mask \"$key\"; fi\nfi\n"
+    - uses: actions/checkout@v5
+      with:
+        fetch-depth: 1
+    - uses: ./.github/actions/setup
+    - uses: ./.github/actions/data-checkout
+      with:
+        patterns: '/settings.json
+
+          /status.json
+
+          /.gitattributes
+
+          /usage/
+
+          '
+    - name: Intake
+      id: intake
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      run: node engine/src/cli.ts submit --event "$RA_EVENT_PATH" --summary "$GITHUB_STEP_SUMMARY"
+    - name: Keep schedules enabled
+      if: always()
+      env:
+        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      run: "for w in rerank.yml maintenance.yml; do\n  gh api --silent -X PUT \"repos/$GITHUB_REPOSITORY/actions/workflows/$w/enable\"\
+        \ || true\ndone\n"
+    - name: Record failure
+      if: failure()
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        RA_LLM_MODE: mock
+      run: node engine/src/cli.ts record-failure --workflow submit --event "$RA_EVENT_PATH"
+        --run "$RA_RUN_ID" || true

@@ -1,0 +1,24 @@
+name: zz-probe-c
+'on':
+  schedule:
+  - cron: '*/10 * * * *'
+  workflow_run:
+    workflows:
+    - submit
+    types:
+    - completed
+  workflow_dispatch:
+    inputs:
+      reason:
+        type: string
+        required: false
+        default: manual
+        description: why (shows in the run list)
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+    - run: echo probe

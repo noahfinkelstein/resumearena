@@ -1,0 +1,62 @@
+name: zz-probe-a
+'on':
+  workflow_dispatch:
+    inputs:
+      action:
+        type: string
+        required: true
+        default: submit
+        description: submit | delete | set_visibility
+      submission_id:
+        type: string
+        required: true
+        description: 10-char base32 id
+      handle:
+        type: string
+        required: true
+        description: 3-20 chars [a-z0-9-]
+      owner_hash:
+        type: string
+        required: true
+        description: hex sha256 of the owner key
+      visibility:
+        type: string
+        required: false
+        default: anonymous
+        description: handle | anonymous
+      text:
+        type: string
+        required: false
+        default: ''
+        description: anonymized text <= 15000 chars
+      metrics_json:
+        type: string
+        required: false
+        default: '{}'
+        description: LayoutMetrics JSON
+      ladder_hint:
+        type: string
+        required: false
+        default: ''
+        description: general | finance | tech | academia
+      client_version:
+        type: string
+        required: false
+        default: ''
+        description: SPA build id
+      owner_key:
+        type: string
+        required: false
+        default: ''
+        description: raw owner key (manage actions, resubmission)
+  issues:
+    types:
+    - opened
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+    - run: echo probe
