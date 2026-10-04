@@ -1,0 +1,72 @@
+[name]
+[email] · [phone] · [url]
+Department of Chemistry, University of Utah, Salt Lake City, UT
+
+ACADEMIC APPOINTMENTS
+University of Utah, Department of Chemistry · Assistant Professor · Aug 2025 – Present
+California Institute of Technology, Division of Chemistry and Chemical Engineering · Postdoctoral Scholar · Sep 2023 – Jul 2025
+
+EDUCATION
+University of Wisconsin–Madison · Ph.D. Chemistry (Inorganic), 2023 · Dissertation on earth-abundant metal catalysts for C–H functionalization
+Macalester College · B.A. Chemistry, summa cum laude, Phi Beta Kappa, 2018
+
+RESEARCH
+Group focus: first-row transition-metal catalysis for late-stage functionalization and mechanistic study by in situ spectroscopy. Group as of Fall 2026: 3 Ph.D. students, 2 undergraduates. Current projects: (1) nickel-catalyzed amination of unactivated C(sp3)–H bonds with ligand-controlled site selectivity; (2) operando X-ray absorption and EPR studies of first-row metal catalytic cycles; (3) earth-abundant metal photocatalysis for late-stage functionalization of drug-like molecules.
+
+FUNDING
+• National Science Foundation, CHE Division, Chemical Synthesis program · Principal Investigator · $540,000 · 2026–2029 · "Nickel-catalyzed C(sp3)–H amination guided by operando spectroscopy"
+• University of Utah Research Incentive Seed Grant · PI · $50,000 · 2025–2026
+• Start-up package, University of Utah · $1.1M · 2025
+• ACS Petroleum Research Fund, Doctoral New Investigator grant · PI · $110,000 · 2026–2028
+
+FELLOWSHIPS AND AWARDS
+• NSF Graduate Research Fellowship, 2019–2022
+• Wisconsin Alumni Research Foundation Dissertation Fellowship, 2022–2023
+• ACS Division of Inorganic Chemistry Young Investigator Award (symposium speaker), 2023
+• Macalester Chemistry Department Senior Prize, 2018
+
+PUBLICATIONS (12; * corresponding author)
+Citations: about 620 total (Google Scholar, September 2026); h-index 9.
+Independent career
+12. Two group members and [name]*. "Ligand-controlled site selectivity in nickel-catalyzed amination of unactivated C(sp3)–H bonds." J. Am. Chem. Soc. 2026, 148, 9120–9131.
+11. One group member, two collaborators and [name]*. "Operando X-ray absorption study of a Ni(I)/Ni(III) amination cycle." Organometallics 2026, 45, 2210–2219.
+Postdoctoral (Caltech)
+10. Co-author (2nd of 6). "Photoinduced copper-catalyzed C–N coupling of secondary alkyl halides." J. Am. Chem. Soc. 2025, 147, 4410–4420.
+9. Co-author (3rd of 5). "A general asymmetric alkylation of amides via copper photoredox catalysis." Nature Chem. 2025, 17, 612–619.
+8. First author (of 4). "Mechanism of enantioselective C–N bond formation under copper photocatalysis." J. Am. Chem. Soc. 2024, 146, 18822–18833.
+Graduate (Wisconsin)
+7. First author (of 3). "Iron-catalyzed directed C–H borylation: scope and kinetic analysis." Angew. Chem. Int. Ed. 2023, 62, e202301122.
+6. Co-author (2nd of 4). "Spectroscopic characterization of a high-spin iron(III) alkyl intermediate." Inorg. Chem. 2022, 61, 15002–15010.
+5. First author (of 3). "Cobalt-catalyzed C–H alkenylation of benzamides with internal alkynes." J. Org. Chem. 2022, 87, 6611–6622.
+4. Co-author (3rd of 4). "Redox-active ligands for base-metal C–H functionalization: a perspective." Chem. Sci. 2021, 12, 9900–9912.
+3. First author (of 2). "A tridentate N,N,O ligand platform for iron-catalyzed C–H activation." Organometallics 2021, 40, 1877–1886.
+2. Co-author (4th of 5). "Computational and experimental study of cobalt-mediated C–H cleavage." Dalton Trans. 2020, 49, 7701–7710.
+Undergraduate (Macalester)
+1. Co-author (2nd of 3). "Synthesis of pyridyl-pyrazolate copper complexes." Inorg. Chim. Acta 2018, 471, 450–456.
+
+INVITED TALKS (selected, 6 of 11)
+• Gordon Research Conference on Organometallic Chemistry, poster talk, 2026
+• University of Colorado Boulder, Department of Chemistry colloquium, 2026
+• ACS Fall National Meeting, Division of Inorganic Chemistry, 2025 and 2023
+• Colorado State University, 2025
+• University of Oregon, 2024
+• University of Utah, Department of Chemistry faculty research seminar, 2025
+• Macalester College, Chemistry seminar, 2024
+
+TEACHING
+• CHEM 3060 Inorganic Chemistry (undergraduate, 110 students), Spring 2026; course evaluation 4.6/5
+• CHEM 7300 Organometallic Mechanisms (graduate, 14 students), Fall 2026
+• Teaching Assistant, General Chemistry and Inorganic Laboratory, Wisconsin, 2018–2019
+• Developed a new 1-credit graduate module on reaction kinetics and data analysis (first offered Fall 2026)
+
+MENTORING
+• 3 Ph.D. students (started 2025, 2025, 2026); 2 undergraduate researchers (one UROP award recipient, 2026)
+• Mentored 4 undergraduates and 1 rotation student at Caltech and Wisconsin; two are now in Ph.D. programs
+
+SERVICE
+• Reviewer: J. Am. Chem. Soc., Organometallics, Inorg. Chem., ACS Catal. (about 15 manuscripts per year)
+• Department of Chemistry graduate admissions committee, 2026
+• Session chair, ACS Fall 2025, Organometallic Catalysis symposium
+• Member, American Chemical Society; Alpha Chi Sigma
+• Faculty advisor, Utah Chemistry Graduate Student Council, 2026
+• Judge, Utah Science and Engineering Fair, 2026

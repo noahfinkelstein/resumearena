@@ -1,0 +1,58 @@
+[name]
+San Francisco, CA | [email] | [phone] | [url]
+
+SUMMARY
+Founder, chief executive and board chair of a publicly traded consumer software company (IPO in 2024 at a valuation of about $3B). Twelve years from a two-person project to 30 million monthly active users, 1,100 employees and about $410M in annual revenue. Thiel Fellow (2014). Still write code weekly and own the product roadmap personally. Looking to compare notes, not for a job.
+
+EXPERIENCE
+
+Lumen Notes, Inc. (NASDAQ-listed since May 2024) — San Francisco, CA
+Co-founder, Chief Executive Officer and Chair of the Board | Mar 2014 – Present
+- Founded the company at 19 after leaving Stanford on a Thiel Fellowship; grew it from 2 people to 1,100 employees across 4 offices
+- Product: a consumer note-taking and knowledge-management application; 30 million monthly active users and 2.1 million paying subscribers as of Q2 2026
+- Revenue: about $410M in fiscal 2025 (up 44% year over year), free-cash-flow positive since 2022; gross margin 81%
+- Raised about $380M across seed through Series D from named lead investors: Founders Fund (seed, 2014), Sequoia Capital (Series A, 2016), Andreessen Horowitz (Series B, 2018), Tiger Global (Series C, 2021) and Coatue (Series D, 2022)
+- Led the initial public offering in May 2024 (about $3B valuation at pricing; $520M raised); the company was added to the Russell 2000 in 2025
+- Personally lead product: write the quarterly product plan, review every major design, and run the weekly launch review; shipped the company's collaborative-editing engine, which I architected and whose first version I wrote, in 2017
+- Still commit code: author of the sync-conflict resolution library used in all clients; about 40 merged pull requests in 2025, mostly in the mobile sync layer
+- Built the executive team from scratch (8 direct reports: COO, CFO, CTO, CPO, CRO, general counsel, head of people, head of design); 6 of 8 have been with the company more than 4 years
+- Took the company through a 2022 restructuring (12% reduction in force) and returned to growth within three quarters; employee engagement scores recovered to pre-restructuring levels by 2024
+- International expansion: 54% of users outside the United States; opened offices in London (2019), Tokyo (2021) and Toronto (2023)
+- Education and enterprise lines: launched the team product in 2020 (now 38% of revenue, 48,000 paying organizations) and a free education tier used by about 9,000 schools
+- Capital allocation as a public company: two acquisitions (a 25-person collaborative-whiteboard team in 2024 and a 40-person search-infrastructure company in 2025, combined about $190M), both integrated into the core product within two quarters
+- Chaired the board through the IPO readiness program: audit committee formation, SOX controls, and the move to quarterly guidance; six consecutive quarters of results at or above guidance since listing
+- Culture and retention: voluntary attrition of 7% in 2025 against a sector median above 12%; 4 of the first 10 employees still at the company
+
+Phases of the company, for context
+- 2014 – 2016 (2 to 12 people): wrote most of the first product myself; reached 1 million users on no marketing spend
+- 2017 – 2020 (12 to 300 people): hired the first executives, launched paid plans, reached $50M in revenue
+- 2021 – 2024 (300 to 1,000 people): international expansion, the team product, the restructuring and the IPO
+- 2024 – Present: public company, two acquisitions, 30 million monthly active users
+
+Stanford University — Stanford, CA
+Undergraduate, Computer Science (left after sophomore year to accept the Thiel Fellowship) | Sep 2012 – Mar 2014
+- Built the first version of what became the company's product as a side project in the dorm; 11,000 users before leaving school
+- Teaching assistant, introductory programming (CS 106A), Winter 2014
+
+BOARD AND ADVISORY ROLES
+- Chair of the Board, Lumen Notes, Inc., 2014 – Present (public company since 2024)
+- Independent director, a publicly traded developer-tools company, 2025 – Present (member of the compensation committee)
+- Board member, a national computer-science education nonprofit, 2020 – Present
+- Angel investor in about 25 early-stage software companies; 2 acquired, 1 public
+
+HONORS
+- Thiel Fellowship, 2014 class (about 20 fellows selected from several thousand applicants)
+- Forbes 30 Under 30, Consumer Technology, 2019
+- Fortune 40 Under 40, 2024
+- EY Entrepreneur Of The Year, Bay Area, 2023
+
+PUBLIC SPEAKING AND WRITING
+- Keynotes at a major consumer-technology conference (2024) and a developer conference (2022)
+- Author of a widely circulated engineering post on conflict-free replicated data types in consumer sync systems (2018), cited in two academic papers
+
+TECHNICAL SKILLS
+TypeScript, Rust, Swift, Kotlin; distributed sync and CRDTs, mobile architecture, product analytics; SQL
+
+OTHER
+- Signed the Giving Pledge in 2025
+- Pilot, instrument rated; competitive chess (USCF 2,050)

@@ -1,0 +1,117 @@
+[name]
+SENIOR DATA ENGINEER
+SKILLS
+Experience
+Languages
+Northwind Analytics, Portland, OR
+Python
+Retail analytics SaaS company, about 350 employees; the data plat-
+SQL
+form team serves 11 retail clients and two internal product teams.
+Scala (production)
+Senior Data Engineer, Mar 2023 – Present
+Bash
+• Lead a team of four data engineers that owns the ingestion plat-
+Go (basic)
+form for a retail analytics product: 1,400 pipelines, about 9 TB
+Java (basic)
+a day, 99.8% on-time delivery in 2025 against a 99.5% SLA.
+Data platforms
+• Re-architected the batch ingestion layer from Airflow-on-VMs to
+Spark
+Kubernetes-based Airflow with Spark on Kubernetes; compute
+Airflow
+cost fell 38% (about $410,000 a year) and median pipeline la-
+dbt
+tency fell from 52 minutes to 19.
+Kafka
+• Designed the streaming layer (Kafka, Flink) for real-time inven-
+Flink
+tory feeds from 11 retail clients; end-to-end latency under 90
+Snowflake
+seconds at p95, replacing a nightly batch.
+BigQuery
+• Introduced data contracts and dbt tests across 300 core models;
+Delta Lake
+downstream incident count fell from 23 in 2023 to 6 in 2025.
+Cloud
+• Mentor two junior engineers; both promoted within 18 months.
+AWS (EMR, Glue, S3,
+• Own the platform's cost reporting: per-pipeline cost attribu-
+Redshift)
+tion in the warehouse, reviewed monthly with finance; identi-
+GCP (BigQuery,
+fied and retired 210 unused pipelines in 2024.
+Dataflow)
+• Wrote the platform's incident-response runbooks and run the
+Kubernetes
+weekly reliability review with the two downstream analytics
+Terraform
+teams.
+Practices
+Data Engineer, Jun 2021 – Feb 2023
+Data contracts
+• Built the client onboarding framework that cut new-client pipe-
+Data modeling
+line setup from about three weeks to four days; used for 30+
+CI/CD for data
+clients since.
+Cost optimization
+• Migrated the warehouse from Redshift to Snowflake (about 40
+On-call leadership
+TB) over five months with no reporting outage.
+Observability
+• Owned the nightly SLA dashboard and on-call for the batch layer.
+CONTACT
+• Added CI for dbt models (compile, test, lint on every pull re-
+[email]
+quest); broken-model deploys fell from about 5 a month to 0.
+[phone]
+Cascade Health Partners, Seattle, WA
+Portland, OR
+Data Engineer, Aug 2020 – May 2021
+[url]
+• Built HL7 and claims ingestion pipelines (Python, Airflow, Post-
+EDUCATION
+greSQL) for a regional provider network of 14 clinics.
+University of Oregon
+• Automated the monthly quality-measure reporting that had taken
+B.S. Computer Science
+two analysts a week each month.
+2018
+• Led the HIPAA access-review automation for the data platform;
+GPA 3.4
+quarterly review time fell from about 3 days to 4 hours.
+Minor: Mathematics
+Analytics Engineer, Jul 2018 – Jul 2020
+CERTIFICATIONS
+• Wrote the SQL and dbt models behind the executive dashboards;
+AWS Certified Data
+on-time monthly close reporting rose from 70% to 100%.
+Analytics – Specialty
+• Designed the dimensional model for the claims warehouse (about
+(2022)
+60 tables) that is still the reporting backbone.
+Snowflake SnowPro
+• Trained 12 analysts on dbt and version control over two
+Core (2023)
+quarters; self-serve model changes rose from 10% to 60% of
+dbt Analytics
+all changes merged.
+Engineering (2021)
+Certified Kubernetes
+Projects
+Application Developer
+Open-source: contributor to a dbt utility package (6 merged PRs,
+(2024)
+including the incremental-snapshot macro).
+LANGUAGES
+Talk: "Data contracts in practice", regional data engineering
+English (native)
+meetup, 2025 (about 120 attendees).
+Spanish (intermediate)
+Volunteer: data pipeline maintainer for a food-bank nonprofit's
+INTERESTS
+donation reporting (about 4 hours a month since 2022).
+Trail running, home
+espresso, woodworking

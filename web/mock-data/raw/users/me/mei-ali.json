@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-09-21T14:20:11Z",
+  "handle": "mei-ali",
+  "key_exposed": false,
+  "owner_hash": "56c9c4c885eb026232eb8ecc3b6b717d7fae88dde049936df4e9a74268c5176e",
+  "resumes": [
+    {
+      "created_at": "2026-09-21T14:20:11Z",
+      "current": true,
+      "id": "x6ohbt27p3"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

@@ -1,0 +1,656 @@
+{
+  "analysis": {
+    "analysis_confidence": 0.94,
+    "ats": {
+      "detected": {
+        "action_verb_ratio": 0.85,
+        "bullet_count": 15,
+        "bullet_marker_consistent": true,
+        "contact_at_top": true,
+        "date_format_consistent": false,
+        "date_formats_seen": [
+          "MMM YYYY",
+          "YYYY",
+          "YYYY-YYYY"
+        ],
+        "has_email": true,
+        "has_location": true,
+        "has_phone": true,
+        "has_profile_link": true,
+        "has_street_address": false,
+        "has_summary_section": true,
+        "nonstandard_headings": [
+          "Board and Advisory Roles",
+          "Recognition and Speaking",
+          "Additional"
+        ],
+        "quantified_bullet_ratio": 0.93,
+        "reverse_chronological": true,
+        "section_order": [
+          "Summary",
+          "Experience",
+          "Education",
+          "Leadership",
+          "Awards",
+          "Skills"
+        ],
+        "skill_bars_or_ratings": false,
+        "standard_headings": [
+          "Executive Experience",
+          "Education"
+        ],
+        "uses_tables_suspected": false
+      },
+      "factors": {
+        "consistency": {
+          "note": "Month YYYY for the main roles, bare years for early roles and boards; the COO title says Present while the turnaround metrics end in 2024",
+          "score": 85
+        },
+        "contact_info": {
+          "note": "Email, phone, city and a profile link at the top",
+          "score": 100
+        },
+        "formatting": {
+          "note": "Consistent bullets; the pre-partner Bain titles are compressed into one line with mixed date formats; board and recognition sections are prose",
+          "score": 90
+        },
+        "keyword_alignment": {
+          "note": "Turnaround, supply chain, procurement, integration, governance and capital allocation all evidenced",
+          "score": 95
+        },
+        "length": {
+          "note": "Two pages for an executive",
+          "score": 100
+        },
+        "parseability": {
+          "note": "Single column, standard headings, contact placeholders in the first two lines",
+          "score": 100
+        },
+        "quantification": {
+          "note": "Every operating bullet carries a financial or operational figure with a before-and-after",
+          "score": 100
+        }
+      },
+      "fixes": [
+        {
+          "factor": "consistency",
+          "fix": "Use Month YYYY for every role and board seat, including the compressed early Bain titles.",
+          "issue": "Three date formats across experience, education and boards",
+          "priority": "low"
+        },
+        {
+          "factor": "formatting",
+          "fix": "Convert each board seat and recognition item to one bullet with the year.",
+          "issue": "Board seats, recognition and the additional section are prose paragraphs",
+          "priority": "low"
+        },
+        {
+          "factor": "length",
+          "fix": "Cut Additional to the NACD certification and languages.",
+          "issue": "The interests line and the governance-training sentence add little",
+          "priority": "low"
+        }
+      ],
+      "score": 96,
+      "target_role_used": "Chief executive officer or public-company president"
+    },
+    "awards": [
+      {
+        "issuer": "Stanford Graduate School of Business",
+        "name": "Arjay Miller Scholar",
+        "pool_estimate": "top 10% of the MBA class",
+        "scope": "institutional",
+        "selectivity": "highly_selective",
+        "verifiable": true,
+        "year": 2010
+      },
+      {
+        "issuer": "Siebel Foundation",
+        "name": "Siebel Scholar",
+        "pool_estimate": "~5 per school per year",
+        "scope": "national",
+        "selectivity": "highly_selective",
+        "verifiable": true,
+        "year": 2010
+      },
+      {
+        "issuer": "Princeton University",
+        "name": "Phi Beta Kappa; magna cum laude",
+        "pool_estimate": "top ~10% of the class",
+        "scope": "institutional",
+        "selectivity": "selective",
+        "verifiable": true,
+        "year": 2006
+      },
+      {
+        "issuer": "Chicago Tribune",
+        "name": "Top 25 business executives",
+        "pool_estimate": "25 in one metro area",
+        "scope": "regional",
+        "selectivity": "selective",
+        "verifiable": true,
+        "year": 2024
+      },
+      {
+        "issuer": "National Association of Corporate Directors",
+        "name": "NACD Directorship Certification",
+        "pool_estimate": "professional certification",
+        "scope": "national",
+        "selectivity": "modest",
+        "verifiable": true,
+        "year": 2023
+      },
+      {
+        "issuer": "US Rowing",
+        "name": "Masters national rowing championships",
+        "pool_estimate": "masters age-group field",
+        "scope": "national",
+        "selectivity": "selective",
+        "verifiable": true,
+        "year": 2024
+      }
+    ],
+    "card": {
+      "awards": [
+        {
+          "name": "Arjay Miller Scholar",
+          "scope": "institutional",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "Siebel Scholar",
+          "scope": "national",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "Phi Beta Kappa; magna cum laude",
+          "scope": "institutional",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Local newspaper top-25 executives list",
+          "scope": "regional",
+          "selectivity": "selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "senior",
+      "education": [
+        {
+          "degree_level": "mba",
+          "end_year": 2010,
+          "field": "Business Administration",
+          "gpa_band": "not_listed",
+          "honors": [
+            "Arjay Miller Scholar (top 10%)",
+            "Siebel Scholar"
+          ],
+          "in_progress": false,
+          "institution": "Stanford Graduate School of Business",
+          "institution_tier": "T1"
+        },
+        {
+          "degree_level": "bachelor",
+          "end_year": 2006,
+          "field": "Economics",
+          "gpa_band": "not_listed",
+          "honors": [
+            "magna cum laude",
+            "Phi Beta Kappa",
+            "Departmental senior thesis prize"
+          ],
+          "in_progress": false,
+          "institution": "Princeton University",
+          "institution_tier": "T1"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 74,
+          "employment_type": "full_time",
+          "highlights": [
+            "Turnaround: adjusted operating margin 4.1% to 11.8%; EBITDA $150M to $335M; FCF -$40M to +$210M",
+            "13 plants to 9 with output up 6%; $95M fixed-cost and $120M procurement savings, third-party verified",
+            "Net debt down $600M, leverage 4.9x to 2.1x; share price $14 to $41, TSR ~215% vs 48% peer index"
+          ],
+          "impact_scale": "industry",
+          "org": "Harvest Lane Brands (NYSE-listed packaged foods)",
+          "org_tier": "B",
+          "role": "Chief Operating Officer",
+          "role_selectivity": "highly_selective",
+          "seniority": "c_level",
+          "years": "2020-present"
+        },
+        {
+          "duration_months": 56,
+          "employment_type": "full_time",
+          "highlights": [
+            "Led the NA consumer operations practice: revenue $60M to $115M, 11 partners, ~120 consultants",
+            "Lead partner for six Fortune 500 clients; ~$1.4B of announced savings",
+            "Integration planning for a $7B food-industry merger"
+          ],
+          "impact_scale": "industry",
+          "org": "Bain & Company",
+          "org_tier": "A",
+          "role": "Partner, Consumer Products Practice",
+          "role_selectivity": "highly_selective",
+          "seniority": "md_partner",
+          "years": "2016-2020"
+        },
+        {
+          "duration_months": 120,
+          "employment_type": "full_time",
+          "highlights": [
+            "Partner in 10 years, two years ahead of the standard track",
+            "Two years in the London office leading European grocery projects"
+          ],
+          "impact_scale": "org",
+          "org": "Bain & Company",
+          "org_tier": "A",
+          "role": "Associate Consultant to Principal",
+          "role_selectivity": "highly_selective",
+          "seniority": "principal",
+          "years": "2006-2015"
+        }
+      ],
+      "headline": "COO of a $2B public consumer company after a Bain partnership; margin 4.1% to 11.8%, TSR ~215%; two public boards",
+      "leadership": [
+        "Runs a 4,600-person operations organization with 9 plants and three business units",
+        "Independent director on two public boards ($1.1B and $3.4B revenue); committee chair on one",
+        "Led a consulting practice of 11 partners and ~120 consultants",
+        "Food-bank trustee; chaired operations during a 60% volume surge"
+      ],
+      "notable": [
+        "Share price $14 to $41 and TSR ~215% versus a 48% peer index during the tenure",
+        "Operating margin nearly tripled with savings verified by a third party",
+        "Bain partner two years early, then a public-company C-suite",
+        "Two public board seats before 45"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Operational turnarounds",
+        "Supply chain and manufacturing",
+        "Procurement transformation",
+        "Post-merger integration",
+        "Capital allocation and deleveraging",
+        "Investor communication",
+        "Board governance",
+        "French (professional)"
+      ],
+      "top_signal": "Public-co COO, $2B",
+      "years_fulltime": 18.3
+    },
+    "category_relevance": {
+      "academia": 0,
+      "finance": 0.3,
+      "general": 1,
+      "tech": 0
+    },
+    "education": [
+      {
+        "degree_level": "mba",
+        "end_year": 2010,
+        "field": "Business Administration",
+        "gpa": null,
+        "gpa_band": "not_listed",
+        "gpa_scale": null,
+        "honors": [
+          "Arjay Miller Scholar",
+          "Siebel Scholar"
+        ],
+        "in_progress": false,
+        "institution": "Stanford Graduate School of Business",
+        "institution_tier": "T1",
+        "notes": "",
+        "start_year": 2008
+      },
+      {
+        "degree_level": "bachelor",
+        "end_year": 2006,
+        "field": "Economics",
+        "gpa": null,
+        "gpa_band": "not_listed",
+        "gpa_scale": null,
+        "honors": [
+          "magna cum laude",
+          "Phi Beta Kappa",
+          "Senior thesis prize"
+        ],
+        "in_progress": false,
+        "institution": "Princeton University",
+        "institution_tier": "T1",
+        "notes": "",
+        "start_year": 2002
+      }
+    ],
+    "experiences": [
+      {
+        "bullets_condensed": [
+          "Margin 4.1% to 11.8%; EBITDA $150M to $335M; FCF -$40M to +$210M",
+          "13 plants to 9, output +6%; $95M fixed-cost, $120M procurement savings (third-party verified)",
+          "Net debt -$600M; leverage 4.9x to 2.1x; TSR ~215% vs 48% peers",
+          "OTIF 88% to 97%; TRIR 3.4 to 1.1; $320M acquisition synergies 14 months vs 24 planned"
+        ],
+        "duration_months": 74,
+        "employment_type": "full_time",
+        "end": "present",
+        "impact_scale": "industry",
+        "is_current": true,
+        "org": "Harvest Lane Brands, Inc.",
+        "org_tier": "B",
+        "org_type": "public_company",
+        "ownership": "led",
+        "quantified_impact": true,
+        "role": "Chief Operating Officer",
+        "role_selectivity": "highly_selective",
+        "seniority": "c_level",
+        "start": "2020-09",
+        "team_or_division": "Operations and three business units"
+      },
+      {
+        "bullets_condensed": [
+          "Practice revenue $60M to $115M; 11 partners, ~120 consultants",
+          "Lead partner for 6 Fortune 500 clients; ~$1.4B announced savings",
+          "Integration planning for a $7B merger; synergy case to both boards",
+          "Two practice publications; Consumer Goods Forum speaker"
+        ],
+        "duration_months": 56,
+        "employment_type": "full_time",
+        "end": "2020-08",
+        "impact_scale": "industry",
+        "is_current": false,
+        "org": "Bain & Company",
+        "org_tier": "A",
+        "org_type": "private_company",
+        "ownership": "led",
+        "quantified_impact": true,
+        "role": "Partner",
+        "role_selectivity": "highly_selective",
+        "seniority": "md_partner",
+        "start": "2016-01",
+        "team_or_division": "Consumer Products Practice"
+      },
+      {
+        "bullets_condensed": [
+          "Promoted to Partner in 10 years, two years ahead of track",
+          "London office 2011-2012, European grocery projects"
+        ],
+        "duration_months": 120,
+        "employment_type": "full_time",
+        "end": "2015-12",
+        "impact_scale": "org",
+        "is_current": false,
+        "org": "Bain & Company",
+        "org_tier": "A",
+        "org_type": "private_company",
+        "ownership": "led",
+        "quantified_impact": false,
+        "role": "Associate Consultant, Consultant, Manager, Principal",
+        "role_selectivity": "highly_selective",
+        "seniority": "principal",
+        "start": "2006",
+        "team_or_division": "Chicago and London"
+      }
+    ],
+    "input": {
+      "is_resume": true,
+      "language": "en",
+      "parse_confidence": 0.98,
+      "placeholders_seen": [
+        "name",
+        "email",
+        "phone",
+        "url"
+      ],
+      "word_count_estimate": 856
+    },
+    "leadership": [
+      {
+        "budget_or_scale": "4,600 employees, 9 plants, $2.4B cost base",
+        "elected_or_appointed": "appointed",
+        "highlight": "Hired 5 of 7 direct reports; two promoted to general manager",
+        "org": "Harvest Lane Brands",
+        "people_led": 4600,
+        "role": "Chief Operating Officer"
+      },
+      {
+        "budget_or_scale": "11 partners, ~120 consultants, $115M revenue",
+        "elected_or_appointed": "appointed",
+        "highlight": "Practice revenue $60M to $115M in three years",
+        "org": "Bain & Company, NA consumer operations practice",
+        "people_led": 131,
+        "role": "Practice leader"
+      },
+      {
+        "budget_or_scale": "$1.1B revenue public company",
+        "elected_or_appointed": "elected",
+        "highlight": "Chairs the operations and sustainability committee; audit committee member",
+        "org": "Clearwater Outdoor Holdings",
+        "people_led": null,
+        "role": "Independent director; committee chair"
+      },
+      {
+        "budget_or_scale": "$3.4B revenue public company",
+        "elected_or_appointed": "elected",
+        "highlight": "Compensation committee member",
+        "org": "Meridian Foods Corporation",
+        "people_led": null,
+        "role": "Independent director"
+      }
+    ],
+    "projects": [],
+    "publications": [],
+    "red_flags": [],
+    "residual_pii": {
+      "email_count": 0,
+      "name_suspected": false,
+      "other_identifiers": [],
+      "phone_count": 0,
+      "street_address_suspected": false,
+      "url_count": 0
+    },
+    "schema_version": "1.1",
+    "scores": {
+      "academia": {
+        "holistic_score": 5,
+        "included": false,
+        "rationale": "Guest lecturing only; no research output.",
+        "stage_relative_score": 5,
+        "sub_scores": {
+          "breadth": 5,
+          "impact": 5,
+          "pedigree": 60,
+          "selectivity": 20,
+          "trajectory": 10
+        },
+        "top_evidence": []
+      },
+      "finance": {
+        "holistic_score": 45,
+        "included": false,
+        "rationale": "Deleveraging, a divestiture and board audit-committee work are adjacent; no finance role.",
+        "stage_relative_score": 40,
+        "sub_scores": {
+          "breadth": 30,
+          "impact": 70,
+          "pedigree": 75,
+          "selectivity": 60,
+          "trajectory": 70
+        },
+        "top_evidence": []
+      },
+      "general": {
+        "holistic_score": 95,
+        "included": true,
+        "rationale": "T1 undergraduate and MBA with top honors, Bain partner two years early, then COO of a $2B public company with a turnaround stated in margin, debt, cash flow and share price terms, verified savings, and two public board seats; executive register throughout.",
+        "stage_relative_score": 97,
+        "sub_scores": {
+          "breadth": 75,
+          "impact": 97,
+          "pedigree": 92,
+          "selectivity": 90,
+          "trajectory": 95
+        },
+        "top_evidence": [
+          "Operating margin 4.1% to 11.8%; TSR ~215% vs 48% peers",
+          "Bain partner in 10 years; practice revenue $60M to $115M",
+          "Stanford GSB Arjay Miller Scholar; Princeton magna cum laude"
+        ]
+      },
+      "tech": {
+        "holistic_score": 5,
+        "included": false,
+        "rationale": "No technical footprint.",
+        "stage_relative_score": 5,
+        "sub_scores": {
+          "breadth": 5,
+          "impact": 10,
+          "pedigree": 40,
+          "selectivity": 20,
+          "trajectory": 20
+        },
+        "top_evidence": []
+      }
+    },
+    "signals": {
+      "career_stage": "senior",
+      "has_quantified_impact": true,
+      "highest_institution_tier": "T1",
+      "highest_org_tier": "A",
+      "max_impact_scale": "industry",
+      "months_internship": 0,
+      "primary_domain": "other",
+      "sustained_org_tier": "A",
+      "top_role_selectivity": "highly_selective",
+      "trajectory": "accelerating",
+      "years_fulltime": 18.3
+    },
+    "skills": {
+      "certifications": [
+        "NACD Directorship Certification"
+      ],
+      "domain": [
+        "Operational turnarounds",
+        "Post-merger integration",
+        "Capital allocation",
+        "Deleveraging",
+        "Investor relations",
+        "Board governance",
+        "Consumer packaged goods",
+        "Food service",
+        "Private label"
+      ],
+      "keyword_stuffing_suspected": false,
+      "spoken_languages": [
+        "English",
+        "French (professional working proficiency)"
+      ],
+      "technical": [
+        "Supply chain planning",
+        "Manufacturing network design",
+        "Procurement analytics"
+      ]
+    },
+    "strengths": [
+      "Turnaround stated in audited terms: margin 4.1% to 11.8%, EBITDA $150M to $335M, net debt down $600M, TSR ~215% vs peers",
+      "Savings figures tied to a third-party review commissioned by the audit committee",
+      "Bain partner in 10 years with a practice that nearly doubled revenue under their lead",
+      "T1 undergraduate and MBA with Arjay Miller and Siebel honors",
+      "Two public board seats and a committee chair while serving as COO"
+    ],
+    "verdict": "Bain partner turned public-company COO with a turnaround measured in margin, debt and share price; T1 degrees with top honors and two board seats.",
+    "weaknesses": [
+      "The operating company is a B-tier packaged-food name; the pedigree comes from Bain and the schools rather than the employer",
+      "The turnaround metrics stop at FY2024 while the role continues; the 2025 trajectory is not stated",
+      "Early Bain roles are compressed into a single line with no outcomes",
+      "The recognition section mixes press features with a regional list"
+    ]
+  },
+  "card_sha256": "7729256343c8f905ba148db8a601648c713285b48218a0ee4f663de0a67440f9",
+  "category_relevance": {
+    "academia": 0,
+    "finance": 0.3,
+    "general": 1,
+    "tech": 0
+  },
+  "created_at": "2026-10-03T12:38:00Z",
+  "deleted_at": null,
+  "duplicate_of": null,
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+5f7c9f15",
+    "verdict": {
+      "estimated_career_stage": "senior",
+      "is_resume": true,
+      "language": "en",
+      "prompt_injection_detected": false,
+      "reason": "Résumé with dated roles and education.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "general-2000-senior",
+  "held_reason": null,
+  "id": "ozlqciz4fg",
+  "kind": "user",
+  "metrics": {
+    "char_count": 5730,
+    "columns_detected": 1,
+    "extraction_quality": 0.98,
+    "font_count": 2,
+    "image_count": 0,
+    "pages": 2,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 856
+  },
+  "owner_hash": "1078547da39e4447555842604442217517d3cf819a7537959173a472ce09ba65",
+  "primary": "general",
+  "rejected_reason": null,
+  "schema": 1,
+  "scores": {
+    "general": 95
+  },
+  "source": {
+    "client_version": "fixtures",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 1
+  },
+  "stage": "senior",
+  "status": "analyzed",
+  "superseded_by": null,
+  "supersedes": null,
+  "text": "[name]\nChicago, IL · [email] · [phone] · [url]\n\nCHIEF OPERATING OFFICER\n\nEighteen years across strategy consulting and consumer operating roles. Partner at Bain & Company (consumer products practice), then Chief Operating Officer of a publicly traded consumer company with 5,000 employees and about $2.0 billion in revenue, where I led a three-year turnaround: operating margin from 4.1% to 11.8%, net debt reduced by $600 million, and a share price that rose from $14 to $41 over the period. Independent director on two public boards.\n\nEXECUTIVE EXPERIENCE\n\nHarvest Lane Brands, Inc. (NYSE-listed; packaged foods; about $2.0B revenue; 5,000 employees; 9 plants) — Chicago, IL\nChief Operating Officer (Sep 2020 – Present)\nReport to the CEO. Responsible for supply chain, manufacturing, procurement, quality, customer service, and the company's three business units (retail brands, food service, private label). About 4,600 of the company's 5,000 employees sit in my organization. Member of the executive committee and the disclosure committee.\n• Led the 2021–2024 operational turnaround (\"Project Reset\"): adjusted operating margin from 4.1% (FY2020) to 11.8% (FY2024); adjusted EBITDA from $150M to $335M; free cash flow from negative $40M to positive $210M.\n• Consolidated the manufacturing network from 13 plants to 9 while increasing output 6%; $95M of annual fixed-cost savings, delivered on the schedule and budget announced to investors in 2021.\n• Rebuilt procurement: moved 70% of spend to indexed contracts and a central category team; $120M of annual savings against a $2.4B cost base, verified by the audit committee's third-party review.\n• Paid down $600M of net debt from operating cash flow and the sale of a non-core snacks business ($180M, closed 2023); leverage from 4.9x to 2.1x adjusted EBITDA.\n• Share price $14 (Sep 2020) to $41 (Sep 2024); total shareholder return of about 215% versus 48% for the packaged-food peer index over the same period.\n• Reduced customer order fill rate issues: on-time-in-full from 88% to 97%; retailer compliance fines fell from $22M to $4M a year.\n• Safety: total recordable incident rate from 3.4 to 1.1 across 9 plants; no fatalities during the tenure.\n• Led the integration of a $320M acquisition (2024): synergy target of $35M achieved in 14 months against a 24-month plan.\n• Built the executive team for operations: hired 5 of 7 direct reports; two have since been promoted into general manager roles.\n• Stood up the company's first integrated business planning process (monthly S&OP across the three units); forecast accuracy at the SKU-week level improved from 61% to 79%, and finished-goods inventory fell by $140M while service levels rose.\n• Sponsored the digital manufacturing program: sensor-based predictive maintenance in all 9 plants, unplanned downtime down 27%; the program was presented to investors at the 2024 capital markets day.\n• Serve as the executive sponsor for the company's employee resource groups and chair the operations talent review; 38% of plant-manager promotions in 2023–2025 went to internal candidates from the operations leadership program I started.\n\nBain & Company — Chicago and London\nPartner, Consumer Products Practice (Jan 2016 – Aug 2020)\nPrincipal (Jan 2013 – Dec 2015) · Manager (2010 – 2012) · Consultant and Associate Consultant (2006 – 2009)\n• Led the North American consumer products operations practice for three years; practice revenue grew from $60M to $115M under my leadership; team of 11 partners and about 120 consultants.\n• Served as lead partner for six Fortune 500 consumer companies on cost transformation, supply chain redesign, and post-merger integration; programs with announced savings of about $1.4B in aggregate.\n• Led the integration planning for a $7B food-industry merger (2018–2019), including the synergy case presented to both boards.\n• Authored two practice publications on supply chain resilience cited in the business press; frequent speaker at the Consumer Goods Forum.\n• Promoted to Partner in 10 years from Associate Consultant, two years ahead of the standard track.\n• Spent 2011–2012 in the London office leading European grocery projects.\n\nEDUCATION\n\nStanford Graduate School of Business — M.B.A., 2010. Arjay Miller Scholar (top 10% of the class). Siebel Scholar.\nPrinceton University — A.B., Economics, magna cum laude, 2006. Phi Beta Kappa. Senior thesis prize in the department.\n\nBOARD AND ADVISORY ROLES\n\nIndependent Director, Clearwater Outdoor Holdings (Nasdaq-listed outdoor equipment; $1.1B revenue), 2023 – Present. Chair of the operations and sustainability committee; member of the audit committee.\nIndependent Director, Meridian Foods Corporation (NYSE-listed food distributor; $3.4B revenue), 2024 – Present. Member of the compensation committee.\nTrustee, Greater Chicago Food Depository, 2019 – Present; chair of the operations committee during the 2020–2021 demand surge (distribution volume up 60%).\nAdvisory council member, Stanford Graduate School of Business Center for Social Innovation, 2021 – Present.\n\nRECOGNITION AND SPEAKING\n\nNamed one of the Chicago Tribune's Top 25 business executives, 2024. Fortune \"turnaround to watch\" feature, 2023. Keynote speaker at the Consumer Goods Forum Supply Chain Summit (2022, 2024) and at the National Association of Manufacturers annual meeting (2025). Guest lecturer, Kellogg School of Management operations course (annually since 2021).\n\nADDITIONAL\nSeries 24-style governance training completed through the NACD Directorship Certification (2023). Languages: English (native), French (professional working proficiency). Interests: competitive rowing (masters national championships, 2022 and 2024), restoring mid-century furniture.",
+  "text_sha256": "94f4d5c0d59778be0559ca2d3665d7eb2e64be90ad001fda059d553d203c236b",
+  "top_signal": "Public-co COO, $2B",
+  "updated_at": "2026-10-03T12:38:00Z",
+  "usage": {
+    "analysis_usd": 0.17728,
+    "gate_usd": 0.0016,
+    "latency_ms": 0
+  },
+  "versions": {
+    "analyst_model": "claude-opus-5-5",
+    "analyst_prompt": "analyst.v1+6dbc77ff",
+    "fell_back": false,
+    "gate_prompt": "gate.v1+5f7c9f15",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "visibility": "handle"
+}

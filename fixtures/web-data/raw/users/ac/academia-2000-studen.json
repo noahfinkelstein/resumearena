@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:28:00Z",
+  "handle": "academia-2000-studen",
+  "key_exposed": false,
+  "owner_hash": "45d1bb0ac910f48a76128734c2af43d5ef70e6642b4098f19ad8b818ccbba823",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:28:00Z",
+      "current": true,
+      "id": "xvfgtvrvjr"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

@@ -1,0 +1,578 @@
+{
+  "analysis_confidence": 0.93,
+  "ats": {
+    "detected": {
+      "action_verb_ratio": 0.9,
+      "bullet_count": 19,
+      "bullet_marker_consistent": true,
+      "contact_at_top": true,
+      "date_format_consistent": true,
+      "date_formats_seen": [
+        "MMM YYYY"
+      ],
+      "has_email": true,
+      "has_location": true,
+      "has_phone": true,
+      "has_profile_link": true,
+      "has_street_address": false,
+      "has_summary_section": true,
+      "nonstandard_headings": [
+        "Boards and Recognition"
+      ],
+      "quantified_bullet_ratio": 0.89,
+      "reverse_chronological": true,
+      "section_order": [
+        "Summary",
+        "Experience",
+        "Education",
+        "Awards",
+        "Skills"
+      ],
+      "skill_bars_or_ratings": false,
+      "standard_headings": [
+        "Professional Experience",
+        "Education",
+        "Skills"
+      ],
+      "uses_tables_suspected": false
+    },
+    "factors": {
+      "consistency": {
+        "note": "One date format, titles match the bullets, continuous employment since 2013",
+        "score": 100
+      },
+      "contact_info": {
+        "note": "Email, phone, city and a profile link at the top",
+        "score": 100
+      },
+      "formatting": {
+        "note": "Consistent bullets and order; a keyword banner line sits under the name; the regional-director entry opens with a prose paragraph",
+        "score": 90
+      },
+      "keyword_alignment": {
+        "note": "Operations, fundraising, construction, policy and people management all evidenced with outcomes",
+        "score": 92
+      },
+      "length": {
+        "note": "Two pages for a senior leader",
+        "score": 100
+      },
+      "parseability": {
+        "note": "Single column, standard headings, contact placeholders in the first two lines",
+        "score": 100
+      },
+      "quantification": {
+        "note": "Almost every bullet carries a count, dollar figure or before-and-after measure",
+        "score": 100
+      }
+    },
+    "fixes": [
+      {
+        "factor": "formatting",
+        "fix": "Keep one summary paragraph of three lines and remove the banner.",
+        "issue": "The all-caps keyword banner and the opening paragraph duplicate the summary",
+        "priority": "low"
+      },
+      {
+        "factor": "parseability",
+        "fix": "Split into Awards and Board Service; move the certification to Skills.",
+        "issue": "Boards and Recognition mixes a board seat, two awards and a certification",
+        "priority": "low"
+      },
+      {
+        "factor": "keyword_alignment",
+        "fix": "Add one bullet on how program outcomes were measured (survey, third-party evaluation) and what changed because of it.",
+        "issue": "Program evaluation is listed as a skill but no bullet names an evaluation method or result",
+        "priority": "low"
+      }
+    ],
+    "score": 97,
+    "target_role_used": "Executive director or vice president, nonprofit operations"
+  },
+  "awards": [
+    {
+      "issuer": "Habitat for Humanity International",
+      "name": "Regional Leadership Award",
+      "pool_estimate": "1 of 3 awarded nationally",
+      "scope": "national",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2024
+    },
+    {
+      "issuer": "Atlanta Business Chronicle",
+      "name": "40 Under 40",
+      "pool_estimate": "40 per year in one metro area",
+      "scope": "regional",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2023
+    },
+    {
+      "issuer": "National Association of Home Builders",
+      "name": "Certified Green Professional",
+      "pool_estimate": "professional certification",
+      "scope": "national",
+      "selectivity": "modest",
+      "verifiable": true,
+      "year": null
+    }
+  ],
+  "card": {
+    "awards": [
+      {
+        "name": "National regional leadership award (1 of 3)",
+        "scope": "national",
+        "selectivity": "selective"
+      },
+      {
+        "name": "Local business journal 40 Under 40",
+        "scope": "regional",
+        "selectivity": "selective"
+      }
+    ],
+    "card_version": "1.0",
+    "career_stage": "senior",
+    "education": [
+      {
+        "degree_level": "master",
+        "end_year": 2020,
+        "field": "Public Administration (nonprofit management)",
+        "gpa_band": "3.7-3.89",
+        "honors": [],
+        "in_progress": false,
+        "institution": "Georgia State University",
+        "institution_tier": "T3"
+      },
+      {
+        "degree_level": "bachelor",
+        "end_year": 2013,
+        "field": "Building Science",
+        "gpa_band": "3.0-3.49",
+        "honors": [],
+        "in_progress": false,
+        "institution": "Auburn University",
+        "institution_tier": "T3"
+      }
+    ],
+    "experiences": [
+      {
+        "duration_months": 58,
+        "employment_type": "full_time",
+        "highlights": [
+          "Home completions 60 to 190 a year; budget $8.2M to $15M; 80 staff, 7 direct reports",
+          "First regional capital campaign: $4.0M against a $3.5M goal in 20 months; funded a 32-home development",
+          "Staff turnover 24% to 13%; hurricane response repaired 95 homes with $2.1M secured"
+        ],
+        "impact_scale": "org",
+        "org": "Habitat for Humanity International, Southeast Region",
+        "org_tier": "B",
+        "role": "Regional Director",
+        "role_selectivity": "selective",
+        "seniority": "director",
+        "years": "2022-present"
+      },
+      {
+        "duration_months": 46,
+        "employment_type": "full_time",
+        "highlights": [
+          "14 staff and ~12,000 volunteers a year",
+          "Cycle time per home 14 weeks to 9; cost per home down ~$6,000",
+          "Recordable safety incidents 11 to 2"
+        ],
+        "impact_scale": "org",
+        "org": "Habitat for Humanity International, Southeast Region",
+        "org_tier": "B",
+        "role": "Director of Construction and Programs",
+        "role_selectivity": "modest",
+        "seniority": "director",
+        "years": "2018-2021"
+      },
+      {
+        "duration_months": 21,
+        "employment_type": "full_time",
+        "highlights": [
+          "Affiliate on-time reporting 55% to 95%; led two mergers of four organizations"
+        ],
+        "impact_scale": "org",
+        "org": "Habitat for Humanity International, Southeast Region",
+        "org_tier": "B",
+        "role": "Affiliate Support Manager",
+        "role_selectivity": "modest",
+        "seniority": "manager",
+        "years": "2016-2018"
+      },
+      {
+        "duration_months": 22,
+        "employment_type": "full_time",
+        "highlights": [
+          "20-25 builds a year with 4 staff and ~2,500 volunteers"
+        ],
+        "impact_scale": "team",
+        "org": "Habitat for Humanity of Greater Birmingham",
+        "org_tier": "C",
+        "role": "Construction Manager",
+        "role_selectivity": "modest",
+        "seniority": "manager",
+        "years": "2014-2016"
+      },
+      {
+        "duration_months": 12,
+        "employment_type": "volunteer",
+        "highlights": [
+          "Site supervisor on 12 homes"
+        ],
+        "impact_scale": "team",
+        "org": "Habitat for Humanity (AmeriCorps)",
+        "org_tier": "C",
+        "role": "AmeriCorps Member, site supervisor",
+        "role_selectivity": "modest",
+        "seniority": "other",
+        "years": "2013-2014"
+      }
+    ],
+    "headline": "Regional director at a national housing nonprofit, 12 years; 80 staff, $15M budget; output 60 to 190 homes a year",
+    "leadership": [
+      "Leads an 80-person region with 7 direct reports and an $15M budget",
+      "Finance committee chair on a statewide housing coalition board",
+      "Testified twice before a state legislative committee; the trust fund expansion passed"
+    ],
+    "notable": [
+      "Tripled regional output and nearly doubled the budget in four years, with the numbers stated",
+      "Capital campaign closed at 114% of goal",
+      "Highest regional engagement score two years running after cutting turnover from 24% to 13%"
+    ],
+    "projects": [],
+    "publications_summary": {
+      "citation_signal": "not stated",
+      "count_total": 0,
+      "first_author_count": 0,
+      "strong_venue_count": 0,
+      "top_venue_count": 0,
+      "venues": []
+    },
+    "skills_top": [
+      "Nonprofit operations and finance",
+      "Capital campaigns",
+      "Construction management",
+      "Government contract compliance",
+      "Program evaluation",
+      "Legislative testimony",
+      "Salesforce NPSP",
+      "Procore",
+      "Spanish (professional)"
+    ],
+    "top_signal": "60→190 homes/year",
+    "years_fulltime": 13.2
+  },
+  "category_relevance": {
+    "academia": 0,
+    "finance": 0.15,
+    "general": 1,
+    "tech": 0
+  },
+  "education": [
+    {
+      "degree_level": "master",
+      "end_year": 2020,
+      "field": "Public Administration, nonprofit management",
+      "gpa": 3.8,
+      "gpa_band": "3.7-3.89",
+      "gpa_scale": 4,
+      "honors": [],
+      "in_progress": false,
+      "institution": "Georgia State University, Andrew Young School of Policy Studies",
+      "institution_tier": "T3",
+      "notes": "Part-time while working",
+      "start_year": 2017
+    },
+    {
+      "degree_level": "bachelor",
+      "end_year": 2013,
+      "field": "Building Science",
+      "gpa": 3.4,
+      "gpa_band": "3.0-3.49",
+      "gpa_scale": 4,
+      "honors": [],
+      "in_progress": false,
+      "institution": "Auburn University",
+      "institution_tier": "T3",
+      "notes": "Student chapter president, NAHB",
+      "start_year": 2009
+    }
+  ],
+  "experiences": [
+    {
+      "bullets_condensed": [
+        "Completions 60 to 190/year; material cost per home down 11%",
+        "Capital campaign $4.0M vs $3.5M goal, 540 donors; 32-home development",
+        "Budget $8.2M to $15M: $5.6M state awards, 14 corporate partners",
+        "Turnover 24% to 13%; hurricane response 95 homes, $2.1M"
+      ],
+      "duration_months": 58,
+      "employment_type": "full_time",
+      "end": "present",
+      "impact_scale": "org",
+      "is_current": true,
+      "org": "Habitat for Humanity International",
+      "org_tier": "B",
+      "org_type": "nonprofit",
+      "ownership": "led",
+      "quantified_impact": true,
+      "role": "Regional Director",
+      "role_selectivity": "selective",
+      "seniority": "director",
+      "start": "2022-01",
+      "team_or_division": "Southeast Region"
+    },
+    {
+      "bullets_condensed": [
+        "14 staff; ~12,000 volunteers/year",
+        "Cycle time 14 to 9 weeks; cost per home down ~$6,000",
+        "Safety incidents 11 to 2",
+        "$1.2M federal grant for two rural affiliates"
+      ],
+      "duration_months": 46,
+      "employment_type": "full_time",
+      "end": "2021-12",
+      "impact_scale": "org",
+      "is_current": false,
+      "org": "Habitat for Humanity International",
+      "org_tier": "B",
+      "org_type": "nonprofit",
+      "ownership": "led",
+      "quantified_impact": true,
+      "role": "Director of Construction and Programs",
+      "role_selectivity": "modest",
+      "seniority": "director",
+      "start": "2018-03",
+      "team_or_division": "Southeast Region"
+    },
+    {
+      "bullets_condensed": [
+        "Coached 11 affiliate executive directors; on-time reporting 55% to 95%",
+        "Led two mergers combining four organizations into two"
+      ],
+      "duration_months": 21,
+      "employment_type": "full_time",
+      "end": "2018-02",
+      "impact_scale": "org",
+      "is_current": false,
+      "org": "Habitat for Humanity International",
+      "org_tier": "B",
+      "org_type": "nonprofit",
+      "ownership": "led",
+      "quantified_impact": true,
+      "role": "Affiliate Support Manager",
+      "role_selectivity": "modest",
+      "seniority": "manager",
+      "start": "2016-06",
+      "team_or_division": "Southeast Region"
+    },
+    {
+      "bullets_condensed": [
+        "20-25 builds/year; 4 staff, ~2,500 volunteers; all inspections passed first time in 2015"
+      ],
+      "duration_months": 22,
+      "employment_type": "full_time",
+      "end": "2016-05",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "Habitat for Humanity of Greater Birmingham",
+      "org_tier": "C",
+      "org_type": "nonprofit",
+      "ownership": "led",
+      "quantified_impact": true,
+      "role": "Construction Manager",
+      "role_selectivity": "modest",
+      "seniority": "manager",
+      "start": "2014-08",
+      "team_or_division": null
+    },
+    {
+      "bullets_condensed": [
+        "Site supervisor on 12 homes; volunteer groups up to 40"
+      ],
+      "duration_months": 12,
+      "employment_type": "volunteer",
+      "end": "2014-07",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "Habitat for Humanity",
+      "org_tier": "C",
+      "org_type": "nonprofit",
+      "ownership": "owned_component",
+      "quantified_impact": true,
+      "role": "AmeriCorps Member",
+      "role_selectivity": "modest",
+      "seniority": "other",
+      "start": "2013-08",
+      "team_or_division": null
+    }
+  ],
+  "input": {
+    "is_resume": true,
+    "language": "en",
+    "parse_confidence": 0.97,
+    "placeholders_seen": [
+      "name",
+      "email",
+      "phone",
+      "url"
+    ],
+    "word_count_estimate": 697
+  },
+  "leadership": [
+    {
+      "budget_or_scale": "80 staff, 7 direct reports, $15M budget, 11 affiliates",
+      "elected_or_appointed": "appointed",
+      "highlight": "Output tripled and budget nearly doubled in four years",
+      "org": "Habitat for Humanity International, Southeast Region",
+      "people_led": 80,
+      "role": "Regional Director"
+    },
+    {
+      "budget_or_scale": "statewide coalition board",
+      "elected_or_appointed": "appointed",
+      "highlight": "Finance committee chair since 2023",
+      "org": "Georgia Advancing Communities Together",
+      "people_led": null,
+      "role": "Board member, finance committee chair"
+    },
+    {
+      "budget_or_scale": "not stated",
+      "elected_or_appointed": "elected",
+      "highlight": "Chapter president in the final year",
+      "org": "NAHB student chapter, Auburn University",
+      "people_led": null,
+      "role": "President"
+    }
+  ],
+  "projects": [],
+  "publications": [],
+  "red_flags": [],
+  "residual_pii": {
+    "email_count": 0,
+    "name_suspected": false,
+    "other_identifiers": [],
+    "phone_count": 0,
+    "street_address_suspected": false,
+    "url_count": 0
+  },
+  "schema_version": "1.1",
+  "scores": {
+    "academia": {
+      "holistic_score": 3,
+      "included": false,
+      "rationale": "No research output.",
+      "stage_relative_score": 3,
+      "sub_scores": {
+        "breadth": 5,
+        "impact": 5,
+        "pedigree": 15,
+        "selectivity": 5,
+        "trajectory": 10
+      },
+      "top_evidence": []
+    },
+    "finance": {
+      "holistic_score": 18,
+      "included": false,
+      "rationale": "Budget growth, grants and a campaign; no finance role.",
+      "stage_relative_score": 15,
+      "sub_scores": {
+        "breadth": 20,
+        "impact": 40,
+        "pedigree": 25,
+        "selectivity": 20,
+        "trajectory": 40
+      },
+      "top_evidence": []
+    },
+    "general": {
+      "holistic_score": 70,
+      "included": true,
+      "rationale": "Director with 80 staff and a $15M budget by year 12 at a B-tier national nonprofit, output tripled and a capital campaign closed above goal with every program quantified; state-university degrees and a part-time MPA; one national leadership award.",
+      "stage_relative_score": 77,
+      "sub_scores": {
+        "breadth": 60,
+        "impact": 82,
+        "pedigree": 45,
+        "selectivity": 50,
+        "trajectory": 78
+      },
+      "top_evidence": [
+        "Homes per year 60 to 190; budget $8.2M to $15M",
+        "$4.0M capital campaign against a $3.5M goal in 20 months",
+        "80 staff; turnover 24% to 13%; highest regional engagement two years running"
+      ]
+    },
+    "tech": {
+      "holistic_score": 3,
+      "included": false,
+      "rationale": "No technical footprint.",
+      "stage_relative_score": 3,
+      "sub_scores": {
+        "breadth": 5,
+        "impact": 5,
+        "pedigree": 10,
+        "selectivity": 5,
+        "trajectory": 10
+      },
+      "top_evidence": []
+    }
+  },
+  "signals": {
+    "career_stage": "senior",
+    "has_quantified_impact": true,
+    "highest_institution_tier": "T3",
+    "highest_org_tier": "B",
+    "max_impact_scale": "org",
+    "months_internship": 0,
+    "primary_domain": "other",
+    "sustained_org_tier": "B",
+    "top_role_selectivity": "selective",
+    "trajectory": "accelerating",
+    "years_fulltime": 13.2
+  },
+  "skills": {
+    "certifications": [
+      "Certified Green Professional"
+    ],
+    "domain": [
+      "Nonprofit operations",
+      "Multi-entity budgeting",
+      "Government contract compliance",
+      "Capital campaigns",
+      "Major gifts",
+      "Construction management",
+      "Cost control",
+      "Program evaluation",
+      "Legislative testimony"
+    ],
+    "keyword_stuffing_suspected": false,
+    "spoken_languages": [
+      "English",
+      "Spanish (professional working proficiency)"
+    ],
+    "technical": [
+      "Salesforce NPSP",
+      "Procore",
+      "Excel"
+    ]
+  },
+  "strengths": [
+    "Output tripled (60 to 190 homes a year) and budget nearly doubled, both with fiscal-year figures",
+    "Capital campaign closed at $4.0M against a $3.5M goal with donor counts and the funded project named",
+    "People leadership with outcomes: turnover 24% to 13%, highest engagement of seven regions",
+    "Operational record before the director role: cycle time 14 to 9 weeks, safety incidents 11 to 2",
+    "Policy impact: testimony tied to a passed trust fund expansion"
+  ],
+  "verdict": "Twelve years inside one national nonprofit to an 80-person, $15M region with every program quantified; strong operator, modest pedigree.",
+  "weaknesses": [
+    "Entire career in one organization and its affiliates; no selection by an outside employer since 2013",
+    "State-university degrees and a part-time MPA; no selective program or fellowship",
+    "Awards are a sector leadership prize and a local 40 Under 40; nothing national outside the sector",
+    "Two pages of dense bullets; the strongest numbers would land harder with fewer lines"
+  ]
+}

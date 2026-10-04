@@ -1,0 +1,147 @@
+[name]
+Department of Economics, University of Wisconsin–Madison
+[email] · [phone] · [url]
+
+CURRICULUM VITAE (October 2026)
+
+ACADEMIC POSITIONS
+University of Wisconsin–Madison, Department of Economics
+Associate Professor (with tenure), 2019 – Present
+Assistant Professor, 2012 – 2019
+Faculty Affiliate, Institute for Research on Poverty, 2013 – Present
+Faculty Affiliate, La Follette School of Public Affairs, 2016 – Present
+
+OTHER AFFILIATIONS
+Research Associate, National Bureau of Economic Research (Public Economics and Labor Studies programs), 2020 – Present; Faculty Research Fellow, 2015 – 2020
+Research Fellow, IZA Institute of Labor Economics, 2015 – Present
+Research Network Fellow, CESifo, 2018 – Present
+Visiting Scholar, Federal Reserve Bank of Chicago, Fall 2021
+Visiting Associate Professor, Department of Economics, University of California, Berkeley, Spring 2024
+
+EDUCATION
+Ph.D. Economics, Northwestern University, 2012
+Dissertation: three essays on the labor market effects of state tax and transfer policy
+M.A. Economics, Northwestern University, 2009
+B.A. Economics and Mathematics, magna cum laude, Carleton College, 2006
+
+RESEARCH FIELDS
+Public economics, labor economics and the economics of education. Empirical work on tax credits, social insurance and local public finance, mostly with linked administrative data and quasi-experimental designs built around state policy variation.
+
+RESEARCH STATEMENT
+My research asks how the design of taxes and transfers shapes work, mobility and local public finance, and it relies on administrative records that let these questions be answered at the level of the individual household or jurisdiction. One strand uses state variation in earned income tax credit supplements, unemployment insurance schedules and property tax limits to estimate behavioral responses with regression discontinuity and bunching designs. A second strand studies how programs interact: the marginal tax rates created by overlapping transfer phase-outs, the fiscal spillovers between neighboring jurisdictions, and the ways in which local governments substitute between revenue sources when one is capped. Current work extends this agenda to retirement savings mandates and place-based tax credits, and builds a linked employer-employee panel for Wisconsin with the Department of Revenue.
+
+PUBLICATIONS (peer-reviewed; 30)
+1. "Earned income tax credit expansions and maternal labor supply: evidence from state supplements." American Economic Review, 2019, 109(8): 2884–2917. (with two coauthors)
+2. "Unemployment insurance generosity and job search duration: regression discontinuity evidence from benefit schedules." Review of Economic Studies, 2022, 89(4): 1961–1996. (with one coauthor)
+3. "State income tax progressivity and the interstate migration of high earners." American Economic Journal: Economic Policy, 2015, 7(3): 112–144. (sole author)
+4. "Sales tax holidays and the timing of consumer purchases." American Economic Journal: Economic Policy, 2018, 10(2): 228–262. (with one coauthor)
+5. "Local option sales taxes and retail employment at municipal borders." American Economic Journal: Economic Policy, 2023, 15(1): 44–79. (with two coauthors)
+6. "Property tax caps and the composition of local spending." Journal of Public Economics, 2014, 118: 36–51. (sole author)
+7. "Tax credit take-up and information: evidence from a field experiment with volunteer tax preparers." Journal of Public Economics, 2017, 152: 1–17. (with one coauthor)
+8. "Unemployment insurance and consumer credit: evidence from linked benefit and credit bureau records." Journal of Public Economics, 2020, 188: 104216. (with two coauthors)
+9. "The incidence of child care subsidies on providers and families." Journal of Public Economics, 2024, 232: 105089. (with one coauthor)
+10. "Minimum wage increases and worker turnover in restaurants." Journal of Labor Economics, 2016, 34(2): 405–443. (with one coauthor)
+11. "Occupational licensing reciprocity and interstate mobility of licensed workers." Journal of Labor Economics, 2021, 39(3): 713–751. (sole author)
+12. "Do tax refunds affect durable purchases? Evidence from delayed refund schedules." Review of Economics and Statistics, 2018, 100(4): 673–688. (with one coauthor)
+13. "Benefit cliffs and labor supply: bunching evidence from housing assistance." Review of Economics and Statistics, 2025, 107(2): 318–333. (with two coauthors)
+14. "Head Start funding formulas and local enrollment." Journal of Human Resources, 2017, 52(4): 1037–1070. (sole author)
+15. "School finance equalization and teacher labor markets." Journal of Human Resources, 2022, 57(5): 1522–1560. (with one coauthor)
+16. "Tax increment financing and property values: evidence from district boundaries." Journal of Urban Economics, 2016, 93: 60–74. (with one coauthor)
+17. "Annexation and the provision of municipal services." Journal of Urban Economics, 2021, 124: 103347. (sole author)
+18. "Medicaid expansion and the finances of safety-net hospitals." Journal of Health Economics, 2019, 66: 54–70. (with two coauthors)
+19. "Paid sick leave mandates and influenza-season absences." Journal of Health Economics, 2023, 89: 102745. (with one coauthor)
+20. "The elasticity of taxable income among the self-employed: evidence from state tax reforms." National Tax Journal, 2013, 66(3): 571–600. (sole author)
+21. "Who claims the state EITC? Evidence from linked tax and survey data." National Tax Journal, 2019, 72(2): 323–356. (with one coauthor)
+22. "Transfer program interactions and the marginal tax rates facing low-income families." Economic Journal, 2020, 130(628): 1092–1125. (with one coauthor)
+23. "Tax credits and the timing of births." American Economic Review: Papers and Proceedings, 2017, 107(5): 428–432. (with two coauthors)
+24. "Unemployment insurance during the pandemic: take-up and payment delays." AEA Papers and Proceedings, 2021, 111: 586–590. (with one coauthor)
+25. "Conditional cash transfers and secondary school completion: long-run evidence." Journal of Development Economics, 2015, 116: 31–45. (with one coauthor)
+26. "Severance pay rules and the duration of layoff spells." Labour Economics, 2014, 29: 48–61. (sole author)
+27. "Apprenticeship subsidies and youth employment." Labour Economics, 2020, 65: 101863. (with two coauthors)
+28. "State paid leave programs and employer behavior." Journal of Policy Analysis and Management, 2016, 35(3): 586–612. (with one coauthor)
+29. "Summer youth employment programs and later earnings." Journal of Policy Analysis and Management, 2022, 41(2): 410–441. (with two coauthors)
+30. "Local public goods and the fiscal effects of population aging." Fiscal Studies, 2018, 39(1): 115–139. (sole author)
+
+WORKING PAPERS
+1. "Property tax limits and school district spending: evidence from four decades of referenda." Revise and resubmit, Journal of Public Economics. (with one coauthor)
+2. "Local minimum wages and the earnings distribution of teenagers." NBER Working Paper, 2026. (sole author)
+3. "Paid family leave and employer-provided benefits: substitution or complementarity?" Under review. (with two coauthors)
+4. "Place-based tax credits and firm entry: a border-discontinuity design." Draft, 2026. (with one coauthor)
+5. "Automatic enrollment in state retirement savings programs and household saving." Draft, 2026. (with two coauthors)
+
+RESEARCH GRANTS AND FELLOWSHIPS
+• National Science Foundation, SES Division, "Administrative data on tax credits and labor supply," Principal Investigator, $382,000, 2017–2020
+• Smith Richardson Foundation, "Property tax limits and school finance," Principal Investigator, $210,000, 2023–2025
+• Russell Sage Foundation, "Unemployment insurance and household finance," co-Principal Investigator, $148,000, 2020–2022
+• Washington Center for Equitable Growth research grant, Principal Investigator, $64,000, 2018–2019
+• Spencer Foundation Small Research Grant, "School district referenda and spending," Principal Investigator, $50,000, 2021–2022
+• W.E. Upjohn Institute Early Career Research Award, $5,000, 2014
+• University of Wisconsin–Madison Fall Research Competition awards, 2013, 2015, 2018 and 2022 (each between $20,000 and $35,000)
+• Northwestern University Graduate School Dissertation Year Fellowship, 2011–2012
+
+HONORS AND AWARDS
+• Vilas Associate Award, University of Wisconsin–Madison, 2021–2023
+• H. I. Romnes Faculty Fellowship, University of Wisconsin–Madison, 2020
+• Best Paper Award, National Tax Association Annual Conference, 2018
+• Department of Economics Excellence in Teaching Award, 2016
+
+EDITORIAL AND REFEREE SERVICE
+• Associate Editor, Journal of Public Economics, 2022 – Present
+• Editorial Board, National Tax Journal, 2019 – Present
+• Guest co-editor, special issue on state and local public finance, National Tax Journal, 2021
+• Referee, approximately 15 to 20 reports per year, for: American Economic Review, Quarterly Journal of Economics, Journal of Political Economy, Econometrica, Review of Economic Studies, American Economic Journal: Economic Policy, American Economic Journal: Applied Economics, Journal of Public Economics, Journal of Labor Economics, Review of Economics and Statistics, Journal of Human Resources, Journal of Urban Economics, Journal of Health Economics, National Tax Journal, Economic Journal, Labour Economics, Journal of Policy Analysis and Management
+• Grant reviewer: National Science Foundation (Economics program panel, 2021 and 2024); Russell Sage Foundation; Social Sciences and Humanities Research Council of Canada; Swiss National Science Foundation
+
+PROFESSIONAL SERVICE
+• Co-organizer, NBER Summer Institute, Public Economics meeting, 2024 and 2025
+• Program Committee, National Tax Association Annual Conference, 2017, 2019 and 2022
+• Program Committee, Society of Labor Economists Annual Meeting, 2023
+• Board of Directors, National Tax Association, 2021 – 2024
+• Scientific Committee, International Institute of Public Finance Annual Congress, 2022
+• Mentor, American Economic Association Committee on the Status of Women in the Economics Profession mentoring workshop, 2023 and 2025
+• Discussant at 18 conference sessions since 2014, including the NBER Summer Institute (2017, 2021 and 2024), the National Tax Association Annual Conference (2016, 2018, 2020 and 2023) and the Society of Labor Economists Annual Meeting (2019 and 2025)
+
+DEPARTMENT AND UNIVERSITY SERVICE
+• Chair, Graduate Admissions Committee, Department of Economics, 2023 – 2025
+• Director of Graduate Placement, Department of Economics, 2019 – 2022
+• Member, Faculty Recruiting Committee, 2014, 2016, 2018, 2021 and 2025
+• Member, Undergraduate Curriculum Committee, 2013 – 2016
+• University Committee on Research Policy, 2022 – Present
+• Faculty Senate, 2020 – 2023
+• Faculty Director, undergraduate honors thesis program in economics, 2017 – 2019
+
+TEACHING
+University of Wisconsin–Madison
+• Econ 101, Principles of Microeconomics (undergraduate lecture, about 350 students), 2012, 2013 and 2014
+• Econ 450, Labor Economics (undergraduate, about 80 students), 2015 – 2019, 2022 and 2025
+• Econ 741, Public Economics I (Ph.D. field course), 2013 – Present
+• Econ 742, Public Economics II (Ph.D. field course), 2016, 2018, 2020 and 2023
+• Econ 899, Public and Labor Economics Workshop (Ph.D. seminar), co-coordinator, 2017 – Present
+Teaching evaluations average 4.5 of 5 across all courses since 2015; the department mean over the same period is 4.1.
+Supervised 14 senior honors theses, two of which received the department's undergraduate thesis prize.
+
+DOCTORAL ADVISING
+Chair or co-chair of 9 completed dissertations between 2016 and 2026. Placements: Federal Reserve Board (2), Congressional Budget Office, U.S. Treasury Office of Tax Analysis, University of Illinois Urbana-Champaign, Michigan State University, Amazon, Urban Institute and Analysis Group. Committee member on 22 further completed dissertations. Currently chairing 4 dissertation committees and serving on 6 others.
+Dissertations chaired (year, first placement): 2016, Federal Reserve Board; 2017, University of Illinois Urbana-Champaign; 2018, Congressional Budget Office; 2019, Michigan State University; 2020, Urban Institute; 2021, U.S. Treasury Office of Tax Analysis; 2023, Amazon; 2024, Federal Reserve Board; 2026, Analysis Group.
+
+INVITED SEMINARS AND CONFERENCE PRESENTATIONS (selected)
+2026: University of Chicago Harris School; University of Michigan; NBER Public Economics Program Meeting; Society of Labor Economists Annual Meeting; Federal Reserve Bank of Minneapolis; University of Zurich
+2025: Stanford Institute for Economic Policy Research; University of California, San Diego; National Tax Association Annual Conference; IZA Workshop on Labor Market Policy Evaluation; Columbia University; Boston University
+2024: University of California, Berkeley; Princeton University, Industrial Relations Section; NBER Summer Institute; CESifo Area Conference on Public Economics; University of Toronto; Northwestern University
+2023: Harvard Kennedy School; Ohio State University; Federal Reserve Bank of Chicago; National Tax Association Annual Conference; Uppsala University; University of Maryland
+2022: University of Pennsylvania; Cornell University; London School of Economics; International Institute of Public Finance Congress; University of Wisconsin–Madison IRP Summer Research Workshop; Washington University in St. Louis
+2019 – 2020: Duke University; Vanderbilt University; University of Virginia; Brookings Institution; Urban-Brookings Tax Policy Center; University of Kentucky; Michigan State University; University of Oregon
+2013 – 2018: more than 30 invited seminars and conference presentations, including the American Economic Association Annual Meeting (2014, 2016 and 2018), the NBER Summer Institute (2015 and 2017), and departmental seminars at Northwestern, Chicago Booth, Minnesota, Maryland, Rochester, Georgetown, Indiana and Iowa
+
+POLICY ENGAGEMENT AND MEDIA
+• Testimony before the Wisconsin Legislature Joint Committee on Finance on the state earned income tax credit, 2019
+• Member, Technical Advisory Panel on revenue estimation, Wisconsin Department of Revenue, 2020 – 2022
+• Unpaid consultant to a CBO review of unemployment insurance modeling, 2021
+• Research on the EITC, unemployment insurance and property tax limits summarized in national newspaper and public radio coverage, 2019, 2020, 2022 and 2024
+• Author of three policy briefs for the Institute for Research on Poverty (2018, 2021 and 2023)
+
+PROFESSIONAL MEMBERSHIPS
+American Economic Association; National Tax Association; Society of Labor Economists; Association for Public Policy Analysis and Management; International Institute of Public Finance
+
+SKILLS AND LANGUAGES
+Stata, R, Python and SAS; experience with restricted-access administrative data, including IRS Statistics of Income files, Census Bureau research data centers and state unemployment insurance wage records. English (native); German (reading knowledge).

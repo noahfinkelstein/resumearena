@@ -1,0 +1,520 @@
+{
+  "analysis": {
+    "analysis_confidence": 0.94,
+    "ats": {
+      "detected": {
+        "action_verb_ratio": 0.88,
+        "bullet_count": 17,
+        "bullet_marker_consistent": true,
+        "contact_at_top": true,
+        "date_format_consistent": true,
+        "date_formats_seen": [
+          "Month YYYY"
+        ],
+        "has_email": true,
+        "has_location": true,
+        "has_phone": true,
+        "has_profile_link": true,
+        "has_street_address": false,
+        "has_summary_section": false,
+        "nonstandard_headings": [],
+        "quantified_bullet_ratio": 0.82,
+        "reverse_chronological": true,
+        "section_order": [
+          "Education",
+          "Experience",
+          "Awards",
+          "Skills"
+        ],
+        "skill_bars_or_ratings": false,
+        "standard_headings": [
+          "EDUCATION",
+          "EXPERIENCE",
+          "LEADERSHIP AND AWARDS",
+          "SKILLS"
+        ],
+        "uses_tables_suspected": false
+      },
+      "factors": {
+        "consistency": {
+          "note": "Month YYYY throughout; every role dated; titles match",
+          "score": 100
+        },
+        "contact_info": {
+          "note": "City, email, phone and a profile link in the header",
+          "score": 100
+        },
+        "formatting": {
+          "note": "Standard headings, reverse-chronological, one bullet glyph, two fonts, no images",
+          "score": 100
+        },
+        "keyword_alignment": {
+          "note": "Policy memos, legislative research, constituent casework, committee work and budget management appear in bullets; data analysis is introductory and unshown",
+          "score": 84
+        },
+        "length": {
+          "note": "One page for a student",
+          "score": 100
+        },
+        "parseability": {
+          "note": "Single column, clean text layer (0.97), standard headings, contact in the first line",
+          "score": 100
+        },
+        "quantification": {
+          "note": "14 of 17 bullets carry a number tied to an outcome (memos, hearings, resolutions, fill rate, budget)",
+          "score": 100
+        }
+      },
+      "fixes": [
+        {
+          "factor": "keyword_alignment",
+          "fix": "Add a bullet to the apprenticeship: \"Coded 1,800 survey responses and ran descriptive analysis in R for a faculty study\"",
+          "issue": "Stata and R are listed as introductory and never used in a bullet, though the thesis and the apprenticeship involve data",
+          "priority": "medium"
+        },
+        {
+          "factor": "formatting",
+          "fix": "Move the committee chair and captaincy under a Leadership heading and keep awards separate",
+          "issue": "Leadership roles sit under Experience while the heading \"Leadership and Awards\" holds scholarships",
+          "priority": "low"
+        },
+        {
+          "factor": "length",
+          "fix": "Keep Public Policy Analysis and Legislative Process; drop the rest",
+          "issue": "The six-course list adds little",
+          "priority": "low"
+        }
+      ],
+      "score": 98,
+      "target_role_used": "Public policy or legislative fellowship; government affairs intern"
+    },
+    "awards": [
+      {
+        "issuer": "State of Wisconsin",
+        "name": "Wisconsin Academic Excellence Scholarship",
+        "pool_estimate": "top graduates of each state high school",
+        "scope": "regional",
+        "selectivity": "selective",
+        "verifiable": true,
+        "year": 2023
+      },
+      {
+        "issuer": "UW–Madison L&S Honors Program",
+        "name": "Honors Program Sophomore Research Apprenticeship",
+        "pool_estimate": "competitive within the honors program",
+        "scope": "institutional",
+        "selectivity": "selective",
+        "verifiable": true,
+        "year": 2024
+      }
+    ],
+    "card": {
+      "awards": [
+        {
+          "name": "Four-year state academic excellence scholarship",
+          "scope": "regional",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Honors program research apprenticeship",
+          "scope": "institutional",
+          "selectivity": "selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "student",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2027,
+          "field": "Political Science, Certificate in Public Policy",
+          "gpa_band": "3.7-3.89",
+          "honors": [
+            "Letters and Science Honors Program",
+            "Dean's List every semester",
+            "Four-year merit scholarship"
+          ],
+          "in_progress": true,
+          "institution": "University of Wisconsin–Madison",
+          "institution_tier": "T2"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 5,
+          "employment_type": "internship",
+          "highlights": [
+            "23 policy memos, 4 used in hearing preparation; briefing packets for 11 hearings",
+            "60+ constituent letters; ~400 contacts tracked; staffed 3 town halls of ~80",
+            "Peer-state research for a rural EMS funding bill introduced in April 2026"
+          ],
+          "impact_scale": "team",
+          "org": "Wisconsin State Senate, a senator's office",
+          "org_tier": "B",
+          "role": "Legislative Intern",
+          "role_selectivity": "selective",
+          "seniority": "intern",
+          "years": "2026"
+        },
+        {
+          "duration_months": 25,
+          "employment_type": "part_time",
+          "highlights": [
+            "Supervises 8-12 student staff per shift; trained 15 new attendants in 2025",
+            "Promoted from attendant to supervisor after one year"
+          ],
+          "impact_scale": "team",
+          "org": "University recreation department",
+          "org_tier": "C",
+          "role": "Student Facility Supervisor",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2024-present"
+        }
+      ],
+      "headline": "Political science junior at a T2 public university (3.7-3.89, honors); state senate intern; student-government chair",
+      "leadership": [
+        "Elected chair of a 9-member student-government committee; two resolutions passed and adopted by the university",
+        "Filled 92% of student seats on 40 university committees, up from 71%",
+        "Captain of a 28-player club ultimate team; $14,000 season budget; first regional qualification in four seasons"
+      ],
+      "notable": [
+        "Two student-government resolutions adopted by university offices (bus hours, syllabus deadline)",
+        "23 policy memos for a state senator in one session, 4 used in hearings",
+        "Honors thesis in progress on early-voting site placement, with a faculty research apprenticeship behind it"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Policy memo writing",
+        "Legislative research",
+        "Public speaking",
+        "Stata and R (introductory)",
+        "Excel",
+        "Google Workspace"
+      ],
+      "top_signal": "Legislative intern",
+      "years_fulltime": 0
+    },
+    "category_relevance": {
+      "academia": 0.15,
+      "finance": 0.02,
+      "general": 1,
+      "tech": 0
+    },
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2027,
+        "field": "Political Science, Certificate in Public Policy",
+        "gpa": 3.84,
+        "gpa_band": "3.7-3.89",
+        "gpa_scale": 4,
+        "honors": [
+          "Letters and Science Honors Program",
+          "Dean's List every semester since Fall 2023",
+          "Wisconsin Academic Excellence Scholarship"
+        ],
+        "in_progress": true,
+        "institution": "University of Wisconsin–Madison",
+        "institution_tier": "T2",
+        "notes": "Honors thesis in progress on early-voting site placement and county turnout",
+        "start_year": 2023
+      }
+    ],
+    "experiences": [
+      {
+        "bullets_condensed": [
+          "23 policy memos on health, workforce and local-government bills; 4 used in hearing prep",
+          "Briefing packets for 11 committee hearings",
+          "60+ constituent letters; ~400 contacts tracked; 3 town halls of ~80 attendees staffed",
+          "Peer-state research on rural EMS funding for a bill introduced April 2026"
+        ],
+        "duration_months": 5,
+        "employment_type": "internship",
+        "end": "2026-05",
+        "impact_scale": "team",
+        "is_current": false,
+        "org": "Wisconsin State Senate",
+        "org_tier": "B",
+        "org_type": "government",
+        "ownership": "contributed",
+        "quantified_impact": true,
+        "role": "Legislative Intern",
+        "role_selectivity": "selective",
+        "seniority": "intern",
+        "start": "2026-01",
+        "team_or_division": "Office of a state senator, Committee on Health"
+      },
+      {
+        "bullets_condensed": [
+          "Supervises 8-12 student staff per shift at a 230,000-square-foot facility",
+          "Trained 15 new building attendants in 2025",
+          "Promoted from attendant to supervisor after one year"
+        ],
+        "duration_months": 25,
+        "employment_type": "part_time",
+        "end": "present",
+        "impact_scale": "team",
+        "is_current": true,
+        "org": "University of Wisconsin–Madison Recreation and Wellbeing",
+        "org_tier": "C",
+        "org_type": "university",
+        "ownership": "owned_component",
+        "quantified_impact": false,
+        "role": "Student Facility Supervisor",
+        "role_selectivity": "modest",
+        "seniority": "other",
+        "start": "2024-09",
+        "team_or_division": "Recreation facility"
+      }
+    ],
+    "input": {
+      "is_resume": true,
+      "language": "en",
+      "parse_confidence": 0.97,
+      "placeholders_seen": [
+        "name",
+        "email",
+        "phone",
+        "url"
+      ],
+      "word_count_estimate": 480
+    },
+    "leadership": [
+      {
+        "budget_or_scale": "nominates students to 40 university committees",
+        "elected_or_appointed": "elected",
+        "highlight": "Two resolutions passed the 33-member council and were adopted by university offices; seat fill rate 71% to 92%",
+        "org": "Associated Students of Madison, Shared Governance Committee",
+        "people_led": 9,
+        "role": "Chair"
+      },
+      {
+        "budget_or_scale": "$14,000 season budget; 5 tournaments",
+        "elected_or_appointed": "elected",
+        "highlight": "First regional championship qualification in four seasons",
+        "org": "Wisconsin Club Ultimate (women's)",
+        "people_led": 28,
+        "role": "Captain"
+      }
+    ],
+    "projects": [
+      {
+        "description_condensed": "County-level turnout effects of early-voting site placement in Wisconsin; faculty-advised",
+        "has_external_validation": false,
+        "kind": "research",
+        "name": "Honors thesis (in progress)",
+        "quantified_impact": false,
+        "scale_signal": "none stated",
+        "technical_depth": "standard"
+      }
+    ],
+    "publications": [],
+    "red_flags": [],
+    "residual_pii": {
+      "email_count": 0,
+      "name_suspected": false,
+      "other_identifiers": [],
+      "phone_count": 0,
+      "street_address_suspected": false,
+      "url_count": 0
+    },
+    "schema_version": "1.1",
+    "scores": {
+      "academia": {
+        "holistic_score": 35,
+        "included": false,
+        "rationale": "Honors thesis in progress and a faculty research apprenticeship (1,800 survey responses coded); no output yet.",
+        "stage_relative_score": 35,
+        "sub_scores": {
+          "breadth": 30,
+          "impact": 20,
+          "pedigree": 55,
+          "selectivity": 40,
+          "trajectory": 55
+        },
+        "top_evidence": []
+      },
+      "finance": {
+        "holistic_score": 12,
+        "included": false,
+        "rationale": "No finance footprint.",
+        "stage_relative_score": 12,
+        "sub_scores": {
+          "breadth": 20,
+          "impact": 15,
+          "pedigree": 45,
+          "selectivity": 30,
+          "trajectory": 50
+        },
+        "top_evidence": []
+      },
+      "general": {
+        "holistic_score": 60,
+        "included": true,
+        "rationale": "T2 flagship with a 3.84 in an honors program, a state-legislature internship with counted output, an elected committee chair whose two resolutions were adopted, a club captaincy, and a supervisor job. Breadth with scope numbers; no national-level selection.",
+        "stage_relative_score": 60,
+        "sub_scores": {
+          "breadth": 62,
+          "impact": 42,
+          "pedigree": 58,
+          "selectivity": 50,
+          "trajectory": 62
+        },
+        "top_evidence": [
+          "23 policy memos for a state senator, 4 used in hearings",
+          "Elected committee chair; two resolutions adopted by the university",
+          "Captain of a 28-player club team with a $14,000 budget"
+        ]
+      },
+      "tech": {
+        "holistic_score": 8,
+        "included": false,
+        "rationale": "Introductory Stata and R only.",
+        "stage_relative_score": 8,
+        "sub_scores": {
+          "breadth": 15,
+          "impact": 10,
+          "pedigree": 30,
+          "selectivity": 20,
+          "trajectory": 45
+        },
+        "top_evidence": []
+      }
+    },
+    "signals": {
+      "career_stage": "student",
+      "has_quantified_impact": true,
+      "highest_institution_tier": "T2",
+      "highest_org_tier": "B",
+      "max_impact_scale": "team",
+      "months_internship": 5,
+      "primary_domain": "other",
+      "sustained_org_tier": "C",
+      "top_role_selectivity": "selective",
+      "trajectory": "too_early",
+      "years_fulltime": 0
+    },
+    "skills": {
+      "certifications": [],
+      "domain": [
+        "policy writing and memo drafting",
+        "legislative research",
+        "public speaking",
+        "casework systems"
+      ],
+      "keyword_stuffing_suspected": false,
+      "spoken_languages": [
+        "English",
+        "Spanish (conversational)"
+      ],
+      "technical": [
+        "Stata (introductory)",
+        "R (introductory)",
+        "Excel",
+        "Google Workspace"
+      ]
+    },
+    "strengths": [
+      "State senate internship with counted output: 23 memos (4 used in hearings), 11 briefing packets, ~400 constituent contacts",
+      "Two student-government resolutions passed and adopted by university offices; committee seat fill rate 71% to 92%",
+      "3.84 GPA in an honors program at a T2 flagship with a four-year merit scholarship",
+      "Club captaincy with a $14,000 budget and the team's first regional qualification in four seasons",
+      "Promotion to supervisor after one year and 15 staff trained"
+    ],
+    "verdict": "A well-rounded junior record with counted legislative output and two adopted campus resolutions; selective at the state and campus level, not beyond.",
+    "weaknesses": [
+      "No national-level selection; the hardest bars cleared are a state scholarship and an elected campus role",
+      "Introductory Stata and R never appear in a bullet, which weakens the thesis and policy-analysis story",
+      "The internship is a single semester and its impact is at the office level",
+      "Leadership roles are filed under Experience, which hides them from a parser's leadership field"
+    ]
+  },
+  "card_sha256": "f643347dd7b86f58c42485fb9e2077c3d70d5428d4b4cddacbb4685dc9676682",
+  "category_relevance": {
+    "academia": 0.15,
+    "finance": 0.02,
+    "general": 1,
+    "tech": 0
+  },
+  "created_at": "2026-10-03T12:33:00Z",
+  "deleted_at": null,
+  "duplicate_of": null,
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+5f7c9f15",
+    "verdict": {
+      "estimated_career_stage": "student",
+      "is_resume": true,
+      "language": "en",
+      "prompt_injection_detected": false,
+      "reason": "Résumé with dated roles and education.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "general-1400-student",
+  "held_reason": null,
+  "id": "fv6bj7sbra",
+  "kind": "user",
+  "metrics": {
+    "char_count": 3240,
+    "columns_detected": 1,
+    "extraction_quality": 0.97,
+    "font_count": 2,
+    "image_count": 0,
+    "pages": 1,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 484
+  },
+  "owner_hash": "c8c0e266b63ecee08072b2dfe6865e89847ff52decb7eed90d407c099b9037b2",
+  "primary": "general",
+  "rejected_reason": null,
+  "schema": 1,
+  "scores": {
+    "general": 58
+  },
+  "source": {
+    "client_version": "fixtures",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 1
+  },
+  "stage": "student",
+  "status": "analyzed",
+  "superseded_by": null,
+  "supersedes": null,
+  "text": "[name]\nMadison, WI | [email] | [phone] | [url]\n\nEDUCATION\nUniversity of Wisconsin–Madison — Madison, WI\nB.A. in Political Science, Certificate in Public Policy, expected May 2027 | GPA 3.84 / 4.00\nLetters and Science Honors Program; Dean's List every semester since Fall 2023\nCoursework: American Politics, Public Policy Analysis, Statistics for Social Science, Constitutional Law, State and Local Government, Legislative Process\nHonors thesis in progress on county-level turnout effects of early-voting site placement in Wisconsin (adviser in the political science department)\n\nEXPERIENCE\n\nWisconsin State Senate — Legislative Intern, Office of a State Senator (Committee on Health)\nMadison, WI | January 2026 – May 2026 (20 hours a week during the session)\n- Wrote 23 policy memos on health, workforce and local-government bills for the senator and the chief of staff; 4 were used in committee hearing preparation\n- Prepared briefing packets for 11 committee hearings, including witness summaries and amendment comparisons\n- Drafted 60+ constituent response letters and tracked about 400 constituent contacts in the office's casework system\n- Staffed 3 town halls (about 80 attendees each) and wrote the follow-up summaries sent to attendees\n- Researched and summarized peer-state approaches to rural EMS funding for a bill the senator introduced in April 2026\n\nAssociated Students of Madison (student government) — Chair, Shared Governance Committee\nMadison, WI | May 2025 – Present\n- Elected chair of a 9-member committee that nominates students to 40 university committees and reviews policy proposals affecting students\n- Led two resolutions to passage by the 33-member Student Council: expanded late-night campus bus hours (adopted by the transportation office for Fall 2025) and a syllabus-posting deadline (adopted by the faculty senate in 2026)\n- Ran 14 committee meetings; filled 92% of student seats on university committees, up from 71% the prior year\n\nUniversity of Wisconsin–Madison Recreation and Wellbeing — Student Facility Supervisor\nMadison, WI | September 2024 – Present\n- Supervise 8 to 12 student staff per shift at a 230,000-square-foot recreation facility; handle incidents, opening and closing, and shift reports\n- Trained 15 new building attendants in 2025 on emergency procedures and customer service\n- Promoted from building attendant to supervisor after one year\n\nWisconsin Club Ultimate (women's club team) — Captain\nMadison, WI | September 2025 – Present (member since 2023)\n- Captain of a 28-player roster; plan practices with two co-captains and manage a $14,000 season budget including travel to 5 tournaments\n- Team qualified for the 2026 college regional championship for the first time in four seasons\n\nLEADERSHIP AND AWARDS\n- Wisconsin Academic Excellence Scholarship (four-year merit award), 2023 – 2027\n- Honors Program Sophomore Research Apprenticeship, 2024 – 2025: coded 1,800 municipal clerk survey responses for a faculty study on election administration\n- Volunteer, Dane County voter registration drives, 2024 and 2025 (about 60 hours)\n\nSKILLS\nPolicy writing and memo drafting, legislative research, Stata and R (introductory), Excel, Google Workspace, public speaking; conversational Spanish",
+  "text_sha256": "2c957cd6334b571a3d93f6c07c61e955f13044d61cd8c3ae664e934372b918ff",
+  "top_signal": "Legislative intern",
+  "updated_at": "2026-10-03T12:33:00Z",
+  "usage": {
+    "analysis_usd": 0.17728,
+    "gate_usd": 0.0016,
+    "latency_ms": 1
+  },
+  "versions": {
+    "analyst_model": "claude-opus-5-5",
+    "analyst_prompt": "analyst.v1+6dbc77ff",
+    "fell_back": false,
+    "gate_prompt": "gate.v1+5f7c9f15",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "visibility": "anonymous"
+}

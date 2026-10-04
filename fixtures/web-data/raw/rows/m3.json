@@ -1,0 +1,38 @@
+{
+  "m3zjnglo6p": {
+    "c": {
+      "finance": 1,
+      "general": 1
+    },
+    "ch": "2b6de0d098738899d8dc396e5fa2f0e6c03d3fabdad7e7d446c44978d0ba3527",
+    "h": "finance-1800-senior",
+    "p": "finance",
+    "s": "analyzed",
+    "sc": {
+      "finance": 84,
+      "general": 81
+    },
+    "sig": "$20B deals led",
+    "ss": {
+      "finance": [
+        72,
+        78,
+        90,
+        80,
+        40,
+        88
+      ],
+      "general": [
+        70,
+        78,
+        88,
+        78,
+        40,
+        86
+      ]
+    },
+    "st": "senior",
+    "t": 1791029760,
+    "v": "anonymous"
+  }
+}

@@ -1,0 +1,61 @@
+[name]
+San Francisco, CA · [email] · [phone] · [url] · [url]
+
+Co-founder and CTO of a developer-infrastructure company (40 people, Series A). Previously three years at Google on Spanner. Maintainer of an open-source build-cache project with about 15,000 GitHub stars that is used in production at several large companies.
+
+EXPERIENCE
+
+Cachewright (YC W22) — Co-founder and CTO, San Francisco, CA (Jan 2022 – Present)
+Remote build caching and distributed test execution for monorepos. Series A led by Andreessen Horowitz with participation from Y Combinator and Kleiner Perkins ($24M raised in total). 40 employees, 22 of them engineers.
+• Grew annual recurring revenue from $0 to $6.1M in three years; 70 paying customers including 4 of the Fortune 100; net revenue retention 128% in 2025.
+• Designed the content-addressed cache and the remote execution scheduler that run 400 million actions a day at p99 cache-hit latency under 30 ms across three regions.
+• Hired and lead the 22-person engineering organization (4 teams, 3 engineering managers reporting to me); attrition under 8% a year over three years.
+• Led the SOC 2 Type II effort to completion in 9 months, which unblocked the two largest enterprise contracts ($1.8M ARR combined).
+• Wrote the first 60,000 lines of the product with my co-founder before the first engineering hire; still write roughly a day a week of code, mostly in the scheduler.
+• Own the technical side of fundraising and the quarterly board technical update; led the technical diligence sessions for the seed ($4M, 2022) and Series A ($20M, 2024) rounds.
+• Set the reliability bar for the product: 99.95% monthly availability for 30 consecutive months against a contractual 99.9%; two customer-facing incidents in 2025, both with public postmortems.
+• Negotiated and delivered the technical terms of a multi-year contract with a top-10 US bank, including an on-premises deployment mode that is now 15% of revenue.
+• Run the engineering hiring loop end to end: about 900 applicants screened, 140 on-sites, 24 offers, 21 accepted over three years.
+• Opened the Boston engineering office in 2025 (8 engineers) and hired its site lead.
+
+Cachewright (YC W22) — Co-founder, pre-seed (Sep 2021 – Dec 2021)
+• Left Google to build the prototype with my co-founder; first paying design partner (a 300-engineer fintech) signed before the YC interview on the strength of a 4x build-time reduction on their monorepo.
+
+Google — Software Engineer III then Senior Software Engineer, Spanner, Mountain View, CA (Jul 2018 – Dec 2021)
+• Tech lead (3 engineers) for the Spanner change-stream feature from design to general availability; at launch it served about 2,000 internal and Cloud customers and processed roughly 1.2 billion change records a day.
+• Reduced tail latency of the transaction commit path by 18% at p99 through a lock-manager change rolled out fleet-wide.
+• Promoted to Senior in 2.5 years; received two peer-nominated spot bonuses.
+• Interviewed about 120 candidates and served on the hiring committee for a year.
+• Designed the schema-change coordination protocol used by the change-stream feature to survive online schema migrations; wrote the internal design doc that became the team's reference for the following two features.
+• On-call for the Spanner serving stack for two years; authored the postmortem and the fix for a 2020 incident that affected roughly 4% of Cloud Spanner instances for 40 minutes.
+
+OPEN SOURCE
+
+Maintainer, bazel-remote-cache-plus (2019 – Present)
+• Drop-in remote cache server for Bazel and Buck2; about 15,000 GitHub stars, 2,000 forks, 180 contributors.
+• Used in production at Dropbox, Uber, and Stripe according to public engineering blog posts; downloads about 400,000 a month.
+• Co-maintainer of the remote execution API specification working group since 2021; authored the v2.3 revision that added content-defined chunking to the protocol.
+• Review and merge about 30 external pull requests a month; run a monthly contributor call with 20 to 40 attendees.
+• Project was accepted into a major open-source foundation's sandbox program in 2024.
+
+PUBLICATION
+
+Content-defined chunking for remote build caches at scale. OSDI 2023 (first of five authors). Describes the chunking and dedup scheme that cut Cachewright's storage by 61% at equal hit rate.
+
+EDUCATION
+
+Stanford University — B.S. Computer Science, with Distinction, 2018
+GPA 3.8/4.0. Teaching assistant for the operating systems course for two quarters.
+
+TALKS AND RECOGNITION
+• Forbes 30 Under 30, Enterprise Technology, 2024
+• Invited talks: BazelCon 2022 and 2024, Strange Loop 2023, QCon San Francisco 2024
+• Google Cloud customer-facing launch of Spanner change streams, 2021 (named in the launch announcement)
+• Program committee member, USENIX ATC 2025
+• Two US patents granted on build-cache deduplication and remote execution scheduling (2024, 2025)
+
+ADVISING
+Technical adviser to two seed-stage developer-tool companies (2024 – Present); angel investor in four.
+
+SKILLS
+Go, C++, Rust, Java · distributed systems, consensus, storage engines, build systems · Kubernetes, gRPC, Bazel · engineering management, enterprise sales support, SOC 2

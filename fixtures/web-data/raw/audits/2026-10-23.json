@@ -1,0 +1,52 @@
+{
+  "alerts": [],
+  "anchor_validation": {},
+  "compacted": 0,
+  "date": "2026-10-23",
+  "drift": {
+    "academia": {
+      "n": 18,
+      "res": 0.1041,
+      "se": 0.0928,
+      "shift": 0
+    },
+    "finance": {
+      "n": 17,
+      "res": 0.1552,
+      "se": 0.0902,
+      "shift": 0
+    },
+    "general": {
+      "n": 30,
+      "res": 0.2586,
+      "se": 0.0808,
+      "shift": 0
+    },
+    "tech": {
+      "n": 18,
+      "res": 0.0817,
+      "se": 0.0871,
+      "shift": 0
+    }
+  },
+  "inflated": 0,
+  "judge": {
+    "academia": {
+      "anchor_accuracy_7d": 0.9091,
+      "disagreement_rate_7d": 0.1563
+    },
+    "finance": {
+      "anchor_accuracy_7d": 0.9091,
+      "disagreement_rate_7d": 0.1154
+    },
+    "general": {
+      "anchor_accuracy_7d": 0.6364,
+      "disagreement_rate_7d": 0.2462
+    },
+    "tech": {
+      "anchor_accuracy_7d": 0.8333,
+      "disagreement_rate_7d": 0.2051
+    }
+  },
+  "squashed": false
+}

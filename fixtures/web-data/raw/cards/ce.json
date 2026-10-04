@@ -1,0 +1,84 @@
+{
+  "cejzwt6qej": {
+    "card": {
+      "awards": [],
+      "card_version": "1.0",
+      "career_stage": "student",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2028,
+          "field": "Business Administration",
+          "gpa_band": "not_listed",
+          "honors": [],
+          "in_progress": true,
+          "institution": "Western Illinois University",
+          "institution_tier": "T4"
+        },
+        {
+          "degree_level": "associate",
+          "end_year": 2026,
+          "field": "Arts",
+          "gpa_band": "not_listed",
+          "honors": [],
+          "in_progress": false,
+          "institution": "Spoon River College",
+          "institution_tier": "T4"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 3,
+          "employment_type": "full_time",
+          "highlights": [
+            "Transactions, drawer balancing and referrals during a summer"
+          ],
+          "impact_scale": "individual",
+          "org": "First Prairie Community Bank",
+          "org_tier": "C",
+          "role": "Teller",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2026-2026"
+        },
+        {
+          "duration_months": 25,
+          "employment_type": "part_time",
+          "highlights": [
+            "Trains new servers on the point-of-sale system"
+          ],
+          "impact_scale": "individual",
+          "org": "Riverbend Grill",
+          "org_tier": "D",
+          "role": "Server",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2024-present"
+        }
+      ],
+      "headline": "Business administration junior at a T4 regional university; summer bank teller; restaurant server; finance club member",
+      "leadership": [
+        "Finance club member; stock market simulation participant"
+      ],
+      "notable": [],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Excel",
+        "PowerPoint",
+        "Cash handling",
+        "Customer service"
+      ],
+      "top_signal": "Summer bank teller",
+      "years_fulltime": 0
+    },
+    "st": "student"
+  }
+}

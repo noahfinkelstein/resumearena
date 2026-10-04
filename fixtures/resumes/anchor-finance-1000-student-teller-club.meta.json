@@ -1,0 +1,32 @@
+{
+  "expect": {
+    "gate": "pass",
+    "status": "analyzed"
+  },
+  "group": "anchor",
+  "intended_anchor": 1000,
+  "intended_categories": [
+    "general",
+    "finance"
+  ],
+  "intended_stage": "student",
+  "metrics": {
+    "char_count": 2320,
+    "columns_detected": 0,
+    "extraction_quality": 1,
+    "font_count": 0,
+    "image_count": 0,
+    "pages": 1,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 0
+    },
+    "source": "paste",
+    "word_count": 330
+  },
+  "slug": "anchor-finance-1000-student-teller-club"
+}

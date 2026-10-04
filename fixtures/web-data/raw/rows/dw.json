@@ -1,0 +1,28 @@
+{
+  "dwzis5ko2u": {
+    "c": {
+      "general": 1
+    },
+    "ch": "8138774ed888becbaae439051a69e52815cae29b5ffcbde70dfc361167e90f14",
+    "h": "general-1500-early-b",
+    "p": "general",
+    "s": "analyzed",
+    "sc": {
+      "general": 71
+    },
+    "sig": "$4M savings led",
+    "ss": {
+      "general": [
+        68,
+        74,
+        66,
+        60,
+        62,
+        75
+      ]
+    },
+    "st": "early",
+    "t": 1791030840,
+    "v": "anonymous"
+  }
+}

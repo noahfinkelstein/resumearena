@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:42:00Z",
+  "handle": "tool-list-no-evidenc",
+  "key_exposed": false,
+  "owner_hash": "4427eadb9c6cb005fc8ba878012c92b6af79b8e3120bf20191f61cbe35da9989",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:42:00Z",
+      "current": true,
+      "id": "bbbx4b7znn"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

@@ -1,0 +1,509 @@
+{
+  "analysis": {
+    "analysis_confidence": 0.93,
+    "ats": {
+      "detected": {
+        "action_verb_ratio": 0.87,
+        "bullet_count": 15,
+        "bullet_marker_consistent": true,
+        "contact_at_top": true,
+        "date_format_consistent": true,
+        "date_formats_seen": [
+          "Month YYYY"
+        ],
+        "has_email": true,
+        "has_location": true,
+        "has_phone": true,
+        "has_profile_link": true,
+        "has_street_address": false,
+        "has_summary_section": true,
+        "nonstandard_headings": [
+          "CERTIFICATIONS AND TRAINING"
+        ],
+        "quantified_bullet_ratio": 0.53,
+        "reverse_chronological": true,
+        "section_order": [
+          "Summary",
+          "Experience",
+          "Education",
+          "Awards",
+          "Skills",
+          "Leadership"
+        ],
+        "skill_bars_or_ratings": false,
+        "standard_headings": [
+          "PROFESSIONAL SUMMARY",
+          "EXPERIENCE",
+          "EDUCATION",
+          "SKILLS",
+          "ACTIVITIES"
+        ],
+        "uses_tables_suspected": false
+      },
+      "factors": {
+        "consistency": {
+          "note": "Month YYYY throughout; every role dated; title matches scope",
+          "score": 100
+        },
+        "contact_info": {
+          "note": "City, email, phone and a profile link in the header",
+          "score": 100
+        },
+        "formatting": {
+          "note": "Standard headings, reverse-chronological, one bullet glyph; layout not verified (docx)",
+          "score": 100
+        },
+        "keyword_alignment": {
+          "note": "Forecasting, variance analysis, Hyperion, driver-based modeling and Power Query appear in bullets with outcomes; SQL and Power BI only in the list",
+          "score": 84
+        },
+        "length": {
+          "note": "One page for an early-career analyst",
+          "score": 100
+        },
+        "parseability": {
+          "note": "Standard headings, contact in the first two lines; layout not verified (docx, extraction 0.95)",
+          "score": 100
+        },
+        "quantification": {
+          "note": "8 of 15 bullets carry a number tied to an outcome (savings, variance, days saved, hours saved)",
+          "score": 80
+        }
+      },
+      "fixes": [
+        {
+          "factor": "quantification",
+          "fix": "Before: \"Reconcile the capital expenditure forecast against project tracking, covering about 60 open projects\" → After: \"Reconciled 60 capex projects monthly; cut forecast misses by __%\"",
+          "issue": "Half the current-role bullets describe recurring tasks (QBR deck, capex reconciliation) without a result",
+          "priority": "high"
+        },
+        {
+          "factor": "keyword_alignment",
+          "fix": "Add one bullet showing a Power BI report or SQL pull with its audience and effect, or drop them from the list",
+          "issue": "Power BI and SQL appear only in the skills line",
+          "priority": "medium"
+        },
+        {
+          "factor": "formatting",
+          "fix": "Rename to \"Certifications\" and list the CFA candidacy separately under Education",
+          "issue": "\"Certifications and Training\" mixes a pending exam with a vendor certificate",
+          "priority": "low"
+        }
+      ],
+      "score": 94,
+      "target_role_used": "Senior financial analyst, FP&A"
+    },
+    "awards": [],
+    "card": {
+      "awards": [],
+      "card_version": "1.0",
+      "career_stage": "early",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2024,
+          "field": "Business Administration, Finance",
+          "gpa_band": "3.5-3.69",
+          "honors": [],
+          "in_progress": false,
+          "institution": "University of Missouri",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 27,
+          "employment_type": "full_time",
+          "highlights": [
+            "Owns the monthly forecast and annual plan for a $1.4B, 14-site division; presents variances to the division CFO",
+            "Driver-based model closed the forecast 2 business days earlier",
+            "Found $2.1M of annualized freight savings adopted by operations"
+          ],
+          "impact_scale": "org",
+          "org": "Emerson Electric",
+          "org_tier": "B",
+          "role": "Financial Analyst, FP&A, Discrete Automation",
+          "role_selectivity": "modest",
+          "seniority": "analyst",
+          "years": "2024-present"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Automated a weekly cash report, ~4 hours a week saved"
+          ],
+          "impact_scale": "team",
+          "org": "Emerson Electric",
+          "org_tier": "B",
+          "role": "Finance Intern, Corporate FP&A",
+          "role_selectivity": "modest",
+          "seniority": "intern",
+          "years": "2023"
+        },
+        {
+          "duration_months": 9,
+          "employment_type": "part_time",
+          "highlights": [
+            "Weekly review sessions for ~60 students"
+          ],
+          "impact_scale": "team",
+          "org": "University of Missouri",
+          "org_tier": "C",
+          "role": "Teaching Assistant, Financial Accounting",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2023-2024"
+        }
+      ],
+      "headline": "FP&A analyst, 2 years at a B-tier F500 industrial; owns the forecast for a $1.4B division; T3 finance degree",
+      "leadership": [
+        "Treasurer of a 90-member student finance association; $9,000 annual budget"
+      ],
+      "notable": [
+        "Sole owner of a $1.4B division forecast two years out of a T3 program",
+        "Freight-savings analysis worth $2.1M a year adopted by operations"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Financial modeling",
+        "Variance analysis",
+        "Forecasting and budgeting",
+        "Hyperion Planning",
+        "Excel",
+        "Power Query",
+        "Power BI",
+        "Oracle ERP",
+        "PowerPoint"
+      ],
+      "top_signal": "$1.4B div forecast",
+      "years_fulltime": 2.3
+    },
+    "category_relevance": {
+      "academia": 0.02,
+      "finance": 0.9,
+      "general": 1,
+      "tech": 0.08
+    },
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2024,
+        "field": "Business Administration, Finance emphasis",
+        "gpa": 3.6,
+        "gpa_band": "3.5-3.69",
+        "gpa_scale": 4,
+        "honors": [],
+        "in_progress": false,
+        "institution": "University of Missouri, Trulaske College of Business",
+        "institution_tier": "T3",
+        "notes": "",
+        "start_year": 2020
+      }
+    ],
+    "experiences": [
+      {
+        "bullets_condensed": [
+          "Owns the rolling forecast and annual plan for a $1.4B, 14-site division; monthly variance review with the division CFO",
+          "Driver-based Excel and Hyperion model; forecast closes 2 business days earlier",
+          "$2.1M annualized freight savings identified across 4 plants; adopted Q3 2025",
+          "Headcount forecast rebuilt with HR feeds; labor-cost variance 4.5% to 1.8%"
+        ],
+        "duration_months": 27,
+        "employment_type": "full_time",
+        "end": "present",
+        "impact_scale": "org",
+        "is_current": true,
+        "org": "Emerson Electric Co.",
+        "org_tier": "B",
+        "org_type": "public_company",
+        "ownership": "owned_component",
+        "quantified_impact": true,
+        "role": "Financial Analyst",
+        "role_selectivity": "modest",
+        "seniority": "analyst",
+        "start": "2024-07",
+        "team_or_division": "FP&A, Discrete Automation"
+      },
+      {
+        "bullets_condensed": [
+          "Supported consolidation of the quarterly forecast across 5 business groups",
+          "Automated a weekly cash report with Power Query; ~4 hours a week saved",
+          "Peer-company margin benchmarking for the annual strategy review"
+        ],
+        "duration_months": 3,
+        "employment_type": "internship",
+        "end": "2023-08",
+        "impact_scale": "team",
+        "is_current": false,
+        "org": "Emerson Electric Co.",
+        "org_tier": "B",
+        "org_type": "public_company",
+        "ownership": "supported",
+        "quantified_impact": true,
+        "role": "Finance Intern",
+        "role_selectivity": "modest",
+        "seniority": "intern",
+        "start": "2023-05",
+        "team_or_division": "Corporate FP&A"
+      },
+      {
+        "bullets_condensed": [
+          "Weekly review sessions for ~60 students; graded problem sets"
+        ],
+        "duration_months": 9,
+        "employment_type": "part_time",
+        "end": "2024-05",
+        "impact_scale": "team",
+        "is_current": false,
+        "org": "University of Missouri",
+        "org_tier": "C",
+        "org_type": "university",
+        "ownership": "supported",
+        "quantified_impact": false,
+        "role": "Teaching Assistant",
+        "role_selectivity": "modest",
+        "seniority": "other",
+        "start": "2023-08",
+        "team_or_division": "Introductory Financial Accounting"
+      }
+    ],
+    "input": {
+      "is_resume": true,
+      "language": "en",
+      "parse_confidence": 0.95,
+      "placeholders_seen": [
+        "name",
+        "email",
+        "phone",
+        "url"
+      ],
+      "word_count_estimate": 450
+    },
+    "leadership": [
+      {
+        "budget_or_scale": "$9,000 annual budget; 90 dues-paying members",
+        "elected_or_appointed": "elected",
+        "highlight": "Managed a $9,000 budget and 90 members, 2022-2024",
+        "org": "Mizzou Finance Association",
+        "people_led": null,
+        "role": "Treasurer"
+      }
+    ],
+    "projects": [],
+    "publications": [],
+    "red_flags": [],
+    "residual_pii": {
+      "email_count": 0,
+      "name_suspected": false,
+      "other_identifiers": [],
+      "phone_count": 0,
+      "street_address_suspected": false,
+      "url_count": 0
+    },
+    "schema_version": "1.1",
+    "scores": {
+      "academia": {
+        "holistic_score": 10,
+        "included": false,
+        "rationale": "A TA role only.",
+        "stage_relative_score": 10,
+        "sub_scores": {
+          "breadth": 15,
+          "impact": 10,
+          "pedigree": 35,
+          "selectivity": 15,
+          "trajectory": 40
+        },
+        "top_evidence": []
+      },
+      "finance": {
+        "holistic_score": 50,
+        "included": true,
+        "rationale": "B-tier corporate finance (F500 FP&A) with genuine forecast ownership and quantified savings ($2.1M freight, labor variance 4.5% to 1.8%), about half the bullets quantified. No banking, investing or deal exposure; T3 school; CFA Level I not yet sat.",
+        "stage_relative_score": 52,
+        "sub_scores": {
+          "breadth": 40,
+          "impact": 45,
+          "pedigree": 42,
+          "selectivity": 35,
+          "trajectory": 50
+        },
+        "top_evidence": [
+          "Monthly forecast and annual plan for a $1.4B, 14-site division",
+          "$2.1M freight savings; labor-cost variance 4.5% to 1.8%",
+          "Internship converted to full-time at the same company"
+        ]
+      },
+      "general": {
+        "holistic_score": 49,
+        "included": true,
+        "rationale": "Two years of corporate FP&A at a B-tier F500 company with real ownership of a $1.4B division forecast and two savings figures; T3 degree with a 3.6; a club treasurer role. Steady and credible, with no selective bar yet.",
+        "stage_relative_score": 50,
+        "sub_scores": {
+          "breadth": 40,
+          "impact": 45,
+          "pedigree": 42,
+          "selectivity": 35,
+          "trajectory": 50
+        },
+        "top_evidence": [
+          "Owns the forecast for a $1.4B division two years in",
+          "$2.1M annualized freight savings adopted",
+          "T3 finance degree, 3.6 GPA; CFA Level I candidate"
+        ]
+      },
+      "tech": {
+        "holistic_score": 15,
+        "included": false,
+        "rationale": "Power Query, Power BI and basic SQL in a finance role; no engineering footprint.",
+        "stage_relative_score": 15,
+        "sub_scores": {
+          "breadth": 20,
+          "impact": 25,
+          "pedigree": 30,
+          "selectivity": 20,
+          "trajectory": 45
+        },
+        "top_evidence": []
+      }
+    },
+    "signals": {
+      "career_stage": "early",
+      "has_quantified_impact": true,
+      "highest_institution_tier": "T3",
+      "highest_org_tier": "B",
+      "max_impact_scale": "org",
+      "months_internship": 3,
+      "primary_domain": "finance",
+      "sustained_org_tier": "B",
+      "top_role_selectivity": "modest",
+      "trajectory": "steady",
+      "years_fulltime": 2.3
+    },
+    "skills": {
+      "certifications": [
+        "CFA Level I candidate (February 2027)",
+        "Microsoft Excel Expert (2024)"
+      ],
+      "domain": [
+        "financial modeling",
+        "variance analysis",
+        "forecasting and budgeting",
+        "capital expenditure tracking"
+      ],
+      "keyword_stuffing_suspected": false,
+      "spoken_languages": [],
+      "technical": [
+        "Excel",
+        "Hyperion Planning",
+        "Oracle ERP",
+        "Power BI",
+        "Power Query",
+        "SQL",
+        "PowerPoint"
+      ]
+    },
+    "strengths": [
+      "Owns the monthly forecast and annual operating plan for a $1.4B, 14-site division, with the division CFO as the audience",
+      "$2.1M of annualized freight savings adopted by operations in Q3 2025",
+      "Labor-cost forecast variance reduced from 4.5% to 1.8% after the headcount model rebuild",
+      "Internship at the same company converted to the full-time seat"
+    ],
+    "verdict": "Two credible years of F500 FP&A with real forecast ownership and two savings numbers; no selective platform or market exposure yet.",
+    "weaknesses": [
+      "No deal, market or investing exposure; the record is entirely corporate FP&A at one company",
+      "T3 school and a modest-selectivity role chain; CFA Level I is pending, not passed",
+      "About half the bullets describe recurring duties (QBR deck, capex reconciliation) without an outcome",
+      "Club treasurer is the only leadership line and it is a student-era role"
+    ]
+  },
+  "card_sha256": "a931ebce4eb62ff65f2820909ce4caa0277f88dd4117ae011947bcfcf23e61cf",
+  "category_relevance": {
+    "academia": 0.02,
+    "finance": 0.9,
+    "general": 1,
+    "tech": 0.08
+  },
+  "created_at": "2026-10-03T12:12:00Z",
+  "deleted_at": null,
+  "duplicate_of": null,
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+5f7c9f15",
+    "verdict": {
+      "estimated_career_stage": "early",
+      "is_resume": true,
+      "language": "en",
+      "prompt_injection_detected": false,
+      "reason": "Résumé with dated roles and education.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "finance-1300-early-f",
+  "held_reason": null,
+  "id": "2elgnjj7jt",
+  "kind": "user",
+  "metrics": {
+    "char_count": 2972,
+    "columns_detected": 0,
+    "extraction_quality": 0.95,
+    "font_count": 0,
+    "image_count": 0,
+    "pages": 1,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "docx",
+    "word_count": 445
+  },
+  "owner_hash": "5864fb95cad9b019997ac1c6f86fd62f159f22b6ec57f3516e818e5b561825e7",
+  "primary": "finance",
+  "rejected_reason": null,
+  "schema": 1,
+  "scores": {
+    "finance": 48,
+    "general": 47
+  },
+  "source": {
+    "client_version": "fixtures",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 1
+  },
+  "stage": "early",
+  "status": "analyzed",
+  "superseded_by": null,
+  "supersedes": null,
+  "text": "[name]\nSt. Louis, MO | [email] | [phone] | [url]\n\nPROFESSIONAL SUMMARY\nFinancial analyst with two years in FP&A at a Fortune 500 industrial manufacturer. Own the monthly forecast and annual operating plan for a $1.4B automation solutions division. Strong in Excel modeling, Hyperion Planning, and turning plant-level data into a story the division president can act on.\n\nEXPERIENCE\n\nEmerson Electric Co. — St. Louis, MO\nFinancial Analyst, FP&A, Discrete Automation | July 2024 – Present\n- Own the monthly rolling forecast and the annual operating plan for a division with $1.4B in revenue and 14 manufacturing sites; present variance analysis to the division CFO each month\n- Built a driver-based forecasting model in Excel and Hyperion that replaced a spreadsheet consolidation process; closed the monthly forecast two business days earlier than the prior year\n- Identified $2.1M of annualized freight savings by analyzing carrier invoices across four plants and recommending a consolidation that operations adopted in Q3 2025\n- Prepare the quarterly business review deck for the division president and support the earnings-call backup schedules for the segment\n- Reconcile the capital expenditure forecast against project tracking, covering about 60 open projects\n- Partner with plant controllers to explain manufacturing variances and inventory movements\n- Mentored the 2025 summer finance intern on the forecast model\n- Rebuilt the division's headcount forecast with HR data feeds, reducing the variance between planned and actual labor cost from 4.5% to 1.8% in the first two quarters of use\n\nEmerson Electric Co. — St. Louis, MO\nFinance Intern, Corporate FP&A | May 2023 – August 2023\n- Supported the corporate consolidation of the quarterly forecast across five business groups\n- Automated a weekly cash reporting file in Excel with Power Query, saving the team about 4 hours a week\n- Prepared peer-company margin benchmarking used in the annual strategy review\n\nUniversity of Missouri — Columbia, MO\nTeaching Assistant, Introductory Financial Accounting | August 2023 – May 2024\n- Led weekly review sessions for about 60 students and graded problem sets\n\nEDUCATION\nUniversity of Missouri — Trulaske College of Business, Columbia, MO\nB.S. in Business Administration, Finance emphasis, May 2024 | GPA 3.6\nRelevant coursework: Corporate Finance, Financial Statement Analysis, Managerial Accounting, Business Analytics, Investments\n\nCERTIFICATIONS AND TRAINING\n- CFA Level I candidate (sitting February 2027)\n- Emerson Finance Leadership Development Program course series, 2025\n- Microsoft Excel Expert certification, 2024\n\nSKILLS\nFinancial modeling, variance analysis, forecasting and budgeting, Hyperion Planning, Oracle ERP, Power BI, Power Query, SQL (basic), PowerPoint\n\nACTIVITIES\n- Treasurer, Mizzou Finance Association, 2022 – 2024 (managed a $9,000 annual budget and 90 dues-paying members)\n- Volunteer tax preparer, VITA program, 2023 and 2024 filing seasons",
+  "text_sha256": "b60866bc88354a6e443285d0bc1af56b9736db95290cb730d4cba7b74ad53318",
+  "top_signal": "$1.4B div forecast",
+  "updated_at": "2026-10-03T12:12:00Z",
+  "usage": {
+    "analysis_usd": 0.17728,
+    "gate_usd": 0.0016,
+    "latency_ms": 1
+  },
+  "versions": {
+    "analyst_model": "claude-opus-5-5",
+    "analyst_prompt": "analyst.v1+6dbc77ff",
+    "fell_back": false,
+    "gate_prompt": "gate.v1+5f7c9f15",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "visibility": "anonymous"
+}

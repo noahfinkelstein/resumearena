@@ -1,0 +1,38 @@
+{
+  "dtxtsp6zgw": {
+    "c": {
+      "general": 1,
+      "tech": 1
+    },
+    "ch": "3ca13d94aa24351f22e9a8f3d62820890f94f0a5d12076fc05c043e0d13d93be",
+    "h": "tech-1900-student-s",
+    "p": "tech",
+    "s": "analyzed",
+    "sc": {
+      "general": 84,
+      "tech": 85
+    },
+    "sig": "ICPC NAC champion",
+    "ss": {
+      "general": [
+        92,
+        75,
+        40,
+        96,
+        55,
+        92
+      ],
+      "tech": [
+        92,
+        78,
+        45,
+        97,
+        55,
+        93
+      ]
+    },
+    "st": "student",
+    "t": 1791029220,
+    "v": "handle"
+  }
+}

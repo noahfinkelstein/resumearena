@@ -1,0 +1,436 @@
+{
+  "analysis_confidence": 0.93,
+  "ats": {
+    "detected": {
+      "action_verb_ratio": 0.92,
+      "bullet_count": 14,
+      "bullet_marker_consistent": true,
+      "contact_at_top": true,
+      "date_format_consistent": true,
+      "date_formats_seen": [
+        "Month YYYY"
+      ],
+      "has_email": true,
+      "has_location": true,
+      "has_phone": true,
+      "has_profile_link": true,
+      "has_street_address": false,
+      "has_summary_section": false,
+      "nonstandard_headings": [],
+      "quantified_bullet_ratio": 0.55,
+      "reverse_chronological": true,
+      "section_order": [
+        "Education",
+        "Experience",
+        "Leadership",
+        "Skills"
+      ],
+      "skill_bars_or_ratings": false,
+      "standard_headings": [
+        "EDUCATION",
+        "EXPERIENCE",
+        "LEADERSHIP",
+        "SKILLS AND INTERESTS"
+      ],
+      "uses_tables_suspected": false
+    },
+    "factors": {
+      "consistency": {
+        "note": "One date format (Month YYYY)",
+        "score": 100
+      },
+      "contact_info": {
+        "note": "Email, phone, city and a profile link placeholder",
+        "score": 100
+      },
+      "formatting": {
+        "note": "Standard headings, one bullet glyph, reverse-chronological, 2 fonts",
+        "score": 100
+      },
+      "keyword_alignment": {
+        "note": "Investment banking or TS analyst target: QoE, NWC, comps, DCF and credit spreading all appear in bullets with numbers",
+        "score": 90
+      },
+      "length": {
+        "note": "1 page for a student",
+        "score": 100
+      },
+      "parseability": {
+        "note": "Single-column 1-page PDF, extraction quality 0.96; contact placeholders on line 2",
+        "score": 100
+      },
+      "quantification": {
+        "note": "About 55% of bullets tie a number to an outcome",
+        "score": 80
+      }
+    },
+    "fixes": [
+      {
+        "factor": "quantification",
+        "fix": "Before: Spread financial statements for 15 middle-market borrowers → After: Spread 15 borrowers ($__M aggregate exposure); 2 annual reviews approved without revision",
+        "issue": "The commercial banking bullets have counts but no outcome",
+        "priority": "medium"
+      },
+      {
+        "factor": "formatting",
+        "fix": "Split \"Skills and Interests\" so the certification line is parsed as a credential",
+        "issue": "Interests share a heading with skills and certifications",
+        "priority": "low"
+      },
+      {
+        "factor": "keyword_alignment",
+        "fix": "Either cite a case where the LBO model was built or drop the term from the skills line",
+        "issue": "LBO template is listed as a skill but never used in a bullet",
+        "priority": "low"
+      }
+    ],
+    "score": 95,
+    "target_role_used": "Investment banking or transaction services summer analyst"
+  },
+  "awards": [],
+  "card": {
+    "awards": [
+      {
+        "name": "Business Honors Program admission",
+        "scope": "institutional",
+        "selectivity": "selective"
+      }
+    ],
+    "card_version": "1.0",
+    "career_stage": "student",
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2028,
+        "field": "Finance",
+        "gpa_band": "3.7-3.89",
+        "honors": [
+          "Business Honors Program",
+          "University Honors"
+        ],
+        "in_progress": true,
+        "institution": "University of Texas at Austin (McCombs)",
+        "institution_tier": "T2"
+      }
+    ],
+    "experiences": [
+      {
+        "duration_months": 3,
+        "employment_type": "internship",
+        "highlights": [
+          "QoE on $180M, $45M and $320M transactions",
+          "Found $2.1M of non-recurring expenses for the adjusted EBITDA schedule",
+          "Return offer for 2027"
+        ],
+        "impact_scale": "team",
+        "org": "KPMG",
+        "org_tier": "B",
+        "role": "Financial Due Diligence Intern, Transaction Services",
+        "role_selectivity": "selective",
+        "seniority": "intern",
+        "years": "2026-2026"
+      },
+      {
+        "duration_months": 13,
+        "employment_type": "part_time",
+        "highlights": [
+          "Selected 8 of 94 applicants",
+          "Approved pitch up 18% vs 9% benchmark"
+        ],
+        "impact_scale": "team",
+        "org": "Student-run investment fund (~$900k AUM)",
+        "org_tier": "C",
+        "role": "Analyst, Industrials",
+        "role_selectivity": "selective",
+        "seniority": "analyst",
+        "years": "2025-present"
+      },
+      {
+        "duration_months": 3,
+        "employment_type": "internship",
+        "highlights": [
+          "Spread 15 middle-market borrowers; covenant tracker adopted"
+        ],
+        "impact_scale": "team",
+        "org": "Texas Capital Bank",
+        "org_tier": "C",
+        "role": "Summer Analyst, Commercial Banking",
+        "role_selectivity": "modest",
+        "seniority": "intern",
+        "years": "2025-2025"
+      }
+    ],
+    "headline": "Finance junior in a T2 honors program; Big-4 transaction services intern with a return offer; $900k student-fund analyst",
+    "leadership": [
+      "Vice President of Education, undergraduate finance association; 10-week prep series for 60 students"
+    ],
+    "notable": [
+      "Student-fund pitch returned 18% against a 9% benchmark",
+      "Big-4 return offer as a rising junior"
+    ],
+    "projects": [],
+    "publications_summary": {
+      "citation_signal": "not stated",
+      "count_total": 0,
+      "first_author_count": 0,
+      "strong_venue_count": 0,
+      "top_venue_count": 0,
+      "venues": []
+    },
+    "skills_top": [
+      "Excel modeling",
+      "Quality of earnings",
+      "NWC analysis",
+      "Comps",
+      "DCF",
+      "Capital IQ",
+      "Bloomberg",
+      "Credit spreading"
+    ],
+    "top_signal": "Big-4 TS intern",
+    "years_fulltime": 0
+  },
+  "category_relevance": {
+    "academia": 0,
+    "finance": 0.9,
+    "general": 1,
+    "tech": 0.05
+  },
+  "education": [
+    {
+      "degree_level": "bachelor",
+      "end_year": 2028,
+      "field": "Finance",
+      "gpa": 3.74,
+      "gpa_band": "3.7-3.89",
+      "gpa_scale": 4,
+      "honors": [
+        "Business Honors Program",
+        "University Honors (3 semesters)",
+        "McCombs Dean's List"
+      ],
+      "in_progress": true,
+      "institution": "The University of Texas at Austin, McCombs School of Business",
+      "institution_tier": "T2",
+      "notes": "Valuation, financial statement analysis and intermediate accounting completed",
+      "start_year": null
+    }
+  ],
+  "experiences": [
+    {
+      "bullets_condensed": [
+        "Buy-side QoE on three deals: $180M HVAC roll-up, $45M carve-out, $320M software take-private",
+        "Built the EBITDA bridge and NWC analysis; found $2.1M of non-recurring expenses and a $0.9M timing issue",
+        "Rebuilt 24 months of NWC from trial balances; reconciled within $15k",
+        "Drafted 11 report pages; return offer for 2027"
+      ],
+      "duration_months": 3,
+      "employment_type": "internship",
+      "end": "2026-08",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "KPMG LLP",
+      "org_tier": "B",
+      "org_type": "private_company",
+      "ownership": "owned_component",
+      "quantified_impact": true,
+      "role": "Financial Due Diligence Intern",
+      "role_selectivity": "selective",
+      "seniority": "intern",
+      "start": "2026-06",
+      "team_or_division": "Deal Advisory & Strategy, Transaction Services"
+    },
+    {
+      "bullets_condensed": [
+        "One of 8 analysts selected from 94 applicants; fund of about $900k",
+        "Pitch approved as a 3% position (about $27k); up 18% vs 9% for the benchmark through September 2026",
+        "Comps of 9 peers and a 5-year DCF; weekly earnings tracker"
+      ],
+      "duration_months": 13,
+      "employment_type": "part_time",
+      "end": "present",
+      "impact_scale": "team",
+      "is_current": true,
+      "org": "Longhorn Student Investment Fund",
+      "org_tier": "C",
+      "org_type": "other",
+      "ownership": "owned_component",
+      "quantified_impact": true,
+      "role": "Analyst, Industrials",
+      "role_selectivity": "selective",
+      "seniority": "analyst",
+      "start": "2025-09",
+      "team_or_division": null
+    },
+    {
+      "bullets_condensed": [
+        "Spread statements for 15 middle-market borrowers; drafted annual review memos",
+        "Built a covenant tracking sheet adopted by the team; attended 9 site visits"
+      ],
+      "duration_months": 3,
+      "employment_type": "internship",
+      "end": "2025-08",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "Texas Capital Bank",
+      "org_tier": "C",
+      "org_type": "bank",
+      "ownership": "contributed",
+      "quantified_impact": false,
+      "role": "Summer Analyst",
+      "role_selectivity": "modest",
+      "seniority": "intern",
+      "start": "2025-06",
+      "team_or_division": "Commercial Banking"
+    }
+  ],
+  "input": {
+    "is_resume": true,
+    "language": "en",
+    "parse_confidence": 0.96,
+    "placeholders_seen": [
+      "name",
+      "email",
+      "phone",
+      "url"
+    ],
+    "word_count_estimate": 460
+  },
+  "leadership": [
+    {
+      "budget_or_scale": "60 students in a 10-week prep series",
+      "elected_or_appointed": "elected",
+      "highlight": "Runs the technical interview prep series; recruited 6 alumni speakers",
+      "org": "Undergraduate Finance Association, McCombs",
+      "people_led": null,
+      "role": "Vice President of Education"
+    }
+  ],
+  "projects": [],
+  "publications": [],
+  "red_flags": [],
+  "residual_pii": {
+    "email_count": 0,
+    "name_suspected": false,
+    "other_identifiers": [],
+    "phone_count": 0,
+    "street_address_suspected": false,
+    "url_count": 0
+  },
+  "schema_version": "1.1",
+  "scores": {
+    "academia": {
+      "holistic_score": 10,
+      "included": false,
+      "rationale": "No research output.",
+      "stage_relative_score": 10,
+      "sub_scores": {
+        "breadth": 10,
+        "impact": 10,
+        "pedigree": 45,
+        "selectivity": 20,
+        "trajectory": 40
+      },
+      "top_evidence": []
+    },
+    "finance": {
+      "holistic_score": 57,
+      "included": true,
+      "rationale": "Semi-target honors student with Big-4 TS and a real student fund: deal sizes, QoE findings and a position return are stated concretely; no bulge-bracket or buy-side selection yet.",
+      "stage_relative_score": 57,
+      "sub_scores": {
+        "breadth": 40,
+        "impact": 40,
+        "pedigree": 62,
+        "selectivity": 58,
+        "trajectory": 55
+      },
+      "top_evidence": [
+        "QoE work on $180M, $45M and $320M transactions with $2.1M of adjustments found",
+        "Student fund position up 18% against a 9% benchmark",
+        "Commercial banking summer with 15 borrowers spread"
+      ]
+    },
+    "general": {
+      "holistic_score": 56,
+      "included": true,
+      "rationale": "T2 honors program with a 3.74, a Big-4 transaction services internship with a return offer, and a selected seat in a student fund with real money; outcomes are team-scale.",
+      "stage_relative_score": 56,
+      "sub_scores": {
+        "breadth": 42,
+        "impact": 38,
+        "pedigree": 60,
+        "selectivity": 55,
+        "trajectory": 55
+      },
+      "top_evidence": [
+        "Big-4 transaction services intern with return offer",
+        "Student fund analyst selected from 94 applicants; pitch up 18% vs 9%",
+        "Business Honors Program at a T2 school"
+      ]
+    },
+    "tech": {
+      "holistic_score": 10,
+      "included": false,
+      "rationale": "Python basics only.",
+      "stage_relative_score": 10,
+      "sub_scores": {
+        "breadth": 15,
+        "impact": 15,
+        "pedigree": 40,
+        "selectivity": 20,
+        "trajectory": 40
+      },
+      "top_evidence": []
+    }
+  },
+  "signals": {
+    "career_stage": "student",
+    "has_quantified_impact": true,
+    "highest_institution_tier": "T2",
+    "highest_org_tier": "B",
+    "max_impact_scale": "team",
+    "months_internship": 6,
+    "primary_domain": "finance",
+    "sustained_org_tier": "unknown",
+    "top_role_selectivity": "selective",
+    "trajectory": "too_early",
+    "years_fulltime": 0
+  },
+  "skills": {
+    "certifications": [
+      "Bloomberg Market Concepts"
+    ],
+    "domain": [
+      "Quality of earnings",
+      "Net working capital analysis",
+      "Comparable companies",
+      "DCF",
+      "Credit analysis"
+    ],
+    "keyword_stuffing_suspected": false,
+    "spoken_languages": [
+      "Spanish (conversational)"
+    ],
+    "technical": [
+      "Excel",
+      "PowerPoint",
+      "Capital IQ",
+      "Bloomberg Terminal",
+      "Python (pandas)"
+    ]
+  },
+  "strengths": [
+    "Big-4 transaction services internship with deal sizes and a return offer for 2027",
+    "Student fund seat won against 94 applicants; a pitch that returned 18% against a 9% benchmark",
+    "Business Honors Program at a T2 school with a 3.74 GPA",
+    "QoE findings stated in dollars ($2.1M of adjustments, reconciliation within $15k)"
+  ],
+  "verdict": "A semi-target honors student whose Big-4 diligence summer and student-fund seat are described concretely; the next bar is a front-office selection.",
+  "weaknesses": [
+    "No bulge-bracket, boutique or buy-side selection yet",
+    "Fund position size is small ($27k) and one pitch is thin evidence of judgement",
+    "Commercial banking summer is described by activity counts",
+    "Python and LBO modeling are listed without supporting bullets"
+  ]
+}

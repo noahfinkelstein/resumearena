@@ -1,0 +1,38 @@
+{
+  "jz4cv4gtug": {
+    "c": {
+      "finance": 1,
+      "general": 1
+    },
+    "ch": "167f10df5b881bea868b1c395fcb4dfd9287d166ef9f74c47eb327043efa243e",
+    "h": "finance-1500-mid-mm",
+    "p": "finance",
+    "s": "analyzed",
+    "sc": {
+      "finance": 67,
+      "general": 65
+    },
+    "sig": "10 deals, ~$3B",
+    "ss": {
+      "finance": [
+        55,
+        64,
+        68,
+        58,
+        30,
+        73
+      ],
+      "general": [
+        58,
+        62,
+        66,
+        60,
+        35,
+        70
+      ]
+    },
+    "st": "mid",
+    "t": 1791029640,
+    "v": "anonymous"
+  }
+}

@@ -1,0 +1,459 @@
+{
+  "analysis_confidence": 0.93,
+  "ats": {
+    "detected": {
+      "action_verb_ratio": 0.9,
+      "bullet_count": 16,
+      "bullet_marker_consistent": true,
+      "contact_at_top": true,
+      "date_format_consistent": true,
+      "date_formats_seen": [
+        "MMM YYYY"
+      ],
+      "has_email": true,
+      "has_location": true,
+      "has_phone": true,
+      "has_profile_link": true,
+      "has_street_address": false,
+      "has_summary_section": true,
+      "nonstandard_headings": [
+        "Open Source",
+        "Talks and Recognition"
+      ],
+      "quantified_bullet_ratio": 0.85,
+      "reverse_chronological": true,
+      "section_order": [
+        "Summary",
+        "Experience",
+        "Projects",
+        "Publications",
+        "Education",
+        "Awards",
+        "Skills"
+      ],
+      "skill_bars_or_ratings": false,
+      "standard_headings": [
+        "Experience",
+        "Publication",
+        "Education",
+        "Skills"
+      ],
+      "uses_tables_suspected": false
+    },
+    "factors": {
+      "consistency": {
+        "note": "One date format, titles match the bullets, no gaps",
+        "score": 100
+      },
+      "contact_info": {
+        "note": "Email, phone, city and two profile links at the top",
+        "score": 100
+      },
+      "formatting": {
+        "note": "Consistent bullets; the publication and talks blocks are prose and a mixed list; two fonts",
+        "score": 90
+      },
+      "keyword_alignment": {
+        "note": "Distributed systems, build infrastructure, GA launches and management scope all evidenced in bullets",
+        "score": 92
+      },
+      "length": {
+        "note": "Two pages for a founder with seven years",
+        "score": 100
+      },
+      "parseability": {
+        "note": "Single column, standard headings, contact placeholders in the first two lines",
+        "score": 100
+      },
+      "quantification": {
+        "note": "Nearly every bullet carries a revenue, scale, latency or headcount number",
+        "score": 100
+      }
+    },
+    "fixes": [
+      {
+        "factor": "formatting",
+        "fix": "Rename the heading to Publications and format the entry as one bullet with venue, year and author position.",
+        "issue": "The publication is a prose paragraph under a singular heading",
+        "priority": "low"
+      },
+      {
+        "factor": "parseability",
+        "fix": "Split it into Awards (Forbes list) and Talks, or fold the talks into the open-source entry.",
+        "issue": "Talks and Recognition is a heading parsers cannot map",
+        "priority": "low"
+      },
+      {
+        "factor": "keyword_alignment",
+        "fix": "Either drop them or attach each to a bullet where it was used.",
+        "issue": "Rust and Java appear only in the skills line",
+        "priority": "low"
+      }
+    ],
+    "score": 97,
+    "target_role_used": "Founder or VP Engineering, infrastructure"
+  },
+  "awards": [
+    {
+      "issuer": "Forbes",
+      "name": "Forbes 30 Under 30, Enterprise Technology",
+      "pool_estimate": "30 per category from thousands nominated",
+      "scope": "national",
+      "selectivity": "highly_selective",
+      "verifiable": true,
+      "year": 2024
+    }
+  ],
+  "card": {
+    "awards": [
+      {
+        "name": "Forbes 30 Under 30 (Enterprise Technology)",
+        "scope": "national",
+        "selectivity": "highly_selective"
+      }
+    ],
+    "card_version": "1.0",
+    "career_stage": "mid",
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2018,
+        "field": "Computer Science",
+        "gpa_band": "3.7-3.89",
+        "honors": [
+          "with Distinction"
+        ],
+        "in_progress": false,
+        "institution": "Stanford University",
+        "institution_tier": "T1"
+      }
+    ],
+    "experiences": [
+      {
+        "duration_months": 46,
+        "employment_type": "founder",
+        "highlights": [
+          "ARR $0 to $6.1M in 3 years; 70 customers incl. 4 of the Fortune 100; NRR 128%",
+          "Designed a cache and scheduler running 400M actions/day, p99 hit latency under 30 ms",
+          "Leads 22 engineers across 4 teams; Series A led by a top-tier firm, $24M raised"
+        ],
+        "impact_scale": "industry",
+        "org": "Cachewright (YC W22)",
+        "org_tier": "A",
+        "role": "Co-founder and CTO",
+        "role_selectivity": "highly_selective",
+        "seniority": "founder",
+        "years": "2022-present"
+      },
+      {
+        "duration_months": 42,
+        "employment_type": "full_time",
+        "highlights": [
+          "Tech lead for change streams to GA: ~2,000 customers, ~1.2B records/day",
+          "Cut commit-path p99 latency 18% fleet-wide",
+          "Promoted to Senior in 2.5 years"
+        ],
+        "impact_scale": "org",
+        "org": "Google",
+        "org_tier": "A",
+        "role": "Senior Software Engineer, Spanner",
+        "role_selectivity": "selective",
+        "seniority": "senior",
+        "years": "2018-2021"
+      }
+    ],
+    "headline": "Co-founder/CTO of a 40-person YC dev-infra company ($6.1M ARR); ex-A-tier database team; 15k-star OSS maintainer",
+    "leadership": [
+      "Leads a 22-person engineering organization with 3 managers; attrition under 8%/year",
+      "Hiring committee member at an A-tier company; ~120 interviews"
+    ],
+    "notable": [
+      "YC-backed co-founder with a Series A from a top-tier firm and $6.1M ARR",
+      "First-author OSDI paper describing the production system",
+      "15k-star open-source project used in production at large companies",
+      "Tech lead of a GA database feature at an A-tier company by year 3"
+    ],
+    "projects": [
+      {
+        "descriptor": "Maintainer of an open-source remote build-cache server",
+        "highlight": "Co-maintains the remote execution API specification working group",
+        "kind": "software",
+        "scale_signal": "~15k stars, 180 contributors, ~400k downloads/month, production use at three large companies",
+        "technical_depth": "exceptional"
+      }
+    ],
+    "publications_summary": {
+      "citation_signal": "not stated",
+      "count_total": 1,
+      "first_author_count": 1,
+      "strong_venue_count": 0,
+      "top_venue_count": 1,
+      "venues": [
+        "OSDI"
+      ]
+    },
+    "skills_top": [
+      "Distributed systems",
+      "Go",
+      "C++",
+      "Build systems",
+      "Storage engines",
+      "gRPC",
+      "Kubernetes",
+      "Rust",
+      "Engineering management"
+    ],
+    "top_signal": "YC CTO, $6.1M ARR",
+    "years_fulltime": 7.3
+  },
+  "category_relevance": {
+    "academia": 0.3,
+    "finance": 0.1,
+    "general": 1,
+    "tech": 1
+  },
+  "education": [
+    {
+      "degree_level": "bachelor",
+      "end_year": 2018,
+      "field": "Computer Science",
+      "gpa": 3.8,
+      "gpa_band": "3.7-3.89",
+      "gpa_scale": 4,
+      "honors": [
+        "with Distinction"
+      ],
+      "in_progress": false,
+      "institution": "Stanford University",
+      "institution_tier": "T1",
+      "notes": "TA for the operating systems course for two quarters",
+      "start_year": 2014
+    }
+  ],
+  "experiences": [
+    {
+      "bullets_condensed": [
+        "ARR $0 to $6.1M in 3 years; 70 customers, 4 of the Fortune 100; NRR 128%",
+        "Cache and scheduler: 400M actions/day, p99 under 30 ms, 3 regions",
+        "Leads 22 engineers, 3 EMs; attrition under 8%/year",
+        "SOC 2 Type II in 9 months unblocked $1.8M ARR"
+      ],
+      "duration_months": 46,
+      "employment_type": "founder",
+      "end": "present",
+      "impact_scale": "industry",
+      "is_current": true,
+      "org": "Cachewright",
+      "org_tier": "A",
+      "org_type": "startup",
+      "ownership": "led",
+      "quantified_impact": true,
+      "role": "Co-founder and CTO",
+      "role_selectivity": "highly_selective",
+      "seniority": "founder",
+      "start": "2022-01",
+      "team_or_division": null
+    },
+    {
+      "bullets_condensed": [
+        "TL (3 engineers) for change streams to GA: ~2,000 customers, ~1.2B records/day",
+        "Commit-path p99 latency down 18% fleet-wide",
+        "Promoted to Senior in 2.5 years; hiring committee; ~120 interviews"
+      ],
+      "duration_months": 42,
+      "employment_type": "full_time",
+      "end": "2021-12",
+      "impact_scale": "org",
+      "is_current": false,
+      "org": "Google",
+      "org_tier": "A",
+      "org_type": "public_company",
+      "ownership": "led",
+      "quantified_impact": true,
+      "role": "Software Engineer III, then Senior Software Engineer",
+      "role_selectivity": "selective",
+      "seniority": "senior",
+      "start": "2018-07",
+      "team_or_division": "Spanner"
+    }
+  ],
+  "input": {
+    "is_resume": true,
+    "language": "en",
+    "parse_confidence": 0.98,
+    "placeholders_seen": [
+      "name",
+      "email",
+      "phone",
+      "url"
+    ],
+    "word_count_estimate": 809
+  },
+  "leadership": [
+    {
+      "budget_or_scale": "22 engineers, 4 teams, 3 managers; $24M raised",
+      "elected_or_appointed": "founded",
+      "highlight": "Built the engineering organization from 2 to 22 with attrition under 8% a year",
+      "org": "Cachewright",
+      "people_led": 22,
+      "role": "CTO"
+    },
+    {
+      "budget_or_scale": "cross-company specification",
+      "elected_or_appointed": "appointed",
+      "highlight": "Co-maintains the specification since 2021",
+      "org": "Remote execution API working group",
+      "people_led": null,
+      "role": "Co-maintainer"
+    }
+  ],
+  "projects": [
+    {
+      "description_condensed": "Maintainer since 2019; ~15k stars, 2k forks, 180 contributors, ~400k downloads/month; production use at Dropbox, Uber and Stripe per public posts",
+      "has_external_validation": true,
+      "kind": "software",
+      "name": "Open-source remote build-cache server",
+      "quantified_impact": true,
+      "scale_signal": "~15k stars, ~400k downloads/month",
+      "technical_depth": "exceptional"
+    }
+  ],
+  "publications": [
+    {
+      "author_count": 5,
+      "author_position": "first",
+      "citations_claimed": null,
+      "field": "Systems",
+      "kind": "conference",
+      "venue": "OSDI",
+      "venue_tier": "top",
+      "year": 2023
+    }
+  ],
+  "red_flags": [],
+  "residual_pii": {
+    "email_count": 0,
+    "name_suspected": false,
+    "other_identifiers": [],
+    "phone_count": 0,
+    "street_address_suspected": false,
+    "url_count": 0
+  },
+  "schema_version": "1.1",
+  "scores": {
+    "academia": {
+      "holistic_score": 45,
+      "included": false,
+      "rationale": "One first-author top-venue systems paper from industry; no research career.",
+      "stage_relative_score": 40,
+      "sub_scores": {
+        "breadth": 30,
+        "impact": 60,
+        "pedigree": 75,
+        "selectivity": 70,
+        "trajectory": 50
+      },
+      "top_evidence": []
+    },
+    "finance": {
+      "holistic_score": 30,
+      "included": false,
+      "rationale": "Fundraising and board reporting are the only finance exposure.",
+      "stage_relative_score": 25,
+      "sub_scores": {
+        "breadth": 20,
+        "impact": 40,
+        "pedigree": 60,
+        "selectivity": 45,
+        "trajectory": 50
+      },
+      "top_evidence": []
+    },
+    "general": {
+      "holistic_score": 94,
+      "included": true,
+      "rationale": "T1 degree, senior at an A-tier company by year 3, then YC co-founder with a Series A from a top-tier firm, $6.1M ARR and 40 staff; first-author OSDI paper; 15k-star OSS project; Forbes list.",
+      "stage_relative_score": 96,
+      "sub_scores": {
+        "breadth": 80,
+        "impact": 92,
+        "pedigree": 88,
+        "selectivity": 90,
+        "trajectory": 95
+      },
+      "top_evidence": [
+        "Series A led by a top-tier firm; $6.1M ARR; 70 customers",
+        "First-author OSDI 2023 paper",
+        "Tech lead for a GA database feature at Google"
+      ]
+    },
+    "tech": {
+      "holistic_score": 95,
+      "included": true,
+      "rationale": "Founder-CTO of a funded dev-infra company running 400M actions a day with revenue stated; tech lead of a GA Spanner feature; maintainer of a 15k-star project used by large companies; first-author OSDI.",
+      "stage_relative_score": 97,
+      "sub_scores": {
+        "breadth": 78,
+        "impact": 94,
+        "pedigree": 88,
+        "selectivity": 90,
+        "trajectory": 95
+      },
+      "top_evidence": [
+        "400M actions/day, p99 under 30 ms; $6.1M ARR",
+        "15k-star build cache used at three large companies",
+        "First-author OSDI; TL of Spanner change streams to GA"
+      ]
+    }
+  },
+  "signals": {
+    "career_stage": "mid",
+    "has_quantified_impact": true,
+    "highest_institution_tier": "T1",
+    "highest_org_tier": "A",
+    "max_impact_scale": "industry",
+    "months_internship": 0,
+    "primary_domain": "tech",
+    "sustained_org_tier": "A",
+    "top_role_selectivity": "highly_selective",
+    "trajectory": "accelerating",
+    "years_fulltime": 7.3
+  },
+  "skills": {
+    "certifications": [],
+    "domain": [
+      "Distributed systems",
+      "Consensus",
+      "Storage engines",
+      "Build systems",
+      "Engineering management",
+      "Enterprise sales support",
+      "SOC 2"
+    ],
+    "keyword_stuffing_suspected": false,
+    "spoken_languages": [],
+    "technical": [
+      "Go",
+      "C++",
+      "Rust",
+      "Java",
+      "Kubernetes",
+      "gRPC",
+      "Bazel"
+    ]
+  },
+  "strengths": [
+    "Founder-CTO with company-scale numbers: $6.1M ARR, 70 customers, NRR 128%, 22 engineers",
+    "System scale is stated: 400M actions a day at p99 under 30 ms across three regions",
+    "Tech lead of a GA database feature at an A-tier company with customer and volume numbers",
+    "First-author OSDI paper and a 15k-star open-source project with named production users",
+    "Series A led by a top-tier firm; YC batch named"
+  ],
+  "verdict": "YC founder-CTO with revenue, scale and funding stated, after a tech-lead run at an A-tier database team; one top-venue paper and a widely used OSS project.",
+  "weaknesses": [
+    "Revenue figures are self-reported with no external reference beyond the funding round",
+    "Production use of the open-source project is cited from blog posts rather than a named integration",
+    "The talks list mixes invited talks with a launch-announcement mention",
+    "No experience managing managers before the current role; the 3-EM structure is two years old"
+  ]
+}

@@ -1,0 +1,32 @@
+name: Delete an entry (fallback channel)
+description: Used by the site when direct submission is unavailable. The key you paste here becomes public; after this it can only ever delete again.
+title: "delete: "
+labels: ["ra:delete"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This removes the text, the analysis and the rating from the ladders with the next deploy. The handle stays reserved for your key.
+
+        **The key you paste here becomes public** (GitHub keeps issue edit history). The engine redacts it from the issue body after processing, but treat it as burned: after a delete through this form the key can only ever delete again. It can no longer change visibility or resubmit under the handle.
+  - type: input
+    id: submission_id
+    attributes:
+      label: submission_id
+      description: The 10-character id of the entry to delete (the /r/<id> part of its page address).
+    validations:
+      required: true
+  - type: input
+    id: handle
+    attributes:
+      label: handle
+      description: The handle the entry was submitted under.
+    validations:
+      required: true
+  - type: input
+    id: owner_key
+    attributes:
+      label: owner_key
+      description: The key shown once after you submitted (rak-xxxx-xxxx-...). It becomes public here and can only ever delete again.
+    validations:
+      required: true

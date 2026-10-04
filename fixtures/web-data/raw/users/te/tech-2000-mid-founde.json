@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:08:00Z",
+  "handle": "tech-2000-mid-founde",
+  "key_exposed": false,
+  "owner_hash": "b76b688acfc280b185a70f669290d93c8188dafe69d7ff1810c9652f991b331f",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:08:00Z",
+      "current": true,
+      "id": "leqkwxvj4d"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

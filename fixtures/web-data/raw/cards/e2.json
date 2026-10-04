@@ -1,0 +1,192 @@
+{
+  "e2foy26uvx": {
+    "card": {
+      "awards": [
+        {
+          "name": "ICML Best Paper Award",
+          "scope": "international",
+          "selectivity": "elite"
+        },
+        {
+          "name": "NSF Graduate Research Fellowship",
+          "scope": "national",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "Industry research award for distributed systems",
+          "scope": "company",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Departmental outstanding graduate instructor award",
+          "scope": "institutional",
+          "selectivity": "modest"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "senior",
+      "education": [
+        {
+          "degree_level": "phd",
+          "end_year": 2015,
+          "field": "Computer Science (systems)",
+          "gpa_band": "not_listed",
+          "honors": [],
+          "in_progress": false,
+          "institution": "University of California, Berkeley",
+          "institution_tier": "T1"
+        },
+        {
+          "degree_level": "bachelor",
+          "end_year": 2010,
+          "field": "Electrical Engineering and Computer Sciences",
+          "gpa_band": "not_listed",
+          "honors": [
+            "high honors"
+          ],
+          "in_progress": false,
+          "institution": "University of California, Berkeley",
+          "institution_tier": "T1"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 44,
+          "employment_type": "full_time",
+          "highlights": [
+            "Leads 30 people across 3 teams running the systems under every frontier training run",
+            "Multi-datacenter migration: model-FLOP utilization 38% to 52% on the largest runs",
+            "Recovery after hardware faults 47 min to 4 min; failed-run compute waste down ~80%"
+          ],
+          "impact_scale": "industry",
+          "org": "OpenAI",
+          "org_tier": "S",
+          "role": "Head of Training Infrastructure",
+          "role_selectivity": "elite",
+          "seniority": "director",
+          "years": "2023-present"
+        },
+        {
+          "duration_months": 17,
+          "employment_type": "full_time",
+          "highlights": [
+            "Pipeline-parallel runtime; removed straggler stalls worth ~11% of step time",
+            "Built the first training-run observability stack, adopted across research"
+          ],
+          "impact_scale": "org",
+          "org": "OpenAI",
+          "org_tier": "S",
+          "role": "Member of Technical Staff, Scaling",
+          "role_selectivity": "elite",
+          "seniority": "principal",
+          "years": "2021-2023"
+        },
+        {
+          "duration_months": 50,
+          "employment_type": "full_time",
+          "highlights": [
+            "Led a systems research group of 6 researchers and 4 engineers",
+            "First-author ICML paper on communication scheduling adopted in the production TPU runtime; best paper; ~2,100 citations",
+            "Optimizer-state sharding: 3.6x less memory per accelerator; default in an internal library used by 200+ researchers"
+          ],
+          "impact_scale": "industry",
+          "org": "Google Brain (Google Research)",
+          "org_tier": "A",
+          "role": "Senior Research Scientist",
+          "role_selectivity": "highly_selective",
+          "seniority": "senior",
+          "years": "2017-2021"
+        },
+        {
+          "duration_months": 24,
+          "employment_type": "full_time",
+          "highlights": [
+            "Distributed training algorithms and TPU-pod scheduling research"
+          ],
+          "impact_scale": "org",
+          "org": "Google Brain (Google Research)",
+          "org_tier": "A",
+          "role": "Research Scientist",
+          "role_selectivity": "highly_selective",
+          "seniority": "mid",
+          "years": "2015-2017"
+        },
+        {
+          "duration_months": 57,
+          "employment_type": "fellowship",
+          "highlights": [
+            "Two first-author top-venue systems papers (NSDI, SOSP) and a strong-venue paper (EuroSys)",
+            "NSF Graduate Research Fellowship; departmental outstanding GSI award"
+          ],
+          "impact_scale": "industry",
+          "org": "University of California, Berkeley",
+          "org_tier": "A",
+          "role": "Graduate Student Researcher, systems lab",
+          "role_selectivity": "highly_selective",
+          "seniority": "phd_student",
+          "years": "2010-2015"
+        }
+      ],
+      "headline": "Head of a 30-person training-infrastructure org at an S-tier lab; ex-Google Brain; ICML best paper; ~7,400 citations",
+      "leadership": [
+        "Head of a 30-person organization grown from 9 in two years; 4 reports now managers",
+        "Area chair at NeurIPS and ICML; program committee at OSDI and MLSys",
+        "Research-scientist hiring and promotion committees at an A-tier lab, 2019-2021"
+      ],
+      "notable": [
+        "ICML best paper (first author) adopted in a production TPU runtime; ~2,100 citations on that paper",
+        "Runs the training infrastructure for an S-tier lab: utilization 38% to 52%, recovery 47 min to 4 min",
+        "23 peer-reviewed papers, ~7,400 citations, 11 granted patents",
+        "Open-source library with ~6,000 stars used by external training frameworks",
+        "Five first-author top-venue papers across ICML, OSDI, SOSP and NSDI"
+      ],
+      "projects": [
+        {
+          "descriptor": "Open-source distributed-training scheduling library released by an A-tier research lab",
+          "highlight": "Original author, 2019",
+          "kind": "software",
+          "scale_signal": "~6,000 stars; used in at least 3 external training frameworks",
+          "technical_depth": "exceptional"
+        },
+        {
+          "descriptor": "Cluster-scheduler simulator released with a top-venue systems paper",
+          "highlight": "Maintained 2016-2021",
+          "kind": "software",
+          "scale_signal": "reused in ~40 follow-up papers",
+          "technical_depth": "substantial"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "~7,400 citations claimed, h-index 24",
+        "count_total": 23,
+        "first_author_count": 5,
+        "strong_venue_count": 3,
+        "top_venue_count": 7,
+        "venues": [
+          "ICML",
+          "NeurIPS",
+          "OSDI",
+          "SOSP",
+          "NSDI",
+          "MLSys",
+          "EuroSys"
+        ]
+      },
+      "skills_top": [
+        "Distributed training systems",
+        "ML systems and compilers",
+        "Python",
+        "C++",
+        "CUDA",
+        "JAX",
+        "PyTorch",
+        "Kubernetes",
+        "Capacity planning",
+        "Organizational leadership"
+      ],
+      "top_signal": "ICML best paper",
+      "years_fulltime": 13.6
+    },
+    "st": "senior"
+  }
+}

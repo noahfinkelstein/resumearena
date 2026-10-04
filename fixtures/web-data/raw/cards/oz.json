@@ -1,0 +1,143 @@
+{
+  "ozlqciz4fg": {
+    "card": {
+      "awards": [
+        {
+          "name": "Arjay Miller Scholar",
+          "scope": "institutional",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "Siebel Scholar",
+          "scope": "national",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "Phi Beta Kappa; magna cum laude",
+          "scope": "institutional",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Local newspaper top-25 executives list",
+          "scope": "regional",
+          "selectivity": "selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "senior",
+      "education": [
+        {
+          "degree_level": "mba",
+          "end_year": 2010,
+          "field": "Business Administration",
+          "gpa_band": "not_listed",
+          "honors": [
+            "Arjay Miller Scholar (top 10%)",
+            "Siebel Scholar"
+          ],
+          "in_progress": false,
+          "institution": "Stanford Graduate School of Business",
+          "institution_tier": "T1"
+        },
+        {
+          "degree_level": "bachelor",
+          "end_year": 2006,
+          "field": "Economics",
+          "gpa_band": "not_listed",
+          "honors": [
+            "magna cum laude",
+            "Phi Beta Kappa",
+            "Departmental senior thesis prize"
+          ],
+          "in_progress": false,
+          "institution": "Princeton University",
+          "institution_tier": "T1"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 74,
+          "employment_type": "full_time",
+          "highlights": [
+            "Turnaround: adjusted operating margin 4.1% to 11.8%; EBITDA $150M to $335M; FCF -$40M to +$210M",
+            "13 plants to 9 with output up 6%; $95M fixed-cost and $120M procurement savings, third-party verified",
+            "Net debt down $600M, leverage 4.9x to 2.1x; share price $14 to $41, TSR ~215% vs 48% peer index"
+          ],
+          "impact_scale": "industry",
+          "org": "Harvest Lane Brands (NYSE-listed packaged foods)",
+          "org_tier": "B",
+          "role": "Chief Operating Officer",
+          "role_selectivity": "highly_selective",
+          "seniority": "c_level",
+          "years": "2020-present"
+        },
+        {
+          "duration_months": 56,
+          "employment_type": "full_time",
+          "highlights": [
+            "Led the NA consumer operations practice: revenue $60M to $115M, 11 partners, ~120 consultants",
+            "Lead partner for six Fortune 500 clients; ~$1.4B of announced savings",
+            "Integration planning for a $7B food-industry merger"
+          ],
+          "impact_scale": "industry",
+          "org": "Bain & Company",
+          "org_tier": "A",
+          "role": "Partner, Consumer Products Practice",
+          "role_selectivity": "highly_selective",
+          "seniority": "md_partner",
+          "years": "2016-2020"
+        },
+        {
+          "duration_months": 120,
+          "employment_type": "full_time",
+          "highlights": [
+            "Partner in 10 years, two years ahead of the standard track",
+            "Two years in the London office leading European grocery projects"
+          ],
+          "impact_scale": "org",
+          "org": "Bain & Company",
+          "org_tier": "A",
+          "role": "Associate Consultant to Principal",
+          "role_selectivity": "highly_selective",
+          "seniority": "principal",
+          "years": "2006-2015"
+        }
+      ],
+      "headline": "COO of a $2B public consumer company after a Bain partnership; margin 4.1% to 11.8%, TSR ~215%; two public boards",
+      "leadership": [
+        "Runs a 4,600-person operations organization with 9 plants and three business units",
+        "Independent director on two public boards ($1.1B and $3.4B revenue); committee chair on one",
+        "Led a consulting practice of 11 partners and ~120 consultants",
+        "Food-bank trustee; chaired operations during a 60% volume surge"
+      ],
+      "notable": [
+        "Share price $14 to $41 and TSR ~215% versus a 48% peer index during the tenure",
+        "Operating margin nearly tripled with savings verified by a third party",
+        "Bain partner two years early, then a public-company C-suite",
+        "Two public board seats before 45"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Operational turnarounds",
+        "Supply chain and manufacturing",
+        "Procurement transformation",
+        "Post-merger integration",
+        "Capital allocation and deleveraging",
+        "Investor communication",
+        "Board governance",
+        "French (professional)"
+      ],
+      "top_signal": "Public-co COO, $2B",
+      "years_fulltime": 18.3
+    },
+    "st": "senior"
+  }
+}

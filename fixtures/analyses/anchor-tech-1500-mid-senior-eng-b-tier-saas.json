@@ -1,0 +1,463 @@
+{
+  "analysis_confidence": 0.93,
+  "ats": {
+    "detected": {
+      "action_verb_ratio": 0.95,
+      "bullet_count": 20,
+      "bullet_marker_consistent": true,
+      "contact_at_top": true,
+      "date_format_consistent": true,
+      "date_formats_seen": [
+        "MMM YYYY"
+      ],
+      "has_email": true,
+      "has_location": true,
+      "has_phone": true,
+      "has_profile_link": true,
+      "has_street_address": false,
+      "has_summary_section": true,
+      "nonstandard_headings": [
+        "INTERNAL RECOGNITION"
+      ],
+      "quantified_bullet_ratio": 0.85,
+      "reverse_chronological": true,
+      "section_order": [
+        "Summary",
+        "Experience",
+        "Education",
+        "Projects",
+        "Skills",
+        "Awards"
+      ],
+      "skill_bars_or_ratings": false,
+      "standard_headings": [
+        "SUMMARY",
+        "EXPERIENCE",
+        "EDUCATION",
+        "PROJECTS",
+        "SKILLS"
+      ],
+      "uses_tables_suspected": false
+    },
+    "factors": {
+      "consistency": {
+        "note": "One date format (MMM YYYY); titles match bullet scope",
+        "score": 100
+      },
+      "contact_info": {
+        "note": "Email, phone, city and two profile link placeholders",
+        "score": 100
+      },
+      "formatting": {
+        "note": "Standard headings, one bullet glyph, reverse-chronological, 2 fonts",
+        "score": 100
+      },
+      "keyword_alignment": {
+        "note": "Senior backend engineer target: distributed systems, Kafka, OpenSearch, AWS, on-call and capacity work all appear in bullets with outcomes",
+        "score": 92
+      },
+      "length": {
+        "note": "2 pages for a mid-career engineer",
+        "score": 100
+      },
+      "parseability": {
+        "note": "Single-column 2-page PDF, extraction quality 0.97; standard headings; contact placeholders on lines 1-2",
+        "score": 100
+      },
+      "quantification": {
+        "note": "About 85% of bullets tie a number to an outcome (latency, throughput, cost, click-through)",
+        "score": 100
+      }
+    },
+    "fixes": [
+      {
+        "factor": "formatting",
+        "fix": "Rename the section to \"Awards\" or fold the two lines into the senior-engineer role",
+        "issue": "\"Internal recognition\" is a heading a parser cannot map",
+        "priority": "medium"
+      },
+      {
+        "factor": "keyword_alignment",
+        "fix": "State how many design reviews you ran and what changed, e.g. \"Ran 30 design reviews in 2025; two blocked incidents\"",
+        "issue": "Mentoring and design-review leadership appear once without scope",
+        "priority": "low"
+      },
+      {
+        "factor": "length",
+        "fix": "Cut the summary to one line or remove it; the first bullet already carries the headline numbers",
+        "issue": "The summary restates the first role",
+        "priority": "low"
+      }
+    ],
+    "score": 99,
+    "target_role_used": "Senior backend or infrastructure engineer"
+  },
+  "awards": [
+    {
+      "issuer": "Atlassian",
+      "name": "Platform Engineering Award (team)",
+      "pool_estimate": "company-wide engineering award",
+      "scope": "company",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2025
+    }
+  ],
+  "card": {
+    "awards": [
+      {
+        "name": "Company platform engineering award (team)",
+        "scope": "company",
+        "selectivity": "selective"
+      }
+    ],
+    "card_version": "1.0",
+    "career_stage": "mid",
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2021,
+        "field": "Computer Science and Engineering",
+        "gpa_band": "3.5-3.69",
+        "honors": [],
+        "in_progress": false,
+        "institution": "The Ohio State University",
+        "institution_tier": "T3"
+      }
+    ],
+    "experiences": [
+      {
+        "duration_months": 31,
+        "employment_type": "full_time",
+        "highlights": [
+          "Owns indexing service: 1.4B documents, 85k events/s sustained, 99.95% availability",
+          "Cut p99 index-visibility latency from 4.2 s to 1.1 s",
+          "Led 4-engineer migration to managed OpenSearch; $1.1M/yr saved"
+        ],
+        "impact_scale": "org",
+        "org": "Atlassian",
+        "org_tier": "B",
+        "role": "Senior Software Engineer, Search Platform",
+        "role_selectivity": "selective",
+        "seniority": "senior",
+        "years": "2024-present"
+      },
+      {
+        "duration_months": 31,
+        "employment_type": "full_time",
+        "highlights": [
+          "Query router across 60 domains: 22k queries/s, p99 under 180 ms",
+          "Index storage down 27% (about 410 TB)",
+          "Typeahead ranking lifted click-through from 31% to 44%"
+        ],
+        "impact_scale": "org",
+        "org": "Atlassian",
+        "org_tier": "B",
+        "role": "Software Engineer, Search Platform",
+        "role_selectivity": "selective",
+        "seniority": "mid",
+        "years": "2021-2024"
+      },
+      {
+        "duration_months": 3,
+        "employment_type": "internship",
+        "highlights": [
+          "Synonym expansion prototype shipped; return offer"
+        ],
+        "impact_scale": "team",
+        "org": "Atlassian",
+        "org_tier": "B",
+        "role": "Software Engineering Intern",
+        "role_selectivity": "selective",
+        "seniority": "intern",
+        "years": "2020-2020"
+      }
+    ],
+    "headline": "Senior engineer, 5 years at a B-tier SaaS company; owns a 1.4B-document search index; led a $1.1M/yr migration",
+    "leadership": [
+      "Ran the team design-review rotation for 2025; mentors two engineers"
+    ],
+    "notable": [
+      "Promoted to senior engineer at 2.6 years",
+      "Owns a service doing 85k events/s with a $1.1M/yr migration behind it"
+    ],
+    "projects": [
+      {
+        "descriptor": "Raft-based replicated key-value store in Go",
+        "highlight": "Snapshotting and membership changes; passes a university test suite under race detection",
+        "kind": "software",
+        "scale_signal": "60 stars",
+        "technical_depth": "standard"
+      }
+    ],
+    "publications_summary": {
+      "citation_signal": "not stated",
+      "count_total": 0,
+      "first_author_count": 0,
+      "strong_venue_count": 0,
+      "top_venue_count": 0,
+      "venues": []
+    },
+    "skills_top": [
+      "Java",
+      "Kotlin",
+      "Kafka",
+      "OpenSearch",
+      "AWS",
+      "Go",
+      "Kubernetes",
+      "Terraform",
+      "DynamoDB",
+      "Datadog"
+    ],
+    "top_signal": "85k events/s index",
+    "years_fulltime": 5.2
+  },
+  "category_relevance": {
+    "academia": 0.05,
+    "finance": 0.05,
+    "general": 1,
+    "tech": 1
+  },
+  "education": [
+    {
+      "degree_level": "bachelor",
+      "end_year": 2021,
+      "field": "Computer Science and Engineering",
+      "gpa": 3.6,
+      "gpa_band": "3.5-3.69",
+      "gpa_scale": 4,
+      "honors": [],
+      "in_progress": false,
+      "institution": "The Ohio State University",
+      "institution_tier": "T3",
+      "notes": "Teaching assistant for software engineering, two semesters; distributed systems capstone",
+      "start_year": null
+    }
+  ],
+  "experiences": [
+    {
+      "bullets_condensed": [
+        "Owns the search indexing service: 1.4B documents, 85k events/s sustained, 240k peak, 99.95% availability",
+        "Cut p99 index-visibility latency from 4.2 s to 1.1 s with a change-data-capture pipeline on Kafka",
+        "Led a 4-engineer, 9-month migration to managed OpenSearch; retired 310 instances, saved $1.1M/yr",
+        "Hybrid k-NN ranker raised search success rate from 58% to 66% on 40M weekly queries"
+      ],
+      "duration_months": 31,
+      "employment_type": "full_time",
+      "end": "present",
+      "impact_scale": "org",
+      "is_current": true,
+      "org": "Atlassian",
+      "org_tier": "B",
+      "org_type": "public_company",
+      "ownership": "led",
+      "quantified_impact": true,
+      "role": "Senior Software Engineer",
+      "role_selectivity": "selective",
+      "seniority": "senior",
+      "start": "2024-03",
+      "team_or_division": "Search Platform"
+    },
+    {
+      "bullets_condensed": [
+        "Built the tenant-aware query router across 60 OpenSearch domains; 22k queries/s at p99 under 180 ms",
+        "Reduced index storage 27% (about 410 TB) with field-level compression",
+        "Typeahead ranking service lifted first-suggestion click-through from 31% to 44% (n = 2.1M sessions)",
+        "Tenant-isolation scheme onboarded 3,200 migrating tenants without a noisy-neighbour incident"
+      ],
+      "duration_months": 31,
+      "employment_type": "full_time",
+      "end": "2024-02",
+      "impact_scale": "org",
+      "is_current": false,
+      "org": "Atlassian",
+      "org_tier": "B",
+      "org_type": "public_company",
+      "ownership": "owned_component",
+      "quantified_impact": true,
+      "role": "Software Engineer",
+      "role_selectivity": "selective",
+      "seniority": "mid",
+      "start": "2021-08",
+      "team_or_division": "Search Platform"
+    },
+    {
+      "bullets_condensed": [
+        "Prototyped synonym expansion; shipped behind a flag after a 6% lift in zero-result recovery",
+        "Returned with a full-time offer"
+      ],
+      "duration_months": 3,
+      "employment_type": "internship",
+      "end": "2020-08",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "Atlassian",
+      "org_tier": "B",
+      "org_type": "public_company",
+      "ownership": "contributed",
+      "quantified_impact": true,
+      "role": "Software Engineering Intern",
+      "role_selectivity": "selective",
+      "seniority": "intern",
+      "start": "2020-05",
+      "team_or_division": "Search Platform"
+    }
+  ],
+  "input": {
+    "is_resume": true,
+    "language": "en",
+    "parse_confidence": 0.97,
+    "placeholders_seen": [
+      "name",
+      "email",
+      "phone",
+      "url"
+    ],
+    "word_count_estimate": 640
+  },
+  "leadership": [],
+  "projects": [
+    {
+      "description_condensed": "Raft-based replicated key-value store in Go with snapshotting and membership changes; passes a university distributed-systems test suite under race detection",
+      "has_external_validation": false,
+      "kind": "software",
+      "name": "kv-raft",
+      "quantified_impact": false,
+      "scale_signal": "60 stars, about 4k lines",
+      "technical_depth": "standard"
+    }
+  ],
+  "publications": [],
+  "red_flags": [],
+  "residual_pii": {
+    "email_count": 0,
+    "name_suspected": false,
+    "other_identifiers": [],
+    "phone_count": 0,
+    "street_address_suspected": false,
+    "url_count": 0
+  },
+  "schema_version": "1.1",
+  "scores": {
+    "academia": {
+      "holistic_score": 12,
+      "included": false,
+      "rationale": "No publications or research roles.",
+      "stage_relative_score": 12,
+      "sub_scores": {
+        "breadth": 10,
+        "impact": 20,
+        "pedigree": 40,
+        "selectivity": 25,
+        "trajectory": 40
+      },
+      "top_evidence": []
+    },
+    "finance": {
+      "holistic_score": 15,
+      "included": false,
+      "rationale": "No finance footprint.",
+      "stage_relative_score": 15,
+      "sub_scores": {
+        "breadth": 10,
+        "impact": 30,
+        "pedigree": 40,
+        "selectivity": 30,
+        "trajectory": 40
+      },
+      "top_evidence": []
+    },
+    "general": {
+      "holistic_score": 72,
+      "included": true,
+      "rationale": "Five years at a B-tier SaaS company with promotion to senior at 2.6 years; owns a service with throughput, latency and availability numbers; led a migration with a $1.1M/yr cost figure.",
+      "stage_relative_score": 70,
+      "sub_scores": {
+        "breadth": 40,
+        "impact": 72,
+        "pedigree": 55,
+        "selectivity": 50,
+        "trajectory": 72
+      },
+      "top_evidence": [
+        "Owns search indexing: 1.4B documents, 85k events/s, 99.95% availability",
+        "Led 4-engineer migration saving $1.1M per year",
+        "Promoted to senior engineer at 2.6 years"
+      ]
+    },
+    "tech": {
+      "holistic_score": 75,
+      "included": true,
+      "rationale": "Senior before 3 years at a B-tier company (top decile pace); org-scale ownership with p99, throughput and cost numbers on nearly every bullet; no S/A-tier selection and modest OSS.",
+      "stage_relative_score": 76,
+      "sub_scores": {
+        "breadth": 45,
+        "impact": 76,
+        "pedigree": 55,
+        "selectivity": 55,
+        "trajectory": 74
+      },
+      "top_evidence": [
+        "p99 index-visibility latency 4.2 s to 1.1 s on a 1.4B-document service",
+        "Migration retired 310 instances and saved $1.1M per year",
+        "Query router: 22k queries/s at p99 under 180 ms"
+      ]
+    }
+  },
+  "signals": {
+    "career_stage": "mid",
+    "has_quantified_impact": true,
+    "highest_institution_tier": "T3",
+    "highest_org_tier": "B",
+    "max_impact_scale": "org",
+    "months_internship": 3,
+    "primary_domain": "tech",
+    "sustained_org_tier": "B",
+    "top_role_selectivity": "selective",
+    "trajectory": "accelerating",
+    "years_fulltime": 5.2
+  },
+  "skills": {
+    "certifications": [],
+    "domain": [
+      "Search infrastructure",
+      "Distributed systems",
+      "SLO design",
+      "Incident response",
+      "Capacity planning"
+    ],
+    "keyword_stuffing_suspected": false,
+    "spoken_languages": [],
+    "technical": [
+      "Java",
+      "Kotlin",
+      "Go",
+      "Python",
+      "Kafka",
+      "OpenSearch",
+      "Elasticsearch",
+      "PostgreSQL",
+      "DynamoDB",
+      "Redis",
+      "AWS",
+      "Kubernetes",
+      "Terraform",
+      "Datadog",
+      "Splunk"
+    ]
+  },
+  "strengths": [
+    "Owns a 1.4B-document indexing service with throughput, p99 and availability figures stated",
+    "Led a 4-engineer migration with a $1.1M per year cost outcome",
+    "Promoted to senior at 2.6 years, faster than the typical ladder",
+    "Nearly every bullet carries a number tied to an outcome"
+  ],
+  "verdict": "A fast-moving senior engineer at a B-tier platform with measured org-scale ownership; nothing on the page is an external selection.",
+  "weaknesses": [
+    "No A- or S-tier selection; the whole record is one B-tier employer",
+    "Open-source work is a 60-star personal project",
+    "No evidence of scope beyond one service and two mentees",
+    "T3 degree with a 3.6 GPA adds little pedigree"
+  ]
+}

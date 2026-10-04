@@ -1,0 +1,457 @@
+{
+  "analysis": {
+    "analysis_confidence": 0.92,
+    "ats": {
+      "detected": {
+        "action_verb_ratio": 0.73,
+        "bullet_count": 11,
+        "bullet_marker_consistent": true,
+        "contact_at_top": true,
+        "date_format_consistent": false,
+        "date_formats_seen": [
+          "Month YYYY",
+          "Season YYYY"
+        ],
+        "has_email": true,
+        "has_location": true,
+        "has_phone": true,
+        "has_profile_link": false,
+        "has_street_address": false,
+        "has_summary_section": true,
+        "nonstandard_headings": [],
+        "quantified_bullet_ratio": 0.09,
+        "reverse_chronological": true,
+        "section_order": [
+          "Summary",
+          "Education",
+          "Experience",
+          "Projects",
+          "Skills",
+          "Leadership"
+        ],
+        "skill_bars_or_ratings": false,
+        "standard_headings": [
+          "OBJECTIVE",
+          "EDUCATION",
+          "WORK EXPERIENCE",
+          "PROJECTS",
+          "SKILLS",
+          "ACTIVITIES"
+        ],
+        "uses_tables_suspected": false
+      },
+      "factors": {
+        "consistency": {
+          "note": "Mixed \"June 2024\" and \"Spring 2026\" styles; dates present on every entry",
+          "score": 90
+        },
+        "contact_info": {
+          "note": "Email, phone and city present; no profile link",
+          "score": 85
+        },
+        "formatting": {
+          "note": "Standard headings and reverse-chronological order; consistent dashes; objective paragraph adds little",
+          "score": 90
+        },
+        "keyword_alignment": {
+          "note": "Intern SWE competencies present in passing only: Git, JavaScript, Python appear in lists or a course project, never with an outcome",
+          "score": 52
+        },
+        "length": {
+          "note": "One page for a student",
+          "score": 100
+        },
+        "parseability": {
+          "note": "Single column, clean text layer (0.97), standard headings, contact in the first two lines",
+          "score": 100
+        },
+        "quantification": {
+          "note": "1 of 11 bullets carries a number tied to anything (2 associates trained); the rest are duties",
+          "score": 40
+        }
+      },
+      "fixes": [
+        {
+          "factor": "quantification",
+          "fix": "Before: \"Built a to-do list application while following a Udemy course\" → After: \"Built a to-do app with __ features; wrote __ tests; used by __ classmates\"",
+          "issue": "Project bullets describe features, not results or scale",
+          "priority": "high"
+        },
+        {
+          "factor": "keyword_alignment",
+          "fix": "Add one bullet per project naming the tool and what it did: \"Tracked work in Git across __ commits and __ branches\"",
+          "issue": "Git, testing and data structures never appear in a bullet",
+          "priority": "high"
+        },
+        {
+          "factor": "formatting",
+          "fix": "Replace the objective with a one-line summary naming the target role and the two strongest facts, or delete it",
+          "issue": "Objective paragraph restates what the headings already say",
+          "priority": "medium"
+        },
+        {
+          "factor": "consistency",
+          "fix": "Use Month YYYY everywhere, including projects",
+          "issue": "Two date styles (Month YYYY and Season YYYY)",
+          "priority": "medium"
+        },
+        {
+          "factor": "contact_info",
+          "fix": "Add a link to a code repository that holds the two projects",
+          "issue": "No profile link",
+          "priority": "low"
+        }
+      ],
+      "score": 78,
+      "target_role_used": "Software engineering intern"
+    },
+    "awards": [],
+    "card": {
+      "awards": [],
+      "card_version": "1.0",
+      "career_stage": "student",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2028,
+          "field": "Computer Science",
+          "gpa_band": "not_listed",
+          "honors": [],
+          "in_progress": true,
+          "institution": "Shippensburg University of Pennsylvania",
+          "institution_tier": "T4"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 28,
+          "employment_type": "part_time",
+          "highlights": [
+            "Trained 2 seasonal associates on register procedures"
+          ],
+          "impact_scale": "individual",
+          "org": "Target",
+          "org_tier": "C",
+          "role": "Sales Associate",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2024-present"
+        }
+      ],
+      "headline": "CS sophomore at a T4 regional university; part-time retail associate; two course-level projects",
+      "leadership": [],
+      "notable": [],
+      "projects": [
+        {
+          "descriptor": "To-do web app built along an online course (HTML, CSS, JavaScript, Node)",
+          "highlight": "Local-storage persistence and a dark-mode toggle added after the course",
+          "kind": "software",
+          "scale_signal": "none stated",
+          "technical_depth": "tutorial"
+        },
+        {
+          "descriptor": "Intro-course Python grade calculator",
+          "highlight": "Reads a text file, prints average, highest and lowest; input checking",
+          "kind": "software",
+          "scale_signal": "none stated",
+          "technical_depth": "tutorial"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Python",
+        "Java",
+        "HTML/CSS",
+        "JavaScript",
+        "Node.js",
+        "Git"
+      ],
+      "top_signal": "CS sophomore",
+      "years_fulltime": 0
+    },
+    "category_relevance": {
+      "academia": 0.05,
+      "finance": 0.02,
+      "general": 1,
+      "tech": 0.85
+    },
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2028,
+        "field": "Computer Science",
+        "gpa": null,
+        "gpa_band": "not_listed",
+        "gpa_scale": null,
+        "honors": [],
+        "in_progress": true,
+        "institution": "Shippensburg University of Pennsylvania",
+        "institution_tier": "T4",
+        "notes": "Intro-level coursework listed; GPA omitted",
+        "start_year": 2024
+      }
+    ],
+    "experiences": [
+      {
+        "bullets_condensed": [
+          "Customer help, register, returns and restocking",
+          "Trained 2 seasonal associates on register procedures in the 2025 holiday season"
+        ],
+        "duration_months": 28,
+        "employment_type": "part_time",
+        "end": "present",
+        "impact_scale": "individual",
+        "is_current": true,
+        "org": "Target",
+        "org_tier": "C",
+        "org_type": "public_company",
+        "ownership": "supported",
+        "quantified_impact": false,
+        "role": "Sales Associate",
+        "role_selectivity": "modest",
+        "seniority": "other",
+        "start": "2024-06",
+        "team_or_division": "Retail store"
+      }
+    ],
+    "input": {
+      "is_resume": true,
+      "language": "en",
+      "parse_confidence": 0.97,
+      "placeholders_seen": [
+        "name",
+        "email",
+        "phone"
+      ],
+      "word_count_estimate": 330
+    },
+    "leadership": [],
+    "projects": [
+      {
+        "description_condensed": "To-do list built while following a Udemy course; HTML, CSS, JavaScript, small Node and Express server; local-storage persistence; dark-mode toggle added independently",
+        "has_external_validation": false,
+        "kind": "software",
+        "name": "Task Manager Web App",
+        "quantified_impact": false,
+        "scale_signal": "none stated",
+        "technical_depth": "tutorial"
+      },
+      {
+        "description_condensed": "Intro-course Python assignment: reads grades from a file, prints average, highest and lowest; input validation",
+        "has_external_validation": false,
+        "kind": "software",
+        "name": "Student Grade Calculator",
+        "quantified_impact": false,
+        "scale_signal": "none stated",
+        "technical_depth": "tutorial"
+      }
+    ],
+    "publications": [],
+    "red_flags": [],
+    "residual_pii": {
+      "email_count": 0,
+      "name_suspected": false,
+      "other_identifiers": [],
+      "phone_count": 0,
+      "street_address_suspected": false,
+      "url_count": 0
+    },
+    "schema_version": "1.1",
+    "scores": {
+      "academia": {
+        "holistic_score": 15,
+        "included": false,
+        "rationale": "No research exposure.",
+        "stage_relative_score": 15,
+        "sub_scores": {
+          "breadth": 8,
+          "impact": 5,
+          "pedigree": 18,
+          "selectivity": 8,
+          "trajectory": 40
+        },
+        "top_evidence": []
+      },
+      "finance": {
+        "holistic_score": 15,
+        "included": false,
+        "rationale": "No finance footprint beyond a retail register.",
+        "stage_relative_score": 15,
+        "sub_scores": {
+          "breadth": 8,
+          "impact": 5,
+          "pedigree": 15,
+          "selectivity": 8,
+          "trajectory": 40
+        },
+        "top_evidence": []
+      },
+      "general": {
+        "holistic_score": 28,
+        "included": true,
+        "rationale": "T4 university with GPA omitted, a part-time retail job described as duties, and two tutorial projects. Nothing has been selected by anyone else yet; the record is sincere and thin.",
+        "stage_relative_score": 28,
+        "sub_scores": {
+          "breadth": 15,
+          "impact": 10,
+          "pedigree": 20,
+          "selectivity": 12,
+          "trajectory": 40
+        },
+        "top_evidence": [
+          "CS sophomore at a regional public university, GPA omitted",
+          "Part-time sales associate since 2024, duty bullets",
+          "Course-following to-do app and an intro assignment"
+        ]
+      },
+      "tech": {
+        "holistic_score": 27,
+        "included": true,
+        "rationale": "CS sophomore with intro coursework, no internship, and projects at tutorial depth (a course-following to-do app, an intro assignment). The one self-directed step is a dark-mode toggle. Typical of a first upload at this stage.",
+        "stage_relative_score": 26,
+        "sub_scores": {
+          "breadth": 15,
+          "impact": 10,
+          "pedigree": 22,
+          "selectivity": 12,
+          "trajectory": 40
+        },
+        "top_evidence": [
+          "Tutorial-grade to-do app from an online course",
+          "No internship or technical employment",
+          "Short language list: Python, Java, HTML/CSS, some JavaScript"
+        ]
+      }
+    },
+    "signals": {
+      "career_stage": "student",
+      "has_quantified_impact": false,
+      "highest_institution_tier": "T4",
+      "highest_org_tier": "C",
+      "max_impact_scale": "individual",
+      "months_internship": 0,
+      "primary_domain": "tech",
+      "sustained_org_tier": "C",
+      "top_role_selectivity": "modest",
+      "trajectory": "too_early",
+      "years_fulltime": 0
+    },
+    "skills": {
+      "certifications": [],
+      "domain": [],
+      "keyword_stuffing_suspected": false,
+      "spoken_languages": [],
+      "technical": [
+        "Python",
+        "Java",
+        "HTML/CSS",
+        "JavaScript",
+        "Node.js",
+        "Express",
+        "VS Code",
+        "Git",
+        "Microsoft Office",
+        "Google Docs"
+      ]
+    },
+    "strengths": [
+      "Added a dark-mode toggle beyond the course material, the one self-directed technical step on the page",
+      "Held a part-time job through the semester and trained 2 seasonal associates",
+      "Clean one-page structure with standard headings"
+    ],
+    "verdict": "A sincere sophomore record with tutorial projects and a retail job; nothing yet distinguishes it from the entry level of the pool.",
+    "weaknesses": [
+      "No internship, research or technical employment; both projects are course-following",
+      "GPA is omitted, which reads as below 3.0 at a T4 school",
+      "Skills list is short and nothing in it is shown used toward an outcome",
+      "Only one bullet on the page contains a number"
+    ]
+  },
+  "card_sha256": "7d05f9f7a8855b638520e3983da6ce2043954902a80d51e71e62a5a3d820217f",
+  "category_relevance": {
+    "academia": 0.05,
+    "finance": 0.02,
+    "general": 1,
+    "tech": 0.85
+  },
+  "created_at": "2026-10-03T12:00:00Z",
+  "deleted_at": null,
+  "duplicate_of": null,
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+5f7c9f15",
+    "verdict": {
+      "estimated_career_stage": "student",
+      "is_resume": true,
+      "language": "en",
+      "prompt_injection_detected": false,
+      "reason": "Résumé with dated roles and education.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "tech-1000-student-re",
+  "held_reason": null,
+  "id": "7yughruwis",
+  "kind": "user",
+  "metrics": {
+    "char_count": 2183,
+    "columns_detected": 1,
+    "extraction_quality": 0.97,
+    "font_count": 2,
+    "image_count": 0,
+    "pages": 1,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 0
+    },
+    "source": "pdf",
+    "word_count": 332
+  },
+  "owner_hash": "4dd4deac69caf19f75c5c6071b0ef8f574a109d91e788133da2cbf135b2e8ae1",
+  "primary": "tech",
+  "rejected_reason": null,
+  "schema": 1,
+  "scores": {
+    "general": 24,
+    "tech": 23
+  },
+  "source": {
+    "client_version": "fixtures",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 1
+  },
+  "stage": "student",
+  "status": "analyzed",
+  "superseded_by": null,
+  "supersedes": null,
+  "text": "[name]\n[email] | [phone] | Harrisburg, PA\n\nOBJECTIVE\nComputer Science student looking for a summer internship or part-time programming role where I can learn from experienced developers and help out on real projects.\n\nEDUCATION\nShippensburg University of Pennsylvania — Shippensburg, PA\nBachelor of Science in Computer Science, expected May 2028\nRelevant coursework: Introduction to Programming (Python), Object-Oriented Programming (Java), Discrete Mathematics, Calculus I, Introduction to Web Development, Computer Organization\n\nWORK EXPERIENCE\nSales Associate, Target — Carlisle, PA\nJune 2024 – Present (part-time, 15 to 20 hours a week during the semester, full-time in summer)\n- Responsible for helping customers find products and answering questions about store policies and returns\n- Operate the cash register and self-checkout area and handle exchanges and price checks\n- Restock shelves and keep the electronics and home sections organized and faced\n- Trained two new seasonal associates on register procedures during the 2025 holiday season\n\nPROJECTS\nTask Manager Web App (Online Course Project) — Spring 2026\n- Built a to-do list application while following a Udemy full-stack web development course\n- Used HTML, CSS, JavaScript and a small Node.js and Express server to add, edit and delete tasks\n- Tasks are saved in the browser's local storage so they stay after the page is refreshed\n- Added a dark mode toggle on my own after finishing the course videos\n\nStudent Grade Calculator (CSC 110 Assignment) — Fall 2025\n- Wrote a Python program that reads grades from a text file and prints the class average, highest and lowest score\n- Added input checking so the program does not crash on empty lines or letters where numbers should be\n- Received full marks on the assignment\n\nSKILLS\nProgramming languages: Python, Java, HTML/CSS, some JavaScript\nTools: VS Code, Git (basic), Microsoft Office, Google Docs\nSoft skills: Communication, teamwork, time management, customer service\n\nACTIVITIES\nMember, Computer Science Club, Shippensburg University (Fall 2025 – Present)\nVolunteer, campus Habitat for Humanity build day (Spring 2025)\nIntramural soccer, Fall 2024 and Fall 2025",
+  "text_sha256": "fe91d85f78dc6eb5ab05baa5812075ae15d13efbf712bd717dc3c4349d7f41e3",
+  "top_signal": "CS sophomore",
+  "updated_at": "2026-10-03T12:00:00Z",
+  "usage": {
+    "analysis_usd": 0.17728,
+    "gate_usd": 0.0016,
+    "latency_ms": 45
+  },
+  "versions": {
+    "analyst_model": "claude-opus-5-5",
+    "analyst_prompt": "analyst.v1+6dbc77ff",
+    "fell_back": false,
+    "gate_prompt": "gate.v1+5f7c9f15",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "visibility": "anonymous"
+}

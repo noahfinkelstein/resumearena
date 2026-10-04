@@ -1,0 +1,38 @@
+{
+  "si4jwz5kcs": {
+    "c": {
+      "finance": 1,
+      "general": 1
+    },
+    "ch": "9fee8c6e328ec1547b3b5456684906470e49ef3be73e4e5fc0a2a1991afe8c28",
+    "h": "finance-2100-senior",
+    "p": "finance",
+    "s": "analyzed",
+    "sc": {
+      "finance": 96,
+      "general": 94
+    },
+    "sig": "Founded $2B fund",
+    "ss": {
+      "finance": [
+        96,
+        96,
+        94,
+        97,
+        55,
+        98
+      ],
+      "general": [
+        95,
+        95,
+        92,
+        96,
+        60,
+        97
+      ]
+    },
+    "st": "senior",
+    "t": 1791029940,
+    "v": "anonymous"
+  }
+}

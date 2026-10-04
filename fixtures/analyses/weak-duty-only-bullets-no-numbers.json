@@ -1,0 +1,428 @@
+{
+  "analysis_confidence": 0.92,
+  "ats": {
+    "detected": {
+      "action_verb_ratio": 0.65,
+      "bullet_count": 39,
+      "bullet_marker_consistent": true,
+      "contact_at_top": true,
+      "date_format_consistent": true,
+      "date_formats_seen": [
+        "Month YYYY",
+        "YYYY"
+      ],
+      "has_email": true,
+      "has_location": true,
+      "has_phone": true,
+      "has_profile_link": true,
+      "has_street_address": false,
+      "has_summary_section": true,
+      "nonstandard_headings": [],
+      "quantified_bullet_ratio": 0,
+      "reverse_chronological": true,
+      "section_order": [
+        "Summary",
+        "Experience",
+        "Education",
+        "Skills",
+        "Certifications",
+        "Activities"
+      ],
+      "skill_bars_or_ratings": false,
+      "standard_headings": [
+        "PROFESSIONAL SUMMARY",
+        "EXPERIENCE",
+        "EDUCATION",
+        "SKILLS",
+        "CERTIFICATIONS",
+        "ACTIVITIES"
+      ],
+      "uses_tables_suspected": false
+    },
+    "factors": {
+      "consistency": {
+        "note": "One date format (Month YYYY) apart from the seasonal summers line",
+        "score": 100
+      },
+      "contact_info": {
+        "note": "Email, phone, city and a profile link",
+        "score": 100
+      },
+      "formatting": {
+        "note": "Standard headings in a conventional order, one bullet glyph, reverse-chronological; skills as a bulleted list of single phrases",
+        "score": 95
+      },
+      "keyword_alignment": {
+        "note": "Operations coordinator target: scheduling, inventory, carriers and WMS appear in bullets but without outcomes; Excel only in the list",
+        "score": 60
+      },
+      "length": {
+        "note": "2 pages at four years",
+        "score": 100
+      },
+      "parseability": {
+        "note": "docx source: layout not verified; standard headings; contact placeholders on line 2",
+        "score": 100
+      },
+      "quantification": {
+        "note": "No bullet contains a number tied to an outcome; 18 of 18 role bullets are duties",
+        "score": 10
+      }
+    },
+    "fixes": [
+      {
+        "factor": "quantification",
+        "fix": "Before: Responsible for scheduling inbound and outbound deliveries → After: Scheduled about __ inbound and outbound deliveries a week for a __-dock warehouse with __% on-time departure",
+        "issue": "Eighteen role bullets and not one number; scheduling and inventory work is countable",
+        "priority": "high"
+      },
+      {
+        "factor": "quantification",
+        "fix": "Before: Assisted with weekly and monthly inventory counts → After: Ran weekly cycle counts on __ SKUs; cut count variance from __% to __%",
+        "issue": "Inventory bullets describe assistance without results",
+        "priority": "high"
+      },
+      {
+        "factor": "formatting",
+        "fix": "Start each bullet with the action and its result; drop \"responsible for\"",
+        "issue": "Seven bullets open with \"Responsible for\" or \"Assisted with\"",
+        "priority": "medium"
+      },
+      {
+        "factor": "keyword_alignment",
+        "fix": "Replace with the WMS product, Excel functions used and any carrier portals; keep it to one line",
+        "issue": "Skills section repeats generic phrases (\"team collaboration\", \"attention to detail\")",
+        "priority": "medium"
+      },
+      {
+        "factor": "length",
+        "fix": "Cut to one page by merging the seasonal and student roles into two lines each",
+        "issue": "Two pages for one role and a student job",
+        "priority": "low"
+      }
+    ],
+    "score": 75,
+    "target_role_used": "Operations or logistics coordinator"
+  },
+  "awards": [],
+  "card": {
+    "awards": [],
+    "card_version": "1.0",
+    "career_stage": "early",
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2022,
+        "field": "Business Administration, Management",
+        "gpa_band": "not_listed",
+        "honors": [],
+        "in_progress": false,
+        "institution": "Kansas State University",
+        "institution_tier": "T3"
+      }
+    ],
+    "experiences": [
+      {
+        "duration_months": 51,
+        "employment_type": "full_time",
+        "highlights": [
+          "Schedules deliveries, supports inventory counts and prepares shipping reports"
+        ],
+        "impact_scale": "individual",
+        "org": "Tri-State Regional Distribution",
+        "org_tier": "C",
+        "role": "Operations Coordinator",
+        "role_selectivity": "modest",
+        "seniority": "junior",
+        "years": "2022-present"
+      },
+      {
+        "duration_months": 9,
+        "employment_type": "part_time",
+        "highlights": [],
+        "impact_scale": "individual",
+        "org": "Tri-State Regional Distribution",
+        "org_tier": "C",
+        "role": "Warehouse Associate (seasonal)",
+        "role_selectivity": "modest",
+        "seniority": "other",
+        "years": "2019-2021"
+      },
+      {
+        "duration_months": 21,
+        "employment_type": "part_time",
+        "highlights": [
+          "Supervised student employees on shifts"
+        ],
+        "impact_scale": "team",
+        "org": "Kansas State University Dining Services",
+        "org_tier": "C",
+        "role": "Student Supervisor",
+        "role_selectivity": "modest",
+        "seniority": "other",
+        "years": "2020-2022"
+      }
+    ],
+    "headline": "Operations coordinator, 4 years at a regional distributor; T3 business degree; responsibilities listed without outcomes",
+    "leadership": [
+      "Student shift supervisor in university dining"
+    ],
+    "notable": [],
+    "projects": [],
+    "publications_summary": {
+      "citation_signal": "not stated",
+      "count_total": 0,
+      "first_author_count": 0,
+      "strong_venue_count": 0,
+      "top_venue_count": 0,
+      "venues": []
+    },
+    "skills_top": [
+      "Scheduling",
+      "Inventory support",
+      "Vendor communication",
+      "Excel",
+      "Warehouse management systems",
+      "OSHA 10"
+    ],
+    "top_signal": "Ops coordinator",
+    "years_fulltime": 4.2
+  },
+  "category_relevance": {
+    "academia": 0,
+    "finance": 0,
+    "general": 1,
+    "tech": 0
+  },
+  "education": [
+    {
+      "degree_level": "bachelor",
+      "end_year": 2022,
+      "field": "Business Administration, Management",
+      "gpa": null,
+      "gpa_band": "not_listed",
+      "gpa_scale": null,
+      "honors": [],
+      "in_progress": false,
+      "institution": "Kansas State University",
+      "institution_tier": "T3",
+      "notes": "Operations and supply chain coursework listed; GPA omitted",
+      "start_year": null
+    }
+  ],
+  "experiences": [
+    {
+      "bullets_condensed": [
+        "Responsible for scheduling inbound and outbound deliveries",
+        "Assists with inventory counts and reports discrepancies",
+        "Communicates with carriers and vendors; maintains the shipping log",
+        "Prepares daily shipping reports; orders packaging supplies"
+      ],
+      "duration_months": 51,
+      "employment_type": "full_time",
+      "end": "present",
+      "impact_scale": "individual",
+      "is_current": true,
+      "org": "Tri-State Regional Distribution",
+      "org_tier": "C",
+      "org_type": "private_company",
+      "ownership": "supported",
+      "quantified_impact": false,
+      "role": "Operations Coordinator",
+      "role_selectivity": "modest",
+      "seniority": "junior",
+      "start": "2022-07",
+      "team_or_division": null
+    },
+    {
+      "bullets_condensed": [
+        "Picked and packed orders; loaded and unloaded trucks",
+        "Assisted with cycle counts"
+      ],
+      "duration_months": 9,
+      "employment_type": "part_time",
+      "end": "2021",
+      "impact_scale": "individual",
+      "is_current": false,
+      "org": "Tri-State Regional Distribution",
+      "org_tier": "C",
+      "org_type": "private_company",
+      "ownership": "supported",
+      "quantified_impact": false,
+      "role": "Warehouse Associate (seasonal)",
+      "role_selectivity": "modest",
+      "seniority": "other",
+      "start": "2019",
+      "team_or_division": null
+    },
+    {
+      "bullets_condensed": [
+        "Supervised student employees on shifts",
+        "Opening and closing procedures; scheduling and shift coverage"
+      ],
+      "duration_months": 21,
+      "employment_type": "part_time",
+      "end": "2022-05",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "Kansas State University Dining Services",
+      "org_tier": "C",
+      "org_type": "university",
+      "ownership": "owned_component",
+      "quantified_impact": false,
+      "role": "Student Supervisor",
+      "role_selectivity": "modest",
+      "seniority": "other",
+      "start": "2020-08",
+      "team_or_division": null
+    }
+  ],
+  "input": {
+    "is_resume": true,
+    "language": "en",
+    "parse_confidence": 0.95,
+    "placeholders_seen": [
+      "name",
+      "email",
+      "phone",
+      "url"
+    ],
+    "word_count_estimate": 450
+  },
+  "leadership": [
+    {
+      "budget_or_scale": "not stated",
+      "elected_or_appointed": "appointed",
+      "highlight": "Supervised student employees during shifts",
+      "org": "Kansas State University Dining Services",
+      "people_led": null,
+      "role": "Student Supervisor"
+    }
+  ],
+  "projects": [],
+  "publications": [],
+  "red_flags": [
+    {
+      "detail": "Summary offers \"dependable team player with strong attention to detail\" in place of outcomes",
+      "location": "Professional Summary",
+      "severity": "low",
+      "type": "self_description_as_evidence"
+    }
+  ],
+  "residual_pii": {
+    "email_count": 0,
+    "name_suspected": false,
+    "other_identifiers": [],
+    "phone_count": 0,
+    "street_address_suspected": false,
+    "url_count": 0
+  },
+  "schema_version": "1.1",
+  "scores": {
+    "academia": {
+      "holistic_score": 2,
+      "included": false,
+      "rationale": "No research output.",
+      "stage_relative_score": 2,
+      "sub_scores": {
+        "breadth": 5,
+        "impact": 5,
+        "pedigree": 25,
+        "selectivity": 10,
+        "trajectory": 25
+      },
+      "top_evidence": []
+    },
+    "finance": {
+      "holistic_score": 3,
+      "included": false,
+      "rationale": "No finance footprint.",
+      "stage_relative_score": 3,
+      "sub_scores": {
+        "breadth": 5,
+        "impact": 5,
+        "pedigree": 25,
+        "selectivity": 10,
+        "trajectory": 25
+      },
+      "top_evidence": []
+    },
+    "general": {
+      "holistic_score": 28,
+      "included": true,
+      "rationale": "Four years in one coordinator role at a regional distributor after a T3 business degree; eighteen bullets describe responsibilities and not one contains a number or an outcome; no promotion.",
+      "stage_relative_score": 30,
+      "sub_scores": {
+        "breadth": 20,
+        "impact": 10,
+        "pedigree": 35,
+        "selectivity": 15,
+        "trajectory": 30
+      },
+      "top_evidence": [
+        "Operations Coordinator, four years, same title",
+        "Every bullet is a responsibility (\"responsible for scheduling\", \"assisted with\")",
+        "Kansas State University, business administration, GPA omitted"
+      ]
+    },
+    "tech": {
+      "holistic_score": 3,
+      "included": false,
+      "rationale": "Office and WMS tool use only.",
+      "stage_relative_score": 3,
+      "sub_scores": {
+        "breadth": 5,
+        "impact": 5,
+        "pedigree": 25,
+        "selectivity": 10,
+        "trajectory": 25
+      },
+      "top_evidence": []
+    }
+  },
+  "signals": {
+    "career_stage": "early",
+    "has_quantified_impact": false,
+    "highest_institution_tier": "T3",
+    "highest_org_tier": "C",
+    "max_impact_scale": "individual",
+    "months_internship": 0,
+    "primary_domain": "other",
+    "sustained_org_tier": "C",
+    "top_role_selectivity": "modest",
+    "trajectory": "flat",
+    "years_fulltime": 4.2
+  },
+  "skills": {
+    "certifications": [
+      "OSHA 10-Hour General Industry",
+      "Forklift operator (employer-provided)"
+    ],
+    "domain": [
+      "Scheduling",
+      "Vendor communication",
+      "Inventory support",
+      "Report preparation"
+    ],
+    "keyword_stuffing_suspected": false,
+    "spoken_languages": [],
+    "technical": [
+      "Microsoft Excel",
+      "Microsoft Word",
+      "Microsoft Outlook",
+      "Warehouse management systems"
+    ]
+  },
+  "strengths": [
+    "Four years of continuous employment with growing responsibility inside one operation",
+    "OSHA 10 and forklift certifications are relevant to the role",
+    "Standard headings and clean formatting parse without trouble"
+  ],
+  "verdict": "A tidy coordinator résumé in which every bullet is a duty; four years of work with no evidence of what changed because of it.",
+  "weaknesses": [
+    "Not one of eighteen bullets states a number, a result or a change",
+    "Four years without a title change at a regional company",
+    "The summary consists of self-descriptions (\"dependable team player\")",
+    "GPA omitted and no honors or coursework outcomes"
+  ]
+}

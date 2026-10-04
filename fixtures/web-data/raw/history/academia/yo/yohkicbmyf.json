@@ -1,0 +1,176 @@
+{
+  "cat": "academia",
+  "id": "yohkicbmyf",
+  "lin": "yohkicbmyf",
+  "placed": true,
+  "points": [
+    [
+      "2026-10-04",
+      1809.68,
+      167.72,
+      "p"
+    ],
+    [
+      "2026-10-04",
+      1775.34,
+      157.52,
+      "m"
+    ],
+    [
+      "2026-10-04",
+      1813.46,
+      147.21,
+      "m"
+    ],
+    [
+      "2026-10-04",
+      1832.86,
+      140.21,
+      "p"
+    ],
+    [
+      "2026-10-08",
+      1767.39,
+      132.65,
+      "m"
+    ],
+    [
+      "2026-10-09",
+      1782.04,
+      125.84,
+      "m"
+    ],
+    [
+      "2026-10-10",
+      1762.29,
+      119.97,
+      "m"
+    ],
+    [
+      "2026-10-11",
+      1723.26,
+      119.37,
+      "m"
+    ],
+    [
+      "2026-10-12",
+      1693.62,
+      117.14,
+      "m"
+    ],
+    [
+      "2026-10-14",
+      1676.76,
+      112.77,
+      "m"
+    ],
+    [
+      "2026-10-22",
+      1672.66,
+      107.83,
+      "m"
+    ]
+  ],
+  "recent": [
+    {
+      "at": "2026-10-22T23:00:00Z",
+      "dr": -4.1,
+      "k": "refine",
+      "m": "05f4955a99ebbbad",
+      "note": "Second: harder selections and larger stated scope. First: comparable stage but fewer verifiable outcomes.",
+      "o": "D",
+      "opp": "m2lekeeycg",
+      "opp_r": 1629.53
+    },
+    {
+      "at": "2026-10-14T23:00:00Z",
+      "dr": -16.86,
+      "k": "refine",
+      "m": "a4e4d4a63a6092eb",
+      "note": "Second: harder selections and larger stated scope. First: comparable stage but fewer verifiable outcomes.",
+      "o": "D",
+      "opp": "5fj3akcjfx",
+      "opp_r": 1501.01
+    },
+    {
+      "at": "2026-10-12T23:00:00Z",
+      "dr": -29.64,
+      "k": "refine",
+      "m": "7315fb3b6ab8400d",
+      "note": "Second: harder selections and larger stated scope. First: comparable stage but fewer verifiable outcomes.",
+      "o": "D",
+      "opp": "iv5kzargpe",
+      "opp_r": 1322.19
+    },
+    {
+      "at": "2026-10-11T23:00:00Z",
+      "dr": -39.03,
+      "k": "refine",
+      "m": "ddc1578212494442",
+      "note": "Second: harder selections and larger stated scope. First: comparable stage but fewer verifiable outcomes.",
+      "o": "D",
+      "opp": "anchracaaa",
+      "opp_r": 1100
+    },
+    {
+      "at": "2026-10-10T23:00:00Z",
+      "dr": -19.75,
+      "k": "refine",
+      "m": "c5a6769b231cd7d9",
+      "note": "Second: harder selections and larger stated scope. First: comparable stage but fewer verifiable outcomes.",
+      "o": "D",
+      "opp": "anchrahaaa",
+      "opp_r": 1600
+    },
+    {
+      "at": "2026-10-09T23:00:00Z",
+      "dr": 14.65,
+      "k": "refine",
+      "m": "d092a38e89640d21",
+      "note": "First: harder selections and larger stated scope. Second: comparable stage but fewer verifiable outcomes.",
+      "o": "D",
+      "opp": "e2foy26uvx",
+      "opp_r": 1901.98
+    },
+    {
+      "at": "2026-10-08T23:00:00Z",
+      "dr": -65.47,
+      "k": "refine",
+      "m": "72aff1134898eaf5",
+      "note": "First: harder selections and larger stated scope. Second: comparable stage but fewer verifiable outcomes.",
+      "o": "L",
+      "opp": "4lbszeut6z",
+      "opp_r": 1674.57
+    },
+    {
+      "at": "2026-10-04T23:00:00Z",
+      "dr": 0.59,
+      "k": "placement",
+      "m": "d6441a61cd467fee",
+      "note": "Second: harder selections and larger stated scope. First: comparable stage but fewer verifiable outcomes.",
+      "o": "W",
+      "opp": "cllczdo2b7",
+      "opp_r": 884.79
+    },
+    {
+      "at": "2026-10-04T23:00:00Z",
+      "dr": 13.95,
+      "k": "placement",
+      "m": "432a91ea23934cc6",
+      "note": "Second: harder selections and larger stated scope. First: comparable stage but fewer verifiable outcomes.",
+      "o": "W",
+      "opp": "q35eqvdmw7",
+      "opp_r": 1455.69
+    },
+    {
+      "at": "2026-10-04T23:00:00Z",
+      "dr": 4.86,
+      "k": "placement",
+      "m": "b6654e7261367b11",
+      "note": "Second: harder selections and larger stated scope. First: comparable stage but fewer verifiable outcomes.",
+      "o": "W",
+      "opp": "cdrjnfxuqr",
+      "opp_r": 1258.42
+    }
+  ]
+}

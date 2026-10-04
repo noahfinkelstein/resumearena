@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:11:00Z",
+  "handle": "finance-1100-new-gra",
+  "key_exposed": false,
+  "owner_hash": "890d2ffaff7af8435a94650540c46299cce6890235d535ce4733fa81f2d61938",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:11:00Z",
+      "current": true,
+      "id": "xr3uglaj43"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

@@ -1,0 +1,137 @@
+{
+  "ki4jslasr3": {
+    "card": {
+      "awards": [
+        {
+          "name": "Joseph Wharton Scholars",
+          "scope": "institutional",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Top-bucket analyst ranking, two years",
+          "scope": "company",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "summa cum laude",
+          "scope": "institutional",
+          "selectivity": "selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "early",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2022,
+          "field": "Economics (Finance, Statistics)",
+          "gpa_band": "3.9-3.99",
+          "honors": [
+            "summa cum laude",
+            "Joseph Wharton Scholars",
+            "Dean's List all semesters"
+          ],
+          "in_progress": false,
+          "institution": "University of Pennsylvania (Wharton)",
+          "institution_tier": "T2"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 16,
+          "employment_type": "full_time",
+          "highlights": [
+            "Two closed investments: $700M growth buyout (co-led model and cohort analysis) and $260M growth equity (unit economics, 100-day plan)",
+            "Diligence lead on a $1.5B take-private; owned base and downside cases for the investment committee",
+            "Portfolio pricing work added ~$9M annualized revenue in year one"
+          ],
+          "impact_scale": "industry",
+          "org": "Warburg Pincus",
+          "org_tier": "S",
+          "role": "Associate, Technology and Business Services",
+          "role_selectivity": "elite",
+          "seniority": "associate",
+          "years": "2024-present"
+        },
+        {
+          "duration_months": 24,
+          "employment_type": "full_time",
+          "highlights": [
+            "Top-bucket ranking both years",
+            "Closed: $4.2B public sale, $1.1B sponsor sale (sole analyst, 40 buyers), $650M carve-out",
+            "Built the merger model adopted across the technology team"
+          ],
+          "impact_scale": "industry",
+          "org": "Evercore",
+          "org_tier": "S",
+          "role": "Analyst, Mergers and Acquisitions",
+          "role_selectivity": "highly_selective",
+          "seniority": "analyst",
+          "years": "2022-2024"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Return offer; comps for a live $2B sell-side"
+          ],
+          "impact_scale": "team",
+          "org": "Evercore",
+          "org_tier": "S",
+          "role": "Summer Analyst, M&A",
+          "role_selectivity": "highly_selective",
+          "seniority": "intern",
+          "years": "2021-2021"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Early-insight program; follow-on offering support"
+          ],
+          "impact_scale": "team",
+          "org": "Morgan Stanley",
+          "org_tier": "S",
+          "role": "Sophomore Summer Analyst, IBD",
+          "role_selectivity": "highly_selective",
+          "seniority": "intern",
+          "years": "2020-2020"
+        }
+      ],
+      "headline": "Megafund PE associate 3 years out of a T2 school; 2 closed investments; diligence lead on a $1.5B take-private",
+      "leadership": [
+        "Co-president of a 400-member undergraduate finance club",
+        "Technology portfolio manager of a ~$600k student fund; sector returned 14% vs 9% benchmark",
+        "Mentor in a women-in-finance group; guest speaker at a sophomore banking workshop twice"
+      ],
+      "notable": [
+        "Elite-boutique M&A analyst to megafund PE associate in two years, the standard elite path, executed",
+        "Diligence lead on a $1.5B take-private as a first-year associate",
+        "Top-bucket both analyst years with three closed deals above $650M",
+        "CFA Level II passed while in banking"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "LBO modeling",
+        "Merger modeling",
+        "Cohort and unit-economics analysis",
+        "Commercial due diligence",
+        "Capital IQ",
+        "Pitchbook",
+        "Python (pandas)",
+        "SQL"
+      ],
+      "top_signal": "Megafund PE assoc.",
+      "years_fulltime": 3.3
+    },
+    "st": "early"
+  }
+}

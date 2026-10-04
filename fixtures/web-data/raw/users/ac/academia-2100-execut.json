@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:29:00Z",
+  "handle": "academia-2100-execut",
+  "key_exposed": false,
+  "owner_hash": "1865dcf07c4ced25bf5aa040ab260f856f3a67fc179675823d06cd458d6183f2",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:29:00Z",
+      "current": true,
+      "id": "yohkicbmyf"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

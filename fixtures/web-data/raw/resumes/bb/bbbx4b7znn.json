@@ -1,0 +1,534 @@
+{
+  "analysis": {
+    "analysis_confidence": 0.9,
+    "ats": {
+      "detected": {
+        "action_verb_ratio": 0.71,
+        "bullet_count": 14,
+        "bullet_marker_consistent": true,
+        "contact_at_top": true,
+        "date_format_consistent": true,
+        "date_formats_seen": [
+          "Month YYYY"
+        ],
+        "has_email": true,
+        "has_location": true,
+        "has_phone": true,
+        "has_profile_link": true,
+        "has_street_address": false,
+        "has_summary_section": true,
+        "nonstandard_headings": [],
+        "quantified_bullet_ratio": 0,
+        "reverse_chronological": true,
+        "section_order": [
+          "Summary",
+          "Skills",
+          "Education",
+          "Experience",
+          "Projects",
+          "Awards",
+          "Leadership"
+        ],
+        "skill_bars_or_ratings": false,
+        "standard_headings": [
+          "SUMMARY",
+          "TECHNICAL SKILLS",
+          "EDUCATION",
+          "WORK EXPERIENCE",
+          "PROJECTS",
+          "CERTIFICATIONS",
+          "ACTIVITIES"
+        ],
+        "uses_tables_suspected": false
+      },
+      "factors": {
+        "consistency": {
+          "note": "Month YYYY throughout; every role dated",
+          "score": 100
+        },
+        "contact_info": {
+          "note": "Email, phone, city and a profile link in the header",
+          "score": 100
+        },
+        "formatting": {
+          "note": "Standard headings and reverse-chronological order; three font families; summary paragraph; one bullet glyph",
+          "score": 80
+        },
+        "keyword_alignment": {
+          "note": "Core new-grad SWE competencies appear only in the skills list; React, Node, SQL, Docker, Git and testing are never shown in a bullet (list-only penalty applied)",
+          "score": 43
+        },
+        "length": {
+          "note": "One page for a new graduate",
+          "score": 100
+        },
+        "parseability": {
+          "note": "Single column, clean text layer (0.95), standard headings, contact in the first two lines",
+          "score": 100
+        },
+        "quantification": {
+          "note": "No bullet contains a number tied to an outcome; the only numbers are the team size and dates",
+          "score": 10
+        }
+      },
+      "fixes": [
+        {
+          "factor": "quantification",
+          "fix": "Before: \"Responded to help-desk tickets from residents and staff\" → After: \"Closed ~__ tickets a week for ~__ residents; median first response under __ hours\"",
+          "issue": "Not one bullet states a result; the help-desk and capstone roles both have countable output",
+          "priority": "high"
+        },
+        {
+          "factor": "keyword_alignment",
+          "fix": "Cut the list to the 8-10 tools actually used in the capstone and portfolio, then name each in a bullet: \"Built the login flow in React with a Node/Express API and PostgreSQL\"",
+          "issue": "37 technologies are listed and none appears in a project or job bullet",
+          "priority": "high"
+        },
+        {
+          "factor": "formatting",
+          "fix": "Move Skills below Projects and limit it to three lines",
+          "issue": "Skills sit above Education and Experience and take a third of the page",
+          "priority": "medium"
+        },
+        {
+          "factor": "quantification",
+          "fix": "State pages built, components written, users at the showcase, and the authentication method",
+          "issue": "Capstone bullet \"Worked on the front end and the login page\" gives no scope",
+          "priority": "medium"
+        },
+        {
+          "factor": "formatting",
+          "fix": "Use two",
+          "issue": "Three font families",
+          "priority": "low"
+        }
+      ],
+      "score": 70,
+      "target_role_used": "Software developer, new graduate"
+    },
+    "awards": [],
+    "card": {
+      "awards": [],
+      "card_version": "1.0",
+      "career_stage": "new_grad",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2026,
+          "field": "Computer Science",
+          "gpa_band": "3.0-3.49",
+          "honors": [],
+          "in_progress": false,
+          "institution": "University of Central Florida",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 9,
+          "employment_type": "part_time",
+          "highlights": [
+            "Help-desk tickets, password resets, laptop imaging, loaner inventory"
+          ],
+          "impact_scale": "individual",
+          "org": "University of Central Florida, student housing IT",
+          "org_tier": "C",
+          "role": "IT Support Assistant",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2025-2026"
+        },
+        {
+          "duration_months": 27,
+          "employment_type": "part_time",
+          "highlights": [
+            "Member check-in, scheduling, point-of-sale, weekend opening and closing"
+          ],
+          "impact_scale": "individual",
+          "org": "Local fitness club",
+          "org_tier": "D",
+          "role": "Front Desk Associate",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2023-2025"
+        }
+      ],
+      "headline": "CS graduate from a T3 university (3.0-3.49); part-time IT support and a gym front desk; course and portfolio projects",
+      "leadership": [],
+      "notable": [],
+      "projects": [
+        {
+          "descriptor": "Senior design: four-person campus event-finder web app (front end and login page)",
+          "highlight": "Presented at the senior design showcase",
+          "kind": "software",
+          "scale_signal": "none stated",
+          "technical_depth": "standard"
+        },
+        {
+          "descriptor": "Personal portfolio website on free hosting",
+          "highlight": "Shows résumé and projects",
+          "kind": "software",
+          "scale_signal": "none stated",
+          "technical_depth": "tutorial"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "HTML/CSS",
+        "JavaScript",
+        "Python",
+        "Java",
+        "Git"
+      ],
+      "top_signal": "T3 grad, help desk",
+      "years_fulltime": 0
+    },
+    "category_relevance": {
+      "academia": 0.02,
+      "finance": 0,
+      "general": 1,
+      "tech": 0.75
+    },
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2026,
+        "field": "Computer Science",
+        "gpa": 3.1,
+        "gpa_band": "3.0-3.49",
+        "gpa_scale": 4,
+        "honors": [],
+        "in_progress": false,
+        "institution": "University of Central Florida",
+        "institution_tier": "T3",
+        "notes": "Standard core coursework listed",
+        "start_year": 2022
+      }
+    ],
+    "experiences": [
+      {
+        "bullets_condensed": [
+          "Help-desk tickets for Wi-Fi, printing and account access",
+          "Password resets and laptop imaging; loaner inventory spreadsheet",
+          "Wrote how-to guides for printer and Wi-Fi problems posted in residence halls"
+        ],
+        "duration_months": 9,
+        "employment_type": "part_time",
+        "end": "2026-05",
+        "impact_scale": "individual",
+        "is_current": false,
+        "org": "University of Central Florida, Office of Student Housing",
+        "org_tier": "C",
+        "org_type": "university",
+        "ownership": "supported",
+        "quantified_impact": false,
+        "role": "IT Support Assistant",
+        "role_selectivity": "modest",
+        "seniority": "other",
+        "start": "2025-09",
+        "team_or_division": "IT support"
+      },
+      {
+        "bullets_condensed": [
+          "Member check-in, phones and personal-training scheduling",
+          "Membership sign-ups and payments in the point-of-sale system",
+          "Opened and closed the facility on weekends; gave tours"
+        ],
+        "duration_months": 27,
+        "employment_type": "part_time",
+        "end": "2025-08",
+        "impact_scale": "individual",
+        "is_current": false,
+        "org": "Lakeside Fitness",
+        "org_tier": "D",
+        "org_type": "private_company",
+        "ownership": "supported",
+        "quantified_impact": false,
+        "role": "Front Desk Associate",
+        "role_selectivity": "modest",
+        "seniority": "other",
+        "start": "2023-06",
+        "team_or_division": null
+      }
+    ],
+    "input": {
+      "is_resume": true,
+      "language": "en",
+      "parse_confidence": 0.95,
+      "placeholders_seen": [
+        "name",
+        "email",
+        "phone",
+        "url"
+      ],
+      "word_count_estimate": 380
+    },
+    "leadership": [],
+    "projects": [
+      {
+        "description_condensed": "Four-person team web app for finding campus events; owned the front end and the login page; presented at the senior design showcase",
+        "has_external_validation": false,
+        "kind": "software",
+        "name": "Campus Event Finder (senior design)",
+        "quantified_impact": false,
+        "scale_signal": "none stated",
+        "technical_depth": "standard"
+      },
+      {
+        "description_condensed": "Static site showing résumé and projects, deployed on a free hosting service",
+        "has_external_validation": false,
+        "kind": "software",
+        "name": "Personal portfolio website",
+        "quantified_impact": false,
+        "scale_signal": "none stated",
+        "technical_depth": "tutorial"
+      }
+    ],
+    "publications": [],
+    "red_flags": [
+      {
+        "detail": "Summary claims \"strong knowledge\" of languages, frameworks and cloud platforms with no supporting bullet",
+        "location": "Summary",
+        "severity": "low",
+        "type": "self_description_as_evidence"
+      }
+    ],
+    "residual_pii": {
+      "email_count": 0,
+      "name_suspected": false,
+      "other_identifiers": [],
+      "phone_count": 0,
+      "street_address_suspected": false,
+      "url_count": 0
+    },
+    "schema_version": "1.1",
+    "scores": {
+      "academia": {
+        "holistic_score": 8,
+        "included": false,
+        "rationale": "No research footprint.",
+        "stage_relative_score": 8,
+        "sub_scores": {
+          "breadth": 10,
+          "impact": 5,
+          "pedigree": 25,
+          "selectivity": 10,
+          "trajectory": 35
+        },
+        "top_evidence": []
+      },
+      "finance": {
+        "holistic_score": 5,
+        "included": false,
+        "rationale": "No finance footprint.",
+        "stage_relative_score": 5,
+        "sub_scores": {
+          "breadth": 5,
+          "impact": 5,
+          "pedigree": 20,
+          "selectivity": 10,
+          "trajectory": 35
+        },
+        "top_evidence": []
+      },
+      "general": {
+        "holistic_score": 27,
+        "included": true,
+        "rationale": "T3 CS degree with a 3.1, two service-level part-time jobs, a team capstone with an unspecified personal share, and a 37-item tool list with no bullet showing any tool used. No internship, no selection by others.",
+        "stage_relative_score": 27,
+        "sub_scores": {
+          "breadth": 22,
+          "impact": 12,
+          "pedigree": 30,
+          "selectivity": 15,
+          "trajectory": 35
+        },
+        "top_evidence": [
+          "CS degree, 3.1 GPA, no internship",
+          "Help-desk and front-desk jobs described as duties",
+          "Tool list of 37 items unsupported by any bullet"
+        ]
+      },
+      "tech": {
+        "holistic_score": 27,
+        "included": true,
+        "rationale": "The jobs are IT support and a gym desk; the capstone share is a front end and a login page; the portfolio is a static site. The 37 technologies listed never appear in a bullet, so none of them raises a sub-score. A vendor certificate and two MOOCs are modest signals.",
+        "stage_relative_score": 28,
+        "sub_scores": {
+          "breadth": 20,
+          "impact": 12,
+          "pedigree": 30,
+          "selectivity": 15,
+          "trajectory": 35
+        },
+        "top_evidence": [
+          "Senior design: owned the front end and the login page of a team app",
+          "IT Support Assistant: tickets, password resets, imaging",
+          "Skills list of 37 technologies with no supporting bullet"
+        ]
+      }
+    },
+    "signals": {
+      "career_stage": "new_grad",
+      "has_quantified_impact": false,
+      "highest_institution_tier": "T3",
+      "highest_org_tier": "C",
+      "max_impact_scale": "individual",
+      "months_internship": 0,
+      "primary_domain": "tech",
+      "sustained_org_tier": "D",
+      "top_role_selectivity": "modest",
+      "trajectory": "too_early",
+      "years_fulltime": 0
+    },
+    "skills": {
+      "certifications": [
+        "AWS Certified Cloud Practitioner (2025)",
+        "Coursera Machine Learning Specialization (2024)",
+        "Udemy web developer bootcamp (2023)"
+      ],
+      "domain": [
+        "Machine Learning",
+        "Agile",
+        "Scrum",
+        "Microservices",
+        "CI/CD"
+      ],
+      "keyword_stuffing_suspected": false,
+      "spoken_languages": [],
+      "technical": [
+        "Python",
+        "Java",
+        "C++",
+        "C#",
+        "JavaScript",
+        "TypeScript",
+        "Go",
+        "React",
+        "Angular",
+        "Node.js",
+        "Express",
+        "Django",
+        "Flask",
+        "Spring Boot",
+        ".NET Core",
+        "AWS",
+        "Azure",
+        "Google Cloud Platform",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "Jenkins",
+        "GitHub Actions",
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB",
+        "Redis",
+        "DynamoDB",
+        "TensorFlow",
+        "PyTorch",
+        "REST APIs"
+      ]
+    },
+    "strengths": [
+      "Completed a CS degree while holding part-time jobs for three years",
+      "Wrote how-to guides adopted in the residence halls, the one bullet with an audience",
+      "An AWS Cloud Practitioner certificate shows some follow-through on the cloud interest"
+    ],
+    "verdict": "A new-graduate record whose skills list is three times longer than its evidence; two support jobs and a capstone slice, no internship.",
+    "weaknesses": [
+      "No internship or software role; both jobs are support and front-desk work",
+      "37 technologies listed and none of them appears in any bullet",
+      "Capstone contribution is limited to a front end and a login page with no scope stated",
+      "No bullet anywhere contains a number tied to an outcome",
+      "GPA 3.1 at a T3 school with no honors, awards or competitions"
+    ]
+  },
+  "card_sha256": "ad8e9022153af37506e716b321f251601f3882c826ccc60824c54ac52234a2f5",
+  "category_relevance": {
+    "academia": 0.02,
+    "finance": 0,
+    "general": 1,
+    "tech": 0.75
+  },
+  "created_at": "2026-10-03T12:42:00Z",
+  "deleted_at": null,
+  "duplicate_of": null,
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+5f7c9f15",
+    "verdict": {
+      "estimated_career_stage": "new_grad",
+      "is_resume": true,
+      "language": "en",
+      "prompt_injection_detected": false,
+      "reason": "Résumé with dated roles and education.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "tool-list-no-evidenc",
+  "held_reason": null,
+  "id": "bbbx4b7znn",
+  "kind": "user",
+  "metrics": {
+    "char_count": 2553,
+    "columns_detected": 1,
+    "extraction_quality": 0.95,
+    "font_count": 3,
+    "image_count": 0,
+    "pages": 1,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 382
+  },
+  "owner_hash": "4427eadb9c6cb005fc8ba878012c92b6af79b8e3120bf20191f61cbe35da9989",
+  "primary": "tech",
+  "rejected_reason": null,
+  "schema": 1,
+  "scores": {
+    "general": 25,
+    "tech": 25
+  },
+  "source": {
+    "client_version": "fixtures",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 1
+  },
+  "stage": "new_grad",
+  "status": "analyzed",
+  "superseded_by": null,
+  "supersedes": null,
+  "text": "[name]\n[email] | [phone] | Orlando, FL | [url]\n\nSUMMARY\nRecent Computer Science graduate with strong knowledge of modern programming languages, frameworks and cloud platforms. Fast learner, team player, and passionate about technology. Seeking a software developer position.\n\nTECHNICAL SKILLS\nLanguages: Python, Java, C++, C#, JavaScript, TypeScript, Go\nFrameworks and libraries: React, Angular, Node.js, Express, Django, Flask, Spring Boot, .NET Core\nCloud and DevOps: AWS, Azure, Google Cloud Platform, Docker, Kubernetes, Terraform, Jenkins, GitHub Actions\nDatabases: MySQL, PostgreSQL, MongoDB, Redis, DynamoDB\nOther: Machine Learning, TensorFlow, PyTorch, REST APIs, Agile, Scrum, Microservices, CI/CD\n\nEDUCATION\nUniversity of Central Florida — Orlando, FL\nBachelor of Science in Computer Science, May 2026 | GPA 3.1\nRelevant courses: Data Structures, Algorithms, Operating Systems, Database Systems, Software Engineering, Computer Networks\n\nWORK EXPERIENCE\n\nIT Support Assistant (part-time), University of Central Florida, Office of Student Housing — Orlando, FL\nSeptember 2025 – May 2026\n- Responded to help-desk tickets from residents and staff about Wi-Fi, printing and account access\n- Reset passwords and set up new staff laptops with the standard software image\n- Kept the inventory spreadsheet of loaner equipment up to date\n- Escalated hardware problems to the central IT department\n- Wrote short how-to guides for common printer and Wi-Fi problems that were posted in the residence halls\n\nFront Desk Associate, Lakeside Fitness — Orlando, FL\nJune 2023 – August 2025\n- Checked in members, answered phone calls and scheduled personal training sessions\n- Processed membership sign-ups and payments in the club's point-of-sale system\n- Opened and closed the facility on weekend shifts\n- Gave tours of the gym to prospective members\n\nPROJECTS\nSenior Design Project: Campus Event Finder — Spring 2026\n- Team of four built a web application for finding student events on campus\n- Worked on the front end and the login page\n- Presented the project at the senior design showcase\n\nPersonal Portfolio Website — 2025\n- Created a website to show my resume and projects\n- Deployed it on a free hosting service and update it when I finish a new course\n\nCERTIFICATIONS\n- AWS Certified Cloud Practitioner (2025)\n- Coursera: Machine Learning Specialization (2024)\n- Udemy: The Complete Web Developer Bootcamp (2023)\n\nACTIVITIES\nMember, Association for Computing Machinery, UCF student chapter, 2024 – 2026\nParticipant, Knight Hacks hackathon, 2024 and 2025",
+  "text_sha256": "5aa2c14b96c634dbd32affa99ca483df1a63c220dc4ae36501b78b486925b86e",
+  "top_signal": "T3 grad, help desk",
+  "updated_at": "2026-10-03T12:42:00Z",
+  "usage": {
+    "analysis_usd": 0.17728,
+    "gate_usd": 0.0016,
+    "latency_ms": 0
+  },
+  "versions": {
+    "analyst_model": "claude-opus-5-5",
+    "analyst_prompt": "analyst.v1+6dbc77ff",
+    "fell_back": false,
+    "gate_prompt": "gate.v1+5f7c9f15",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "visibility": "anonymous"
+}

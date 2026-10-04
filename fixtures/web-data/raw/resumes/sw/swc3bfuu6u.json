@@ -1,0 +1,32 @@
+{
+  "created_at": "2026-10-03T12:57:00Z",
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+5f7c9f15",
+    "verdict": {
+      "estimated_career_stage": "early",
+      "is_resume": true,
+      "language": "de",
+      "prompt_injection_detected": false,
+      "reason": "Résumé with dated roles and education.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "german-language-resu",
+  "id": "swc3bfuu6u",
+  "kind": "user",
+  "owner_hash": "27ae76ff83f4e2ff7b2cc820ce5c214c99d0131e6fa28772b80c13322e4ca936",
+  "primary": "tech",
+  "rejected_reason": "unsupported_language",
+  "schema": 1,
+  "source": {
+    "client_version": "fixtures",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 1
+  },
+  "status": "rejected",
+  "text_sha256": "47daf90b1b7c7b9eccba5643a2d8a7fd16d5f85c071cb7c1229b78e67549a4fa",
+  "updated_at": "2026-10-03T12:57:00Z",
+  "visibility": "anonymous"
+}

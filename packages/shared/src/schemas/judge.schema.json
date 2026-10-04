@@ -1,0 +1,34 @@
+{
+  "additionalProperties": false,
+  "properties": {
+    "confidence": {
+      "description": "0.5-1.0: your probability that the chosen record is genuinely stronger. 0.55 a lean, 0.65 clear but arguable, 0.80 clear, 0.95 obvious",
+      "type": "number"
+    },
+    "decisive_factors": {
+      "description": "1-3 items, <= 60 characters each, each prefixed with the side it favours, e.g. 'first: first-author NeurIPS paper'",
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "reasoning": {
+      "description": "<= 200 characters. The deciding facts for both sides, concretely, naming them as first and second. No hedging filler, no restating the rules, no personal data",
+      "type": "string"
+    },
+    "winner": {
+      "enum": [
+        "first",
+        "second"
+      ],
+      "type": "string"
+    }
+  },
+  "required": [
+    "winner",
+    "confidence",
+    "decisive_factors",
+    "reasoning"
+  ],
+  "type": "object"
+}

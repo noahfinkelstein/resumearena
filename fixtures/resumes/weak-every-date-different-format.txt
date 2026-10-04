@@ -1,0 +1,45 @@
+[name]
+Denver, CO | [email] | [phone] | [url]
+
+MARKETING ANALYST
+
+Summary
+Marketing analyst with three years of experience across consumer software, outdoor retail, and an agency, focused on campaign reporting, paid media analysis, and dashboard building. Comfortable in SQL, Google Analytics 4, and Looker Studio; experienced presenting results to marketing leads.
+
+Experience
+
+Marketing Analyst, Summit Trail Outfitters (outdoor retail, Denver, CO)
+Jan 2024 - Present
+• Own weekly and monthly performance reporting for paid search, paid social, and email across 3 brands; built the Looker Studio dashboard that replaced a 40-slide monthly deck.
+• Ran the attribution comparison that moved 18% of the paid social budget to paid search in 2025; blended cost per order fell from $31 to $26 over the following two quarters.
+• Analyze email program performance (list of about 900,000 subscribers); recommended send-time and frequency changes that raised click rate from 1.9% to 2.4%.
+• Partner with the ecommerce team on A/B test readouts (12 tests in 2025) and maintain the test log.
+• Write SQL against the data warehouse (BigQuery) for ad hoc requests from the CMO and the brand managers.
+
+Associate Marketing Analyst, Brightline Software (consumer productivity app, remote)
+03/2022 to 12/2023
+• Reported on acquisition campaigns across Google, Meta, and Apple Search Ads for a mobile app with about 2 million monthly active users.
+• Built the weekly campaign-performance email in Google Sheets and later migrated it to Looker Studio.
+• Supported the lifecycle marketing team with cohort retention pulls and helped set up event tracking in GA4 after the migration from Universal Analytics.
+• Audited UTM usage across channels and wrote the tagging guide that the team adopted.
+
+Marketing Coordinator, Ridgeline Creative (agency, Boulder, CO)
+2020 - 2022
+• Coordinated campaign timelines and reporting for six small-business clients.
+• Compiled monthly performance reports from Google Ads and Meta Ads Manager.
+• Managed the agency's social calendar and wrote copy for client posts.
+
+Marketing Intern, Colorado Tourism Office (Denver, CO)
+June 1, 2019 - Aug. 2019
+• Supported the summer campaign team with influencer outreach tracking and a competitor content audit.
+• Produced the end-of-summer campaign recap deck.
+
+Education
+Colorado State University — B.S. Business Administration, Marketing concentration, 2020
+GPA 3.5. Marketing Club member; American Marketing Association case competition team (2019, regional semifinalist).
+
+Skills
+SQL (BigQuery), Google Analytics 4, Looker Studio, Google Ads, Meta Ads Manager, Apple Search Ads, Klaviyo, Excel and Google Sheets (pivot tables, VLOOKUP, QUERY), basic Python (pandas) for data cleaning, Tableau (basic)
+
+Certifications
+Google Analytics Certification (2024) · Google Ads Search Certification (2023) · Meta Certified Digital Marketing Associate (2022)

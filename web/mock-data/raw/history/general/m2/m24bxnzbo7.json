@@ -1,0 +1,194 @@
+{
+  "cat": "general",
+  "id": "m24bxnzbo7",
+  "lin": "m24bxnzbo7",
+  "placed": true,
+  "points": [
+    [
+      "2026-09-21",
+      2184,
+      220,
+      "p"
+    ],
+    [
+      "2026-09-21",
+      2274,
+      118,
+      "p"
+    ],
+    [
+      "2026-09-22",
+      2286.25,
+      103.2,
+      "m"
+    ],
+    [
+      "2026-09-23",
+      2291.12,
+      103.2,
+      "m"
+    ],
+    [
+      "2026-09-24",
+      2308.44,
+      103.2,
+      "m"
+    ],
+    [
+      "2026-09-25",
+      2303.53,
+      103.2,
+      "s"
+    ],
+    [
+      "2026-09-26",
+      2303.87,
+      103.2,
+      "m"
+    ],
+    [
+      "2026-09-27",
+      2319.14,
+      103.2,
+      "m"
+    ],
+    [
+      "2026-09-28",
+      2314.25,
+      103.2,
+      "m"
+    ],
+    [
+      "2026-09-29",
+      2305.06,
+      103.2,
+      "s"
+    ],
+    [
+      "2026-09-30",
+      2300.63,
+      103.2,
+      "m"
+    ],
+    [
+      "2026-10-01",
+      2298.03,
+      103.2,
+      "m"
+    ],
+    [
+      "2026-10-02",
+      2313.65,
+      103.2,
+      "m"
+    ],
+    [
+      "2026-10-03",
+      2344,
+      103.2,
+      "s"
+    ]
+  ],
+  "recent": [
+    {
+      "at": "2026-10-03T12:50:11Z",
+      "dr": 0,
+      "k": "refine",
+      "m": "9c0dbf4a5b126145",
+      "note": "Second: first-author publication at a top venue. First: solid industry bullets without a comparable peak.",
+      "o": "D",
+      "opp": "k7v2m4syfl",
+      "opp_r": 2395
+    },
+    {
+      "at": "2026-10-03T11:20:11Z",
+      "dr": 11,
+      "k": "refine",
+      "m": "8e53f4aedae572ce",
+      "note": "Broader ownership at the same company tier; the second record’s projects are smaller in scope.",
+      "o": "W",
+      "opp": "x63yoqqpnq",
+      "opp_r": 2388
+    },
+    {
+      "at": "2026-10-03T09:50:11Z",
+      "dr": 0,
+      "k": "placement",
+      "m": "f9f6824af249edb3",
+      "note": "Close on pedigree; the first record’s sustained tier and quantified bullets decide it.",
+      "o": "D",
+      "opp": "p4hafoublb",
+      "opp_r": 2361
+    },
+    {
+      "at": "2026-10-03T08:20:11Z",
+      "dr": 0,
+      "k": "placement",
+      "m": "8a882556cc65551d",
+      "note": "First: owned a 40k rps migration with a p99 number. Second: strong A-tier record but smaller scope.",
+      "o": "D",
+      "opp": "anchrtgaaa",
+      "opp_r": 2357
+    },
+    {
+      "at": "2026-10-03T06:50:11Z",
+      "dr": 6,
+      "k": "placement",
+      "m": "01a35232e3d0160d",
+      "note": "Broader ownership at the same company tier; the second record’s projects are smaller in scope.",
+      "o": "W",
+      "opp": "a4rtjsmyhf",
+      "opp_r": 2351
+    },
+    {
+      "at": "2026-10-03T05:20:11Z",
+      "dr": 5,
+      "k": "placement",
+      "m": "ee8292b60a14cd9e",
+      "note": "Close on pedigree; the first record’s sustained tier and quantified bullets decide it.",
+      "o": "W",
+      "opp": "x6ohbt27p3",
+      "opp_r": 2339
+    },
+    {
+      "at": "2026-10-03T03:50:11Z",
+      "dr": 13,
+      "k": "placement",
+      "m": "ca7b742d0ac88046",
+      "note": "Broader ownership at the same company tier; the second record’s projects are smaller in scope.",
+      "o": "W",
+      "opp": "k7v2m4syfl",
+      "opp_r": 2395
+    },
+    {
+      "at": "2026-10-03T02:20:11Z",
+      "dr": -14,
+      "k": "placement",
+      "m": "0ceaec4c5b53cf87",
+      "note": "Broader ownership at the same company tier; the second record’s projects are smaller in scope.",
+      "o": "L",
+      "opp": "x63yoqqpnq",
+      "opp_r": 2388
+    },
+    {
+      "at": "2026-10-03T00:50:11Z",
+      "dr": 13,
+      "k": "placement",
+      "m": "256f396e2b4b20f1",
+      "note": "Broader ownership at the same company tier; the second record’s projects are smaller in scope.",
+      "o": "W",
+      "opp": "p4hafoublb",
+      "opp_r": 2361
+    },
+    {
+      "at": "2026-10-02T23:20:11Z",
+      "dr": 7,
+      "k": "placement",
+      "m": "8bb008f6a160a2e5",
+      "note": "Second: first-author publication at a top venue. First: solid industry bullets without a comparable peak.",
+      "o": "W",
+      "opp": "p4cb33anln",
+      "opp_r": 2357
+    }
+  ]
+}

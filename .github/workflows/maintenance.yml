@@ -1,0 +1,131 @@
+name: maintenance
+run-name: "maintenance ${{ github.event_name }}"
+
+on:
+  schedule:
+    - cron: "17 4 * * *"   # nightly, 04:17 UTC
+  push:
+    branches: [main]
+    paths: ["ops/commands/**"]
+  # No workflow_dispatch on purpose (spec D-58): the public token could call it. Costly or destructive actions
+  # run from command files the owner commits to main under ops/commands/.
+
+permissions:
+  contents: write   # data branch writes; the `.done` commit on main
+  actions: write    # re-enable the schedules; dispatch deploy
+  issues: write     # the nightly summary may label stale ra:delete issues
+
+jobs:
+  # schedule → nightly; push → the newest pending command file. Nothing pending → `run` is skipped.
+  plan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    permissions:
+      contents: read
+    outputs:
+      action: ${{ steps.plan.outputs.action }}
+      args: ${{ steps.plan.outputs.args }}
+      group: ${{ steps.plan.outputs.group }}
+      file: ${{ steps.plan.outputs.file }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+      # The plan script is TypeScript run with native type stripping, which needs the pinned Node 24,
+      # not whatever the runner image puts on PATH. No install is needed for it.
+      - uses: actions/setup-node@v5
+        with:
+          node-version-file: .nvmrc
+      - id: plan
+        run: node scripts/plan-maintenance.ts --event "$GITHUB_EVENT_NAME" --dir ops/commands --out "$GITHUB_OUTPUT"
+
+  run:
+    needs: plan
+    if: needs.plan.outputs.action != ''
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    # `rerank` for nightly / drain-queue / squash-data-history / rebuild-indexes (shares the writer lock with
+    # rerank.yml); `maintenance-long` for reanalyze / rotate-anchors / validate-anchors.
+    concurrency:
+      group: ${{ needs.plan.outputs.group || 'maintenance-none' }}
+      cancel-in-progress: false
+    env:
+      RA_DATA_DIR: ${{ github.workspace }}/data
+      RA_RUN_ID: ${{ github.run_id }}-${{ github.run_attempt }}
+      RA_TRIGGER: ${{ github.event_name }}
+      RA_ENV: production
+      RA_LLM_MODE: live
+      RA_ACTION: ${{ needs.plan.outputs.action }}
+      RA_ARGS: ${{ needs.plan.outputs.args }}
+      RA_COMMAND_FILE: ${{ needs.plan.outputs.file }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+
+      - uses: ./.github/actions/setup
+
+      - uses: ./.github/actions/data-checkout
+        with:
+          patterns: |
+            /settings.json
+            /status.json
+            /.gitattributes
+            /anchors/
+            /ratings/
+            /queue/
+            /usage/
+            /failures/
+            /audits/
+            /arena/
+
+      # May write `deploy=true|false` to $GITHUB_OUTPUT; absent means deploy.
+      - name: Maintenance
+        id: maintenance
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: node engine/src/cli.ts maintenance "$RA_ACTION" --args "$RA_ARGS" --summary "$GITHUB_STEP_SUMMARY" --out "$GITHUB_OUTPUT"
+
+      # Marks the command file processed whatever the outcome, so a failed costly command is not re-run by the
+      # next push; the owner commits a new file to retry. The bot push does not re-trigger this workflow.
+      - name: Mark command done
+        if: always() && github.event_name == 'push' && env.RA_COMMAND_FILE != ''
+        env:
+          OUTCOME: ${{ steps.maintenance.outcome }}
+        run: |
+          git config user.name "resumearena-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for i in 1 2 3 4 5; do
+            git fetch --depth=1 origin main
+            git reset --hard FETCH_HEAD
+            printf '%s %s %s\n' "$RA_COMMAND_FILE" "$OUTCOME" "$RA_RUN_ID" >> ops/commands/.done
+            git add ops/commands/.done
+            git commit -q -m "ops: done $RA_COMMAND_FILE ($OUTCOME)"
+            if git push -q origin HEAD:main; then exit 0; fi
+            sleep $(( i * i ))
+          done
+          echo "::warning::could not record $RA_COMMAND_FILE in ops/commands/.done after 5 attempts"
+
+      - name: Keep schedules enabled
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          for w in rerank.yml maintenance.yml; do
+            gh api --silent -X PUT "repos/$GITHUB_REPOSITORY/actions/workflows/$w/enable" || true
+          done
+
+      - name: Deploy if changed
+        if: success() && steps.maintenance.outputs.deploy != 'false'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml --repo "$GITHUB_REPOSITORY" --ref main -f reason="maintenance $RA_ACTION"
+
+      # record-failure never calls a model; mock mode keeps it from needing the API key.
+      - name: Record failure
+        if: failure()
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RA_LLM_MODE: mock
+        run: node engine/src/cli.ts record-failure --workflow maintenance --run "$RA_RUN_ID" || true

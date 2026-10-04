@@ -1,0 +1,38 @@
+{
+  "bswap4rgut": {
+    "c": {
+      "finance": 0.75,
+      "general": 1
+    },
+    "ch": "77cf51d5d6414b666a557f1146165407fd5ee90cb56a64dc473bc2fd73fbd404",
+    "h": "world-class-superlat",
+    "p": "finance",
+    "s": "analyzed",
+    "sc": {
+      "finance": 27,
+      "general": 27
+    },
+    "sig": "WM analyst, 2 yrs",
+    "ss": {
+      "finance": [
+        28,
+        35,
+        12,
+        15,
+        20,
+        30
+      ],
+      "general": [
+        28,
+        35,
+        12,
+        15,
+        22,
+        30
+      ]
+    },
+    "st": "early",
+    "t": 1791031680,
+    "v": "handle"
+  }
+}

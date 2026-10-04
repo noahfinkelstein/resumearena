@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:32:00Z",
+  "handle": "general-1300-mid-hr",
+  "key_exposed": false,
+  "owner_hash": "20bce2e35cfd28e5e171e1b4d8426778fd905e0dc1300071c975c0681881a759",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:32:00Z",
+      "current": true,
+      "id": "udyten5veu"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

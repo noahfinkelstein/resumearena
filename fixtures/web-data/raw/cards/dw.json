@@ -1,0 +1,126 @@
+{
+  "dwzis5ko2u": {
+    "card": {
+      "awards": [
+        {
+          "name": "Eagle Scout",
+          "scope": "national",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Early promotion to consultant",
+          "scope": "company",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Firm analytics cohort, 12 of 140",
+          "scope": "company",
+          "selectivity": "selective"
+        },
+        {
+          "name": "James B. Angell Scholar",
+          "scope": "institutional",
+          "selectivity": "selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "early",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2023,
+          "field": "Economics",
+          "gpa_band": "3.7-3.89",
+          "honors": [
+            "cum laude",
+            "James B. Angell Scholar",
+            "Honors Program"
+          ],
+          "in_progress": false,
+          "institution": "University of Michigan",
+          "institution_tier": "T2"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 21,
+          "employment_type": "full_time",
+          "highlights": [
+            "Led procurement workstream: $4.0M savings identified, $2.6M contracted, for a $2B manufacturer",
+            "Integration operating model for an 11-hospital, $3.1B merger approved by the board",
+            "Promoted 7 months ahead of the standard cycle"
+          ],
+          "impact_scale": "org",
+          "org": "Deloitte Consulting",
+          "org_tier": "B",
+          "role": "Consultant, Strategy & Operations",
+          "role_selectivity": "selective",
+          "seniority": "mid",
+          "years": "2025-present"
+        },
+        {
+          "duration_months": 17,
+          "employment_type": "full_time",
+          "highlights": [
+            "$85M distribution-center investment case approved by the client board",
+            "Order-to-cash handoffs cut from 14 to 6; invoice cycle 11 days to 4"
+          ],
+          "impact_scale": "org",
+          "org": "Deloitte Consulting",
+          "org_tier": "B",
+          "role": "Business Analyst, Strategy & Operations",
+          "role_selectivity": "selective",
+          "seniority": "analyst",
+          "years": "2023-2024"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Found $1.9M of unrealized discounts across 1,200 SKUs"
+          ],
+          "impact_scale": "team",
+          "org": "Deloitte Consulting",
+          "org_tier": "B",
+          "role": "Summer Business Analyst",
+          "role_selectivity": "selective",
+          "seniority": "intern",
+          "years": "2022-2022"
+        }
+      ],
+      "headline": "Big-4 strategy consultant, 3 years, promoted early; led a $4M savings workstream; T2 economics degree cum laude",
+      "leadership": [
+        "Captain of a 44-athlete club rowing team with a $60k budget; 4th at nationals",
+        "Led a 30-volunteer Eagle Scout service project",
+        "Project lead for a 120-hour pro bono logistics assessment",
+        "Vice president of a university economics society"
+      ],
+      "notable": [
+        "Promoted 7 months early at a Big-4 practice",
+        "$4M savings workstream led at three years of experience",
+        "Eagle Scout and club team captain"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Procurement strategy",
+        "Operating model design",
+        "Financial modeling",
+        "Process mapping",
+        "Alteryx",
+        "Tableau",
+        "SQL"
+      ],
+      "top_signal": "$4M savings led",
+      "years_fulltime": 3.2
+    },
+    "st": "early"
+  }
+}

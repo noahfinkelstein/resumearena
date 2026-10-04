@@ -1,0 +1,1515 @@
+{
+  "$defs": {
+    "AtsFactor": {
+      "additionalProperties": false,
+      "properties": {
+        "note": {
+          "description": "<= 160 chars, what was observed",
+          "type": "string"
+        },
+        "score": {
+          "$ref": "#/$defs/Score100"
+        }
+      },
+      "required": [
+        "score",
+        "note"
+      ],
+      "type": "object"
+    },
+    "AuthorPosition": {
+      "enum": [
+        "first",
+        "co_first",
+        "second",
+        "middle",
+        "last",
+        "sole",
+        "unknown"
+      ],
+      "type": "string"
+    },
+    "Award": {
+      "additionalProperties": false,
+      "properties": {
+        "issuer": {
+          "$ref": "#/$defs/NullableString"
+        },
+        "name": {
+          "type": "string"
+        },
+        "pool_estimate": {
+          "description": "<= 60 chars, e.g. '~2% of 12k applicants' or 'unknown pool'",
+          "type": "string"
+        },
+        "scope": {
+          "enum": [
+            "international",
+            "national",
+            "regional",
+            "institutional",
+            "company",
+            "local",
+            "unknown"
+          ],
+          "type": "string"
+        },
+        "selectivity": {
+          "$ref": "#/$defs/Selectivity"
+        },
+        "verifiable": {
+          "description": "Named issuer or competition exists and the claim is checkable in principle",
+          "type": "boolean"
+        },
+        "year": {
+          "$ref": "#/$defs/NullableInteger"
+        }
+      },
+      "required": [
+        "name",
+        "issuer",
+        "year",
+        "scope",
+        "selectivity",
+        "pool_estimate",
+        "verifiable"
+      ],
+      "type": "object"
+    },
+    "Card": {
+      "additionalProperties": false,
+      "properties": {
+        "awards": {
+          "description": "<= 6 items, most selective first",
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "name": {
+                "type": "string"
+              },
+              "scope": {
+                "type": "string"
+              },
+              "selectivity": {
+                "$ref": "#/$defs/Selectivity"
+              }
+            },
+            "required": [
+              "name",
+              "selectivity",
+              "scope"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "card_version": {
+          "const": "1.0"
+        },
+        "career_stage": {
+          "$ref": "#/$defs/CareerStage"
+        },
+        "education": {
+          "items": {
+            "$ref": "#/$defs/CardEducation"
+          },
+          "type": "array"
+        },
+        "experiences": {
+          "description": "Most recent first; <= 6 items",
+          "items": {
+            "$ref": "#/$defs/CardExperience"
+          },
+          "type": "array"
+        },
+        "headline": {
+          "description": "<= 120 chars. Stage + strongest two facts. No name, pronouns, contact, URLs, exact dates. e.g. 'CS junior at a T1 university; quant trading intern at an S-tier firm; IOI bronze'",
+          "type": "string"
+        },
+        "leadership": {
+          "description": "<= 4 items, <= 120 chars each, with scope numbers where stated",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "notable": {
+          "description": "<= 5 cross-domain standouts a stranger would mention, <= 120 chars each",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "projects": {
+          "description": "<= 4 items",
+          "items": {
+            "$ref": "#/$defs/CardProject"
+          },
+          "type": "array"
+        },
+        "publications_summary": {
+          "additionalProperties": false,
+          "properties": {
+            "citation_signal": {
+              "description": "'not stated' or a band like '100-500 citations claimed'",
+              "type": "string"
+            },
+            "count_total": {
+              "type": "integer"
+            },
+            "first_author_count": {
+              "type": "integer"
+            },
+            "strong_venue_count": {
+              "type": "integer"
+            },
+            "top_venue_count": {
+              "type": "integer"
+            },
+            "venues": {
+              "description": "Venue names only, never titles; <= 12",
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            }
+          },
+          "required": [
+            "count_total",
+            "first_author_count",
+            "top_venue_count",
+            "strong_venue_count",
+            "venues",
+            "citation_signal"
+          ],
+          "type": "object"
+        },
+        "skills_top": {
+          "description": "<= 12 items, ordered by evidence in bullets, not by listing",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "top_signal": {
+          "description": "<= 18 chars. The single most load-bearing fact, as a noun phrase a ladder column can show, e.g. 'IOI bronze', 'S-tier quant intern', '40k rps system', 'first-author NeurIPS'. No evaluative words.",
+          "type": "string"
+        },
+        "years_fulltime": {
+          "type": "number"
+        }
+      },
+      "required": [
+        "card_version",
+        "headline",
+        "top_signal",
+        "career_stage",
+        "years_fulltime",
+        "education",
+        "experiences",
+        "projects",
+        "publications_summary",
+        "awards",
+        "leadership",
+        "skills_top",
+        "notable"
+      ],
+      "type": "object"
+    },
+    "CardEducation": {
+      "additionalProperties": false,
+      "properties": {
+        "degree_level": {
+          "$ref": "#/$defs/DegreeLevel"
+        },
+        "end_year": {
+          "$ref": "#/$defs/NullableInteger"
+        },
+        "field": {
+          "type": "string"
+        },
+        "gpa_band": {
+          "$ref": "#/$defs/GpaBand"
+        },
+        "honors": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "in_progress": {
+          "type": "boolean"
+        },
+        "institution": {
+          "type": "string"
+        },
+        "institution_tier": {
+          "$ref": "#/$defs/InstitutionTier"
+        }
+      },
+      "required": [
+        "institution",
+        "institution_tier",
+        "degree_level",
+        "field",
+        "gpa_band",
+        "honors",
+        "end_year",
+        "in_progress"
+      ],
+      "type": "object"
+    },
+    "CardExperience": {
+      "additionalProperties": false,
+      "properties": {
+        "duration_months": {
+          "$ref": "#/$defs/NullableInteger"
+        },
+        "employment_type": {
+          "$ref": "#/$defs/EmploymentType"
+        },
+        "highlights": {
+          "description": "<= 3 items, <= 140 chars each, quantified where the source is; no URLs, no names of people",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "impact_scale": {
+          "$ref": "#/$defs/ImpactScale"
+        },
+        "org": {
+          "type": "string"
+        },
+        "org_tier": {
+          "$ref": "#/$defs/Tier"
+        },
+        "role": {
+          "type": "string"
+        },
+        "role_selectivity": {
+          "$ref": "#/$defs/Selectivity"
+        },
+        "seniority": {
+          "$ref": "#/$defs/Seniority"
+        },
+        "years": {
+          "description": "Year range only, e.g. '2024-2025' or '2023-present'",
+          "type": "string"
+        }
+      },
+      "required": [
+        "org",
+        "org_tier",
+        "role",
+        "seniority",
+        "employment_type",
+        "duration_months",
+        "years",
+        "role_selectivity",
+        "impact_scale",
+        "highlights"
+      ],
+      "type": "object"
+    },
+    "CardProject": {
+      "additionalProperties": false,
+      "properties": {
+        "descriptor": {
+          "description": "Generic descriptor, not a googleable product name: 'Open-source Rust HTTP framework (4k stars)'",
+          "type": "string"
+        },
+        "highlight": {
+          "description": "<= 140 chars",
+          "type": "string"
+        },
+        "kind": {
+          "$ref": "#/$defs/ProjectKind"
+        },
+        "scale_signal": {
+          "type": "string"
+        },
+        "technical_depth": {
+          "$ref": "#/$defs/TechnicalDepth"
+        }
+      },
+      "required": [
+        "descriptor",
+        "kind",
+        "technical_depth",
+        "scale_signal",
+        "highlight"
+      ],
+      "type": "object"
+    },
+    "CareerStage": {
+      "enum": [
+        "student",
+        "new_grad",
+        "early",
+        "mid",
+        "senior",
+        "executive"
+      ],
+      "type": "string"
+    },
+    "CategoryScore": {
+      "additionalProperties": false,
+      "properties": {
+        "holistic_score": {
+          "$ref": "#/$defs/Score100",
+          "description": "Your own overall judgement for this category; used for calibration monitoring only"
+        },
+        "included": {
+          "description": "true iff category_relevance >= 0.35 (general: always true)",
+          "type": "boolean"
+        },
+        "rationale": {
+          "description": "<= 280 chars; names the two or three facts that drove the number",
+          "type": "string"
+        },
+        "stage_relative_score": {
+          "$ref": "#/$defs/Score100",
+          "description": "Position among people at the same career_stage in this category's reference population"
+        },
+        "sub_scores": {
+          "additionalProperties": false,
+          "description": "Absolute, stage-agnostic, against the whole reference population for this category",
+          "properties": {
+            "breadth": {
+              "$ref": "#/$defs/Score100"
+            },
+            "impact": {
+              "$ref": "#/$defs/Score100"
+            },
+            "pedigree": {
+              "$ref": "#/$defs/Score100"
+            },
+            "selectivity": {
+              "$ref": "#/$defs/Score100"
+            },
+            "trajectory": {
+              "$ref": "#/$defs/Score100"
+            }
+          },
+          "required": [
+            "pedigree",
+            "trajectory",
+            "impact",
+            "selectivity",
+            "breadth"
+          ],
+          "type": "object"
+        },
+        "top_evidence": {
+          "description": "<= 3 items, <= 100 chars each, the lines that matter most for this category",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "included",
+        "sub_scores",
+        "stage_relative_score",
+        "holistic_score",
+        "rationale",
+        "top_evidence"
+      ],
+      "type": "object"
+    },
+    "DegreeLevel": {
+      "enum": [
+        "high_school",
+        "associate",
+        "bachelor",
+        "master",
+        "mba",
+        "jd",
+        "md",
+        "phd",
+        "postdoc",
+        "certificate",
+        "other"
+      ],
+      "type": "string"
+    },
+    "Education": {
+      "additionalProperties": false,
+      "properties": {
+        "degree_level": {
+          "$ref": "#/$defs/DegreeLevel"
+        },
+        "end_year": {
+          "$ref": "#/$defs/NullableInteger",
+          "description": "Expected graduation year if in progress"
+        },
+        "field": {
+          "type": "string"
+        },
+        "gpa": {
+          "$ref": "#/$defs/NullableNumber"
+        },
+        "gpa_band": {
+          "$ref": "#/$defs/GpaBand"
+        },
+        "gpa_scale": {
+          "$ref": "#/$defs/NullableNumber"
+        },
+        "honors": {
+          "description": "Latin honors, dean's list, named scholarships, thesis distinction",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "in_progress": {
+          "type": "boolean"
+        },
+        "institution": {
+          "type": "string"
+        },
+        "institution_tier": {
+          "$ref": "#/$defs/InstitutionTier"
+        },
+        "notes": {
+          "description": "Transfer, exchange, relevant coursework signal, or empty string",
+          "type": "string"
+        },
+        "start_year": {
+          "$ref": "#/$defs/NullableInteger"
+        }
+      },
+      "required": [
+        "institution",
+        "institution_tier",
+        "degree_level",
+        "field",
+        "gpa",
+        "gpa_scale",
+        "gpa_band",
+        "honors",
+        "start_year",
+        "end_year",
+        "in_progress",
+        "notes"
+      ],
+      "type": "object"
+    },
+    "EmploymentType": {
+      "enum": [
+        "full_time",
+        "internship",
+        "part_time",
+        "contract",
+        "co_op",
+        "fellowship",
+        "volunteer",
+        "founder",
+        "unknown"
+      ],
+      "type": "string"
+    },
+    "Experience": {
+      "additionalProperties": false,
+      "properties": {
+        "bullets_condensed": {
+          "description": "<= 4 items, <= 140 chars each; keep numbers, drop adjectives",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "duration_months": {
+          "$ref": "#/$defs/NullableInteger"
+        },
+        "employment_type": {
+          "$ref": "#/$defs/EmploymentType"
+        },
+        "end": {
+          "$ref": "#/$defs/YearMonth"
+        },
+        "impact_scale": {
+          "$ref": "#/$defs/ImpactScale"
+        },
+        "is_current": {
+          "type": "boolean"
+        },
+        "org": {
+          "type": "string"
+        },
+        "org_tier": {
+          "$ref": "#/$defs/Tier"
+        },
+        "org_type": {
+          "$ref": "#/$defs/OrgType"
+        },
+        "ownership": {
+          "enum": [
+            "led",
+            "owned_component",
+            "contributed",
+            "supported",
+            "unclear"
+          ],
+          "type": "string"
+        },
+        "quantified_impact": {
+          "description": "At least one bullet states a number tied to an outcome (not headcount of a class or team size alone)",
+          "type": "boolean"
+        },
+        "role": {
+          "type": "string"
+        },
+        "role_selectivity": {
+          "$ref": "#/$defs/Selectivity"
+        },
+        "seniority": {
+          "$ref": "#/$defs/Seniority"
+        },
+        "start": {
+          "$ref": "#/$defs/YearMonth"
+        },
+        "team_or_division": {
+          "$ref": "#/$defs/NullableString",
+          "description": "e.g. 'TMT IBD', 'Core Infra', 'Autopilot'; affects tier when stated"
+        }
+      },
+      "required": [
+        "org",
+        "org_type",
+        "org_tier",
+        "team_or_division",
+        "role",
+        "seniority",
+        "employment_type",
+        "start",
+        "end",
+        "duration_months",
+        "is_current",
+        "role_selectivity",
+        "bullets_condensed",
+        "quantified_impact",
+        "impact_scale",
+        "ownership"
+      ],
+      "type": "object"
+    },
+    "GpaBand": {
+      "enum": [
+        "4.0",
+        "3.9-3.99",
+        "3.7-3.89",
+        "3.5-3.69",
+        "3.0-3.49",
+        "below_3.0",
+        "non_us_scale",
+        "not_listed"
+      ],
+      "type": "string"
+    },
+    "ImpactScale": {
+      "description": "individual: <10 people/users affected; team: 10s or <$100k; org: 1000s of users or $1M+; industry: 100k+ users or $100M+; global: 10M+ users, policy, or field-level",
+      "enum": [
+        "none",
+        "individual",
+        "team",
+        "org",
+        "industry",
+        "global"
+      ],
+      "type": "string"
+    },
+    "InstitutionTier": {
+      "enum": [
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "unknown"
+      ],
+      "type": "string"
+    },
+    "Leadership": {
+      "additionalProperties": false,
+      "properties": {
+        "budget_or_scale": {
+          "description": "Budget, members, events, or 'not stated'",
+          "type": "string"
+        },
+        "elected_or_appointed": {
+          "enum": [
+            "elected",
+            "appointed",
+            "founded",
+            "self_declared",
+            "unknown"
+          ],
+          "type": "string"
+        },
+        "highlight": {
+          "description": "<= 140 chars",
+          "type": "string"
+        },
+        "org": {
+          "type": "string"
+        },
+        "people_led": {
+          "$ref": "#/$defs/NullableInteger"
+        },
+        "role": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "org",
+        "role",
+        "people_led",
+        "budget_or_scale",
+        "elected_or_appointed",
+        "highlight"
+      ],
+      "type": "object"
+    },
+    "NullableInteger": {
+      "anyOf": [
+        {
+          "type": "integer"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "NullableNumber": {
+      "anyOf": [
+        {
+          "type": "number"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "NullableString": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "OrgType": {
+      "enum": [
+        "public_company",
+        "private_company",
+        "startup",
+        "fund",
+        "bank",
+        "research_lab",
+        "university",
+        "government",
+        "military",
+        "nonprofit",
+        "self_employed",
+        "other"
+      ],
+      "type": "string"
+    },
+    "Project": {
+      "additionalProperties": false,
+      "properties": {
+        "description_condensed": {
+          "description": "<= 200 chars",
+          "type": "string"
+        },
+        "has_external_validation": {
+          "description": "Users, press, awards, adoption, funding, or publication tied to the project",
+          "type": "boolean"
+        },
+        "kind": {
+          "$ref": "#/$defs/ProjectKind"
+        },
+        "name": {
+          "type": "string"
+        },
+        "quantified_impact": {
+          "type": "boolean"
+        },
+        "scale_signal": {
+          "description": "Users, stars, revenue, downloads, or 'none stated'",
+          "type": "string"
+        },
+        "technical_depth": {
+          "$ref": "#/$defs/TechnicalDepth"
+        }
+      },
+      "required": [
+        "name",
+        "kind",
+        "description_condensed",
+        "scale_signal",
+        "technical_depth",
+        "quantified_impact",
+        "has_external_validation"
+      ],
+      "type": "object"
+    },
+    "ProjectKind": {
+      "enum": [
+        "software",
+        "research",
+        "hardware",
+        "business",
+        "creative",
+        "competition",
+        "other"
+      ],
+      "type": "string"
+    },
+    "Publication": {
+      "additionalProperties": false,
+      "properties": {
+        "author_count": {
+          "$ref": "#/$defs/NullableInteger"
+        },
+        "author_position": {
+          "$ref": "#/$defs/AuthorPosition"
+        },
+        "citations_claimed": {
+          "$ref": "#/$defs/NullableInteger",
+          "description": "Only if written on the résumé; never estimated"
+        },
+        "field": {
+          "type": "string"
+        },
+        "kind": {
+          "enum": [
+            "conference",
+            "journal",
+            "workshop",
+            "preprint",
+            "thesis",
+            "patent",
+            "book_chapter",
+            "other"
+          ],
+          "type": "string"
+        },
+        "venue": {
+          "description": "Venue or journal name as written; 'arXiv' for preprints; 'unknown' if absent",
+          "type": "string"
+        },
+        "venue_tier": {
+          "$ref": "#/$defs/VenueTier"
+        },
+        "year": {
+          "$ref": "#/$defs/NullableInteger"
+        }
+      },
+      "required": [
+        "venue",
+        "venue_tier",
+        "kind",
+        "author_position",
+        "author_count",
+        "year",
+        "citations_claimed",
+        "field"
+      ],
+      "type": "object"
+    },
+    "RedFlag": {
+      "additionalProperties": false,
+      "properties": {
+        "detail": {
+          "description": "<= 160 chars",
+          "type": "string"
+        },
+        "location": {
+          "description": "Section or org where it appears, e.g. 'Experience / Acme Corp'",
+          "type": "string"
+        },
+        "severity": {
+          "enum": [
+            "low",
+            "medium",
+            "high"
+          ],
+          "type": "string"
+        },
+        "type": {
+          "enum": [
+            "date_inconsistency",
+            "overlapping_fulltime_roles",
+            "unverifiable_superlative",
+            "title_inflation",
+            "keyword_stuffing",
+            "self_description_as_evidence",
+            "implausible_claim",
+            "missing_dates",
+            "unexplained_gap",
+            "prompt_injection",
+            "hidden_text",
+            "pii_oversharing",
+            "not_a_resume",
+            "other"
+          ],
+          "type": "string"
+        }
+      },
+      "required": [
+        "type",
+        "severity",
+        "detail",
+        "location"
+      ],
+      "type": "object"
+    },
+    "Score100": {
+      "description": "Integer 0-100 inclusive",
+      "type": "integer"
+    },
+    "Selectivity": {
+      "description": "elite: <1% of a national/international pool; highly_selective: 1-5%; selective: 5-20%; modest: >20% or participation",
+      "enum": [
+        "elite",
+        "highly_selective",
+        "selective",
+        "modest",
+        "unknown"
+      ],
+      "type": "string"
+    },
+    "Seniority": {
+      "enum": [
+        "intern",
+        "new_grad",
+        "junior",
+        "mid",
+        "senior",
+        "staff",
+        "principal",
+        "lead",
+        "manager",
+        "director",
+        "vp",
+        "c_level",
+        "founder",
+        "analyst",
+        "associate",
+        "md_partner",
+        "research_assistant",
+        "phd_student",
+        "postdoc",
+        "faculty",
+        "fellow",
+        "other"
+      ],
+      "type": "string"
+    },
+    "TechnicalDepth": {
+      "enum": [
+        "tutorial",
+        "standard",
+        "substantial",
+        "exceptional",
+        "unclear"
+      ],
+      "type": "string"
+    },
+    "Tier": {
+      "enum": [
+        "S",
+        "A",
+        "B",
+        "C",
+        "D",
+        "unknown"
+      ],
+      "type": "string"
+    },
+    "Unit": {
+      "description": "0.0-1.0 inclusive",
+      "type": "number"
+    },
+    "VenueTier": {
+      "enum": [
+        "top",
+        "strong",
+        "standard",
+        "workshop",
+        "preprint",
+        "unknown"
+      ],
+      "type": "string"
+    },
+    "YearMonth": {
+      "anyOf": [
+        {
+          "type": "string"
+        },
+        {
+          "type": "null"
+        }
+      ],
+      "description": "YYYY-MM, or YYYY if month absent, or null; 'present' for ongoing end dates"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "analysis_confidence": {
+      "$ref": "#/$defs/Unit"
+    },
+    "ats": {
+      "additionalProperties": false,
+      "properties": {
+        "detected": {
+          "additionalProperties": false,
+          "description": "Facts inferred from the text and from the placeholders. layout_metrics is stored separately by the engine; do not copy its numbers here",
+          "properties": {
+            "action_verb_ratio": {
+              "$ref": "#/$defs/Unit"
+            },
+            "bullet_count": {
+              "type": "integer"
+            },
+            "bullet_marker_consistent": {
+              "description": "One bullet glyph or style throughout (•, -, –, *, or none)",
+              "type": "boolean"
+            },
+            "contact_at_top": {
+              "description": "Contact placeholders appear within the first 6 non-empty lines",
+              "type": "boolean"
+            },
+            "date_format_consistent": {
+              "type": "boolean"
+            },
+            "date_formats_seen": {
+              "description": "Distinct patterns, e.g. 'MMM YYYY', 'MM/YYYY', 'YYYY', 'Month D, YYYY'",
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "has_email": {
+              "description": "An [email] placeholder or a literal email is present",
+              "type": "boolean"
+            },
+            "has_location": {
+              "description": "A city/region or an [address] placeholder is present",
+              "type": "boolean"
+            },
+            "has_phone": {
+              "type": "boolean"
+            },
+            "has_profile_link": {
+              "description": "A [url] placeholder or a literal URL is present",
+              "type": "boolean"
+            },
+            "has_street_address": {
+              "description": "An [address] placeholder or a literal street address is present",
+              "type": "boolean"
+            },
+            "has_summary_section": {
+              "type": "boolean"
+            },
+            "nonstandard_headings": {
+              "description": "Headings a parser cannot map, e.g. 'My Journey', 'Toolbox'",
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "quantified_bullet_ratio": {
+              "$ref": "#/$defs/Unit"
+            },
+            "reverse_chronological": {
+              "type": "boolean"
+            },
+            "section_order": {
+              "description": "Canonical section names in the order they appear",
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "skill_bars_or_ratings": {
+              "description": "Glyph runs (★★★☆☆, ●●●○○), percentages, or Beginner/Expert labels next to skills",
+              "type": "boolean"
+            },
+            "standard_headings": {
+              "description": "Headings that map to Education, Experience, Skills, Projects, Publications, Awards, Leadership, Summary",
+              "items": {
+                "type": "string"
+              },
+              "type": "array"
+            },
+            "uses_tables_suspected": {
+              "description": "Runs of tab-separated or column-aligned fragments, or rows of 2-4 short cells, suggest a table in the original",
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "standard_headings",
+            "nonstandard_headings",
+            "section_order",
+            "date_formats_seen",
+            "date_format_consistent",
+            "reverse_chronological",
+            "bullet_count",
+            "bullet_marker_consistent",
+            "quantified_bullet_ratio",
+            "action_verb_ratio",
+            "uses_tables_suspected",
+            "skill_bars_or_ratings",
+            "has_summary_section",
+            "has_email",
+            "has_phone",
+            "has_location",
+            "has_profile_link",
+            "has_street_address",
+            "contact_at_top"
+          ],
+          "type": "object"
+        },
+        "factors": {
+          "additionalProperties": false,
+          "properties": {
+            "consistency": {
+              "$ref": "#/$defs/AtsFactor"
+            },
+            "contact_info": {
+              "$ref": "#/$defs/AtsFactor"
+            },
+            "formatting": {
+              "$ref": "#/$defs/AtsFactor"
+            },
+            "keyword_alignment": {
+              "$ref": "#/$defs/AtsFactor"
+            },
+            "length": {
+              "$ref": "#/$defs/AtsFactor"
+            },
+            "parseability": {
+              "$ref": "#/$defs/AtsFactor"
+            },
+            "quantification": {
+              "$ref": "#/$defs/AtsFactor"
+            }
+          },
+          "required": [
+            "parseability",
+            "formatting",
+            "quantification",
+            "keyword_alignment",
+            "length",
+            "consistency",
+            "contact_info"
+          ],
+          "type": "object"
+        },
+        "fixes": {
+          "description": "3-7 items, highest priority first",
+          "items": {
+            "additionalProperties": false,
+            "properties": {
+              "factor": {
+                "enum": [
+                  "parseability",
+                  "formatting",
+                  "quantification",
+                  "keyword_alignment",
+                  "length",
+                  "consistency",
+                  "contact_info"
+                ],
+                "type": "string"
+              },
+              "fix": {
+                "description": "<= 200 chars, imperative, concrete; may quote a rewritten bullet",
+                "type": "string"
+              },
+              "issue": {
+                "description": "<= 120 chars, specific to this résumé",
+                "type": "string"
+              },
+              "priority": {
+                "enum": [
+                  "high",
+                  "medium",
+                  "low"
+                ],
+                "type": "string"
+              }
+            },
+            "required": [
+              "priority",
+              "factor",
+              "issue",
+              "fix"
+            ],
+            "type": "object"
+          },
+          "type": "array"
+        },
+        "score": {
+          "$ref": "#/$defs/Score100",
+          "description": "Weighted: parseability .25, formatting .15, quantification .20, keyword_alignment .15, length .10, consistency .10, contact_info .05"
+        },
+        "target_role_used": {
+          "description": "The model's inference of the target role, e.g. 'Software engineer, new grad'",
+          "type": "string"
+        }
+      },
+      "required": [
+        "score",
+        "factors",
+        "detected",
+        "target_role_used",
+        "fixes"
+      ],
+      "type": "object"
+    },
+    "awards": {
+      "items": {
+        "$ref": "#/$defs/Award"
+      },
+      "type": "array"
+    },
+    "card": {
+      "$ref": "#/$defs/Card"
+    },
+    "category_relevance": {
+      "additionalProperties": false,
+      "properties": {
+        "academia": {
+          "$ref": "#/$defs/Unit"
+        },
+        "finance": {
+          "$ref": "#/$defs/Unit"
+        },
+        "general": {
+          "const": 1
+        },
+        "tech": {
+          "$ref": "#/$defs/Unit"
+        }
+      },
+      "required": [
+        "general",
+        "finance",
+        "tech",
+        "academia"
+      ],
+      "type": "object"
+    },
+    "education": {
+      "items": {
+        "$ref": "#/$defs/Education"
+      },
+      "type": "array"
+    },
+    "experiences": {
+      "items": {
+        "$ref": "#/$defs/Experience"
+      },
+      "type": "array"
+    },
+    "input": {
+      "additionalProperties": false,
+      "properties": {
+        "is_resume": {
+          "description": "false if the document is not a résumé/CV at all (the gate should have caught this); everything else is then best-effort",
+          "type": "boolean"
+        },
+        "language": {
+          "description": "BCP-47 primary language, e.g. en",
+          "type": "string"
+        },
+        "parse_confidence": {
+          "$ref": "#/$defs/Unit",
+          "description": "How confident the parse is; low for broken extraction (see layout_metrics.extraction_quality), exotic structure, or non-English"
+        },
+        "placeholders_seen": {
+          "description": "Which scrub placeholders appear in the text; drives ats.detected contact fields",
+          "items": {
+            "enum": [
+              "name",
+              "email",
+              "phone",
+              "url",
+              "address",
+              "redacted"
+            ],
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "word_count_estimate": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "language",
+        "word_count_estimate",
+        "parse_confidence",
+        "is_resume",
+        "placeholders_seen"
+      ],
+      "type": "object"
+    },
+    "leadership": {
+      "items": {
+        "$ref": "#/$defs/Leadership"
+      },
+      "type": "array"
+    },
+    "projects": {
+      "items": {
+        "$ref": "#/$defs/Project"
+      },
+      "type": "array"
+    },
+    "publications": {
+      "items": {
+        "$ref": "#/$defs/Publication"
+      },
+      "type": "array"
+    },
+    "red_flags": {
+      "items": {
+        "$ref": "#/$defs/RedFlag"
+      },
+      "type": "array"
+    },
+    "residual_pii": {
+      "additionalProperties": false,
+      "description": "Identifying information that survived the browser scrub. Counts and booleans only; never the values",
+      "properties": {
+        "email_count": {
+          "description": "Literal emails, not [email] placeholders",
+          "type": "integer"
+        },
+        "name_suspected": {
+          "description": "A probable personal full name of the candidate appears in the text (not a [name] placeholder)",
+          "type": "boolean"
+        },
+        "other_identifiers": {
+          "items": {
+            "enum": [
+              "date_of_birth",
+              "national_id",
+              "social_handle",
+              "photo_reference",
+              "third_party_name",
+              "other"
+            ],
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "phone_count": {
+          "type": "integer"
+        },
+        "street_address_suspected": {
+          "type": "boolean"
+        },
+        "url_count": {
+          "description": "Literal URLs or bare domains, not [url] placeholders",
+          "type": "integer"
+        }
+      },
+      "required": [
+        "name_suspected",
+        "email_count",
+        "phone_count",
+        "url_count",
+        "street_address_suspected",
+        "other_identifiers"
+      ],
+      "type": "object"
+    },
+    "schema_version": {
+      "const": "1.1"
+    },
+    "scores": {
+      "additionalProperties": false,
+      "properties": {
+        "academia": {
+          "$ref": "#/$defs/CategoryScore"
+        },
+        "finance": {
+          "$ref": "#/$defs/CategoryScore"
+        },
+        "general": {
+          "$ref": "#/$defs/CategoryScore"
+        },
+        "tech": {
+          "$ref": "#/$defs/CategoryScore"
+        }
+      },
+      "required": [
+        "general",
+        "finance",
+        "tech",
+        "academia"
+      ],
+      "type": "object"
+    },
+    "signals": {
+      "additionalProperties": false,
+      "properties": {
+        "career_stage": {
+          "$ref": "#/$defs/CareerStage"
+        },
+        "has_quantified_impact": {
+          "type": "boolean"
+        },
+        "highest_institution_tier": {
+          "$ref": "#/$defs/InstitutionTier"
+        },
+        "highest_org_tier": {
+          "$ref": "#/$defs/Tier"
+        },
+        "max_impact_scale": {
+          "$ref": "#/$defs/ImpactScale"
+        },
+        "months_internship": {
+          "type": "integer"
+        },
+        "primary_domain": {
+          "enum": [
+            "tech",
+            "finance",
+            "academia",
+            "other"
+          ],
+          "type": "string"
+        },
+        "sustained_org_tier": {
+          "$ref": "#/$defs/Tier",
+          "description": "Tier held for >= 12 cumulative months, not just one internship"
+        },
+        "top_role_selectivity": {
+          "$ref": "#/$defs/Selectivity"
+        },
+        "trajectory": {
+          "enum": [
+            "accelerating",
+            "steady",
+            "flat",
+            "declining",
+            "too_early",
+            "unclear"
+          ],
+          "type": "string"
+        },
+        "years_fulltime": {
+          "description": "Full-time, post-degree years; PhD counts as 0.5x; one decimal",
+          "type": "number"
+        }
+      },
+      "required": [
+        "years_fulltime",
+        "months_internship",
+        "career_stage",
+        "highest_institution_tier",
+        "highest_org_tier",
+        "sustained_org_tier",
+        "top_role_selectivity",
+        "trajectory",
+        "max_impact_scale",
+        "has_quantified_impact",
+        "primary_domain"
+      ],
+      "type": "object"
+    },
+    "skills": {
+      "additionalProperties": false,
+      "properties": {
+        "certifications": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "domain": {
+          "description": "Domain knowledge, e.g. LBO modeling, CRISPR, Kubernetes operations",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "keyword_stuffing_suspected": {
+          "type": "boolean"
+        },
+        "spoken_languages": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "technical": {
+          "description": "Languages, frameworks, tools, methods; deduplicated, as written",
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "technical",
+        "domain",
+        "certifications",
+        "spoken_languages",
+        "keyword_stuffing_suspected"
+      ],
+      "type": "object"
+    },
+    "strengths": {
+      "description": "3-5 items, <= 140 chars each, each anchored to a specific line of the résumé",
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "verdict": {
+      "description": "One sentence, <= 160 chars, dry and specific; no PII",
+      "type": "string"
+    },
+    "weaknesses": {
+      "description": "3-5 items, <= 140 chars each, specific and actionable",
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    }
+  },
+  "required": [
+    "schema_version",
+    "input",
+    "card",
+    "education",
+    "experiences",
+    "projects",
+    "publications",
+    "awards",
+    "skills",
+    "leadership",
+    "signals",
+    "category_relevance",
+    "scores",
+    "ats",
+    "strengths",
+    "weaknesses",
+    "red_flags",
+    "verdict",
+    "residual_pii",
+    "analysis_confidence"
+  ],
+  "type": "object"
+}

@@ -1,0 +1,593 @@
+{
+  "analysis": {
+    "analysis_confidence": 0.95,
+    "ats": {
+      "detected": {
+        "action_verb_ratio": 0.85,
+        "bullet_count": 17,
+        "bullet_marker_consistent": true,
+        "contact_at_top": true,
+        "date_format_consistent": true,
+        "date_formats_seen": [
+          "MMM YYYY"
+        ],
+        "has_email": true,
+        "has_location": false,
+        "has_phone": true,
+        "has_profile_link": true,
+        "has_street_address": false,
+        "has_summary_section": false,
+        "nonstandard_headings": [],
+        "quantified_bullet_ratio": 0.5,
+        "reverse_chronological": true,
+        "section_order": [
+          "Education",
+          "Awards",
+          "Experience",
+          "Publications",
+          "Publications",
+          "Leadership",
+          "Skills"
+        ],
+        "skill_bars_or_ratings": false,
+        "standard_headings": [
+          "EDUCATION",
+          "HONORS AND FELLOWSHIPS",
+          "RESEARCH EXPERIENCE",
+          "PUBLICATIONS",
+          "PRESENTATIONS",
+          "TEACHING AND SERVICE",
+          "SKILLS"
+        ],
+        "uses_tables_suspected": false
+      },
+      "factors": {
+        "consistency": {
+          "note": "One date format (MMM YYYY)",
+          "score": 100
+        },
+        "contact_info": {
+          "note": "Email, phone and a profile link; no city or region",
+          "score": 75
+        },
+        "formatting": {
+          "note": "Standard academic headings, one bullet glyph, reverse-chronological, one font",
+          "score": 100
+        },
+        "keyword_alignment": {
+          "note": "Graduate fellowship or PhD applicant target: cryo-EM, purification, FRET, publications and talks all appear with specifics",
+          "score": 90
+        },
+        "length": {
+          "note": "1 page for a student",
+          "score": 100
+        },
+        "parseability": {
+          "note": "Single-column 1-page PDF, extraction quality 0.98; contact placeholders on line 2",
+          "score": 100
+        },
+        "quantification": {
+          "note": "About half the bullets carry a number (resolution, particle count, hours saved, award pools)",
+          "score": 80
+        }
+      },
+      "fixes": [
+        {
+          "factor": "contact_info",
+          "fix": "Add a location line under the name",
+          "issue": "No city or region is given",
+          "priority": "medium"
+        },
+        {
+          "factor": "quantification",
+          "fix": "Before: the method has since been used by two other groups → After: used in __ published studies by 2 other groups; __ citations",
+          "issue": "The PNAS method bullet says two groups use it but gives no citation or adoption figure",
+          "priority": "low"
+        },
+        {
+          "factor": "formatting",
+          "fix": "Split into two dated entries so parsers read each summer correctly",
+          "issue": "Two summers at the national lab share one entry with an unusual combined date range",
+          "priority": "low"
+        }
+      ],
+      "score": 93,
+      "target_role_used": "PhD applicant or graduate research fellowship candidate"
+    },
+    "awards": [
+      {
+        "issuer": "Winston Churchill Foundation of the United States",
+        "name": "Churchill Scholarship (elect)",
+        "pool_estimate": "16 awarded nationally from nominated finalists",
+        "scope": "national",
+        "selectivity": "elite",
+        "verifiable": true,
+        "year": 2027
+      },
+      {
+        "issuer": "Goldwater Foundation",
+        "name": "Barry Goldwater Scholarship",
+        "pool_estimate": "438 of about 1,350 nominees",
+        "scope": "national",
+        "selectivity": "highly_selective",
+        "verifiable": true,
+        "year": 2025
+      },
+      {
+        "issuer": "Biophysical Society",
+        "name": "Platform talk selection, Biophysical Society Annual Meeting",
+        "pool_estimate": "few undergraduates selected for talks",
+        "scope": "international",
+        "selectivity": "selective",
+        "verifiable": true,
+        "year": 2026
+      },
+      {
+        "issuer": "Harvard College",
+        "name": "Detur Book Prize",
+        "pool_estimate": "highest first-year standing",
+        "scope": "institutional",
+        "selectivity": "selective",
+        "verifiable": true,
+        "year": 2024
+      },
+      {
+        "issuer": "Harvard College",
+        "name": "John Harvard Scholar",
+        "pool_estimate": "top 5% of class",
+        "scope": "institutional",
+        "selectivity": "selective",
+        "verifiable": true,
+        "year": 2026
+      },
+      {
+        "issuer": "Harvard College",
+        "name": "Harvard College Research Program grants",
+        "pool_estimate": "broad research funding",
+        "scope": "institutional",
+        "selectivity": "modest",
+        "verifiable": true,
+        "year": 2025
+      }
+    ],
+    "card": {
+      "awards": [
+        {
+          "name": "Churchill Scholarship (elect)",
+          "scope": "national",
+          "selectivity": "elite"
+        },
+        {
+          "name": "Goldwater Scholarship",
+          "scope": "national",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "Biophysical Society platform talk",
+          "scope": "international",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Detur Book Prize",
+          "scope": "institutional",
+          "selectivity": "selective"
+        },
+        {
+          "name": "John Harvard Scholar",
+          "scope": "institutional",
+          "selectivity": "selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "student",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2027,
+          "field": "Chemical and Physical Biology",
+          "gpa_band": "4.0",
+          "honors": [
+            "John Harvard Scholar",
+            "Detur Book Prize"
+          ],
+          "in_progress": true,
+          "institution": "Harvard College",
+          "institution_tier": "T1"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 37,
+          "employment_type": "part_time",
+          "highlights": [
+            "First-author Science paper: 3.1 Å cryo-EM structure from 1.9M particles",
+            "First-author PNAS method paper adopted by two other groups",
+            "Purified 14 transporter variants for the functional assays"
+          ],
+          "impact_scale": "industry",
+          "org": "Harvard University structural biology lab",
+          "org_tier": "A",
+          "role": "Undergraduate Researcher",
+          "role_selectivity": "selective",
+          "seniority": "research_assistant",
+          "years": "2023-present"
+        },
+        {
+          "duration_months": 6,
+          "employment_type": "internship",
+          "highlights": [
+            "Particle-picking pipeline cut curation from 20 hours to 2 per data set",
+            "Coauthor on a manuscript in review"
+          ],
+          "impact_scale": "team",
+          "org": "Lawrence Berkeley National Laboratory",
+          "org_tier": "B",
+          "role": "SULI intern (two summers)",
+          "role_selectivity": "selective",
+          "seniority": "intern",
+          "years": "2024-2025"
+        }
+      ],
+      "headline": "T1 senior with a 4.0; first-author Science and PNAS papers; Goldwater Scholar and Churchill Scholar-elect",
+      "leadership": [
+        "Leads a weekly after-school lab for a middle school",
+        "Course assistant for an introductory life sciences course"
+      ],
+      "notable": [
+        "First-author Science paper as an undergraduate",
+        "Churchill and Goldwater selections",
+        "Perfect GPA at a T1 university"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 3,
+        "first_author_count": 2,
+        "strong_venue_count": 1,
+        "top_venue_count": 1,
+        "venues": [
+          "Science",
+          "Proceedings of the National Academy of Sciences"
+        ]
+      },
+      "skills_top": [
+        "Cryo-EM",
+        "Protein purification",
+        "Single-molecule FRET",
+        "cryoSPARC",
+        "RELION",
+        "Python"
+      ],
+      "top_signal": "1st-author Science",
+      "years_fulltime": 0
+    },
+    "category_relevance": {
+      "academia": 1,
+      "finance": 0,
+      "general": 1,
+      "tech": 0.2
+    },
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2027,
+        "field": "Chemical and Physical Biology (secondary in Mathematics)",
+        "gpa": 4,
+        "gpa_band": "4.0",
+        "gpa_scale": 4,
+        "honors": [
+          "John Harvard Scholar (3 years)",
+          "Detur Book Prize"
+        ],
+        "in_progress": true,
+        "institution": "Harvard College",
+        "institution_tier": "T1",
+        "notes": "Senior thesis in progress",
+        "start_year": null
+      }
+    ],
+    "experiences": [
+      {
+        "bullets_condensed": [
+          "First author of a 2026 Science paper: cryo-EM structure of a bacterial transporter and a mechanism validated by single-molecule FRET",
+          "Collected and processed all cryo-EM data (3.1 Å from 1.9M particles); purified 14 variants",
+          "First author of a 2025 PNAS paper on a cysteine cross-linking method since used by two other groups",
+          "Senior thesis in progress; defense March 2027"
+        ],
+        "duration_months": 37,
+        "employment_type": "part_time",
+        "end": "present",
+        "impact_scale": "industry",
+        "is_current": true,
+        "org": "Harvard University, Department of Molecular and Cellular Biology",
+        "org_tier": "A",
+        "org_type": "university",
+        "ownership": "led",
+        "quantified_impact": true,
+        "role": "Undergraduate Researcher",
+        "role_selectivity": "selective",
+        "seniority": "research_assistant",
+        "start": "2023-09",
+        "team_or_division": null
+      },
+      {
+        "bullets_condensed": [
+          "Python particle-picking pipeline cut manual curation from about 20 hours to 2 per data set; adopted by the group",
+          "Prepared and screened cryo-EM grids; coauthor on a manuscript in review"
+        ],
+        "duration_months": 6,
+        "employment_type": "internship",
+        "end": "2025-08",
+        "impact_scale": "team",
+        "is_current": false,
+        "org": "Lawrence Berkeley National Laboratory",
+        "org_tier": "B",
+        "org_type": "research_lab",
+        "ownership": "owned_component",
+        "quantified_impact": true,
+        "role": "SULI intern (two summers)",
+        "role_selectivity": "selective",
+        "seniority": "intern",
+        "start": "2024-06",
+        "team_or_division": "Molecular Biophysics and Integrated Bioimaging"
+      }
+    ],
+    "input": {
+      "is_resume": true,
+      "language": "en",
+      "parse_confidence": 0.98,
+      "placeholders_seen": [
+        "name",
+        "email",
+        "phone",
+        "url"
+      ],
+      "word_count_estimate": 460
+    },
+    "leadership": [
+      {
+        "budget_or_scale": "one middle-school class weekly",
+        "elected_or_appointed": "appointed",
+        "highlight": "Leads a weekly after-school lab for a middle school since 2024",
+        "org": "Harvard College Science Outreach",
+        "people_led": null,
+        "role": "Weekly after-school lab lead"
+      }
+    ],
+    "projects": [],
+    "publications": [
+      {
+        "author_count": 7,
+        "author_position": "first",
+        "citations_claimed": null,
+        "field": "Structural biology",
+        "kind": "journal",
+        "venue": "Science",
+        "venue_tier": "top",
+        "year": 2026
+      },
+      {
+        "author_count": 5,
+        "author_position": "first",
+        "citations_claimed": null,
+        "field": "Structural biology",
+        "kind": "journal",
+        "venue": "Proceedings of the National Academy of Sciences",
+        "venue_tier": "strong",
+        "year": 2025
+      },
+      {
+        "author_count": 9,
+        "author_position": "middle",
+        "citations_claimed": null,
+        "field": "Structural biology",
+        "kind": "other",
+        "venue": "unknown",
+        "venue_tier": "unknown",
+        "year": 2026
+      }
+    ],
+    "red_flags": [],
+    "residual_pii": {
+      "email_count": 0,
+      "name_suspected": false,
+      "other_identifiers": [],
+      "phone_count": 0,
+      "street_address_suspected": false,
+      "url_count": 0
+    },
+    "schema_version": "1.1",
+    "scores": {
+      "academia": {
+        "holistic_score": 98,
+        "included": true,
+        "rationale": "An undergraduate first author in Science with a second first-author paper, an elite fellowship and a highly selective one; the only limit is that the record is three years old.",
+        "stage_relative_score": 98,
+        "sub_scores": {
+          "breadth": 55,
+          "impact": 80,
+          "pedigree": 97,
+          "selectivity": 98,
+          "trajectory": 86
+        },
+        "top_evidence": [
+          "First-author Science paper with all cryo-EM data collected and processed by the candidate",
+          "First-author PNAS method paper adopted by two other groups",
+          "Churchill Scholar-elect; Goldwater Scholar; 4.0 at a T1"
+        ]
+      },
+      "finance": {
+        "holistic_score": 2,
+        "included": false,
+        "rationale": "No finance footprint.",
+        "stage_relative_score": 2,
+        "sub_scores": {
+          "breadth": 5,
+          "impact": 5,
+          "pedigree": 60,
+          "selectivity": 30,
+          "trajectory": 30
+        },
+        "top_evidence": []
+      },
+      "general": {
+        "holistic_score": 96,
+        "included": true,
+        "rationale": "T1 senior with a 4.0, a first-author Science paper, a second first-author paper in PNAS, Goldwater and Churchill selections, and two national-lab summers; every line is an external selection.",
+        "stage_relative_score": 97,
+        "sub_scores": {
+          "breadth": 55,
+          "impact": 70,
+          "pedigree": 97,
+          "selectivity": 98,
+          "trajectory": 85
+        },
+        "top_evidence": [
+          "First author, Science 2026; first author, PNAS 2025",
+          "Churchill Scholar-elect and Goldwater Scholar",
+          "Platform talk at the Biophysical Society meeting as an undergraduate"
+        ]
+      },
+      "tech": {
+        "holistic_score": 25,
+        "included": false,
+        "rationale": "A Python pipeline adopted by a national-lab group; no software role.",
+        "stage_relative_score": 25,
+        "sub_scores": {
+          "breadth": 20,
+          "impact": 35,
+          "pedigree": 70,
+          "selectivity": 50,
+          "trajectory": 50
+        },
+        "top_evidence": []
+      }
+    },
+    "signals": {
+      "career_stage": "student",
+      "has_quantified_impact": true,
+      "highest_institution_tier": "T1",
+      "highest_org_tier": "A",
+      "max_impact_scale": "industry",
+      "months_internship": 6,
+      "primary_domain": "academia",
+      "sustained_org_tier": "A",
+      "top_role_selectivity": "elite",
+      "trajectory": "accelerating",
+      "years_fulltime": 0
+    },
+    "skills": {
+      "certifications": [],
+      "domain": [
+        "Membrane protein biochemistry",
+        "Single-molecule FRET",
+        "Protein expression and purification",
+        "Tomography data processing"
+      ],
+      "keyword_stuffing_suspected": false,
+      "spoken_languages": [],
+      "technical": [
+        "Cryo-EM",
+        "cryoSPARC",
+        "RELION",
+        "ChimeraX",
+        "PyMOL",
+        "Python",
+        "MATLAB"
+      ]
+    },
+    "strengths": [
+      "First author of a Science paper as an undergraduate, with the full cryo-EM workflow owned",
+      "A second first-author paper in PNAS whose method others have adopted",
+      "Churchill Scholar-elect and Goldwater Scholar with a 4.0 at a T1 university",
+      "Platform talk at an international society meeting"
+    ],
+    "verdict": "An undergraduate record remarked on in any field: a first-author Science paper and two national fellowships before the senior thesis is defended.",
+    "weaknesses": [
+      "No location on the page",
+      "The in-review manuscript is listed without a venue",
+      "Teaching and outreach lines carry no numbers",
+      "Combined date range for the two national-lab summers is awkward to parse"
+    ]
+  },
+  "card_sha256": "c0ffb74d52e5667959cd16d0a50f1a349895fd6ffbbe0e263fd9b0ad7ca0aeaa",
+  "category_relevance": {
+    "academia": 1,
+    "finance": 0,
+    "general": 1,
+    "tech": 0.2
+  },
+  "created_at": "2026-10-03T12:28:00Z",
+  "deleted_at": null,
+  "duplicate_of": null,
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+5f7c9f15",
+    "verdict": {
+      "estimated_career_stage": "student",
+      "is_resume": true,
+      "language": "en",
+      "prompt_injection_detected": false,
+      "reason": "Résumé with dated roles and education.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "academia-2000-studen",
+  "held_reason": null,
+  "id": "xvfgtvrvjr",
+  "kind": "user",
+  "metrics": {
+    "char_count": 3134,
+    "columns_detected": 1,
+    "extraction_quality": 0.98,
+    "font_count": 1,
+    "image_count": 0,
+    "pages": 1,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 464
+  },
+  "owner_hash": "45d1bb0ac910f48a76128734c2af43d5ef70e6642b4098f19ad8b818ccbba823",
+  "primary": "academia",
+  "rejected_reason": null,
+  "schema": 1,
+  "scores": {
+    "academia": 94,
+    "general": 91
+  },
+  "source": {
+    "client_version": "fixtures",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 1
+  },
+  "stage": "student",
+  "status": "analyzed",
+  "superseded_by": null,
+  "supersedes": null,
+  "text": "[name]\n[email] · [phone] · [url]\n\nEDUCATION\nHarvard College, Cambridge, MA\nA.B. in Chemical and Physical Biology, expected May 2027 · GPA 4.00/4.00\nSecondary field in Mathematics · John Harvard Scholar (top 5% of class, 2024, 2025, 2026)\n\nHONORS AND FELLOWSHIPS\n• Churchill Scholar-elect, 2027–28 (one year of fully funded study at the University of Cambridge; 16 awarded nationally)\n• Barry Goldwater Scholarship, 2025 (438 scholars nationally)\n• Harvard College Research Program grants, 2024 and 2025\n• Detur Book Prize, 2024 (awarded to sophomores with the highest first-year academic standing)\n\nRESEARCH EXPERIENCE\n\nDepartment of Molecular and Cellular Biology, Harvard University · Undergraduate Researcher · Sep 2023 – Present\n• First author of a 2026 Science paper reporting the cryo-electron microscopy structure of a bacterial membrane transporter in its outward-open state and a transport mechanism validated by single-molecule FRET.\n• Collected and processed all cryo-EM data for the paper (3.1 Å reconstruction from 1.9M particles); designed and purified 14 transporter variants used in the functional assays.\n• First author of a 2025 PNAS paper on a cysteine cross-linking method for trapping transporter intermediates; the method has since been used by two other groups.\n• Senior thesis in progress on the energetic coupling of the transport cycle; defense expected March 2027.\n\nLawrence Berkeley National Laboratory, Molecular Biophysics and Integrated Bioimaging Division · Science Undergraduate Laboratory Internship (SULI) · Jun 2025 – Aug 2025 and Jun 2024 – Aug 2024\n• 2025: developed a Python pipeline for automated particle picking on a tomography data set, reducing manual curation time from about 20 hours to 2 hours per data set; adopted by the group.\n• 2024: prepared and screened cryo-EM grids for a membrane protein complex; co-author on the resulting manuscript (in review).\n\nPUBLICATIONS\n1. First author (of 7). Structural basis of alternating access in a bacterial amino-acid transporter. Science, 2026.\n2. First author (of 5). Cysteine cross-linking traps for intermediate states of a secondary transporter. Proceedings of the National Academy of Sciences, 2025.\n3. Co-author (4th of 9). Manuscript on a membrane protein complex from the 2024 SULI project, in review, 2026.\n\nPRESENTATIONS\n• Oral presentation, Biophysical Society Annual Meeting, 2026 (undergraduate selected for a platform talk)\n• Poster, Gordon Research Conference on Membrane Transport Proteins, 2025\n• Poster, Harvard Undergraduate Research Symposium, 2024 and 2025\n• Poster, Harvard Molecular and Cellular Biology departmental retreat, 2026\n\nTEACHING AND SERVICE\n• Course assistant, Life Sciences 1a (introductory chemistry and biology), Fall 2025 and Fall 2026\n• Peer tutor, Harvard Bureau of Study Counsel, 2024 – Present\n• Harvard College Science Outreach: lead a weekly after-school lab for a Cambridge middle school, 2024 – Present\n\nSKILLS\nCryo-EM (grid preparation, data collection on Titan Krios, processing in cryoSPARC and RELION), protein expression and purification, single-molecule FRET, Python, MATLAB, ChimeraX, PyMOL",
+  "text_sha256": "eabcb5649f07a81a1febf56a19bbb925246f8a5edc883c78914277635d3c578a",
+  "top_signal": "1st-author Science",
+  "updated_at": "2026-10-03T12:28:00Z",
+  "usage": {
+    "analysis_usd": 0.17728,
+    "gate_usd": 0.0016,
+    "latency_ms": 1
+  },
+  "versions": {
+    "analyst_model": "claude-opus-5-5",
+    "analyst_prompt": "analyst.v1+6dbc77ff",
+    "fell_back": false,
+    "gate_prompt": "gate.v1+5f7c9f15",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "visibility": "handle"
+}

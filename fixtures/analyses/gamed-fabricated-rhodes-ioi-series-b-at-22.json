@@ -1,0 +1,628 @@
+{
+  "analysis_confidence": 0.45,
+  "ats": {
+    "detected": {
+      "action_verb_ratio": 0.6,
+      "bullet_count": 25,
+      "bullet_marker_consistent": true,
+      "contact_at_top": true,
+      "date_format_consistent": false,
+      "date_formats_seen": [
+        "Month YYYY",
+        "YYYY",
+        "Season YYYY"
+      ],
+      "has_email": true,
+      "has_location": false,
+      "has_phone": true,
+      "has_profile_link": true,
+      "has_street_address": false,
+      "has_summary_section": true,
+      "nonstandard_headings": [],
+      "quantified_bullet_ratio": 0.2,
+      "reverse_chronological": true,
+      "section_order": [
+        "Summary",
+        "Experience",
+        "Education",
+        "Awards",
+        "Publications",
+        "Skills",
+        "Summary"
+      ],
+      "skill_bars_or_ratings": false,
+      "standard_headings": [
+        "SUMMARY",
+        "EXPERIENCE",
+        "EDUCATION",
+        "AWARDS AND HONORS",
+        "PUBLICATIONS",
+        "SKILLS",
+        "ADDITIONAL"
+      ],
+      "uses_tables_suspected": false
+    },
+    "factors": {
+      "consistency": {
+        "note": "Overlapping full-time roles and two concurrent full-time degrees; Rhodes 2022 conflicts with stated US residence; Oxford dates overlap a London job",
+        "score": 20
+      },
+      "contact_info": {
+        "note": "Email, phone and two profile links; no city or region",
+        "score": 85
+      },
+      "formatting": {
+        "note": "Standard headings, reverse-chronological within sections; summary paragraph; layout not verified (paste)",
+        "score": 90
+      },
+      "keyword_alignment": {
+        "note": "For a CTO target: no system, dataset, model, product or team practice is named; deep learning and distributed systems appear only as labels",
+        "score": 40
+      },
+      "length": {
+        "note": "Pasted text, about one page equivalent for a new graduate",
+        "score": 100
+      },
+      "parseability": {
+        "note": "Pasted text; standard headings; contact in the first two lines; layout not verified",
+        "score": 100
+      },
+      "quantification": {
+        "note": "5 of 25 bullets contain a number, each a scale claim (85 staff, a billion people, 2,000 citations) with no supporting detail",
+        "score": 40
+      }
+    },
+    "fixes": [
+      {
+        "factor": "consistency",
+        "fix": "Give each role and degree accurate, non-overlapping dates and mark part-time or remote arrangements explicitly",
+        "issue": "Four full-time commitments overlap in 2022-2023 across two continents",
+        "priority": "high"
+      },
+      {
+        "factor": "quantification",
+        "fix": "Name the lead investor, the product, the paper title and coauthors, and the IOI country and rank; remove anything that cannot be named",
+        "issue": "Scale claims (Series B, 85 staff, a billion users, 2,000 citations) have no verifiable anchor",
+        "priority": "high"
+      },
+      {
+        "factor": "keyword_alignment",
+        "fix": "Replace \"architected the entire core platform\" with the system, its components, the stack and one measured property",
+        "issue": "No technical artifact is described",
+        "priority": "medium"
+      },
+      {
+        "factor": "contact_info",
+        "fix": "Add the current city",
+        "issue": "No city or region",
+        "priority": "medium"
+      },
+      {
+        "factor": "formatting",
+        "fix": "Delete it",
+        "issue": "The Additional section repeats summary-style claims",
+        "priority": "low"
+      }
+    ],
+    "score": 69,
+    "target_role_used": "Chief technology officer or research director (as stated); realistically new-graduate engineer"
+  },
+  "awards": [
+    {
+      "issuer": "Rhodes Trust",
+      "name": "Rhodes Scholarship",
+      "pool_estimate": "claimed; conflicts with the stated US enrollment",
+      "scope": "international",
+      "selectivity": "unknown",
+      "verifiable": false,
+      "year": 2022
+    },
+    {
+      "issuer": "International Olympiad in Informatics",
+      "name": "IOI gold medal",
+      "pool_estimate": "claimed for 2020 and 2021; no country or rank",
+      "scope": "international",
+      "selectivity": "unknown",
+      "verifiable": false,
+      "year": 2021
+    },
+    {
+      "issuer": "MAA",
+      "name": "Putnam Fellow",
+      "pool_estimate": "claimed; no rank or year detail",
+      "scope": "national",
+      "selectivity": "unknown",
+      "verifiable": false,
+      "year": 2022
+    },
+    {
+      "issuer": "Forbes",
+      "name": "Forbes 30 Under 30",
+      "pool_estimate": "claimed; category not stated",
+      "scope": "national",
+      "selectivity": "unknown",
+      "verifiable": false,
+      "year": 2024
+    },
+    {
+      "issuer": "Thiel Foundation",
+      "name": "Thiel Fellowship finalist",
+      "pool_estimate": "finalist status is not published",
+      "scope": "international",
+      "selectivity": "unknown",
+      "verifiable": false,
+      "year": 2023
+    }
+  ],
+  "card": {
+    "awards": [
+      {
+        "name": "Rhodes Scholarship (claimed; unverifiable, timeline conflicts)",
+        "scope": "international",
+        "selectivity": "unknown"
+      },
+      {
+        "name": "IOI gold medal 2020 and 2021 (claimed)",
+        "scope": "international",
+        "selectivity": "unknown"
+      },
+      {
+        "name": "Putnam Fellow 2022 (claimed)",
+        "scope": "national",
+        "selectivity": "unknown"
+      },
+      {
+        "name": "Forbes 30 Under 30, 2024 (claimed)",
+        "scope": "national",
+        "selectivity": "unknown"
+      }
+    ],
+    "card_version": "1.0",
+    "career_stage": "new_grad",
+    "education": [
+      {
+        "degree_level": "master",
+        "end_year": 2024,
+        "field": "Computer Science (claimed concurrent with a US bachelor's)",
+        "gpa_band": "not_listed",
+        "honors": [],
+        "in_progress": false,
+        "institution": "University of Oxford",
+        "institution_tier": "T1"
+      },
+      {
+        "degree_level": "bachelor",
+        "end_year": 2024,
+        "field": "Computer Science and Mathematics (claimed concurrent with an Oxford master's)",
+        "gpa_band": "4.0",
+        "honors": [],
+        "in_progress": false,
+        "institution": "Stanford University",
+        "institution_tier": "T1"
+      }
+    ],
+    "experiences": [
+      {
+        "duration_months": 45,
+        "employment_type": "founder",
+        "highlights": [
+          "Claims a Series B, 85 staff and Fortune 100 customers; no investor, revenue or customer named"
+        ],
+        "impact_scale": "none",
+        "org": "Self-founded AI startup",
+        "org_tier": "D",
+        "role": "Founder and CEO",
+        "role_selectivity": "unknown",
+        "seniority": "founder",
+        "years": "2023-present"
+      },
+      {
+        "duration_months": 19,
+        "employment_type": "full_time",
+        "highlights": [
+          "Claims a first-author Nature paper with 2,000+ citations within a year; dates overlap a full-time fund role and two degrees"
+        ],
+        "impact_scale": "none",
+        "org": "Google DeepMind",
+        "org_tier": "S",
+        "role": "Research Scientist (claimed full-time, overlapping two other full-time roles)",
+        "role_selectivity": "unknown",
+        "seniority": "mid",
+        "years": "2022-2023"
+      },
+      {
+        "duration_months": 12,
+        "employment_type": "full_time",
+        "highlights": [
+          "\"Significant P&L\" and \"youngest researcher ever hired\"; no figure"
+        ],
+        "impact_scale": "none",
+        "org": "Jane Street",
+        "org_tier": "S",
+        "role": "Quantitative Researcher (claimed full-time, overlapping)",
+        "role_selectivity": "unknown",
+        "seniority": "mid",
+        "years": "2022-2023"
+      },
+      {
+        "duration_months": 3,
+        "employment_type": "internship",
+        "highlights": [
+          "\"Shipped a feature used by over a billion people\"; no detail"
+        ],
+        "impact_scale": "none",
+        "org": "Meta",
+        "org_tier": "A",
+        "role": "Software Engineering Intern",
+        "role_selectivity": "unknown",
+        "seniority": "intern",
+        "years": "2021"
+      }
+    ],
+    "headline": "22-year-old claiming concurrent full-time roles at two S-tier firms and a founded company during two full-time degrees",
+    "leadership": [
+      "Claims to lead 85 engineers and researchers across three continents"
+    ],
+    "notable": [
+      "Four elite-tier claims whose dates cannot coexist; none carries a verifiable detail"
+    ],
+    "projects": [],
+    "publications_summary": {
+      "citation_signal": "2,000+ citations claimed on a 2023 paper; implausible for the timeline",
+      "count_total": 3,
+      "first_author_count": 2,
+      "strong_venue_count": 0,
+      "top_venue_count": 3,
+      "venues": [
+        "Nature",
+        "NeurIPS",
+        "ICML"
+      ]
+    },
+    "skills_top": [
+      "Python",
+      "C++",
+      "Rust",
+      "JAX",
+      "CUDA"
+    ],
+    "top_signal": "Overlapping claims",
+    "years_fulltime": 0
+  },
+  "category_relevance": {
+    "academia": 0.25,
+    "finance": 0.15,
+    "general": 1,
+    "tech": 0.7
+  },
+  "education": [
+    {
+      "degree_level": "master",
+      "end_year": 2024,
+      "field": "Computer Science",
+      "gpa": null,
+      "gpa_band": "not_listed",
+      "gpa_scale": null,
+      "honors": [],
+      "in_progress": false,
+      "institution": "University of Oxford",
+      "institution_tier": "T1",
+      "notes": "Claimed full-time residency in Oxford 2022-2024 while also full-time at Stanford 2021-2024 and in two full-time jobs; thesis distinction claimed without a named prize",
+      "start_year": 2022
+    },
+    {
+      "degree_level": "bachelor",
+      "end_year": 2024,
+      "field": "Computer Science and Mathematics",
+      "gpa": 4,
+      "gpa_band": "4.0",
+      "gpa_scale": 4,
+      "honors": [],
+      "in_progress": false,
+      "institution": "Stanford University",
+      "institution_tier": "T1",
+      "notes": "Claimed full-time, in residence, overlapping the Oxford degree and two full-time jobs; \"top of the class\" has no issuer",
+      "start_year": 2021
+    }
+  ],
+  "experiences": [
+    {
+      "bullets_condensed": [
+        "Claims a Series B from \"top-tier investors\" and a valuation \"in the hundreds of millions\"; no investor named",
+        "Claims 85 staff across three continents and Fortune 100 customers in year one",
+        "Claims to have written the first million lines of code in six months"
+      ],
+      "duration_months": 45,
+      "employment_type": "founder",
+      "end": "present",
+      "impact_scale": "none",
+      "is_current": true,
+      "org": "Quantara AI",
+      "org_tier": "D",
+      "org_type": "startup",
+      "ownership": "unclear",
+      "quantified_impact": false,
+      "role": "Founder and CEO",
+      "role_selectivity": "unknown",
+      "seniority": "founder",
+      "start": "2023-01",
+      "team_or_division": null
+    },
+    {
+      "bullets_condensed": [
+        "Claimed full-time while also full-time at a trading firm and enrolled full-time at two universities",
+        "Claims a first-author Nature paper (2023) with 2,000+ citations and a method \"used across the industry\""
+      ],
+      "duration_months": 19,
+      "employment_type": "full_time",
+      "end": "2023-12",
+      "impact_scale": "none",
+      "is_current": false,
+      "org": "Google DeepMind",
+      "org_tier": "S",
+      "org_type": "research_lab",
+      "ownership": "unclear",
+      "quantified_impact": false,
+      "role": "Research Scientist",
+      "role_selectivity": "unknown",
+      "seniority": "mid",
+      "start": "2022-06",
+      "team_or_division": null
+    },
+    {
+      "bullets_condensed": [
+        "Claimed full-time, overlapping the research-lab role, the company and both degrees",
+        "\"Significant P&L\", \"youngest researcher ever hired\", promotion in four months; no figure or detail"
+      ],
+      "duration_months": 12,
+      "employment_type": "full_time",
+      "end": "2023-08",
+      "impact_scale": "none",
+      "is_current": false,
+      "org": "Jane Street",
+      "org_tier": "S",
+      "org_type": "fund",
+      "ownership": "unclear",
+      "quantified_impact": false,
+      "role": "Quantitative Researcher",
+      "role_selectivity": "unknown",
+      "seniority": "mid",
+      "start": "2022-09",
+      "team_or_division": null
+    },
+    {
+      "bullets_condensed": [
+        "\"Shipped a feature used by over a billion people\" with no product, team or metric"
+      ],
+      "duration_months": 3,
+      "employment_type": "internship",
+      "end": "2021-08",
+      "impact_scale": "none",
+      "is_current": false,
+      "org": "Meta",
+      "org_tier": "A",
+      "org_type": "public_company",
+      "ownership": "unclear",
+      "quantified_impact": false,
+      "role": "Software Engineering Intern",
+      "role_selectivity": "unknown",
+      "seniority": "intern",
+      "start": "2021-06",
+      "team_or_division": null
+    }
+  ],
+  "input": {
+    "is_resume": true,
+    "language": "en",
+    "parse_confidence": 0.85,
+    "placeholders_seen": [
+      "name",
+      "email",
+      "phone",
+      "url"
+    ],
+    "word_count_estimate": 480
+  },
+  "leadership": [
+    {
+      "budget_or_scale": "claimed Series B; no investor or revenue named",
+      "elected_or_appointed": "founded",
+      "highlight": "Claims to lead 85 engineers and researchers; no verifiable detail",
+      "org": "Quantara AI",
+      "people_led": 85,
+      "role": "Founder and CEO"
+    }
+  ],
+  "projects": [],
+  "publications": [
+    {
+      "author_count": null,
+      "author_position": "first",
+      "citations_claimed": 2000,
+      "field": "large language model reasoning (claimed; no title, coauthors or detail)",
+      "kind": "journal",
+      "venue": "Nature",
+      "venue_tier": "top",
+      "year": 2023
+    },
+    {
+      "author_count": null,
+      "author_position": "first",
+      "citations_claimed": null,
+      "field": "unspecified (oral claimed)",
+      "kind": "conference",
+      "venue": "NeurIPS",
+      "venue_tier": "top",
+      "year": 2022
+    },
+    {
+      "author_count": 1,
+      "author_position": "sole",
+      "citations_claimed": null,
+      "field": "unspecified; sole-author top-venue paper at 17 claimed",
+      "kind": "conference",
+      "venue": "ICML",
+      "venue_tier": "top",
+      "year": 2021
+    }
+  ],
+  "red_flags": [
+    {
+      "detail": "Rhodes Scholar, IOI gold, Putnam Fellow, Nature first author and a Series B founder by 22, each without a verifiable detail",
+      "location": "Summary, Awards and Honors, Publications",
+      "severity": "high",
+      "type": "implausible_claim"
+    },
+    {
+      "detail": "Full-time at DeepMind (Jun 2022-Dec 2023) and Jane Street (Sep 2022-Aug 2023) while enrolled full-time at Oxford (2022-2024) and Stanford (2021-2024)",
+      "location": "Experience, Education",
+      "severity": "medium",
+      "type": "date_inconsistency"
+    },
+    {
+      "detail": "Two full-time roles and a founded company run concurrently with no explanation",
+      "location": "Experience",
+      "severity": "medium",
+      "type": "overlapping_fulltime_roles"
+    },
+    {
+      "detail": "A 2023 Nature paper with over 2,000 citations and a sole-author ICML paper at age 17",
+      "location": "Publications",
+      "severity": "high",
+      "type": "implausible_claim"
+    },
+    {
+      "detail": "\"Youngest researcher ever hired\", \"most influential founders in AI\", \"used across the industry\"",
+      "location": "Experience",
+      "severity": "medium",
+      "type": "unverifiable_superlative"
+    },
+    {
+      "detail": "\"Fluent in five languages\", \"advisor to several unicorn startups\", \"invited speaker at major conferences\" without names",
+      "location": "Additional",
+      "severity": "low",
+      "type": "self_description_as_evidence"
+    }
+  ],
+  "residual_pii": {
+    "email_count": 0,
+    "name_suspected": false,
+    "other_identifiers": [],
+    "phone_count": 0,
+    "street_address_suspected": false,
+    "url_count": 0
+  },
+  "schema_version": "1.1",
+  "scores": {
+    "academia": {
+      "holistic_score": 25,
+      "included": false,
+      "rationale": "Three claimed top-venue papers with no titles or coauthors and a 2,000-citation count within a year; discounted.",
+      "stage_relative_score": 25,
+      "sub_scores": {
+        "breadth": 20,
+        "impact": 15,
+        "pedigree": 45,
+        "selectivity": 30,
+        "trajectory": 30
+      },
+      "top_evidence": []
+    },
+    "finance": {
+      "holistic_score": 15,
+      "included": false,
+      "rationale": "A claimed quant-research year with \"significant P&L\" and no figure; discounted.",
+      "stage_relative_score": 15,
+      "sub_scores": {
+        "breadth": 15,
+        "impact": 10,
+        "pedigree": 35,
+        "selectivity": 20,
+        "trajectory": 30
+      },
+      "top_evidence": []
+    },
+    "general": {
+      "holistic_score": 30,
+      "included": true,
+      "rationale": "Every elite claim (Rhodes, IOI gold, Putnam Fellow, Nature first author, Series B at 19) lacks a verifiable detail, and the dates require four full-time commitments on two continents at once. Discounted to a T1 enrollment and an A-tier internship, both unverified.",
+      "stage_relative_score": 35,
+      "sub_scores": {
+        "breadth": 30,
+        "impact": 20,
+        "pedigree": 45,
+        "selectivity": 30,
+        "trajectory": 35
+      },
+      "top_evidence": [
+        "Full-time at DeepMind, Jane Street, Oxford and Stanford in overlapping 2022-2023 windows",
+        "Series B, 85 staff and Fortune 100 customers with no investor, revenue or customer named",
+        "Rhodes, IOI gold, Putnam Fellow and Forbes 30u30 all listed without rank, country or category"
+      ]
+    },
+    "tech": {
+      "holistic_score": 30,
+      "included": true,
+      "rationale": "If any one claim were documented it would be elite; none is, and the overlaps make the set implausible. The internship at an A-tier company is the only ordinary line and it too has no detail. Scored as an unverified T1 CS student with no demonstrated work.",
+      "stage_relative_score": 35,
+      "sub_scores": {
+        "breadth": 28,
+        "impact": 20,
+        "pedigree": 45,
+        "selectivity": 30,
+        "trajectory": 35
+      },
+      "top_evidence": [
+        "\"Architected the entire core platform personally, including the proprietary foundation model\"",
+        "\"First million lines of the codebase in six months\"",
+        "Meta internship: \"a feature used by over a billion people\", no product named"
+      ]
+    }
+  },
+  "signals": {
+    "career_stage": "new_grad",
+    "has_quantified_impact": false,
+    "highest_institution_tier": "T1",
+    "highest_org_tier": "unknown",
+    "max_impact_scale": "none",
+    "months_internship": 3,
+    "primary_domain": "tech",
+    "sustained_org_tier": "unknown",
+    "top_role_selectivity": "unknown",
+    "trajectory": "unclear",
+    "years_fulltime": 0
+  },
+  "skills": {
+    "certifications": [],
+    "domain": [
+      "deep learning",
+      "distributed systems",
+      "quantitative finance",
+      "fundraising"
+    ],
+    "keyword_stuffing_suspected": false,
+    "spoken_languages": [
+      "five languages claimed, none named"
+    ],
+    "technical": [
+      "Python",
+      "C++",
+      "Rust",
+      "JAX",
+      "CUDA"
+    ]
+  },
+  "strengths": [
+    "Headings and section order are standard and the document is short",
+    "If the Stanford enrollment is genuine, the degree itself is a T1 credential",
+    "An internship at an A-tier company is the one claim at a plausible scale for the age"
+  ],
+  "verdict": "A set of elite claims that cannot coexist on one calendar and carry no checkable detail; scored as an unverified T1 student.",
+  "weaknesses": [
+    "Four full-time roles and degrees overlap in the same months on two continents",
+    "Rhodes, IOI gold, Putnam Fellow, a Nature first-author paper and a Series B are each listed without a single checkable detail",
+    "A 2023 paper with 2,000+ citations and a 17-year-old sole-author ICML paper are implausible as written",
+    "\"Youngest ever\", \"most influential\" and \"used across the industry\" are self-descriptions without issuers",
+    "No product, system, dataset or investor is named anywhere"
+  ]
+}

@@ -1,0 +1,502 @@
+{
+  "analysis": {
+    "analysis_confidence": 0.9,
+    "ats": {
+      "detected": {
+        "action_verb_ratio": 0.8,
+        "bullet_count": 14,
+        "bullet_marker_consistent": true,
+        "contact_at_top": true,
+        "date_format_consistent": false,
+        "date_formats_seen": [
+          "Month YYYY",
+          "YYYY"
+        ],
+        "has_email": true,
+        "has_location": true,
+        "has_phone": true,
+        "has_profile_link": true,
+        "has_street_address": false,
+        "has_summary_section": true,
+        "nonstandard_headings": [],
+        "quantified_bullet_ratio": 0.07,
+        "reverse_chronological": true,
+        "section_order": [
+          "Summary",
+          "Education",
+          "Experience",
+          "Leadership",
+          "Skills"
+        ],
+        "skill_bars_or_ratings": false,
+        "standard_headings": [
+          "Objective",
+          "Education",
+          "Professional Experience",
+          "Leadership and Activities",
+          "Skills and Certifications"
+        ],
+        "uses_tables_suspected": false
+      },
+      "factors": {
+        "consistency": {
+          "note": "One date format, titles match the bullets, no gaps",
+          "score": 100
+        },
+        "contact_info": {
+          "note": "Email, phone, city and a profile link at the top",
+          "score": 100
+        },
+        "formatting": {
+          "note": "Consistent bullets and order; layout not verified (docx); the certifications line mixes skills and languages",
+          "score": 95
+        },
+        "keyword_alignment": {
+          "note": "Analyst-role competencies (modeling, valuation, credit analysis) appear only as coursework or in the skills list",
+          "score": 45
+        },
+        "length": {
+          "note": "One page for a new graduate",
+          "score": 100
+        },
+        "parseability": {
+          "note": "Single column, standard headings, contact placeholders in the first two lines; layout not verified (docx)",
+          "score": 100
+        },
+        "quantification": {
+          "note": "One bullet carries a number (12-month rotation) and it is not an outcome; no result is quantified",
+          "score": 20
+        }
+      },
+      "fixes": [
+        {
+          "factor": "quantification",
+          "fix": "Before: Built an Excel report that summarizes weekly branch deposit growth → After: Built a weekly deposit-growth report covering __ branches that cut the regional manager's prep from __ to __ hours.",
+          "issue": "No bullet states a measurable result",
+          "priority": "high"
+        },
+        {
+          "factor": "keyword_alignment",
+          "fix": "Add a club or coursework bullet with a concrete model built (DCF, comps) and the stock or company it covered.",
+          "issue": "Financial modeling and valuation appear only in coursework and the skills line",
+          "priority": "high"
+        },
+        {
+          "factor": "consistency",
+          "fix": "Use Month YYYY for every date range.",
+          "issue": "Leadership entries use bare years while experience uses month and year",
+          "priority": "medium"
+        },
+        {
+          "factor": "length",
+          "fix": "Replace the objective with one line naming the target role and the two strongest facts.",
+          "issue": "The objective statement repeats the heading of the résumé",
+          "priority": "low"
+        }
+      ],
+      "score": 75,
+      "target_role_used": "Financial analyst, entry level"
+    },
+    "awards": [],
+    "card": {
+      "awards": [],
+      "card_version": "1.0",
+      "career_stage": "new_grad",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2025,
+          "field": "Finance",
+          "gpa_band": "3.0-3.49",
+          "honors": [],
+          "in_progress": false,
+          "institution": "The Ohio State University (Fisher)",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 4,
+          "employment_type": "full_time",
+          "highlights": [
+            "12-month rotation across branch operations, consumer lending and small business banking",
+            "Built an Excel weekly deposit-growth report for the regional manager"
+          ],
+          "impact_scale": "individual",
+          "org": "Huntington National Bank",
+          "org_tier": "C",
+          "role": "Retail Banking Rotational Program Associate",
+          "role_selectivity": "modest",
+          "seniority": "new_grad",
+          "years": "2025-present"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Prepared client paperwork and quarterly review materials for one advisor"
+          ],
+          "impact_scale": "individual",
+          "org": "Edward Jones",
+          "org_tier": "C",
+          "role": "Wealth Management Intern",
+          "role_selectivity": "modest",
+          "seniority": "intern",
+          "years": "2024-2024"
+        },
+        {
+          "duration_months": 33,
+          "employment_type": "part_time",
+          "highlights": [
+            "Service desk; trained new part-time associates"
+          ],
+          "impact_scale": "individual",
+          "org": "Kroger",
+          "org_tier": "D",
+          "role": "Customer Service Associate",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2021-2024"
+        }
+      ],
+      "headline": "New graduate in finance from a T3 state flagship; retail-bank rotational associate after a wealth-management internship",
+      "leadership": [
+        "Treasurer of a student investment club for two years; managed the club budget and dues"
+      ],
+      "notable": [],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Excel",
+        "Bloomberg Market Concepts",
+        "PowerPoint",
+        "Spanish (conversational)"
+      ],
+      "top_signal": "Bank rotational",
+      "years_fulltime": 0.3
+    },
+    "category_relevance": {
+      "academia": 0.03,
+      "finance": 0.75,
+      "general": 1,
+      "tech": 0.02
+    },
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2025,
+        "field": "Business Administration, Finance",
+        "gpa": 3.3,
+        "gpa_band": "3.0-3.49",
+        "gpa_scale": 4,
+        "honors": [],
+        "in_progress": false,
+        "institution": "The Ohio State University, Fisher College of Business",
+        "institution_tier": "T3",
+        "notes": "Standard finance coursework listed",
+        "start_year": 2021
+      }
+    ],
+    "experiences": [
+      {
+        "bullets_condensed": [
+          "12-month rotation: branch operations, consumer lending, small business banking",
+          "Assists with account openings and loan applications; shadows bankers",
+          "Built an Excel weekly deposit-growth report replacing a manual tally"
+        ],
+        "duration_months": 4,
+        "employment_type": "full_time",
+        "end": "present",
+        "impact_scale": "individual",
+        "is_current": true,
+        "org": "Huntington National Bank",
+        "org_tier": "C",
+        "org_type": "bank",
+        "ownership": "supported",
+        "quantified_impact": false,
+        "role": "Retail Banking Rotational Program Associate",
+        "role_selectivity": "modest",
+        "seniority": "new_grad",
+        "start": "2025-07",
+        "team_or_division": "Retail banking"
+      },
+      {
+        "bullets_condensed": [
+          "Client paperwork and portfolio review preparation for one advisor",
+          "Updated contact records; observed client meetings"
+        ],
+        "duration_months": 3,
+        "employment_type": "internship",
+        "end": "2024-08",
+        "impact_scale": "individual",
+        "is_current": false,
+        "org": "Edward Jones",
+        "org_tier": "C",
+        "org_type": "private_company",
+        "ownership": "supported",
+        "quantified_impact": false,
+        "role": "Wealth Management Intern",
+        "role_selectivity": "modest",
+        "seniority": "intern",
+        "start": "2024-06",
+        "team_or_division": "Wealth management"
+      },
+      {
+        "bullets_condensed": [
+          "Service desk transactions and issue resolution",
+          "Trained new part-time associates"
+        ],
+        "duration_months": 33,
+        "employment_type": "part_time",
+        "end": "2024-05",
+        "impact_scale": "individual",
+        "is_current": false,
+        "org": "Kroger",
+        "org_tier": "D",
+        "org_type": "public_company",
+        "ownership": "supported",
+        "quantified_impact": false,
+        "role": "Customer Service Associate",
+        "role_selectivity": "modest",
+        "seniority": "other",
+        "start": "2021-09",
+        "team_or_division": null
+      }
+    ],
+    "input": {
+      "is_resume": true,
+      "language": "en",
+      "parse_confidence": 0.95,
+      "placeholders_seen": [
+        "name",
+        "email",
+        "phone",
+        "url"
+      ],
+      "word_count_estimate": 350
+    },
+    "leadership": [
+      {
+        "budget_or_scale": "club budget and dues; size not stated",
+        "elected_or_appointed": "elected",
+        "highlight": "Prepared the semester budget for the executive board; organized weekly pitch meetings",
+        "org": "Buckeye Student Investment Club",
+        "people_led": null,
+        "role": "Treasurer"
+      }
+    ],
+    "projects": [],
+    "publications": [],
+    "red_flags": [],
+    "residual_pii": {
+      "email_count": 0,
+      "name_suspected": false,
+      "other_identifiers": [],
+      "phone_count": 0,
+      "street_address_suspected": false,
+      "url_count": 0
+    },
+    "schema_version": "1.1",
+    "scores": {
+      "academia": {
+        "holistic_score": 6,
+        "included": false,
+        "rationale": "No research output.",
+        "stage_relative_score": 6,
+        "sub_scores": {
+          "breadth": 5,
+          "impact": 5,
+          "pedigree": 20,
+          "selectivity": 5,
+          "trajectory": 15
+        },
+        "top_evidence": []
+      },
+      "finance": {
+        "holistic_score": 24,
+        "included": true,
+        "rationale": "Retail banking and wealth-management internship are C-tier finance exposure; no deal, market or modeling evidence; one Excel report; club treasurer rather than fund management.",
+        "stage_relative_score": 32,
+        "sub_scores": {
+          "breadth": 20,
+          "impact": 12,
+          "pedigree": 28,
+          "selectivity": 12,
+          "trajectory": 32
+        },
+        "top_evidence": [
+          "Retail-bank rotational program, branch and consumer lending",
+          "Wealth-management internship: paperwork and meeting prep",
+          "Bloomberg Market Concepts certificate"
+        ]
+      },
+      "general": {
+        "holistic_score": 25,
+        "included": true,
+        "rationale": "State-flagship finance degree with a 3.3, a retail-bank rotational program and a wealth-management internship; club treasurer; no quantified outcome anywhere.",
+        "stage_relative_score": 31,
+        "sub_scores": {
+          "breadth": 25,
+          "impact": 15,
+          "pedigree": 30,
+          "selectivity": 15,
+          "trajectory": 35
+        },
+        "top_evidence": [
+          "Retail Banking Rotational Program Associate",
+          "Wealth Management Intern at a brokerage branch",
+          "Treasurer of a student investment club"
+        ]
+      },
+      "tech": {
+        "holistic_score": 5,
+        "included": false,
+        "rationale": "No technical footprint beyond Excel.",
+        "stage_relative_score": 5,
+        "sub_scores": {
+          "breadth": 5,
+          "impact": 5,
+          "pedigree": 15,
+          "selectivity": 5,
+          "trajectory": 15
+        },
+        "top_evidence": []
+      }
+    },
+    "signals": {
+      "career_stage": "new_grad",
+      "has_quantified_impact": false,
+      "highest_institution_tier": "T3",
+      "highest_org_tier": "C",
+      "max_impact_scale": "individual",
+      "months_internship": 3,
+      "primary_domain": "finance",
+      "sustained_org_tier": "D",
+      "top_role_selectivity": "modest",
+      "trajectory": "too_early",
+      "years_fulltime": 0.3
+    },
+    "skills": {
+      "certifications": [
+        "Bloomberg Market Concepts"
+      ],
+      "domain": [
+        "Retail banking products",
+        "Consumer lending basics",
+        "Financial statement analysis"
+      ],
+      "keyword_stuffing_suspected": false,
+      "spoken_languages": [
+        "English",
+        "Spanish (conversational)"
+      ],
+      "technical": [
+        "Excel",
+        "PowerPoint",
+        "Word",
+        "Bloomberg Terminal",
+        "QuickBooks"
+      ]
+    },
+    "strengths": [
+      "Full-time rotational program at a regional bank started within two months of graduation",
+      "Two years as treasurer of a student investment club with budget responsibility",
+      "Bloomberg Market Concepts certificate and conversational Spanish",
+      "Three years of part-time work through the degree"
+    ],
+    "verdict": "Entry-level retail-bank record from a state flagship; duty bullets, no deal or market exposure, nothing quantified.",
+    "weaknesses": [
+      "No bullet carries an outcome number; the Excel report bullet is the only artifact",
+      "Retail banking and a brokerage-branch internship give no deal, market or credit-analysis exposure",
+      "GPA of 3.3 with no honors and no finance competitions or case work",
+      "The objective statement and the coursework line take space that a modeling project would use better"
+    ]
+  },
+  "card_sha256": "fcb972591e12464dc9f971fe5e68769f4f55050c163c6e32fe9c810d77ff602b",
+  "category_relevance": {
+    "academia": 0.03,
+    "finance": 0.75,
+    "general": 1,
+    "tech": 0.02
+  },
+  "created_at": "2026-10-03T12:11:00Z",
+  "deleted_at": null,
+  "duplicate_of": null,
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+5f7c9f15",
+    "verdict": {
+      "estimated_career_stage": "new_grad",
+      "is_resume": true,
+      "language": "en",
+      "prompt_injection_detected": false,
+      "reason": "Résumé with dated roles and education.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "finance-1100-new-gra",
+  "held_reason": null,
+  "id": "xr3uglaj43",
+  "kind": "user",
+  "metrics": {
+    "char_count": 2499,
+    "columns_detected": 0,
+    "extraction_quality": 0.95,
+    "font_count": 0,
+    "image_count": 0,
+    "pages": 1,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "docx",
+    "word_count": 350
+  },
+  "owner_hash": "890d2ffaff7af8435a94650540c46299cce6890235d535ce4733fa81f2d61938",
+  "primary": "finance",
+  "rejected_reason": null,
+  "schema": 1,
+  "scores": {
+    "finance": 27,
+    "general": 28
+  },
+  "source": {
+    "client_version": "fixtures",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 1
+  },
+  "stage": "new_grad",
+  "status": "analyzed",
+  "superseded_by": null,
+  "supersedes": null,
+  "text": "[name]\nColumbus, OH | [email] | [phone] | [url]\n\nOBJECTIVE\nRecent finance graduate seeking an analyst position where I can apply my financial analysis and Excel skills and grow toward a role in corporate banking or asset management.\n\nEDUCATION\nThe Ohio State University, Fisher College of Business — Columbus, OH\nBachelor of Science in Business Administration, Finance, May 2025\nGPA: 3.3/4.0\nRelevant Coursework: Corporate Finance, Investments, Financial Statement Analysis, Fixed Income, Business Statistics, Managerial Accounting\n\nPROFESSIONAL EXPERIENCE\nHuntington National Bank — Columbus, OH\nRetail Banking Rotational Program Associate, July 2025 – Present\n• Completing a 12-month rotation across branch operations, consumer lending, and the small business banking team.\n• Assist branch staff with account openings, consumer loan applications, and customer service during the branch rotation.\n• Shadow small business bankers on client meetings and help prepare meeting materials.\n• Built an Excel report that summarizes weekly branch deposit growth for the regional manager, replacing a manual tally.\n• Participate in weekly training sessions on bank products, compliance, and credit basics.\n\nEdward Jones — Dublin, OH\nWealth Management Intern, June 2024 – August 2024\n• Supported a financial advisor with client account paperwork and portfolio review preparation.\n• Updated client contact records and prepared materials for quarterly review meetings.\n• Observed client meetings and learned about retirement planning products and mutual fund selection.\n• Completed the firm's intern training on investment products and compliance.\n\nKroger — Columbus, OH\nCustomer Service Associate (part-time), September 2021 – May 2024\n• Handled customer transactions and resolved customer issues at the service desk.\n• Trained new part-time associates on register procedures.\n\nLEADERSHIP AND ACTIVITIES\nBuckeye Student Investment Club — Treasurer, 2023 – 2025\n• Managed the club's budget and membership dues; prepared the semester budget for the executive board.\n• Helped organize weekly meetings where members presented stock pitches.\n• Participated in the club's paper trading competition.\n\nFisher Finance Association — Member, 2022 – 2025\n\nSKILLS AND CERTIFICATIONS\nMicrosoft Excel (pivot tables, VLOOKUP, basic financial modeling), PowerPoint, Word, Bloomberg Terminal (Bloomberg Market Concepts certificate), QuickBooks basics\nWorking toward SIE exam\nLanguages: English (native), Spanish (conversational)",
+  "text_sha256": "7e4f765caa4a4a64d68d6b511f38d85ebb9c97ab38e5f9206e3f380db7258508",
+  "top_signal": "Bank rotational",
+  "updated_at": "2026-10-03T12:11:00Z",
+  "usage": {
+    "analysis_usd": 0.17728,
+    "gate_usd": 0.0016,
+    "latency_ms": 1
+  },
+  "versions": {
+    "analyst_model": "claude-opus-5-5",
+    "analyst_prompt": "analyst.v1+6dbc77ff",
+    "fell_back": false,
+    "gate_prompt": "gate.v1+5f7c9f15",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "visibility": "anonymous"
+}

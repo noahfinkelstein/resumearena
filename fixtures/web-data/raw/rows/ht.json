@@ -1,0 +1,28 @@
+{
+  "htlomrj2dn": {
+    "c": {
+      "general": 1
+    },
+    "ch": "597c951e6a6a895d6ea9fd04069730e19c4e93d44beb8e754d5c3df043a8dba0",
+    "h": "general-1900-new-gra",
+    "p": "general",
+    "s": "analyzed",
+    "sc": {
+      "general": 90
+    },
+    "sig": "Rhodes Scholar",
+    "ss": {
+      "general": [
+        90,
+        82,
+        72,
+        98,
+        88,
+        93
+      ]
+    },
+    "st": "new_grad",
+    "t": 1791031020,
+    "v": "handle"
+  }
+}

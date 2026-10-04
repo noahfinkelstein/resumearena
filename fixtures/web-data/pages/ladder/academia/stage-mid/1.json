@@ -1,0 +1,55 @@
+{
+  "category": "academia",
+  "cols": [
+    "rank",
+    "id",
+    "identity",
+    "tier",
+    "r",
+    "pm",
+    "w",
+    "l",
+    "d",
+    "stage",
+    "sig",
+    "d7",
+    "top"
+  ],
+  "page": 1,
+  "pages": 1,
+  "partition": "stage-mid",
+  "rows": [
+    [
+      1,
+      "5fj3akcjfx",
+      "academia-1600-mid-as",
+      "challenger",
+      1526,
+      174,
+      8,
+      7,
+      6,
+      "mid",
+      "NSF PI, 12 papers",
+      0,
+      0.5
+    ],
+    [
+      2,
+      "iv5kzargpe",
+      "anon-iv5kzar",
+      "contender",
+      1343,
+      179,
+      7,
+      6,
+      5,
+      "mid",
+      "Lab manager, 6 yrs",
+      0,
+      1
+    ]
+  ],
+  "schema": 1,
+  "total": 2
+}

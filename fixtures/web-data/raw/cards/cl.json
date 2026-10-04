@@ -1,0 +1,88 @@
+{
+  "cllczdo2b7": {
+    "card": {
+      "awards": [],
+      "card_version": "1.0",
+      "career_stage": "student",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2027,
+          "field": "Biology (Chemistry minor)",
+          "gpa_band": "not_listed",
+          "honors": [],
+          "in_progress": true,
+          "institution": "Western Illinois University",
+          "institution_tier": "T4"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 6,
+          "employment_type": "part_time",
+          "highlights": [
+            "Prepares media and buffers; maintains plant lines; PCR and gels under supervision"
+          ],
+          "impact_scale": "individual",
+          "org": "Western Illinois University, Department of Biological Sciences",
+          "org_tier": "D",
+          "role": "Undergraduate Research Assistant",
+          "role_selectivity": "modest",
+          "seniority": "research_assistant",
+          "years": "2026-present"
+        },
+        {
+          "duration_months": 26,
+          "employment_type": "part_time",
+          "highlights": [
+            "15-20 hours a week alongside the degree"
+          ],
+          "impact_scale": "individual",
+          "org": "Walmart",
+          "org_tier": "D",
+          "role": "Sales Associate (part-time)",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2024-present"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "part_time",
+          "highlights": [
+            "Supervised groups of children aged 8 to 11"
+          ],
+          "impact_scale": "individual",
+          "org": "Park district summer camp",
+          "org_tier": "D",
+          "role": "Camp Counselor",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2025-2025"
+        }
+      ],
+      "headline": "Biology junior at a T4 regional university; six months as an undergraduate lab assistant; part-time retail job",
+      "leadership": [],
+      "notable": [],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "PCR",
+        "Gel electrophoresis",
+        "Media preparation",
+        "Aseptic technique",
+        "Light microscopy",
+        "R (basic)"
+      ],
+      "top_signal": "Bio lab assistant",
+      "years_fulltime": 0
+    },
+    "st": "student"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "wjddmk5w4b": {
+    "c": {
+      "general": 1
+    },
+    "ch": "c6139d1187b50507167ef829a54094f180c3ceebf263c3d4e51406c56988b016",
+    "h": "general-1600-senior",
+    "p": "general",
+    "s": "analyzed",
+    "sc": {
+      "general": 72
+    },
+    "sig": "60→190 homes/year",
+    "ss": {
+      "general": [
+        45,
+        78,
+        82,
+        50,
+        60,
+        77
+      ]
+    },
+    "st": "senior",
+    "t": 1791030900,
+    "v": "anonymous"
+  }
+}

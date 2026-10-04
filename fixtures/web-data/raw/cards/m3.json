@@ -1,0 +1,149 @@
+{
+  "m3zjnglo6p": {
+    "card": {
+      "awards": [
+        {
+          "name": "Top-bucket associate ranking",
+          "scope": "company",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Director-to-MD leadership program selection",
+          "scope": "company",
+          "selectivity": "selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "senior",
+      "education": [
+        {
+          "degree_level": "mba",
+          "end_year": 2015,
+          "field": "Investment Banking",
+          "gpa_band": "not_listed",
+          "honors": [],
+          "in_progress": false,
+          "institution": "Cornell University (Johnson)",
+          "institution_tier": "T2"
+        },
+        {
+          "degree_level": "bachelor",
+          "end_year": 2011,
+          "field": "Finance and Accounting",
+          "gpa_band": "not_listed",
+          "honors": [
+            "with distinction"
+          ],
+          "in_progress": false,
+          "institution": "Indiana University (Kelley)",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 33,
+          "employment_type": "full_time",
+          "highlights": [
+            "Exclusive advisor on a $3.2B pharma sale; buy-side on a $4.1B CDMO acquisition",
+            "Attributed fees $38M (2024) and $52M (2025)",
+            "Runs a 12-person team; $120M revenue plan"
+          ],
+          "impact_scale": "industry",
+          "org": "Citi",
+          "org_tier": "A",
+          "role": "Managing Director, Healthcare Investment Banking",
+          "role_selectivity": "highly_selective",
+          "seniority": "md_partner",
+          "years": "2024-present"
+        },
+        {
+          "duration_months": 36,
+          "employment_type": "full_time",
+          "highlights": [
+            "Originated 5 mandates with $41M of fees",
+            "Sell-side on $2.7B and $1.1B transactions; $3.3B of issuance"
+          ],
+          "impact_scale": "industry",
+          "org": "Citi",
+          "org_tier": "A",
+          "role": "Director, Healthcare Investment Banking",
+          "role_selectivity": "highly_selective",
+          "seniority": "director",
+          "years": "2021-2023"
+        },
+        {
+          "duration_months": 36,
+          "employment_type": "full_time",
+          "highlights": [
+            "Execution lead on 9 deals totaling $8.9B"
+          ],
+          "impact_scale": "org",
+          "org": "Citi",
+          "org_tier": "A",
+          "role": "Vice President, Healthcare Investment Banking",
+          "role_selectivity": "highly_selective",
+          "seniority": "vp",
+          "years": "2018-2020"
+        },
+        {
+          "duration_months": 30,
+          "employment_type": "full_time",
+          "highlights": [
+            "6 transactions ($4.6B); top-bucket each year"
+          ],
+          "impact_scale": "org",
+          "org": "Citi",
+          "org_tier": "A",
+          "role": "Associate, Healthcare Investment Banking",
+          "role_selectivity": "highly_selective",
+          "seniority": "associate",
+          "years": "2015-2017"
+        },
+        {
+          "duration_months": 24,
+          "employment_type": "full_time",
+          "highlights": [
+            "7 closed sell-side deals, $90M to $650M"
+          ],
+          "impact_scale": "team",
+          "org": "William Blair",
+          "org_tier": "B",
+          "role": "Analyst, Healthcare Investment Banking",
+          "role_selectivity": "selective",
+          "seniority": "analyst",
+          "years": "2011-2013"
+        }
+      ],
+      "headline": "Managing director in healthcare investment banking at an A-tier bank; $20B of announced transactions led; 12-person team",
+      "leadership": [
+        "Runs a 12-person coverage team; group operating committee (one of 14 MDs)",
+        "Board member and treasurer of a $6M-budget free-clinic nonprofit"
+      ],
+      "notable": [
+        "$20.4B of announced transactions led or co-led since 2021",
+        "Fee revenue attributed of $52M in one year",
+        "MD at an A-tier bank after a middle-market analyst start"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Healthcare M&A",
+        "Equity capital markets",
+        "Client coverage",
+        "Merger modeling",
+        "Acquisition financing",
+        "Team leadership"
+      ],
+      "top_signal": "$20B deals led",
+      "years_fulltime": 13.3
+    },
+    "st": "senior"
+  }
+}

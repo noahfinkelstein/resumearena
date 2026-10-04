@@ -1,0 +1,55 @@
+[name]
+[email] | [phone] | [url] | [url]
+Dallas, TX
+
+FULL STACK DEVELOPER | REACT | NODE.JS | AWS | TYPESCRIPT | AGILE
+
+PROFESSIONAL SUMMARY
+Results-driven Full Stack Developer with 3+ years of experience building scalable, high-performance web applications using React, Node.js, TypeScript and AWS in Agile environments. Proven ability to deliver scalable, high-performance, cloud-native solutions using modern JavaScript frameworks, RESTful APIs, microservices and CI/CD pipelines.
+
+CORE COMPETENCIES
+Full Stack Development • React • Node.js • TypeScript • AWS • Agile/Scrum • RESTful APIs • Microservices • CI/CD • Cloud-Native • Scalable Architecture • High-Performance Web Applications • Responsive Design • Test-Driven Development • DevOps • Cross-Functional Collaboration
+
+TECHNICAL SKILLS
+Languages: JavaScript, TypeScript, Python, Java, C#, PHP, Ruby, Go, HTML5, CSS3, SQL, Bash
+Front End: React, Redux, Next.js, Angular, Vue.js, Svelte, jQuery, Bootstrap, Tailwind CSS, Material UI, Sass, Webpack, Vite, Babel
+Back End: Node.js, Express, NestJS, Django, Flask, Spring Boot, ASP.NET Core, Laravel, Ruby on Rails, GraphQL, REST, gRPC
+Databases: PostgreSQL, MySQL, MongoDB, Redis, DynamoDB, SQLite, Elasticsearch, Firebase, Cassandra
+Cloud/DevOps: AWS (EC2, S3, Lambda, RDS, CloudFront, API Gateway), Azure, GCP, Docker, Kubernetes, Terraform, Jenkins, GitHub Actions, CircleCI, Nginx
+Mobile: React Native, Expo, Flutter, Ionic
+Testing/Tools: Jest, Mocha, Cypress, Selenium, Playwright, Postman, Git, Jira, Confluence, Figma, Storybook
+Other: WebSockets, OAuth 2.0, JWT, Stripe API, Twilio API, SendGrid, Shopify, WordPress, Contentful, Zapier
+
+PROFESSIONAL EXPERIENCE
+
+Brightwater Digital, Dallas, TX
+Full Stack Developer · Jun 2024 – Present
+• Developed scalable, high-performance web applications using React, Node.js, TypeScript and AWS for 9 agency clients in Agile/Scrum teams
+• Built RESTful APIs and microservices with Node.js, Express and PostgreSQL, deployed on AWS using Docker and CI/CD pipelines
+• Implemented responsive, cross-browser front ends in React, Next.js and Tailwind CSS following modern JavaScript best practices
+• Delivered a React and Node.js e-commerce replatform for a regional retailer; page load time improved 35% after the launch in 2025
+• Wrote unit and end-to-end tests with Jest and Cypress to support test-driven development and CI/CD in an Agile environment
+• Collaborated cross-functionally with designers, project managers and QA in Agile sprints to deliver scalable, cloud-native solutions
+• Mentored 1 junior developer on React, Node.js and TypeScript best practices
+• Integrated third-party RESTful APIs (Stripe, Twilio, SendGrid) into React and Node.js applications using TypeScript and AWS Lambda in Agile sprints
+• Containerized Node.js microservices with Docker and deployed to AWS ECS with Terraform and GitHub Actions CI/CD pipelines
+
+Brightwater Digital, Dallas, TX
+Junior Web Developer · Aug 2023 – May 2024
+• Built WordPress and React landing pages and marketing sites for 14 clients using HTML5, CSS3, JavaScript and PHP
+• Maintained RESTful API integrations between client CMS platforms and third-party marketing tools
+• Participated in Agile ceremonies and used Git, Jira and Confluence for version control and project tracking
+• Optimized WordPress sites for performance and SEO using modern JavaScript, responsive design and Agile best practices
+
+PROJECTS
+• TaskFlow (React, Node.js, TypeScript, AWS): full stack task-management application with RESTful API, JWT authentication and CI/CD pipeline; deployed on AWS
+• DevLink (Next.js, GraphQL, PostgreSQL): developer portfolio platform with scalable, high-performance architecture and responsive design
+• ShopSync (React Native, Node.js, MongoDB, AWS): scalable mobile shopping-list app with RESTful API and cloud-native deployment on AWS
+
+EDUCATION
+University of North Texas, Denton, TX
+B.S. Information Technology, May 2023
+Relevant coursework: Web Development, Database Systems, Cloud Computing, Agile Project Management
+
+CERTIFICATIONS
+AWS Certified Developer – Associate (2024) · Certified ScrumMaster (2023) · freeCodeCamp Responsive Web Design (2021)

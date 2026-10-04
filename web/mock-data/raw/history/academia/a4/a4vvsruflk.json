@@ -1,0 +1,194 @@
+{
+  "cat": "academia",
+  "id": "a4vvsruflk",
+  "lin": "a4vvsruflk",
+  "placed": true,
+  "points": [
+    [
+      "2026-09-21",
+      2036,
+      220,
+      "p"
+    ],
+    [
+      "2026-09-21",
+      2126,
+      118,
+      "p"
+    ],
+    [
+      "2026-09-22",
+      2126.63,
+      82.2,
+      "m"
+    ],
+    [
+      "2026-09-23",
+      2138.29,
+      82.2,
+      "m"
+    ],
+    [
+      "2026-09-24",
+      2136.24,
+      82.2,
+      "m"
+    ],
+    [
+      "2026-09-25",
+      2136.34,
+      82.2,
+      "s"
+    ],
+    [
+      "2026-09-26",
+      2140.88,
+      82.2,
+      "m"
+    ],
+    [
+      "2026-09-27",
+      2137.71,
+      82.2,
+      "m"
+    ],
+    [
+      "2026-09-28",
+      2144.93,
+      82.2,
+      "m"
+    ],
+    [
+      "2026-09-29",
+      2148.9,
+      82.2,
+      "s"
+    ],
+    [
+      "2026-09-30",
+      2145.45,
+      82.2,
+      "m"
+    ],
+    [
+      "2026-10-01",
+      2147.5,
+      82.2,
+      "m"
+    ],
+    [
+      "2026-10-02",
+      2163.04,
+      82.2,
+      "m"
+    ],
+    [
+      "2026-10-03",
+      2196,
+      82.2,
+      "s"
+    ]
+  ],
+  "recent": [
+    {
+      "at": "2026-10-03T12:50:11Z",
+      "dr": 10,
+      "k": "refine",
+      "m": "422b358f946b742e",
+      "note": "Broader ownership at the same company tier; the second record’s projects are smaller in scope.",
+      "o": "W",
+      "opp": "a44dwwkkg3",
+      "opp_r": 2254
+    },
+    {
+      "at": "2026-10-03T11:20:11Z",
+      "dr": 7,
+      "k": "refine",
+      "m": "8f0d5739d7a995ad",
+      "note": "Broader ownership at the same company tier; the second record’s projects are smaller in scope.",
+      "o": "W",
+      "opp": "p4cb33anln",
+      "opp_r": 2222
+    },
+    {
+      "at": "2026-10-03T09:50:11Z",
+      "dr": 0,
+      "k": "placement",
+      "m": "81753a5ef1795027",
+      "note": "Close on pedigree; the first record’s sustained tier and quantified bullets decide it.",
+      "o": "D",
+      "opp": "z5x3s523uy",
+      "opp_r": 2221
+    },
+    {
+      "at": "2026-10-03T08:20:11Z",
+      "dr": -9,
+      "k": "placement",
+      "m": "d8ad52214e4dc52f",
+      "note": "Broader ownership at the same company tier; the second record’s projects are smaller in scope.",
+      "o": "L",
+      "opp": "anchrtgaaa",
+      "opp_r": 2209
+    },
+    {
+      "at": "2026-10-03T06:50:11Z",
+      "dr": -11,
+      "k": "placement",
+      "m": "555b72ae4791b5c2",
+      "note": "First: owned a 40k rps migration with a p99 number. Second: strong A-tier record but smaller scope.",
+      "o": "L",
+      "opp": "x6dhf3nvv2",
+      "opp_r": 2198
+    },
+    {
+      "at": "2026-10-03T05:20:11Z",
+      "dr": 10,
+      "k": "placement",
+      "m": "4126b1e704f0f6b8",
+      "note": "Second: first-author publication at a top venue. First: solid industry bullets without a comparable peak.",
+      "o": "W",
+      "opp": "z5b63axu73",
+      "opp_r": 2192
+    },
+    {
+      "at": "2026-10-03T03:50:11Z",
+      "dr": -9,
+      "k": "placement",
+      "m": "7a8c50062cd058e2",
+      "note": "Broader ownership at the same company tier; the second record’s projects are smaller in scope.",
+      "o": "L",
+      "opp": "a44dwwkkg3",
+      "opp_r": 2254
+    },
+    {
+      "at": "2026-10-03T02:20:11Z",
+      "dr": -14,
+      "k": "placement",
+      "m": "f89fbc5004da46d3",
+      "note": "Second: first-author publication at a top venue. First: solid industry bullets without a comparable peak.",
+      "o": "L",
+      "opp": "p4cb33anln",
+      "opp_r": 2222
+    },
+    {
+      "at": "2026-10-03T00:50:11Z",
+      "dr": 9,
+      "k": "placement",
+      "m": "4a7c5f2cef82f9bb",
+      "note": "Close on pedigree; the first record’s sustained tier and quantified bullets decide it.",
+      "o": "W",
+      "opp": "z5x3s523uy",
+      "opp_r": 2221
+    },
+    {
+      "at": "2026-10-02T23:20:11Z",
+      "dr": 0,
+      "k": "placement",
+      "m": "cca75b74555bad0f",
+      "note": "Close on pedigree; the first record’s sustained tier and quantified bullets decide it.",
+      "o": "D",
+      "opp": "x6v3zqqpb4",
+      "opp_r": 2209
+    }
+  ]
+}

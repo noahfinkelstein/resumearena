@@ -1,0 +1,42 @@
+[name]
+Omaha, NE · [email] · [phone] · [url]
+
+SUMMARY
+Software engineer with two years at a logistics software company, mostly on the billing service. Comfortable with Python and Java services on PostgreSQL, writing tests for code I did not write, and being on call for it. Looking for a backend role on a larger team.
+
+EDUCATION
+University of Nebraska–Lincoln — B.S. Computer Science, May 2024
+GPA 3.2/4.0. Relevant coursework: Data Structures, Database Systems, Operating Systems, Software Engineering, Computer Networks.
+
+EXPERIENCE
+Freightline Systems, Omaha, NE — Software Engineer I (Jun 2024 – Present)
+Logistics software company (about 400 employees) selling shipment tracking and billing tools to regional carriers.
+• Built an internal invoice reconciliation tool (Python, PostgreSQL) that matches carrier invoices against shipment records; cut the billing team's weekly reconciliation from about 9 hours to 2.
+• Raised unit test coverage on the billing service from 41% to 68% over two quarters by targeting the modules with the most production incidents; incident count for the service fell from 7 to 2 per quarter.
+• Maintain the carrier-rate import pipeline and fix data-mapping bugs reported by customer support, typically 10 to 15 tickets a month.
+• Migrated three scheduled jobs from cron on a single VM to the team's Kubernetes cluster, with alerts in Grafana.
+• Take part in the team's on-call rotation (one week in six) for the billing service.
+• Wrote the runbook for the invoice pipeline that the support team now uses for first-line triage.
+• Reviewed pull requests from two interns during summer 2025 and paired with them on their onboarding tickets.
+• Replaced a hand-maintained spreadsheet of carrier surcharge codes with a database table and an admin page, removing a monthly manual update.
+
+Freightline Systems, Omaha, NE — Software Engineering Intern (May 2023 – Aug 2023)
+• Added CSV export to the customer shipment dashboard, used by about 120 customer accounts.
+• Fixed 20+ bugs in the React front end over the summer; received a return offer.
+
+University of Nebraska–Lincoln — Teaching Assistant, Introduction to Programming (Aug 2022 – May 2023)
+• Ran two weekly lab sections of about 25 students each; graded assignments and held office hours.
+
+PROJECTS
+Shipment ETA estimator (personal, 2024) — Python, scikit-learn, pandas
+Gradient-boosted model trained on a public freight dataset; mean absolute error of 3.1 hours against a 5.4-hour baseline. Notebook and write-up on GitHub.
+
+Course scheduler (senior capstone, team of 4, 2024) — Java, Spring Boot, PostgreSQL
+Constraint-based timetable generator for the CS department; handled the solver and the database layer. Demoed to the undergraduate advising office.
+
+SKILLS
+Languages: Python, Java, SQL, JavaScript, Bash
+Tools: PostgreSQL, Spring Boot, React, Docker, Kubernetes (basic), Git, GitHub Actions, pytest, Grafana
+
+ACTIVITIES
+Member, ACM student chapter (2021–2024). Volunteer mentor at a weekend coding club for high-school students (2023–2024).

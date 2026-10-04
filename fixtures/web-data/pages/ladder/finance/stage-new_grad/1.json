@@ -1,0 +1,55 @@
+{
+  "category": "finance",
+  "cols": [
+    "rank",
+    "id",
+    "identity",
+    "tier",
+    "r",
+    "pm",
+    "w",
+    "l",
+    "d",
+    "stage",
+    "sig",
+    "d7",
+    "top"
+  ],
+  "page": 1,
+  "pages": 1,
+  "partition": "stage-new_grad",
+  "rows": [
+    [
+      1,
+      "lujxpyjxdh",
+      "finance-1600-new-gra",
+      "challenger",
+      1445,
+      217,
+      5,
+      7,
+      3,
+      "new_grad",
+      "BB IB return offer",
+      0,
+      0.5
+    ],
+    [
+      2,
+      "xr3uglaj43",
+      "anon-xr3ugla",
+      "entrant",
+      1026,
+      227,
+      3,
+      14,
+      0,
+      "new_grad",
+      "Bank rotational",
+      0,
+      1
+    ]
+  ],
+  "schema": 1,
+  "total": 2
+}

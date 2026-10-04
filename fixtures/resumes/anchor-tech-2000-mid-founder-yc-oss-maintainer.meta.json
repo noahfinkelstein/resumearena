@@ -1,0 +1,32 @@
+{
+  "expect": {
+    "gate": "pass",
+    "status": "analyzed"
+  },
+  "group": "anchor",
+  "intended_anchor": 2000,
+  "intended_categories": [
+    "general",
+    "tech"
+  ],
+  "intended_stage": "mid",
+  "metrics": {
+    "char_count": 5173,
+    "columns_detected": 1,
+    "extraction_quality": 0.98,
+    "font_count": 2,
+    "image_count": 0,
+    "pages": 2,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 2
+    },
+    "source": "pdf",
+    "word_count": 809
+  },
+  "slug": "anchor-tech-2000-mid-founder-yc-oss-maintainer"
+}

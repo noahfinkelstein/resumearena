@@ -1,0 +1,38 @@
+{
+  "2elgnjj7jt": {
+    "c": {
+      "finance": 0.9,
+      "general": 1
+    },
+    "ch": "a931ebce4eb62ff65f2820909ce4caa0277f88dd4117ae011947bcfcf23e61cf",
+    "h": "finance-1300-early-f",
+    "p": "finance",
+    "s": "analyzed",
+    "sc": {
+      "finance": 48,
+      "general": 47
+    },
+    "sig": "$1.4B div forecast",
+    "ss": {
+      "finance": [
+        42,
+        50,
+        45,
+        35,
+        40,
+        52
+      ],
+      "general": [
+        42,
+        50,
+        45,
+        35,
+        40,
+        50
+      ]
+    },
+    "st": "early",
+    "t": 1791029520,
+    "v": "anonymous"
+  }
+}

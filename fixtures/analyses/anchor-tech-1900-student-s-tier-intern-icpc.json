@@ -1,0 +1,534 @@
+{
+  "analysis_confidence": 0.95,
+  "ats": {
+    "detected": {
+      "action_verb_ratio": 0.9,
+      "bullet_count": 22,
+      "bullet_marker_consistent": true,
+      "contact_at_top": true,
+      "date_format_consistent": true,
+      "date_formats_seen": [
+        "Month YYYY"
+      ],
+      "has_email": true,
+      "has_location": false,
+      "has_phone": true,
+      "has_profile_link": true,
+      "has_street_address": false,
+      "has_summary_section": false,
+      "nonstandard_headings": [
+        "TEACHING AND SERVICE",
+        "ACTIVITIES"
+      ],
+      "quantified_bullet_ratio": 0.5,
+      "reverse_chronological": true,
+      "section_order": [
+        "Education",
+        "Experience",
+        "Projects",
+        "Awards",
+        "Leadership",
+        "Activities",
+        "Skills"
+      ],
+      "skill_bars_or_ratings": false,
+      "standard_headings": [
+        "EDUCATION",
+        "EXPERIENCE",
+        "PROJECTS",
+        "AWARDS",
+        "SKILLS"
+      ],
+      "uses_tables_suspected": false
+    },
+    "factors": {
+      "consistency": {
+        "note": "One date format (Month YYYY)",
+        "score": 100
+      },
+      "contact_info": {
+        "note": "Email, phone and two profile links present; no city or region stated",
+        "score": 75
+      },
+      "formatting": {
+        "note": "Standard headings, one bullet style, reverse-chronological, one font",
+        "score": 100
+      },
+      "keyword_alignment": {
+        "note": "Systems engineering target: C++, Rust, consensus, profiling and build systems appear in bullets with outcomes",
+        "score": 90
+      },
+      "length": {
+        "note": "1 page for a student",
+        "score": 100
+      },
+      "parseability": {
+        "note": "Single-column 1-page PDF, extraction quality 0.98; contact placeholders on line 2",
+        "score": 100
+      },
+      "quantification": {
+        "note": "About half the bullets carry an outcome number; several are participation lines",
+        "score": 80
+      }
+    },
+    "fixes": [
+      {
+        "factor": "contact_info",
+        "fix": "Add a city line under the name so location filters work",
+        "issue": "No city or region is given",
+        "priority": "medium"
+      },
+      {
+        "factor": "quantification",
+        "fix": "Before: found two previously unknown ordering bugs → After: found 2 ordering bugs in __ (file system), confirmed by maintainers, __ fixed upstream",
+        "issue": "The research bullet states lines of code but not the checker's result on real file systems",
+        "priority": "medium"
+      },
+      {
+        "factor": "formatting",
+        "fix": "Combine into one \"Leadership and Activities\" section to keep the page to five headings",
+        "issue": "\"Teaching and Service\" and \"Activities\" could be merged",
+        "priority": "low"
+      }
+    ],
+    "score": 93,
+    "target_role_used": "Software engineering or quantitative developer intern, new grad 2028"
+  },
+  "awards": [
+    {
+      "issuer": "ICPC",
+      "name": "ICPC North America Championship, 1st place",
+      "pool_estimate": "top team of ~50 regional qualifiers",
+      "scope": "national",
+      "selectivity": "highly_selective",
+      "verifiable": true,
+      "year": 2026
+    },
+    {
+      "issuer": "MAA",
+      "name": "Putnam Mathematical Competition, rank 71 of 3,988",
+      "pool_estimate": "top 2% of 3,988 entrants",
+      "scope": "national",
+      "selectivity": "highly_selective",
+      "verifiable": true,
+      "year": 2025
+    },
+    {
+      "issuer": "USA Computing Olympiad",
+      "name": "USACO Platinum division",
+      "pool_estimate": "top division of several thousand",
+      "scope": "national",
+      "selectivity": "highly_selective",
+      "verifiable": true,
+      "year": 2023
+    },
+    {
+      "issuer": "MIT",
+      "name": "MIT Battlecode, 5th of 420 teams",
+      "pool_estimate": "top 8 of 420 teams",
+      "scope": "international",
+      "selectivity": "highly_selective",
+      "verifiable": true,
+      "year": 2026
+    },
+    {
+      "issuer": "MIT",
+      "name": "MIT Pokerbots, 11th of 230 teams",
+      "pool_estimate": "top 5% of 230 teams",
+      "scope": "institutional",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2025
+    },
+    {
+      "issuer": "MIT",
+      "name": "UROP funded research award",
+      "pool_estimate": "competitive but broad",
+      "scope": "institutional",
+      "selectivity": "modest",
+      "verifiable": true,
+      "year": 2025
+    }
+  ],
+  "card": {
+    "awards": [
+      {
+        "name": "ICPC North America Championship, 1st place",
+        "scope": "national",
+        "selectivity": "highly_selective"
+      },
+      {
+        "name": "Putnam rank 71 of 3,988",
+        "scope": "national",
+        "selectivity": "highly_selective"
+      },
+      {
+        "name": "USACO Platinum",
+        "scope": "national",
+        "selectivity": "highly_selective"
+      },
+      {
+        "name": "MIT Battlecode 5th of 420",
+        "scope": "international",
+        "selectivity": "highly_selective"
+      },
+      {
+        "name": "MIT Pokerbots 11th of 230",
+        "scope": "institutional",
+        "selectivity": "selective"
+      }
+    ],
+    "card_version": "1.0",
+    "career_stage": "student",
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2028,
+        "field": "Computer Science and Engineering",
+        "gpa_band": "4.0",
+        "honors": [],
+        "in_progress": true,
+        "institution": "Massachusetts Institute of Technology",
+        "institution_tier": "T1"
+      }
+    ],
+    "experiences": [
+      {
+        "duration_months": 3,
+        "employment_type": "internship",
+        "highlights": [
+          "Volatility-surface fitter rewritten in C++: 41 ms to 2.3 ms per update",
+          "Order-book replay harness over 1.2 TB/day used by three traders",
+          "Return offer"
+        ],
+        "impact_scale": "team",
+        "org": "Citadel Securities",
+        "org_tier": "S",
+        "role": "Quantitative Developer Intern",
+        "role_selectivity": "elite",
+        "seniority": "intern",
+        "years": "2026-2026"
+      },
+      {
+        "duration_months": 3,
+        "employment_type": "internship",
+        "highlights": [
+          "Incremental build cache cut median build time 34%",
+          "Found and fixed a 7% CPU regression",
+          "Return offer"
+        ],
+        "impact_scale": "team",
+        "org": "Jane Street",
+        "org_tier": "S",
+        "role": "Software Engineering Intern",
+        "role_selectivity": "elite",
+        "seniority": "intern",
+        "years": "2025-2025"
+      },
+      {
+        "duration_months": 13,
+        "employment_type": "part_time",
+        "highlights": [
+          "Wrote a 6k-line Rust symbolic executor; found two unknown ordering bugs"
+        ],
+        "impact_scale": "team",
+        "org": "MIT CSAIL",
+        "org_tier": "A",
+        "role": "Undergraduate Researcher, systems group",
+        "role_selectivity": "selective",
+        "seniority": "research_assistant",
+        "years": "2025-present"
+      }
+    ],
+    "headline": "CS junior at a T1 university; interned at two S-tier trading firms with return offers; ICPC North America champion",
+    "leadership": [
+      "Problem setter, university informatics tournament 2026",
+      "Lab assistant for the operating systems course"
+    ],
+    "notable": [
+      "Return offers from two S-tier trading firms before junior year",
+      "ICPC North America champion 2026 and Putnam top 100",
+      "Perfect GPA at a T1 university"
+    ],
+    "projects": [
+      {
+        "descriptor": "Sharded Multi-Raft key-value store in Go with a TLA+ reconfiguration model",
+        "highlight": "2,000 consecutive clean fault-injection runs under the race detector",
+        "kind": "software",
+        "scale_signal": "120k ops/s on 15 nodes",
+        "technical_depth": "exceptional"
+      }
+    ],
+    "publications_summary": {
+      "citation_signal": "not stated",
+      "count_total": 0,
+      "first_author_count": 0,
+      "strong_venue_count": 0,
+      "top_venue_count": 0,
+      "venues": []
+    },
+    "skills_top": [
+      "C++",
+      "Rust",
+      "Go",
+      "OCaml",
+      "Python",
+      "TLA+",
+      "Linux systems",
+      "Bazel"
+    ],
+    "top_signal": "ICPC NAC champion",
+    "years_fulltime": 0
+  },
+  "category_relevance": {
+    "academia": 0.3,
+    "finance": 0.3,
+    "general": 1,
+    "tech": 1
+  },
+  "education": [
+    {
+      "degree_level": "bachelor",
+      "end_year": 2028,
+      "field": "Computer Science and Engineering",
+      "gpa": 5,
+      "gpa_band": "4.0",
+      "gpa_scale": 5,
+      "honors": [],
+      "in_progress": true,
+      "institution": "Massachusetts Institute of Technology",
+      "institution_tier": "T1",
+      "notes": "Graduate-level algorithms and systems coursework as a junior",
+      "start_year": null
+    }
+  ],
+  "experiences": [
+    {
+      "bullets_condensed": [
+        "Rewrote the volatility-surface fitter from Python to C++: 41 ms to 2.3 ms per update, enabling refits on every tick",
+        "Built an order-book replay harness over 1.2 TB/day of feeds, used by three traders",
+        "Removed a serialization bottleneck: end-of-day parameter sweep 55 minutes to 12",
+        "Return offer"
+      ],
+      "duration_months": 3,
+      "employment_type": "internship",
+      "end": "2026-08",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "Citadel Securities",
+      "org_tier": "S",
+      "org_type": "private_company",
+      "ownership": "owned_component",
+      "quantified_impact": true,
+      "role": "Quantitative Developer Intern",
+      "role_selectivity": "elite",
+      "seniority": "intern",
+      "start": "2026-06",
+      "team_or_division": "Options Market Making"
+    },
+    {
+      "bullets_condensed": [
+        "Incremental build-graph cache for the OCaml monorepo: median incremental build time down 34%",
+        "Structured tracing found a 7% CPU regression; fix merged to production",
+        "Return offer"
+      ],
+      "duration_months": 3,
+      "employment_type": "internship",
+      "end": "2025-08",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "Jane Street",
+      "org_tier": "S",
+      "org_type": "private_company",
+      "ownership": "owned_component",
+      "quantified_impact": true,
+      "role": "Software Engineering Intern",
+      "role_selectivity": "elite",
+      "seniority": "intern",
+      "start": "2025-06",
+      "team_or_division": null
+    },
+    {
+      "bullets_condensed": [
+        "Wrote the symbolic executor front end (about 6k lines of Rust) of a crash-consistency checker",
+        "Found two previously unknown ordering bugs in a research file system",
+        "Workshop submission planned for spring 2027"
+      ],
+      "duration_months": 13,
+      "employment_type": "part_time",
+      "end": "present",
+      "impact_scale": "team",
+      "is_current": true,
+      "org": "MIT CSAIL",
+      "org_tier": "A",
+      "org_type": "university",
+      "ownership": "owned_component",
+      "quantified_impact": false,
+      "role": "Undergraduate Researcher",
+      "role_selectivity": "selective",
+      "seniority": "research_assistant",
+      "start": "2025-09",
+      "team_or_division": "Parallel and Distributed Operating Systems group"
+    }
+  ],
+  "input": {
+    "is_resume": true,
+    "language": "en",
+    "parse_confidence": 0.98,
+    "placeholders_seen": [
+      "name",
+      "email",
+      "phone",
+      "url"
+    ],
+    "word_count_estimate": 510
+  },
+  "leadership": [
+    {
+      "budget_or_scale": "not stated",
+      "elected_or_appointed": "appointed",
+      "highlight": "Set problems for the 2026 tournament",
+      "org": "MIT Informatics Tournament",
+      "people_led": null,
+      "role": "Problem setter"
+    }
+  ],
+  "projects": [
+    {
+      "description_condensed": "Multi-Raft in Go with shard rebalancing, lease reads and snapshot transfer; 120k ops/s on 15 nodes; 2,000 clean fault-injection runs; TLA+ model of reconfiguration",
+      "has_external_validation": false,
+      "kind": "software",
+      "name": "Sharded linearizable key-value store",
+      "quantified_impact": true,
+      "scale_signal": "120k ops/s across 5 shards on a 15-node cluster",
+      "technical_depth": "exceptional"
+    }
+  ],
+  "publications": [],
+  "red_flags": [],
+  "residual_pii": {
+    "email_count": 0,
+    "name_suspected": false,
+    "other_identifiers": [],
+    "phone_count": 0,
+    "street_address_suspected": false,
+    "url_count": 0
+  },
+  "schema_version": "1.1",
+  "scores": {
+    "academia": {
+      "holistic_score": 40,
+      "included": false,
+      "rationale": "One undergraduate research role with a planned workshop submission; no publications yet.",
+      "stage_relative_score": 40,
+      "sub_scores": {
+        "breadth": 30,
+        "impact": 30,
+        "pedigree": 85,
+        "selectivity": 70,
+        "trajectory": 55
+      },
+      "top_evidence": []
+    },
+    "finance": {
+      "holistic_score": 55,
+      "included": false,
+      "rationale": "Two trading-firm internships in developer roles count at half; no markets or research work on the page.",
+      "stage_relative_score": 55,
+      "sub_scores": {
+        "breadth": 30,
+        "impact": 35,
+        "pedigree": 85,
+        "selectivity": 90,
+        "trajectory": 60
+      },
+      "top_evidence": []
+    },
+    "general": {
+      "holistic_score": 90,
+      "included": true,
+      "rationale": "T1 junior with two S-tier internships and return offers, ICPC North America champion and Putnam top 100; impact is intern-scale by construction.",
+      "stage_relative_score": 92,
+      "sub_scores": {
+        "breadth": 55,
+        "impact": 40,
+        "pedigree": 92,
+        "selectivity": 96,
+        "trajectory": 75
+      },
+      "top_evidence": [
+        "Jane Street and Citadel Securities internships, both with return offers",
+        "ICPC North America Championship 2026, 1st place",
+        "Putnam 2025 rank 71 of 3,988"
+      ]
+    },
+    "tech": {
+      "holistic_score": 91,
+      "included": true,
+      "rationale": "Repeated S-tier selection with measured intern work (fit time 41 ms to 2.3 ms; build time down 34%), national competition results, and a systems project of unusual depth; impact scale is still team-level.",
+      "stage_relative_score": 93,
+      "sub_scores": {
+        "breadth": 55,
+        "impact": 45,
+        "pedigree": 92,
+        "selectivity": 97,
+        "trajectory": 78
+      },
+      "top_evidence": [
+        "Volatility-surface fitter 41 ms to 2.3 ms per update at an S-tier market maker",
+        "ICPC NAC champion; Putnam top 100; USACO Platinum",
+        "Multi-Raft store at 120k ops/s with a TLA+ reconfiguration model"
+      ]
+    }
+  },
+  "signals": {
+    "career_stage": "student",
+    "has_quantified_impact": true,
+    "highest_institution_tier": "T1",
+    "highest_org_tier": "S",
+    "max_impact_scale": "team",
+    "months_internship": 6,
+    "primary_domain": "tech",
+    "sustained_org_tier": "unknown",
+    "top_role_selectivity": "elite",
+    "trajectory": "accelerating",
+    "years_fulltime": 0
+  },
+  "skills": {
+    "certifications": [],
+    "domain": [
+      "Distributed consensus",
+      "Lock-free data structures",
+      "Market-data systems",
+      "Build systems",
+      "Symbolic execution"
+    ],
+    "keyword_stuffing_suspected": false,
+    "spoken_languages": [],
+    "technical": [
+      "C++",
+      "Rust",
+      "Go",
+      "OCaml",
+      "Python",
+      "TLA+",
+      "Bazel",
+      "perf",
+      "gdb",
+      "Linux"
+    ]
+  },
+  "strengths": [
+    "Two S-tier internships (Jane Street, Citadel Securities) with return offers from both",
+    "ICPC North America Championship 2026 winner and Putnam rank 71 of 3,988",
+    "Intern work measured precisely: fitter 41 ms to 2.3 ms, build time down 34%",
+    "Systems project with a TLA+ model and 2,000 clean fault-injection runs"
+  ],
+  "verdict": "A T1 junior whose every line is a selection by others; the only thing missing is scale, which the stage does not allow yet.",
+  "weaknesses": [
+    "Impact is intern- and course-scale; nothing yet deployed beyond a desk or a team",
+    "Research role has no publication yet",
+    "No location on the page",
+    "Several award lines are participation-level (UROP, running club) and dilute the list"
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "bswap4rgut": {
+    "card": {
+      "awards": [],
+      "card_version": "1.0",
+      "career_stage": "early",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2024,
+          "field": "Finance",
+          "gpa_band": "not_listed",
+          "honors": [],
+          "in_progress": false,
+          "institution": "Arizona State University, W. P. Carey School of Business",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 27,
+          "employment_type": "full_time",
+          "highlights": [
+            "Quarterly client review materials, proposals with allocation summaries and fee illustrations",
+            "Monthly reconciliation between custodian and portfolio-reporting systems",
+            "Account openings, transfers and distributions with operations"
+          ],
+          "impact_scale": "individual",
+          "org": "Regional wealth-management firm",
+          "org_tier": "C",
+          "role": "Financial Analyst",
+          "role_selectivity": "modest",
+          "seniority": "analyst",
+          "years": "2024-present"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Account paperwork and CRM updates; converted to full-time"
+          ],
+          "impact_scale": "individual",
+          "org": "Regional wealth-management firm",
+          "org_tier": "C",
+          "role": "Client Service Intern",
+          "role_selectivity": "modest",
+          "seniority": "intern",
+          "years": "2023"
+        }
+      ],
+      "headline": "Financial analyst, 2 years at a regional wealth-management firm; T3 finance degree; Series 7 and 66",
+      "leadership": [
+        "Volunteer instructor in a financial-literacy program, 2024-present"
+      ],
+      "notable": [],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Excel",
+        "Morningstar Direct",
+        "eMoney",
+        "Salesforce",
+        "Bloomberg",
+        "Client reporting"
+      ],
+      "top_signal": "WM analyst, 2 yrs",
+      "years_fulltime": 2.3
+    },
+    "st": "early"
+  }
+}

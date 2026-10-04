@@ -1,0 +1,40 @@
+{
+  "category": "academia",
+  "cols": [
+    "rank",
+    "id",
+    "identity",
+    "tier",
+    "r",
+    "pm",
+    "w",
+    "l",
+    "d",
+    "stage",
+    "sig",
+    "d7",
+    "top"
+  ],
+  "page": 1,
+  "pages": 1,
+  "partition": "stage-new_grad",
+  "rows": [
+    [
+      1,
+      "hxq66qvixj",
+      "anon-hxq66qv",
+      "entrant",
+      1031,
+      188,
+      2,
+      15,
+      5,
+      "new_grad",
+      "MS thesis, no pub",
+      0,
+      1
+    ]
+  ],
+  "schema": 1,
+  "total": 1
+}

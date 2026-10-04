@@ -1,0 +1,75 @@
+{
+  "7yughruwis": {
+    "card": {
+      "awards": [],
+      "card_version": "1.0",
+      "career_stage": "student",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2028,
+          "field": "Computer Science",
+          "gpa_band": "not_listed",
+          "honors": [],
+          "in_progress": true,
+          "institution": "Shippensburg University of Pennsylvania",
+          "institution_tier": "T4"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 28,
+          "employment_type": "part_time",
+          "highlights": [
+            "Trained 2 seasonal associates on register procedures"
+          ],
+          "impact_scale": "individual",
+          "org": "Target",
+          "org_tier": "C",
+          "role": "Sales Associate",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2024-present"
+        }
+      ],
+      "headline": "CS sophomore at a T4 regional university; part-time retail associate; two course-level projects",
+      "leadership": [],
+      "notable": [],
+      "projects": [
+        {
+          "descriptor": "To-do web app built along an online course (HTML, CSS, JavaScript, Node)",
+          "highlight": "Local-storage persistence and a dark-mode toggle added after the course",
+          "kind": "software",
+          "scale_signal": "none stated",
+          "technical_depth": "tutorial"
+        },
+        {
+          "descriptor": "Intro-course Python grade calculator",
+          "highlight": "Reads a text file, prints average, highest and lowest; input checking",
+          "kind": "software",
+          "scale_signal": "none stated",
+          "technical_depth": "tutorial"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Python",
+        "Java",
+        "HTML/CSS",
+        "JavaScript",
+        "Node.js",
+        "Git"
+      ],
+      "top_signal": "CS sophomore",
+      "years_fulltime": 0
+    },
+    "st": "student"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-09-21T14:20:11Z",
+  "handle": "omar-bauer20",
+  "key_exposed": false,
+  "owner_hash": "e0dfbb59ad9be238be8c80566852e484da402cc4a42c885b2816c65de53b4e36",
+  "resumes": [
+    {
+      "created_at": "2026-09-21T14:20:11Z",
+      "current": true,
+      "id": "p4cb33anln"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

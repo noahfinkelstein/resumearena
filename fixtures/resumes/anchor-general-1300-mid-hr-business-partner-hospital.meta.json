@@ -1,0 +1,31 @@
+{
+  "expect": {
+    "gate": "pass",
+    "status": "analyzed"
+  },
+  "group": "anchor",
+  "intended_anchor": 1300,
+  "intended_categories": [
+    "general"
+  ],
+  "intended_stage": "mid",
+  "metrics": {
+    "char_count": 3766,
+    "columns_detected": 0,
+    "extraction_quality": 0.95,
+    "font_count": 0,
+    "image_count": 0,
+    "pages": 2,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "docx",
+    "word_count": 542
+  },
+  "slug": "anchor-general-1300-mid-hr-business-partner-hospital"
+}

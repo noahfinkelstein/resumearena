@@ -1,0 +1,194 @@
+{
+  "cat": "general",
+  "id": "k7v2m4syfl",
+  "lin": "k7v2m4syfl",
+  "placed": true,
+  "points": [
+    [
+      "2026-09-21",
+      2235,
+      220,
+      "p"
+    ],
+    [
+      "2026-09-21",
+      2325,
+      118,
+      "p"
+    ],
+    [
+      "2026-09-22",
+      2313.82,
+      80.6,
+      "m"
+    ],
+    [
+      "2026-09-23",
+      2321.17,
+      80.6,
+      "m"
+    ],
+    [
+      "2026-09-24",
+      2329.63,
+      80.6,
+      "m"
+    ],
+    [
+      "2026-09-25",
+      2342.64,
+      80.6,
+      "s"
+    ],
+    [
+      "2026-09-26",
+      2347.36,
+      80.6,
+      "m"
+    ],
+    [
+      "2026-09-27",
+      2359.91,
+      80.6,
+      "m"
+    ],
+    [
+      "2026-09-28",
+      2360.94,
+      80.6,
+      "m"
+    ],
+    [
+      "2026-09-29",
+      2360.65,
+      80.6,
+      "s"
+    ],
+    [
+      "2026-09-30",
+      2363.08,
+      80.6,
+      "m"
+    ],
+    [
+      "2026-10-01",
+      2379.86,
+      80.6,
+      "m"
+    ],
+    [
+      "2026-10-02",
+      2379.84,
+      80.6,
+      "m"
+    ],
+    [
+      "2026-10-03",
+      2395,
+      80.6,
+      "s"
+    ]
+  ],
+  "recent": [
+    {
+      "at": "2026-10-03T12:50:11Z",
+      "dr": 7,
+      "k": "refine",
+      "m": "52dbc35999a4741a",
+      "note": "Close on pedigree; the first record’s sustained tier and quantified bullets decide it.",
+      "o": "W",
+      "opp": "x63yoqqpnq",
+      "opp_r": 2388
+    },
+    {
+      "at": "2026-10-03T11:20:11Z",
+      "dr": 6,
+      "k": "refine",
+      "m": "42a37d8114de6fd6",
+      "note": "Second: first-author publication at a top venue. First: solid industry bullets without a comparable peak.",
+      "o": "W",
+      "opp": "p4hafoublb",
+      "opp_r": 2361
+    },
+    {
+      "at": "2026-10-03T09:50:11Z",
+      "dr": 4,
+      "k": "placement",
+      "m": "1fc0456379fc6606",
+      "note": "Broader ownership at the same company tier; the second record’s projects are smaller in scope.",
+      "o": "W",
+      "opp": "p4cb33anln",
+      "opp_r": 2357
+    },
+    {
+      "at": "2026-10-03T08:20:11Z",
+      "dr": 14,
+      "k": "placement",
+      "m": "d6c30daf9623c487",
+      "note": "Close on pedigree; the first record’s sustained tier and quantified bullets decide it.",
+      "o": "W",
+      "opp": "anchrtgaaa",
+      "opp_r": 2351
+    },
+    {
+      "at": "2026-10-03T06:50:11Z",
+      "dr": 12,
+      "k": "placement",
+      "m": "e46dff84aacdb2fe",
+      "note": "Close on pedigree; the first record’s sustained tier and quantified bullets decide it.",
+      "o": "W",
+      "opp": "m24bxnzbo7",
+      "opp_r": 2344
+    },
+    {
+      "at": "2026-10-03T05:20:11Z",
+      "dr": 0,
+      "k": "placement",
+      "m": "caebc8a04065acae",
+      "note": "Close on pedigree; the first record’s sustained tier and quantified bullets decide it.",
+      "o": "D",
+      "opp": "x6ohbt27p3",
+      "opp_r": 2339
+    },
+    {
+      "at": "2026-10-03T03:50:11Z",
+      "dr": 10,
+      "k": "placement",
+      "m": "2e49b20c939edbcf",
+      "note": "Broader ownership at the same company tier; the second record’s projects are smaller in scope.",
+      "o": "W",
+      "opp": "x63yoqqpnq",
+      "opp_r": 2388
+    },
+    {
+      "at": "2026-10-03T02:20:11Z",
+      "dr": 5,
+      "k": "placement",
+      "m": "a7efcd3228bb8de1",
+      "note": "Broader ownership at the same company tier; the second record’s projects are smaller in scope.",
+      "o": "W",
+      "opp": "p4hafoublb",
+      "opp_r": 2361
+    },
+    {
+      "at": "2026-10-03T00:50:11Z",
+      "dr": -10,
+      "k": "placement",
+      "m": "e34db466c439b076",
+      "note": "Broader ownership at the same company tier; the second record’s projects are smaller in scope.",
+      "o": "L",
+      "opp": "p4cb33anln",
+      "opp_r": 2357
+    },
+    {
+      "at": "2026-10-02T23:20:11Z",
+      "dr": 7,
+      "k": "placement",
+      "m": "16df19bd3ce87ea3",
+      "note": "First: owned a 40k rps migration with a p99 number. Second: strong A-tier record but smaller scope.",
+      "o": "W",
+      "opp": "a4rtjsmyhf",
+      "opp_r": 2351
+    }
+  ]
+}

@@ -1,0 +1,622 @@
+{
+  "analysis": {
+    "analysis_confidence": 0.93,
+    "ats": {
+      "detected": {
+        "action_verb_ratio": 0.75,
+        "bullet_count": 16,
+        "bullet_marker_consistent": true,
+        "contact_at_top": true,
+        "date_format_consistent": true,
+        "date_formats_seen": [
+          "MMM YYYY"
+        ],
+        "has_email": true,
+        "has_location": true,
+        "has_phone": true,
+        "has_profile_link": true,
+        "has_street_address": false,
+        "has_summary_section": false,
+        "nonstandard_headings": [
+          "Additional"
+        ],
+        "quantified_bullet_ratio": 0.9,
+        "reverse_chronological": true,
+        "section_order": [
+          "Experience",
+          "Education",
+          "Skills"
+        ],
+        "skill_bars_or_ratings": false,
+        "standard_headings": [
+          "Experience",
+          "Education"
+        ],
+        "uses_tables_suspected": false
+      },
+      "factors": {
+        "consistency": {
+          "note": "One date format, titles match the bullets, no gaps",
+          "score": 100
+        },
+        "contact_info": {
+          "note": "Email, phone, city and a profile link at the top",
+          "score": 100
+        },
+        "formatting": {
+          "note": "Consistent bullets and order; education bullets are prose lines; a few bullets run past 45 words",
+          "score": 90
+        },
+        "keyword_alignment": {
+          "note": "Modeling, diligence, portfolio work and sourcing all appear with transaction context",
+          "score": 95
+        },
+        "length": {
+          "note": "One page for three years out",
+          "score": 100
+        },
+        "parseability": {
+          "note": "Single column, standard headings, contact placeholders in the first two lines",
+          "score": 100
+        },
+        "quantification": {
+          "note": "Every experience bullet carries a deal size, count, ranking or revenue figure",
+          "score": 100
+        }
+      },
+      "fixes": [
+        {
+          "factor": "formatting",
+          "fix": "Split the two-investment bullet into one bullet per investment with the role verb first.",
+          "issue": "Several deal bullets exceed 45 words and pack two transactions into one",
+          "priority": "low"
+        },
+        {
+          "factor": "parseability",
+          "fix": "Rename to Skills and Certifications; move the speaking line under Leadership.",
+          "issue": "Additional is a heading parsers cannot map and mixes certification, speaking and skills",
+          "priority": "low"
+        },
+        {
+          "factor": "keyword_alignment",
+          "fix": "Attach pandas to the cohort-analysis bullet or drop the tools line.",
+          "issue": "SQL and Python appear only in the skills line",
+          "priority": "low"
+        }
+      ],
+      "score": 98,
+      "target_role_used": "Private equity associate or senior associate"
+    },
+    "awards": [
+      {
+        "issuer": "The Wharton School",
+        "name": "Joseph Wharton Scholars",
+        "pool_estimate": "honors program, roughly top 10% of the class",
+        "scope": "institutional",
+        "selectivity": "selective",
+        "verifiable": true,
+        "year": 2022
+      },
+      {
+        "issuer": "University of Pennsylvania",
+        "name": "summa cum laude",
+        "pool_estimate": "top GPA band of the class",
+        "scope": "institutional",
+        "selectivity": "selective",
+        "verifiable": true,
+        "year": 2022
+      },
+      {
+        "issuer": "Evercore",
+        "name": "Top-bucket analyst ranking",
+        "pool_estimate": "top bucket of an elite-boutique class, 2 years",
+        "scope": "company",
+        "selectivity": "highly_selective",
+        "verifiable": false,
+        "year": 2024
+      },
+      {
+        "issuer": "CFA Institute",
+        "name": "CFA Level II passed",
+        "pool_estimate": "~45% pass rate",
+        "scope": "international",
+        "selectivity": "selective",
+        "verifiable": true,
+        "year": 2023
+      }
+    ],
+    "card": {
+      "awards": [
+        {
+          "name": "Joseph Wharton Scholars",
+          "scope": "institutional",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Top-bucket analyst ranking, two years",
+          "scope": "company",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "summa cum laude",
+          "scope": "institutional",
+          "selectivity": "selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "early",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2022,
+          "field": "Economics (Finance, Statistics)",
+          "gpa_band": "3.9-3.99",
+          "honors": [
+            "summa cum laude",
+            "Joseph Wharton Scholars",
+            "Dean's List all semesters"
+          ],
+          "in_progress": false,
+          "institution": "University of Pennsylvania (Wharton)",
+          "institution_tier": "T2"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 16,
+          "employment_type": "full_time",
+          "highlights": [
+            "Two closed investments: $700M growth buyout (co-led model and cohort analysis) and $260M growth equity (unit economics, 100-day plan)",
+            "Diligence lead on a $1.5B take-private; owned base and downside cases for the investment committee",
+            "Portfolio pricing work added ~$9M annualized revenue in year one"
+          ],
+          "impact_scale": "industry",
+          "org": "Warburg Pincus",
+          "org_tier": "S",
+          "role": "Associate, Technology and Business Services",
+          "role_selectivity": "elite",
+          "seniority": "associate",
+          "years": "2024-present"
+        },
+        {
+          "duration_months": 24,
+          "employment_type": "full_time",
+          "highlights": [
+            "Top-bucket ranking both years",
+            "Closed: $4.2B public sale, $1.1B sponsor sale (sole analyst, 40 buyers), $650M carve-out",
+            "Built the merger model adopted across the technology team"
+          ],
+          "impact_scale": "industry",
+          "org": "Evercore",
+          "org_tier": "S",
+          "role": "Analyst, Mergers and Acquisitions",
+          "role_selectivity": "highly_selective",
+          "seniority": "analyst",
+          "years": "2022-2024"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Return offer; comps for a live $2B sell-side"
+          ],
+          "impact_scale": "team",
+          "org": "Evercore",
+          "org_tier": "S",
+          "role": "Summer Analyst, M&A",
+          "role_selectivity": "highly_selective",
+          "seniority": "intern",
+          "years": "2021-2021"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Early-insight program; follow-on offering support"
+          ],
+          "impact_scale": "team",
+          "org": "Morgan Stanley",
+          "org_tier": "S",
+          "role": "Sophomore Summer Analyst, IBD",
+          "role_selectivity": "highly_selective",
+          "seniority": "intern",
+          "years": "2020-2020"
+        }
+      ],
+      "headline": "Megafund PE associate 3 years out of a T2 school; 2 closed investments; diligence lead on a $1.5B take-private",
+      "leadership": [
+        "Co-president of a 400-member undergraduate finance club",
+        "Technology portfolio manager of a ~$600k student fund; sector returned 14% vs 9% benchmark",
+        "Mentor in a women-in-finance group; guest speaker at a sophomore banking workshop twice"
+      ],
+      "notable": [
+        "Elite-boutique M&A analyst to megafund PE associate in two years, the standard elite path, executed",
+        "Diligence lead on a $1.5B take-private as a first-year associate",
+        "Top-bucket both analyst years with three closed deals above $650M",
+        "CFA Level II passed while in banking"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "LBO modeling",
+        "Merger modeling",
+        "Cohort and unit-economics analysis",
+        "Commercial due diligence",
+        "Capital IQ",
+        "Pitchbook",
+        "Python (pandas)",
+        "SQL"
+      ],
+      "top_signal": "Megafund PE assoc.",
+      "years_fulltime": 3.3
+    },
+    "category_relevance": {
+      "academia": 0.03,
+      "finance": 1,
+      "general": 1,
+      "tech": 0.08
+    },
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2022,
+        "field": "Economics, Finance and Statistics concentrations",
+        "gpa": 3.92,
+        "gpa_band": "3.9-3.99",
+        "gpa_scale": 4,
+        "honors": [
+          "summa cum laude",
+          "Joseph Wharton Scholars",
+          "Dean's List all semesters"
+        ],
+        "in_progress": false,
+        "institution": "University of Pennsylvania, The Wharton School",
+        "institution_tier": "T2",
+        "notes": "Student fund technology PM; finance club co-president",
+        "start_year": 2018
+      }
+    ],
+    "experiences": [
+      {
+        "bullets_condensed": [
+          "Closed $700M growth buyout (co-led model, cohort analysis, diligence steering) and $260M growth equity (unit economics, 100-day plan)",
+          "Diligence lead on $1.5B take-private; owned IC base and downside cases; final-round bid",
+          "Portfolio pricing work: ~$9M annualized revenue in year one",
+          "Screened ~80 companies; 6 to first-round IC memos"
+        ],
+        "duration_months": 16,
+        "employment_type": "full_time",
+        "end": "present",
+        "impact_scale": "industry",
+        "is_current": true,
+        "org": "Warburg Pincus",
+        "org_tier": "S",
+        "org_type": "fund",
+        "ownership": "owned_component",
+        "quantified_impact": true,
+        "role": "Associate",
+        "role_selectivity": "elite",
+        "seniority": "associate",
+        "start": "2024-07",
+        "team_or_division": "Technology and Business Services"
+      },
+      {
+        "bullets_condensed": [
+          "Top-bucket both years",
+          "$4.2B public sale; $1.1B sponsor sale as sole analyst with 40 buyers; $650M carve-out",
+          "Built the merger model adopted across the technology team",
+          "20+ pitches; 5 converted to mandates"
+        ],
+        "duration_months": 24,
+        "employment_type": "full_time",
+        "end": "2024-06",
+        "impact_scale": "industry",
+        "is_current": false,
+        "org": "Evercore",
+        "org_tier": "S",
+        "org_type": "bank",
+        "ownership": "owned_component",
+        "quantified_impact": true,
+        "role": "Analyst",
+        "role_selectivity": "highly_selective",
+        "seniority": "analyst",
+        "start": "2022-07",
+        "team_or_division": "Mergers and Acquisitions"
+      },
+      {
+        "bullets_condensed": [
+          "Return offer; comps for a live $2B sell-side"
+        ],
+        "duration_months": 3,
+        "employment_type": "internship",
+        "end": "2021-08",
+        "impact_scale": "team",
+        "is_current": false,
+        "org": "Evercore",
+        "org_tier": "S",
+        "org_type": "bank",
+        "ownership": "supported",
+        "quantified_impact": true,
+        "role": "Summer Analyst",
+        "role_selectivity": "highly_selective",
+        "seniority": "intern",
+        "start": "2021-06",
+        "team_or_division": "Mergers and Acquisitions"
+      },
+      {
+        "bullets_condensed": [
+          "Early-insight program; supported a follow-on offering"
+        ],
+        "duration_months": 3,
+        "employment_type": "internship",
+        "end": "2020-08",
+        "impact_scale": "team",
+        "is_current": false,
+        "org": "Morgan Stanley",
+        "org_tier": "S",
+        "org_type": "bank",
+        "ownership": "supported",
+        "quantified_impact": false,
+        "role": "Sophomore Summer Analyst",
+        "role_selectivity": "highly_selective",
+        "seniority": "intern",
+        "start": "2020-06",
+        "team_or_division": "Investment Banking Division"
+      }
+    ],
+    "input": {
+      "is_resume": true,
+      "language": "en",
+      "parse_confidence": 0.98,
+      "placeholders_seen": [
+        "name",
+        "email",
+        "phone",
+        "url"
+      ],
+      "word_count_estimate": 521
+    },
+    "leadership": [
+      {
+        "budget_or_scale": "400 members",
+        "elected_or_appointed": "elected",
+        "highlight": "Led a 400-member club in the final year",
+        "org": "Wharton Undergraduate Finance Club",
+        "people_led": null,
+        "role": "Co-president"
+      },
+      {
+        "budget_or_scale": "~$600k student fund",
+        "elected_or_appointed": "appointed",
+        "highlight": "Sector returned 14% vs a 9% benchmark in 2021",
+        "org": "Penn Investment Alliance",
+        "people_led": null,
+        "role": "Technology sector portfolio manager"
+      },
+      {
+        "budget_or_scale": "not stated",
+        "elected_or_appointed": "unknown",
+        "highlight": "Mentor; guest speaker at a sophomore banking workshop in 2024 and 2025",
+        "org": "Penn Women in Finance",
+        "people_led": null,
+        "role": "Mentor"
+      }
+    ],
+    "projects": [],
+    "publications": [],
+    "red_flags": [],
+    "residual_pii": {
+      "email_count": 0,
+      "name_suspected": false,
+      "other_identifiers": [],
+      "phone_count": 0,
+      "street_address_suspected": false,
+      "url_count": 0
+    },
+    "schema_version": "1.1",
+    "scores": {
+      "academia": {
+        "holistic_score": 8,
+        "included": false,
+        "rationale": "No research output.",
+        "stage_relative_score": 8,
+        "sub_scores": {
+          "breadth": 10,
+          "impact": 5,
+          "pedigree": 55,
+          "selectivity": 30,
+          "trajectory": 20
+        },
+        "top_evidence": []
+      },
+      "finance": {
+        "holistic_score": 88,
+        "included": true,
+        "rationale": "Elite boutique to megafund in two years with top-bucket signals, named deal roles on $4.2B, $1.1B and $700M transactions, a diligence lead on $1.5B, and portfolio revenue attributed; T2 target school with top honors.",
+        "stage_relative_score": 92,
+        "sub_scores": {
+          "breadth": 50,
+          "impact": 82,
+          "pedigree": 92,
+          "selectivity": 96,
+          "trajectory": 94
+        },
+        "top_evidence": [
+          "Diligence lead on $1.5B take-private; owned IC cases",
+          "$1.1B sponsor sale as sole analyst; top bucket both years",
+          "Two closed PE investments ($700M, $260M) in year one"
+        ]
+      },
+      "general": {
+        "holistic_score": 86,
+        "included": true,
+        "rationale": "T2 degree summa with an honors program, S-tier banking and S-tier PE selections in sequence, top-bucket rankings, two closed investments and a $1.5B diligence lead by year three; stated outcomes throughout.",
+        "stage_relative_score": 90,
+        "sub_scores": {
+          "breadth": 55,
+          "impact": 80,
+          "pedigree": 90,
+          "selectivity": 95,
+          "trajectory": 92
+        },
+        "top_evidence": [
+          "Megafund PE associate; diligence lead on a $1.5B take-private",
+          "Top-bucket M&A analyst at an elite boutique, two years",
+          "Wharton summa cum laude, honors program, 3.92"
+        ]
+      },
+      "tech": {
+        "holistic_score": 12,
+        "included": false,
+        "rationale": "Covers software businesses; no technical footprint beyond basic SQL and pandas.",
+        "stage_relative_score": 10,
+        "sub_scores": {
+          "breadth": 15,
+          "impact": 20,
+          "pedigree": 40,
+          "selectivity": 30,
+          "trajectory": 30
+        },
+        "top_evidence": []
+      }
+    },
+    "signals": {
+      "career_stage": "early",
+      "has_quantified_impact": true,
+      "highest_institution_tier": "T2",
+      "highest_org_tier": "S",
+      "max_impact_scale": "industry",
+      "months_internship": 6,
+      "primary_domain": "finance",
+      "sustained_org_tier": "S",
+      "top_role_selectivity": "elite",
+      "trajectory": "accelerating",
+      "years_fulltime": 3.3
+    },
+    "skills": {
+      "certifications": [
+        "CFA Level II"
+      ],
+      "domain": [
+        "LBO modeling",
+        "Merger modeling",
+        "Cohort analysis",
+        "Unit economics",
+        "Commercial due diligence",
+        "Carve-out financials",
+        "Vertical software",
+        "Payments"
+      ],
+      "keyword_stuffing_suspected": false,
+      "spoken_languages": [],
+      "technical": [
+        "Capital IQ",
+        "Pitchbook",
+        "SQL",
+        "Python (pandas)",
+        "Excel"
+      ]
+    },
+    "strengths": [
+      "Elite boutique to megafund PE in two years with top-bucket rankings both analyst years",
+      "Diligence lead on a $1.5B take-private as a first-year associate, with IC cases owned",
+      "Two closed investments and a portfolio pricing outcome of ~$9M annualized revenue",
+      "Wharton summa cum laude, honors program, GPA 3.92, plus a student fund with a stated return vs benchmark",
+      "CFA Level II passed while an analyst"
+    ],
+    "verdict": "The standard elite finance path, executed on schedule and quantified: top-bucket elite-boutique analyst to megafund associate with a $1.5B diligence lead.",
+    "weaknesses": [
+      "Several bullets run long and combine two deals; the strongest facts are buried mid-sentence",
+      "Portfolio impact beyond the pricing figure is described as support work",
+      "The interests line adds nothing at this level",
+      "Skills line lists tools without tying SQL or Python to a workstream"
+    ]
+  },
+  "card_sha256": "6de566f265454c45e8cf61f7ea5a0a8b031bb2b446a6891a15cf3a2bbcd7084f",
+  "category_relevance": {
+    "academia": 0.03,
+    "finance": 1,
+    "general": 1,
+    "tech": 0.08
+  },
+  "created_at": "2026-10-03T12:17:00Z",
+  "deleted_at": null,
+  "duplicate_of": null,
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+5f7c9f15",
+    "verdict": {
+      "estimated_career_stage": "early",
+      "is_resume": true,
+      "language": "en",
+      "prompt_injection_detected": false,
+      "reason": "Résumé with dated roles and education.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "finance-1900-early-m",
+  "held_reason": null,
+  "id": "ki4jslasr3",
+  "kind": "user",
+  "metrics": {
+    "char_count": 3489,
+    "columns_detected": 1,
+    "extraction_quality": 0.98,
+    "font_count": 2,
+    "image_count": 0,
+    "pages": 1,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 521
+  },
+  "owner_hash": "d9b6dad12f7cf653f432215bae837448cb3d308a6202bb2b7d2014f9081e00dc",
+  "primary": "finance",
+  "rejected_reason": null,
+  "schema": 1,
+  "scores": {
+    "finance": 91,
+    "general": 87
+  },
+  "source": {
+    "client_version": "fixtures",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 1
+  },
+  "stage": "early",
+  "status": "analyzed",
+  "superseded_by": null,
+  "supersedes": null,
+  "text": "[name]\nNew York, NY · [email] · [phone] · [url]\n\nEXPERIENCE\n\nWarburg Pincus — Associate, Technology and Business Services (Jul 2024 – Present), New York, NY\n• Two closed investments: a $700M growth buyout of a vertical software company (co-led the operating model and the customer cohort analysis; sat on the diligence steering committee) and a $260M growth equity investment in a payments business (built the unit-economics model and the 100-day plan with the CFO).\n• Diligence lead on a $1.5B take-private of a healthcare IT company: ran the commercial and technical workstreams across four advisers, owned the base and downside cases presented to the investment committee; the firm submitted a final-round bid.\n• Portfolio support for the software investment: monthly board materials, pricing work that added approximately $9M of annualized revenue in the first year of ownership, and the hiring process for a VP of Finance.\n• Sourced and screened about 80 companies in vertical software; six advanced to first-round investment committee memos, and one became the $260M investment above.\n• Built the group's reusable SaaS cohort-analysis template (retention curves, net revenue retention bridges, payback by cohort) from raw billing data; used on five diligence processes in 2025.\n• Co-wrote the sector thesis on vertical software for regulated industries presented at the 2025 annual investor meeting.\n• Mentor two first-year analysts in the summer associate pipeline; interview for the pre-MBA associate class.\n\nEvercore — Analyst, Mergers and Acquisitions (Jul 2022 – Jun 2024), New York, NY\n• Top-bucket ranking both years.\n• Closed transactions: $4.2B sale of a public industrial software company to a strategic acquirer (model, fairness opinion materials, management presentations); $1.1B sale of a sponsor-owned data business (sole analyst on the model and the 40-party buyer process); $650M divestiture of a healthcare services unit (carve-out financials and transition service agreement analysis).\n• Built the group's standard merger model, adopted across the technology team's 2023 pitch work.\n• Staffed on 20+ pitches; the group converted five into mandates during the two years, two of which were the transactions above.\n• Trained the 2023 incoming analyst class on the group's model conventions (two sessions, 14 analysts).\n\nEvercore — Summer Analyst, Mergers and Acquisitions (Jun 2021 – Aug 2021)\n• Return offer; built the comparable company analysis for a live $2B sell-side.\n\nMorgan Stanley — Sophomore Summer Analyst, Investment Banking Division (Jun 2020 – Aug 2020)\n• Early-insight program; supported the healthcare group on a follow-on offering.\n\nEDUCATION\n\nUniversity of Pennsylvania, The Wharton School — B.S. in Economics, Concentrations in Finance and Statistics, May 2022\nGPA 3.92/4.0, summa cum laude. Joseph Wharton Scholars. Dean's List all semesters.\nWharton Undergraduate Finance Club, co-president (2021–2022; 400 members). Penn Women in Finance, mentor.\nPenn Investment Alliance, portfolio manager for the technology sector (student fund with approximately $600,000 under management; sector returned 14% versus a 9% benchmark in 2021).\n\nADDITIONAL\n• CFA Level II passed (2023).\n• Guest speaker at Wharton's sophomore banking workshop, 2024 and 2025.\n• Skills: LBO and merger modeling, cohort and unit-economics analysis, Capital IQ, Pitchbook, SQL (basic), Python (pandas) for diligence data work.\n• Interests: distance running (three marathons), chess.",
+  "text_sha256": "2163c843a188029afd78aa1e8b3a06f1d5d18fe0933c6e08459cd52469394505",
+  "top_signal": "Megafund PE assoc.",
+  "updated_at": "2026-10-03T12:17:00Z",
+  "usage": {
+    "analysis_usd": 0.17728,
+    "gate_usd": 0.0016,
+    "latency_ms": 0
+  },
+  "versions": {
+    "analyst_model": "claude-opus-5-5",
+    "analyst_prompt": "analyst.v1+6dbc77ff",
+    "fell_back": false,
+    "gate_prompt": "gate.v1+5f7c9f15",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "visibility": "anonymous"
+}

@@ -1,0 +1,103 @@
+{
+  "izeq5q5wwc": {
+    "card": {
+      "awards": [],
+      "card_version": "1.0",
+      "career_stage": "early",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2023,
+          "field": "Information Technology",
+          "gpa_band": "not_listed",
+          "honors": [],
+          "in_progress": false,
+          "institution": "University of North Texas",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 28,
+          "employment_type": "full_time",
+          "highlights": [
+            "React and Node.js applications for 9 agency clients",
+            "E-commerce replatform improved page load time 35%"
+          ],
+          "impact_scale": "team",
+          "org": "Brightwater Digital",
+          "org_tier": "C",
+          "role": "Full Stack Developer",
+          "role_selectivity": "modest",
+          "seniority": "mid",
+          "years": "2024-present"
+        },
+        {
+          "duration_months": 10,
+          "employment_type": "full_time",
+          "highlights": [
+            "Marketing sites for 14 clients"
+          ],
+          "impact_scale": "team",
+          "org": "Brightwater Digital",
+          "org_tier": "C",
+          "role": "Junior Web Developer",
+          "role_selectivity": "modest",
+          "seniority": "junior",
+          "years": "2023-2024"
+        }
+      ],
+      "headline": "Full-stack developer, 3 years at a mid-size agency; one client replatform with a 35% load-time gain; T3 IT degree",
+      "leadership": [
+        "Mentors one junior developer"
+      ],
+      "notable": [],
+      "projects": [
+        {
+          "descriptor": "Task-management web app with JWT auth and CI on AWS",
+          "highlight": "No users stated",
+          "kind": "software",
+          "scale_signal": "none stated",
+          "technical_depth": "standard"
+        },
+        {
+          "descriptor": "Developer portfolio platform on Next.js and GraphQL",
+          "highlight": "No users stated",
+          "kind": "software",
+          "scale_signal": "none stated",
+          "technical_depth": "standard"
+        },
+        {
+          "descriptor": "React Native shopping-list app with a Node.js API",
+          "highlight": "No users stated",
+          "kind": "software",
+          "scale_signal": "none stated",
+          "technical_depth": "standard"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "React",
+        "Node.js",
+        "TypeScript",
+        "PostgreSQL",
+        "AWS",
+        "Docker",
+        "Next.js",
+        "Jest",
+        "Cypress",
+        "WordPress"
+      ],
+      "top_signal": "Agency full-stack",
+      "years_fulltime": 3.2
+    },
+    "st": "early"
+  }
+}

@@ -1,0 +1,624 @@
+{
+  "analysis": {
+    "analysis_confidence": 0.9,
+    "ats": {
+      "detected": {
+        "action_verb_ratio": 0.7,
+        "bullet_count": 15,
+        "bullet_marker_consistent": true,
+        "contact_at_top": true,
+        "date_format_consistent": false,
+        "date_formats_seen": [
+          "Month YYYY",
+          "Season YYYY",
+          "YYYY"
+        ],
+        "has_email": true,
+        "has_location": true,
+        "has_phone": true,
+        "has_profile_link": true,
+        "has_street_address": false,
+        "has_summary_section": true,
+        "nonstandard_headings": [
+          "Coursework",
+          "Student Organizations and Activities",
+          "Interests",
+          "References"
+        ],
+        "quantified_bullet_ratio": 0.13,
+        "reverse_chronological": true,
+        "section_order": [
+          "Summary",
+          "Education",
+          "Education",
+          "Projects",
+          "Experience",
+          "Leadership",
+          "Skills",
+          "Awards",
+          "Summary"
+        ],
+        "skill_bars_or_ratings": false,
+        "standard_headings": [
+          "Objective",
+          "Education",
+          "Projects",
+          "Experience",
+          "Technical Skills",
+          "Certifications and Online Courses"
+        ],
+        "uses_tables_suspected": false
+      },
+      "factors": {
+        "consistency": {
+          "note": "Month YYYY, Season YYYY and bare years are all used; no gaps or contradictions",
+          "score": 85
+        },
+        "contact_info": {
+          "note": "Email, phone, city and two profile links at the top",
+          "score": 100
+        },
+        "formatting": {
+          "note": "Mixed styles: prose objective, course list, project paragraphs, bullets; references line",
+          "score": 80
+        },
+        "keyword_alignment": {
+          "note": "Internship-role competencies appear as coursework and a long skills inventory; few are shown in a bullet with a result",
+          "score": 55
+        },
+        "length": {
+          "note": "Three pages for a student",
+          "score": 25
+        },
+        "parseability": {
+          "note": "Single column, standard headings, contact placeholders in the first two lines",
+          "score": 100
+        },
+        "quantification": {
+          "note": "Three numbers in the experience bullets (hours, a top-five ranking); project paragraphs have none",
+          "score": 30
+        }
+      },
+      "fixes": [
+        {
+          "factor": "length",
+          "fix": "Cut to one page: drop course descriptions (keep 5 course names), the interests paragraph, references, and the second objective paragraph.",
+          "issue": "Three pages for a junior with no internship; the course descriptions and interests take two of them",
+          "priority": "high"
+        },
+        {
+          "factor": "quantification",
+          "fix": "Before: Added a favorites list… and an Express backend that caches API responses → After: Added an Express cache that cut API calls by __% and kept the app under the free-tier limit.",
+          "issue": "Project paragraphs describe features and lessons learned with no measurable result",
+          "priority": "high"
+        },
+        {
+          "factor": "formatting",
+          "fix": "Rewrite each project as 2-3 bullets: what you built, your part, the result.",
+          "issue": "Projects are long paragraphs; experience uses bullets",
+          "priority": "medium"
+        },
+        {
+          "factor": "keyword_alignment",
+          "fix": "Keep the 8 you used in a project or job; mark coursework-only languages as such or drop them.",
+          "issue": "The skills inventory lists 23 technologies, most from coursework",
+          "priority": "medium"
+        },
+        {
+          "factor": "consistency",
+          "fix": "Use Month YYYY everywhere, including activities.",
+          "issue": "Three date formats",
+          "priority": "low"
+        }
+      ],
+      "score": 67,
+      "target_role_used": "Software engineering intern"
+    },
+    "awards": [],
+    "card": {
+      "awards": [],
+      "card_version": "1.0",
+      "career_stage": "student",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2028,
+          "field": "Computer Science",
+          "gpa_band": "3.5-3.69",
+          "honors": [
+            "Dean's List, 3 semesters"
+          ],
+          "in_progress": true,
+          "institution": "Arizona State University",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 16,
+          "employment_type": "part_time",
+          "highlights": [
+            "Top-five associate in the department for customer survey scores, one quarter"
+          ],
+          "impact_scale": "individual",
+          "org": "Best Buy",
+          "org_tier": "D",
+          "role": "Sales Associate (part-time)",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2025-present"
+        },
+        {
+          "duration_months": 14,
+          "employment_type": "part_time",
+          "highlights": [
+            "Tutors two introductory programming courses about 6 hours a week"
+          ],
+          "impact_scale": "individual",
+          "org": "Arizona State University, Engineering Tutoring Center",
+          "org_tier": "D",
+          "role": "Peer Tutor",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2025-present"
+        },
+        {
+          "duration_months": 1,
+          "employment_type": "volunteer",
+          "highlights": [
+            "Taught Scratch to middle-school students for two weeks"
+          ],
+          "impact_scale": "individual",
+          "org": "Community coding camp",
+          "org_tier": "D",
+          "role": "Volunteer Instructor",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2024-2024"
+        }
+      ],
+      "headline": "CS junior at a T3 state university, GPA 3.5; tutorial-grade projects; part-time retail job and peer tutoring",
+      "leadership": [
+        "Scrum master on a five-person course project",
+        "Intramural soccer captain; residence hall floor representative"
+      ],
+      "notable": [],
+      "projects": [
+        {
+          "descriptor": "Course team project: desktop study-group finder (team of 5)",
+          "highlight": "Scrum master; owned the database schema and data access layer",
+          "kind": "software",
+          "scale_signal": "none stated",
+          "technical_depth": "standard"
+        },
+        {
+          "descriptor": "Tutorial-based weather dashboard with a caching backend",
+          "highlight": "Added favorites, dark mode and an Express cache; deployed to free hosting",
+          "kind": "software",
+          "scale_signal": "none stated",
+          "technical_depth": "tutorial"
+        },
+        {
+          "descriptor": "Sudoku solver and generator with a GUI",
+          "highlight": "Constraint propagation before backtracking; pytest tests",
+          "kind": "software",
+          "scale_signal": "none stated",
+          "technical_depth": "tutorial"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Java",
+        "Python",
+        "React",
+        "Node.js",
+        "Git",
+        "JUnit",
+        "pytest",
+        "C++"
+      ],
+      "top_signal": "CS junior, 3.5 GPA",
+      "years_fulltime": 0
+    },
+    "category_relevance": {
+      "academia": 0.05,
+      "finance": 0.02,
+      "general": 1,
+      "tech": 0.9
+    },
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2028,
+        "field": "Computer Science",
+        "gpa": 3.5,
+        "gpa_band": "3.5-3.69",
+        "gpa_scale": 4,
+        "honors": [
+          "Dean's List, 3 semesters"
+        ],
+        "in_progress": true,
+        "institution": "Arizona State University, Ira A. Fulton Schools of Engineering",
+        "institution_tier": "T3",
+        "notes": "Fourteen completed courses listed with descriptions; three in progress",
+        "start_year": 2024
+      }
+    ],
+    "experiences": [
+      {
+        "bullets_condensed": [
+          "Computing department sales; demo-device setup; inventory counts",
+          "Top-five associate in the department for survey scores, Q4 2025"
+        ],
+        "duration_months": 16,
+        "employment_type": "part_time",
+        "end": "present",
+        "impact_scale": "individual",
+        "is_current": true,
+        "org": "Best Buy",
+        "org_tier": "D",
+        "org_type": "public_company",
+        "ownership": "supported",
+        "quantified_impact": false,
+        "role": "Sales Associate",
+        "role_selectivity": "modest",
+        "seniority": "other",
+        "start": "2025-06",
+        "team_or_division": null
+      },
+      {
+        "bullets_condensed": [
+          "Drop-in tutoring for two intro programming courses, ~6 h/week"
+        ],
+        "duration_months": 14,
+        "employment_type": "part_time",
+        "end": "present",
+        "impact_scale": "individual",
+        "is_current": true,
+        "org": "Arizona State University, Engineering Tutoring Center",
+        "org_tier": "D",
+        "org_type": "university",
+        "ownership": "supported",
+        "quantified_impact": false,
+        "role": "Peer Tutor",
+        "role_selectivity": "modest",
+        "seniority": "other",
+        "start": "2025-08",
+        "team_or_division": null
+      },
+      {
+        "bullets_condensed": [
+          "Taught Scratch in a two-week middle-school camp"
+        ],
+        "duration_months": 1,
+        "employment_type": "volunteer",
+        "end": "2024-07",
+        "impact_scale": "individual",
+        "is_current": false,
+        "org": "Code for Kids Tempe",
+        "org_tier": "D",
+        "org_type": "nonprofit",
+        "ownership": "supported",
+        "quantified_impact": false,
+        "role": "Volunteer Instructor",
+        "role_selectivity": "modest",
+        "seniority": "other",
+        "start": "2024-06",
+        "team_or_division": null
+      }
+    ],
+    "input": {
+      "is_resume": true,
+      "language": "en",
+      "parse_confidence": 0.96,
+      "placeholders_seen": [
+        "name",
+        "email",
+        "phone",
+        "url"
+      ],
+      "word_count_estimate": 1177
+    },
+    "leadership": [
+      {
+        "budget_or_scale": "team of 5",
+        "elected_or_appointed": "appointed",
+        "highlight": "Ran two-week sprints and the GitHub project board",
+        "org": "CSE 360 course project",
+        "people_led": 4,
+        "role": "Scrum master"
+      },
+      {
+        "budget_or_scale": "two floor events a semester",
+        "elected_or_appointed": "elected",
+        "highlight": "Planned floor events in the first year",
+        "org": "Residence hall community council",
+        "people_led": null,
+        "role": "Floor representative"
+      },
+      {
+        "budget_or_scale": "two seasons",
+        "elected_or_appointed": "self_declared",
+        "highlight": "Captain for two seasons",
+        "org": "Intramural soccer",
+        "people_led": null,
+        "role": "Team captain"
+      }
+    ],
+    "projects": [
+      {
+        "description_condensed": "Course team project (5 people): JavaFX desktop app with SQLite; Scrum master; owned schema and data access layer; JUnit tests",
+        "has_external_validation": false,
+        "kind": "software",
+        "name": "Campus Study Group Finder",
+        "quantified_impact": false,
+        "scale_signal": "class demo only",
+        "technical_depth": "standard"
+      },
+      {
+        "description_condensed": "React tutorial extended with favorites, dark mode and an Express caching backend; deployed to free hosting",
+        "has_external_validation": false,
+        "kind": "software",
+        "name": "Weather Dashboard",
+        "quantified_impact": false,
+        "scale_signal": "none stated",
+        "technical_depth": "tutorial"
+      },
+      {
+        "description_condensed": "Python/Tkinter solver with constraint propagation and backtracking; three difficulty levels; pytest tests",
+        "has_external_validation": false,
+        "kind": "software",
+        "name": "Sudoku Solver and Generator",
+        "quantified_impact": false,
+        "scale_signal": "none stated",
+        "technical_depth": "tutorial"
+      },
+      {
+        "description_condensed": "Static HTML/CSS/JS site with projects and blog posts",
+        "has_external_validation": false,
+        "kind": "software",
+        "name": "Personal portfolio website",
+        "quantified_impact": false,
+        "scale_signal": "none stated",
+        "technical_depth": "tutorial"
+      }
+    ],
+    "publications": [],
+    "red_flags": [
+      {
+        "detail": "Two-paragraph objective of self-descriptions (highly motivated, strong passion, valuable addition) in place of evidence",
+        "location": "Objective",
+        "severity": "low",
+        "type": "self_description_as_evidence"
+      }
+    ],
+    "residual_pii": {
+      "email_count": 0,
+      "name_suspected": false,
+      "other_identifiers": [],
+      "phone_count": 0,
+      "street_address_suspected": false,
+      "url_count": 0
+    },
+    "schema_version": "1.1",
+    "scores": {
+      "academia": {
+        "holistic_score": 8,
+        "included": false,
+        "rationale": "No research activity.",
+        "stage_relative_score": 8,
+        "sub_scores": {
+          "breadth": 10,
+          "impact": 5,
+          "pedigree": 25,
+          "selectivity": 5,
+          "trajectory": 20
+        },
+        "top_evidence": []
+      },
+      "finance": {
+        "holistic_score": 5,
+        "included": false,
+        "rationale": "No finance footprint.",
+        "stage_relative_score": 5,
+        "sub_scores": {
+          "breadth": 5,
+          "impact": 5,
+          "pedigree": 15,
+          "selectivity": 5,
+          "trajectory": 15
+        },
+        "top_evidence": []
+      },
+      "general": {
+        "holistic_score": 34,
+        "included": true,
+        "rationale": "State-university CS junior with a 3.5 and Dean's List, a retail job, peer tutoring and course or tutorial projects; no internship, award or output beyond class; three pages of coursework and interests.",
+        "stage_relative_score": 45,
+        "sub_scores": {
+          "breadth": 30,
+          "impact": 15,
+          "pedigree": 38,
+          "selectivity": 15,
+          "trajectory": 45
+        },
+        "top_evidence": [
+          "GPA 3.5, Dean's List three semesters",
+          "Peer tutor for two intro programming courses",
+          "Scrum master on a five-person course project"
+        ]
+      },
+      "tech": {
+        "holistic_score": 33,
+        "included": true,
+        "rationale": "Typical CS junior: solid coursework at a T3 school, three tutorial-grade projects with no users, no internship yet; the volume of the résumé does not add evidence.",
+        "stage_relative_score": 47,
+        "sub_scores": {
+          "breadth": 25,
+          "impact": 15,
+          "pedigree": 38,
+          "selectivity": 15,
+          "trajectory": 45
+        },
+        "top_evidence": [
+          "Course team project as Scrum master, data layer owner",
+          "Weather dashboard extended from a tutorial",
+          "No internship; retail and tutoring jobs"
+        ]
+      }
+    },
+    "signals": {
+      "career_stage": "student",
+      "has_quantified_impact": false,
+      "highest_institution_tier": "T3",
+      "highest_org_tier": "D",
+      "max_impact_scale": "individual",
+      "months_internship": 0,
+      "primary_domain": "tech",
+      "sustained_org_tier": "D",
+      "top_role_selectivity": "modest",
+      "trajectory": "too_early",
+      "years_fulltime": 0
+    },
+    "skills": {
+      "certifications": [
+        "freeCodeCamp Responsive Web Design",
+        "freeCodeCamp JavaScript Algorithms and Data Structures"
+      ],
+      "domain": [
+        "Object-oriented design",
+        "Data structures and algorithms",
+        "Agile/Scrum",
+        "REST APIs"
+      ],
+      "keyword_stuffing_suspected": false,
+      "spoken_languages": [],
+      "technical": [
+        "Java",
+        "Python",
+        "C",
+        "C++",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "SQL",
+        "MIPS assembly",
+        "Scheme",
+        "Prolog",
+        "MATLAB",
+        "R",
+        "React",
+        "Node.js",
+        "Express",
+        "JavaFX",
+        "Tkinter",
+        "JUnit",
+        "pytest",
+        "Git",
+        "SQLite",
+        "Linux"
+      ]
+    },
+    "strengths": [
+      "GPA 3.5 with Dean's List three semesters at a T3 engineering school",
+      "Scrum master and data-layer owner on a five-person course project with JUnit tests",
+      "Peer tutor for two programming courses while holding a retail job",
+      "Projects include tests (JUnit, pytest) and one deployment"
+    ],
+    "verdict": "A typical CS junior stretched over three pages; the coursework and interests add length, not evidence.",
+    "weaknesses": [
+      "Three pages where one would do; course descriptions and interests dilute the real content",
+      "No internship or research experience yet; all projects are course or tutorial work with no users",
+      "Objective runs to two paragraphs of self-description that a recruiter will skip",
+      "Skills section lists 23 technologies, most known only from a course",
+      "No quantified result anywhere outside the retail survey ranking"
+    ]
+  },
+  "card_sha256": "9c2ad58f352287e235724e812206827a33bd4e24f8167ecd24179ba3b16e0f14",
+  "category_relevance": {
+    "academia": 0.05,
+    "finance": 0.02,
+    "general": 1,
+    "tech": 0.9
+  },
+  "created_at": "2026-10-03T12:41:00Z",
+  "deleted_at": null,
+  "duplicate_of": null,
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+5f7c9f15",
+    "verdict": {
+      "estimated_career_stage": "student",
+      "is_resume": true,
+      "language": "en",
+      "prompt_injection_detected": false,
+      "reason": "Résumé with dated roles and education.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "three-page-student-r",
+  "held_reason": null,
+  "id": "etrkib4oit",
+  "kind": "user",
+  "metrics": {
+    "char_count": 8201,
+    "columns_detected": 1,
+    "extraction_quality": 0.97,
+    "font_count": 2,
+    "image_count": 0,
+    "pages": 3,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 2
+    },
+    "source": "pdf",
+    "word_count": 1177
+  },
+  "owner_hash": "7222081ba83d99887f47654734c07c5eab290380d0b7f91140df5dcdbf64528d",
+  "primary": "tech",
+  "rejected_reason": null,
+  "schema": 1,
+  "scores": {
+    "general": 38,
+    "tech": 38
+  },
+  "source": {
+    "client_version": "fixtures",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 1
+  },
+  "stage": "student",
+  "status": "analyzed",
+  "superseded_by": null,
+  "supersedes": null,
+  "text": "[name]\nTempe, AZ · [email] · [phone] · [url] · [url]\n\nOBJECTIVE\nI am a highly motivated and detail-oriented Computer Science student at Arizona State University with a strong passion for software development, problem solving, and learning new technologies. I am seeking a summer 2027 software engineering internship where I can apply the knowledge I have gained in my coursework and personal projects to real-world problems, contribute to a collaborative team environment, and continue to grow as an engineer under the mentorship of experienced professionals.\n\nThroughout my academic career I have developed a solid foundation in data structures, algorithms, object-oriented programming, and web development, and I have consistently challenged myself to go beyond the classroom through independent projects, hackathons, and student organizations. I believe my combination of technical skills, strong work ethic, and enthusiasm for technology would make me a valuable addition to any engineering team, and I am excited about the opportunity to bring my skills to an innovative company.\n\nEDUCATION\nArizona State University, Ira A. Fulton Schools of Engineering — Tempe, AZ\nBachelor of Science in Computer Science, expected May 2028\nGPA: 3.5/4.0 · Dean's List: Fall 2024, Spring 2025, Spring 2026\n\nCOURSEWORK\nCSE 110 – Principles of Programming: Introduction to programming in Java covering variables, control flow, methods, arrays, and basic object-oriented design. Final project was a text-based inventory management program.\nCSE 205 – Object-Oriented Programming and Data Structures: Classes, inheritance, polymorphism, interfaces, generics, linked lists, stacks, queues, and recursion in Java. Weekly programming assignments and two exams.\nCSE 230 – Computer Organization and Assembly Language: MIPS assembly, number representation, memory hierarchy, and the datapath. Wrote a small assembler as the final project.\nCSE 240 – Introduction to Programming Languages: Programming paradigms using C, Scheme, and Prolog; parsing, scoping, and memory management in C.\nCSE 310 – Data Structures and Algorithms: Asymptotic analysis, sorting, hash tables, balanced trees, graphs, shortest paths, minimum spanning trees, and dynamic programming. Implemented a graph library in C++.\nCSE 330 – Operating Systems: Processes, threads, synchronization, scheduling, virtual memory, and file systems. Lab assignments included a user-level thread library and a simple shell.\nCSE 340 – Principles of Programming Languages: Lexical analysis, parsing, type checking, and interpreters; wrote a recursive-descent parser and an interpreter for a small language.\nCSE 360 – Introduction to Software Engineering: Requirements, UML, agile methods, version control, and testing. Semester-long team project (see Projects).\nCSE 365 – Information Assurance: Security principles, cryptography basics, authentication, access control, and common vulnerabilities.\nMAT 243 – Discrete Mathematical Structures: Logic, proofs, sets, relations, functions, counting, and graph theory.\nMAT 343 – Applied Linear Algebra: Matrices, vector spaces, eigenvalues; MATLAB assignments.\nSTP 420 – Introductory Applied Statistics: Probability, hypothesis testing, and regression in R.\nCurrently enrolled (Fall 2026): CSE 412 Database Management; CSE 445 Distributed Software Development; CSE 475 Foundations of Machine Learning.\n\nPROJECTS\nCampus Study Group Finder (CSE 360 team project, team of 5, Spring 2026) — Java, JavaFX, SQLite, GitHub\nA desktop application that lets students post and join study groups for their courses. I served as the team's Scrum master and was responsible for the database schema and the data access layer. We used a two-week sprint cadence with GitHub Projects for tracking, wrote JUnit tests for the data layer, and presented the final product to the class. I learned a great deal about coordinating a team, resolving merge conflicts, and writing documentation for teammates. Final grade on the project: A.\n\nWeather Dashboard (personal project, Summer 2025) — JavaScript, React, Node.js, Express, OpenWeather API\nA single-page web application that displays the current weather and a five-day forecast for any city entered by the user, following a React tutorial series and then extending it. I added a favorites list stored in the browser's local storage, a dark mode toggle, and a small Express backend that caches API responses to stay under the free-tier request limit. Deployed to a free hosting platform. This project taught me the basics of React hooks, asynchronous requests, REST APIs, and deploying a full-stack application.\n\nSudoku Solver and Generator (personal project, Winter 2025) — Python, Tkinter\nA desktop Sudoku application with a backtracking solver, a puzzle generator with three difficulty levels, and a simple graphical interface built in Tkinter. The solver uses constraint propagation before backtracking, which made solving most puzzles nearly instant. I wrote unit tests for the solver with pytest and documented the algorithm in the README. I built this to practice recursion and algorithm design after taking CSE 310.\n\nPersonal Portfolio Website (ongoing) — HTML, CSS, JavaScript\nA static website showcasing my projects, resume, and blog posts about what I am learning. Built from scratch without a framework to practice responsive design and accessibility basics.\n\nEXPERIENCE\nSales Associate, Best Buy — Tempe, AZ (June 2025 – Present, part-time, about 16 hours per week)\n• Assist customers in the computing department with laptop, tablet, and accessory purchases, explaining specifications and comparing products.\n• Set up and troubleshoot demo devices on the sales floor and help with inventory counts.\n• Recognized as a top-five associate in the department for customer satisfaction survey scores in Q4 2025.\n\nPeer Tutor, ASU Engineering Tutoring Center — Tempe, AZ (August 2025 – Present)\n• Tutor students in CSE 110 and CSE 205 during drop-in hours, about 6 hours a week.\n• Help students debug Java programs and understand object-oriented concepts.\n\nVolunteer Instructor, Code for Kids Tempe (Summer 2024)\n• Taught introductory Scratch programming to middle school students in a two-week summer camp.\n\nSTUDENT ORGANIZATIONS AND ACTIVITIES\n• Software Developers Association (SoDA) at ASU — Member since Fall 2024; attend weekly technical talks and workshops; participated in the Fall 2025 internal hackathon (built a campus event recommendation prototype in 24 hours with three other students).\n• ACM Student Chapter — Member; attended the Spring 2026 programming competition practice sessions.\n• Women in Computer Science (WiCS) — Ally member; volunteered at the Spring 2026 high school outreach day.\n• Sun Devil Hackathon (Fall 2025) — Participant; team built a recipe-suggestion web app from pantry ingredients; did not place.\n• Intramural soccer — Team captain, Fall 2025 and Spring 2026 seasons.\n• Residence hall community council — Floor representative, 2024–2025 academic year; helped plan two floor events per semester.\n\nTECHNICAL SKILLS\nProgramming Languages: Java (proficient), Python (proficient), C/C++ (intermediate), JavaScript (intermediate), HTML/CSS, SQL (basic), MIPS assembly (coursework), Scheme and Prolog (coursework), MATLAB (coursework), R (coursework)\nFrameworks and Libraries: React, Node.js, Express, JavaFX, Tkinter, JUnit, pytest\nTools: Git and GitHub, VS Code, IntelliJ IDEA, Eclipse, Linux command line, SQLite, Postman, Figma (basic)\nConcepts: Object-oriented design, data structures and algorithms, agile/Scrum, unit testing, REST APIs, basic networking and operating systems\n\nCERTIFICATIONS AND ONLINE COURSES\n• Responsive Web Design Certification, freeCodeCamp (2025)\n• JavaScript Algorithms and Data Structures Certification, freeCodeCamp (2025)\n• Introduction to Machine Learning, online course (audited, 2026)\n• AWS Cloud Practitioner Essentials, online course (in progress)\n\nINTERESTS\nHiking and backpacking (four Arizona summit hikes), soccer, chess (online rating around 1400), building mechanical keyboards, science fiction novels, cooking, playing guitar, and hobby game development (currently learning Godot).\n\nREFERENCES\nAvailable upon request.",
+  "text_sha256": "e67e9025ea7e4e571c131bf5894a943e078cfe366bad34c209de9c4fb977ef79",
+  "top_signal": "CS junior, 3.5 GPA",
+  "updated_at": "2026-10-03T12:41:00Z",
+  "usage": {
+    "analysis_usd": 0.17728,
+    "gate_usd": 0.0016,
+    "latency_ms": 0
+  },
+  "versions": {
+    "analyst_model": "claude-opus-5-5",
+    "analyst_prompt": "analyst.v1+6dbc77ff",
+    "fell_back": false,
+    "gate_prompt": "gate.v1+5f7c9f15",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "visibility": "handle"
+}

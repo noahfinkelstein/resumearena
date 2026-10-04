@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:33:00Z",
+  "handle": "general-1400-student",
+  "key_exposed": false,
+  "owner_hash": "c8c0e266b63ecee08072b2dfe6865e89847ff52decb7eed90d407c099b9037b2",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:33:00Z",
+      "current": true,
+      "id": "fv6bj7sbra"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

@@ -1,0 +1,1259 @@
+{
+  "anchors": [
+    {
+      "card": {
+        "awards": [],
+        "card_version": "1.0",
+        "career_stage": "student",
+        "education": [
+          {
+            "degree_level": "bachelor",
+            "end_year": 2028,
+            "field": "Biology",
+            "gpa_band": "not_listed",
+            "honors": [],
+            "in_progress": true,
+            "institution": "Eastern Michigan University",
+            "institution_tier": "T4"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 6,
+            "employment_type": "part_time",
+            "highlights": [
+              "Prepared media and cleaned glassware",
+              "Assisted graduate students with sample collection"
+            ],
+            "impact_scale": "individual",
+            "org": "University biology lab",
+            "org_tier": "D",
+            "role": "Undergraduate Research Assistant",
+            "role_selectivity": "modest",
+            "seniority": "research_assistant",
+            "years": "2026-present"
+          }
+        ],
+        "headline": "Biology junior at a regional university; member of an undergraduate lab with no output; GPA not listed",
+        "leadership": [
+          "Member, pre-health society"
+        ],
+        "notable": [],
+        "projects": [],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 0,
+          "first_author_count": 0,
+          "strong_venue_count": 0,
+          "top_venue_count": 0,
+          "venues": []
+        },
+        "skills_top": [
+          "Pipetting",
+          "PCR (coursework)",
+          "Excel"
+        ],
+        "top_signal": "Lab member",
+        "years_fulltime": 0
+      },
+      "id": "anchrabaaa",
+      "rating": 1000,
+      "spec": "minimal: regional-university biology junior, lab member with no output, GPA omitted",
+      "stage": "student"
+    },
+    {
+      "card": {
+        "awards": [],
+        "card_version": "1.0",
+        "career_stage": "student",
+        "education": [
+          {
+            "degree_level": "bachelor",
+            "end_year": 2027,
+            "field": "Chemistry",
+            "gpa_band": "3.5-3.69",
+            "honors": [
+              "Dean's list (3 semesters)"
+            ],
+            "in_progress": true,
+            "institution": "University of Nebraska-Lincoln",
+            "institution_tier": "T3"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 3,
+            "employment_type": "part_time",
+            "highlights": [
+              "Synthesized 4 ligand variants for a catalysis project",
+              "Presented a poster at the departmental undergraduate symposium"
+            ],
+            "impact_scale": "individual",
+            "org": "University chemistry department",
+            "org_tier": "C",
+            "role": "Summer Undergraduate Researcher",
+            "role_selectivity": "modest",
+            "seniority": "research_assistant",
+            "years": "2026-2026"
+          }
+        ],
+        "headline": "Chemistry senior at a state university; one summer in a research lab; poster at a departmental symposium; dean's list",
+        "leadership": [
+          "Peer tutor, general chemistry (2 semesters)"
+        ],
+        "notable": [],
+        "projects": [],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 0,
+          "first_author_count": 0,
+          "strong_venue_count": 0,
+          "top_venue_count": 0,
+          "venues": []
+        },
+        "skills_top": [
+          "Organic synthesis",
+          "NMR interpretation",
+          "Column chromatography",
+          "ChemDraw"
+        ],
+        "top_signal": "Dept. poster",
+        "years_fulltime": 0
+      },
+      "id": "anchracaaa",
+      "rating": 1100,
+      "spec": "minimal-plus: state-university chemistry senior, one research summer, a departmental poster",
+      "stage": "student"
+    },
+    {
+      "card": {
+        "awards": [],
+        "card_version": "1.0",
+        "career_stage": "new_grad",
+        "education": [
+          {
+            "degree_level": "master",
+            "end_year": 2026,
+            "field": "Materials Science",
+            "gpa_band": "3.7-3.89",
+            "honors": [],
+            "in_progress": false,
+            "institution": "Colorado State University",
+            "institution_tier": "T3"
+          },
+          {
+            "degree_level": "bachelor",
+            "end_year": 2024,
+            "field": "Mechanical Engineering",
+            "gpa_band": "3.5-3.69",
+            "honors": [],
+            "in_progress": false,
+            "institution": "Colorado State University",
+            "institution_tier": "T3"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 22,
+            "employment_type": "part_time",
+            "highlights": [
+              "Characterized thin-film coatings with XRD and SEM for a master's thesis",
+              "Thesis defended; manuscript in preparation"
+            ],
+            "impact_scale": "individual",
+            "org": "University materials lab",
+            "org_tier": "C",
+            "role": "Graduate Research Assistant",
+            "role_selectivity": "modest",
+            "seniority": "research_assistant",
+            "years": "2024-2026"
+          },
+          {
+            "duration_months": 18,
+            "employment_type": "part_time",
+            "highlights": [
+              "Ran weekly recitations for ~60 students"
+            ],
+            "impact_scale": "team",
+            "org": "University mechanical engineering department",
+            "org_tier": "C",
+            "role": "Teaching Assistant, Statics",
+            "role_selectivity": "modest",
+            "seniority": "other",
+            "years": "2024-2026"
+          }
+        ],
+        "headline": "Master's graduate in materials science from a state university; thesis without a publication; 2 years as a TA",
+        "leadership": [],
+        "notable": [
+          "Master's thesis defended; no peer-reviewed output yet"
+        ],
+        "projects": [],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 0,
+          "first_author_count": 0,
+          "strong_venue_count": 0,
+          "top_venue_count": 0,
+          "venues": []
+        },
+        "skills_top": [
+          "XRD",
+          "SEM",
+          "Thin-film deposition",
+          "MATLAB",
+          "Python"
+        ],
+        "top_signal": "MS thesis",
+        "years_fulltime": 0.3
+      },
+      "id": "anchradaaa",
+      "rating": 1200,
+      "spec": "below typical: master's thesis at a state university without a publication, two years as a TA",
+      "stage": "new_grad"
+    },
+    {
+      "card": {
+        "awards": [
+          {
+            "name": "NSF REU site participant",
+            "scope": "national",
+            "selectivity": "selective"
+          }
+        ],
+        "card_version": "1.0",
+        "career_stage": "student",
+        "education": [
+          {
+            "degree_level": "bachelor",
+            "end_year": 2027,
+            "field": "Physics",
+            "gpa_band": "3.7-3.89",
+            "honors": [
+              "Honors program",
+              "Honors thesis in progress"
+            ],
+            "in_progress": true,
+            "institution": "University of Minnesota",
+            "institution_tier": "T3"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 3,
+            "employment_type": "fellowship",
+            "highlights": [
+              "Built a data pipeline for a cosmology survey; result went into a workshop paper as fourth author"
+            ],
+            "impact_scale": "team",
+            "org": "Summer REU program at a T2 university",
+            "org_tier": "B",
+            "role": "Undergraduate Researcher",
+            "role_selectivity": "selective",
+            "seniority": "research_assistant",
+            "years": "2026-2026"
+          },
+          {
+            "duration_months": 16,
+            "employment_type": "part_time",
+            "highlights": [
+              "Honors thesis on detector calibration; weekly group-meeting talks"
+            ],
+            "impact_scale": "individual",
+            "org": "University physics department",
+            "org_tier": "C",
+            "role": "Undergraduate Research Assistant",
+            "role_selectivity": "modest",
+            "seniority": "research_assistant",
+            "years": "2025-present"
+          }
+        ],
+        "headline": "Physics senior at a state flagship; honors thesis in progress; REU participant; middle author on one workshop paper",
+        "leadership": [],
+        "notable": [],
+        "projects": [],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 1,
+          "first_author_count": 0,
+          "strong_venue_count": 0,
+          "top_venue_count": 0,
+          "venues": [
+            "astronomy conference workshop track"
+          ]
+        },
+        "skills_top": [
+          "Python",
+          "NumPy",
+          "Astropy",
+          "Data analysis",
+          "LaTeX",
+          "Linux"
+        ],
+        "top_signal": "REU participant",
+        "years_fulltime": 0
+      },
+      "id": "anchraeaaa",
+      "rating": 1300,
+      "spec": "typical: state-flagship physics senior, honors thesis in progress, REU, middle author on a workshop paper",
+      "stage": "student"
+    },
+    {
+      "card": {
+        "awards": [
+          {
+            "name": "Departmental outstanding teaching assistant award",
+            "scope": "institutional",
+            "selectivity": "selective"
+          }
+        ],
+        "card_version": "1.0",
+        "career_stage": "student",
+        "education": [
+          {
+            "degree_level": "phd",
+            "end_year": 2029,
+            "field": "Electrical Engineering",
+            "gpa_band": "not_listed",
+            "honors": [],
+            "in_progress": true,
+            "institution": "Arizona State University",
+            "institution_tier": "T3"
+          },
+          {
+            "degree_level": "bachelor",
+            "end_year": 2023,
+            "field": "Electrical Engineering",
+            "gpa_band": "3.7-3.89",
+            "honors": [
+              "Summa cum laude"
+            ],
+            "in_progress": false,
+            "institution": "Arizona State University",
+            "institution_tier": "T3"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 38,
+            "employment_type": "full_time",
+            "highlights": [
+              "First-author paper at an IEEE regional conference on sparse channel estimation",
+              "Second author on a journal letter; built the simulation framework used by the group"
+            ],
+            "impact_scale": "individual",
+            "org": "University signal processing lab",
+            "org_tier": "C",
+            "role": "Graduate Research Assistant",
+            "role_selectivity": "modest",
+            "seniority": "phd_student",
+            "years": "2023-present"
+          },
+          {
+            "duration_months": 18,
+            "employment_type": "part_time",
+            "highlights": [
+              "Departmental outstanding TA award (1 of 3 among ~80 TAs)"
+            ],
+            "impact_scale": "team",
+            "org": "University electrical engineering department",
+            "org_tier": "C",
+            "role": "Teaching Assistant, Signals and Systems",
+            "role_selectivity": "modest",
+            "seniority": "other",
+            "years": "2023-2025"
+          }
+        ],
+        "headline": "Third-year EE PhD student at an R1 university; two standard-venue papers, one first-author; TA award",
+        "leadership": [],
+        "notable": [],
+        "projects": [],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 2,
+          "first_author_count": 1,
+          "strong_venue_count": 0,
+          "top_venue_count": 0,
+          "venues": [
+            "IEEE regional conference",
+            "IEEE Signal Processing Letters"
+          ]
+        },
+        "skills_top": [
+          "MATLAB",
+          "Python",
+          "Signal processing",
+          "Convex optimization",
+          "LaTeX"
+        ],
+        "top_signal": "1st-author paper",
+        "years_fulltime": 1.5
+      },
+      "id": "anchrafaaa",
+      "rating": 1400,
+      "spec": "typical-plus: third-year PhD student at an R1, two standard-venue papers with one first-author, teaching award",
+      "stage": "student"
+    },
+    {
+      "card": {
+        "awards": [
+          {
+            "name": "Departmental first-year PhD fellowship",
+            "scope": "institutional",
+            "selectivity": "selective"
+          }
+        ],
+        "card_version": "1.0",
+        "career_stage": "student",
+        "education": [
+          {
+            "degree_level": "phd",
+            "end_year": 2029,
+            "field": "Computer Science",
+            "gpa_band": "not_listed",
+            "honors": [
+              "Departmental fellowship (first year)"
+            ],
+            "in_progress": true,
+            "institution": "University of Michigan",
+            "institution_tier": "T2"
+          },
+          {
+            "degree_level": "bachelor",
+            "end_year": 2023,
+            "field": "Computer Science",
+            "gpa_band": "3.7-3.89",
+            "honors": [],
+            "in_progress": false,
+            "institution": "University of Washington",
+            "institution_tier": "T1"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 38,
+            "employment_type": "full_time",
+            "highlights": [
+              "Two first-author EMNLP papers; one selected for oral presentation",
+              "Released a benchmark used in ~15 follow-up papers"
+            ],
+            "impact_scale": "team",
+            "org": "University NLP group",
+            "org_tier": "A",
+            "role": "Graduate Research Assistant",
+            "role_selectivity": "selective",
+            "seniority": "phd_student",
+            "years": "2023-present"
+          },
+          {
+            "duration_months": 3,
+            "employment_type": "internship",
+            "highlights": [
+              "Internship project became a workshop paper"
+            ],
+            "impact_scale": "team",
+            "org": "Amazon",
+            "org_tier": "A",
+            "role": "Applied Scientist Intern",
+            "role_selectivity": "selective",
+            "seniority": "intern",
+            "years": "2025-2025"
+          }
+        ],
+        "headline": "Third-year NLP PhD student at a T2 university; two first-author strong-venue papers, one oral",
+        "leadership": [
+          "Organizer, departmental NLP reading group (~30 attendees)"
+        ],
+        "notable": [
+          "Benchmark adopted by ~15 follow-up papers"
+        ],
+        "projects": [],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 4,
+          "first_author_count": 2,
+          "strong_venue_count": 3,
+          "top_venue_count": 0,
+          "venues": [
+            "EMNLP",
+            "NAACL",
+            "ACL workshop"
+          ]
+        },
+        "skills_top": [
+          "PyTorch",
+          "Python",
+          "NLP",
+          "Evaluation methodology",
+          "Large-scale data processing",
+          "LaTeX"
+        ],
+        "top_signal": "2 first-auth EMNLP",
+        "years_fulltime": 1.5
+      },
+      "id": "anchragaaa",
+      "rating": 1500,
+      "spec": "solid: third-year NLP PhD student at a T2 university, two first-author strong-venue papers, one oral",
+      "stage": "student"
+    },
+    {
+      "card": {
+        "awards": [
+          {
+            "name": "NSF Graduate Research Fellowship",
+            "scope": "national",
+            "selectivity": "highly_selective"
+          },
+          {
+            "name": "Full-tuition undergraduate merit scholarship",
+            "scope": "institutional",
+            "selectivity": "highly_selective"
+          }
+        ],
+        "card_version": "1.0",
+        "career_stage": "student",
+        "education": [
+          {
+            "degree_level": "phd",
+            "end_year": 2028,
+            "field": "Computer Science",
+            "gpa_band": "not_listed",
+            "honors": [
+              "NSF Graduate Research Fellowship"
+            ],
+            "in_progress": true,
+            "institution": "Cornell University",
+            "institution_tier": "T2"
+          },
+          {
+            "degree_level": "bachelor",
+            "end_year": 2022,
+            "field": "Computer Science and Mathematics",
+            "gpa_band": "3.9-3.99",
+            "honors": [
+              "Summa cum laude",
+              "Full-tuition merit scholarship"
+            ],
+            "in_progress": false,
+            "institution": "University of Maryland",
+            "institution_tier": "T3"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 50,
+            "employment_type": "full_time",
+            "highlights": [
+              "First-author ICLR paper on optimization for sparse models; ~90 citations claimed",
+              "Two first-author AISTATS/UAI papers; code released and used in 3 external papers"
+            ],
+            "impact_scale": "team",
+            "org": "University machine learning group",
+            "org_tier": "A",
+            "role": "Graduate Research Assistant",
+            "role_selectivity": "highly_selective",
+            "seniority": "phd_student",
+            "years": "2022-present"
+          },
+          {
+            "duration_months": 3,
+            "employment_type": "internship",
+            "highlights": [
+              "Internship project under submission to a top venue"
+            ],
+            "impact_scale": "team",
+            "org": "Microsoft Research",
+            "org_tier": "A",
+            "role": "Research Intern",
+            "role_selectivity": "highly_selective",
+            "seniority": "intern",
+            "years": "2025-2025"
+          }
+        ],
+        "headline": "Fourth-year ML PhD student at a T2 university; NSF Graduate Research Fellow; first-author ICLR paper",
+        "leadership": [
+          "Reviewer for NeurIPS and ICML (3 cycles)"
+        ],
+        "notable": [
+          "NSF GRFP",
+          "First-author ICLR paper by year 3"
+        ],
+        "projects": [],
+        "publications_summary": {
+          "citation_signal": "~150 citations claimed",
+          "count_total": 5,
+          "first_author_count": 3,
+          "strong_venue_count": 2,
+          "top_venue_count": 1,
+          "venues": [
+            "ICLR",
+            "AISTATS",
+            "UAI",
+            "NeurIPS workshop"
+          ]
+        },
+        "skills_top": [
+          "PyTorch",
+          "JAX",
+          "Optimization",
+          "Sparse models",
+          "Python",
+          "Distributed training",
+          "LaTeX"
+        ],
+        "top_signal": "NSF GRFP",
+        "years_fulltime": 2
+      },
+      "id": "anchrahaaa",
+      "rating": 1600,
+      "spec": "solid-plus: fourth-year ML PhD student with an NSF GRFP, a first-author ICLR paper and two strong-venue papers",
+      "stage": "student"
+    },
+    {
+      "card": {
+        "awards": [
+          {
+            "name": "Departmental dissertation award",
+            "scope": "institutional",
+            "selectivity": "selective"
+          },
+          {
+            "name": "NeurIPS travel award",
+            "scope": "international",
+            "selectivity": "modest"
+          }
+        ],
+        "card_version": "1.0",
+        "career_stage": "early",
+        "education": [
+          {
+            "degree_level": "phd",
+            "end_year": 2025,
+            "field": "Statistics",
+            "gpa_band": "not_listed",
+            "honors": [
+              "Departmental dissertation award"
+            ],
+            "in_progress": false,
+            "institution": "University of California, Los Angeles",
+            "institution_tier": "T2"
+          },
+          {
+            "degree_level": "bachelor",
+            "end_year": 2020,
+            "field": "Mathematics",
+            "gpa_band": "3.9-3.99",
+            "honors": [
+              "Highest honors"
+            ],
+            "in_progress": false,
+            "institution": "University of California, Davis",
+            "institution_tier": "T3"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 14,
+            "employment_type": "fellowship",
+            "highlights": [
+              "Leads a 3-person project on causal inference under interference; first-author NeurIPS submission",
+              "Co-advises 2 PhD students"
+            ],
+            "impact_scale": "team",
+            "org": "Stanford University",
+            "org_tier": "A",
+            "role": "Postdoctoral Fellow, Statistics",
+            "role_selectivity": "highly_selective",
+            "seniority": "postdoc",
+            "years": "2025-present"
+          },
+          {
+            "duration_months": 60,
+            "employment_type": "full_time",
+            "highlights": [
+              "Four first-author papers: 2 NeurIPS, 1 JASA, 1 AISTATS; ~400 citations claimed",
+              "Methods package downloaded ~20k times"
+            ],
+            "impact_scale": "team",
+            "org": "University of California, Los Angeles",
+            "org_tier": "B",
+            "role": "PhD Researcher",
+            "role_selectivity": "selective",
+            "seniority": "phd_student",
+            "years": "2020-2025"
+          }
+        ],
+        "headline": "Postdoc at a T1 university; four first-author papers, two at top venues; ~400 citations claimed",
+        "leadership": [
+          "Co-advises 2 PhD students",
+          "Organized a workshop at a statistics conference (~80 attendees)"
+        ],
+        "notable": [
+          "Two first-author NeurIPS papers from the PhD",
+          "Methods package with ~20k downloads",
+          "Invited talks at 4 university seminars"
+        ],
+        "projects": [],
+        "publications_summary": {
+          "citation_signal": "~400 citations claimed",
+          "count_total": 7,
+          "first_author_count": 4,
+          "strong_venue_count": 3,
+          "top_venue_count": 2,
+          "venues": [
+            "NeurIPS",
+            "JASA",
+            "AISTATS",
+            "Biometrika",
+            "ICML workshop"
+          ]
+        },
+        "skills_top": [
+          "Causal inference",
+          "Statistical theory",
+          "R",
+          "Python",
+          "Experimental design",
+          "Scientific writing"
+        ],
+        "top_signal": "2 NeurIPS 1st-auth",
+        "years_fulltime": 3.5
+      },
+      "id": "anchraiaaa",
+      "rating": 1700,
+      "spec": "strong: postdoc at a T1 university, four first-author papers including two NeurIPS, ~400 citations, invited talks",
+      "stage": "early"
+    },
+    {
+      "card": {
+        "awards": [
+          {
+            "name": "Barry Goldwater Scholarship",
+            "scope": "national",
+            "selectivity": "highly_selective"
+          },
+          {
+            "name": "Putnam top 200",
+            "scope": "national",
+            "selectivity": "selective"
+          }
+        ],
+        "card_version": "1.0",
+        "career_stage": "student",
+        "education": [
+          {
+            "degree_level": "bachelor",
+            "end_year": 2027,
+            "field": "Physics and Computer Science",
+            "gpa_band": "3.9-3.99",
+            "honors": [
+              "Goldwater Scholar",
+              "Summer Undergraduate Research Fellowship (3 years)"
+            ],
+            "in_progress": true,
+            "institution": "California Institute of Technology",
+            "institution_tier": "T1"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 30,
+            "employment_type": "part_time",
+            "highlights": [
+              "First-author NeurIPS paper on learning quantum states from measurements",
+              "Coauthor on a Nature paper from an experimental collaboration"
+            ],
+            "impact_scale": "team",
+            "org": "Caltech quantum information group",
+            "org_tier": "A",
+            "role": "Undergraduate Researcher",
+            "role_selectivity": "highly_selective",
+            "seniority": "research_assistant",
+            "years": "2024-present"
+          },
+          {
+            "duration_months": 3,
+            "employment_type": "internship",
+            "highlights": [
+              "Error-mitigation study; manuscript under review"
+            ],
+            "impact_scale": "team",
+            "org": "Google Quantum AI",
+            "org_tier": "A",
+            "role": "Student Researcher",
+            "role_selectivity": "highly_selective",
+            "seniority": "intern",
+            "years": "2026-2026"
+          }
+        ],
+        "headline": "Physics and CS senior at a T1 institute; Goldwater Scholar; first-author NeurIPS paper; coauthor on a Nature paper",
+        "leadership": [
+          "Head teaching assistant, quantum computation course (80 students)"
+        ],
+        "notable": [
+          "First-author NeurIPS paper as an undergraduate",
+          "Coauthor on a Nature paper",
+          "Goldwater Scholar"
+        ],
+        "projects": [],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 3,
+          "first_author_count": 1,
+          "strong_venue_count": 0,
+          "top_venue_count": 2,
+          "venues": [
+            "NeurIPS",
+            "Nature",
+            "APS March Meeting"
+          ]
+        },
+        "skills_top": [
+          "Quantum information",
+          "Machine learning",
+          "Python",
+          "JAX",
+          "Linear algebra",
+          "Scientific writing"
+        ],
+        "top_signal": "Goldwater; NeurIPS",
+        "years_fulltime": 0
+      },
+      "id": "anchrajaaa",
+      "rating": 1800,
+      "spec": "strong-plus: T1 undergraduate with a Goldwater, a first-author NeurIPS paper and a Nature coauthorship",
+      "stage": "student"
+    },
+    {
+      "card": {
+        "awards": [
+          {
+            "name": "NSF CAREER Award",
+            "scope": "national",
+            "selectivity": "elite"
+          },
+          {
+            "name": "Best paper award, NSDI",
+            "scope": "international",
+            "selectivity": "highly_selective"
+          },
+          {
+            "name": "Google Faculty Research Award",
+            "scope": "international",
+            "selectivity": "selective"
+          }
+        ],
+        "card_version": "1.0",
+        "career_stage": "mid",
+        "education": [
+          {
+            "degree_level": "phd",
+            "end_year": 2018,
+            "field": "Computer Science",
+            "gpa_band": "not_listed",
+            "honors": [
+              "Departmental best dissertation nominee"
+            ],
+            "in_progress": false,
+            "institution": "Carnegie Mellon University",
+            "institution_tier": "T1"
+          },
+          {
+            "degree_level": "bachelor",
+            "end_year": 2013,
+            "field": "Computer Science",
+            "gpa_band": "non_us_scale",
+            "honors": [
+              "Institute silver medal"
+            ],
+            "in_progress": false,
+            "institution": "Indian Institute of Technology Bombay",
+            "institution_tier": "T3"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 62,
+            "employment_type": "full_time",
+            "highlights": [
+              "NSF CAREER award; ~$1.8M in federal grants as PI",
+              "Group of 6 PhD students; 8 top-venue papers (OSDI, SOSP, NSDI) since starting",
+              "Traffic-engineering system adopted by two cloud providers"
+            ],
+            "impact_scale": "industry",
+            "org": "University of California, San Diego",
+            "org_tier": "B",
+            "role": "Assistant Professor of Computer Science",
+            "role_selectivity": "highly_selective",
+            "seniority": "faculty",
+            "years": "2021-present"
+          },
+          {
+            "duration_months": 36,
+            "employment_type": "fellowship",
+            "highlights": [
+              "Datacenter networking; 3 first-author papers"
+            ],
+            "impact_scale": "org",
+            "org": "Microsoft Research",
+            "org_tier": "A",
+            "role": "Postdoctoral Researcher",
+            "role_selectivity": "highly_selective",
+            "seniority": "postdoc",
+            "years": "2018-2021"
+          }
+        ],
+        "headline": "Assistant professor at a T2 university; NSF CAREER award; 8 top-venue papers since starting",
+        "leadership": [
+          "Advises 6 PhD students; 1 graduated",
+          "Program committee member for SIGCOMM and NSDI"
+        ],
+        "notable": [
+          "NSF CAREER award in year 3 of faculty",
+          "NSDI best paper",
+          "System adopted by two cloud providers"
+        ],
+        "projects": [],
+        "publications_summary": {
+          "citation_signal": "h-index 18 stated",
+          "count_total": 25,
+          "first_author_count": 10,
+          "strong_venue_count": 9,
+          "top_venue_count": 8,
+          "venues": [
+            "OSDI",
+            "SOSP",
+            "NSDI",
+            "SIGCOMM",
+            "EuroSys",
+            "USENIX ATC",
+            "CoNEXT"
+          ]
+        },
+        "skills_top": [
+          "Networked systems",
+          "Datacenter networking",
+          "Distributed systems",
+          "Grant writing",
+          "C++",
+          "Rust",
+          "Mentoring"
+        ],
+        "top_signal": "NSF CAREER",
+        "years_fulltime": 8
+      },
+      "id": "anchrakaaa",
+      "rating": 1900,
+      "spec": "exceptional: assistant professor at a T2 university with an NSF CAREER, 8 top-venue papers since starting, a best paper",
+      "stage": "mid"
+    },
+    {
+      "card": {
+        "awards": [
+          {
+            "name": "Sloan Research Fellowship",
+            "scope": "national",
+            "selectivity": "elite"
+          },
+          {
+            "name": "NSF CAREER Award",
+            "scope": "national",
+            "selectivity": "elite"
+          },
+          {
+            "name": "Best paper award, SOSP",
+            "scope": "international",
+            "selectivity": "elite"
+          },
+          {
+            "name": "Top-conference dissertation award, honorable mention",
+            "scope": "international",
+            "selectivity": "highly_selective"
+          }
+        ],
+        "card_version": "1.0",
+        "career_stage": "senior",
+        "education": [
+          {
+            "degree_level": "phd",
+            "end_year": 2013,
+            "field": "Computer Science",
+            "gpa_band": "not_listed",
+            "honors": [
+              "Departmental PhD thesis award"
+            ],
+            "in_progress": false,
+            "institution": "Massachusetts Institute of Technology",
+            "institution_tier": "T1"
+          },
+          {
+            "degree_level": "bachelor",
+            "end_year": 2008,
+            "field": "Computer Science",
+            "gpa_band": "non_us_scale",
+            "honors": [
+              "University-wide top graduating student medal"
+            ],
+            "in_progress": false,
+            "institution": "University of Waterloo",
+            "institution_tier": "T2"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 44,
+            "employment_type": "full_time",
+            "highlights": [
+              "Leads a 12-person group; 15 top-venue papers (SOSP, OSDI, NSDI, SIGMOD) as senior author",
+              "Open-source system from the group used by ~200 companies and taught in 30+ courses"
+            ],
+            "impact_scale": "industry",
+            "org": "University of California, Berkeley",
+            "org_tier": "A",
+            "role": "Associate Professor of EECS (tenured)",
+            "role_selectivity": "elite",
+            "seniority": "faculty",
+            "years": "2023-present"
+          },
+          {
+            "duration_months": 84,
+            "employment_type": "full_time",
+            "highlights": [
+              "Sloan Research Fellowship and NSF CAREER award; ~$6M in grants as PI or co-PI",
+              "Graduated 5 PhD students; 3 now faculty at R1 universities"
+            ],
+            "impact_scale": "industry",
+            "org": "University of California, Berkeley",
+            "org_tier": "A",
+            "role": "Assistant Professor of EECS",
+            "role_selectivity": "elite",
+            "seniority": "faculty",
+            "years": "2016-2023"
+          },
+          {
+            "duration_months": 36,
+            "employment_type": "full_time",
+            "highlights": [
+              "Built a scheduling system deployed fleet-wide; 2 top-venue papers"
+            ],
+            "impact_scale": "org",
+            "org": "Google",
+            "org_tier": "A",
+            "role": "Research Scientist",
+            "role_selectivity": "highly_selective",
+            "seniority": "senior",
+            "years": "2013-2016"
+          }
+        ],
+        "headline": "Tenured associate professor at a T1 university; Sloan Fellow; SOSP best paper; ~8k citations claimed",
+        "leadership": [
+          "Leads a 12-person research group; graduated 5 PhD students",
+          "Program chair of a major systems conference",
+          "Associate editor, ACM Transactions on Computer Systems"
+        ],
+        "notable": [
+          "Sloan Research Fellowship",
+          "SOSP best paper",
+          "~8,000 citations claimed",
+          "Group system used by ~200 companies"
+        ],
+        "projects": [],
+        "publications_summary": {
+          "citation_signal": "~8,000 citations claimed",
+          "count_total": 60,
+          "first_author_count": 12,
+          "strong_venue_count": 20,
+          "top_venue_count": 15,
+          "venues": [
+            "SOSP",
+            "OSDI",
+            "NSDI",
+            "SIGMOD",
+            "VLDB",
+            "EuroSys",
+            "SIGCOMM",
+            "CACM"
+          ]
+        },
+        "skills_top": [
+          "Operating systems",
+          "Distributed systems",
+          "Database systems",
+          "Research leadership",
+          "Grant writing",
+          "Mentoring"
+        ],
+        "top_signal": "Sloan Fellow",
+        "years_fulltime": 13
+      },
+      "id": "anchralaaa",
+      "rating": 2000,
+      "spec": "exceptional-plus: tenured associate professor at a T1 university, Sloan Fellow and CAREER, SOSP best paper, ~8k citations",
+      "stage": "senior"
+    },
+    {
+      "card": {
+        "awards": [
+          {
+            "name": "MacArthur Fellowship",
+            "scope": "national",
+            "selectivity": "elite"
+          },
+          {
+            "name": "Member, National Academy of Sciences",
+            "scope": "national",
+            "selectivity": "elite"
+          },
+          {
+            "name": "Howard Hughes Medical Institute Investigator",
+            "scope": "national",
+            "selectivity": "elite"
+          },
+          {
+            "name": "NIH Director's Pioneer Award",
+            "scope": "national",
+            "selectivity": "elite"
+          },
+          {
+            "name": "Pew Scholar in the Biomedical Sciences",
+            "scope": "national",
+            "selectivity": "highly_selective"
+          }
+        ],
+        "card_version": "1.0",
+        "career_stage": "executive",
+        "education": [
+          {
+            "degree_level": "phd",
+            "end_year": 2002,
+            "field": "Molecular Biology",
+            "gpa_band": "not_listed",
+            "honors": [],
+            "in_progress": false,
+            "institution": "Harvard University",
+            "institution_tier": "T1"
+          },
+          {
+            "degree_level": "bachelor",
+            "end_year": 1997,
+            "field": "Natural Sciences",
+            "gpa_band": "non_us_scale",
+            "honors": [
+              "First-class honours"
+            ],
+            "in_progress": false,
+            "institution": "University of Cambridge",
+            "institution_tier": "T1"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 120,
+            "employment_type": "full_time",
+            "highlights": [
+              "Directs a 300-person institute with a ~$90M annual budget",
+              "Lab of 25; discoveries in gene regulation cited ~40,000 times; 2 licensed therapeutics in clinical trials"
+            ],
+            "impact_scale": "global",
+            "org": "Massachusetts Institute of Technology",
+            "org_tier": "A",
+            "role": "Professor of Biology; Director of an interdisciplinary institute",
+            "role_selectivity": "elite",
+            "seniority": "faculty",
+            "years": "2016-present"
+          },
+          {
+            "duration_months": 96,
+            "employment_type": "full_time",
+            "highlights": [
+              "Howard Hughes Medical Institute Investigator; 20 Nature/Science/Cell papers as senior author"
+            ],
+            "impact_scale": "industry",
+            "org": "Massachusetts Institute of Technology",
+            "org_tier": "A",
+            "role": "Associate Professor (tenured), then Professor",
+            "role_selectivity": "elite",
+            "seniority": "faculty",
+            "years": "2008-2016"
+          },
+          {
+            "duration_months": 48,
+            "employment_type": "full_time",
+            "highlights": [
+              "NIH New Innovator and Pew Scholar awards"
+            ],
+            "impact_scale": "org",
+            "org": "Massachusetts Institute of Technology",
+            "org_tier": "A",
+            "role": "Assistant Professor",
+            "role_selectivity": "elite",
+            "seniority": "faculty",
+            "years": "2004-2008"
+          },
+          {
+            "duration_months": 24,
+            "employment_type": "fellowship",
+            "highlights": [
+              "First-author Nature paper"
+            ],
+            "impact_scale": "team",
+            "org": "Stanford University",
+            "org_tier": "A",
+            "role": "Postdoctoral Fellow",
+            "role_selectivity": "highly_selective",
+            "seniority": "postdoc",
+            "years": "2002-2004"
+          }
+        ],
+        "headline": "Full professor and institute director at a T1 university; MacArthur Fellow; National Academy member; ~40k citations",
+        "leadership": [
+          "Directs a 300-person institute (~$90M budget)",
+          "Scientific co-founder of 2 biotech companies (one public)",
+          "Editorial board member of 3 journals; former NIH study-section chair"
+        ],
+        "notable": [
+          "MacArthur Fellow",
+          "National Academy of Sciences member",
+          "~40,000 citations claimed",
+          "Scientific co-founder of a public biotech company"
+        ],
+        "projects": [],
+        "publications_summary": {
+          "citation_signal": "~40,000 citations claimed; h-index 95 stated",
+          "count_total": 150,
+          "first_author_count": 25,
+          "strong_venue_count": 60,
+          "top_venue_count": 45,
+          "venues": [
+            "Nature",
+            "Science",
+            "Cell",
+            "PNAS",
+            "Nature Genetics",
+            "Molecular Cell",
+            "eLife",
+            "Genome Research"
+          ]
+        },
+        "skills_top": [
+          "Gene regulation",
+          "Genomics",
+          "Research leadership",
+          "Institute management",
+          "Translational biology",
+          "Grant strategy"
+        ],
+        "top_signal": "MacArthur Fellow",
+        "years_fulltime": 24
+      },
+      "id": "anchramaaa",
+      "rating": 2100,
+      "spec": "rare: full professor and institute director at a T1 university, MacArthur Fellow, National Academy member, ~40k citations",
+      "stage": "executive"
+    }
+  ],
+  "category": "academia",
+  "prompt_version": "judge.v1",
+  "schema": 1,
+  "validated_at": null
+}

@@ -1,0 +1,612 @@
+{
+  "analysis": {
+    "analysis_confidence": 0.92,
+    "ats": {
+      "detected": {
+        "action_verb_ratio": 0.85,
+        "bullet_count": 11,
+        "bullet_marker_consistent": true,
+        "contact_at_top": true,
+        "date_format_consistent": false,
+        "date_formats_seen": [
+          "MMM YYYY",
+          "Season YYYY",
+          "YYYY"
+        ],
+        "has_email": true,
+        "has_location": true,
+        "has_phone": true,
+        "has_profile_link": true,
+        "has_street_address": false,
+        "has_summary_section": false,
+        "nonstandard_headings": [],
+        "quantified_bullet_ratio": 0.73,
+        "reverse_chronological": true,
+        "section_order": [
+          "Education",
+          "Experience",
+          "Projects",
+          "Leadership",
+          "Skills"
+        ],
+        "skill_bars_or_ratings": false,
+        "standard_headings": [
+          "Education",
+          "Experience",
+          "Projects",
+          "Leadership",
+          "Skills"
+        ],
+        "uses_tables_suspected": false
+      },
+      "factors": {
+        "consistency": {
+          "note": "Mostly MMM YYYY; the leadership and project entries use bare years or terms",
+          "score": 90
+        },
+        "contact_info": {
+          "note": "Email, phone, city and a profile link at the top; a second, literal contact email appears in the body",
+          "score": 80
+        },
+        "formatting": {
+          "note": "Consistent bullets; project entries are prose; a contact sentence sits at the end of the projects section",
+          "score": 90
+        },
+        "keyword_alignment": {
+          "note": "Modeling, diligence and valuation terms appear in bullets with deal context",
+          "score": 85
+        },
+        "length": {
+          "note": "One page for a student",
+          "score": 100
+        },
+        "parseability": {
+          "note": "Single column, standard headings, contact placeholders in the first two lines",
+          "score": 100
+        },
+        "quantification": {
+          "note": "Most bullets carry a deal size, count or return figure",
+          "score": 80
+        }
+      },
+      "fixes": [
+        {
+          "factor": "contact_info",
+          "fix": "Remove the sentence; contact details belong in the header only, and this one bypassed the anonymization.",
+          "issue": "A literal email address, written out with \"dot\" and \"at\", appears at the end of the projects section",
+          "priority": "high"
+        },
+        {
+          "factor": "formatting",
+          "fix": "Rewrite each project as two bullets: what was built and the measured result or placing.",
+          "issue": "Projects are prose paragraphs while experience uses bullets",
+          "priority": "medium"
+        },
+        {
+          "factor": "consistency",
+          "fix": "Use MMM YYYY everywhere, including leadership and projects.",
+          "issue": "Three date styles across sections",
+          "priority": "low"
+        }
+      ],
+      "score": 90,
+      "target_role_used": "Investment banking or transaction services summer analyst"
+    },
+    "awards": [
+      {
+        "issuer": "Kelley School of Business",
+        "name": "Kelley Investment Banking Workshop",
+        "pool_estimate": "cohort of 60 selected",
+        "scope": "institutional",
+        "selectivity": "selective",
+        "verifiable": true,
+        "year": 2026
+      },
+      {
+        "issuer": "Deloitte",
+        "name": "Deloitte undergraduate case competition, regional finalist",
+        "pool_estimate": "regional student field",
+        "scope": "regional",
+        "selectivity": "modest",
+        "verifiable": true,
+        "year": 2025
+      },
+      {
+        "issuer": "Indiana University",
+        "name": "Dean's List",
+        "pool_estimate": "top GPA band per semester",
+        "scope": "institutional",
+        "selectivity": "modest",
+        "verifiable": true,
+        "year": 2026
+      }
+    ],
+    "card": {
+      "awards": [
+        {
+          "name": "Investment banking workshop cohort",
+          "scope": "institutional",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Regional finalist, consulting case competition",
+          "scope": "regional",
+          "selectivity": "modest"
+        },
+        {
+          "name": "Dean's List",
+          "scope": "institutional",
+          "selectivity": "modest"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "student",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2028,
+          "field": "Finance and Business Analytics",
+          "gpa_band": "3.7-3.89",
+          "honors": [
+            "Dean's List, 4 semesters",
+            "Investment Banking Workshop cohort (60 selected)"
+          ],
+          "in_progress": true,
+          "institution": "Indiana University (Kelley)",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Quality-of-earnings support on $140M and $60M buy-side engagements; rebuilt the revenue bridge and normalized EBITDA schedule",
+            "Working-capital peg analysis over 18 months of trial balances; two adjustments (~$1.1M) made the final report",
+            "Return offer for the following summer"
+          ],
+          "impact_scale": "team",
+          "org": "PwC",
+          "org_tier": "B",
+          "role": "Deals Advisory Intern, Financial Due Diligence",
+          "role_selectivity": "selective",
+          "seniority": "intern",
+          "years": "2026-2026"
+        },
+        {
+          "duration_months": 13,
+          "employment_type": "part_time",
+          "highlights": [
+            "One approved pitch: a 2.5% position returning 11% vs 4% for the sector index",
+            "Maintains sector models and the weekly performance update"
+          ],
+          "impact_scale": "team",
+          "org": "Student-managed endowment fund (~$1.2M AUM)",
+          "org_tier": "C",
+          "role": "Analyst, Industrials",
+          "role_selectivity": "selective",
+          "seniority": "analyst",
+          "years": "2025-present"
+        },
+        {
+          "duration_months": 10,
+          "employment_type": "part_time",
+          "highlights": [
+            "Teller transactions ~12 hours a week"
+          ],
+          "impact_scale": "individual",
+          "org": "University credit union",
+          "org_tier": "D",
+          "role": "Member Service Representative (part-time)",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2024-2025"
+        }
+      ],
+      "headline": "Finance junior at a T3 business school, GPA 3.78; Big-4 deals intern with a return offer; student-fund analyst",
+      "leadership": [
+        "Director of education for a finance club; runs an eight-session modeling bootcamp with ~80 attendees per session",
+        "Mentor to two first-year students"
+      ],
+      "notable": [
+        "Big-4 transaction services internship with a return offer before senior year",
+        "Student-fund pitch approved and outperforming its index"
+      ],
+      "projects": [
+        {
+          "descriptor": "Full LBO model for a listed packaging company (workshop case)",
+          "highlight": "Three-tranche debt schedule and returns sensitivity; presented to alumni bankers",
+          "kind": "business",
+          "scale_signal": "second of 12 teams",
+          "technical_depth": "standard"
+        },
+        {
+          "descriptor": "Python screening tool ranking ~400 industrial companies",
+          "highlight": "Ranks on ROIC, leverage and FCF yield for idea generation",
+          "kind": "software",
+          "scale_signal": "used by the student fund team",
+          "technical_depth": "standard"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Financial modeling (LBO, DCF, three-statement)",
+        "Quality of earnings",
+        "Working-capital analysis",
+        "Excel",
+        "Python (pandas)",
+        "Capital IQ",
+        "FactSet",
+        "Swedish (native)"
+      ],
+      "top_signal": "Big-4 TS intern",
+      "years_fulltime": 0
+    },
+    "category_relevance": {
+      "academia": 0.03,
+      "finance": 0.9,
+      "general": 1,
+      "tech": 0.15
+    },
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2028,
+        "field": "Finance and Business Analytics",
+        "gpa": 3.78,
+        "gpa_band": "3.7-3.89",
+        "gpa_scale": 4,
+        "honors": [
+          "Dean's List, four semesters",
+          "Kelley Investment Banking Workshop (selected cohort of 60)"
+        ],
+        "in_progress": true,
+        "institution": "Indiana University, Kelley School of Business",
+        "institution_tier": "T3",
+        "notes": "Modeling and valuation coursework listed",
+        "start_year": 2024
+      }
+    ],
+    "experiences": [
+      {
+        "bullets_condensed": [
+          "QoE support on $140M and $60M buy-side deals; revenue bridge and normalized EBITDA",
+          "Working-capital peg over 18 months; 2 adjustments (~$1.1M) in the final report",
+          "~300 data-room requests tracked; return offer"
+        ],
+        "duration_months": 3,
+        "employment_type": "internship",
+        "end": "2026-08",
+        "impact_scale": "team",
+        "is_current": false,
+        "org": "PwC",
+        "org_tier": "B",
+        "org_type": "private_company",
+        "ownership": "contributed",
+        "quantified_impact": true,
+        "role": "Deals Advisory Intern",
+        "role_selectivity": "selective",
+        "seniority": "intern",
+        "start": "2026-06",
+        "team_or_division": "Deals Advisory, Financial Due Diligence"
+      },
+      {
+        "bullets_condensed": [
+          "2 pitches to a 14-member committee; 1 approved, 2.5% position, +11% vs +4% index",
+          "Maintains sector models and weekly performance update",
+          "Co-wrote semiannual letter section (~200 recipients)"
+        ],
+        "duration_months": 13,
+        "employment_type": "part_time",
+        "end": "present",
+        "impact_scale": "team",
+        "is_current": true,
+        "org": "Kelley Student Fund",
+        "org_tier": "C",
+        "org_type": "university",
+        "ownership": "owned_component",
+        "quantified_impact": true,
+        "role": "Analyst",
+        "role_selectivity": "selective",
+        "seniority": "analyst",
+        "start": "2025-09",
+        "team_or_division": "Industrials"
+      },
+      {
+        "bullets_condensed": [
+          "Teller transactions and account openings, ~12 h/week"
+        ],
+        "duration_months": 10,
+        "employment_type": "part_time",
+        "end": "2025-05",
+        "impact_scale": "individual",
+        "is_current": false,
+        "org": "Indiana University Credit Union",
+        "org_tier": "D",
+        "org_type": "bank",
+        "ownership": "supported",
+        "quantified_impact": false,
+        "role": "Member Service Representative",
+        "role_selectivity": "modest",
+        "seniority": "other",
+        "start": "2024-08",
+        "team_or_division": null
+      }
+    ],
+    "input": {
+      "is_resume": true,
+      "language": "en",
+      "parse_confidence": 0.97,
+      "placeholders_seen": [
+        "name",
+        "email",
+        "phone",
+        "url"
+      ],
+      "word_count_estimate": 442
+    },
+    "leadership": [
+      {
+        "budget_or_scale": "8-session bootcamp, ~80 attendees per session",
+        "elected_or_appointed": "elected",
+        "highlight": "Runs the modeling bootcamp for sophomores",
+        "org": "Kelley Finance Club",
+        "people_led": null,
+        "role": "Director of Education"
+      },
+      {
+        "budget_or_scale": "2 mentees",
+        "elected_or_appointed": "appointed",
+        "highlight": "Mentors two first-year students",
+        "org": "Women in Business, Kelley chapter",
+        "people_led": 2,
+        "role": "Mentor"
+      }
+    ],
+    "projects": [
+      {
+        "description_condensed": "Full LBO model for a listed packaging company with a three-tranche debt schedule and returns sensitivity; second of twelve teams before alumni bankers",
+        "has_external_validation": true,
+        "kind": "business",
+        "name": "LBO case study",
+        "quantified_impact": false,
+        "scale_signal": "second of 12 teams",
+        "technical_depth": "standard"
+      },
+      {
+        "description_condensed": "Python script pulling fundamentals for ~400 industrial companies and ranking on ROIC, leverage and FCF yield; used by the student fund",
+        "has_external_validation": true,
+        "kind": "software",
+        "name": "Sector screening tool",
+        "quantified_impact": false,
+        "scale_signal": "used by the fund team",
+        "technical_depth": "standard"
+      },
+      {
+        "description_condensed": "Team of four; regional finalist in an undergraduate consulting case",
+        "has_external_validation": false,
+        "kind": "competition",
+        "name": "Consulting case competition",
+        "quantified_impact": false,
+        "scale_signal": "regional finalist",
+        "technical_depth": "unclear"
+      }
+    ],
+    "publications": [],
+    "red_flags": [],
+    "residual_pii": {
+      "email_count": 1,
+      "name_suspected": false,
+      "other_identifiers": [],
+      "phone_count": 0,
+      "street_address_suspected": false,
+      "url_count": 0
+    },
+    "schema_version": "1.1",
+    "scores": {
+      "academia": {
+        "holistic_score": 8,
+        "included": false,
+        "rationale": "No research output.",
+        "stage_relative_score": 8,
+        "sub_scores": {
+          "breadth": 10,
+          "impact": 5,
+          "pedigree": 35,
+          "selectivity": 15,
+          "trajectory": 20
+        },
+        "top_evidence": []
+      },
+      "finance": {
+        "holistic_score": 53,
+        "included": true,
+        "rationale": "Semi-target school with a Big-4 TS internship described with deal sizes and a return offer, a real student fund with stated AUM and a tracked pick, and LBO modeling evidence; the typical strong-sophomore-to-junior finance path short of a bulge-bracket or boutique offer.",
+        "stage_relative_score": 68,
+        "sub_scores": {
+          "breadth": 35,
+          "impact": 38,
+          "pedigree": 48,
+          "selectivity": 48,
+          "trajectory": 56
+        },
+        "top_evidence": [
+          "QoE on $140M and $60M deals; working-capital peg with ~$1.1M of adjustments",
+          "Student fund: 2.5% position, +11% vs +4%",
+          "LBO case second of 12; modeling bootcamp lead"
+        ]
+      },
+      "general": {
+        "holistic_score": 52,
+        "included": true,
+        "rationale": "Finance junior at a T3 business school with a 3.78, a Big-4 transaction services internship with a return offer, a student-fund pitch that was approved and outperformed, and a club education role; no S/A-tier selection yet.",
+        "stage_relative_score": 66,
+        "sub_scores": {
+          "breadth": 40,
+          "impact": 35,
+          "pedigree": 50,
+          "selectivity": 45,
+          "trajectory": 55
+        },
+        "top_evidence": [
+          "Big-4 deals internship; ~$1.1M of adjustments in a final report; return offer",
+          "Approved student-fund position returning 11% vs 4%",
+          "GPA 3.78, selected workshop cohort"
+        ]
+      },
+      "tech": {
+        "holistic_score": 15,
+        "included": false,
+        "rationale": "One Python screening script; no technical role.",
+        "stage_relative_score": 15,
+        "sub_scores": {
+          "breadth": 15,
+          "impact": 20,
+          "pedigree": 30,
+          "selectivity": 15,
+          "trajectory": 30
+        },
+        "top_evidence": []
+      }
+    },
+    "signals": {
+      "career_stage": "student",
+      "has_quantified_impact": true,
+      "highest_institution_tier": "T3",
+      "highest_org_tier": "B",
+      "max_impact_scale": "team",
+      "months_internship": 3,
+      "primary_domain": "finance",
+      "sustained_org_tier": "D",
+      "top_role_selectivity": "selective",
+      "trajectory": "too_early",
+      "years_fulltime": 0
+    },
+    "skills": {
+      "certifications": [
+        "Bloomberg Market Concepts"
+      ],
+      "domain": [
+        "LBO modeling",
+        "DCF valuation",
+        "Comparable companies",
+        "Quality of earnings",
+        "Working-capital analysis",
+        "Equity research"
+      ],
+      "keyword_stuffing_suspected": false,
+      "spoken_languages": [
+        "Swedish (native)",
+        "English (native)"
+      ],
+      "technical": [
+        "Excel",
+        "PowerPoint",
+        "Python",
+        "pandas",
+        "Capital IQ",
+        "Bloomberg Terminal",
+        "FactSet"
+      ]
+    },
+    "strengths": [
+      "Big-4 transaction services internship with deal sizes, a quantified contribution (~$1.1M of adjustments) and a return offer",
+      "Student-fund pick approved by a 14-member committee and outperforming its index",
+      "GPA 3.78 with a selected investment-banking workshop cohort",
+      "Runs a modeling bootcamp with attendance numbers; LBO case placed second of twelve"
+    ],
+    "verdict": "Solid finance junior with a Big-4 deals internship and a tracked fund pick; a spelled-out email in the projects section holds the record.",
+    "weaknesses": [
+      "A literal contact email survives in the projects section; the record is held until it is removed",
+      "No bulge-bracket, boutique or buy-side selection yet; the Big-4 internship is the strongest credential",
+      "Semi-target school; Dean's List and a case-competition final are modest selections",
+      "Project descriptions run as paragraphs and bury the second-place finish"
+    ]
+  },
+  "card_sha256": "03fcb7047019bbf8d7eefbea201a1fc98b8e13a00699a190204e1e3ebc5de930",
+  "category_relevance": {
+    "academia": 0.03,
+    "finance": 0.9,
+    "general": 1,
+    "tech": 0.15
+  },
+  "created_at": "2026-10-03T12:53:00Z",
+  "deleted_at": null,
+  "duplicate_of": null,
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+5f7c9f15",
+    "verdict": {
+      "estimated_career_stage": "student",
+      "is_resume": true,
+      "language": "en",
+      "prompt_injection_detected": false,
+      "reason": "Résumé with dated roles and education.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "obfuscated-email-in",
+  "held_reason": "pii",
+  "id": "ypeo3zewi2",
+  "kind": "user",
+  "metrics": {
+    "char_count": 3061,
+    "columns_detected": 1,
+    "extraction_quality": 0.97,
+    "font_count": 2,
+    "image_count": 0,
+    "pages": 1,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 442
+  },
+  "owner_hash": "54fb2a8668f1982eab666c18912f44a0e6332d43534d0fe1523771e7ee9215a8",
+  "primary": "finance",
+  "rejected_reason": null,
+  "schema": 1,
+  "scores": {
+    "finance": 60,
+    "general": 58
+  },
+  "source": {
+    "client_version": "fixtures",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 1
+  },
+  "stage": "student",
+  "status": "held",
+  "superseded_by": null,
+  "supersedes": null,
+  "text_sha256": "674361a2996db023174cd359ec3760ec89a06ef15746088ded675fcfbc4b10f6",
+  "top_signal": "Big-4 TS intern",
+  "updated_at": "2026-10-03T12:53:00Z",
+  "usage": {
+    "analysis_usd": 0.17728,
+    "gate_usd": 0.0016,
+    "latency_ms": 0
+  },
+  "versions": {
+    "analyst_model": "claude-opus-5-5",
+    "analyst_prompt": "analyst.v1+6dbc77ff",
+    "fell_back": false,
+    "gate_prompt": "gate.v1+5f7c9f15",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "visibility": "anonymous"
+}

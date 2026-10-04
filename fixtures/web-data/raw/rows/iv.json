@@ -1,0 +1,38 @@
+{
+  "iv5kzargpe": {
+    "c": {
+      "academia": 0.6,
+      "general": 1
+    },
+    "ch": "ca4fc2e6b38743706d81d3b90718ef58eb504fd4fdbd7a7b809ed14ad09e0197",
+    "h": "no-headings-at-all",
+    "p": "academia",
+    "s": "analyzed",
+    "sc": {
+      "academia": 44,
+      "general": 45
+    },
+    "sig": "Lab manager, 6 yrs",
+    "ss": {
+      "academia": [
+        40,
+        42,
+        38,
+        30,
+        35,
+        48
+      ],
+      "general": [
+        40,
+        42,
+        40,
+        30,
+        38,
+        50
+      ]
+    },
+    "st": "mid",
+    "t": 1791031500,
+    "v": "anonymous"
+  }
+}

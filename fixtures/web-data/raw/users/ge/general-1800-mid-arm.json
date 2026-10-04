@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:36:00Z",
+  "handle": "general-1800-mid-arm",
+  "key_exposed": false,
+  "owner_hash": "3ce5b36d896fbba0526fff06316bc2bd90d9cdc2afce1e0bd2d7748db716075b",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:36:00Z",
+      "current": true,
+      "id": "3dj67l3akn"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

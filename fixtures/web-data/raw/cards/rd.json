@@ -1,0 +1,131 @@
+{
+  "rd44paml4q": {
+    "card": {
+      "awards": [
+        {
+          "name": "Thiel Fellowship",
+          "scope": "international",
+          "selectivity": "elite"
+        },
+        {
+          "name": "EY Entrepreneur Of The Year, regional",
+          "scope": "regional",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "Fortune 40 Under 40",
+          "scope": "national",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "Forbes 30 Under 30",
+          "scope": "national",
+          "selectivity": "highly_selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "executive",
+      "education": [
+        {
+          "degree_level": "other",
+          "end_year": null,
+          "field": "Computer Science (left after sophomore year for a Thiel Fellowship)",
+          "gpa_band": "not_listed",
+          "honors": [],
+          "in_progress": false,
+          "institution": "Stanford University",
+          "institution_tier": "T1"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 151,
+          "employment_type": "founder",
+          "highlights": [
+            "2 to 1,100 employees; 30M monthly active users, 2.1M paying subscribers; ~$410M revenue in fiscal 2025 (+44%), FCF-positive since 2022",
+            "~$380M raised from Founders Fund, Sequoia, a16z, Tiger Global and Coatue; IPO in 2024 at ~$3B, $520M raised",
+            "Still owns product and ships code: architected the collaborative-editing engine; ~40 merged pull requests in 2025"
+          ],
+          "impact_scale": "global",
+          "org": "Public consumer note-taking software company (founded 2014, listed 2024)",
+          "org_tier": "A",
+          "role": "Co-founder, Chief Executive Officer and Chair",
+          "role_selectivity": "elite",
+          "seniority": "founder",
+          "years": "2014-present"
+        },
+        {
+          "duration_months": 18,
+          "employment_type": "part_time",
+          "highlights": [
+            "Built the first product version in the dorm; 11,000 users before leaving",
+            "TA for introductory programming"
+          ],
+          "impact_scale": "team",
+          "org": "Stanford University",
+          "org_tier": "A",
+          "role": "Undergraduate and course teaching assistant",
+          "role_selectivity": "selective",
+          "seniority": "other",
+          "years": "2012-2014"
+        }
+      ],
+      "headline": "Founder-CEO and chair of a public consumer-software company (IPO ~$3B); 30M users, ~$410M revenue; Thiel Fellow",
+      "leadership": [
+        "CEO of a 1,100-person public company; built an 8-person executive team, 6 with 4+ years tenure",
+        "Chair of a public-company board; independent director at another listed software company",
+        "Led a 2022 restructuring (12% reduction) and returned to growth within three quarters",
+        "Board member of a national computer-science education nonprofit"
+      ],
+      "notable": [
+        "Founded at 19 on a Thiel Fellowship and led the company to a ~$3B IPO twelve years later",
+        "30 million monthly active users and ~$410M of revenue, free-cash-flow positive since 2022",
+        "Raised ~$380M from five named top-tier lead investors across seed to Series D",
+        "Still writes production code in the sync layer while serving as CEO and board chair",
+        "Two acquisitions as a public company integrated within two quarters each"
+      ],
+      "projects": [
+        {
+          "descriptor": "Collaborative-editing and sync engine (CRDT-based) used across all clients of a 30M-user product",
+          "highlight": "Architected and wrote the first version; author of the sync-conflict library still in use",
+          "kind": "software",
+          "scale_signal": "30M monthly active users",
+          "technical_depth": "exceptional"
+        },
+        {
+          "descriptor": "Angel portfolio of ~25 early-stage software companies",
+          "highlight": "Personal investing alongside the operating role",
+          "kind": "business",
+          "scale_signal": "2 acquired, 1 public",
+          "technical_depth": "unclear"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "cited in two academic papers",
+        "count_total": 1,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": [
+          "engineering blog"
+        ]
+      },
+      "skills_top": [
+        "Product leadership",
+        "Distributed sync and CRDTs",
+        "TypeScript",
+        "Rust",
+        "Swift",
+        "Kotlin",
+        "Mobile architecture",
+        "Capital markets and fundraising",
+        "Public-company governance",
+        "Product analytics",
+        "SQL"
+      ],
+      "top_signal": "Founder-CEO, IPO",
+      "years_fulltime": 12.6
+    },
+    "st": "executive"
+  }
+}

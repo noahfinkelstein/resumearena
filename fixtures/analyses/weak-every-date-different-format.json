@@ -1,0 +1,467 @@
+{
+  "analysis_confidence": 0.9,
+  "ats": {
+    "detected": {
+      "action_verb_ratio": 0.9,
+      "bullet_count": 14,
+      "bullet_marker_consistent": true,
+      "contact_at_top": true,
+      "date_format_consistent": false,
+      "date_formats_seen": [
+        "MMM YYYY",
+        "MM/YYYY",
+        "YYYY",
+        "Month D, YYYY"
+      ],
+      "has_email": true,
+      "has_location": true,
+      "has_phone": true,
+      "has_profile_link": true,
+      "has_street_address": false,
+      "has_summary_section": true,
+      "nonstandard_headings": [],
+      "quantified_bullet_ratio": 0.36,
+      "reverse_chronological": true,
+      "section_order": [
+        "Summary",
+        "Experience",
+        "Education",
+        "Skills",
+        "Awards"
+      ],
+      "skill_bars_or_ratings": false,
+      "standard_headings": [
+        "Summary",
+        "Experience",
+        "Education",
+        "Skills",
+        "Certifications"
+      ],
+      "uses_tables_suspected": false
+    },
+    "factors": {
+      "consistency": {
+        "note": "Four different date formats across four roles (Mon YYYY, MM/YYYY, YYYY, Month D, YYYY); no gaps or contradictions",
+        "score": 60
+      },
+      "contact_info": {
+        "note": "Email, phone, city and a profile link at the top",
+        "score": 100
+      },
+      "formatting": {
+        "note": "Consistent bullets and reverse-chronological order; layout not verified (docx)",
+        "score": 95
+      },
+      "keyword_alignment": {
+        "note": "SQL, GA4, attribution, paid media and testing appear in bullets with results",
+        "score": 85
+      },
+      "length": {
+        "note": "One page for three years",
+        "score": 100
+      },
+      "parseability": {
+        "note": "Single column, standard headings, contact placeholders in the first two lines; layout not verified (docx)",
+        "score": 100
+      },
+      "quantification": {
+        "note": "About a third of the bullets carry a result number; the agency and internship roles have none",
+        "score": 60
+      }
+    },
+    "fixes": [
+      {
+        "factor": "consistency",
+        "fix": "Use one format for all four ranges, e.g. Mar 2022 - Dec 2023, so parsers compute tenure correctly.",
+        "issue": "Four roles, four date formats: \"Jan 2024 - Present\", \"03/2022 to 12/2023\", \"2020 - 2022\", \"June 1, 2019 - Aug. 2019\"",
+        "priority": "high"
+      },
+      {
+        "factor": "quantification",
+        "fix": "Before: Compiled monthly performance reports → After: Compiled monthly reports for 6 clients; cut turnaround from __ days to __ by templating the Ads exports.",
+        "issue": "The agency and internship roles state duties with no outcomes",
+        "priority": "medium"
+      },
+      {
+        "factor": "keyword_alignment",
+        "fix": "Either drop them or attach pandas to a specific cleaning task with its result.",
+        "issue": "Python and Tableau appear only in the skills line",
+        "priority": "low"
+      }
+    ],
+    "score": 85,
+    "target_role_used": "Marketing analyst or growth analyst, 3-5 years"
+  },
+  "awards": [
+    {
+      "issuer": "American Marketing Association",
+      "name": "AMA case competition, regional semifinalist",
+      "pool_estimate": "regional student field",
+      "scope": "regional",
+      "selectivity": "modest",
+      "verifiable": true,
+      "year": 2019
+    }
+  ],
+  "card": {
+    "awards": [
+      {
+        "name": "Regional case competition semifinalist",
+        "scope": "regional",
+        "selectivity": "modest"
+      }
+    ],
+    "card_version": "1.0",
+    "career_stage": "early",
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2020,
+        "field": "Business Administration (Marketing)",
+        "gpa_band": "3.5-3.69",
+        "honors": [],
+        "in_progress": false,
+        "institution": "Colorado State University",
+        "institution_tier": "T3"
+      }
+    ],
+    "experiences": [
+      {
+        "duration_months": 33,
+        "employment_type": "full_time",
+        "highlights": [
+          "Attribution work moved 18% of paid social budget to search; blended cost per order $31 to $26",
+          "Email changes raised click rate 1.9% to 2.4% on a ~900k list",
+          "Built the dashboard that replaced a 40-slide monthly deck"
+        ],
+        "impact_scale": "team",
+        "org": "Summit Trail Outfitters",
+        "org_tier": "C",
+        "role": "Marketing Analyst",
+        "role_selectivity": "modest",
+        "seniority": "junior",
+        "years": "2024-present"
+      },
+      {
+        "duration_months": 22,
+        "employment_type": "full_time",
+        "highlights": [
+          "Acquisition reporting for an app with ~2M monthly active users",
+          "Wrote the UTM tagging guide the team adopted"
+        ],
+        "impact_scale": "team",
+        "org": "Brightline Software",
+        "org_tier": "C",
+        "role": "Associate Marketing Analyst",
+        "role_selectivity": "modest",
+        "seniority": "junior",
+        "years": "2022-2023"
+      },
+      {
+        "duration_months": 24,
+        "employment_type": "full_time",
+        "highlights": [
+          "Reporting and timelines for six small-business clients"
+        ],
+        "impact_scale": "individual",
+        "org": "Ridgeline Creative",
+        "org_tier": "C",
+        "role": "Marketing Coordinator",
+        "role_selectivity": "modest",
+        "seniority": "junior",
+        "years": "2020-2022"
+      },
+      {
+        "duration_months": 3,
+        "employment_type": "internship",
+        "highlights": [
+          "Competitor content audit and campaign recap deck"
+        ],
+        "impact_scale": "individual",
+        "org": "Colorado Tourism Office",
+        "org_tier": "C",
+        "role": "Marketing Intern",
+        "role_selectivity": "modest",
+        "seniority": "intern",
+        "years": "2019-2019"
+      }
+    ],
+    "headline": "Marketing analyst, 3 years across three employers after a T3 degree; budget shift cut cost per order $31 to $26",
+    "leadership": [],
+    "notable": [],
+    "projects": [],
+    "publications_summary": {
+      "citation_signal": "not stated",
+      "count_total": 0,
+      "first_author_count": 0,
+      "strong_venue_count": 0,
+      "top_venue_count": 0,
+      "venues": []
+    },
+    "skills_top": [
+      "SQL (BigQuery)",
+      "Google Analytics 4",
+      "Looker Studio",
+      "Paid media analysis",
+      "A/B test readouts",
+      "Klaviyo",
+      "Google Ads",
+      "Meta Ads Manager"
+    ],
+    "top_signal": "CPO $31→$26",
+    "years_fulltime": 3.8
+  },
+  "category_relevance": {
+    "academia": 0,
+    "finance": 0.05,
+    "general": 1,
+    "tech": 0.2
+  },
+  "education": [
+    {
+      "degree_level": "bachelor",
+      "end_year": 2020,
+      "field": "Business Administration, Marketing",
+      "gpa": 3.5,
+      "gpa_band": "3.5-3.69",
+      "gpa_scale": 4,
+      "honors": [],
+      "in_progress": false,
+      "institution": "Colorado State University",
+      "institution_tier": "T3",
+      "notes": "Case competition team, regional semifinalist",
+      "start_year": 2016
+    }
+  ],
+  "experiences": [
+    {
+      "bullets_condensed": [
+        "Owns paid and email reporting for 3 brands; dashboard replaced a 40-slide deck",
+        "Attribution comparison moved 18% of budget; blended CPO $31 to $26",
+        "Email click rate 1.9% to 2.4% on ~900k list",
+        "12 A/B test readouts in 2025; ad hoc BigQuery for the CMO"
+      ],
+      "duration_months": 33,
+      "employment_type": "full_time",
+      "end": "present",
+      "impact_scale": "team",
+      "is_current": true,
+      "org": "Summit Trail Outfitters",
+      "org_tier": "C",
+      "org_type": "private_company",
+      "ownership": "owned_component",
+      "quantified_impact": true,
+      "role": "Marketing Analyst",
+      "role_selectivity": "modest",
+      "seniority": "junior",
+      "start": "2024-01",
+      "team_or_division": null
+    },
+    {
+      "bullets_condensed": [
+        "Acquisition reporting for ~2M MAU app across Google, Meta, Apple",
+        "Weekly performance email, later migrated to Looker Studio",
+        "GA4 event tracking after the UA migration; UTM tagging guide adopted"
+      ],
+      "duration_months": 22,
+      "employment_type": "full_time",
+      "end": "2023-12",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "Brightline Software",
+      "org_tier": "C",
+      "org_type": "private_company",
+      "ownership": "contributed",
+      "quantified_impact": false,
+      "role": "Associate Marketing Analyst",
+      "role_selectivity": "modest",
+      "seniority": "junior",
+      "start": "2022-03",
+      "team_or_division": null
+    },
+    {
+      "bullets_condensed": [
+        "Timelines and monthly reports for 6 small-business clients",
+        "Social calendar and client copy"
+      ],
+      "duration_months": 24,
+      "employment_type": "full_time",
+      "end": "2022",
+      "impact_scale": "individual",
+      "is_current": false,
+      "org": "Ridgeline Creative",
+      "org_tier": "C",
+      "org_type": "private_company",
+      "ownership": "supported",
+      "quantified_impact": false,
+      "role": "Marketing Coordinator",
+      "role_selectivity": "modest",
+      "seniority": "junior",
+      "start": "2020",
+      "team_or_division": null
+    },
+    {
+      "bullets_condensed": [
+        "Influencer outreach tracking; competitor content audit; recap deck"
+      ],
+      "duration_months": 3,
+      "employment_type": "internship",
+      "end": "2019-08",
+      "impact_scale": "individual",
+      "is_current": false,
+      "org": "Colorado Tourism Office",
+      "org_tier": "C",
+      "org_type": "government",
+      "ownership": "supported",
+      "quantified_impact": false,
+      "role": "Marketing Intern",
+      "role_selectivity": "modest",
+      "seniority": "intern",
+      "start": "2019-06",
+      "team_or_division": null
+    }
+  ],
+  "input": {
+    "is_resume": true,
+    "language": "en",
+    "parse_confidence": 0.95,
+    "placeholders_seen": [
+      "name",
+      "email",
+      "phone",
+      "url"
+    ],
+    "word_count_estimate": 432
+  },
+  "leadership": [],
+  "projects": [],
+  "publications": [],
+  "red_flags": [],
+  "residual_pii": {
+    "email_count": 0,
+    "name_suspected": false,
+    "other_identifiers": [],
+    "phone_count": 0,
+    "street_address_suspected": false,
+    "url_count": 0
+  },
+  "schema_version": "1.1",
+  "scores": {
+    "academia": {
+      "holistic_score": 2,
+      "included": false,
+      "rationale": "No research output.",
+      "stage_relative_score": 2,
+      "sub_scores": {
+        "breadth": 2,
+        "impact": 2,
+        "pedigree": 10,
+        "selectivity": 2,
+        "trajectory": 5
+      },
+      "top_evidence": []
+    },
+    "finance": {
+      "holistic_score": 5,
+      "included": false,
+      "rationale": "No finance footprint beyond budget analysis.",
+      "stage_relative_score": 5,
+      "sub_scores": {
+        "breadth": 5,
+        "impact": 10,
+        "pedigree": 15,
+        "selectivity": 5,
+        "trajectory": 15
+      },
+      "top_evidence": []
+    },
+    "general": {
+      "holistic_score": 40,
+      "included": true,
+      "rationale": "Three ordinary years across three C-tier employers with a steady analyst progression and two quantified outcomes (cost per order, click rate); state-university degree, vendor certifications, no selective role.",
+      "stage_relative_score": 48,
+      "sub_scores": {
+        "breadth": 30,
+        "impact": 42,
+        "pedigree": 32,
+        "selectivity": 20,
+        "trajectory": 45
+      },
+      "top_evidence": [
+        "Blended cost per order $31 to $26 after budget reallocation",
+        "Email click rate 1.9% to 2.4% on a ~900k list",
+        "Three employers in three years, each a step up"
+      ]
+    },
+    "tech": {
+      "holistic_score": 15,
+      "included": false,
+      "rationale": "SQL, GA4 and basic pandas in an analyst role; no engineering work.",
+      "stage_relative_score": 15,
+      "sub_scores": {
+        "breadth": 15,
+        "impact": 20,
+        "pedigree": 25,
+        "selectivity": 10,
+        "trajectory": 25
+      },
+      "top_evidence": []
+    }
+  },
+  "signals": {
+    "career_stage": "early",
+    "has_quantified_impact": true,
+    "highest_institution_tier": "T3",
+    "highest_org_tier": "C",
+    "max_impact_scale": "team",
+    "months_internship": 3,
+    "primary_domain": "other",
+    "sustained_org_tier": "C",
+    "top_role_selectivity": "modest",
+    "trajectory": "steady",
+    "years_fulltime": 3.8
+  },
+  "skills": {
+    "certifications": [
+      "Google Analytics Certification",
+      "Google Ads Search Certification",
+      "Meta Certified Digital Marketing Associate"
+    ],
+    "domain": [
+      "Paid media analysis",
+      "Marketing attribution",
+      "Email program analytics",
+      "A/B testing readouts",
+      "Campaign reporting"
+    ],
+    "keyword_stuffing_suspected": false,
+    "spoken_languages": [],
+    "technical": [
+      "SQL",
+      "BigQuery",
+      "Google Analytics 4",
+      "Looker Studio",
+      "Google Ads",
+      "Meta Ads Manager",
+      "Apple Search Ads",
+      "Klaviyo",
+      "Excel",
+      "Google Sheets",
+      "Python (pandas)",
+      "Tableau"
+    ]
+  },
+  "strengths": [
+    "Budget reallocation bullet ties an 18% shift to a stated cost-per-order drop ($31 to $26)",
+    "Email program result with a before-and-after click rate on a large list",
+    "Steady progression from coordinator to analyst across three employers in three years",
+    "Tooling claims (SQL, GA4, Looker Studio) are backed by bullets, not just the skills list"
+  ],
+  "verdict": "An ordinary three-year marketing analyst record with two real numbers, undermined by a different date format on every role.",
+  "weaknesses": [
+    "Four roles, four date formats; a parser will compute tenure wrong and a reader notices",
+    "Agency and internship bullets are duty lists with no results",
+    "All employers are C-tier and no role or program was selective",
+    "No leadership, ownership of a budget, or management of anyone yet"
+  ]
+}

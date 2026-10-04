@@ -1,0 +1,38 @@
+{
+  "xr3uglaj43": {
+    "c": {
+      "finance": 0.75,
+      "general": 1
+    },
+    "ch": "fcb972591e12464dc9f971fe5e68769f4f55050c163c6e32fe9c810d77ff602b",
+    "h": "finance-1100-new-gra",
+    "p": "finance",
+    "s": "analyzed",
+    "sc": {
+      "finance": 27,
+      "general": 28
+    },
+    "sig": "Bank rotational",
+    "ss": {
+      "finance": [
+        28,
+        32,
+        12,
+        12,
+        20,
+        32
+      ],
+      "general": [
+        30,
+        35,
+        15,
+        15,
+        25,
+        31
+      ]
+    },
+    "st": "new_grad",
+    "t": 1791029460,
+    "v": "anonymous"
+  }
+}

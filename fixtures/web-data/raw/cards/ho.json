@@ -1,0 +1,136 @@
+{
+  "hosuux246y": {
+    "card": {
+      "awards": [
+        {
+          "name": "AWS Certified Data Analytics - Specialty",
+          "scope": "international",
+          "selectivity": "modest"
+        },
+        {
+          "name": "SnowPro Core",
+          "scope": "international",
+          "selectivity": "modest"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "mid",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2018,
+          "field": "Computer Science",
+          "gpa_band": "3.0-3.49",
+          "honors": [],
+          "in_progress": false,
+          "institution": "University of Oregon",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 44,
+          "employment_type": "full_time",
+          "highlights": [
+            "Leads 4 engineers owning 1,400 pipelines, ~9 TB/day, 99.8% on-time vs 99.5% SLA",
+            "Re-architected batch ingestion: compute cost -38% (~$410k/yr); median latency 52 min to 19",
+            "Streaming layer for 11 clients at p95 under 90 s; data contracts cut incidents 23 to 6"
+          ],
+          "impact_scale": "org",
+          "org": "Northwind Analytics",
+          "org_tier": "C",
+          "role": "Senior Data Engineer (team lead)",
+          "role_selectivity": "modest",
+          "seniority": "senior",
+          "years": "2023-present"
+        },
+        {
+          "duration_months": 21,
+          "employment_type": "full_time",
+          "highlights": [
+            "Onboarding framework: new-client setup ~3 weeks to 4 days, used for 30+ clients",
+            "Redshift to Snowflake migration (~40 TB) with no reporting outage"
+          ],
+          "impact_scale": "org",
+          "org": "Northwind Analytics",
+          "org_tier": "C",
+          "role": "Data Engineer",
+          "role_selectivity": "modest",
+          "seniority": "mid",
+          "years": "2021-2023"
+        },
+        {
+          "duration_months": 10,
+          "employment_type": "full_time",
+          "highlights": [
+            "HL7 and claims pipelines for 14 clinics; automated monthly quality reporting"
+          ],
+          "impact_scale": "team",
+          "org": "Cascade Health Partners",
+          "org_tier": "C",
+          "role": "Data Engineer",
+          "role_selectivity": "modest",
+          "seniority": "mid",
+          "years": "2020-2021"
+        },
+        {
+          "duration_months": 25,
+          "employment_type": "full_time",
+          "highlights": [
+            "On-time monthly close reporting 70% to 100%; designed the claims dimensional model"
+          ],
+          "impact_scale": "team",
+          "org": "Cascade Health Partners",
+          "org_tier": "C",
+          "role": "Analytics Engineer",
+          "role_selectivity": "modest",
+          "seniority": "junior",
+          "years": "2018-2020"
+        }
+      ],
+      "headline": "Senior data engineer, 8 years, leads 4 at a C-tier analytics company; re-architecture cut compute cost 38%",
+      "leadership": [
+        "Leads a team of four; two mentees promoted within 18 months",
+        "Regional meetup talk on data contracts, ~120 attendees"
+      ],
+      "notable": [
+        "Platform re-architecture with a stated $410k annual saving and a 38% cost cut",
+        "Incident count cut from 23 to 6 through data contracts and tests"
+      ],
+      "projects": [
+        {
+          "descriptor": "Contributor to an open-source dbt utility package",
+          "highlight": "Incremental-snapshot macro",
+          "kind": "software",
+          "scale_signal": "6 merged PRs",
+          "technical_depth": "standard"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Spark",
+        "Airflow",
+        "Kafka",
+        "Flink",
+        "dbt",
+        "Snowflake",
+        "Kubernetes",
+        "Python",
+        "SQL",
+        "Terraform",
+        "AWS",
+        "GCP"
+      ],
+      "top_signal": "38% compute cut",
+      "years_fulltime": 8.2
+    },
+    "st": "mid"
+  }
+}

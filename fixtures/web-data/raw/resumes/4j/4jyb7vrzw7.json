@@ -1,0 +1,637 @@
+{
+  "analysis": {
+    "analysis_confidence": 0.92,
+    "ats": {
+      "detected": {
+        "action_verb_ratio": 0.9,
+        "bullet_count": 11,
+        "bullet_marker_consistent": true,
+        "contact_at_top": true,
+        "date_format_consistent": true,
+        "date_formats_seen": [
+          "MMM YYYY"
+        ],
+        "has_email": true,
+        "has_location": true,
+        "has_phone": true,
+        "has_profile_link": true,
+        "has_street_address": false,
+        "has_summary_section": false,
+        "nonstandard_headings": [
+          "Interests"
+        ],
+        "quantified_bullet_ratio": 0.55,
+        "reverse_chronological": true,
+        "section_order": [
+          "Education",
+          "Experience",
+          "Projects",
+          "Awards",
+          "Skills",
+          "Interests"
+        ],
+        "skill_bars_or_ratings": false,
+        "standard_headings": [
+          "Education",
+          "Experience",
+          "Projects",
+          "Awards",
+          "Skills"
+        ],
+        "uses_tables_suspected": false
+      },
+      "factors": {
+        "consistency": {
+          "note": "One date format, titles match the bullets, no gaps",
+          "score": 100
+        },
+        "contact_info": {
+          "note": "Email, phone, city and two profile links at the top",
+          "score": 100
+        },
+        "formatting": {
+          "note": "Consistent bullets and order; the skills line uses middle dots as separators",
+          "score": 95
+        },
+        "keyword_alignment": {
+          "note": "Ranking, experimentation, latency and on-call terms appear in bullets with outcomes",
+          "score": 88
+        },
+        "length": {
+          "note": "One page",
+          "score": 100
+        },
+        "parseability": {
+          "note": "Single column, standard headings, contact placeholders in the first two lines",
+          "score": 100
+        },
+        "quantification": {
+          "note": "Roughly half the bullets carry an outcome number; the TA and interests lines do not",
+          "score": 80
+        }
+      },
+      "fixes": [
+        {
+          "factor": "quantification",
+          "fix": "Before: Reviewed about 200 diffs → After: Reviewed ~200 diffs; cut the team median review turnaround from __ h to __ h.",
+          "issue": "The diff-review and TA bullets state activity only",
+          "priority": "medium"
+        },
+        {
+          "factor": "formatting",
+          "fix": "Split skills into three labeled lines (languages, data and ML, infrastructure) so parsers map each term.",
+          "issue": "Skills are a single run-on line separated by dots",
+          "priority": "low"
+        },
+        {
+          "factor": "length",
+          "fix": "Drop Interests; keep the Codeforces rating only if it is Division 1 with a number.",
+          "issue": "Interests line and Dean's List add little at this level",
+          "priority": "low"
+        }
+      ],
+      "score": 93,
+      "target_role_used": "Software engineer, ML infrastructure or ranking, 1-3 years"
+    },
+    "awards": [
+      {
+        "issuer": "HackMIT",
+        "name": "HackMIT Grand Prize",
+        "pool_estimate": "top team of ~1,000 participants",
+        "scope": "national",
+        "selectivity": "selective",
+        "verifiable": true,
+        "year": 2023
+      },
+      {
+        "issuer": "Carnegie Mellon University",
+        "name": "Dean's List",
+        "pool_estimate": "top GPA band each semester",
+        "scope": "institutional",
+        "selectivity": "modest",
+        "verifiable": true,
+        "year": 2024
+      },
+      {
+        "issuer": "Meta",
+        "name": "Above & Beyond award",
+        "pool_estimate": "team-level recognition",
+        "scope": "company",
+        "selectivity": "modest",
+        "verifiable": true,
+        "year": 2025
+      }
+    ],
+    "card": {
+      "awards": [
+        {
+          "name": "HackMIT grand prize",
+          "scope": "national",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Company recognition award for a launch",
+          "scope": "company",
+          "selectivity": "modest"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "early",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2024,
+          "field": "Computer Science (ML concentration)",
+          "gpa_band": "3.9-3.99",
+          "honors": [
+            "University Honors",
+            "Dean's List, every semester"
+          ],
+          "in_progress": false,
+          "institution": "Carnegie Mellon University",
+          "institution_tier": "T1"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 15,
+          "employment_type": "full_time",
+          "highlights": [
+            "Shipped a feed re-ranking stage: +0.8% daily active engagement, +1.2% sessions per user in A/B; at 100% traffic",
+            "Owns the feature-logging path; p95 latency 2.4 s to 0.9 s",
+            "Primary on-call one week in five; led mitigation of two SEV3 incidents"
+          ],
+          "impact_scale": "org",
+          "org": "Meta",
+          "org_tier": "A",
+          "role": "Software Engineer, Feed Ranking",
+          "role_selectivity": "selective",
+          "seniority": "new_grad",
+          "years": "2024-present"
+        },
+        {
+          "duration_months": 4,
+          "employment_type": "internship",
+          "highlights": [
+            "Built a query-cost estimator shipped to public preview; false positives 22% to 9%"
+          ],
+          "impact_scale": "team",
+          "org": "Microsoft",
+          "org_tier": "A",
+          "role": "Software Engineering Intern, Azure Monitor",
+          "role_selectivity": "selective",
+          "seniority": "intern",
+          "years": "2023-2023"
+        },
+        {
+          "duration_months": 9,
+          "employment_type": "part_time",
+          "highlights": [
+            "Built a sparse-attention benchmark harness used in a NeurIPS workshop paper (second author)"
+          ],
+          "impact_scale": "team",
+          "org": "Carnegie Mellon University",
+          "org_tier": "B",
+          "role": "Undergraduate Research Assistant",
+          "role_selectivity": "modest",
+          "seniority": "research_assistant",
+          "years": "2022-2023"
+        },
+        {
+          "duration_months": 5,
+          "employment_type": "part_time",
+          "highlights": [
+            "Weekly recitation of 30 students"
+          ],
+          "impact_scale": "individual",
+          "org": "Carnegie Mellon University",
+          "org_tier": "B",
+          "role": "Teaching Assistant, Computer Systems",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2023-2023"
+        }
+      ],
+      "headline": "Engineer at an A-tier social company, 2 years after a T1 CS degree; A/B-tested ranking launch; HackMIT grand prize",
+      "leadership": [
+        "Mentored a summer intern whose project was adopted into the team dashboard"
+      ],
+      "notable": [
+        "A/B-tested ranking launch with stated engagement lift in the first year",
+        "HackMIT grand prize",
+        "Second author on a NeurIPS workshop paper as an undergraduate"
+      ],
+      "projects": [
+        {
+          "descriptor": "Raft-based replicated key-value store (course final, team of 2)",
+          "highlight": "Log compaction and membership changes; 100% on the partition-injection suite",
+          "kind": "software",
+          "scale_signal": "none stated",
+          "technical_depth": "substantial"
+        },
+        {
+          "descriptor": "Contributor to a major open-source ML framework (profiler)",
+          "highlight": "Fixed a double-counted CUDA event on nested profiler ranges",
+          "kind": "software",
+          "scale_signal": "3 merged pull requests",
+          "technical_depth": "standard"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 1,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": [
+          "NeurIPS workshop"
+        ]
+      },
+      "skills_top": [
+        "Python",
+        "C++",
+        "PyTorch",
+        "A/B experimentation",
+        "Go",
+        "Spark",
+        "gRPC",
+        "Kubernetes",
+        "On-call operations"
+      ],
+      "top_signal": "+0.8% DAU A/B win",
+      "years_fulltime": 1.2
+    },
+    "category_relevance": {
+      "academia": 0.2,
+      "finance": 0.05,
+      "general": 1,
+      "tech": 1
+    },
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2024,
+        "field": "Computer Science",
+        "gpa": 3.9,
+        "gpa_band": "3.9-3.99",
+        "gpa_scale": 4,
+        "honors": [
+          "University Honors",
+          "Dean's List, every semester"
+        ],
+        "in_progress": false,
+        "institution": "Carnegie Mellon University",
+        "institution_tier": "T1",
+        "notes": "ML concentration; systems and ML coursework listed",
+        "start_year": 2020
+      }
+    ],
+    "experiences": [
+      {
+        "bullets_condensed": [
+          "Freshness re-ranking stage: +0.8% daily active engagement, +1.2% sessions/user in A/B; 100% traffic",
+          "Feature-logging path p95 2.4 s to 0.9 s",
+          "Primary on-call 1 week in 5; led 2 SEV3 mitigations",
+          "Mentored intern; reviewed ~200 diffs"
+        ],
+        "duration_months": 15,
+        "employment_type": "full_time",
+        "end": "present",
+        "impact_scale": "org",
+        "is_current": true,
+        "org": "Meta",
+        "org_tier": "A",
+        "org_type": "public_company",
+        "ownership": "owned_component",
+        "quantified_impact": true,
+        "role": "Software Engineer",
+        "role_selectivity": "selective",
+        "seniority": "new_grad",
+        "start": "2024-08",
+        "team_or_division": "Feed Ranking"
+      },
+      {
+        "bullets_condensed": [
+          "Query-cost estimator shipped to public preview",
+          "False-positive rate 22% to 9%"
+        ],
+        "duration_months": 4,
+        "employment_type": "internship",
+        "end": "2023-08",
+        "impact_scale": "org",
+        "is_current": false,
+        "org": "Microsoft",
+        "org_tier": "A",
+        "org_type": "public_company",
+        "ownership": "owned_component",
+        "quantified_impact": true,
+        "role": "Software Engineering Intern",
+        "role_selectivity": "selective",
+        "seniority": "intern",
+        "start": "2023-05",
+        "team_or_division": "Azure Monitor"
+      },
+      {
+        "bullets_condensed": [
+          "Weekly recitation of 30 students; graded systems labs"
+        ],
+        "duration_months": 5,
+        "employment_type": "part_time",
+        "end": "2023-05",
+        "impact_scale": "individual",
+        "is_current": false,
+        "org": "Carnegie Mellon University",
+        "org_tier": "B",
+        "org_type": "university",
+        "ownership": "supported",
+        "quantified_impact": false,
+        "role": "Teaching Assistant, Introduction to Computer Systems",
+        "role_selectivity": "modest",
+        "seniority": "other",
+        "start": "2023-01",
+        "team_or_division": null
+      },
+      {
+        "bullets_condensed": [
+          "Benchmark harness for sparse attention kernels; second author on a NeurIPS workshop paper"
+        ],
+        "duration_months": 9,
+        "employment_type": "part_time",
+        "end": "2023-05",
+        "impact_scale": "team",
+        "is_current": false,
+        "org": "Carnegie Mellon University",
+        "org_tier": "B",
+        "org_type": "university",
+        "ownership": "contributed",
+        "quantified_impact": false,
+        "role": "Undergraduate Research Assistant",
+        "role_selectivity": "selective",
+        "seniority": "research_assistant",
+        "start": "2022-09",
+        "team_or_division": "Catalyst Lab"
+      }
+    ],
+    "input": {
+      "is_resume": true,
+      "language": "en",
+      "parse_confidence": 0.98,
+      "placeholders_seen": [
+        "name",
+        "email",
+        "phone",
+        "url"
+      ],
+      "word_count_estimate": 540
+    },
+    "leadership": [
+      {
+        "budget_or_scale": "one intern",
+        "elected_or_appointed": "appointed",
+        "highlight": "Intern's calibration monitor adopted into the model-health dashboard",
+        "org": "Meta",
+        "people_led": 1,
+        "role": "Intern mentor"
+      }
+    ],
+    "projects": [
+      {
+        "description_condensed": "Raft-based replicated store in Go with log compaction and membership changes; 100% on the partition-injection suite",
+        "has_external_validation": false,
+        "kind": "software",
+        "name": "Distributed key-value store",
+        "quantified_impact": false,
+        "scale_signal": "none stated",
+        "technical_depth": "substantial"
+      },
+      {
+        "description_condensed": "Three merged pull requests including a fix for double-counted CUDA events on nested ranges",
+        "has_external_validation": true,
+        "kind": "software",
+        "name": "PyTorch profiler contributions",
+        "quantified_impact": false,
+        "scale_signal": "3 merged PRs to a framework with millions of users",
+        "technical_depth": "standard"
+      }
+    ],
+    "publications": [
+      {
+        "author_count": null,
+        "author_position": "second",
+        "citations_claimed": null,
+        "field": "ML systems",
+        "kind": "workshop",
+        "venue": "NeurIPS workshop",
+        "venue_tier": "workshop",
+        "year": 2023
+      }
+    ],
+    "red_flags": [],
+    "residual_pii": {
+      "email_count": 0,
+      "name_suspected": false,
+      "other_identifiers": [],
+      "phone_count": 0,
+      "street_address_suspected": false,
+      "url_count": 0
+    },
+    "schema_version": "1.1",
+    "scores": {
+      "academia": {
+        "holistic_score": 30,
+        "included": false,
+        "rationale": "One second-author workshop paper and an undergraduate RA year; no research thread since.",
+        "stage_relative_score": 30,
+        "sub_scores": {
+          "breadth": 20,
+          "impact": 25,
+          "pedigree": 60,
+          "selectivity": 35,
+          "trajectory": 40
+        },
+        "top_evidence": []
+      },
+      "finance": {
+        "holistic_score": 18,
+        "included": false,
+        "rationale": "No finance footprint.",
+        "stage_relative_score": 15,
+        "sub_scores": {
+          "breadth": 10,
+          "impact": 20,
+          "pedigree": 40,
+          "selectivity": 25,
+          "trajectory": 30
+        },
+        "top_evidence": []
+      },
+      "general": {
+        "holistic_score": 69,
+        "included": true,
+        "rationale": "T1 CS degree with a 3.9, A-tier employer in the first year with an A/B-tested launch, an A-tier internship and a national hackathon win; scope is one component.",
+        "stage_relative_score": 76,
+        "sub_scores": {
+          "breadth": 48,
+          "impact": 62,
+          "pedigree": 78,
+          "selectivity": 66,
+          "trajectory": 72
+        },
+        "top_evidence": [
+          "Feed re-ranking launch: +0.8% engagement, +1.2% sessions/user",
+          "CMU SCS, GPA 3.9, University Honors",
+          "HackMIT grand prize"
+        ]
+      },
+      "tech": {
+        "holistic_score": 71,
+        "included": true,
+        "rationale": "A-tier ranking team with a quantified A/B win and an owned logging path in year one, after a T1 degree and an A-tier internship; a workshop paper and a hackathon grand prize; scope is still a component.",
+        "stage_relative_score": 77,
+        "sub_scores": {
+          "breadth": 50,
+          "impact": 66,
+          "pedigree": 78,
+          "selectivity": 68,
+          "trajectory": 74
+        },
+        "top_evidence": [
+          "+0.8% daily active engagement in A/B, at 100% traffic",
+          "Logging p95 2.4 s to 0.9 s; primary on-call",
+          "Microsoft intern: estimator to public preview, FPR 22% to 9%"
+        ]
+      }
+    },
+    "signals": {
+      "career_stage": "early",
+      "has_quantified_impact": true,
+      "highest_institution_tier": "T1",
+      "highest_org_tier": "A",
+      "max_impact_scale": "org",
+      "months_internship": 4,
+      "primary_domain": "tech",
+      "sustained_org_tier": "A",
+      "top_role_selectivity": "selective",
+      "trajectory": "accelerating",
+      "years_fulltime": 1.2
+    },
+    "skills": {
+      "certifications": [],
+      "domain": [
+        "Feed ranking",
+        "A/B experimentation",
+        "Feature logging",
+        "On-call operations",
+        "Competitive programming"
+      ],
+      "keyword_stuffing_suspected": false,
+      "spoken_languages": [],
+      "technical": [
+        "Python",
+        "C++",
+        "Go",
+        "SQL",
+        "PyTorch",
+        "Spark",
+        "Presto",
+        "Hive",
+        "Kubernetes",
+        "Thrift",
+        "gRPC"
+      ]
+    },
+    "strengths": [
+      "A/B-tested feed launch with stated lifts (+0.8% engagement, +1.2% sessions) at 100% traffic in the first year",
+      "Owned logging path with a latency number (p95 2.4 s to 0.9 s) and primary on-call duty",
+      "T1 CS degree, GPA 3.9, A-tier internship that shipped to public preview",
+      "HackMIT grand prize and a NeurIPS workshop paper as an undergraduate"
+    ],
+    "verdict": "A-tier ranking engineer with a quantified launch in year one after a T1 degree; trajectory ahead of the ladder, scope still a component.",
+    "weaknesses": [
+      "Scope is one ranking stage and one logging path; no system owned end to end yet",
+      "The workshop paper is the only research output and it is two years old",
+      "Open-source contribution is three PRs; the project line could state what the fix changed",
+      "Awards section mixes a national hackathon with team-level company recognition"
+    ]
+  },
+  "card_sha256": "f4c418701c890c796d0ece737a01788abfbc309b3f499530dbf7eff9b9913918",
+  "category_relevance": {
+    "academia": 0.2,
+    "finance": 0.05,
+    "general": 1,
+    "tech": 1
+  },
+  "created_at": "2026-10-03T12:05:00Z",
+  "deleted_at": null,
+  "duplicate_of": null,
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+5f7c9f15",
+    "verdict": {
+      "estimated_career_stage": "early",
+      "is_resume": true,
+      "language": "en",
+      "prompt_injection_detected": false,
+      "reason": "Résumé with dated roles and education.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "tech-1600-early-t1-n",
+  "held_reason": null,
+  "id": "4jyb7vrzw7",
+  "kind": "user",
+  "metrics": {
+    "char_count": 3496,
+    "columns_detected": 1,
+    "extraction_quality": 0.98,
+    "font_count": 2,
+    "image_count": 0,
+    "pages": 1,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 2
+    },
+    "source": "pdf",
+    "word_count": 540
+  },
+  "owner_hash": "62f88b73846555b7ddb8e0d9d27d6959d630ed55d5a5efb42cc6fd289beaa733",
+  "primary": "tech",
+  "rejected_reason": null,
+  "schema": 1,
+  "scores": {
+    "general": 72,
+    "tech": 74
+  },
+  "source": {
+    "client_version": "fixtures",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 1
+  },
+  "stage": "early",
+  "status": "analyzed",
+  "superseded_by": null,
+  "supersedes": null,
+  "text": "[name]\nMenlo Park, CA · [email] · [phone] · [url] · [url]\n\nEDUCATION\nCarnegie Mellon University, School of Computer Science — B.S. Computer Science, May 2024\nGPA 3.9/4.0. University Honors. Concentration in Machine Learning.\nCoursework: Distributed Systems (15-440), Machine Learning (10-701), Operating Systems (15-410), Deep Learning Systems, Algorithms.\n\nEXPERIENCE\nMeta, Menlo Park, CA — Software Engineer, Feed Ranking (Aug 2024 – Present)\n• Shipped a freshness-aware re-ranking stage for the main feed candidate pipeline; the A/B test showed +0.8% daily active engagement and +1.2% sessions per user across a 5% holdout, now at 100% of traffic.\n• Owned the feature-logging path that feeds the ranking model's training data: cut end-to-end logging latency p95 from 2.4 s to 0.9 s by batching writes and removing a synchronous RPC.\n• Primary on-call for the ranking service one week in five; wrote the runbook section on model-rollback and led the mitigation of two SEV3 incidents.\n• Mentored the team's summer intern; the intern's project (a calibration monitor) was adopted into the model-health dashboard.\n• Reviewed about 200 diffs across the team's C++ and Python code in the first year.\n• Wrote the design document for a candidate-deduplication pass that is now in the H1 2026 roadmap; the offline estimate is a 4% reduction in ranking compute at equal quality.\n• Built an internal tool that replays a day of production feed requests against a candidate model build; used by the ranking team for every pre-launch check since Q2 2025.\n\nMicrosoft, Redmond, WA — Software Engineering Intern, Azure Monitor (May 2023 – Aug 2023)\n• Built a query-cost estimator for the log analytics service that warned users before expensive queries ran; shipped behind a flag to 3 internal tenants, then to public preview.\n• Reduced the estimator's false-positive rate from 22% to 9% by adding a sampled-cardinality step.\n\nCarnegie Mellon University — Teaching Assistant, 15-213 Introduction to Computer Systems (Jan 2023 – May 2023)\n• Led a weekly recitation of 30 students; held office hours and graded the malloc and proxy labs.\n\nCarnegie Mellon University, Catalyst Lab — Undergraduate Research Assistant (Sep 2022 – May 2023)\n• Implemented a benchmark harness for sparse attention kernels; results were used in a workshop paper (second author) at the ML systems workshop at NeurIPS 2023.\n\nPROJECTS\nDistributed key-value store (15-440 final, team of 2, 2023) — Go\nRaft-based replicated store with log compaction and membership changes; passed the course's partition-injection test suite at 100%.\n\nOpen-source contribution: PyTorch (2023–2024)\nThree merged pull requests to the profiler, including a fix for a double-counted CUDA event on nested ranges and a documentation pass on the memory timeline view.\n\nSparse attention kernel benchmark (Catalyst Lab, 2023) — CUDA, PyTorch\nHarness comparing four block-sparse attention implementations across sequence lengths from 1k to 64k tokens; found a 2.3x gap between the fastest and slowest at 32k that the paper reports.\n\nAWARDS\nHackMIT 2023 — Grand Prize winner (team of 4), out of about 1,000 participants\nDean's List, every semester 2020–2024\nMeta Above & Beyond award, H1 2025 (team-level recognition for the feed freshness launch)\n\nSKILLS\nPython, C++, Go, SQL · PyTorch, Spark, Presto, Hive · Kubernetes, Thrift, gRPC · A/B experimentation, feature logging, on-call operations\n\nINTERESTS\nCompetitive programming (Codeforces, Division 1), trail running",
+  "text_sha256": "742014e6376ca6896b29d9b7ab8a634861b9b31735a828dfdd1926c0eb66f7ac",
+  "top_signal": "+0.8% DAU A/B win",
+  "updated_at": "2026-10-03T12:05:00Z",
+  "usage": {
+    "analysis_usd": 0.17728,
+    "gate_usd": 0.0016,
+    "latency_ms": 2
+  },
+  "versions": {
+    "analyst_model": "claude-opus-5-5",
+    "analyst_prompt": "analyst.v1+6dbc77ff",
+    "fell_back": false,
+    "gate_prompt": "gate.v1+5f7c9f15",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "visibility": "handle"
+}

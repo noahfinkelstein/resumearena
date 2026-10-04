@@ -1,0 +1,294 @@
+{
+  "cd3ywxohut": {
+    "card": {
+      "awards": [
+        {
+          "name": "NSF CAREER Award",
+          "scope": "national",
+          "selectivity": "elite"
+        },
+        {
+          "name": "Best Paper Award, IEEE ICCP",
+          "scope": "international",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "IEEE SPS Early Career Technical Achievement Award",
+          "scope": "international",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "Whiting School Excellence in Teaching Award",
+          "scope": "institutional",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Johns Hopkins Catalyst Award",
+          "scope": "institutional",
+          "selectivity": "selective"
+        },
+        {
+          "name": "IEEE Senior Member",
+          "scope": "international",
+          "selectivity": "modest"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "senior",
+      "education": [
+        {
+          "degree_level": "phd",
+          "end_year": 2015,
+          "field": "Electrical Engineering",
+          "gpa_band": "not_listed",
+          "honors": [
+            "Beckman Institute graduate fellow"
+          ],
+          "in_progress": false,
+          "institution": "University of Illinois Urbana-Champaign",
+          "institution_tier": "T1"
+        },
+        {
+          "degree_level": "master",
+          "end_year": 2012,
+          "field": "Electrical Engineering",
+          "gpa_band": "not_listed",
+          "honors": [],
+          "in_progress": false,
+          "institution": "University of Illinois Urbana-Champaign",
+          "institution_tier": "T1"
+        },
+        {
+          "degree_level": "bachelor",
+          "end_year": 2010,
+          "field": "Electrical and Computer Engineering",
+          "gpa_band": "not_listed",
+          "honors": [
+            "highest honors"
+          ],
+          "in_progress": false,
+          "institution": "Georgia Institute of Technology",
+          "institution_tier": "T1"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 39,
+          "employment_type": "full_time",
+          "highlights": [
+            "Group of 7 PhD students, 2 postdocs, 4 undergraduates; ~$5.5M external funding as PI or co-PI (~$3.4M as PI)",
+            "Associate editor of an IEEE transactions journal; area chair at NeurIPS, ICML and CVPR; general co-chair of a conference",
+            "Director of graduate admissions for ~900 applications a year; faculty search chair"
+          ],
+          "impact_scale": "industry",
+          "org": "Johns Hopkins University",
+          "org_tier": "A",
+          "role": "Associate Professor (tenured), Electrical and Computer Engineering",
+          "role_selectivity": "highly_selective",
+          "seniority": "faculty",
+          "years": "2023-present"
+        },
+        {
+          "duration_months": 72,
+          "employment_type": "full_time",
+          "highlights": [
+            "NSF CAREER (2019); best paper at IEEE ICCP (2021); school teaching award (2022)",
+            "Tenure on the standard clock; 8 PhD graduates, 3 now faculty",
+            "Developed the graduate computational-imaging course (~45) and teaches signals and systems (~120)"
+          ],
+          "impact_scale": "industry",
+          "org": "Johns Hopkins University",
+          "org_tier": "A",
+          "role": "Assistant Professor, Electrical and Computer Engineering",
+          "role_selectivity": "highly_selective",
+          "seniority": "faculty",
+          "years": "2017-2023"
+        },
+        {
+          "duration_months": 24,
+          "employment_type": "fellowship",
+          "highlights": [
+            "Two-year postdoc in a statistics department before the faculty appointment"
+          ],
+          "impact_scale": "team",
+          "org": "Columbia University",
+          "org_tier": "A",
+          "role": "Postdoctoral Research Associate, Statistics",
+          "role_selectivity": "highly_selective",
+          "seniority": "postdoc",
+          "years": "2015-2017"
+        }
+      ],
+      "headline": "Tenured associate professor of ECE at a T2 R1; NSF CAREER; 50 papers, h-index 30; ~$3.4M as PI; 8 PhD graduates",
+      "leadership": [
+        "Supervised 8 PhD graduates (3 faculty, 4 industry research, 1 postdoc) and 3 postdocs now in tenure-track positions",
+        "Associate editor, IEEE Transactions on Computational Imaging; area chair NeurIPS 2023-2025, ICML 2024-2025, CVPR 2025",
+        "General co-chair, IEEE International Conference on Computational Photography 2026",
+        "Director of graduate admissions (~900 applications a year); faculty search committee chair"
+      ],
+      "notable": [
+        "NSF CAREER plus a top-conference best paper and an IEEE society early-career award",
+        "50 papers with 15 at top venues, h-index 30, ~4,200 citations at year nine from the PhD",
+        "About $5.5M in external funding as PI or co-PI, including an NIH R01 and an NSF Medium as lead PI",
+        "Eight PhD graduates, three now faculty; three former postdocs in tenure-track positions",
+        "Three granted patents licensed to an imaging-sensor company"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "~4,200 citations claimed, h-index 30",
+        "count_total": 50,
+        "first_author_count": 4,
+        "strong_venue_count": 10,
+        "top_venue_count": 15,
+        "venues": [
+          "IEEE Transactions on Signal Processing",
+          "IEEE Transactions on Image Processing",
+          "SIAM Journal on Imaging Sciences",
+          "NeurIPS",
+          "ICML",
+          "CVPR",
+          "ICLR",
+          "IEEE ICCP",
+          "ICASSP"
+        ]
+      },
+      "skills_top": [
+        "Computational imaging",
+        "Inverse problems with learned priors",
+        "Sparse and low-rank recovery",
+        "Uncertainty quantification",
+        "Statistical signal processing",
+        "Medical imaging reconstruction"
+      ],
+      "top_signal": "NSF CAREER, h=30",
+      "years_fulltime": 11.3
+    },
+    "st": "senior"
+  },
+  "cdrjnfxuqr": {
+    "card": {
+      "awards": [
+        {
+          "name": "Departmental travel award",
+          "scope": "institutional",
+          "selectivity": "modest"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "early",
+      "education": [
+        {
+          "degree_level": "master",
+          "end_year": 2024,
+          "field": "Neuroscience",
+          "gpa_band": "3.7-3.89",
+          "honors": [],
+          "in_progress": false,
+          "institution": "University of Pittsburgh",
+          "institution_tier": "T3"
+        },
+        {
+          "degree_level": "bachelor",
+          "end_year": 2022,
+          "field": "Biology (CS minor)",
+          "gpa_band": "3.5-3.69",
+          "honors": [
+            "Dean's List, 4 semesters"
+          ],
+          "in_progress": false,
+          "institution": "Pennsylvania State University",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 27,
+          "employment_type": "full_time",
+          "highlights": [
+            "Runs the two-photon analysis pipeline for ~40 TB/year across 6 projects",
+            "GPU rewrite cut per-session processing from ~11 h to 2.5 h",
+            "Trained 4 undergraduates; ~90 cranial window surgeries"
+          ],
+          "impact_scale": "team",
+          "org": "University of Pittsburgh, Department of Neurobiology",
+          "org_tier": "B",
+          "role": "Research Associate",
+          "role_selectivity": "modest",
+          "seniority": "research_assistant",
+          "years": "2024-present"
+        },
+        {
+          "duration_months": 23,
+          "employment_type": "part_time",
+          "highlights": [
+            "Thesis on motion correction over 120 sessions; recommendations adopted as lab standard",
+            "Built rig control software now used on 3 rigs"
+          ],
+          "impact_scale": "team",
+          "org": "University of Pittsburgh, Department of Neurobiology",
+          "org_tier": "B",
+          "role": "Graduate Research Assistant",
+          "role_selectivity": "modest",
+          "seniority": "research_assistant",
+          "years": "2022-2024"
+        },
+        {
+          "duration_months": 17,
+          "employment_type": "part_time",
+          "highlights": [
+            "Zebrafish behavior assays; acknowledged in the resulting paper"
+          ],
+          "impact_scale": "individual",
+          "org": "Pennsylvania State University, Department of Biology",
+          "org_tier": "B",
+          "role": "Undergraduate Research Assistant",
+          "role_selectivity": "modest",
+          "seniority": "research_assistant",
+          "years": "2021-2022"
+        }
+      ],
+      "headline": "Research associate in a T3 neuroscience lab after a master's; 2 middle-author papers at standard venues",
+      "leadership": [
+        "Trained four undergraduate assistants; two now run their own behavioral cohorts",
+        "Maintains the lab code repository and onboards new members"
+      ],
+      "notable": [
+        "First-author poster at the main neuroscience society meeting",
+        "Pipeline rewrite with a measured 4x speed-up adopted lab-wide"
+      ],
+      "projects": [
+        {
+          "descriptor": "GPU-accelerated two-photon preprocessing stage for a multi-project lab",
+          "highlight": "Per-session processing ~11 h to 2.5 h; manual QC step removed",
+          "kind": "research",
+          "scale_signal": "~40 TB/year, 6 projects",
+          "technical_depth": "substantial"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 2,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": [
+          "Journal of Neurophysiology",
+          "eNeuro"
+        ]
+      },
+      "skills_top": [
+        "Two-photon imaging analysis",
+        "Python",
+        "Suite2p",
+        "CaImAn",
+        "Cranial window surgery",
+        "Head-fixed behavior",
+        "Slurm",
+        "MATLAB"
+      ],
+      "top_signal": "2 mid-author pubs",
+      "years_fulltime": 2.3
+    },
+    "st": "early"
+  }
+}

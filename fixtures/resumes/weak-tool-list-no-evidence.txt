@@ -1,0 +1,53 @@
+[name]
+[email] | [phone] | Orlando, FL | [url]
+
+SUMMARY
+Recent Computer Science graduate with strong knowledge of modern programming languages, frameworks and cloud platforms. Fast learner, team player, and passionate about technology. Seeking a software developer position.
+
+TECHNICAL SKILLS
+Languages: Python, Java, C++, C#, JavaScript, TypeScript, Go
+Frameworks and libraries: React, Angular, Node.js, Express, Django, Flask, Spring Boot, .NET Core
+Cloud and DevOps: AWS, Azure, Google Cloud Platform, Docker, Kubernetes, Terraform, Jenkins, GitHub Actions
+Databases: MySQL, PostgreSQL, MongoDB, Redis, DynamoDB
+Other: Machine Learning, TensorFlow, PyTorch, REST APIs, Agile, Scrum, Microservices, CI/CD
+
+EDUCATION
+University of Central Florida — Orlando, FL
+Bachelor of Science in Computer Science, May 2026 | GPA 3.1
+Relevant courses: Data Structures, Algorithms, Operating Systems, Database Systems, Software Engineering, Computer Networks
+
+WORK EXPERIENCE
+
+IT Support Assistant (part-time), University of Central Florida, Office of Student Housing — Orlando, FL
+September 2025 – May 2026
+- Responded to help-desk tickets from residents and staff about Wi-Fi, printing and account access
+- Reset passwords and set up new staff laptops with the standard software image
+- Kept the inventory spreadsheet of loaner equipment up to date
+- Escalated hardware problems to the central IT department
+- Wrote short how-to guides for common printer and Wi-Fi problems that were posted in the residence halls
+
+Front Desk Associate, Lakeside Fitness — Orlando, FL
+June 2023 – August 2025
+- Checked in members, answered phone calls and scheduled personal training sessions
+- Processed membership sign-ups and payments in the club's point-of-sale system
+- Opened and closed the facility on weekend shifts
+- Gave tours of the gym to prospective members
+
+PROJECTS
+Senior Design Project: Campus Event Finder — Spring 2026
+- Team of four built a web application for finding student events on campus
+- Worked on the front end and the login page
+- Presented the project at the senior design showcase
+
+Personal Portfolio Website — 2025
+- Created a website to show my resume and projects
+- Deployed it on a free hosting service and update it when I finish a new course
+
+CERTIFICATIONS
+- AWS Certified Cloud Practitioner (2025)
+- Coursera: Machine Learning Specialization (2024)
+- Udemy: The Complete Web Developer Bootcamp (2023)
+
+ACTIVITIES
+Member, Association for Computing Machinery, UCF student chapter, 2024 – 2026
+Participant, Knight Hacks hackathon, 2024 and 2025

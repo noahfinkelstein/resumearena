@@ -1,0 +1,107 @@
+{
+  "budget": {
+    "analysis_usd": 0,
+    "daily_usd": 25,
+    "day": "2026-10-23",
+    "exhausted": false,
+    "hard_stopped": false,
+    "refine_spent_usd": 0,
+    "spent_usd": 0
+  },
+  "counts": {
+    "analyzed": 53,
+    "anchors": 48,
+    "deleted": 0,
+    "duplicate": 0,
+    "held": 4,
+    "matches": 1263,
+    "needs_review": 0,
+    "placing": 0,
+    "queued": 0,
+    "rated": 97,
+    "rejected": 2,
+    "resumes": 59,
+    "superseded": 0,
+    "users": 53
+  },
+  "deploy_pending": false,
+  "health": {
+    "alerts": [],
+    "cancelled_runs_24h": 0,
+    "dispatch_path_24h": 0,
+    "failed_runs_24h": 0,
+    "issue_path_24h": 0,
+    "judge_healthy": true,
+    "schedule_enabled": true,
+    "submissions_last_hour": 0,
+    "token_expires": "2027-10-01"
+  },
+  "last_deploy_requested_at": "2026-10-23T23:00:00Z",
+  "last_rerank": {
+    "at": "2026-10-22T23:00:00Z",
+    "changed": true,
+    "duration_s": 1,
+    "matches": 33,
+    "placements_completed": 0,
+    "run_id": 0,
+    "state": "ok",
+    "trigger": "fixtures",
+    "waves": 6
+  },
+  "last_submission_at": null,
+  "paused": false,
+  "per_category": {
+    "academia": {
+      "anchor_accuracy_7d": 0.9091,
+      "anchor_n_7d": 18,
+      "anchor_residual_7d": 0.1041,
+      "disagreement_rate_7d": 0.1563,
+      "mean": 1477,
+      "rated": 13,
+      "sd": 297
+    },
+    "finance": {
+      "anchor_accuracy_7d": 0.9091,
+      "anchor_n_7d": 17,
+      "anchor_residual_7d": 0.1552,
+      "disagreement_rate_7d": 0.1154,
+      "mean": 1409,
+      "rated": 11,
+      "sd": 365
+    },
+    "general": {
+      "anchor_accuracy_7d": 0.6364,
+      "anchor_n_7d": 30,
+      "anchor_residual_7d": 0.2586,
+      "disagreement_rate_7d": 0.2462,
+      "mean": 1342,
+      "rated": 53,
+      "sd": 315
+    },
+    "tech": {
+      "anchor_accuracy_7d": 0.8333,
+      "anchor_n_7d": 18,
+      "anchor_residual_7d": 0.0817,
+      "disagreement_rate_7d": 0.2051,
+      "mean": 1349,
+      "rated": 20,
+      "sd": 333
+    }
+  },
+  "queue": {
+    "analysis": 0,
+    "delete": 0,
+    "oldest_queued_at": null,
+    "placement": 0
+  },
+  "schema": 1,
+  "updated_at": "2026-10-23T23:00:00Z",
+  "versions": {
+    "analyst_prompt": "analyst.v1+6dbc77ff",
+    "engine": "0.1.0",
+    "gate_prompt": "gate.v1+5f7c9f15",
+    "judge_prompt": "judge.v1+c19f9a8e",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  }
+}

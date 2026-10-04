@@ -1,0 +1,100 @@
+{
+  "fv6bj7sbra": {
+    "card": {
+      "awards": [
+        {
+          "name": "Four-year state academic excellence scholarship",
+          "scope": "regional",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Honors program research apprenticeship",
+          "scope": "institutional",
+          "selectivity": "selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "student",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2027,
+          "field": "Political Science, Certificate in Public Policy",
+          "gpa_band": "3.7-3.89",
+          "honors": [
+            "Letters and Science Honors Program",
+            "Dean's List every semester",
+            "Four-year merit scholarship"
+          ],
+          "in_progress": true,
+          "institution": "University of Wisconsin–Madison",
+          "institution_tier": "T2"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 5,
+          "employment_type": "internship",
+          "highlights": [
+            "23 policy memos, 4 used in hearing preparation; briefing packets for 11 hearings",
+            "60+ constituent letters; ~400 contacts tracked; staffed 3 town halls of ~80",
+            "Peer-state research for a rural EMS funding bill introduced in April 2026"
+          ],
+          "impact_scale": "team",
+          "org": "Wisconsin State Senate, a senator's office",
+          "org_tier": "B",
+          "role": "Legislative Intern",
+          "role_selectivity": "selective",
+          "seniority": "intern",
+          "years": "2026"
+        },
+        {
+          "duration_months": 25,
+          "employment_type": "part_time",
+          "highlights": [
+            "Supervises 8-12 student staff per shift; trained 15 new attendants in 2025",
+            "Promoted from attendant to supervisor after one year"
+          ],
+          "impact_scale": "team",
+          "org": "University recreation department",
+          "org_tier": "C",
+          "role": "Student Facility Supervisor",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2024-present"
+        }
+      ],
+      "headline": "Political science junior at a T2 public university (3.7-3.89, honors); state senate intern; student-government chair",
+      "leadership": [
+        "Elected chair of a 9-member student-government committee; two resolutions passed and adopted by the university",
+        "Filled 92% of student seats on 40 university committees, up from 71%",
+        "Captain of a 28-player club ultimate team; $14,000 season budget; first regional qualification in four seasons"
+      ],
+      "notable": [
+        "Two student-government resolutions adopted by university offices (bus hours, syllabus deadline)",
+        "23 policy memos for a state senator in one session, 4 used in hearings",
+        "Honors thesis in progress on early-voting site placement, with a faculty research apprenticeship behind it"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Policy memo writing",
+        "Legislative research",
+        "Public speaking",
+        "Stata and R (introductory)",
+        "Excel",
+        "Google Workspace"
+      ],
+      "top_signal": "Legislative intern",
+      "years_fulltime": 0
+    },
+    "st": "student"
+  }
+}

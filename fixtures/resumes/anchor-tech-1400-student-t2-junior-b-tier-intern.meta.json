@@ -1,0 +1,32 @@
+{
+  "expect": {
+    "gate": "pass",
+    "status": "analyzed"
+  },
+  "group": "anchor",
+  "intended_anchor": 1400,
+  "intended_categories": [
+    "general",
+    "tech"
+  ],
+  "intended_stage": "student",
+  "metrics": {
+    "char_count": 2749,
+    "columns_detected": 1,
+    "extraction_quality": 0.96,
+    "font_count": 2,
+    "image_count": 0,
+    "pages": 1,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 2
+    },
+    "source": "pdf",
+    "word_count": 432
+  },
+  "slug": "anchor-tech-1400-student-t2-junior-b-tier-intern"
+}

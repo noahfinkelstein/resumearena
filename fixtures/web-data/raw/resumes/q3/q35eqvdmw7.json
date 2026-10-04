@@ -1,0 +1,703 @@
+{
+  "analysis": {
+    "analysis_confidence": 0.94,
+    "ats": {
+      "detected": {
+        "action_verb_ratio": 0.89,
+        "bullet_count": 18,
+        "bullet_marker_consistent": true,
+        "contact_at_top": true,
+        "date_format_consistent": true,
+        "date_formats_seen": [
+          "Month YYYY"
+        ],
+        "has_email": true,
+        "has_location": true,
+        "has_phone": true,
+        "has_profile_link": true,
+        "has_street_address": false,
+        "has_summary_section": false,
+        "nonstandard_headings": [],
+        "quantified_bullet_ratio": 0.72,
+        "reverse_chronological": true,
+        "section_order": [
+          "Education",
+          "Experience",
+          "Experience",
+          "Publications",
+          "Awards",
+          "Leadership",
+          "Skills"
+        ],
+        "skill_bars_or_ratings": false,
+        "standard_headings": [
+          "EDUCATION",
+          "RESEARCH EXPERIENCE",
+          "PUBLICATIONS",
+          "HONORS",
+          "SERVICE",
+          "SKILLS",
+          "TEACHING"
+        ],
+        "uses_tables_suspected": false
+      },
+      "factors": {
+        "consistency": {
+          "note": "Month YYYY throughout; every role dated; titles match",
+          "score": 100
+        },
+        "contact_info": {
+          "note": "City, email, phone and two profile links in the header",
+          "score": 100
+        },
+        "formatting": {
+          "note": "Standard headings, reverse-chronological, one bullet glyph, two fonts, numbered publications",
+          "score": 100
+        },
+        "keyword_alignment": {
+          "note": "Perception, manipulation, PyTorch, ROS 2, simulation, datasets and GPU infrastructure appear in bullets with outcomes; CUDA named only as basic",
+          "score": 92
+        },
+        "length": {
+          "note": "Two pages for a PhD student with five publications; organized with numbered publications and clear sections",
+          "score": 100
+        },
+        "parseability": {
+          "note": "Single column, clean text layer (0.95), standard headings, contact in the first two lines",
+          "score": 100
+        },
+        "quantification": {
+          "note": "13 of 18 bullets carry a number tied to an outcome (accuracy gains, success rates, downloads, trials)",
+          "score": 100
+        }
+      },
+      "fixes": [
+        {
+          "factor": "keyword_alignment",
+          "fix": "Either drop it or add the kernel or data-loader work that used it",
+          "issue": "CUDA is listed as basic and appears in no bullet",
+          "priority": "low"
+        },
+        {
+          "factor": "formatting",
+          "fix": "Label it \"Preprints / under review\" so a reader does not count it as accepted",
+          "issue": "The arXiv preprint is listed among publications without an \"under review\" tag in the heading",
+          "priority": "low"
+        },
+        {
+          "factor": "length",
+          "fix": "Move Teaching above Service so the chronology reads cleanly",
+          "issue": "Teaching section sits after Skills on page two",
+          "priority": "low"
+        }
+      ],
+      "score": 99,
+      "target_role_used": "Research scientist intern or PhD researcher, robot perception"
+    },
+    "awards": [
+      {
+        "issuer": "IEEE ICRA",
+        "name": "Best Student Paper finalist, ICRA",
+        "pool_estimate": "1 of 5 finalists among ~1,500 accepted papers",
+        "scope": "international",
+        "selectivity": "highly_selective",
+        "verifiable": true,
+        "year": 2025
+      },
+      {
+        "issuer": "University of Michigan",
+        "name": "Rackham Graduate Fellowship (first-year)",
+        "pool_estimate": "university first-year funding",
+        "scope": "institutional",
+        "selectivity": "selective",
+        "verifiable": true,
+        "year": 2023
+      },
+      {
+        "issuer": "Purdue College of Engineering",
+        "name": "Outstanding Senior in Computer Engineering",
+        "pool_estimate": "1 of ~200 graduating majors",
+        "scope": "institutional",
+        "selectivity": "selective",
+        "verifiable": true,
+        "year": 2023
+      }
+    ],
+    "card": {
+      "awards": [
+        {
+          "name": "Best Student Paper finalist, ICRA (1 of 5)",
+          "scope": "international",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "University first-year graduate fellowship",
+          "scope": "institutional",
+          "selectivity": "selective"
+        },
+        {
+          "name": "College of Engineering Outstanding Senior in Computer Engineering",
+          "scope": "institutional",
+          "selectivity": "selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "student",
+      "education": [
+        {
+          "degree_level": "phd",
+          "end_year": 2028,
+          "field": "Computer Science and Engineering (vision and robotics)",
+          "gpa_band": "3.9-3.99",
+          "honors": [],
+          "in_progress": true,
+          "institution": "University of Michigan",
+          "institution_tier": "T2"
+        },
+        {
+          "degree_level": "bachelor",
+          "end_year": 2023,
+          "field": "Computer Engineering",
+          "gpa_band": "3.7-3.89",
+          "honors": [
+            "with distinction",
+            "honors thesis",
+            "Outstanding Senior in Computer Engineering"
+          ],
+          "in_progress": false,
+          "institution": "Purdue University",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 38,
+          "employment_type": "fellowship",
+          "highlights": [
+            "Self-supervised 6-DoF pose method: +11 points over the prior best on a standard benchmark; first-author ICRA",
+            "Sim-to-real grasp affordances: 84% success on 40 unseen objects vs 67% baseline; first-author AAAI",
+            "Released a 210,000-frame RGB-D manipulation dataset; ~3,100 downloads, 9 citing papers in year one"
+          ],
+          "impact_scale": "team",
+          "org": "University of Michigan Robotics",
+          "org_tier": "A",
+          "role": "Graduate Research Assistant",
+          "role_selectivity": "highly_selective",
+          "seniority": "phd_student",
+          "years": "2023-present"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Depth-estimation error on reflective surfaces down 23% with a learned refinement step",
+            "Project became the AAAI submission; return offer for 2026"
+          ],
+          "impact_scale": "team",
+          "org": "Toyota Research Institute",
+          "org_tier": "B",
+          "role": "Research Intern, Robotics",
+          "role_selectivity": "selective",
+          "seniority": "intern",
+          "years": "2025"
+        },
+        {
+          "duration_months": 21,
+          "employment_type": "part_time",
+          "highlights": [
+            "Honors thesis on depth completion; built the lab's LiDAR-camera calibration tool"
+          ],
+          "impact_scale": "individual",
+          "org": "Purdue computer vision lab",
+          "org_tier": "B",
+          "role": "Undergraduate Research Assistant",
+          "role_selectivity": "selective",
+          "seniority": "research_assistant",
+          "years": "2021-2023"
+        }
+      ],
+      "headline": "Third-year robotics PhD student at a T2 university; first-author ICRA and AAAI papers; middle-author ICCV; dataset",
+      "leadership": [
+        "Co-mentors 2 undergraduate researchers; one is first author on a submitted workshop paper",
+        "Organizer of a robotics graduate student seminar, 2024-2025",
+        "Reviewer for ICRA, IROS and CVPR workshops"
+      ],
+      "notable": [
+        "Two first-author strong-venue papers by year three plus a middle-author top-venue paper",
+        "Best Student Paper finalist at ICRA 2025",
+        "Dataset with ~3,100 downloads and 9 citing papers in its first year",
+        "Industry research internship that produced a published paper and a return offer"
+      ],
+      "projects": [
+        {
+          "descriptor": "Open RGB-D manipulation dataset with 6-DoF annotations (210,000 frames)",
+          "highlight": "Data-collection and annotation pipeline, released with a workshop paper",
+          "kind": "research",
+          "scale_signal": "~3,100 downloads; 9 citing papers",
+          "technical_depth": "substantial"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 5,
+        "first_author_count": 3,
+        "strong_venue_count": 2,
+        "top_venue_count": 1,
+        "venues": [
+          "ICRA",
+          "AAAI",
+          "ICCV",
+          "CVPR Workshop",
+          "arXiv"
+        ]
+      },
+      "skills_top": [
+        "PyTorch",
+        "Python",
+        "C++",
+        "ROS 2",
+        "Isaac Sim",
+        "MuJoCo",
+        "Open3D",
+        "CUDA (basic)",
+        "Docker",
+        "Linux cluster administration",
+        "3D perception",
+        "sim-to-real transfer"
+      ],
+      "top_signal": "First-author ICRA",
+      "years_fulltime": 0
+    },
+    "category_relevance": {
+      "academia": 1,
+      "finance": 0,
+      "general": 1,
+      "tech": 0.65
+    },
+    "education": [
+      {
+        "degree_level": "phd",
+        "end_year": 2028,
+        "field": "Computer Science and Engineering (computer vision and robotics)",
+        "gpa": 3.9,
+        "gpa_band": "3.9-3.99",
+        "gpa_scale": 4,
+        "honors": [],
+        "in_progress": true,
+        "institution": "University of Michigan",
+        "institution_tier": "T2",
+        "notes": "Third year; qualifying exam passed May 2025; research on self-supervised 3D perception for manipulation",
+        "start_year": 2023
+      },
+      {
+        "degree_level": "bachelor",
+        "end_year": 2023,
+        "field": "Computer Engineering",
+        "gpa": 3.78,
+        "gpa_band": "3.7-3.89",
+        "gpa_scale": 4,
+        "honors": [
+          "with distinction",
+          "honors thesis",
+          "College of Engineering Outstanding Senior in Computer Engineering"
+        ],
+        "in_progress": false,
+        "institution": "Purdue University",
+        "institution_tier": "T3",
+        "notes": "",
+        "start_year": 2019
+      }
+    ],
+    "experiences": [
+      {
+        "bullets_condensed": [
+          "Self-supervised 6-DoF object pose from RGB-D video: +11 points over prior best; first-author ICRA 2025",
+          "Learned grasp affordances, sim-to-real: 84% success on 40 unseen objects vs 67%; first-author AAAI 2026",
+          "Released a 210,000-frame RGB-D manipulation dataset: ~3,100 downloads, 9 citing papers in year one",
+          "~1,400 physical grasp trials over 6 weeks; maintains a 12-GPU cluster used by 9 students"
+        ],
+        "duration_months": 38,
+        "employment_type": "fellowship",
+        "end": "present",
+        "impact_scale": "team",
+        "is_current": true,
+        "org": "University of Michigan",
+        "org_tier": "A",
+        "org_type": "university",
+        "ownership": "led",
+        "quantified_impact": true,
+        "role": "Graduate Research Assistant",
+        "role_selectivity": "highly_selective",
+        "seniority": "phd_student",
+        "start": "2023-08",
+        "team_or_division": "Robotics"
+      },
+      {
+        "bullets_condensed": [
+          "Depth-estimation error on reflective surfaces reduced 23% with a learned refinement step",
+          "Project led to the AAAI 2026 submission; return internship offered for 2026"
+        ],
+        "duration_months": 3,
+        "employment_type": "internship",
+        "end": "2025-08",
+        "impact_scale": "team",
+        "is_current": false,
+        "org": "Toyota Research Institute",
+        "org_tier": "B",
+        "org_type": "research_lab",
+        "ownership": "owned_component",
+        "quantified_impact": true,
+        "role": "Research Intern",
+        "role_selectivity": "selective",
+        "seniority": "intern",
+        "start": "2025-05",
+        "team_or_division": "Robotics Division"
+      },
+      {
+        "bullets_condensed": [
+          "Honors thesis on sparse-to-dense depth completion; poster at the undergraduate research conference",
+          "Built the LiDAR-camera calibration tool used for two later data collections"
+        ],
+        "duration_months": 21,
+        "employment_type": "part_time",
+        "end": "2023-05",
+        "impact_scale": "individual",
+        "is_current": false,
+        "org": "Purdue University",
+        "org_tier": "B",
+        "org_type": "university",
+        "ownership": "owned_component",
+        "quantified_impact": false,
+        "role": "Undergraduate Research Assistant",
+        "role_selectivity": "selective",
+        "seniority": "research_assistant",
+        "start": "2021-08",
+        "team_or_division": "Computer Vision Lab"
+      },
+      {
+        "bullets_condensed": [
+          "~180 students; two discussion sections; wrote two programming assignments"
+        ],
+        "duration_months": 4,
+        "employment_type": "part_time",
+        "end": "2025-04",
+        "impact_scale": "team",
+        "is_current": false,
+        "org": "University of Michigan",
+        "org_tier": "A",
+        "org_type": "university",
+        "ownership": "contributed",
+        "quantified_impact": false,
+        "role": "Graduate Student Instructor",
+        "role_selectivity": "modest",
+        "seniority": "other",
+        "start": "2025-01",
+        "team_or_division": "EECS 442 Computer Vision"
+      }
+    ],
+    "input": {
+      "is_resume": true,
+      "language": "en",
+      "parse_confidence": 0.95,
+      "placeholders_seen": [
+        "name",
+        "email",
+        "phone",
+        "url"
+      ],
+      "word_count_estimate": 590
+    },
+    "leadership": [
+      {
+        "budget_or_scale": "2 students",
+        "elected_or_appointed": "appointed",
+        "highlight": "One mentee is first author on a submitted workshop paper",
+        "org": "University of Michigan Robotics",
+        "people_led": 2,
+        "role": "Co-mentor of undergraduate researchers"
+      },
+      {
+        "budget_or_scale": "weekly seminar",
+        "elected_or_appointed": "self_declared",
+        "highlight": "Organized the graduate student seminar, 2024-2025",
+        "org": "Michigan Robotics graduate student seminar",
+        "people_led": null,
+        "role": "Organizer"
+      }
+    ],
+    "projects": [
+      {
+        "description_condensed": "210,000 frames with 6-DoF annotations; data-collection and annotation pipeline; released with a CVPR workshop paper; ~3,100 downloads and 9 citing papers in the first year",
+        "has_external_validation": true,
+        "kind": "research",
+        "name": "RGB-D manipulation dataset",
+        "quantified_impact": true,
+        "scale_signal": "~3,100 downloads; 9 citing papers",
+        "technical_depth": "substantial"
+      }
+    ],
+    "publications": [
+      {
+        "author_count": 4,
+        "author_position": "first",
+        "citations_claimed": null,
+        "field": "robot perception",
+        "kind": "conference",
+        "venue": "ICRA",
+        "venue_tier": "strong",
+        "year": 2025
+      },
+      {
+        "author_count": 5,
+        "author_position": "first",
+        "citations_claimed": null,
+        "field": "robot manipulation",
+        "kind": "conference",
+        "venue": "AAAI",
+        "venue_tier": "strong",
+        "year": 2026
+      },
+      {
+        "author_count": 7,
+        "author_position": "middle",
+        "citations_claimed": null,
+        "field": "language-conditioned manipulation",
+        "kind": "conference",
+        "venue": "ICCV",
+        "venue_tier": "top",
+        "year": 2025
+      },
+      {
+        "author_count": 3,
+        "author_position": "second",
+        "citations_claimed": null,
+        "field": "manipulation dataset",
+        "kind": "workshop",
+        "venue": "CVPR Workshop on Embodied AI",
+        "venue_tier": "workshop",
+        "year": 2024
+      },
+      {
+        "author_count": null,
+        "author_position": "first",
+        "citations_claimed": null,
+        "field": "cross-embodiment affordance transfer",
+        "kind": "preprint",
+        "venue": "arXiv",
+        "venue_tier": "preprint",
+        "year": 2026
+      }
+    ],
+    "red_flags": [],
+    "residual_pii": {
+      "email_count": 0,
+      "name_suspected": false,
+      "other_identifiers": [],
+      "phone_count": 0,
+      "street_address_suspected": false,
+      "url_count": 0
+    },
+    "schema_version": "1.1",
+    "scores": {
+      "academia": {
+        "holistic_score": 72,
+        "included": true,
+        "rationale": "On track for a third-year PhD student and slightly ahead: two first-author strong-venue papers (ICRA, AAAI), a middle-author ICCV paper, a best-student-paper finalist, a dataset with 9 citing papers. No top-venue first-author paper and no national fellowship yet.",
+        "stage_relative_score": 73,
+        "sub_scores": {
+          "breadth": 60,
+          "impact": 62,
+          "pedigree": 68,
+          "selectivity": 66,
+          "trajectory": 70
+        },
+        "top_evidence": [
+          "First-author ICRA 2025 (Best Student Paper finalist) and AAAI 2026",
+          "Middle author on an ICCV 2025 paper",
+          "210,000-frame dataset: ~3,100 downloads, 9 citing papers"
+        ]
+      },
+      "finance": {
+        "holistic_score": 10,
+        "included": false,
+        "rationale": "No finance footprint.",
+        "stage_relative_score": 10,
+        "sub_scores": {
+          "breadth": 10,
+          "impact": 10,
+          "pedigree": 40,
+          "selectivity": 30,
+          "trajectory": 50
+        },
+        "top_evidence": []
+      },
+      "general": {
+        "holistic_score": 69,
+        "included": true,
+        "rationale": "T2 PhD program at year three with two first-author strong-venue papers, a middle-author top-venue paper, a best-student-paper finalist slot, a released dataset with uptake, an industry internship that converted to a paper, and mentoring with output.",
+        "stage_relative_score": 70,
+        "sub_scores": {
+          "breadth": 60,
+          "impact": 56,
+          "pedigree": 66,
+          "selectivity": 62,
+          "trajectory": 66
+        },
+        "top_evidence": [
+          "First-author ICRA and AAAI papers by year three",
+          "Best Student Paper finalist, ICRA 2025 (1 of 5)",
+          "Dataset with ~3,100 downloads and 9 citing papers"
+        ]
+      },
+      "tech": {
+        "holistic_score": 66,
+        "included": true,
+        "rationale": "Applied ML and robotics systems work with measured results (84% vs 67% grasp success, +11 benchmark points), a B-tier industry research internship with a return offer. No software-engineering role or shipped product; strength is research engineering.",
+        "stage_relative_score": 68,
+        "sub_scores": {
+          "breadth": 58,
+          "impact": 55,
+          "pedigree": 62,
+          "selectivity": 60,
+          "trajectory": 65
+        },
+        "top_evidence": [
+          "Grasp success 84% vs 67% on 40 unseen objects, sim-to-real",
+          "Toyota Research Institute internship: 23% depth-error reduction, return offer",
+          "Maintains a 12-GPU training cluster used by 9 students"
+        ]
+      }
+    },
+    "signals": {
+      "career_stage": "student",
+      "has_quantified_impact": true,
+      "highest_institution_tier": "T2",
+      "highest_org_tier": "B",
+      "max_impact_scale": "team",
+      "months_internship": 3,
+      "primary_domain": "academia",
+      "sustained_org_tier": "unknown",
+      "top_role_selectivity": "highly_selective",
+      "trajectory": "accelerating",
+      "years_fulltime": 0
+    },
+    "skills": {
+      "certifications": [],
+      "domain": [
+        "3D perception",
+        "self-supervised learning",
+        "manipulation",
+        "sim-to-real transfer"
+      ],
+      "keyword_stuffing_suspected": false,
+      "spoken_languages": [],
+      "technical": [
+        "Python",
+        "PyTorch",
+        "C++",
+        "ROS 2",
+        "CUDA (basic)",
+        "Isaac Sim",
+        "MuJoCo",
+        "Open3D",
+        "Docker",
+        "Linux cluster administration"
+      ]
+    },
+    "strengths": [
+      "Two first-author strong-venue papers (ICRA 2025, AAAI 2026) by the third year, one a Best Student Paper finalist",
+      "Results are measured: +11 benchmark points, 84% vs 67% grasp success on 40 unseen objects, 23% depth-error reduction",
+      "Released dataset with ~3,100 downloads and 9 citing papers in its first year",
+      "Industry research internship produced a published paper and a return offer",
+      "Mentoring with output: a co-mentored undergraduate is first author on a submitted paper"
+    ],
+    "verdict": "A third-year PhD record slightly ahead of schedule: two first-author strong-venue papers and a used dataset; no top-venue first-author paper yet.",
+    "weaknesses": [
+      "No first-author top-venue paper yet; the ICCV paper is fourth of seven authors",
+      "No national fellowship (NSF GRFP or equivalent); funding is a first-year university fellowship",
+      "Undergraduate degree is T3, which matters less at the PhD stage but is visible",
+      "The preprint is counted among publications without an under-review label"
+    ]
+  },
+  "card_sha256": "ad163cbfa3029efb48013cfec9d381a147eb4fa472a4b2cc091af0798939f032",
+  "category_relevance": {
+    "academia": 1,
+    "finance": 0,
+    "general": 1,
+    "tech": 0.65
+  },
+  "created_at": "2026-10-03T12:24:00Z",
+  "deleted_at": null,
+  "duplicate_of": null,
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+5f7c9f15",
+    "verdict": {
+      "estimated_career_stage": "student",
+      "is_resume": true,
+      "language": "en",
+      "prompt_injection_detected": false,
+      "reason": "Résumé with dated roles and education.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "academia-1500-studen",
+  "held_reason": null,
+  "id": "q35eqvdmw7",
+  "kind": "user",
+  "metrics": {
+    "char_count": 3970,
+    "columns_detected": 1,
+    "extraction_quality": 0.95,
+    "font_count": 2,
+    "image_count": 0,
+    "pages": 2,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 2
+    },
+    "source": "pdf",
+    "word_count": 591
+  },
+  "owner_hash": "8a38ddc4cf436c5d18969c6415cdd5aaa448b90aea5d494c64e0179fc0f35298",
+  "primary": "academia",
+  "rejected_reason": null,
+  "schema": 1,
+  "scores": {
+    "academia": 70,
+    "general": 67,
+    "tech": 65
+  },
+  "source": {
+    "client_version": "fixtures",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 1
+  },
+  "stage": "student",
+  "status": "analyzed",
+  "superseded_by": null,
+  "supersedes": null,
+  "text": "[name]\nAnn Arbor, MI | [email] | [phone] | [url] | [url]\n\nEDUCATION\nUniversity of Michigan — Ann Arbor, MI\nPh.D. in Computer Science and Engineering (computer vision and robotics), expected 2028; third year\nAdviser: faculty member in the robotics institute; research on self-supervised 3D perception for mobile manipulation\nCoursework: Computer Vision, Probabilistic Robotics, Advanced Machine Learning, Convex Optimization; GPA 3.9\n\nPurdue University — West Lafayette, IN\nB.S. in Computer Engineering, May 2023 | GPA 3.78, with distinction\nUndergraduate research in the computer vision lab (two years); honors thesis on depth completion for LiDAR\n\nRESEARCH EXPERIENCE\nGraduate Research Assistant, University of Michigan Robotics | August 2023 – Present\n- Developed a self-supervised method for 3D object pose estimation from RGB-D sequences that improved pose accuracy by 11 points over the prior best on a standard benchmark; first-author paper at ICRA 2025\n- Built a learned grasp-affordance model that transfers from simulation to a physical arm; 84% grasp success on 40 unseen household objects versus 67% for the baseline; first-author paper at AAAI 2026\n- Contributed the data-collection pipeline and the evaluation protocol to a lab paper on language-conditioned manipulation; fourth of seven authors, ICCV 2025\n- Released an RGB-D manipulation dataset of 210,000 frames with 6-DoF annotations; about 3,100 downloads and 9 citing papers in the first year\n- Co-mentor two undergraduate researchers; one is first author on a submitted workshop paper\n- Maintain the lab's shared training cluster (12 GPUs) and the experiment-tracking setup used by 9 students\n- Ran the real-robot evaluation campaign for the lab's manipulation work: about 1,400 physical grasp trials on two arms over 6 weeks, with a logging pipeline that reproduces every trial from recorded sensor data\n- Passed the qualifying examination in May 2025 with the thesis proposal on self-supervised 3D perception for manipulation\n\nResearch Intern, Toyota Research Institute, Robotics Division | May 2025 – August 2025\n- Worked on a perception module for a home-assistance robot; reduced depth-estimation error on reflective surfaces by 23% using a learned refinement step\n- Internship project led to the AAAI 2026 submission (joint with the Michigan lab); offered a return internship for 2026\n\nUndergraduate Research Assistant, Purdue Computer Vision Lab | August 2021 – May 2023\n- Honors thesis on sparse-to-dense depth completion; presented at the Purdue undergraduate research conference (poster)\n- Built the lab's LiDAR-camera calibration tool used for two subsequent data-collection efforts\n\nTEACHING\n- Graduate Student Instructor, EECS 442 Computer Vision, University of Michigan, Winter 2025 (about 180 students; ran two discussion sections and wrote two programming assignments)\n- Teaching assistant, ECE 264 Advanced C Programming, Purdue, Fall 2022\n\nPUBLICATIONS\n1. ICRA 2025 — first author (of 4) — self-supervised 6-DoF object pose estimation from RGB-D video\n2. AAAI 2026 — first author (of 5) — sim-to-real grasp affordances for unseen objects\n3. ICCV 2025 — fourth author (of 7) — language-conditioned mobile manipulation benchmark\n4. CVPR 2024 Workshop on Embodied AI — second author (of 3) — dataset paper for RGB-D manipulation\n5. arXiv 2026 — first author — preprint under review on cross-embodiment affordance transfer\n\nHONORS\n- Rackham Graduate Fellowship, University of Michigan, 2023 – 2024 (first-year funding)\n- Best Student Paper finalist, ICRA 2025 (one of 5 finalists)\n- Purdue College of Engineering Outstanding Senior in Computer Engineering, 2023\n\nSERVICE\n- Reviewer: ICRA 2026, IROS 2025, CVPR 2026 workshops\n- Organizer, Michigan Robotics graduate student seminar, 2024 – 2025\n\nSKILLS\nPython, PyTorch, C++, ROS 2, CUDA (basic), Isaac Sim, MuJoCo, Open3D, Docker, Linux cluster administration; 3D perception, self-supervised learning, manipulation, sim-to-real transfer",
+  "text_sha256": "04ff3c00fa91edd4fcaad81180524c95a8bfa0f7edd8fbeffe24fd3816a7a716",
+  "top_signal": "First-author ICRA",
+  "updated_at": "2026-10-03T12:24:00Z",
+  "usage": {
+    "analysis_usd": 0.17728,
+    "gate_usd": 0.0016,
+    "latency_ms": 1
+  },
+  "versions": {
+    "analyst_model": "claude-opus-5-5",
+    "analyst_prompt": "analyst.v1+6dbc77ff",
+    "fell_back": false,
+    "gate_prompt": "gate.v1+5f7c9f15",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "visibility": "handle"
+}

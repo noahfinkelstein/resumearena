@@ -1,0 +1,569 @@
+{
+  "analysis": {
+    "analysis_confidence": 0.86,
+    "ats": {
+      "detected": {
+        "action_verb_ratio": 0.86,
+        "bullet_count": 14,
+        "bullet_marker_consistent": true,
+        "contact_at_top": true,
+        "date_format_consistent": true,
+        "date_formats_seen": [
+          "MMM YYYY"
+        ],
+        "has_email": true,
+        "has_location": false,
+        "has_phone": true,
+        "has_profile_link": true,
+        "has_street_address": false,
+        "has_summary_section": true,
+        "nonstandard_headings": [],
+        "quantified_bullet_ratio": 0.64,
+        "reverse_chronological": true,
+        "section_order": [
+          "Summary",
+          "Experience",
+          "Education",
+          "Skills"
+        ],
+        "skill_bars_or_ratings": false,
+        "standard_headings": [
+          "Experience",
+          "Education",
+          "Skills"
+        ],
+        "uses_tables_suspected": false
+      },
+      "factors": {
+        "consistency": {
+          "note": "consistency read cleanly from the text.",
+          "score": 76
+        },
+        "contact_info": {
+          "note": "contact info read cleanly from the text.",
+          "score": 63
+        },
+        "formatting": {
+          "note": "formatting read cleanly from the text.",
+          "score": 51
+        },
+        "keyword_alignment": {
+          "note": "keyword alignment read cleanly from the text.",
+          "score": 64
+        },
+        "length": {
+          "note": "length read cleanly from the text.",
+          "score": 91
+        },
+        "parseability": {
+          "note": "parseability read cleanly from the text.",
+          "score": 62
+        },
+        "quantification": {
+          "note": "quantification read cleanly from the text.",
+          "score": 58
+        }
+      },
+      "fixes": [
+        {
+          "factor": "consistency",
+          "fix": "Use an end month or \"Present\" consistently.",
+          "issue": "Dates use \"Jan 2023 – present\"; two parsers read \"present\" as missing.",
+          "priority": "high"
+        },
+        {
+          "factor": "formatting",
+          "fix": "Export skills as plain lines, one group per line.",
+          "issue": "The skills section is a table.",
+          "priority": "medium"
+        },
+        {
+          "factor": "length",
+          "fix": "Cut the summary to one line with the strongest number.",
+          "issue": "The summary paragraph repeats the bullets.",
+          "priority": "low"
+        }
+      ],
+      "score": 64,
+      "target_role_used": "Software engineer, mid-career"
+    },
+    "awards": [
+      {
+        "issuer": null,
+        "name": "USACO Platinum division",
+        "pool_estimate": "unknown pool",
+        "scope": "national",
+        "selectivity": "highly_selective",
+        "verifiable": true,
+        "year": null
+      },
+      {
+        "issuer": null,
+        "name": "ICPC Mid-Central regional, 2nd place",
+        "pool_estimate": "unknown pool",
+        "scope": "regional",
+        "selectivity": "highly_selective",
+        "verifiable": true,
+        "year": null
+      }
+    ],
+    "card": {
+      "awards": [
+        {
+          "name": "USACO Platinum division",
+          "scope": "national",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "ICPC Mid-Central regional, 2nd place",
+          "scope": "regional",
+          "selectivity": "highly_selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "new_grad",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2026,
+          "field": "Computer Science",
+          "gpa_band": "3.9-3.99",
+          "honors": [
+            "Bronze Tablet (top 3% of college)",
+            "James Scholar"
+          ],
+          "in_progress": false,
+          "institution": "University of Illinois Urbana-Champaign",
+          "institution_tier": "T1"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 5,
+          "employment_type": "full_time",
+          "highlights": [
+            "Shipped a webhook retry scheduler used by ~20k merchants within the first quarter"
+          ],
+          "impact_scale": "team",
+          "org": "Stripe",
+          "org_tier": "A",
+          "role": "Software Engineer",
+          "role_selectivity": "selective",
+          "seniority": "new_grad",
+          "years": "2026-present"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Reduced build time for a core serving binary by 22%"
+          ],
+          "impact_scale": "team",
+          "org": "Google",
+          "org_tier": "A",
+          "role": "Software Engineering Intern",
+          "role_selectivity": "selective",
+          "seniority": "intern",
+          "years": "2025-2025"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Built an internal dashboard for flag-rollout health"
+          ],
+          "impact_scale": "team",
+          "org": "Google",
+          "org_tier": "A",
+          "role": "STEP Intern",
+          "role_selectivity": "selective",
+          "seniority": "intern",
+          "years": "2024-2024"
+        }
+      ],
+      "headline": "New-grad engineer at an A-tier payments company; T1 CS degree; two Google internships; USACO Platinum",
+      "leadership": [
+        "Course assistant, data structures (400 students, 2 semesters)"
+      ],
+      "notable": [
+        "Two Google internships before graduation",
+        "Rust crate with ~2k stars and ~40k monthly downloads"
+      ],
+      "projects": [
+        {
+          "descriptor": "Open-source Rust rate-limiter crate",
+          "highlight": "Lock-free token bucket; adopted by two notable OSS projects",
+          "kind": "software",
+          "scale_signal": "~2k stars, ~40k monthly downloads",
+          "technical_depth": "substantial"
+        },
+        {
+          "descriptor": "Course project: toy OS kernel with paging and a scheduler",
+          "highlight": "Top grade in the systems course",
+          "kind": "software",
+          "scale_signal": "none stated",
+          "technical_depth": "substantial"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Rust",
+        "C++",
+        "Go",
+        "Java",
+        "Distributed systems",
+        "Linux",
+        "Bazel",
+        "Kubernetes"
+      ],
+      "top_signal": "USACO Platinum",
+      "years_fulltime": 0.5
+    },
+    "category_relevance": {
+      "academia": 0.05,
+      "finance": 0.1,
+      "general": 1,
+      "tech": 0.82
+    },
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2026,
+        "field": "Computer Science",
+        "gpa": null,
+        "gpa_band": "3.9-3.99",
+        "gpa_scale": null,
+        "honors": [
+          "Bronze Tablet (top 3% of college)",
+          "James Scholar"
+        ],
+        "in_progress": false,
+        "institution": "University of Illinois Urbana-Champaign",
+        "institution_tier": "T1",
+        "notes": "",
+        "start_year": 2022
+      }
+    ],
+    "experiences": [
+      {
+        "bullets_condensed": [
+          "Shipped a webhook retry scheduler used by ~20k merchants within the first quarter"
+        ],
+        "duration_months": 5,
+        "employment_type": "full_time",
+        "end": "present",
+        "impact_scale": "team",
+        "is_current": true,
+        "org": "Stripe",
+        "org_tier": "A",
+        "org_type": "private_company",
+        "ownership": "owned_component",
+        "quantified_impact": true,
+        "role": "Software Engineer",
+        "role_selectivity": "selective",
+        "seniority": "new_grad",
+        "start": "2026",
+        "team_or_division": null
+      },
+      {
+        "bullets_condensed": [
+          "Reduced build time for a core serving binary by 22%"
+        ],
+        "duration_months": 3,
+        "employment_type": "internship",
+        "end": "2025",
+        "impact_scale": "team",
+        "is_current": false,
+        "org": "Google",
+        "org_tier": "A",
+        "org_type": "private_company",
+        "ownership": "owned_component",
+        "quantified_impact": true,
+        "role": "Software Engineering Intern",
+        "role_selectivity": "selective",
+        "seniority": "intern",
+        "start": "2025",
+        "team_or_division": null
+      },
+      {
+        "bullets_condensed": [
+          "Built an internal dashboard for flag-rollout health"
+        ],
+        "duration_months": 3,
+        "employment_type": "internship",
+        "end": "2024",
+        "impact_scale": "team",
+        "is_current": false,
+        "org": "Google",
+        "org_tier": "A",
+        "org_type": "private_company",
+        "ownership": "owned_component",
+        "quantified_impact": false,
+        "role": "STEP Intern",
+        "role_selectivity": "selective",
+        "seniority": "intern",
+        "start": "2024",
+        "team_or_division": null
+      }
+    ],
+    "input": {
+      "is_resume": true,
+      "language": "en",
+      "parse_confidence": 0.94,
+      "placeholders_seen": [
+        "name",
+        "email",
+        "phone",
+        "url"
+      ],
+      "word_count_estimate": 620
+    },
+    "leadership": [
+      {
+        "budget_or_scale": "not stated",
+        "elected_or_appointed": "unknown",
+        "highlight": "Course assistant, data structures (400 students, 2 semesters)",
+        "org": "Course assistant, data structures (400 students, 2 semesters)",
+        "people_led": null,
+        "role": "lead"
+      }
+    ],
+    "projects": [
+      {
+        "description_condensed": "Lock-free token bucket; adopted by two notable OSS projects",
+        "has_external_validation": true,
+        "kind": "software",
+        "name": "Open-source Rust rate-limiter crate",
+        "quantified_impact": false,
+        "scale_signal": "~2k stars, ~40k monthly downloads",
+        "technical_depth": "substantial"
+      },
+      {
+        "description_condensed": "Top grade in the systems course",
+        "has_external_validation": false,
+        "kind": "software",
+        "name": "Course project: toy OS kernel with paging and a scheduler",
+        "quantified_impact": false,
+        "scale_signal": "none stated",
+        "technical_depth": "substantial"
+      }
+    ],
+    "publications": [],
+    "red_flags": [
+      {
+        "detail": "\"Industry-leading\" appears twice without a number behind it.",
+        "location": "Experience / summary line",
+        "severity": "medium",
+        "type": "unverifiable_superlative"
+      }
+    ],
+    "residual_pii": {
+      "email_count": 0,
+      "name_suspected": false,
+      "other_identifiers": [],
+      "phone_count": 0,
+      "street_address_suspected": false,
+      "url_count": 0
+    },
+    "schema_version": "1.1",
+    "scores": {
+      "academia": {
+        "holistic_score": 78,
+        "included": false,
+        "rationale": "New-grad engineer at an A-tier payments company; the academia weighting rewards the strongest lines on the card.",
+        "stage_relative_score": 75,
+        "sub_scores": {
+          "breadth": 56,
+          "impact": 74,
+          "pedigree": 61,
+          "selectivity": 75,
+          "trajectory": 72
+        },
+        "top_evidence": [
+          "Shipped a webhook retry scheduler used by ~20k merchants within the first quarter",
+          "Reduced build time for a core serving binary by 22%"
+        ]
+      },
+      "finance": {
+        "holistic_score": 86,
+        "included": false,
+        "rationale": "New-grad engineer at an A-tier payments company; the finance weighting rewards the strongest lines on the card.",
+        "stage_relative_score": 84,
+        "sub_scores": {
+          "breadth": 70,
+          "impact": 52,
+          "pedigree": 59,
+          "selectivity": 54,
+          "trajectory": 52
+        },
+        "top_evidence": [
+          "Shipped a webhook retry scheduler used by ~20k merchants within the first quarter",
+          "Reduced build time for a core serving binary by 22%"
+        ]
+      },
+      "general": {
+        "holistic_score": 82,
+        "included": true,
+        "rationale": "New-grad engineer at an A-tier payments company; the general weighting rewards the strongest lines on the card.",
+        "stage_relative_score": 90,
+        "sub_scores": {
+          "breadth": 81,
+          "impact": 82,
+          "pedigree": 93,
+          "selectivity": 82,
+          "trajectory": 81
+        },
+        "top_evidence": [
+          "Shipped a webhook retry scheduler used by ~20k merchants within the first quarter",
+          "Reduced build time for a core serving binary by 22%"
+        ]
+      },
+      "tech": {
+        "holistic_score": 93,
+        "included": true,
+        "rationale": "New-grad engineer at an A-tier payments company; the tech weighting rewards the strongest lines on the card.",
+        "stage_relative_score": 92,
+        "sub_scores": {
+          "breadth": 86,
+          "impact": 97,
+          "pedigree": 87,
+          "selectivity": 74,
+          "trajectory": 85
+        },
+        "top_evidence": [
+          "Shipped a webhook retry scheduler used by ~20k merchants within the first quarter",
+          "Reduced build time for a core serving binary by 22%"
+        ]
+      }
+    },
+    "signals": {
+      "career_stage": "new_grad",
+      "has_quantified_impact": true,
+      "highest_institution_tier": "T1",
+      "highest_org_tier": "A",
+      "max_impact_scale": "team",
+      "months_internship": 3,
+      "primary_domain": "other",
+      "sustained_org_tier": "A",
+      "top_role_selectivity": "selective",
+      "trajectory": "steady",
+      "years_fulltime": 0.5
+    },
+    "skills": {
+      "certifications": [],
+      "domain": [],
+      "keyword_stuffing_suspected": false,
+      "spoken_languages": [
+        "English"
+      ],
+      "technical": [
+        "Rust",
+        "C++",
+        "Go",
+        "Java",
+        "Distributed systems",
+        "Linux",
+        "Bazel",
+        "Kubernetes"
+      ]
+    },
+    "strengths": [
+      "Quantified results on 7 of 9 bullets",
+      "Two promotions in 4 years at the same employer",
+      "Owned a system with named scale (40k rps)"
+    ],
+    "verdict": "A strong mid-career infrastructure resume whose numbers do the work; the education line is the only soft spot.",
+    "weaknesses": [
+      "Education sits below the ladder median for this tier",
+      "No open-source or public work listed",
+      "Summary paragraph repeats the bullets"
+    ]
+  },
+  "card_sha256": "a587e29ca9ca52ba41f571a12a483faf4ee95a47b933b19191254790ebc91749",
+  "category_relevance": {
+    "academia": 0.05,
+    "finance": 0.1,
+    "general": 1,
+    "tech": 0.82
+  },
+  "created_at": "2026-09-21T14:20:11Z",
+  "deleted_at": null,
+  "duplicate_of": null,
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+1a2b3c4d",
+    "verdict": {
+      "estimated_career_stage": "new_grad",
+      "is_resume": true,
+      "language": "en",
+      "prompt_injection_detected": false,
+      "reason": "Two-page engineering résumé with dated roles.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "priya-n",
+  "held_reason": null,
+  "id": "k7q2m3xw5a",
+  "kind": "user",
+  "metrics": {
+    "char_count": 1003,
+    "columns_detected": 1,
+    "extraction_quality": 0.96,
+    "font_count": 3,
+    "image_count": 0,
+    "pages": 2,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 212
+  },
+  "owner_hash": "6296f3051d76cc9b18a8797de5406d35d2d4555306878acbb0d52723b2dedb75",
+  "primary": "tech",
+  "rejected_reason": null,
+  "schema": 1,
+  "scores": {
+    "general": 88,
+    "tech": 90
+  },
+  "source": {
+    "client_version": "mock.1",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 123456700
+  },
+  "stage": "new_grad",
+  "status": "analyzed",
+  "superseded_by": null,
+  "supersedes": null,
+  "text": "[name]\n[email] · [phone] · [url]\n\nSummary\nInfrastructure engineer with six years building and operating high-throughput services. Led the migration of a 40k rps edge service to a new runtime, cutting p99 latency by 38% and on-call pages by half.\n\nExperience\nSenior engineer, Acme Cloud, Jan 2022 – present\n· Led migration of a 40k rps service to a new runtime; p99 latency down 38%, infrastructure cost down 22%\n· Designed the capacity model used by four product teams; forecast error under 6% over 18 months\n· Promoted twice in four years; mentor to five engineers, two of whom were promoted\n\nEngineer, Northwind Fintech, Jun 2020 – Dec 2021\n· Built the reconciliation pipeline for 2.1M daily transactions with a measured 99.98% match rate\n· Cut nightly batch time from 6 hours to 70 minutes by rewriting the join strategy\n\nEducation\nBS Computer Science, Large State University, 2020\nDean's list, 2018 – 2020\n\nSkills\nGo, Rust, Kubernetes, Terraform, PostgreSQL, Kafka, observability, capacity planning\n",
+  "text_sha256": "81d76b0244c13fff1091652c4579a1268264aed36d9c9d08b4dcfb884b27b1d6",
+  "top_signal": "USACO Platinum",
+  "updated_at": "2026-09-21T14:22:51Z",
+  "usage": {
+    "analysis_usd": 0.188,
+    "gate_usd": 0.0046,
+    "latency_ms": 61230
+  },
+  "versions": {
+    "analyst_model": "claude-opus-5-5",
+    "analyst_prompt": "analyst.v1+9e8f7a6b",
+    "fell_back": false,
+    "gate_prompt": "gate.v1+1a2b3c4d",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "visibility": "handle"
+}

@@ -1,0 +1,38 @@
+{
+  "m2lekeeycg": {
+    "c": {
+      "academia": 1,
+      "general": 1
+    },
+    "ch": "79c2e52d31aa5af76893a226e7297cdc6ff2319b4b5254002a1c08484a1af66c",
+    "h": "academia-1800-early",
+    "p": "academia",
+    "s": "analyzed",
+    "sc": {
+      "academia": 87,
+      "general": 83
+    },
+    "sig": "5 1st-author pubs",
+    "ss": {
+      "academia": [
+        78,
+        90,
+        88,
+        90,
+        40,
+        89
+      ],
+      "general": [
+        80,
+        88,
+        84,
+        88,
+        45,
+        86
+      ]
+    },
+    "st": "early",
+    "t": 1791030360,
+    "v": "anonymous"
+  }
+}

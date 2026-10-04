@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:14:00Z",
+  "handle": "finance-1500-mid-mm",
+  "key_exposed": false,
+  "owner_hash": "23e97274b47cfdc23f9b55eb8ce01fa60c660812e165b80af9c4e50202701784",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:14:00Z",
+      "current": true,
+      "id": "jz4cv4gtug"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

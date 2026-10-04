@@ -1,0 +1,38 @@
+{
+  "kjkdcdj5yr": {
+    "c": {
+      "finance": 0.9,
+      "general": 1
+    },
+    "ch": "e8afe5066f11bba25b98f8e5bae26a12dcfa76bb847a484ab6fa91fefbbc6036",
+    "h": "finance-1400-student",
+    "p": "finance",
+    "s": "analyzed",
+    "sc": {
+      "finance": 56,
+      "general": 54
+    },
+    "sig": "Big-4 TS intern",
+    "ss": {
+      "finance": [
+        62,
+        55,
+        40,
+        58,
+        40,
+        57
+      ],
+      "general": [
+        60,
+        55,
+        38,
+        55,
+        42,
+        56
+      ]
+    },
+    "st": "student",
+    "t": 1791029580,
+    "v": "handle"
+  }
+}

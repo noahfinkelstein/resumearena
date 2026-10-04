@@ -1,0 +1,465 @@
+{
+  "analysis_confidence": 0.92,
+  "ats": {
+    "detected": {
+      "action_verb_ratio": 0.8,
+      "bullet_count": 15,
+      "bullet_marker_consistent": true,
+      "contact_at_top": true,
+      "date_format_consistent": false,
+      "date_formats_seen": [
+        "MMM YYYY",
+        "YYYY"
+      ],
+      "has_email": true,
+      "has_location": true,
+      "has_phone": true,
+      "has_profile_link": true,
+      "has_street_address": false,
+      "has_summary_section": true,
+      "nonstandard_headings": [],
+      "quantified_bullet_ratio": 0.87,
+      "reverse_chronological": true,
+      "section_order": [
+        "Summary",
+        "Experience",
+        "Education",
+        "Skills"
+      ],
+      "skill_bars_or_ratings": false,
+      "standard_headings": [
+        "Professional Summary",
+        "Experience",
+        "Education",
+        "Certifications and Skills"
+      ],
+      "uses_tables_suspected": false
+    },
+    "factors": {
+      "consistency": {
+        "note": "Analyst and associate dates share one line; two deal-size ranges use a bare year range",
+        "score": 90
+      },
+      "contact_info": {
+        "note": "Email, phone, city and a profile link at the top",
+        "score": 100
+      },
+      "formatting": {
+        "note": "Consistent bullets; two sub-blocks under one role with a combined date line",
+        "score": 90
+      },
+      "keyword_alignment": {
+        "note": "Modeling, valuation, process management and diligence appear in bullets with deal context",
+        "score": 92
+      },
+      "length": {
+        "note": "One page for five years in banking",
+        "score": 100
+      },
+      "parseability": {
+        "note": "Single column, standard headings, contact placeholders in the first two lines",
+        "score": 100
+      },
+      "quantification": {
+        "note": "Nearly every bullet carries a deal size, count or measured outcome",
+        "score": 100
+      }
+    },
+    "fixes": [
+      {
+        "factor": "consistency",
+        "fix": "List Associate (Jul 2023 - Present) and Analyst (Jul 2020 - Jun 2023) as two entries with their own bullets.",
+        "issue": "Analyst and associate roles share one date line, so a parser sees one five-year role",
+        "priority": "medium"
+      },
+      {
+        "factor": "formatting",
+        "fix": "Lead each deal bullet with the role verb: \"Ran the data room and buyer process for the $640M sale of…\".",
+        "issue": "Deal bullets begin with a description rather than a verb",
+        "priority": "low"
+      },
+      {
+        "factor": "keyword_alignment",
+        "fix": "Attach VBA to the LBO-template bullet or drop it.",
+        "issue": "Excel VBA and Bloomberg appear only in the skills list",
+        "priority": "low"
+      }
+    ],
+    "score": 96,
+    "target_role_used": "Investment banking associate or private equity associate"
+  },
+  "awards": [
+    {
+      "issuer": "CFA Institute",
+      "name": "CFA Charter",
+      "pool_estimate": "three exams, ~40-50% pass rate each",
+      "scope": "international",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2024
+    },
+    {
+      "issuer": "Robert W. Baird & Co.",
+      "name": "Top-bucket associate ranking",
+      "pool_estimate": "top bucket of the associate class",
+      "scope": "company",
+      "selectivity": "selective",
+      "verifiable": false,
+      "year": 2024
+    }
+  ],
+  "card": {
+    "awards": [
+      {
+        "name": "CFA Charterholder",
+        "scope": "international",
+        "selectivity": "selective"
+      },
+      {
+        "name": "Top-bucket associate ranking",
+        "scope": "company",
+        "selectivity": "selective"
+      }
+    ],
+    "card_version": "1.0",
+    "career_stage": "mid",
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2020,
+        "field": "Finance, Investment and Banking",
+        "gpa_band": "3.5-3.69",
+        "honors": [],
+        "in_progress": false,
+        "institution": "University of Wisconsin–Madison",
+        "institution_tier": "T3"
+      }
+    ],
+    "experiences": [
+      {
+        "duration_months": 28,
+        "employment_type": "full_time",
+        "highlights": [
+          "Day-to-day associate on a $640M sale: model, CIM, data room, 61-party buyer list",
+          "Manages 2 analysts; model-review checklist cut senior-review error findings from 6 to 2 per deal",
+          "Top-bucket associate 2024; two pitches converted into mandates in 2025"
+        ],
+        "impact_scale": "org",
+        "org": "Robert W. Baird & Co.",
+        "org_tier": "B",
+        "role": "Associate, Investment Banking (Industrial Technology)",
+        "role_selectivity": "selective",
+        "seniority": "associate",
+        "years": "2023-present"
+      },
+      {
+        "duration_months": 36,
+        "employment_type": "full_time",
+        "highlights": [
+          "Lead analyst on a $520M sell-side and a $220M recapitalization",
+          "Built the group LBO template; first-draft model time from 3 days to 1"
+        ],
+        "impact_scale": "org",
+        "org": "Robert W. Baird & Co.",
+        "org_tier": "B",
+        "role": "Analyst, Investment Banking",
+        "role_selectivity": "selective",
+        "seniority": "analyst",
+        "years": "2020-2023"
+      },
+      {
+        "duration_months": 3,
+        "employment_type": "internship",
+        "highlights": [
+          "Precedent transactions for an industrial distributor sale"
+        ],
+        "impact_scale": "team",
+        "org": "Robert W. Baird & Co.",
+        "org_tier": "B",
+        "role": "Summer Analyst, Investment Banking",
+        "role_selectivity": "selective",
+        "seniority": "intern",
+        "years": "2019-2019"
+      }
+    ],
+    "headline": "Investment banking associate, 5 years at a B-tier middle-market bank; 10 closed deals, ~$3B aggregate; CFA charterholder",
+    "leadership": [
+      "Manages two first-year analysts; both top-half in the 2025 review",
+      "Vice president of a university investment banking club"
+    ],
+    "notable": [
+      "Ten closed transactions with named roles, about $3B aggregate",
+      "CFA charter earned while in banking",
+      "Analyst-to-associate promotion at the same bank with a top-bucket ranking"
+    ],
+    "projects": [],
+    "publications_summary": {
+      "citation_signal": "not stated",
+      "count_total": 0,
+      "first_author_count": 0,
+      "strong_venue_count": 0,
+      "top_venue_count": 0,
+      "venues": []
+    },
+    "skills_top": [
+      "LBO modeling",
+      "Merger modeling",
+      "DCF valuation",
+      "Sell-side process management",
+      "Due diligence coordination",
+      "Capital IQ",
+      "FactSet",
+      "Excel VBA"
+    ],
+    "top_signal": "10 deals, ~$3B",
+    "years_fulltime": 5.3
+  },
+  "category_relevance": {
+    "academia": 0.02,
+    "finance": 1,
+    "general": 1,
+    "tech": 0.05
+  },
+  "education": [
+    {
+      "degree_level": "bachelor",
+      "end_year": 2020,
+      "field": "Finance, Investment and Banking",
+      "gpa": 3.7,
+      "gpa_band": "3.5-3.69",
+      "gpa_scale": 4,
+      "honors": [],
+      "in_progress": false,
+      "institution": "University of Wisconsin–Madison, Wisconsin School of Business",
+      "institution_tier": "T3",
+      "notes": "Investment Banking Club vice president",
+      "start_year": 2016
+    }
+  ],
+  "experiences": [
+    {
+      "bullets_condensed": [
+        "$640M sale: operating model, CIM, data room, 61 buyers, 2 rounds",
+        "$410M buy-side: accretion/dilution, synergy case, board materials",
+        "Manages 2 analysts; review checklist cut model-error findings 6 to 2 per deal",
+        "Top-bucket associate 2024; 2 pitches converted to mandates 2025"
+      ],
+      "duration_months": 28,
+      "employment_type": "full_time",
+      "end": "present",
+      "impact_scale": "org",
+      "is_current": true,
+      "org": "Robert W. Baird & Co.",
+      "org_tier": "B",
+      "org_type": "bank",
+      "ownership": "owned_component",
+      "quantified_impact": true,
+      "role": "Associate",
+      "role_selectivity": "selective",
+      "seniority": "associate",
+      "start": "2023-07",
+      "team_or_division": "Investment Banking, Industrial Technology"
+    },
+    {
+      "bullets_condensed": [
+        "Lead analyst: $520M sell-side, $220M minority recap, $300M follow-on",
+        "Built the group LBO template; model build 3 days to 1",
+        "Analyst on 4 further sell-sides of $90M-$180M"
+      ],
+      "duration_months": 36,
+      "employment_type": "full_time",
+      "end": "2023-06",
+      "impact_scale": "org",
+      "is_current": false,
+      "org": "Robert W. Baird & Co.",
+      "org_tier": "B",
+      "org_type": "bank",
+      "ownership": "owned_component",
+      "quantified_impact": true,
+      "role": "Analyst",
+      "role_selectivity": "selective",
+      "seniority": "analyst",
+      "start": "2020-07",
+      "team_or_division": "Investment Banking, Industrial Technology"
+    },
+    {
+      "bullets_condensed": [
+        "Precedent transactions analysis for an industrial distributor sell-side"
+      ],
+      "duration_months": 3,
+      "employment_type": "internship",
+      "end": "2019-08",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "Robert W. Baird & Co.",
+      "org_tier": "B",
+      "org_type": "bank",
+      "ownership": "supported",
+      "quantified_impact": false,
+      "role": "Summer Analyst",
+      "role_selectivity": "selective",
+      "seniority": "intern",
+      "start": "2019-06",
+      "team_or_division": "Investment Banking"
+    }
+  ],
+  "input": {
+    "is_resume": true,
+    "language": "en",
+    "parse_confidence": 0.97,
+    "placeholders_seen": [
+      "name",
+      "email",
+      "phone",
+      "url"
+    ],
+    "word_count_estimate": 622
+  },
+  "leadership": [
+    {
+      "budget_or_scale": "2 analysts; 12-person deal team uses the review checklist",
+      "elected_or_appointed": "appointed",
+      "highlight": "Both analysts top-half in the 2025 review; checklist adopted team-wide",
+      "org": "Robert W. Baird & Co.",
+      "people_led": 2,
+      "role": "Associate managing two analysts"
+    },
+    {
+      "budget_or_scale": "not stated",
+      "elected_or_appointed": "elected",
+      "highlight": "Club officer in the final year",
+      "org": "Investment Banking Club, UW-Madison",
+      "people_led": null,
+      "role": "Vice President"
+    }
+  ],
+  "projects": [],
+  "publications": [],
+  "red_flags": [],
+  "residual_pii": {
+    "email_count": 0,
+    "name_suspected": false,
+    "other_identifiers": [],
+    "phone_count": 0,
+    "street_address_suspected": false,
+    "url_count": 0
+  },
+  "schema_version": "1.1",
+  "scores": {
+    "academia": {
+      "holistic_score": 5,
+      "included": false,
+      "rationale": "No research output.",
+      "stage_relative_score": 5,
+      "sub_scores": {
+        "breadth": 5,
+        "impact": 5,
+        "pedigree": 30,
+        "selectivity": 15,
+        "trajectory": 20
+      },
+      "top_evidence": []
+    },
+    "finance": {
+      "holistic_score": 64,
+      "included": true,
+      "rationale": "Quantified deal list with named roles at a B-tier bank, on-schedule promotion, CFA charter and management of two analysts; the platform is middle-market and the school a state flagship.",
+      "stage_relative_score": 73,
+      "sub_scores": {
+        "breadth": 30,
+        "impact": 68,
+        "pedigree": 55,
+        "selectivity": 58,
+        "trajectory": 64
+      },
+      "top_evidence": [
+        "$640M sale as day-to-day associate; 61-party process",
+        "Ten closed deals, ~$3B; lead analyst on $520M and $220M",
+        "CFA charter 2024; top-bucket associate"
+      ]
+    },
+    "general": {
+      "holistic_score": 63,
+      "included": true,
+      "rationale": "Five years at a B-tier middle-market bank with analyst-to-associate promotion, ten closed deals with sizes and named roles, CFA charter; state-flagship degree; no S/A-tier selection.",
+      "stage_relative_score": 70,
+      "sub_scores": {
+        "breadth": 35,
+        "impact": 66,
+        "pedigree": 58,
+        "selectivity": 60,
+        "trajectory": 62
+      },
+      "top_evidence": [
+        "Ten closed transactions, ~$3B aggregate, roles named",
+        "CFA charterholder; top-bucket associate 2024",
+        "Model-review checklist cut error findings 6 to 2 per deal"
+      ]
+    },
+    "tech": {
+      "holistic_score": 10,
+      "included": false,
+      "rationale": "No technical footprint; sector coverage is industrial technology.",
+      "stage_relative_score": 8,
+      "sub_scores": {
+        "breadth": 10,
+        "impact": 15,
+        "pedigree": 30,
+        "selectivity": 20,
+        "trajectory": 25
+      },
+      "top_evidence": []
+    }
+  },
+  "signals": {
+    "career_stage": "mid",
+    "has_quantified_impact": true,
+    "highest_institution_tier": "T3",
+    "highest_org_tier": "B",
+    "max_impact_scale": "org",
+    "months_internship": 3,
+    "primary_domain": "finance",
+    "sustained_org_tier": "B",
+    "top_role_selectivity": "selective",
+    "trajectory": "steady",
+    "years_fulltime": 5.3
+  },
+  "skills": {
+    "certifications": [
+      "CFA Charterholder",
+      "FINRA Series 79",
+      "FINRA Series 63"
+    ],
+    "domain": [
+      "LBO modeling",
+      "Merger modeling",
+      "DCF valuation",
+      "Operating models",
+      "Sell-side process management",
+      "Due diligence coordination",
+      "Industrial technology coverage"
+    ],
+    "keyword_stuffing_suspected": false,
+    "spoken_languages": [],
+    "technical": [
+      "Excel VBA",
+      "Capital IQ",
+      "FactSet",
+      "Bloomberg",
+      "PowerPoint"
+    ]
+  },
+  "strengths": [
+    "Ten closed transactions listed with sizes and the specific role on each",
+    "Promotion to associate on schedule with a top-bucket ranking and two pitches converted to mandates",
+    "CFA charter completed while in banking",
+    "Process improvements with numbers: model errors 6 to 2 per deal, model build 3 days to 1"
+  ],
+  "verdict": "Five solid years of middle-market M&A with a quantified deal list and a CFA charter; the platform and school cap the record at the B tier.",
+  "weaknesses": [
+    "Entire career at one middle-market platform; no bulge-bracket, elite-boutique or buy-side selection",
+    "State-flagship degree with a 3.7 and no honors; pedigree is the ceiling here",
+    "Breadth is narrow: one sector group, one firm, no board or outside activity",
+    "The summary repeats facts the deal list already shows"
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "expect": {
+    "gate": "pass",
+    "status": "analyzed"
+  },
+  "group": "anchor",
+  "intended_anchor": 1500,
+  "intended_categories": [
+    "general"
+  ],
+  "intended_stage": "early",
+  "metrics": {
+    "char_count": 3534,
+    "columns_detected": 1,
+    "extraction_quality": 0.97,
+    "font_count": 2,
+    "image_count": 0,
+    "pages": 1,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 523
+  },
+  "slug": "anchor-general-1500-early-big4-consultant-eagle-scout"
+}

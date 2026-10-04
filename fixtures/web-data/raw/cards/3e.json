@@ -1,0 +1,111 @@
+{
+  "3eskfvqixj": {
+    "card": {
+      "awards": [],
+      "card_version": "1.0",
+      "career_stage": "early",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2023,
+          "field": "Computer Science",
+          "gpa_band": "3.0-3.49",
+          "honors": [],
+          "in_progress": false,
+          "institution": "Texas State University",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 20,
+          "employment_type": "founder",
+          "highlights": [
+            "Built the whole platform alone: Next.js, Node, PostgreSQL, Stripe (test mode), Twilio SMS",
+            "14 beta instructors, ~60 bookings a week, pre-revenue; 11 releases in 9 months",
+            "Uptime 99.6% over six months on a single-provider setup"
+          ],
+          "impact_scale": "individual",
+          "org": "Loopwise (bootstrapped, 2 people)",
+          "org_tier": "D",
+          "role": "Co-founder, CTO and Head of Engineering (sole engineer)",
+          "role_selectivity": "modest",
+          "seniority": "founder",
+          "years": "2025-present"
+        },
+        {
+          "duration_months": 12,
+          "employment_type": "full_time",
+          "highlights": [
+            "Delivered 9 client sites in React and WordPress",
+            "Booking widget for a three-clinic dental chain, still in use"
+          ],
+          "impact_scale": "team",
+          "org": "Pinecrest Digital",
+          "org_tier": "C",
+          "role": "Junior Software Engineer",
+          "role_selectivity": "modest",
+          "seniority": "junior",
+          "years": "2024-2025"
+        },
+        {
+          "duration_months": 5,
+          "employment_type": "part_time",
+          "highlights": [
+            "Weekly lab for 28 students"
+          ],
+          "impact_scale": "individual",
+          "org": "Texas State University",
+          "org_tier": "D",
+          "role": "Teaching Assistant, Web Development",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2023-2023"
+        }
+      ],
+      "headline": "Two years out of a T3 CS program; sole engineer at a two-person bootstrapped startup after one junior agency year",
+      "leadership": [],
+      "notable": [
+        "Built and operates a working beta product end to end as the only engineer"
+      ],
+      "projects": [
+        {
+          "descriptor": "Scheduling and SMS-reminder platform for fitness instructors (the startup product)",
+          "highlight": "Full stack built solo; payments not yet live",
+          "kind": "software",
+          "scale_signal": "14 beta users, ~60 bookings/week, ~9k lines",
+          "technical_depth": "standard"
+        },
+        {
+          "descriptor": "Senior-project grocery list mobile app",
+          "highlight": "React Native and Firebase",
+          "kind": "software",
+          "scale_signal": "~40 downloads",
+          "technical_depth": "tutorial"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "TypeScript",
+        "Next.js",
+        "Node.js",
+        "PostgreSQL",
+        "React",
+        "Stripe",
+        "Twilio",
+        "GitHub Actions",
+        "Docker"
+      ],
+      "top_signal": "Solo-eng startup",
+      "years_fulltime": 2.7
+    },
+    "st": "early"
+  }
+}

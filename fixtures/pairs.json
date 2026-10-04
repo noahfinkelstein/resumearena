@@ -1,0 +1,1202 @@
+[
+  {
+    "a": "anchor-academia-1100-new-grad-ms-thesis-no-pub",
+    "b": "anchor-general-2100-executive-founder-ipo-thiel",
+    "category": "general",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1300-student-honors-thesis-reu",
+    "b": "anchor-academia-1000-student-bio-lab-member",
+    "category": "general",
+    "label": "a"
+  },
+  {
+    "a": "anchor-academia-1300-student-honors-thesis-reu",
+    "b": "anchor-academia-1400-early-research-associate-standard-venue",
+    "category": "general",
+    "label": "close"
+  },
+  {
+    "a": "anchor-academia-1300-student-honors-thesis-reu",
+    "b": "anchor-general-1800-mid-army-captain-mbb-manager",
+    "category": "general",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1300-student-honors-thesis-reu",
+    "b": "anchor-tech-1100-new-grad-bootcamp-helpdesk",
+    "category": "general",
+    "label": "a"
+  },
+  {
+    "a": "anchor-academia-1600-mid-assistant-prof-t3-grfp-alum",
+    "b": "anchor-finance-1600-new-grad-bb-return-offer",
+    "category": "general",
+    "label": "close"
+  },
+  {
+    "a": "anchor-academia-1600-mid-assistant-prof-t3-grfp-alum",
+    "b": "anchor-finance-2100-senior-founding-partner-fund",
+    "category": "general",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1600-mid-assistant-prof-t3-grfp-alum",
+    "b": "anchor-general-1000-student-comms-barista",
+    "category": "general",
+    "label": "a"
+  },
+  {
+    "a": "anchor-academia-1800-early-postdoc-top-venue-fellowship",
+    "b": "anchor-academia-2000-student-undergrad-first-author-science",
+    "category": "general",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1800-early-postdoc-top-venue-fellowship",
+    "b": "anchor-finance-2100-senior-founding-partner-fund",
+    "category": "general",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1800-early-postdoc-top-venue-fellowship",
+    "b": "anchor-general-1800-mid-army-captain-mbb-manager",
+    "category": "general",
+    "label": "close"
+  },
+  {
+    "a": "anchor-academia-1900-senior-associate-prof-career-award",
+    "b": "anchor-academia-1300-student-honors-thesis-reu",
+    "category": "general",
+    "label": "a"
+  },
+  {
+    "a": "anchor-academia-1900-senior-associate-prof-career-award",
+    "b": "anchor-general-1100-new-grad-marketing-coordinator",
+    "category": "general",
+    "label": "a"
+  },
+  {
+    "a": "anchor-academia-1900-senior-associate-prof-career-award",
+    "b": "anchor-general-1400-student-t2-legislative-intern",
+    "category": "general",
+    "label": "a"
+  },
+  {
+    "a": "anchor-academia-2100-executive-full-prof-nas-member",
+    "b": "anchor-academia-2000-student-undergrad-first-author-science",
+    "category": "general",
+    "label": "close"
+  },
+  {
+    "a": "anchor-academia-2100-executive-full-prof-nas-member",
+    "b": "anchor-finance-1000-student-teller-club",
+    "category": "general",
+    "label": "a"
+  },
+  {
+    "a": "anchor-academia-2100-executive-full-prof-nas-member",
+    "b": "anchor-general-2000-senior-public-company-coo",
+    "category": "general",
+    "label": "close"
+  },
+  {
+    "a": "anchor-finance-1000-student-teller-club",
+    "b": "anchor-general-1500-early-big4-consultant-eagle-scout",
+    "category": "general",
+    "label": "b"
+  },
+  {
+    "a": "anchor-finance-1000-student-teller-club",
+    "b": "anchor-tech-1300-early-junior-dev-logistics",
+    "category": "general",
+    "label": "b"
+  },
+  {
+    "a": "anchor-finance-1000-student-teller-club",
+    "b": "anchor-tech-1600-early-t1-new-grad-a-tier",
+    "category": "general",
+    "label": "b"
+  },
+  {
+    "a": "anchor-finance-1100-new-grad-retail-bank-rotational",
+    "b": "anchor-finance-1000-student-teller-club",
+    "category": "general",
+    "label": "close"
+  },
+  {
+    "a": "anchor-finance-1300-early-fpa-analyst-f500",
+    "b": "anchor-finance-1900-early-megafund-associate",
+    "category": "general",
+    "label": "b"
+  },
+  {
+    "a": "anchor-finance-1300-early-fpa-analyst-f500",
+    "b": "anchor-finance-2000-mid-hedge-fund-pm-track",
+    "category": "general",
+    "label": "b"
+  },
+  {
+    "a": "anchor-finance-1300-early-fpa-analyst-f500",
+    "b": "anchor-general-2100-executive-founder-ipo-thiel",
+    "category": "general",
+    "label": "b"
+  },
+  {
+    "a": "anchor-finance-1400-student-big4-ts-student-fund",
+    "b": "anchor-finance-1000-student-teller-club",
+    "category": "general",
+    "label": "a"
+  },
+  {
+    "a": "anchor-finance-1400-student-big4-ts-student-fund",
+    "b": "anchor-tech-1300-early-junior-dev-logistics",
+    "category": "general",
+    "label": "close"
+  },
+  {
+    "a": "anchor-finance-1500-mid-mm-bank-associate",
+    "b": "anchor-tech-1400-student-t2-junior-b-tier-intern",
+    "category": "general",
+    "label": "close"
+  },
+  {
+    "a": "anchor-finance-1900-early-megafund-associate",
+    "b": "anchor-finance-1800-senior-ib-md-a-tier",
+    "category": "general",
+    "label": "close"
+  },
+  {
+    "a": "anchor-finance-2000-mid-hedge-fund-pm-track",
+    "b": "anchor-academia-1500-student-phd-first-author-strong-venue",
+    "category": "general",
+    "label": "a"
+  },
+  {
+    "a": "anchor-finance-2000-mid-hedge-fund-pm-track",
+    "b": "anchor-tech-1300-early-junior-dev-logistics",
+    "category": "general",
+    "label": "a"
+  },
+  {
+    "a": "anchor-finance-2000-mid-hedge-fund-pm-track",
+    "b": "anchor-tech-1800-senior-staff-a-tier-platform",
+    "category": "general",
+    "label": "a"
+  },
+  {
+    "a": "anchor-finance-2100-senior-founding-partner-fund",
+    "b": "anchor-general-1100-new-grad-marketing-coordinator",
+    "category": "general",
+    "label": "a"
+  },
+  {
+    "a": "anchor-general-1100-new-grad-marketing-coordinator",
+    "b": "anchor-tech-2100-senior-principal-s-tier-research",
+    "category": "general",
+    "label": "b"
+  },
+  {
+    "a": "anchor-general-1300-mid-hr-business-partner-hospital",
+    "b": "anchor-academia-1000-student-bio-lab-member",
+    "category": "general",
+    "label": "a"
+  },
+  {
+    "a": "anchor-general-1300-mid-hr-business-partner-hospital",
+    "b": "anchor-finance-1600-new-grad-bb-return-offer",
+    "category": "general",
+    "label": "b"
+  },
+  {
+    "a": "anchor-general-1300-mid-hr-business-partner-hospital",
+    "b": "anchor-general-1100-new-grad-marketing-coordinator",
+    "category": "general",
+    "label": "a"
+  },
+  {
+    "a": "anchor-general-1300-mid-hr-business-partner-hospital",
+    "b": "anchor-general-1600-senior-nonprofit-regional-director",
+    "category": "general",
+    "label": "b"
+  },
+  {
+    "a": "anchor-general-1600-senior-nonprofit-regional-director",
+    "b": "anchor-academia-1800-early-postdoc-top-venue-fellowship",
+    "category": "general",
+    "label": "b"
+  },
+  {
+    "a": "anchor-general-1600-senior-nonprofit-regional-director",
+    "b": "anchor-general-1400-student-t2-legislative-intern",
+    "category": "general",
+    "label": "a"
+  },
+  {
+    "a": "anchor-general-1600-senior-nonprofit-regional-director",
+    "b": "anchor-general-2100-executive-founder-ipo-thiel",
+    "category": "general",
+    "label": "b"
+  },
+  {
+    "a": "anchor-general-1800-mid-army-captain-mbb-manager",
+    "b": "anchor-general-1300-mid-hr-business-partner-hospital",
+    "category": "general",
+    "label": "a"
+  },
+  {
+    "a": "anchor-general-1900-new-grad-rhodes-scholar-elect",
+    "b": "anchor-tech-1500-mid-senior-eng-b-tier-saas",
+    "category": "general",
+    "label": "a"
+  },
+  {
+    "a": "anchor-general-2000-senior-public-company-coo",
+    "b": "anchor-academia-1000-student-bio-lab-member",
+    "category": "general",
+    "label": "a"
+  },
+  {
+    "a": "anchor-general-2000-senior-public-company-coo",
+    "b": "anchor-finance-1500-mid-mm-bank-associate",
+    "category": "general",
+    "label": "a"
+  },
+  {
+    "a": "anchor-general-2000-senior-public-company-coo",
+    "b": "anchor-finance-1800-senior-ib-md-a-tier",
+    "category": "general",
+    "label": "a"
+  },
+  {
+    "a": "anchor-general-2100-executive-founder-ipo-thiel",
+    "b": "anchor-academia-1900-senior-associate-prof-career-award",
+    "category": "general",
+    "label": "a"
+  },
+  {
+    "a": "anchor-general-2100-executive-founder-ipo-thiel",
+    "b": "anchor-tech-1800-senior-staff-a-tier-platform",
+    "category": "general",
+    "label": "a"
+  },
+  {
+    "a": "anchor-tech-1000-student-regional-cs-retail",
+    "b": "anchor-general-1100-new-grad-marketing-coordinator",
+    "category": "general",
+    "label": "close"
+  },
+  {
+    "a": "anchor-tech-1400-student-t2-junior-b-tier-intern",
+    "b": "anchor-academia-1400-early-research-associate-standard-venue",
+    "category": "general",
+    "label": "close"
+  },
+  {
+    "a": "anchor-tech-1400-student-t2-junior-b-tier-intern",
+    "b": "anchor-academia-1900-senior-associate-prof-career-award",
+    "category": "general",
+    "label": "b"
+  },
+  {
+    "a": "anchor-tech-1600-early-t1-new-grad-a-tier",
+    "b": "anchor-academia-1300-student-honors-thesis-reu",
+    "category": "general",
+    "label": "a"
+  },
+  {
+    "a": "anchor-tech-1800-senior-staff-a-tier-platform",
+    "b": "anchor-general-1400-student-t2-legislative-intern",
+    "category": "general",
+    "label": "a"
+  },
+  {
+    "a": "anchor-tech-1800-senior-staff-a-tier-platform",
+    "b": "anchor-general-1800-mid-army-captain-mbb-manager",
+    "category": "general",
+    "label": "close"
+  },
+  {
+    "a": "anchor-tech-1900-student-s-tier-intern-icpc",
+    "b": "anchor-tech-1800-senior-staff-a-tier-platform",
+    "category": "general",
+    "label": "close"
+  },
+  {
+    "a": "anchor-tech-2100-senior-principal-s-tier-research",
+    "b": "anchor-academia-2000-student-undergrad-first-author-science",
+    "category": "general",
+    "label": "close"
+  },
+  {
+    "a": "anchor-finance-1000-student-teller-club",
+    "b": "anchor-finance-1500-mid-mm-bank-associate",
+    "category": "finance",
+    "label": "b"
+  },
+  {
+    "a": "anchor-finance-1000-student-teller-club",
+    "b": "anchor-finance-1800-senior-ib-md-a-tier",
+    "category": "finance",
+    "label": "b"
+  },
+  {
+    "a": "anchor-finance-1000-student-teller-club",
+    "b": "anchor-finance-1900-early-megafund-associate",
+    "category": "finance",
+    "label": "b"
+  },
+  {
+    "a": "anchor-finance-1000-student-teller-club",
+    "b": "anchor-finance-2000-mid-hedge-fund-pm-track",
+    "category": "finance",
+    "label": "b"
+  },
+  {
+    "a": "anchor-finance-1000-student-teller-club",
+    "b": "anchor-finance-2100-senior-founding-partner-fund",
+    "category": "finance",
+    "label": "b"
+  },
+  {
+    "a": "anchor-finance-1100-new-grad-retail-bank-rotational",
+    "b": "anchor-finance-1000-student-teller-club",
+    "category": "finance",
+    "label": "close"
+  },
+  {
+    "a": "anchor-finance-1100-new-grad-retail-bank-rotational",
+    "b": "anchor-finance-1300-early-fpa-analyst-f500",
+    "category": "finance",
+    "label": "b"
+  },
+  {
+    "a": "anchor-finance-1100-new-grad-retail-bank-rotational",
+    "b": "anchor-finance-1500-mid-mm-bank-associate",
+    "category": "finance",
+    "label": "b"
+  },
+  {
+    "a": "anchor-finance-1100-new-grad-retail-bank-rotational",
+    "b": "anchor-finance-1600-new-grad-bb-return-offer",
+    "category": "finance",
+    "label": "b"
+  },
+  {
+    "a": "anchor-finance-1100-new-grad-retail-bank-rotational",
+    "b": "anchor-finance-1800-senior-ib-md-a-tier",
+    "category": "finance",
+    "label": "b"
+  },
+  {
+    "a": "anchor-finance-1100-new-grad-retail-bank-rotational",
+    "b": "anchor-finance-1900-early-megafund-associate",
+    "category": "finance",
+    "label": "b"
+  },
+  {
+    "a": "anchor-finance-1100-new-grad-retail-bank-rotational",
+    "b": "anchor-finance-2000-mid-hedge-fund-pm-track",
+    "category": "finance",
+    "label": "b"
+  },
+  {
+    "a": "anchor-finance-1300-early-fpa-analyst-f500",
+    "b": "anchor-finance-1000-student-teller-club",
+    "category": "finance",
+    "label": "a"
+  },
+  {
+    "a": "anchor-finance-1300-early-fpa-analyst-f500",
+    "b": "anchor-finance-1800-senior-ib-md-a-tier",
+    "category": "finance",
+    "label": "b"
+  },
+  {
+    "a": "anchor-finance-1300-early-fpa-analyst-f500",
+    "b": "anchor-finance-2100-senior-founding-partner-fund",
+    "category": "finance",
+    "label": "b"
+  },
+  {
+    "a": "anchor-finance-1400-student-big4-ts-student-fund",
+    "b": "anchor-finance-1000-student-teller-club",
+    "category": "finance",
+    "label": "a"
+  },
+  {
+    "a": "anchor-finance-1400-student-big4-ts-student-fund",
+    "b": "anchor-finance-1100-new-grad-retail-bank-rotational",
+    "category": "finance",
+    "label": "a"
+  },
+  {
+    "a": "anchor-finance-1400-student-big4-ts-student-fund",
+    "b": "anchor-finance-1300-early-fpa-analyst-f500",
+    "category": "finance",
+    "label": "close"
+  },
+  {
+    "a": "anchor-finance-1400-student-big4-ts-student-fund",
+    "b": "anchor-finance-1500-mid-mm-bank-associate",
+    "category": "finance",
+    "label": "close"
+  },
+  {
+    "a": "anchor-finance-1400-student-big4-ts-student-fund",
+    "b": "anchor-finance-1600-new-grad-bb-return-offer",
+    "category": "finance",
+    "label": "b"
+  },
+  {
+    "a": "anchor-finance-1400-student-big4-ts-student-fund",
+    "b": "anchor-finance-1900-early-megafund-associate",
+    "category": "finance",
+    "label": "b"
+  },
+  {
+    "a": "anchor-finance-1500-mid-mm-bank-associate",
+    "b": "anchor-finance-1300-early-fpa-analyst-f500",
+    "category": "finance",
+    "label": "a"
+  },
+  {
+    "a": "anchor-finance-1500-mid-mm-bank-associate",
+    "b": "anchor-finance-1800-senior-ib-md-a-tier",
+    "category": "finance",
+    "label": "b"
+  },
+  {
+    "a": "anchor-finance-1500-mid-mm-bank-associate",
+    "b": "anchor-finance-2000-mid-hedge-fund-pm-track",
+    "category": "finance",
+    "label": "b"
+  },
+  {
+    "a": "anchor-finance-1600-new-grad-bb-return-offer",
+    "b": "anchor-finance-1000-student-teller-club",
+    "category": "finance",
+    "label": "a"
+  },
+  {
+    "a": "anchor-finance-1600-new-grad-bb-return-offer",
+    "b": "anchor-finance-1300-early-fpa-analyst-f500",
+    "category": "finance",
+    "label": "a"
+  },
+  {
+    "a": "anchor-finance-1600-new-grad-bb-return-offer",
+    "b": "anchor-finance-1500-mid-mm-bank-associate",
+    "category": "finance",
+    "label": "close"
+  },
+  {
+    "a": "anchor-finance-1600-new-grad-bb-return-offer",
+    "b": "anchor-finance-2000-mid-hedge-fund-pm-track",
+    "category": "finance",
+    "label": "b"
+  },
+  {
+    "a": "anchor-finance-1800-senior-ib-md-a-tier",
+    "b": "anchor-finance-1400-student-big4-ts-student-fund",
+    "category": "finance",
+    "label": "a"
+  },
+  {
+    "a": "anchor-finance-1800-senior-ib-md-a-tier",
+    "b": "anchor-finance-1600-new-grad-bb-return-offer",
+    "category": "finance",
+    "label": "a"
+  },
+  {
+    "a": "anchor-finance-1800-senior-ib-md-a-tier",
+    "b": "anchor-finance-1900-early-megafund-associate",
+    "category": "finance",
+    "label": "close"
+  },
+  {
+    "a": "anchor-finance-1900-early-megafund-associate",
+    "b": "anchor-finance-1300-early-fpa-analyst-f500",
+    "category": "finance",
+    "label": "a"
+  },
+  {
+    "a": "anchor-finance-1900-early-megafund-associate",
+    "b": "anchor-finance-1500-mid-mm-bank-associate",
+    "category": "finance",
+    "label": "a"
+  },
+  {
+    "a": "anchor-finance-1900-early-megafund-associate",
+    "b": "anchor-finance-1600-new-grad-bb-return-offer",
+    "category": "finance",
+    "label": "a"
+  },
+  {
+    "a": "anchor-finance-2000-mid-hedge-fund-pm-track",
+    "b": "anchor-finance-1300-early-fpa-analyst-f500",
+    "category": "finance",
+    "label": "a"
+  },
+  {
+    "a": "anchor-finance-2000-mid-hedge-fund-pm-track",
+    "b": "anchor-finance-1400-student-big4-ts-student-fund",
+    "category": "finance",
+    "label": "a"
+  },
+  {
+    "a": "anchor-finance-2000-mid-hedge-fund-pm-track",
+    "b": "anchor-finance-1800-senior-ib-md-a-tier",
+    "category": "finance",
+    "label": "a"
+  },
+  {
+    "a": "anchor-finance-2000-mid-hedge-fund-pm-track",
+    "b": "anchor-finance-1900-early-megafund-associate",
+    "category": "finance",
+    "label": "close"
+  },
+  {
+    "a": "anchor-finance-2100-senior-founding-partner-fund",
+    "b": "anchor-finance-1100-new-grad-retail-bank-rotational",
+    "category": "finance",
+    "label": "a"
+  },
+  {
+    "a": "anchor-finance-2100-senior-founding-partner-fund",
+    "b": "anchor-finance-1400-student-big4-ts-student-fund",
+    "category": "finance",
+    "label": "a"
+  },
+  {
+    "a": "anchor-finance-2100-senior-founding-partner-fund",
+    "b": "anchor-finance-1500-mid-mm-bank-associate",
+    "category": "finance",
+    "label": "a"
+  },
+  {
+    "a": "anchor-finance-2100-senior-founding-partner-fund",
+    "b": "anchor-finance-1600-new-grad-bb-return-offer",
+    "category": "finance",
+    "label": "a"
+  },
+  {
+    "a": "anchor-finance-2100-senior-founding-partner-fund",
+    "b": "anchor-finance-1800-senior-ib-md-a-tier",
+    "category": "finance",
+    "label": "a"
+  },
+  {
+    "a": "anchor-finance-2100-senior-founding-partner-fund",
+    "b": "anchor-finance-1900-early-megafund-associate",
+    "category": "finance",
+    "label": "a"
+  },
+  {
+    "a": "anchor-finance-2100-senior-founding-partner-fund",
+    "b": "anchor-finance-2000-mid-hedge-fund-pm-track",
+    "category": "finance",
+    "label": "close"
+  },
+  {
+    "a": "anchor-academia-1500-student-phd-first-author-strong-venue",
+    "b": "anchor-general-2100-executive-founder-ipo-thiel",
+    "category": "tech",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1500-student-phd-first-author-strong-venue",
+    "b": "anchor-tech-1900-student-s-tier-intern-icpc",
+    "category": "tech",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1500-student-phd-first-author-strong-venue",
+    "b": "anchor-tech-2100-senior-principal-s-tier-research",
+    "category": "tech",
+    "label": "b"
+  },
+  {
+    "a": "anchor-general-2100-executive-founder-ipo-thiel",
+    "b": "anchor-tech-1000-student-regional-cs-retail",
+    "category": "tech",
+    "label": "a"
+  },
+  {
+    "a": "anchor-general-2100-executive-founder-ipo-thiel",
+    "b": "anchor-tech-1400-student-t2-junior-b-tier-intern",
+    "category": "tech",
+    "label": "a"
+  },
+  {
+    "a": "anchor-general-2100-executive-founder-ipo-thiel",
+    "b": "anchor-tech-1800-senior-staff-a-tier-platform",
+    "category": "tech",
+    "label": "a"
+  },
+  {
+    "a": "anchor-tech-1000-student-regional-cs-retail",
+    "b": "anchor-tech-1600-early-t1-new-grad-a-tier",
+    "category": "tech",
+    "label": "b"
+  },
+  {
+    "a": "anchor-tech-1000-student-regional-cs-retail",
+    "b": "anchor-tech-1800-senior-staff-a-tier-platform",
+    "category": "tech",
+    "label": "b"
+  },
+  {
+    "a": "anchor-tech-1000-student-regional-cs-retail",
+    "b": "anchor-tech-1900-student-s-tier-intern-icpc",
+    "category": "tech",
+    "label": "b"
+  },
+  {
+    "a": "anchor-tech-1000-student-regional-cs-retail",
+    "b": "anchor-tech-2000-mid-founder-yc-oss-maintainer",
+    "category": "tech",
+    "label": "b"
+  },
+  {
+    "a": "anchor-tech-1100-new-grad-bootcamp-helpdesk",
+    "b": "anchor-academia-1500-student-phd-first-author-strong-venue",
+    "category": "tech",
+    "label": "b"
+  },
+  {
+    "a": "anchor-tech-1100-new-grad-bootcamp-helpdesk",
+    "b": "anchor-tech-1000-student-regional-cs-retail",
+    "category": "tech",
+    "label": "close"
+  },
+  {
+    "a": "anchor-tech-1100-new-grad-bootcamp-helpdesk",
+    "b": "anchor-tech-1300-early-junior-dev-logistics",
+    "category": "tech",
+    "label": "b"
+  },
+  {
+    "a": "anchor-tech-1100-new-grad-bootcamp-helpdesk",
+    "b": "anchor-tech-1600-early-t1-new-grad-a-tier",
+    "category": "tech",
+    "label": "b"
+  },
+  {
+    "a": "anchor-tech-1100-new-grad-bootcamp-helpdesk",
+    "b": "anchor-tech-1900-student-s-tier-intern-icpc",
+    "category": "tech",
+    "label": "b"
+  },
+  {
+    "a": "anchor-tech-1100-new-grad-bootcamp-helpdesk",
+    "b": "anchor-tech-2000-mid-founder-yc-oss-maintainer",
+    "category": "tech",
+    "label": "b"
+  },
+  {
+    "a": "anchor-tech-1100-new-grad-bootcamp-helpdesk",
+    "b": "anchor-tech-2100-senior-principal-s-tier-research",
+    "category": "tech",
+    "label": "b"
+  },
+  {
+    "a": "anchor-tech-1300-early-junior-dev-logistics",
+    "b": "anchor-tech-1000-student-regional-cs-retail",
+    "category": "tech",
+    "label": "a"
+  },
+  {
+    "a": "anchor-tech-1300-early-junior-dev-logistics",
+    "b": "anchor-tech-1400-student-t2-junior-b-tier-intern",
+    "category": "tech",
+    "label": "close"
+  },
+  {
+    "a": "anchor-tech-1300-early-junior-dev-logistics",
+    "b": "anchor-tech-1500-mid-senior-eng-b-tier-saas",
+    "category": "tech",
+    "label": "b"
+  },
+  {
+    "a": "anchor-tech-1300-early-junior-dev-logistics",
+    "b": "anchor-tech-1800-senior-staff-a-tier-platform",
+    "category": "tech",
+    "label": "b"
+  },
+  {
+    "a": "anchor-tech-1300-early-junior-dev-logistics",
+    "b": "anchor-tech-2000-mid-founder-yc-oss-maintainer",
+    "category": "tech",
+    "label": "b"
+  },
+  {
+    "a": "anchor-tech-1400-student-t2-junior-b-tier-intern",
+    "b": "anchor-academia-1500-student-phd-first-author-strong-venue",
+    "category": "tech",
+    "label": "close"
+  },
+  {
+    "a": "anchor-tech-1400-student-t2-junior-b-tier-intern",
+    "b": "anchor-tech-1100-new-grad-bootcamp-helpdesk",
+    "category": "tech",
+    "label": "a"
+  },
+  {
+    "a": "anchor-tech-1500-mid-senior-eng-b-tier-saas",
+    "b": "anchor-academia-1500-student-phd-first-author-strong-venue",
+    "category": "tech",
+    "label": "close"
+  },
+  {
+    "a": "anchor-tech-1500-mid-senior-eng-b-tier-saas",
+    "b": "anchor-general-2100-executive-founder-ipo-thiel",
+    "category": "tech",
+    "label": "b"
+  },
+  {
+    "a": "anchor-tech-1500-mid-senior-eng-b-tier-saas",
+    "b": "anchor-tech-1000-student-regional-cs-retail",
+    "category": "tech",
+    "label": "a"
+  },
+  {
+    "a": "anchor-tech-1500-mid-senior-eng-b-tier-saas",
+    "b": "anchor-tech-1800-senior-staff-a-tier-platform",
+    "category": "tech",
+    "label": "b"
+  },
+  {
+    "a": "anchor-tech-1500-mid-senior-eng-b-tier-saas",
+    "b": "anchor-tech-1900-student-s-tier-intern-icpc",
+    "category": "tech",
+    "label": "b"
+  },
+  {
+    "a": "anchor-tech-1500-mid-senior-eng-b-tier-saas",
+    "b": "anchor-tech-2000-mid-founder-yc-oss-maintainer",
+    "category": "tech",
+    "label": "b"
+  },
+  {
+    "a": "anchor-tech-1600-early-t1-new-grad-a-tier",
+    "b": "anchor-academia-1500-student-phd-first-author-strong-venue",
+    "category": "tech",
+    "label": "close"
+  },
+  {
+    "a": "anchor-tech-1600-early-t1-new-grad-a-tier",
+    "b": "anchor-general-2100-executive-founder-ipo-thiel",
+    "category": "tech",
+    "label": "b"
+  },
+  {
+    "a": "anchor-tech-1600-early-t1-new-grad-a-tier",
+    "b": "anchor-tech-1300-early-junior-dev-logistics",
+    "category": "tech",
+    "label": "a"
+  },
+  {
+    "a": "anchor-tech-1600-early-t1-new-grad-a-tier",
+    "b": "anchor-tech-1400-student-t2-junior-b-tier-intern",
+    "category": "tech",
+    "label": "a"
+  },
+  {
+    "a": "anchor-tech-1600-early-t1-new-grad-a-tier",
+    "b": "anchor-tech-1500-mid-senior-eng-b-tier-saas",
+    "category": "tech",
+    "label": "close"
+  },
+  {
+    "a": "anchor-tech-1600-early-t1-new-grad-a-tier",
+    "b": "anchor-tech-1800-senior-staff-a-tier-platform",
+    "category": "tech",
+    "label": "b"
+  },
+  {
+    "a": "anchor-tech-1600-early-t1-new-grad-a-tier",
+    "b": "anchor-tech-1900-student-s-tier-intern-icpc",
+    "category": "tech",
+    "label": "b"
+  },
+  {
+    "a": "anchor-tech-1800-senior-staff-a-tier-platform",
+    "b": "anchor-academia-1500-student-phd-first-author-strong-venue",
+    "category": "tech",
+    "label": "a"
+  },
+  {
+    "a": "anchor-tech-1800-senior-staff-a-tier-platform",
+    "b": "anchor-tech-1100-new-grad-bootcamp-helpdesk",
+    "category": "tech",
+    "label": "a"
+  },
+  {
+    "a": "anchor-tech-1800-senior-staff-a-tier-platform",
+    "b": "anchor-tech-2000-mid-founder-yc-oss-maintainer",
+    "category": "tech",
+    "label": "b"
+  },
+  {
+    "a": "anchor-tech-1900-student-s-tier-intern-icpc",
+    "b": "anchor-tech-1800-senior-staff-a-tier-platform",
+    "category": "tech",
+    "label": "close"
+  },
+  {
+    "a": "anchor-tech-2000-mid-founder-yc-oss-maintainer",
+    "b": "anchor-academia-1500-student-phd-first-author-strong-venue",
+    "category": "tech",
+    "label": "a"
+  },
+  {
+    "a": "anchor-tech-2000-mid-founder-yc-oss-maintainer",
+    "b": "anchor-general-2100-executive-founder-ipo-thiel",
+    "category": "tech",
+    "label": "close"
+  },
+  {
+    "a": "anchor-tech-2000-mid-founder-yc-oss-maintainer",
+    "b": "anchor-tech-1600-early-t1-new-grad-a-tier",
+    "category": "tech",
+    "label": "a"
+  },
+  {
+    "a": "anchor-tech-2000-mid-founder-yc-oss-maintainer",
+    "b": "anchor-tech-1900-student-s-tier-intern-icpc",
+    "category": "tech",
+    "label": "close"
+  },
+  {
+    "a": "anchor-tech-2100-senior-principal-s-tier-research",
+    "b": "anchor-general-2100-executive-founder-ipo-thiel",
+    "category": "tech",
+    "label": "close"
+  },
+  {
+    "a": "anchor-tech-2100-senior-principal-s-tier-research",
+    "b": "anchor-tech-1000-student-regional-cs-retail",
+    "category": "tech",
+    "label": "a"
+  },
+  {
+    "a": "anchor-tech-2100-senior-principal-s-tier-research",
+    "b": "anchor-tech-1300-early-junior-dev-logistics",
+    "category": "tech",
+    "label": "a"
+  },
+  {
+    "a": "anchor-tech-2100-senior-principal-s-tier-research",
+    "b": "anchor-tech-1500-mid-senior-eng-b-tier-saas",
+    "category": "tech",
+    "label": "a"
+  },
+  {
+    "a": "anchor-tech-2100-senior-principal-s-tier-research",
+    "b": "anchor-tech-1900-student-s-tier-intern-icpc",
+    "category": "tech",
+    "label": "a"
+  },
+  {
+    "a": "anchor-academia-1000-student-bio-lab-member",
+    "b": "anchor-academia-1300-student-honors-thesis-reu",
+    "category": "academia",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1000-student-bio-lab-member",
+    "b": "anchor-academia-1900-senior-associate-prof-career-award",
+    "category": "academia",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1000-student-bio-lab-member",
+    "b": "anchor-academia-2100-executive-full-prof-nas-member",
+    "category": "academia",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1100-new-grad-ms-thesis-no-pub",
+    "b": "anchor-academia-1000-student-bio-lab-member",
+    "category": "academia",
+    "label": "close"
+  },
+  {
+    "a": "anchor-academia-1100-new-grad-ms-thesis-no-pub",
+    "b": "anchor-academia-1300-student-honors-thesis-reu",
+    "category": "academia",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1100-new-grad-ms-thesis-no-pub",
+    "b": "anchor-academia-1400-early-research-associate-standard-venue",
+    "category": "academia",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1100-new-grad-ms-thesis-no-pub",
+    "b": "anchor-academia-1500-student-phd-first-author-strong-venue",
+    "category": "academia",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1100-new-grad-ms-thesis-no-pub",
+    "b": "anchor-academia-1800-early-postdoc-top-venue-fellowship",
+    "category": "academia",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1100-new-grad-ms-thesis-no-pub",
+    "b": "anchor-academia-2000-student-undergrad-first-author-science",
+    "category": "academia",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1100-new-grad-ms-thesis-no-pub",
+    "b": "anchor-tech-2100-senior-principal-s-tier-research",
+    "category": "academia",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1300-student-honors-thesis-reu",
+    "b": "anchor-academia-1500-student-phd-first-author-strong-venue",
+    "category": "academia",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1300-student-honors-thesis-reu",
+    "b": "anchor-academia-1600-mid-assistant-prof-t3-grfp-alum",
+    "category": "academia",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1300-student-honors-thesis-reu",
+    "b": "anchor-academia-1800-early-postdoc-top-venue-fellowship",
+    "category": "academia",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1300-student-honors-thesis-reu",
+    "b": "anchor-academia-1900-senior-associate-prof-career-award",
+    "category": "academia",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1300-student-honors-thesis-reu",
+    "b": "anchor-academia-2100-executive-full-prof-nas-member",
+    "category": "academia",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1400-early-research-associate-standard-venue",
+    "b": "anchor-academia-1000-student-bio-lab-member",
+    "category": "academia",
+    "label": "a"
+  },
+  {
+    "a": "anchor-academia-1400-early-research-associate-standard-venue",
+    "b": "anchor-academia-1300-student-honors-thesis-reu",
+    "category": "academia",
+    "label": "close"
+  },
+  {
+    "a": "anchor-academia-1400-early-research-associate-standard-venue",
+    "b": "anchor-academia-1500-student-phd-first-author-strong-venue",
+    "category": "academia",
+    "label": "close"
+  },
+  {
+    "a": "anchor-academia-1400-early-research-associate-standard-venue",
+    "b": "anchor-academia-1600-mid-assistant-prof-t3-grfp-alum",
+    "category": "academia",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1400-early-research-associate-standard-venue",
+    "b": "anchor-academia-1800-early-postdoc-top-venue-fellowship",
+    "category": "academia",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1400-early-research-associate-standard-venue",
+    "b": "anchor-academia-1900-senior-associate-prof-career-award",
+    "category": "academia",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1400-early-research-associate-standard-venue",
+    "b": "anchor-academia-2000-student-undergrad-first-author-science",
+    "category": "academia",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1400-early-research-associate-standard-venue",
+    "b": "anchor-tech-2100-senior-principal-s-tier-research",
+    "category": "academia",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1500-student-phd-first-author-strong-venue",
+    "b": "anchor-academia-1000-student-bio-lab-member",
+    "category": "academia",
+    "label": "a"
+  },
+  {
+    "a": "anchor-academia-1500-student-phd-first-author-strong-venue",
+    "b": "anchor-academia-1800-early-postdoc-top-venue-fellowship",
+    "category": "academia",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1500-student-phd-first-author-strong-venue",
+    "b": "anchor-academia-1900-senior-associate-prof-career-award",
+    "category": "academia",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1500-student-phd-first-author-strong-venue",
+    "b": "anchor-academia-2100-executive-full-prof-nas-member",
+    "category": "academia",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1600-mid-assistant-prof-t3-grfp-alum",
+    "b": "anchor-academia-1000-student-bio-lab-member",
+    "category": "academia",
+    "label": "a"
+  },
+  {
+    "a": "anchor-academia-1600-mid-assistant-prof-t3-grfp-alum",
+    "b": "anchor-academia-1100-new-grad-ms-thesis-no-pub",
+    "category": "academia",
+    "label": "a"
+  },
+  {
+    "a": "anchor-academia-1600-mid-assistant-prof-t3-grfp-alum",
+    "b": "anchor-academia-1500-student-phd-first-author-strong-venue",
+    "category": "academia",
+    "label": "close"
+  },
+  {
+    "a": "anchor-academia-1600-mid-assistant-prof-t3-grfp-alum",
+    "b": "anchor-academia-1900-senior-associate-prof-career-award",
+    "category": "academia",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1600-mid-assistant-prof-t3-grfp-alum",
+    "b": "anchor-academia-2000-student-undergrad-first-author-science",
+    "category": "academia",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1600-mid-assistant-prof-t3-grfp-alum",
+    "b": "anchor-academia-2100-executive-full-prof-nas-member",
+    "category": "academia",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1800-early-postdoc-top-venue-fellowship",
+    "b": "anchor-academia-1000-student-bio-lab-member",
+    "category": "academia",
+    "label": "a"
+  },
+  {
+    "a": "anchor-academia-1800-early-postdoc-top-venue-fellowship",
+    "b": "anchor-academia-1600-mid-assistant-prof-t3-grfp-alum",
+    "category": "academia",
+    "label": "a"
+  },
+  {
+    "a": "anchor-academia-1800-early-postdoc-top-venue-fellowship",
+    "b": "anchor-academia-2000-student-undergrad-first-author-science",
+    "category": "academia",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1800-early-postdoc-top-venue-fellowship",
+    "b": "anchor-tech-2100-senior-principal-s-tier-research",
+    "category": "academia",
+    "label": "b"
+  },
+  {
+    "a": "anchor-academia-1900-senior-associate-prof-career-award",
+    "b": "anchor-academia-1800-early-postdoc-top-venue-fellowship",
+    "category": "academia",
+    "label": "close"
+  },
+  {
+    "a": "anchor-academia-1900-senior-associate-prof-career-award",
+    "b": "anchor-academia-2000-student-undergrad-first-author-science",
+    "category": "academia",
+    "label": "close"
+  },
+  {
+    "a": "anchor-academia-2000-student-undergrad-first-author-science",
+    "b": "anchor-academia-1000-student-bio-lab-member",
+    "category": "academia",
+    "label": "a"
+  },
+  {
+    "a": "anchor-academia-2000-student-undergrad-first-author-science",
+    "b": "anchor-academia-1500-student-phd-first-author-strong-venue",
+    "category": "academia",
+    "label": "a"
+  },
+  {
+    "a": "anchor-academia-2000-student-undergrad-first-author-science",
+    "b": "anchor-tech-2100-senior-principal-s-tier-research",
+    "category": "academia",
+    "label": "close"
+  },
+  {
+    "a": "anchor-academia-2100-executive-full-prof-nas-member",
+    "b": "anchor-academia-1100-new-grad-ms-thesis-no-pub",
+    "category": "academia",
+    "label": "a"
+  },
+  {
+    "a": "anchor-academia-2100-executive-full-prof-nas-member",
+    "b": "anchor-academia-1800-early-postdoc-top-venue-fellowship",
+    "category": "academia",
+    "label": "a"
+  },
+  {
+    "a": "anchor-academia-2100-executive-full-prof-nas-member",
+    "b": "anchor-academia-2000-student-undergrad-first-author-science",
+    "category": "academia",
+    "label": "close"
+  },
+  {
+    "a": "anchor-academia-2100-executive-full-prof-nas-member",
+    "b": "anchor-tech-2100-senior-principal-s-tier-research",
+    "category": "academia",
+    "label": "close"
+  },
+  {
+    "a": "anchor-tech-2100-senior-principal-s-tier-research",
+    "b": "anchor-academia-1000-student-bio-lab-member",
+    "category": "academia",
+    "label": "a"
+  },
+  {
+    "a": "anchor-tech-2100-senior-principal-s-tier-research",
+    "b": "anchor-academia-1500-student-phd-first-author-strong-venue",
+    "category": "academia",
+    "label": "a"
+  },
+  {
+    "a": "anchor-tech-2100-senior-principal-s-tier-research",
+    "b": "anchor-academia-1600-mid-assistant-prof-t3-grfp-alum",
+    "category": "academia",
+    "label": "a"
+  },
+  {
+    "a": "anchor-tech-2100-senior-principal-s-tier-research",
+    "b": "anchor-academia-1900-senior-associate-prof-career-award",
+    "category": "academia",
+    "label": "a"
+  }
+]

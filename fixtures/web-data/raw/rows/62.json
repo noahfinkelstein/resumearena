@@ -1,0 +1,38 @@
+{
+  "62ijw6i4r3": {
+    "c": {
+      "general": 1,
+      "tech": 0.7
+    },
+    "ch": "243bc12fb32830a32f63cf7a493c7df9489544db258809a4e9fd5806e8b4189b",
+    "h": "fabricated-rhodes-io",
+    "p": "general",
+    "s": "analyzed",
+    "sc": {
+      "general": 34,
+      "tech": 33
+    },
+    "sig": "Overlapping claims",
+    "ss": {
+      "general": [
+        45,
+        35,
+        20,
+        30,
+        30,
+        35
+      ],
+      "tech": [
+        45,
+        35,
+        20,
+        30,
+        28,
+        35
+      ]
+    },
+    "st": "new_grad",
+    "t": 1791031860,
+    "v": "handle"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:09:00Z",
+  "handle": "tech-2100-senior-pri",
+  "key_exposed": false,
+  "owner_hash": "63a69e10136f611408b91609180cf592aa0304a69bcd77eb7262650fb210fb3d",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:09:00Z",
+      "current": true,
+      "id": "e2foy26uvx"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

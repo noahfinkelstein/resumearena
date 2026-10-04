@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-09-21T14:20:11Z",
+  "handle": "priya-castellan",
+  "key_exposed": false,
+  "owner_hash": "ce150ea800ad507c426ddb7455acf4ad8805a6d74f7f903bc3519850f2dfeed0",
+  "resumes": [
+    {
+      "created_at": "2026-09-21T14:20:11Z",
+      "current": true,
+      "id": "k7v2m4syfl"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

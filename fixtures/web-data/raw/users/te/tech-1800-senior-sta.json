@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:06:00Z",
+  "handle": "tech-1800-senior-sta",
+  "key_exposed": false,
+  "owner_hash": "10d13e93b72492d3939103d5bd8e43b53986bb028f5e156b90c7313036d463bf",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:06:00Z",
+      "current": true,
+      "id": "3hmlhodjpd"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

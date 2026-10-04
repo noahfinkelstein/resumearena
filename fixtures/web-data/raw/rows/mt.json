@@ -1,0 +1,28 @@
+{
+  "mt5xeujjcu": {
+    "c": {
+      "general": 1
+    },
+    "ch": "39b03c6df68d002c6a4b84c58cd27d9159dea106a069b57a2eefe0cfb1382ddf",
+    "h": "every-date-different",
+    "p": "general",
+    "s": "analyzed",
+    "sc": {
+      "general": 43
+    },
+    "sig": "CPO $31→$26",
+    "ss": {
+      "general": [
+        32,
+        45,
+        42,
+        20,
+        30,
+        48
+      ]
+    },
+    "st": "early",
+    "t": 1791031440,
+    "v": "anonymous"
+  }
+}

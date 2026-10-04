@@ -1,0 +1,70 @@
+{
+  "category": "academia",
+  "cols": [
+    "rank",
+    "id",
+    "identity",
+    "tier",
+    "r",
+    "pm",
+    "w",
+    "l",
+    "d",
+    "stage",
+    "sig",
+    "d7",
+    "top"
+  ],
+  "page": 1,
+  "pages": 1,
+  "partition": "stage-senior",
+  "rows": [
+    [
+      1,
+      "4lbszeut6z",
+      "anon-4lbszeu",
+      "expert",
+      1943,
+      182,
+      17,
+      0,
+      3,
+      "senior",
+      "AER + 30 papers",
+      0,
+      0.3333
+    ],
+    [
+      2,
+      "e2foy26uvx",
+      "anon-e2foy26",
+      "expert",
+      1912,
+      200,
+      17,
+      1,
+      3,
+      "senior",
+      "ICML best paper",
+      0,
+      0.6667
+    ],
+    [
+      3,
+      "cd3ywxohut",
+      "anon-cd3ywxo",
+      "challenger",
+      1580,
+      199,
+      9,
+      3,
+      4,
+      "senior",
+      "NSF CAREER, h=30",
+      0,
+      1
+    ]
+  ],
+  "schema": 1,
+  "total": 3
+}

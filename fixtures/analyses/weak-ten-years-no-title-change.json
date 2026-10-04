@@ -1,0 +1,388 @@
+{
+  "analysis_confidence": 0.93,
+  "ats": {
+    "detected": {
+      "action_verb_ratio": 0.75,
+      "bullet_count": 29,
+      "bullet_marker_consistent": true,
+      "contact_at_top": true,
+      "date_format_consistent": true,
+      "date_formats_seen": [
+        "Month YYYY"
+      ],
+      "has_email": true,
+      "has_location": true,
+      "has_phone": true,
+      "has_profile_link": true,
+      "has_street_address": false,
+      "has_summary_section": true,
+      "nonstandard_headings": [
+        "TRAINING AND CERTIFICATIONS",
+        "ADDITIONAL INFORMATION"
+      ],
+      "quantified_bullet_ratio": 0.3,
+      "reverse_chronological": true,
+      "section_order": [
+        "Summary",
+        "Experience",
+        "Education",
+        "Skills",
+        "Certifications",
+        "Activities"
+      ],
+      "skill_bars_or_ratings": false,
+      "standard_headings": [
+        "SUMMARY",
+        "EXPERIENCE",
+        "EDUCATION",
+        "TECHNICAL SKILLS"
+      ],
+      "uses_tables_suspected": false
+    },
+    "factors": {
+      "consistency": {
+        "note": "One date format (Month YYYY); overlapping rotational program is explained",
+        "score": 100
+      },
+      "contact_info": {
+        "note": "Email, phone, city and a profile link",
+        "score": 100
+      },
+      "formatting": {
+        "note": "Standard headings and one bullet glyph; sub-headings per system under one role are unusual but parse",
+        "score": 95
+      },
+      "keyword_alignment": {
+        "note": "Backend Java engineer target: Java, Oracle, batch, REST and release work appear in bullets; cloud, testing frameworks and design appear only as training lines",
+        "score": 80
+      },
+      "length": {
+        "note": "2 pages at ten years",
+        "score": 100
+      },
+      "parseability": {
+        "note": "Single-column 2-page PDF, extraction quality 0.96; contact placeholders on line 2",
+        "score": 100
+      },
+      "quantification": {
+        "note": "About 30% of bullets carry a number; most describe maintenance tasks",
+        "score": 60
+      }
+    },
+    "fixes": [
+      {
+        "factor": "quantification",
+        "fix": "Before: Delivered small enhancements each release cycle → After: Shipped __ enhancements across __ releases a year for __ operations users; zero rollbacks since 20__",
+        "issue": "Most maintenance bullets have no scale or result",
+        "priority": "high"
+      },
+      {
+        "factor": "keyword_alignment",
+        "fix": "Add a bullet showing the design or cloud work done, or remove the course list",
+        "issue": "Design, testing and cloud skills appear only as internal course names",
+        "priority": "medium"
+      },
+      {
+        "factor": "formatting",
+        "fix": "Drop the Additional Information section",
+        "issue": "\"Consistently rated meets expectations\" and the conference line add nothing",
+        "priority": "medium"
+      },
+      {
+        "factor": "consistency",
+        "fix": "Nest the program under the main role as a first-year line",
+        "issue": "The rotational program overlaps the first year of the main role",
+        "priority": "low"
+      }
+    ],
+    "score": 88,
+    "target_role_used": "Backend Java engineer, financial services"
+  },
+  "awards": [],
+  "card": {
+    "awards": [],
+    "card_version": "1.0",
+    "career_stage": "senior",
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2016,
+        "field": "Computer Science",
+        "gpa_band": "not_listed",
+        "honors": [],
+        "in_progress": false,
+        "institution": "Rutgers University",
+        "institution_tier": "T3"
+      }
+    ],
+    "experiences": [
+      {
+        "duration_months": 123,
+        "employment_type": "full_time",
+        "highlights": [
+          "Settlement batch runtime cut from 6 hours to 4.5 hours (2021)",
+          "Reference data service response 180 ms to 95 ms with caching",
+          "Java 8 to 17 upgrade of the reporting portal (2024)"
+        ],
+        "impact_scale": "team",
+        "org": "JPMorgan Chase technology division",
+        "org_tier": "B",
+        "role": "Software Engineer (Associate)",
+        "role_selectivity": "selective",
+        "seniority": "mid",
+        "years": "2016-present"
+      },
+      {
+        "duration_months": 12,
+        "employment_type": "full_time",
+        "highlights": [],
+        "impact_scale": "individual",
+        "org": "JPMorgan Chase technology division",
+        "org_tier": "B",
+        "role": "Technology Analyst Program",
+        "role_selectivity": "selective",
+        "seniority": "new_grad",
+        "years": "2016-2017"
+      }
+    ],
+    "headline": "Software engineer, 10 years at a B-tier bank technology division under one title; maintains three post-trade systems",
+    "leadership": [],
+    "notable": [],
+    "projects": [],
+    "publications_summary": {
+      "citation_signal": "not stated",
+      "count_total": 0,
+      "first_author_count": 0,
+      "strong_venue_count": 0,
+      "top_venue_count": 0,
+      "venues": []
+    },
+    "skills_top": [
+      "Java",
+      "Spring",
+      "PL/SQL",
+      "Oracle",
+      "Batch processing",
+      "REST services",
+      "Autosys",
+      "Jenkins",
+      "JUnit"
+    ],
+    "top_signal": "10 yrs, one title",
+    "years_fulltime": 10.3
+  },
+  "category_relevance": {
+    "academia": 0,
+    "finance": 0.15,
+    "general": 1,
+    "tech": 1
+  },
+  "education": [
+    {
+      "degree_level": "bachelor",
+      "end_year": 2016,
+      "field": "Computer Science",
+      "gpa": null,
+      "gpa_band": "not_listed",
+      "gpa_scale": null,
+      "honors": [],
+      "in_progress": false,
+      "institution": "Rutgers University–New Brunswick",
+      "institution_tier": "T3",
+      "notes": "GPA omitted",
+      "start_year": null
+    }
+  ],
+  "experiences": [
+    {
+      "bullets_condensed": [
+        "Maintains the overnight fixed-income settlement batch (about 400,000 trades a night); runtime cut from 6 h to 4.5 h in 2021",
+        "Maintains a reference data REST service for about 20 downstream apps; caching cut response time from 180 ms to 95 ms",
+        "Maintains the operations reporting portal; Java 8 to 17 upgrade in 2024",
+        "Production support one week in five; regulatory field changes; scheduler migration"
+      ],
+      "duration_months": 123,
+      "employment_type": "full_time",
+      "end": "present",
+      "impact_scale": "team",
+      "is_current": true,
+      "org": "JPMorgan Chase",
+      "org_tier": "B",
+      "org_type": "bank",
+      "ownership": "owned_component",
+      "quantified_impact": true,
+      "role": "Software Engineer (Associate)",
+      "role_selectivity": "selective",
+      "seniority": "mid",
+      "start": "2016-07",
+      "team_or_division": "Corporate & Investment Bank Technology"
+    },
+    {
+      "bullets_condensed": [
+        "Rotations in the settlement batch and reporting portal teams; converted to the settlement team"
+      ],
+      "duration_months": 12,
+      "employment_type": "full_time",
+      "end": "2017-06",
+      "impact_scale": "individual",
+      "is_current": false,
+      "org": "JPMorgan Chase",
+      "org_tier": "B",
+      "org_type": "bank",
+      "ownership": "supported",
+      "quantified_impact": false,
+      "role": "Technology Analyst Program (rotational)",
+      "role_selectivity": "selective",
+      "seniority": "new_grad",
+      "start": "2016-07",
+      "team_or_division": null
+    }
+  ],
+  "input": {
+    "is_resume": true,
+    "language": "en",
+    "parse_confidence": 0.96,
+    "placeholders_seen": [
+      "name",
+      "email",
+      "phone",
+      "url"
+    ],
+    "word_count_estimate": 590
+  },
+  "leadership": [],
+  "projects": [],
+  "publications": [],
+  "red_flags": [],
+  "residual_pii": {
+    "email_count": 0,
+    "name_suspected": false,
+    "other_identifiers": [],
+    "phone_count": 0,
+    "street_address_suspected": false,
+    "url_count": 0
+  },
+  "schema_version": "1.1",
+  "scores": {
+    "academia": {
+      "holistic_score": 3,
+      "included": false,
+      "rationale": "No research output.",
+      "stage_relative_score": 3,
+      "sub_scores": {
+        "breadth": 5,
+        "impact": 5,
+        "pedigree": 35,
+        "selectivity": 15,
+        "trajectory": 20
+      },
+      "top_evidence": []
+    },
+    "finance": {
+      "holistic_score": 12,
+      "included": false,
+      "rationale": "Bank technology division; no finance role.",
+      "stage_relative_score": 12,
+      "sub_scores": {
+        "breadth": 10,
+        "impact": 20,
+        "pedigree": 45,
+        "selectivity": 25,
+        "trajectory": 20
+      },
+      "top_evidence": []
+    },
+    "general": {
+      "holistic_score": 27,
+      "included": true,
+      "rationale": "Ten years at a B-tier bank technology division under the same title maintaining the same three systems; a few modest numbers (6 h to 4.5 h, 180 ms to 95 ms), no promotion, no leadership, nothing outside work.",
+      "stage_relative_score": 25,
+      "sub_scores": {
+        "breadth": 20,
+        "impact": 32,
+        "pedigree": 45,
+        "selectivity": 28,
+        "trajectory": 20
+      },
+      "top_evidence": [
+        "Same title (Software Engineer, Associate) from 2016 to 2026",
+        "Batch runtime 6 hours to 4.5 hours; cache cut response time 180 ms to 95 ms",
+        "Three systems maintained throughout; \"meets expectations\" reviews"
+      ]
+    },
+    "tech": {
+      "holistic_score": 28,
+      "included": true,
+      "rationale": "Senior by years only: a decade of maintenance on three internal systems with no promotion, no ownership beyond a release cycle, and improvements that are modest in scale; the one quantified bullets are real but small.",
+      "stage_relative_score": 28,
+      "sub_scores": {
+        "breadth": 20,
+        "impact": 35,
+        "pedigree": 45,
+        "selectivity": 30,
+        "trajectory": 20
+      },
+      "top_evidence": [
+        "Ten years, one title, three systems",
+        "Java 8 to 17 upgrade; scheduler migration; regulatory field changes",
+        "No project, publication or open-source work outside the job"
+      ]
+    }
+  },
+  "signals": {
+    "career_stage": "senior",
+    "has_quantified_impact": true,
+    "highest_institution_tier": "T3",
+    "highest_org_tier": "B",
+    "max_impact_scale": "team",
+    "months_internship": 0,
+    "primary_domain": "tech",
+    "sustained_org_tier": "B",
+    "top_role_selectivity": "selective",
+    "trajectory": "flat",
+    "years_fulltime": 10.3
+  },
+  "skills": {
+    "certifications": [
+      "Oracle Certified Associate, Java SE 8 Programmer"
+    ],
+    "domain": [
+      "Post-trade settlement systems",
+      "Reference data",
+      "Batch processing",
+      "Production support",
+      "Release coordination"
+    ],
+    "keyword_stuffing_suspected": false,
+    "spoken_languages": [],
+    "technical": [
+      "Java",
+      "Spring",
+      "PL/SQL",
+      "Oracle Database",
+      "Autosys",
+      "Jenkins",
+      "Git",
+      "Bitbucket",
+      "JIRA",
+      "Linux shell",
+      "JUnit",
+      "Maven",
+      "ServiceNow",
+      "Splunk",
+      "Python"
+    ]
+  },
+  "strengths": [
+    "Ten years of uninterrupted tenure at a B-tier bank technology division",
+    "Two measured improvements: batch runtime 6 h to 4.5 h and service response 180 ms to 95 ms",
+    "Owns the regression suite (about 600 cases) and the release process for three systems"
+  ],
+  "verdict": "Ten years of competent maintenance on three bank systems under one title; the trajectory is flat and the record never leaves the release cycle.",
+  "weaknesses": [
+    "No promotion or title change in ten years",
+    "No leadership, mentoring scope or cross-team ownership",
+    "No projects, open-source or technical work outside the three systems",
+    "Reviews self-reported as \"meets expectations\""
+  ]
+}

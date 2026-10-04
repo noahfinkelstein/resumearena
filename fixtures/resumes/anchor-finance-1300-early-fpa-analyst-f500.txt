@@ -1,0 +1,45 @@
+[name]
+St. Louis, MO | [email] | [phone] | [url]
+
+PROFESSIONAL SUMMARY
+Financial analyst with two years in FP&A at a Fortune 500 industrial manufacturer. Own the monthly forecast and annual operating plan for a $1.4B automation solutions division. Strong in Excel modeling, Hyperion Planning, and turning plant-level data into a story the division president can act on.
+
+EXPERIENCE
+
+Emerson Electric Co. — St. Louis, MO
+Financial Analyst, FP&A, Discrete Automation | July 2024 – Present
+- Own the monthly rolling forecast and the annual operating plan for a division with $1.4B in revenue and 14 manufacturing sites; present variance analysis to the division CFO each month
+- Built a driver-based forecasting model in Excel and Hyperion that replaced a spreadsheet consolidation process; closed the monthly forecast two business days earlier than the prior year
+- Identified $2.1M of annualized freight savings by analyzing carrier invoices across four plants and recommending a consolidation that operations adopted in Q3 2025
+- Prepare the quarterly business review deck for the division president and support the earnings-call backup schedules for the segment
+- Reconcile the capital expenditure forecast against project tracking, covering about 60 open projects
+- Partner with plant controllers to explain manufacturing variances and inventory movements
+- Mentored the 2025 summer finance intern on the forecast model
+- Rebuilt the division's headcount forecast with HR data feeds, reducing the variance between planned and actual labor cost from 4.5% to 1.8% in the first two quarters of use
+
+Emerson Electric Co. — St. Louis, MO
+Finance Intern, Corporate FP&A | May 2023 – August 2023
+- Supported the corporate consolidation of the quarterly forecast across five business groups
+- Automated a weekly cash reporting file in Excel with Power Query, saving the team about 4 hours a week
+- Prepared peer-company margin benchmarking used in the annual strategy review
+
+University of Missouri — Columbia, MO
+Teaching Assistant, Introductory Financial Accounting | August 2023 – May 2024
+- Led weekly review sessions for about 60 students and graded problem sets
+
+EDUCATION
+University of Missouri — Trulaske College of Business, Columbia, MO
+B.S. in Business Administration, Finance emphasis, May 2024 | GPA 3.6
+Relevant coursework: Corporate Finance, Financial Statement Analysis, Managerial Accounting, Business Analytics, Investments
+
+CERTIFICATIONS AND TRAINING
+- CFA Level I candidate (sitting February 2027)
+- Emerson Finance Leadership Development Program course series, 2025
+- Microsoft Excel Expert certification, 2024
+
+SKILLS
+Financial modeling, variance analysis, forecasting and budgeting, Hyperion Planning, Oracle ERP, Power BI, Power Query, SQL (basic), PowerPoint
+
+ACTIVITIES
+- Treasurer, Mizzou Finance Association, 2022 – 2024 (managed a $9,000 annual budget and 90 dues-paying members)
+- Volunteer tax preparer, VITA program, 2023 and 2024 filing seasons

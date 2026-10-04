@@ -1,0 +1,38 @@
+{
+  "xvfgtvrvjr": {
+    "c": {
+      "academia": 1,
+      "general": 1
+    },
+    "ch": "c0ffb74d52e5667959cd16d0a50f1a349895fd6ffbbe0e263fd9b0ad7ca0aeaa",
+    "h": "academia-2000-studen",
+    "p": "academia",
+    "s": "analyzed",
+    "sc": {
+      "academia": 94,
+      "general": 91
+    },
+    "sig": "1st-author Science",
+    "ss": {
+      "academia": [
+        97,
+        86,
+        80,
+        98,
+        55,
+        98
+      ],
+      "general": [
+        97,
+        85,
+        70,
+        98,
+        55,
+        97
+      ]
+    },
+    "st": "student",
+    "t": 1791030480,
+    "v": "handle"
+  }
+}

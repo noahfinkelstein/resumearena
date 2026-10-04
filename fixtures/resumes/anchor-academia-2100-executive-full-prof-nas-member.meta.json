@@ -1,0 +1,32 @@
+{
+  "expect": {
+    "gate": "pass",
+    "status": "analyzed"
+  },
+  "group": "anchor",
+  "intended_anchor": 2100,
+  "intended_categories": [
+    "general",
+    "academia"
+  ],
+  "intended_stage": "executive",
+  "metrics": {
+    "char_count": 6424,
+    "columns_detected": 1,
+    "extraction_quality": 0.95,
+    "font_count": 3,
+    "image_count": 0,
+    "pages": 4,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 837
+  },
+  "slug": "anchor-academia-2100-executive-full-prof-nas-member"
+}

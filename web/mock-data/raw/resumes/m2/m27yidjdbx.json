@@ -1,0 +1,477 @@
+{
+  "analysis": {
+    "analysis_confidence": 0.86,
+    "ats": {
+      "detected": {
+        "action_verb_ratio": 0.86,
+        "bullet_count": 14,
+        "bullet_marker_consistent": true,
+        "contact_at_top": true,
+        "date_format_consistent": true,
+        "date_formats_seen": [
+          "MMM YYYY"
+        ],
+        "has_email": true,
+        "has_location": false,
+        "has_phone": true,
+        "has_profile_link": true,
+        "has_street_address": false,
+        "has_summary_section": true,
+        "nonstandard_headings": [],
+        "quantified_bullet_ratio": 0.64,
+        "reverse_chronological": true,
+        "section_order": [
+          "Summary",
+          "Experience",
+          "Education",
+          "Skills"
+        ],
+        "skill_bars_or_ratings": false,
+        "standard_headings": [
+          "Experience",
+          "Education",
+          "Skills"
+        ],
+        "uses_tables_suspected": false
+      },
+      "factors": {
+        "consistency": {
+          "note": "consistency read cleanly from the text.",
+          "score": 87
+        },
+        "contact_info": {
+          "note": "contact info read cleanly from the text.",
+          "score": 66
+        },
+        "formatting": {
+          "note": "formatting read cleanly from the text.",
+          "score": 87
+        },
+        "keyword_alignment": {
+          "note": "keyword alignment read cleanly from the text.",
+          "score": 71
+        },
+        "length": {
+          "note": "length read cleanly from the text.",
+          "score": 91
+        },
+        "parseability": {
+          "note": "parseability read cleanly from the text.",
+          "score": 69
+        },
+        "quantification": {
+          "note": "quantification read cleanly from the text.",
+          "score": 87
+        }
+      },
+      "fixes": [
+        {
+          "factor": "consistency",
+          "fix": "Use an end month or \"Present\" consistently.",
+          "issue": "Dates use \"Jan 2023 – present\"; two parsers read \"present\" as missing.",
+          "priority": "high"
+        },
+        {
+          "factor": "formatting",
+          "fix": "Export skills as plain lines, one group per line.",
+          "issue": "The skills section is a table.",
+          "priority": "medium"
+        },
+        {
+          "factor": "length",
+          "fix": "Cut the summary to one line with the strongest number.",
+          "issue": "The summary paragraph repeats the bullets.",
+          "priority": "low"
+        }
+      ],
+      "score": 79,
+      "target_role_used": "Software engineer, mid-career"
+    },
+    "awards": [
+      {
+        "issuer": null,
+        "name": "SHRM-CP certification",
+        "pool_estimate": "unknown pool",
+        "scope": "national",
+        "selectivity": "modest",
+        "verifiable": true,
+        "year": null
+      }
+    ],
+    "card": {
+      "awards": [
+        {
+          "name": "SHRM-CP certification",
+          "scope": "national",
+          "selectivity": "modest"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "mid",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2021,
+          "field": "Human Resources Management",
+          "gpa_band": "3.5-3.69",
+          "honors": [],
+          "in_progress": false,
+          "institution": "University of Louisville",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 30,
+          "employment_type": "full_time",
+          "highlights": [
+            "Supports a 1,200-employee nursing division; cut first-year turnover from 31% to 22% with a revised onboarding program",
+            "Led the division's annual compensation review ($85M payroll)"
+          ],
+          "impact_scale": "org",
+          "org": "Regional hospital system",
+          "org_tier": "C",
+          "role": "HR Business Partner",
+          "role_selectivity": "modest",
+          "seniority": "mid",
+          "years": "2024-present"
+        },
+        {
+          "duration_months": 36,
+          "employment_type": "full_time",
+          "highlights": [
+            "Handled recruiting and employee relations for ~300 staff"
+          ],
+          "impact_scale": "team",
+          "org": "Regional hospital system",
+          "org_tier": "C",
+          "role": "HR Generalist",
+          "role_selectivity": "modest",
+          "seniority": "junior",
+          "years": "2021-2024"
+        }
+      ],
+      "headline": "HR business partner, 5 years at a regional hospital system; supports a 1,200-employee division",
+      "leadership": [
+        "Chairs a 12-person employee engagement committee"
+      ],
+      "notable": [
+        "Turnover reduction from 31% to 22% in a 1,200-person division"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Employee relations",
+        "Workforce planning",
+        "Compensation review",
+        "Workday",
+        "Onboarding design",
+        "Conflict resolution"
+      ],
+      "top_signal": "HRBP, 1,200 staff",
+      "years_fulltime": 5
+    },
+    "category_relevance": {
+      "academia": 0.05,
+      "finance": 0.1,
+      "general": 1,
+      "tech": 0.1
+    },
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2021,
+        "field": "Human Resources Management",
+        "gpa": null,
+        "gpa_band": "3.5-3.69",
+        "gpa_scale": null,
+        "honors": [],
+        "in_progress": false,
+        "institution": "University of Louisville",
+        "institution_tier": "T3",
+        "notes": "",
+        "start_year": 2017
+      }
+    ],
+    "experiences": [
+      {
+        "bullets_condensed": [
+          "Supports a 1,200-employee nursing division; cut first-year turnover from 31% to 22% with a revised onboarding program",
+          "Led the division's annual compensation review ($85M payroll)"
+        ],
+        "duration_months": 30,
+        "employment_type": "full_time",
+        "end": "present",
+        "impact_scale": "org",
+        "is_current": true,
+        "org": "Regional hospital system",
+        "org_tier": "C",
+        "org_type": "private_company",
+        "ownership": "owned_component",
+        "quantified_impact": true,
+        "role": "HR Business Partner",
+        "role_selectivity": "modest",
+        "seniority": "mid",
+        "start": "2024",
+        "team_or_division": null
+      },
+      {
+        "bullets_condensed": [
+          "Handled recruiting and employee relations for ~300 staff"
+        ],
+        "duration_months": 36,
+        "employment_type": "full_time",
+        "end": "2024",
+        "impact_scale": "team",
+        "is_current": false,
+        "org": "Regional hospital system",
+        "org_tier": "C",
+        "org_type": "private_company",
+        "ownership": "owned_component",
+        "quantified_impact": true,
+        "role": "HR Generalist",
+        "role_selectivity": "modest",
+        "seniority": "junior",
+        "start": "2021",
+        "team_or_division": null
+      }
+    ],
+    "input": {
+      "is_resume": true,
+      "language": "en",
+      "parse_confidence": 0.94,
+      "placeholders_seen": [
+        "name",
+        "email",
+        "phone",
+        "url"
+      ],
+      "word_count_estimate": 620
+    },
+    "leadership": [
+      {
+        "budget_or_scale": "not stated",
+        "elected_or_appointed": "unknown",
+        "highlight": "Chairs a 12-person employee engagement committee",
+        "org": "Chairs a 12-person employee engagement committee",
+        "people_led": null,
+        "role": "lead"
+      }
+    ],
+    "projects": [],
+    "publications": [],
+    "red_flags": [
+      {
+        "detail": "\"Industry-leading\" appears twice without a number behind it.",
+        "location": "Experience / summary line",
+        "severity": "medium",
+        "type": "unverifiable_superlative"
+      }
+    ],
+    "residual_pii": {
+      "email_count": 0,
+      "name_suspected": false,
+      "other_identifiers": [],
+      "phone_count": 0,
+      "street_address_suspected": false,
+      "url_count": 0
+    },
+    "schema_version": "1.1",
+    "scores": {
+      "academia": {
+        "holistic_score": 70,
+        "included": false,
+        "rationale": "HR business partner, 5 years at a regional hospital system; the academia weighting rewards the strongest lines on the card.",
+        "stage_relative_score": 86,
+        "sub_scores": {
+          "breadth": 57,
+          "impact": 57,
+          "pedigree": 65,
+          "selectivity": 55,
+          "trajectory": 62
+        },
+        "top_evidence": [
+          "Supports a 1,200-employee nursing division; cut first-year turnover from 31% to 22% with a revised",
+          "Handled recruiting and employee relations for ~300 staff"
+        ]
+      },
+      "finance": {
+        "holistic_score": 74,
+        "included": false,
+        "rationale": "HR business partner, 5 years at a regional hospital system; the finance weighting rewards the strongest lines on the card.",
+        "stage_relative_score": 74,
+        "sub_scores": {
+          "breadth": 61,
+          "impact": 46,
+          "pedigree": 68,
+          "selectivity": 67,
+          "trajectory": 58
+        },
+        "top_evidence": [
+          "Supports a 1,200-employee nursing division; cut first-year turnover from 31% to 22% with a revised",
+          "Handled recruiting and employee relations for ~300 staff"
+        ]
+      },
+      "general": {
+        "holistic_score": 73,
+        "included": true,
+        "rationale": "HR business partner, 5 years at a regional hospital system; the general weighting rewards the strongest lines on the card.",
+        "stage_relative_score": 75,
+        "sub_scores": {
+          "breadth": 84,
+          "impact": 73,
+          "pedigree": 88,
+          "selectivity": 88,
+          "trajectory": 92
+        },
+        "top_evidence": [
+          "Supports a 1,200-employee nursing division; cut first-year turnover from 31% to 22% with a revised",
+          "Handled recruiting and employee relations for ~300 staff"
+        ]
+      },
+      "tech": {
+        "holistic_score": 86,
+        "included": false,
+        "rationale": "HR business partner, 5 years at a regional hospital system; the tech weighting rewards the strongest lines on the card.",
+        "stage_relative_score": 74,
+        "sub_scores": {
+          "breadth": 47,
+          "impact": 56,
+          "pedigree": 65,
+          "selectivity": 56,
+          "trajectory": 46
+        },
+        "top_evidence": [
+          "Supports a 1,200-employee nursing division; cut first-year turnover from 31% to 22% with a revised",
+          "Handled recruiting and employee relations for ~300 staff"
+        ]
+      }
+    },
+    "signals": {
+      "career_stage": "mid",
+      "has_quantified_impact": true,
+      "highest_institution_tier": "T3",
+      "highest_org_tier": "C",
+      "max_impact_scale": "org",
+      "months_internship": 3,
+      "primary_domain": "other",
+      "sustained_org_tier": "C",
+      "top_role_selectivity": "modest",
+      "trajectory": "steady",
+      "years_fulltime": 5
+    },
+    "skills": {
+      "certifications": [],
+      "domain": [],
+      "keyword_stuffing_suspected": false,
+      "spoken_languages": [
+        "English"
+      ],
+      "technical": [
+        "Employee relations",
+        "Workforce planning",
+        "Compensation review",
+        "Workday",
+        "Onboarding design",
+        "Conflict resolution"
+      ]
+    },
+    "strengths": [
+      "Quantified results on 7 of 9 bullets",
+      "Two promotions in 4 years at the same employer",
+      "Owned a system with named scale (40k rps)"
+    ],
+    "verdict": "A strong mid-career infrastructure resume whose numbers do the work; the education line is the only soft spot.",
+    "weaknesses": [
+      "Education sits below the ladder median for this tier",
+      "No open-source or public work listed",
+      "Summary paragraph repeats the bullets"
+    ]
+  },
+  "card_sha256": "7927198552784e671786160bd056c6164ab07122089395c5c813149c939c55b3",
+  "category_relevance": {
+    "academia": 0.05,
+    "finance": 0.1,
+    "general": 1,
+    "tech": 0.1
+  },
+  "created_at": "2026-09-21T14:20:11Z",
+  "deleted_at": null,
+  "duplicate_of": null,
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+1a2b3c4d",
+    "verdict": {
+      "estimated_career_stage": "mid",
+      "is_resume": true,
+      "language": "en",
+      "prompt_injection_detected": false,
+      "reason": "Two-page engineering résumé with dated roles.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "mei-wu",
+  "held_reason": null,
+  "id": "m27yidjdbx",
+  "kind": "user",
+  "metrics": {
+    "char_count": 1003,
+    "columns_detected": 1,
+    "extraction_quality": 0.96,
+    "font_count": 3,
+    "image_count": 0,
+    "pages": 2,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 212
+  },
+  "owner_hash": "7270340ccb27b31ce50ac5ba98e79f10b1d3ecdde84df458f24368f79e9b3eba",
+  "primary": "general",
+  "rejected_reason": null,
+  "schema": 1,
+  "scores": {
+    "general": 79
+  },
+  "source": {
+    "client_version": "mock.1",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 123456700
+  },
+  "stage": "mid",
+  "status": "analyzed",
+  "superseded_by": null,
+  "supersedes": null,
+  "text": "[name]\n[email] · [phone] · [url]\n\nSummary\nInfrastructure engineer with six years building and operating high-throughput services. Led the migration of a 40k rps edge service to a new runtime, cutting p99 latency by 38% and on-call pages by half.\n\nExperience\nSenior engineer, Acme Cloud, Jan 2022 – present\n· Led migration of a 40k rps service to a new runtime; p99 latency down 38%, infrastructure cost down 22%\n· Designed the capacity model used by four product teams; forecast error under 6% over 18 months\n· Promoted twice in four years; mentor to five engineers, two of whom were promoted\n\nEngineer, Northwind Fintech, Jun 2020 – Dec 2021\n· Built the reconciliation pipeline for 2.1M daily transactions with a measured 99.98% match rate\n· Cut nightly batch time from 6 hours to 70 minutes by rewriting the join strategy\n\nEducation\nBS Computer Science, Large State University, 2020\nDean's list, 2018 – 2020\n\nSkills\nGo, Rust, Kubernetes, Terraform, PostgreSQL, Kafka, observability, capacity planning\n",
+  "text_sha256": "cdbccc7bcd69d6021dad0cd2b2d8aa5f60a840cda28761437977283f0ba0af66",
+  "top_signal": "HRBP, 1,200 staff",
+  "updated_at": "2026-09-21T14:22:51Z",
+  "usage": {
+    "analysis_usd": 0.188,
+    "gate_usd": 0.0046,
+    "latency_ms": 61230
+  },
+  "versions": {
+    "analyst_model": "claude-opus-5-5",
+    "analyst_prompt": "analyst.v1+9e8f7a6b",
+    "fell_back": false,
+    "gate_prompt": "gate.v1+1a2b3c4d",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "visibility": "anonymous"
+}

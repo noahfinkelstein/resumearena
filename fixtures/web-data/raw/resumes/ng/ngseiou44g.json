@@ -1,0 +1,563 @@
+{
+  "analysis": {
+    "analysis_confidence": 0.92,
+    "ats": {
+      "detected": {
+        "action_verb_ratio": 0.9,
+        "bullet_count": 20,
+        "bullet_marker_consistent": true,
+        "contact_at_top": true,
+        "date_format_consistent": true,
+        "date_formats_seen": [
+          "MMM YYYY"
+        ],
+        "has_email": true,
+        "has_location": true,
+        "has_phone": true,
+        "has_profile_link": true,
+        "has_street_address": false,
+        "has_summary_section": true,
+        "nonstandard_headings": [
+          "Keywords"
+        ],
+        "quantified_bullet_ratio": 0.5,
+        "reverse_chronological": true,
+        "section_order": [
+          "Summary",
+          "Experience",
+          "Education",
+          "Projects",
+          "Skills",
+          "Certifications",
+          "Skills"
+        ],
+        "skill_bars_or_ratings": false,
+        "standard_headings": [
+          "SUMMARY",
+          "EXPERIENCE",
+          "EDUCATION",
+          "PROJECTS",
+          "SKILLS",
+          "CERTIFICATIONS"
+        ],
+        "uses_tables_suspected": false
+      },
+      "factors": {
+        "consistency": {
+          "note": "One date format (MMM YYYY)",
+          "score": 100
+        },
+        "contact_info": {
+          "note": "Email, phone, city and a profile link",
+          "score": 100
+        },
+        "formatting": {
+          "note": "Standard headings, one bullet glyph, reverse-chronological, 2 fonts; a trailing unlabeled paragraph",
+          "score": 95
+        },
+        "keyword_alignment": {
+          "note": "Competencies appear in bullets with outcomes, but a trailing block repeats 24 titles and technologies twice with no sentence structure; stuffing penalty",
+          "score": 45
+        },
+        "length": {
+          "note": "2 pages at five years",
+          "score": 100
+        },
+        "parseability": {
+          "note": "Single-column 2-page PDF, extraction quality 0.97; contact placeholders on line 2",
+          "score": 100
+        },
+        "quantification": {
+          "note": "About half the bullets tie a number to an outcome",
+          "score": 80
+        }
+      },
+      "fixes": [
+        {
+          "factor": "keyword_alignment",
+          "fix": "Delete the paragraph; the bullets already carry every term that matters, and the block reads as hidden text to a reviewer",
+          "issue": "A trailing \"Keywords:\" paragraph lists 24 job titles and technologies twice over, with no sentence structure",
+          "priority": "high"
+        },
+        {
+          "factor": "quantification",
+          "fix": "Before: wrote 6 runbooks and the post-incident reviews for 4 SEV-2 incidents → After: 6 runbooks cut median time to mitigate from __ to __ minutes across 4 SEV-2 incidents",
+          "issue": "The on-call and interviewing bullets have counts but no result",
+          "priority": "medium"
+        },
+        {
+          "factor": "formatting",
+          "fix": "Drop it or replace it with the meetup talk, which has an audience number",
+          "issue": "Home lab project adds no professional signal",
+          "priority": "low"
+        }
+      ],
+      "score": 87,
+      "target_role_used": "Senior backend engineer"
+    },
+    "awards": [],
+    "card": {
+      "awards": [],
+      "card_version": "1.0",
+      "career_stage": "mid",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2021,
+          "field": "Computer Science",
+          "gpa_band": "3.5-3.69",
+          "honors": [],
+          "in_progress": false,
+          "institution": "Purdue University",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 30,
+          "employment_type": "full_time",
+          "highlights": [
+            "Owns callback delivery: about 1.2B callbacks a day across 3 regions",
+            "Adaptive backoff cut peak retry volume about 60% in the two largest incidents",
+            "Led a MySQL-to-DynamoDB migration with no customer-visible downtime"
+          ],
+          "impact_scale": "org",
+          "org": "Twilio",
+          "org_tier": "B",
+          "role": "Software Engineer II, Messaging Platform",
+          "role_selectivity": "selective",
+          "seniority": "mid",
+          "years": "2024-present"
+        },
+        {
+          "duration_months": 34,
+          "employment_type": "full_time",
+          "highlights": [
+            "Usage pipeline processing about 900M records a day",
+            "Fixed a double-counting bug worth about $40k a month",
+            "Month-end reconciliation from 2 days to 4 hours"
+          ],
+          "impact_scale": "org",
+          "org": "Twilio",
+          "org_tier": "B",
+          "role": "Software Engineer, Billing Platform",
+          "role_selectivity": "selective",
+          "seniority": "junior",
+          "years": "2021-2024"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Webhook-replay command shipped in the public CLI"
+          ],
+          "impact_scale": "team",
+          "org": "Twilio",
+          "org_tier": "B",
+          "role": "Software Engineering Intern",
+          "role_selectivity": "selective",
+          "seniority": "intern",
+          "years": "2020-2020"
+        }
+      ],
+      "headline": "Backend engineer, 5 years at a B-tier comms platform; owns a 1.2B-callback/day service; led a datastore migration",
+      "leadership": [
+        "Mentored two new graduates; design-review template adopted by four teams"
+      ],
+      "notable": [
+        "Service at 1.2B callbacks a day owned at five years of experience"
+      ],
+      "projects": [
+        {
+          "descriptor": "Open-source Go rate-limiting library",
+          "highlight": "Sliding-window and token-bucket strategies",
+          "kind": "software",
+          "scale_signal": "about 300 stars; used by two internal services",
+          "technical_depth": "standard"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Go",
+        "Java",
+        "Kafka",
+        "DynamoDB",
+        "AWS",
+        "Kubernetes",
+        "Terraform",
+        "gRPC",
+        "PostgreSQL",
+        "OpenTelemetry"
+      ],
+      "top_signal": "1.2B callbacks/day",
+      "years_fulltime": 5.3
+    },
+    "category_relevance": {
+      "academia": 0,
+      "finance": 0,
+      "general": 1,
+      "tech": 1
+    },
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2021,
+        "field": "Computer Science",
+        "gpa": 3.5,
+        "gpa_band": "3.5-3.69",
+        "gpa_scale": 4,
+        "honors": [],
+        "in_progress": false,
+        "institution": "Purdue University",
+        "institution_tier": "T3",
+        "notes": "Teaching assistant for data structures, two semesters",
+        "start_year": null
+      }
+    ],
+    "experiences": [
+      {
+        "bullets_condensed": [
+          "Owns the message-status callback service: about 1.2B callbacks a day across 3 regions",
+          "Adaptive per-customer backoff cut peak retry volume in the two largest 2025 incidents by about 60%",
+          "Led a two-quarter state-store migration from sharded MySQL to DynamoDB with no customer-visible downtime",
+          "Regional failover within 90 seconds; infrastructure cost down about 22%"
+        ],
+        "duration_months": 30,
+        "employment_type": "full_time",
+        "end": "present",
+        "impact_scale": "org",
+        "is_current": true,
+        "org": "Twilio",
+        "org_tier": "B",
+        "org_type": "public_company",
+        "ownership": "led",
+        "quantified_impact": true,
+        "role": "Software Engineer II",
+        "role_selectivity": "selective",
+        "seniority": "mid",
+        "start": "2024-04",
+        "team_or_division": "Messaging Platform"
+      },
+      {
+        "bullets_condensed": [
+          "Built the usage-aggregation pipeline (Kafka Streams, Java) processing about 900M records a day",
+          "Fixed a double-counting bug costing about $40k a month in credits; added idempotency keys and reconciliation",
+          "Invoice-preview API at p99 under 400 ms; month-end reconciliation from 2 days to 4 hours",
+          "Tax-jurisdiction lookup for 11 countries; mentored two new graduates"
+        ],
+        "duration_months": 34,
+        "employment_type": "full_time",
+        "end": "2024-03",
+        "impact_scale": "org",
+        "is_current": false,
+        "org": "Twilio",
+        "org_tier": "B",
+        "org_type": "public_company",
+        "ownership": "owned_component",
+        "quantified_impact": true,
+        "role": "Software Engineer",
+        "role_selectivity": "selective",
+        "seniority": "junior",
+        "start": "2021-06",
+        "team_or_division": "Billing Platform"
+      },
+      {
+        "bullets_condensed": [
+          "Shipped a webhook-replay CLI command included in the public release; wrote its documentation page"
+        ],
+        "duration_months": 3,
+        "employment_type": "internship",
+        "end": "2020-08",
+        "impact_scale": "team",
+        "is_current": false,
+        "org": "Twilio",
+        "org_tier": "B",
+        "org_type": "public_company",
+        "ownership": "owned_component",
+        "quantified_impact": false,
+        "role": "Software Engineering Intern",
+        "role_selectivity": "selective",
+        "seniority": "intern",
+        "start": "2020-06",
+        "team_or_division": "Developer Tools"
+      }
+    ],
+    "input": {
+      "is_resume": true,
+      "language": "en",
+      "parse_confidence": 0.96,
+      "placeholders_seen": [
+        "name",
+        "email",
+        "phone",
+        "url"
+      ],
+      "word_count_estimate": 620
+    },
+    "leadership": [
+      {
+        "budget_or_scale": "about 40 coding interviews",
+        "elected_or_appointed": "appointed",
+        "highlight": "Mentored two new graduates; design-review template adopted by four teams",
+        "org": "Twilio Messaging Platform",
+        "people_led": 2,
+        "role": "Mentor and interviewer"
+      }
+    ],
+    "projects": [
+      {
+        "description_condensed": "Open-source Go library with sliding-window and token-bucket strategies; about 300 stars; used by two internal services",
+        "has_external_validation": true,
+        "kind": "software",
+        "name": "Go rate-limiting library",
+        "quantified_impact": false,
+        "scale_signal": "about 300 stars; 2 internal adopters",
+        "technical_depth": "standard"
+      },
+      {
+        "description_condensed": "Three-node Kubernetes cluster running a self-hosted observability stack",
+        "has_external_validation": false,
+        "kind": "software",
+        "name": "Home lab",
+        "quantified_impact": false,
+        "scale_signal": "none stated",
+        "technical_depth": "standard"
+      }
+    ],
+    "publications": [],
+    "red_flags": [
+      {
+        "detail": "A trailing \"Keywords:\" paragraph repeats 24 job titles and technologies twice with no sentence structure; ignored for scoring",
+        "location": "End of document",
+        "severity": "high",
+        "type": "hidden_text"
+      },
+      {
+        "detail": "The same 24 terms appear in the skills line and twice more in the trailing block",
+        "location": "Skills / trailing paragraph",
+        "severity": "medium",
+        "type": "keyword_stuffing"
+      }
+    ],
+    "residual_pii": {
+      "email_count": 0,
+      "name_suspected": false,
+      "other_identifiers": [],
+      "phone_count": 0,
+      "street_address_suspected": false,
+      "url_count": 0
+    },
+    "schema_version": "1.1",
+    "scores": {
+      "academia": {
+        "holistic_score": 3,
+        "included": false,
+        "rationale": "No research output.",
+        "stage_relative_score": 3,
+        "sub_scores": {
+          "breadth": 5,
+          "impact": 10,
+          "pedigree": 40,
+          "selectivity": 20,
+          "trajectory": 35
+        },
+        "top_evidence": []
+      },
+      "finance": {
+        "holistic_score": 8,
+        "included": false,
+        "rationale": "Billing systems work; no finance role.",
+        "stage_relative_score": 8,
+        "sub_scores": {
+          "breadth": 10,
+          "impact": 25,
+          "pedigree": 40,
+          "selectivity": 25,
+          "trajectory": 40
+        },
+        "top_evidence": []
+      },
+      "general": {
+        "holistic_score": 52,
+        "included": true,
+        "rationale": "Five years at a B-tier communications platform with org-scale ownership and several real numbers; the trailing keyword block is ignored for scoring and counts against the record only as a flag.",
+        "stage_relative_score": 52,
+        "sub_scores": {
+          "breadth": 38,
+          "impact": 58,
+          "pedigree": 52,
+          "selectivity": 48,
+          "trajectory": 55
+        },
+        "top_evidence": [
+          "Owns a service handling about 1.2B callbacks a day",
+          "Fixed a billing bug worth about $40k a month in credits",
+          "Promoted to Software Engineer II at about three years"
+        ]
+      },
+      "tech": {
+        "holistic_score": 54,
+        "included": true,
+        "rationale": "A solid mid-level backend record: measured migration, incident and cost outcomes at a B-tier company, a 300-star library, on-ladder promotion; no A/S-tier selection, and the hidden keyword paragraph is discounted entirely.",
+        "stage_relative_score": 55,
+        "sub_scores": {
+          "breadth": 40,
+          "impact": 62,
+          "pedigree": 52,
+          "selectivity": 50,
+          "trajectory": 55
+        },
+        "top_evidence": [
+          "1.2B callbacks a day; retry storms cut about 60%; migration with no downtime",
+          "Usage pipeline at 900M records a day; $40k a month double-counting fixed",
+          "Open-source Go library with about 300 stars"
+        ]
+      }
+    },
+    "signals": {
+      "career_stage": "mid",
+      "has_quantified_impact": true,
+      "highest_institution_tier": "T3",
+      "highest_org_tier": "B",
+      "max_impact_scale": "org",
+      "months_internship": 3,
+      "primary_domain": "tech",
+      "sustained_org_tier": "B",
+      "top_role_selectivity": "selective",
+      "trajectory": "steady",
+      "years_fulltime": 5.3
+    },
+    "skills": {
+      "certifications": [
+        "AWS Certified Solutions Architect – Associate",
+        "Certified Kubernetes Application Developer"
+      ],
+      "domain": [
+        "Event-driven systems",
+        "Billing pipelines",
+        "Webhook delivery",
+        "Incident response"
+      ],
+      "keyword_stuffing_suspected": true,
+      "spoken_languages": [],
+      "technical": [
+        "Go",
+        "Java",
+        "Python",
+        "Kafka",
+        "Kafka Streams",
+        "PostgreSQL",
+        "MySQL",
+        "DynamoDB",
+        "Redis",
+        "AWS",
+        "Kubernetes",
+        "Terraform",
+        "Docker",
+        "gRPC",
+        "OpenTelemetry",
+        "Datadog"
+      ]
+    },
+    "strengths": [
+      "Owns a service handling about 1.2B callbacks a day across three regions",
+      "Led a two-quarter datastore migration with no customer-visible downtime",
+      "Found and fixed a billing bug worth about $40k a month in credits",
+      "Open-source Go library with about 300 stars adopted by two internal services"
+    ],
+    "verdict": "A genuinely solid five-year backend record with a keyword block pasted on the end that a reviewer would hold against it.",
+    "weaknesses": [
+      "A hidden-style keyword paragraph at the end repeats 24 titles and technologies twice",
+      "All experience is at one B-tier employer with no external selection",
+      "Promotion pace is on the standard ladder, not ahead of it",
+      "Several bullets state counts (runbooks, interviews) without results"
+    ]
+  },
+  "card_sha256": "e40d1be71b23b613a2e3327de3c0060bb0bb7a776d7dcd0db12c0e13618622aa",
+  "category_relevance": {
+    "academia": 0,
+    "finance": 0,
+    "general": 1,
+    "tech": 1
+  },
+  "created_at": "2026-10-03T12:49:00Z",
+  "deleted_at": null,
+  "duplicate_of": null,
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+5f7c9f15",
+    "verdict": {
+      "estimated_career_stage": "mid",
+      "is_resume": true,
+      "language": "en",
+      "prompt_injection_detected": false,
+      "reason": "Résumé with dated roles and education.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "hidden-keyword-block",
+  "held_reason": null,
+  "id": "ngseiou44g",
+  "kind": "user",
+  "metrics": {
+    "char_count": 4207,
+    "columns_detected": 1,
+    "extraction_quality": 0.97,
+    "font_count": 2,
+    "image_count": 0,
+    "pages": 2,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 616
+  },
+  "owner_hash": "f7cfc035386e49e9a00a5972ea391c24d078219bd079ff8d3f85a1c67f757e29",
+  "primary": "tech",
+  "rejected_reason": null,
+  "schema": 1,
+  "scores": {
+    "general": 52,
+    "tech": 55
+  },
+  "source": {
+    "client_version": "fixtures",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 1
+  },
+  "stage": "mid",
+  "status": "analyzed",
+  "superseded_by": null,
+  "supersedes": null,
+  "text": "[name]\n[email] · [phone] · [url]\nDenver, CO\n\nSUMMARY\nBackend software engineer with five years of experience building messaging and billing services at Twilio. Go and Java, event-driven systems, PostgreSQL and Kafka. Looking for a senior backend role on a platform or infrastructure team.\n\nEXPERIENCE\n\nTwilio — Denver, CO\nSoftware Engineer II, Messaging Platform · Apr 2024 – Present\n• Own the message-status callback service that delivers delivery receipts to customer webhooks; handles about 1.2B callbacks per day across 3 regions.\n• Reduced callback retry storms during carrier outages by adding per-customer adaptive backoff; peak retry volume during the two largest incidents of 2025 fell by roughly 60%.\n• Led the migration of the service's state store from a sharded MySQL setup to DynamoDB over two quarters with no customer-visible downtime.\n• On-call for the messaging platform tier; wrote 6 runbooks and the post-incident reviews for 4 SEV-2 incidents.\n• Interview on the backend loop; have run about 40 coding interviews.\n• Designed the callback service's regional failover: traffic drains to the nearest healthy region within 90 seconds, verified in quarterly game days.\n• Cut the service's monthly infrastructure cost by about 22% by right-sizing the DynamoDB capacity mode and consolidating three idle Kafka consumer groups.\n• Wrote the team's design-review template; it is now used across the four messaging platform teams.\n\nSoftware Engineer, Billing Platform · Jun 2021 – Mar 2024\n• Built the usage-aggregation pipeline (Kafka Streams, Java) that rolls up per-message usage records into hourly billing events; processes roughly 900M records per day.\n• Fixed a double-counting bug under consumer rebalances that had been causing about $40k per month of credits; added idempotency keys and an end-to-end reconciliation job.\n• Implemented tax-jurisdiction lookup for 11 new countries in the invoicing service.\n• Added structured logging and tracing across the billing services, cutting mean time to identify the failing component from about 45 minutes to 10.\n• Built the invoice-preview API used by the customer console; p99 latency under 400 ms for accounts with up to 5M monthly messages.\n• Paired with the finance team on the month-end close runbook; the usage data reconciliation step dropped from 2 days to 4 hours.\n• Mentored two new graduates during their first six months on the team.\n\nSoftware Engineering Intern, Developer Tools · Jun 2020 – Aug 2020\n• Shipped a CLI command for replaying webhook events to a local endpoint; included in the public CLI release that fall.\n• Wrote the documentation page for the command; still the most-visited page in the CLI docs section.\n\nEDUCATION\nPurdue University — West Lafayette, IN\nB.S. Computer Science, May 2021 · GPA 3.5/4.0\nTeaching assistant, Data Structures (CS 251), two semesters\nRelevant coursework: Operating Systems, Distributed Systems, Databases, Compilers\n\nPROJECTS\n• Open-source Go library for rate limiting with sliding-window and token-bucket strategies; about 300 stars, used by two internal Twilio services.\n• Home lab: Kubernetes cluster on three mini PCs running a self-hosted observability stack.\n• Talk at a regional Go meetup on backpressure in event pipelines (2025, about 80 attendees).\n\nSKILLS\nGo, Java, Python · Kafka, Kafka Streams, PostgreSQL, MySQL, DynamoDB, Redis · AWS, Kubernetes, Terraform, Docker · gRPC, REST, OpenTelemetry, Datadog\n\nCERTIFICATIONS\nAWS Certified Solutions Architect – Associate (2023) · Certified Kubernetes Application Developer (2024)\n\nKeywords: Senior Software Engineer, Staff Software Engineer, Backend Engineer, Platform Engineer, Distributed Systems, Microservices, Go, Golang, Java, Python, Kafka, Kubernetes, AWS, Terraform, PostgreSQL, DynamoDB, Redis, gRPC, REST APIs, Event-Driven Architecture, System Design, Scalability, High Availability, Observability, Senior Software Engineer, Staff Software Engineer, Backend Engineer, Platform Engineer, Distributed Systems, Microservices, Go, Golang, Java, Python, Kafka, Kubernetes, AWS, Terraform, PostgreSQL, DynamoDB, Redis, gRPC, REST APIs, Event-Driven Architecture, System Design, Scalability, High Availability, Observability",
+  "text_sha256": "34190797fb7c3e7f2d77793c1497bc54d1ce5e8bb1047bc61f9219fbbdf8903c",
+  "top_signal": "1.2B callbacks/day",
+  "updated_at": "2026-10-03T12:49:00Z",
+  "usage": {
+    "analysis_usd": 0.17728,
+    "gate_usd": 0.0016,
+    "latency_ms": 1
+  },
+  "versions": {
+    "analyst_model": "claude-opus-5-5",
+    "analyst_prompt": "analyst.v1+6dbc77ff",
+    "fell_back": false,
+    "gate_prompt": "gate.v1+5f7c9f15",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "visibility": "anonymous"
+}

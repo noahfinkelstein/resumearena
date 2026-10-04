@@ -1,0 +1,74 @@
+{
+  "yo35c23qpf": {
+    "c": {
+      "general": 1,
+      "tech": 1
+    },
+    "ch": "5ca32d913518b4e13ebc2a4679ff8e7c0c0b2a4b014e28395dfd4d20c21008c3",
+    "h": "ten-years-no-title-c",
+    "p": "tech",
+    "s": "analyzed",
+    "sc": {
+      "general": 27,
+      "tech": 29
+    },
+    "sig": "10 yrs, one title",
+    "ss": {
+      "general": [
+        45,
+        20,
+        32,
+        28,
+        20,
+        25
+      ],
+      "tech": [
+        45,
+        20,
+        35,
+        30,
+        20,
+        28
+      ]
+    },
+    "st": "senior",
+    "t": 1791031380,
+    "v": "handle"
+  },
+  "yohkicbmyf": {
+    "c": {
+      "academia": 1,
+      "general": 1
+    },
+    "ch": "21b97b9712d05befb488ab4e3d2f90ee0b69bb869d849334bde06eb6a93d40a4",
+    "h": "academia-2100-execut",
+    "p": "academia",
+    "s": "analyzed",
+    "sc": {
+      "academia": 98,
+      "general": 96
+    },
+    "sig": "Kavli Prize, NAS",
+    "ss": {
+      "academia": [
+        98,
+        95,
+        98,
+        99,
+        80,
+        99
+      ],
+      "general": [
+        98,
+        95,
+        97,
+        99,
+        85,
+        97
+      ]
+    },
+    "st": "executive",
+    "t": 1791030540,
+    "v": "handle"
+  }
+}

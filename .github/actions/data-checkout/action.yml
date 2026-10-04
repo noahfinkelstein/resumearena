@@ -1,0 +1,27 @@
+name: data-checkout
+description: Blobless, shallow, non-cone sparse checkout of the `data` branch into ./data, ready to push with GITHUB_TOKEN
+inputs:
+  patterns:
+    description: Newline-separated non-cone sparse-checkout patterns (for example "/settings.json" or "/usage/"). The engine adds more at runtime with `git sparse-checkout add --no-cone`.
+    required: true
+runs:
+  using: composite
+  steps:
+    - uses: actions/checkout@v5
+      with:
+        ref: data
+        path: data
+        fetch-depth: 1
+        filter: blob:none
+        sparse-checkout: ${{ inputs.patterns }}
+        sparse-checkout-cone-mode: false
+        # The engine pushes from this clone with the job's GITHUB_TOKEN.
+        persist-credentials: true
+    - name: Configure the data clone
+      shell: bash
+      run: |
+        git -C data config user.name "resumearena-bot"
+        git -C data config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        # Blobless + shallow: negotiation buys nothing and costs a round trip per fetch.
+        git -C data config fetch.negotiationAlgorithm noop
+        git -C data config advice.detachedHead false

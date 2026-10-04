@@ -1,0 +1,48 @@
+[name]
+[email] | [phone] | [url]
+Kansas City, MO
+
+SUMMARY
+Recent coding bootcamp graduate working in IT support and looking for a junior software developer or support engineer role. Comfortable with JavaScript, React and basic SQL. Fast learner who enjoys helping people solve technical problems and explaining things in plain language.
+
+EDUCATION
+General Assembly, Software Engineering Immersive (12 weeks, full-time)
+Completed Aug 2025
+Coursework: HTML/CSS, JavaScript, React, Node.js, Express, PostgreSQL, Git, Agile basics
+
+University of Central Missouri, Warrensburg, MO
+B.A. in Communication Studies, May 2024
+Relevant coursework: Public Speaking, Technical Writing, Introduction to Information Systems
+
+EXPERIENCE
+Harlow & Pruett Insurance Group, Overland Park, KS
+IT Help Desk Technician, Sep 2025 - Present
+- Respond to help desk tickets from about 90 employees across two offices
+- Resolve around 25 tickets per week covering password resets, printer issues, VPN access and Microsoft 365 questions
+- Set up and imaged 40 new laptops during the 2026 hardware refresh following the checklist provided by the IT manager
+- Help maintain the internal knowledge base by writing short how-to articles
+- Document recurring issues in a shared spreadsheet and review them with the IT manager each month
+- Escalate network and server issues to the managed service provider
+
+Target, Lee's Summit, MO
+Guest Advocate (part-time), Jun 2022 - Aug 2024
+- Assisted customers at checkout and the service desk
+- Trained new seasonal team members on the register
+
+PROJECTS
+Recipe Finder (React, Node.js, Express, third-party recipe API)
+- Built a single-page app where users search recipes by ingredient and save favorites to local storage
+- Followed the bootcamp project guidelines; deployed to a free hosting tier
+
+Weather Dashboard (JavaScript, HTML/CSS, public weather API)
+- Displays a five-day forecast for a searched city with icons and a search history
+- Final project for the bootcamp's front-end unit
+
+SKILLS
+JavaScript, React, Node.js, Express, HTML, CSS, SQL (PostgreSQL basics), Git/GitHub, Microsoft 365 administration, Active Directory basics, Windows 10/11, ticketing systems (Freshservice)
+
+CERTIFICATIONS
+CompTIA A+ (in progress, exam scheduled for late 2026)
+
+ACTIVITIES
+Volunteer, Kansas City Public Library tech help hours (monthly), 2025 - Present

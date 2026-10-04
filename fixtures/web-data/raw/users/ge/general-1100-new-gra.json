@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:31:00Z",
+  "handle": "general-1100-new-gra",
+  "key_exposed": false,
+  "owner_hash": "2dad2d2b18466732e0cae830447e3e8ff2911de2b1e11df308ef0412cb350b6f",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:31:00Z",
+      "current": true,
+      "id": "bkpaevkhpb"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

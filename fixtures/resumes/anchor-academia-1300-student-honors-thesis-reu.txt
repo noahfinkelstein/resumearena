@@ -1,0 +1,48 @@
+[name]
+[email] · [phone] · [url]
+
+EDUCATION
+University of Colorado Boulder — Boulder, CO
+B.A. Physics, minor in Mathematics · Expected May 2027 · GPA 3.81/4.00
+Honors Program; Dean's List (5 semesters)
+Selected coursework: Quantum Mechanics I–II, Statistical Mechanics, Electromagnetism I–II, Optics Laboratory, Computational Physics, Partial Differential Equations
+
+RESEARCH EXPERIENCE
+
+Honors Thesis, Department of Physics, University of Colorado Boulder · Aug 2026 – Present
+Thesis: characterization of magnetic-field noise in a compact ion-trap vacuum package
+• Built a fluxgate-magnetometer station and measured residual field drift to 2 nT over 8 hours; identified the turbo pump controller as the dominant 50 Hz source.
+• Writing a Python package that fits noise spectra to a two-component model; defense scheduled for April 2027.
+• Designed the mu-metal shield layout for the next package revision with the group's postdoc; parts ordered October 2026.
+
+NSF Research Experience for Undergraduates, University of Michigan, Department of Physics · Jun 2025 – Aug 2025
+Ultracold atoms laboratory (10-week program)
+• Assembled and aligned a 780 nm tapered-amplifier laser system and implemented frequency stabilization to an atomic reference; the system is now in daily use in the lab.
+• Wrote the data-acquisition script for a time-of-flight temperature measurement and collected the data set used in a workshop proceedings paper (fourth of six authors).
+• Presented a poster at the REU closing symposium.
+• Kept the lab's laser-safety documentation current and trained two incoming students on the alignment procedure.
+
+Research Assistant, Experimental Atomic Physics group, University of Colorado Boulder · Jan 2025 – May 2025
+• Machined and tested a copper RF resonator; assisted a graduate student with vacuum bake-out and leak checks.
+• Wrote a LabVIEW routine that logs chamber pressure and temperature every 10 seconds; still used by the group.
+
+PUBLICATIONS AND PRESENTATIONS
+1. "Sub-microkelvin temperature measurement in a crossed-dipole trap," Proceedings of the 2026 Midwest Cold Atom Workshop (middle author, 4 of 6), 2026.
+2. Poster: "Magnetic noise characterization for compact ion traps," CU Boulder Physics Undergraduate Research Symposium, Apr 2026.
+3. Poster: "Laser stabilization for a Rb-87 time-of-flight experiment," University of Michigan REU Symposium, Aug 2025.
+
+TEACHING
+Learning Assistant, General Physics I (PHYS 1110) · Fall 2025 and Spring 2026
+• Lead two weekly recitation sections of about 25 students each.
+• Completed the university's Learning Assistant pedagogy course (3 credits).
+
+AWARDS
+• Undergraduate Research Opportunities Program grant, CU Boulder ($1,500), 2026
+• Dean's List, 5 semesters
+
+ACTIVITIES
+• Society of Physics Students, CU Boulder chapter: outreach coordinator, 2025 – Present; organize monthly demonstrations at a Boulder elementary school
+• Member, CU Boulder Astronomy Club
+
+SKILLS
+Python (NumPy, SciPy, Matplotlib), LabVIEW, MATLAB, LaTeX · Optics alignment, vacuum systems, RF electronics, oscilloscopes and spectrum analyzers, basic machining

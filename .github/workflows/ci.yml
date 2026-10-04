@@ -1,0 +1,76 @@
+name: ci
+run-name: "ci ${{ github.event_name }} ${{ github.ref_name }}"
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths-ignore:
+      - "docs/**"
+      - "ops/runbooks/**"
+      - "**/*.md"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  ci:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    env:
+      # No test calls the live API: replay serves recorded responses and fails on a miss.
+      RA_LLM_MODE: replay
+      RA_ENV: ci
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+
+      - uses: ./.github/actions/setup
+
+      - name: Typecheck
+        run: pnpm typecheck
+
+      - name: Lint
+        run: pnpm lint
+
+      - name: Prompts in sync
+        run: pnpm prompts:check
+
+      - name: Test
+        run: pnpm test
+
+      - name: Scripts typecheck and tests
+        run: |
+          pnpm exec tsc --noEmit -p scripts/tsconfig.json
+          pnpm exec vitest run --root scripts
+
+      # Smoke test for native type stripping across the workspace link (spec §2, §16 row 11).
+      - name: Engine CLI smoke
+        run: node engine/src/cli.ts --help
+
+      # deploy.yml runs build-indexes inside Actions with no ANTHROPIC_API_KEY and no RA_LLM_MODE; the
+      # command must not need a model client to exist.
+      - name: build-indexes without an API key
+        run: |
+          node engine/src/cli.ts data init "$RUNNER_TEMP/ra-data"
+          env -u ANTHROPIC_API_KEY -u RA_LLM_MODE GITHUB_ACTIONS=true node engine/src/cli.ts build-indexes --data "$RUNNER_TEMP/ra-data" --out "$RUNNER_TEMP/ra-idx" --build-id ci --commit "$GITHUB_SHA"
+          test -f "$RUNNER_TEMP/ra-idx/manifest.json"
+
+      # Fallback-only build: empty token, project base path, expiry from ops/token.json.
+      - name: Web build
+        env:
+          VITE_BASE: /resumearena/
+          VITE_REPO: ${{ github.repository }}
+          VITE_SUBMIT_TOKEN: ""
+          VITE_BUILD_ID: ci.${{ github.run_id }}
+          VITE_COMMIT: ${{ github.sha }}
+          VITE_MANAGE: "1"
+        run: |
+          VITE_TOKEN_EXPIRES="$(node -p "JSON.parse(require('node:fs').readFileSync('ops/token.json', 'utf8')).expires")"
+          export VITE_TOKEN_EXPIRES
+          pnpm --filter web build

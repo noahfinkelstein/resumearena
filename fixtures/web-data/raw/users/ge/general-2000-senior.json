@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:38:00Z",
+  "handle": "general-2000-senior",
+  "key_exposed": false,
+  "owner_hash": "1078547da39e4447555842604442217517d3cf819a7537959173a472ce09ba65",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:38:00Z",
+      "current": true,
+      "id": "ozlqciz4fg"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

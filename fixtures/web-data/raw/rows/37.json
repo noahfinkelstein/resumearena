@@ -1,0 +1,28 @@
+{
+  "37sazldmbg": {
+    "c": {
+      "general": 1
+    },
+    "ch": "9076b950c1d46da7e81a7f801d91c3ea04806e4be852ab3a7351f969414af40b",
+    "h": "duty-only-bullets-no",
+    "p": "general",
+    "s": "analyzed",
+    "sc": {
+      "general": 27
+    },
+    "sig": "Ops coordinator",
+    "ss": {
+      "general": [
+        35,
+        30,
+        10,
+        15,
+        20,
+        30
+      ]
+    },
+    "st": "early",
+    "t": 1791031200,
+    "v": "anonymous"
+  }
+}

@@ -1,0 +1,73 @@
+[name]
+San Francisco, CA | [email] | [phone] | [url] | [url]
+
+PROFILE
+Research and engineering leader with fourteen years across academia and industry. Currently lead the training-infrastructure organization at OpenAI (30 people across three teams). Previously a research scientist at Google Brain working on large-scale distributed training. Six papers at top venues, including an ICML best paper; about 7,400 citations. PhD from UC Berkeley.
+
+EXPERIENCE
+
+OpenAI — San Francisco, CA
+Head of Training Infrastructure | Feb 2023 – Present
+- Lead a 30-person organization (three teams: distributed runtime, data pipelines, cluster efficiency) responsible for the systems on which every frontier training run executes
+- Owned the migration of the training stack to a new multi-datacenter topology; sustained model-FLOP utilization rose from 38% to 52% on the largest runs, the equivalent of several hundred million dollars of compute per year at fleet scale
+- Introduced asynchronous checkpointing and elastic restart; mean time to recover a run after a hardware fault fell from 47 minutes to 4 minutes, and failed-run compute waste dropped by roughly 80%
+- Set the organization's hiring bar and grew the team from 9 to 30 in two years; 4 direct reports are now managers
+- Represent infrastructure in company-level compute planning; author of the internal capacity model used for the 2025 and 2026 cluster buildouts
+- Led the data-pipeline rebuild that moved tokenization and shuffling onto a streaming system; preprocessing lead time for a new dataset fell from about 3 weeks to 4 days
+- Negotiated and technically scoped two multi-year accelerator supply agreements alongside the finance and hardware teams
+- Established the organization's reliability targets: no frontier run has lost more than 1% of its compute to infrastructure faults since Q2 2024, against 6 – 9% in 2022
+
+Member of Technical Staff, Scaling | Sep 2021 – Jan 2023
+- Designed the pipeline-parallel runtime used for the training runs of the time; removed a class of straggler stalls that had cost about 11% of step time
+- Built the first version of the training-run observability stack, later adopted across the research organization
+
+Google Brain (Google Research) — Mountain View, CA
+Senior Research Scientist | Jul 2017 – Aug 2021
+Research Scientist | Jul 2015 – Jun 2017
+- Led the systems research group (6 researchers, 4 engineers) on distributed training algorithms and compiler-level scheduling for TPU pods
+- First author of the ICML 2019 paper that introduced a communication-scheduling method adopted in the production TPU runtime; ICML best paper award; about 2,100 citations
+- Co-led the design of a sharded optimizer-state approach that reduced memory per accelerator by 3.6x and became a default in an internal large-model training library used by more than 200 researchers
+- Six top-venue papers over the period (ICML, NeurIPS, OSDI, SOSP) and two strong-venue papers (MLSys); eleven granted patents
+- Supervised 9 research interns, 6 of whom returned full-time or became faculty
+- Technical lead for the TPU pod runtime's collective-communication layer in 2018 – 2019; the scheduling work cut end-to-end training time for the flagship language-model runs of the period by about 23%
+- Served on the Brain hiring committee for research scientists from 2019 to 2021 and on the promotion committee for senior researchers in 2020 and 2021
+
+UC Berkeley — Berkeley, CA
+Graduate Student Researcher, RISELab / AMPLab | Aug 2010 – May 2015
+- Dissertation on scheduling for data-parallel analytics; two first-author top-venue systems papers (NSDI, SOSP) and a strong-venue paper (EuroSys)
+- Teaching assistant for the graduate distributed-systems course (two semesters); departmental outstanding GSI award, 2013
+
+EDUCATION
+University of California, Berkeley — Ph.D. in Computer Science, 2015 (systems)
+University of California, Berkeley — B.S. in Electrical Engineering and Computer Sciences, 2010, high honors
+
+SELECTED PUBLICATIONS (6 of 23)
+1. ICML 2019 — first author — communication scheduling for synchronous distributed training (best paper award)
+2. NeurIPS 2020 — second author — memory-efficient optimizer state sharding
+3. OSDI 2018 — first author — a scheduler for heterogeneous accelerator clusters
+4. SOSP 2015 — first author — low-latency scheduling for data-parallel analytics
+5. NSDI 2013 — first author — straggler mitigation for cluster computing frameworks
+6. SOSP 2021 — last author — elastic training runtime for large language models
+7. MLSys 2020 — second author — compiler-driven overlap of communication and computation on TPU pods
+8. EuroSys 2014 — first author — fair sharing for memory-intensive analytics clusters
+Full list of 23 peer-reviewed papers available on request. Citations: about 7,400 (h-index 24).
+
+OPEN SOURCE
+- Original author of the distributed-training scheduling library released by Google Research in 2019; about 6,000 stars, used in at least 3 external training frameworks
+- Maintainer (2016 – 2021) of the cluster-scheduler simulator released with the SOSP 2015 paper; cited and reused in about 40 follow-up papers
+
+HONORS AND SERVICE
+- ICML Best Paper Award, 2019
+- Google Research Faculty-equivalent Research Award for distributed systems, 2018
+- NSF Graduate Research Fellowship, 2011 – 2014
+- Area chair, NeurIPS 2022 and ICML 2023; program committee, OSDI 2021 and MLSys 2020 – 2024
+- Invited talks: Stanford MLSys seminar 2024, MIT CSAIL 2023, Berkeley Sky seminar 2022, keynote at the MLSys 2023 workshop on systems for foundation models
+- Departmental Outstanding Graduate Student Instructor Award, UC Berkeley EECS, 2013
+- Advisory board member, a university research center on scalable machine-learning systems, 2024 – Present
+
+PATENTS
+Eleven granted US patents on distributed training systems, communication scheduling and optimizer-state sharding (2018 – 2024)
+
+SKILLS
+Distributed systems, ML systems and compilers, large-scale training, capacity planning, organizational leadership
+Python, C++, CUDA, JAX, PyTorch, Kubernetes

@@ -1,0 +1,38 @@
+{
+  "4jyb7vrzw7": {
+    "c": {
+      "general": 1,
+      "tech": 1
+    },
+    "ch": "f4c418701c890c796d0ece737a01788abfbc309b3f499530dbf7eff9b9913918",
+    "h": "tech-1600-early-t1-n",
+    "p": "tech",
+    "s": "analyzed",
+    "sc": {
+      "general": 72,
+      "tech": 74
+    },
+    "sig": "+0.8% DAU A/B win",
+    "ss": {
+      "general": [
+        78,
+        72,
+        62,
+        66,
+        48,
+        76
+      ],
+      "tech": [
+        78,
+        74,
+        66,
+        68,
+        50,
+        77
+      ]
+    },
+    "st": "early",
+    "t": 1791029100,
+    "v": "handle"
+  }
+}

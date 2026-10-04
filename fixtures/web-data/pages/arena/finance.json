@@ -1,0 +1,5293 @@
+{
+  "category": "finance",
+  "pairs": [
+    {
+      "a": {
+        "card": {
+          "awards": [
+            {
+              "name": "Top-bucket associate ranking",
+              "scope": "company",
+              "selectivity": "selective"
+            },
+            {
+              "name": "Director-to-MD leadership program selection",
+              "scope": "company",
+              "selectivity": "selective"
+            }
+          ],
+          "card_version": "1.0",
+          "career_stage": "senior",
+          "education": [
+            {
+              "degree_level": "mba",
+              "end_year": 2015,
+              "field": "Investment Banking",
+              "gpa_band": "not_listed",
+              "honors": [],
+              "in_progress": false,
+              "institution": "Cornell University (Johnson)",
+              "institution_tier": "T2"
+            },
+            {
+              "degree_level": "bachelor",
+              "end_year": 2011,
+              "field": "Finance and Accounting",
+              "gpa_band": "not_listed",
+              "honors": [
+                "with distinction"
+              ],
+              "in_progress": false,
+              "institution": "Indiana University (Kelley)",
+              "institution_tier": "T3"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 33,
+              "employment_type": "full_time",
+              "highlights": [
+                "Exclusive advisor on a $3.2B pharma sale; buy-side on a $4.1B CDMO acquisition",
+                "Attributed fees $38M (2024) and $52M (2025)",
+                "Runs a 12-person team; $120M revenue plan"
+              ],
+              "impact_scale": "industry",
+              "org": "Citi",
+              "org_tier": "A",
+              "role": "Managing Director, Healthcare Investment Banking",
+              "role_selectivity": "highly_selective",
+              "seniority": "md_partner",
+              "years": "2024-present"
+            },
+            {
+              "duration_months": 36,
+              "employment_type": "full_time",
+              "highlights": [
+                "Originated 5 mandates with $41M of fees",
+                "Sell-side on $2.7B and $1.1B transactions; $3.3B of issuance"
+              ],
+              "impact_scale": "industry",
+              "org": "Citi",
+              "org_tier": "A",
+              "role": "Director, Healthcare Investment Banking",
+              "role_selectivity": "highly_selective",
+              "seniority": "director",
+              "years": "2021-2023"
+            },
+            {
+              "duration_months": 36,
+              "employment_type": "full_time",
+              "highlights": [
+                "Execution lead on 9 deals totaling $8.9B"
+              ],
+              "impact_scale": "org",
+              "org": "Citi",
+              "org_tier": "A",
+              "role": "Vice President, Healthcare Investment Banking",
+              "role_selectivity": "highly_selective",
+              "seniority": "vp",
+              "years": "2018-2020"
+            },
+            {
+              "duration_months": 30,
+              "employment_type": "full_time",
+              "highlights": [
+                "6 transactions ($4.6B); top-bucket each year"
+              ],
+              "impact_scale": "org",
+              "org": "Citi",
+              "org_tier": "A",
+              "role": "Associate, Healthcare Investment Banking",
+              "role_selectivity": "highly_selective",
+              "seniority": "associate",
+              "years": "2015-2017"
+            },
+            {
+              "duration_months": 24,
+              "employment_type": "full_time",
+              "highlights": [
+                "7 closed sell-side deals, $90M to $650M"
+              ],
+              "impact_scale": "team",
+              "org": "William Blair",
+              "org_tier": "B",
+              "role": "Analyst, Healthcare Investment Banking",
+              "role_selectivity": "selective",
+              "seniority": "analyst",
+              "years": "2011-2013"
+            }
+          ],
+          "headline": "Managing director in healthcare investment banking at an A-tier bank; $20B of announced transactions led; 12-person team",
+          "leadership": [
+            "Runs a 12-person coverage team; group operating committee (one of 14 MDs)",
+            "Board member and treasurer of a $6M-budget free-clinic nonprofit"
+          ],
+          "notable": [
+            "$20.4B of announced transactions led or co-led since 2021",
+            "Fee revenue attributed of $52M in one year",
+            "MD at an A-tier bank after a middle-market analyst start"
+          ],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Healthcare M&A",
+            "Equity capital markets",
+            "Client coverage",
+            "Merger modeling",
+            "Acquisition financing",
+            "Team leadership"
+          ],
+          "top_signal": "$20B deals led",
+          "years_fulltime": 13.3
+        },
+        "delta": 3,
+        "id": "m3zjnglo6p",
+        "r_before": 1574,
+        "stage": "senior"
+      },
+      "at": "2026-10-22T23:00:00Z",
+      "b": {
+        "card": {
+          "awards": [],
+          "card_version": "1.0",
+          "career_stage": "new_grad",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2025,
+              "field": "Finance",
+              "gpa_band": "3.0-3.49",
+              "honors": [],
+              "in_progress": false,
+              "institution": "The Ohio State University (Fisher)",
+              "institution_tier": "T3"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 4,
+              "employment_type": "full_time",
+              "highlights": [
+                "12-month rotation across branch operations, consumer lending and small business banking",
+                "Built an Excel weekly deposit-growth report for the regional manager"
+              ],
+              "impact_scale": "individual",
+              "org": "Huntington National Bank",
+              "org_tier": "C",
+              "role": "Retail Banking Rotational Program Associate",
+              "role_selectivity": "modest",
+              "seniority": "new_grad",
+              "years": "2025-present"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Prepared client paperwork and quarterly review materials for one advisor"
+              ],
+              "impact_scale": "individual",
+              "org": "Edward Jones",
+              "org_tier": "C",
+              "role": "Wealth Management Intern",
+              "role_selectivity": "modest",
+              "seniority": "intern",
+              "years": "2024-2024"
+            },
+            {
+              "duration_months": 33,
+              "employment_type": "part_time",
+              "highlights": [
+                "Service desk; trained new part-time associates"
+              ],
+              "impact_scale": "individual",
+              "org": "Kroger",
+              "org_tier": "D",
+              "role": "Customer Service Associate",
+              "role_selectivity": "modest",
+              "seniority": "other",
+              "years": "2021-2024"
+            }
+          ],
+          "headline": "New graduate in finance from a T3 state flagship; retail-bank rotational associate after a wealth-management internship",
+          "leadership": [
+            "Treasurer of a student investment club for two years; managed the club budget and dues"
+          ],
+          "notable": [],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Excel",
+            "Bloomberg Market Concepts",
+            "PowerPoint",
+            "Spanish (conversational)"
+          ],
+          "top_signal": "Bank rotational",
+          "years_fulltime": 0.3
+        },
+        "delta": -4,
+        "id": "xr3uglaj43",
+        "r_before": 1029,
+        "stage": "new_grad"
+      },
+      "c": 0.8,
+      "kind": "refine",
+      "m": "35bc4164a4385d46",
+      "reason": "A: harder selections and larger stated scope. B: comparable stage but fewer verifiable outcomes.",
+      "w": "A"
+    },
+    {
+      "a": {
+        "card": {
+          "awards": [
+            {
+              "name": "CFA charter (all three levels first attempt)",
+              "scope": "international",
+              "selectivity": "selective"
+            },
+            {
+              "name": "John Harvard Scholar",
+              "scope": "institutional",
+              "selectivity": "selective"
+            }
+          ],
+          "card_version": "1.0",
+          "career_stage": "mid",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2017,
+              "field": "Applied Mathematics (economics track)",
+              "gpa_band": "3.7-3.89",
+              "honors": [
+                "magna cum laude",
+                "John Harvard Scholar (2015, 2016)"
+              ],
+              "in_progress": false,
+              "institution": "Harvard University",
+              "institution_tier": "T1"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 45,
+              "employment_type": "full_time",
+              "highlights": [
+                "$650M gross / $120M net book, sole coverage of 35 names; P&L $18M, $15M, $12M in 2025-2023; Sharpe 1.7, 1.6, 1.9",
+                "Sizing framework cut net factor beta 0.21 to 0.06; alt-data pipeline credited on 6 of the 10 largest 2025 winners",
+                "Approved for a PM-track allocation in 2026 with a $1.5B gross target book; manages 2 people"
+              ],
+              "impact_scale": "org",
+              "org": "Citadel (Surveyor Capital)",
+              "org_tier": "S",
+              "role": "Senior Analyst, US Software and Internet (PM track)",
+              "role_selectivity": "elite",
+              "seniority": "senior",
+              "years": "2023-present"
+            },
+            {
+              "duration_months": 42,
+              "employment_type": "full_time",
+              "highlights": [
+                "Covered 20 names for a $2B pod; 2 of the pod's 5 largest 2021 gains",
+                "Channel-check program across 40 resellers preceded 3 guidance cuts by a quarter or more",
+                "Promoted to senior analyst a year ahead of the ladder"
+              ],
+              "impact_scale": "org",
+              "org": "Citadel (Surveyor Capital)",
+              "org_tier": "S",
+              "role": "Analyst, US Software",
+              "role_selectivity": "elite",
+              "seniority": "analyst",
+              "years": "2019-2022"
+            },
+            {
+              "duration_months": 24,
+              "employment_type": "full_time",
+              "highlights": [
+                "6 closed transactions, ~$14B: 3 software sell-sides, 2 IPOs, 1 convertible",
+                "Merger model for a $4.2B software combination; top bucket both cycles"
+              ],
+              "impact_scale": "org",
+              "org": "Goldman Sachs",
+              "org_tier": "S",
+              "role": "Investment Banking Analyst, TMT",
+              "role_selectivity": "elite",
+              "seniority": "analyst",
+              "years": "2017-2019"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Comps and precedents for 3 live pitches; full-time offer"
+              ],
+              "impact_scale": "team",
+              "org": "Goldman Sachs",
+              "org_tier": "S",
+              "role": "Investment Banking Summer Analyst, TMT",
+              "role_selectivity": "elite",
+              "seniority": "intern",
+              "years": "2016"
+            }
+          ],
+          "headline": "PM-track senior analyst at an S-tier multi-strategy fund; $45M attributed P&L over 3 years; ex-GS TMT; T1 degree; CFA",
+          "leadership": [
+            "Manages 1 analyst and 1 quantitative associate; both promoted on schedule",
+            "Guest lecturer for an undergraduate investment-analysis course, 2024 and 2025"
+          ],
+          "notable": [
+            "Attributed P&L of $45M over three years with Sharpe above 1.6 each year and a 2.1% worst drawdown",
+            "GS TMT top bucket, then an S-tier multi-strategy pod, then PM-track approval with a $1.5B target book",
+            "Harvard applied mathematics, magna cum laude; CFA charter passed first attempt at every level",
+            "Flagged a revenue-recognition change two quarters before a restatement"
+          ],
+          "projects": [
+            {
+              "descriptor": "Alternative-data pipeline for software usage and hiring signals (Python, SQL)",
+              "highlight": "Credited on 6 of the pod's 10 largest winners in 2025",
+              "kind": "software",
+              "scale_signal": "feeds 3 analysts' models",
+              "technical_depth": "substantial"
+            }
+          ],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Long-short fundamental research",
+            "Cohort and unit-economics modeling",
+            "Factor-neutral portfolio construction",
+            "Event-driven positioning",
+            "Python (pandas, statsmodels)",
+            "SQL",
+            "Bloomberg",
+            "FactSet",
+            "Visible Alpha"
+          ],
+          "top_signal": "$45M 3-yr P&L",
+          "years_fulltime": 9.3
+        },
+        "delta": 12,
+        "id": "jocml7s5ue",
+        "r_before": 1865,
+        "stage": "mid"
+      },
+      "at": "2026-10-22T23:00:00Z",
+      "b": {
+        "card": {
+          "awards": [
+            {
+              "name": "Joseph Wharton Scholars",
+              "scope": "institutional",
+              "selectivity": "selective"
+            },
+            {
+              "name": "Top-bucket analyst ranking, two years",
+              "scope": "company",
+              "selectivity": "highly_selective"
+            },
+            {
+              "name": "summa cum laude",
+              "scope": "institutional",
+              "selectivity": "selective"
+            }
+          ],
+          "card_version": "1.0",
+          "career_stage": "early",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2022,
+              "field": "Economics (Finance, Statistics)",
+              "gpa_band": "3.9-3.99",
+              "honors": [
+                "summa cum laude",
+                "Joseph Wharton Scholars",
+                "Dean's List all semesters"
+              ],
+              "in_progress": false,
+              "institution": "University of Pennsylvania (Wharton)",
+              "institution_tier": "T2"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 16,
+              "employment_type": "full_time",
+              "highlights": [
+                "Two closed investments: $700M growth buyout (co-led model and cohort analysis) and $260M growth equity (unit economics, 100-day plan)",
+                "Diligence lead on a $1.5B take-private; owned base and downside cases for the investment committee",
+                "Portfolio pricing work added ~$9M annualized revenue in year one"
+              ],
+              "impact_scale": "industry",
+              "org": "Warburg Pincus",
+              "org_tier": "S",
+              "role": "Associate, Technology and Business Services",
+              "role_selectivity": "elite",
+              "seniority": "associate",
+              "years": "2024-present"
+            },
+            {
+              "duration_months": 24,
+              "employment_type": "full_time",
+              "highlights": [
+                "Top-bucket ranking both years",
+                "Closed: $4.2B public sale, $1.1B sponsor sale (sole analyst, 40 buyers), $650M carve-out",
+                "Built the merger model adopted across the technology team"
+              ],
+              "impact_scale": "industry",
+              "org": "Evercore",
+              "org_tier": "S",
+              "role": "Analyst, Mergers and Acquisitions",
+              "role_selectivity": "highly_selective",
+              "seniority": "analyst",
+              "years": "2022-2024"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Return offer; comps for a live $2B sell-side"
+              ],
+              "impact_scale": "team",
+              "org": "Evercore",
+              "org_tier": "S",
+              "role": "Summer Analyst, M&A",
+              "role_selectivity": "highly_selective",
+              "seniority": "intern",
+              "years": "2021-2021"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Early-insight program; follow-on offering support"
+              ],
+              "impact_scale": "team",
+              "org": "Morgan Stanley",
+              "org_tier": "S",
+              "role": "Sophomore Summer Analyst, IBD",
+              "role_selectivity": "highly_selective",
+              "seniority": "intern",
+              "years": "2020-2020"
+            }
+          ],
+          "headline": "Megafund PE associate 3 years out of a T2 school; 2 closed investments; diligence lead on a $1.5B take-private",
+          "leadership": [
+            "Co-president of a 400-member undergraduate finance club",
+            "Technology portfolio manager of a ~$600k student fund; sector returned 14% vs 9% benchmark",
+            "Mentor in a women-in-finance group; guest speaker at a sophomore banking workshop twice"
+          ],
+          "notable": [
+            "Elite-boutique M&A analyst to megafund PE associate in two years, the standard elite path, executed",
+            "Diligence lead on a $1.5B take-private as a first-year associate",
+            "Top-bucket both analyst years with three closed deals above $650M",
+            "CFA Level II passed while in banking"
+          ],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "LBO modeling",
+            "Merger modeling",
+            "Cohort and unit-economics analysis",
+            "Commercial due diligence",
+            "Capital IQ",
+            "Pitchbook",
+            "Python (pandas)",
+            "SQL"
+          ],
+          "top_signal": "Megafund PE assoc.",
+          "years_fulltime": 3.3
+        },
+        "delta": -12,
+        "id": "ki4jslasr3",
+        "r_before": 1663,
+        "stage": "early"
+      },
+      "c": 0.64,
+      "kind": "refine",
+      "m": "784940bf58493714",
+      "reason": "A: harder selections and larger stated scope. B: comparable stage but fewer verifiable outcomes.",
+      "w": "A"
+    },
+    {
+      "a": {
+        "card": {
+          "awards": [],
+          "card_version": "1.0",
+          "career_stage": "student",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2028,
+              "field": "Business Administration",
+              "gpa_band": "not_listed",
+              "honors": [],
+              "in_progress": true,
+              "institution": "Western Illinois University",
+              "institution_tier": "T4"
+            },
+            {
+              "degree_level": "associate",
+              "end_year": 2026,
+              "field": "Arts",
+              "gpa_band": "not_listed",
+              "honors": [],
+              "in_progress": false,
+              "institution": "Spoon River College",
+              "institution_tier": "T4"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 3,
+              "employment_type": "full_time",
+              "highlights": [
+                "Transactions, drawer balancing and referrals during a summer"
+              ],
+              "impact_scale": "individual",
+              "org": "First Prairie Community Bank",
+              "org_tier": "C",
+              "role": "Teller",
+              "role_selectivity": "modest",
+              "seniority": "other",
+              "years": "2026-2026"
+            },
+            {
+              "duration_months": 25,
+              "employment_type": "part_time",
+              "highlights": [
+                "Trains new servers on the point-of-sale system"
+              ],
+              "impact_scale": "individual",
+              "org": "Riverbend Grill",
+              "org_tier": "D",
+              "role": "Server",
+              "role_selectivity": "modest",
+              "seniority": "other",
+              "years": "2024-present"
+            }
+          ],
+          "headline": "Business administration junior at a T4 regional university; summer bank teller; restaurant server; finance club member",
+          "leadership": [
+            "Finance club member; stock market simulation participant"
+          ],
+          "notable": [],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Excel",
+            "PowerPoint",
+            "Cash handling",
+            "Customer service"
+          ],
+          "top_signal": "Summer bank teller",
+          "years_fulltime": 0
+        },
+        "delta": -7,
+        "id": "cejzwt6qej",
+        "r_before": 877,
+        "stage": "student"
+      },
+      "at": "2026-10-21T23:00:00Z",
+      "b": {
+        "card": {
+          "awards": [
+            {
+              "name": "Business Honors Program admission",
+              "scope": "institutional",
+              "selectivity": "selective"
+            }
+          ],
+          "card_version": "1.0",
+          "career_stage": "student",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2028,
+              "field": "Finance",
+              "gpa_band": "3.7-3.89",
+              "honors": [
+                "Business Honors Program",
+                "University Honors"
+              ],
+              "in_progress": true,
+              "institution": "University of Texas at Austin (McCombs)",
+              "institution_tier": "T2"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "QoE on $180M, $45M and $320M transactions",
+                "Found $2.1M of non-recurring expenses for the adjusted EBITDA schedule",
+                "Return offer for 2027"
+              ],
+              "impact_scale": "team",
+              "org": "KPMG",
+              "org_tier": "B",
+              "role": "Financial Due Diligence Intern, Transaction Services",
+              "role_selectivity": "selective",
+              "seniority": "intern",
+              "years": "2026-2026"
+            },
+            {
+              "duration_months": 13,
+              "employment_type": "part_time",
+              "highlights": [
+                "Selected 8 of 94 applicants",
+                "Approved pitch up 18% vs 9% benchmark"
+              ],
+              "impact_scale": "team",
+              "org": "Student-run investment fund (~$900k AUM)",
+              "org_tier": "C",
+              "role": "Analyst, Industrials",
+              "role_selectivity": "selective",
+              "seniority": "analyst",
+              "years": "2025-present"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Spread 15 middle-market borrowers; covenant tracker adopted"
+              ],
+              "impact_scale": "team",
+              "org": "Texas Capital Bank",
+              "org_tier": "C",
+              "role": "Summer Analyst, Commercial Banking",
+              "role_selectivity": "modest",
+              "seniority": "intern",
+              "years": "2025-2025"
+            }
+          ],
+          "headline": "Finance junior in a T2 honors program; Big-4 transaction services intern with a return offer; $900k student-fund analyst",
+          "leadership": [
+            "Vice President of Education, undergraduate finance association; 10-week prep series for 60 students"
+          ],
+          "notable": [
+            "Student-fund pitch returned 18% against a 9% benchmark",
+            "Big-4 return offer as a rising junior"
+          ],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Excel modeling",
+            "Quality of earnings",
+            "NWC analysis",
+            "Comps",
+            "DCF",
+            "Capital IQ",
+            "Bloomberg",
+            "Credit spreading"
+          ],
+          "top_signal": "Big-4 TS intern",
+          "years_fulltime": 0
+        },
+        "delta": 5,
+        "id": "kjkdcdj5yr",
+        "r_before": 1296,
+        "stage": "student"
+      },
+      "c": 0.76,
+      "kind": "crosscheck",
+      "m": "23fffb238bbfd775",
+      "reason": "B: harder selections and larger stated scope. A: comparable stage but fewer verifiable outcomes.",
+      "w": "B"
+    },
+    {
+      "a": {
+        "card": {
+          "awards": [
+            {
+              "name": "CFA charter (all three levels first attempt)",
+              "scope": "international",
+              "selectivity": "selective"
+            },
+            {
+              "name": "John Harvard Scholar",
+              "scope": "institutional",
+              "selectivity": "selective"
+            }
+          ],
+          "card_version": "1.0",
+          "career_stage": "mid",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2017,
+              "field": "Applied Mathematics (economics track)",
+              "gpa_band": "3.7-3.89",
+              "honors": [
+                "magna cum laude",
+                "John Harvard Scholar (2015, 2016)"
+              ],
+              "in_progress": false,
+              "institution": "Harvard University",
+              "institution_tier": "T1"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 45,
+              "employment_type": "full_time",
+              "highlights": [
+                "$650M gross / $120M net book, sole coverage of 35 names; P&L $18M, $15M, $12M in 2025-2023; Sharpe 1.7, 1.6, 1.9",
+                "Sizing framework cut net factor beta 0.21 to 0.06; alt-data pipeline credited on 6 of the 10 largest 2025 winners",
+                "Approved for a PM-track allocation in 2026 with a $1.5B gross target book; manages 2 people"
+              ],
+              "impact_scale": "org",
+              "org": "Citadel (Surveyor Capital)",
+              "org_tier": "S",
+              "role": "Senior Analyst, US Software and Internet (PM track)",
+              "role_selectivity": "elite",
+              "seniority": "senior",
+              "years": "2023-present"
+            },
+            {
+              "duration_months": 42,
+              "employment_type": "full_time",
+              "highlights": [
+                "Covered 20 names for a $2B pod; 2 of the pod's 5 largest 2021 gains",
+                "Channel-check program across 40 resellers preceded 3 guidance cuts by a quarter or more",
+                "Promoted to senior analyst a year ahead of the ladder"
+              ],
+              "impact_scale": "org",
+              "org": "Citadel (Surveyor Capital)",
+              "org_tier": "S",
+              "role": "Analyst, US Software",
+              "role_selectivity": "elite",
+              "seniority": "analyst",
+              "years": "2019-2022"
+            },
+            {
+              "duration_months": 24,
+              "employment_type": "full_time",
+              "highlights": [
+                "6 closed transactions, ~$14B: 3 software sell-sides, 2 IPOs, 1 convertible",
+                "Merger model for a $4.2B software combination; top bucket both cycles"
+              ],
+              "impact_scale": "org",
+              "org": "Goldman Sachs",
+              "org_tier": "S",
+              "role": "Investment Banking Analyst, TMT",
+              "role_selectivity": "elite",
+              "seniority": "analyst",
+              "years": "2017-2019"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Comps and precedents for 3 live pitches; full-time offer"
+              ],
+              "impact_scale": "team",
+              "org": "Goldman Sachs",
+              "org_tier": "S",
+              "role": "Investment Banking Summer Analyst, TMT",
+              "role_selectivity": "elite",
+              "seniority": "intern",
+              "years": "2016"
+            }
+          ],
+          "headline": "PM-track senior analyst at an S-tier multi-strategy fund; $45M attributed P&L over 3 years; ex-GS TMT; T1 degree; CFA",
+          "leadership": [
+            "Manages 1 analyst and 1 quantitative associate; both promoted on schedule",
+            "Guest lecturer for an undergraduate investment-analysis course, 2024 and 2025"
+          ],
+          "notable": [
+            "Attributed P&L of $45M over three years with Sharpe above 1.6 each year and a 2.1% worst drawdown",
+            "GS TMT top bucket, then an S-tier multi-strategy pod, then PM-track approval with a $1.5B target book",
+            "Harvard applied mathematics, magna cum laude; CFA charter passed first attempt at every level",
+            "Flagged a revenue-recognition change two quarters before a restatement"
+          ],
+          "projects": [
+            {
+              "descriptor": "Alternative-data pipeline for software usage and hiring signals (Python, SQL)",
+              "highlight": "Credited on 6 of the pod's 10 largest winners in 2025",
+              "kind": "software",
+              "scale_signal": "feeds 3 analysts' models",
+              "technical_depth": "substantial"
+            }
+          ],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Long-short fundamental research",
+            "Cohort and unit-economics modeling",
+            "Factor-neutral portfolio construction",
+            "Event-driven positioning",
+            "Python (pandas, statsmodels)",
+            "SQL",
+            "Bloomberg",
+            "FactSet",
+            "Visible Alpha"
+          ],
+          "top_signal": "$45M 3-yr P&L",
+          "years_fulltime": 9.3
+        },
+        "delta": 3,
+        "id": "jocml7s5ue",
+        "r_before": 1839,
+        "stage": "mid"
+      },
+      "at": "2026-10-20T23:00:00Z",
+      "b": {
+        "card": {
+          "awards": [
+            {
+              "name": "Business Honors Program admission",
+              "scope": "institutional",
+              "selectivity": "selective"
+            }
+          ],
+          "card_version": "1.0",
+          "career_stage": "student",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2028,
+              "field": "Finance",
+              "gpa_band": "3.7-3.89",
+              "honors": [
+                "Business Honors Program",
+                "University Honors"
+              ],
+              "in_progress": true,
+              "institution": "University of Texas at Austin (McCombs)",
+              "institution_tier": "T2"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "QoE on $180M, $45M and $320M transactions",
+                "Found $2.1M of non-recurring expenses for the adjusted EBITDA schedule",
+                "Return offer for 2027"
+              ],
+              "impact_scale": "team",
+              "org": "KPMG",
+              "org_tier": "B",
+              "role": "Financial Due Diligence Intern, Transaction Services",
+              "role_selectivity": "selective",
+              "seniority": "intern",
+              "years": "2026-2026"
+            },
+            {
+              "duration_months": 13,
+              "employment_type": "part_time",
+              "highlights": [
+                "Selected 8 of 94 applicants",
+                "Approved pitch up 18% vs 9% benchmark"
+              ],
+              "impact_scale": "team",
+              "org": "Student-run investment fund (~$900k AUM)",
+              "org_tier": "C",
+              "role": "Analyst, Industrials",
+              "role_selectivity": "selective",
+              "seniority": "analyst",
+              "years": "2025-present"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Spread 15 middle-market borrowers; covenant tracker adopted"
+              ],
+              "impact_scale": "team",
+              "org": "Texas Capital Bank",
+              "org_tier": "C",
+              "role": "Summer Analyst, Commercial Banking",
+              "role_selectivity": "modest",
+              "seniority": "intern",
+              "years": "2025-2025"
+            }
+          ],
+          "headline": "Finance junior in a T2 honors program; Big-4 transaction services intern with a return offer; $900k student-fund analyst",
+          "leadership": [
+            "Vice President of Education, undergraduate finance association; 10-week prep series for 60 students"
+          ],
+          "notable": [
+            "Student-fund pitch returned 18% against a 9% benchmark",
+            "Big-4 return offer as a rising junior"
+          ],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Excel modeling",
+            "Quality of earnings",
+            "NWC analysis",
+            "Comps",
+            "DCF",
+            "Capital IQ",
+            "Bloomberg",
+            "Credit spreading"
+          ],
+          "top_signal": "Big-4 TS intern",
+          "years_fulltime": 0
+        },
+        "delta": -3,
+        "id": "kjkdcdj5yr",
+        "r_before": 1299,
+        "stage": "student"
+      },
+      "c": 0.8,
+      "kind": "refine",
+      "m": "2e2093cbad091285",
+      "reason": "A: harder selections and larger stated scope. B: comparable stage but fewer verifiable outcomes.",
+      "w": "A"
+    },
+    {
+      "a": {
+        "card": {
+          "awards": [
+            {
+              "name": "CFA Charterholder",
+              "scope": "international",
+              "selectivity": "selective"
+            },
+            {
+              "name": "Top-bucket associate ranking",
+              "scope": "company",
+              "selectivity": "selective"
+            }
+          ],
+          "card_version": "1.0",
+          "career_stage": "mid",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2020,
+              "field": "Finance, Investment and Banking",
+              "gpa_band": "3.5-3.69",
+              "honors": [],
+              "in_progress": false,
+              "institution": "University of Wisconsin–Madison",
+              "institution_tier": "T3"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 28,
+              "employment_type": "full_time",
+              "highlights": [
+                "Day-to-day associate on a $640M sale: model, CIM, data room, 61-party buyer list",
+                "Manages 2 analysts; model-review checklist cut senior-review error findings from 6 to 2 per deal",
+                "Top-bucket associate 2024; two pitches converted into mandates in 2025"
+              ],
+              "impact_scale": "org",
+              "org": "Robert W. Baird & Co.",
+              "org_tier": "B",
+              "role": "Associate, Investment Banking (Industrial Technology)",
+              "role_selectivity": "selective",
+              "seniority": "associate",
+              "years": "2023-present"
+            },
+            {
+              "duration_months": 36,
+              "employment_type": "full_time",
+              "highlights": [
+                "Lead analyst on a $520M sell-side and a $220M recapitalization",
+                "Built the group LBO template; first-draft model time from 3 days to 1"
+              ],
+              "impact_scale": "org",
+              "org": "Robert W. Baird & Co.",
+              "org_tier": "B",
+              "role": "Analyst, Investment Banking",
+              "role_selectivity": "selective",
+              "seniority": "analyst",
+              "years": "2020-2023"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Precedent transactions for an industrial distributor sale"
+              ],
+              "impact_scale": "team",
+              "org": "Robert W. Baird & Co.",
+              "org_tier": "B",
+              "role": "Summer Analyst, Investment Banking",
+              "role_selectivity": "selective",
+              "seniority": "intern",
+              "years": "2019-2019"
+            }
+          ],
+          "headline": "Investment banking associate, 5 years at a B-tier middle-market bank; 10 closed deals, ~$3B aggregate; CFA charterholder",
+          "leadership": [
+            "Manages two first-year analysts; both top-half in the 2025 review",
+            "Vice president of a university investment banking club"
+          ],
+          "notable": [
+            "Ten closed transactions with named roles, about $3B aggregate",
+            "CFA charter earned while in banking",
+            "Analyst-to-associate promotion at the same bank with a top-bucket ranking"
+          ],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "LBO modeling",
+            "Merger modeling",
+            "DCF valuation",
+            "Sell-side process management",
+            "Due diligence coordination",
+            "Capital IQ",
+            "FactSet",
+            "Excel VBA"
+          ],
+          "top_signal": "10 deals, ~$3B",
+          "years_fulltime": 5.3
+        },
+        "delta": -13,
+        "id": "jz4cv4gtug",
+        "r_before": 1479,
+        "stage": "mid"
+      },
+      "at": "2026-10-19T23:00:00Z",
+      "b": {
+        "card": {
+          "awards": [
+            {
+              "name": "Business Honors Program admission",
+              "scope": "institutional",
+              "selectivity": "selective"
+            }
+          ],
+          "card_version": "1.0",
+          "career_stage": "student",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2028,
+              "field": "Finance",
+              "gpa_band": "3.7-3.89",
+              "honors": [
+                "Business Honors Program",
+                "University Honors"
+              ],
+              "in_progress": true,
+              "institution": "University of Texas at Austin (McCombs)",
+              "institution_tier": "T2"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "QoE on $180M, $45M and $320M transactions",
+                "Found $2.1M of non-recurring expenses for the adjusted EBITDA schedule",
+                "Return offer for 2027"
+              ],
+              "impact_scale": "team",
+              "org": "KPMG",
+              "org_tier": "B",
+              "role": "Financial Due Diligence Intern, Transaction Services",
+              "role_selectivity": "selective",
+              "seniority": "intern",
+              "years": "2026-2026"
+            },
+            {
+              "duration_months": 13,
+              "employment_type": "part_time",
+              "highlights": [
+                "Selected 8 of 94 applicants",
+                "Approved pitch up 18% vs 9% benchmark"
+              ],
+              "impact_scale": "team",
+              "org": "Student-run investment fund (~$900k AUM)",
+              "org_tier": "C",
+              "role": "Analyst, Industrials",
+              "role_selectivity": "selective",
+              "seniority": "analyst",
+              "years": "2025-present"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Spread 15 middle-market borrowers; covenant tracker adopted"
+              ],
+              "impact_scale": "team",
+              "org": "Texas Capital Bank",
+              "org_tier": "C",
+              "role": "Summer Analyst, Commercial Banking",
+              "role_selectivity": "modest",
+              "seniority": "intern",
+              "years": "2025-2025"
+            }
+          ],
+          "headline": "Finance junior in a T2 honors program; Big-4 transaction services intern with a return offer; $900k student-fund analyst",
+          "leadership": [
+            "Vice President of Education, undergraduate finance association; 10-week prep series for 60 students"
+          ],
+          "notable": [
+            "Student-fund pitch returned 18% against a 9% benchmark",
+            "Big-4 return offer as a rising junior"
+          ],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Excel modeling",
+            "Quality of earnings",
+            "NWC analysis",
+            "Comps",
+            "DCF",
+            "Capital IQ",
+            "Bloomberg",
+            "Credit spreading"
+          ],
+          "top_signal": "Big-4 TS intern",
+          "years_fulltime": 0
+        },
+        "delta": 13,
+        "id": "kjkdcdj5yr",
+        "r_before": 1286,
+        "stage": "student"
+      },
+      "c": 0.64,
+      "kind": "refine",
+      "m": "60274039c01a1912",
+      "reason": "A: harder selections and larger stated scope. B: comparable stage but fewer verifiable outcomes.",
+      "w": "draw"
+    },
+    {
+      "a": {
+        "card": {
+          "awards": [],
+          "card_version": "1.0",
+          "career_stage": "early",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2024,
+              "field": "Business Administration, Finance",
+              "gpa_band": "3.5-3.69",
+              "honors": [],
+              "in_progress": false,
+              "institution": "University of Missouri",
+              "institution_tier": "T3"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 27,
+              "employment_type": "full_time",
+              "highlights": [
+                "Owns the monthly forecast and annual plan for a $1.4B, 14-site division; presents variances to the division CFO",
+                "Driver-based model closed the forecast 2 business days earlier",
+                "Found $2.1M of annualized freight savings adopted by operations"
+              ],
+              "impact_scale": "org",
+              "org": "Emerson Electric",
+              "org_tier": "B",
+              "role": "Financial Analyst, FP&A, Discrete Automation",
+              "role_selectivity": "modest",
+              "seniority": "analyst",
+              "years": "2024-present"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Automated a weekly cash report, ~4 hours a week saved"
+              ],
+              "impact_scale": "team",
+              "org": "Emerson Electric",
+              "org_tier": "B",
+              "role": "Finance Intern, Corporate FP&A",
+              "role_selectivity": "modest",
+              "seniority": "intern",
+              "years": "2023"
+            },
+            {
+              "duration_months": 9,
+              "employment_type": "part_time",
+              "highlights": [
+                "Weekly review sessions for ~60 students"
+              ],
+              "impact_scale": "team",
+              "org": "University of Missouri",
+              "org_tier": "C",
+              "role": "Teaching Assistant, Financial Accounting",
+              "role_selectivity": "modest",
+              "seniority": "other",
+              "years": "2023-2024"
+            }
+          ],
+          "headline": "FP&A analyst, 2 years at a B-tier F500 industrial; owns the forecast for a $1.4B division; T3 finance degree",
+          "leadership": [
+            "Treasurer of a 90-member student finance association; $9,000 annual budget"
+          ],
+          "notable": [
+            "Sole owner of a $1.4B division forecast two years out of a T3 program",
+            "Freight-savings analysis worth $2.1M a year adopted by operations"
+          ],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Financial modeling",
+            "Variance analysis",
+            "Forecasting and budgeting",
+            "Hyperion Planning",
+            "Excel",
+            "Power Query",
+            "Power BI",
+            "Oracle ERP",
+            "PowerPoint"
+          ],
+          "top_signal": "$1.4B div forecast",
+          "years_fulltime": 2.3
+        },
+        "delta": -2,
+        "id": "2elgnjj7jt",
+        "r_before": 1242,
+        "stage": "early"
+      },
+      "at": "2026-10-19T23:00:00Z",
+      "b": {
+        "card": {
+          "awards": [
+            {
+              "name": "CFA charter (all three levels first attempt)",
+              "scope": "international",
+              "selectivity": "selective"
+            },
+            {
+              "name": "John Harvard Scholar",
+              "scope": "institutional",
+              "selectivity": "selective"
+            }
+          ],
+          "card_version": "1.0",
+          "career_stage": "mid",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2017,
+              "field": "Applied Mathematics (economics track)",
+              "gpa_band": "3.7-3.89",
+              "honors": [
+                "magna cum laude",
+                "John Harvard Scholar (2015, 2016)"
+              ],
+              "in_progress": false,
+              "institution": "Harvard University",
+              "institution_tier": "T1"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 45,
+              "employment_type": "full_time",
+              "highlights": [
+                "$650M gross / $120M net book, sole coverage of 35 names; P&L $18M, $15M, $12M in 2025-2023; Sharpe 1.7, 1.6, 1.9",
+                "Sizing framework cut net factor beta 0.21 to 0.06; alt-data pipeline credited on 6 of the 10 largest 2025 winners",
+                "Approved for a PM-track allocation in 2026 with a $1.5B gross target book; manages 2 people"
+              ],
+              "impact_scale": "org",
+              "org": "Citadel (Surveyor Capital)",
+              "org_tier": "S",
+              "role": "Senior Analyst, US Software and Internet (PM track)",
+              "role_selectivity": "elite",
+              "seniority": "senior",
+              "years": "2023-present"
+            },
+            {
+              "duration_months": 42,
+              "employment_type": "full_time",
+              "highlights": [
+                "Covered 20 names for a $2B pod; 2 of the pod's 5 largest 2021 gains",
+                "Channel-check program across 40 resellers preceded 3 guidance cuts by a quarter or more",
+                "Promoted to senior analyst a year ahead of the ladder"
+              ],
+              "impact_scale": "org",
+              "org": "Citadel (Surveyor Capital)",
+              "org_tier": "S",
+              "role": "Analyst, US Software",
+              "role_selectivity": "elite",
+              "seniority": "analyst",
+              "years": "2019-2022"
+            },
+            {
+              "duration_months": 24,
+              "employment_type": "full_time",
+              "highlights": [
+                "6 closed transactions, ~$14B: 3 software sell-sides, 2 IPOs, 1 convertible",
+                "Merger model for a $4.2B software combination; top bucket both cycles"
+              ],
+              "impact_scale": "org",
+              "org": "Goldman Sachs",
+              "org_tier": "S",
+              "role": "Investment Banking Analyst, TMT",
+              "role_selectivity": "elite",
+              "seniority": "analyst",
+              "years": "2017-2019"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Comps and precedents for 3 live pitches; full-time offer"
+              ],
+              "impact_scale": "team",
+              "org": "Goldman Sachs",
+              "org_tier": "S",
+              "role": "Investment Banking Summer Analyst, TMT",
+              "role_selectivity": "elite",
+              "seniority": "intern",
+              "years": "2016"
+            }
+          ],
+          "headline": "PM-track senior analyst at an S-tier multi-strategy fund; $45M attributed P&L over 3 years; ex-GS TMT; T1 degree; CFA",
+          "leadership": [
+            "Manages 1 analyst and 1 quantitative associate; both promoted on schedule",
+            "Guest lecturer for an undergraduate investment-analysis course, 2024 and 2025"
+          ],
+          "notable": [
+            "Attributed P&L of $45M over three years with Sharpe above 1.6 each year and a 2.1% worst drawdown",
+            "GS TMT top bucket, then an S-tier multi-strategy pod, then PM-track approval with a $1.5B target book",
+            "Harvard applied mathematics, magna cum laude; CFA charter passed first attempt at every level",
+            "Flagged a revenue-recognition change two quarters before a restatement"
+          ],
+          "projects": [
+            {
+              "descriptor": "Alternative-data pipeline for software usage and hiring signals (Python, SQL)",
+              "highlight": "Credited on 6 of the pod's 10 largest winners in 2025",
+              "kind": "software",
+              "scale_signal": "feeds 3 analysts' models",
+              "technical_depth": "substantial"
+            }
+          ],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Long-short fundamental research",
+            "Cohort and unit-economics modeling",
+            "Factor-neutral portfolio construction",
+            "Event-driven positioning",
+            "Python (pandas, statsmodels)",
+            "SQL",
+            "Bloomberg",
+            "FactSet",
+            "Visible Alpha"
+          ],
+          "top_signal": "$45M 3-yr P&L",
+          "years_fulltime": 9.3
+        },
+        "delta": 2,
+        "id": "jocml7s5ue",
+        "r_before": 1837,
+        "stage": "mid"
+      },
+      "c": 0.8,
+      "kind": "refine",
+      "m": "95de3e8729c89505",
+      "reason": "B: harder selections and larger stated scope. A: comparable stage but fewer verifiable outcomes.",
+      "w": "B"
+    },
+    {
+      "a": {
+        "card": {
+          "awards": [],
+          "card_version": "1.0",
+          "career_stage": "student",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2028,
+              "field": "Business Administration",
+              "gpa_band": "not_listed",
+              "honors": [],
+              "in_progress": true,
+              "institution": "Western Illinois University",
+              "institution_tier": "T4"
+            },
+            {
+              "degree_level": "associate",
+              "end_year": 2026,
+              "field": "Arts",
+              "gpa_band": "not_listed",
+              "honors": [],
+              "in_progress": false,
+              "institution": "Spoon River College",
+              "institution_tier": "T4"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 3,
+              "employment_type": "full_time",
+              "highlights": [
+                "Transactions, drawer balancing and referrals during a summer"
+              ],
+              "impact_scale": "individual",
+              "org": "First Prairie Community Bank",
+              "org_tier": "C",
+              "role": "Teller",
+              "role_selectivity": "modest",
+              "seniority": "other",
+              "years": "2026-2026"
+            },
+            {
+              "duration_months": 25,
+              "employment_type": "part_time",
+              "highlights": [
+                "Trains new servers on the point-of-sale system"
+              ],
+              "impact_scale": "individual",
+              "org": "Riverbend Grill",
+              "org_tier": "D",
+              "role": "Server",
+              "role_selectivity": "modest",
+              "seniority": "other",
+              "years": "2024-present"
+            }
+          ],
+          "headline": "Business administration junior at a T4 regional university; summer bank teller; restaurant server; finance club member",
+          "leadership": [
+            "Finance club member; stock market simulation participant"
+          ],
+          "notable": [],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Excel",
+            "PowerPoint",
+            "Cash handling",
+            "Customer service"
+          ],
+          "top_signal": "Summer bank teller",
+          "years_fulltime": 0
+        },
+        "delta": 0,
+        "id": "cejzwt6qej",
+        "r_before": 877,
+        "stage": "student"
+      },
+      "at": "2026-10-18T23:00:00Z",
+      "b": {
+        "card": {
+          "awards": [
+            {
+              "name": "Baker Scholar",
+              "scope": "institutional",
+              "selectivity": "highly_selective"
+            },
+            {
+              "name": "Joseph Wharton Scholar",
+              "scope": "institutional",
+              "selectivity": "selective"
+            },
+            {
+              "name": "CFA charterholder",
+              "scope": "international",
+              "selectivity": "selective"
+            }
+          ],
+          "card_version": "1.0",
+          "career_stage": "senior",
+          "education": [
+            {
+              "degree_level": "mba",
+              "end_year": 2014,
+              "field": "Business Administration",
+              "gpa_band": "not_listed",
+              "honors": [
+                "Baker Scholar"
+              ],
+              "in_progress": false,
+              "institution": "Harvard Business School",
+              "institution_tier": "T1"
+            },
+            {
+              "degree_level": "bachelor",
+              "end_year": 2010,
+              "field": "Economics",
+              "gpa_band": "not_listed",
+              "honors": [
+                "summa cum laude",
+                "Joseph Wharton Scholar"
+              ],
+              "in_progress": false,
+              "institution": "University of Pennsylvania (Wharton)",
+              "institution_tier": "T2"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 54,
+              "employment_type": "founder",
+              "highlights": [
+                "$2.0B Fund I in a single close; 28 institutional LPs",
+                "Realized 3.2x on a $140M investment sold at $1.4B EV",
+                "Fund I at 1.6x gross and 22% net IRR; Fund II targeting $2.5B"
+              ],
+              "impact_scale": "industry",
+              "org": "Growth equity fund (founded)",
+              "org_tier": "A",
+              "role": "Founder and Managing Partner",
+              "role_selectivity": "elite",
+              "seniority": "founder",
+              "years": "2022-present"
+            },
+            {
+              "duration_months": 96,
+              "employment_type": "full_time",
+              "highlights": [
+                "Led 9 investments totaling $2.3B",
+                "Realized 4.1x through an IPO and 2.6x through a strategic sale",
+                "Youngest partner promotion in the group at 33"
+              ],
+              "impact_scale": "industry",
+              "org": "General Atlantic",
+              "org_tier": "A",
+              "role": "Partner, Technology (VP through Partner)",
+              "role_selectivity": "elite",
+              "seniority": "md_partner",
+              "years": "2014-2022"
+            },
+            {
+              "duration_months": 24,
+              "employment_type": "full_time",
+              "highlights": [
+                "8 announced deals ($11B); top bucket both years"
+              ],
+              "impact_scale": "org",
+              "org": "Goldman Sachs",
+              "org_tier": "S",
+              "role": "Analyst, TMT Investment Banking",
+              "role_selectivity": "elite",
+              "seniority": "analyst",
+              "years": "2010-2012"
+            }
+          ],
+          "headline": "Founding managing partner of a $2B growth fund; ex-partner at an A-tier growth equity firm; S-tier TMT banking; 3 exits",
+          "leadership": [
+            "Leads a 19-person investment firm and its investment committee",
+            "Five current portfolio boards; chaired audit and compensation committees",
+            "Investment committee of a $1.8B university endowment"
+          ],
+          "notable": [
+            "Raised a $2.0B first fund in a single close",
+            "Three realized exits at 4.1x, 3.2x and 2.6x",
+            "Partner at 33 at an A-tier growth firm",
+            "Baker Scholar after top-bucket S-tier banking"
+          ],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Growth equity underwriting",
+            "Fundraising",
+            "Board governance",
+            "Vertical software",
+            "Healthcare IT",
+            "Fintech",
+            "Exit execution"
+          ],
+          "top_signal": "Founded $2B fund",
+          "years_fulltime": 14.5
+        },
+        "delta": 0,
+        "id": "si4jwz5kcs",
+        "r_before": 2028,
+        "stage": "senior"
+      },
+      "c": 0.8,
+      "kind": "refine",
+      "m": "6d550e90c8959df4",
+      "reason": "B: harder selections and larger stated scope. A: comparable stage but fewer verifiable outcomes.",
+      "w": "B"
+    },
+    {
+      "a": {
+        "card": {
+          "awards": [
+            {
+              "name": "CFA Charterholder",
+              "scope": "international",
+              "selectivity": "selective"
+            },
+            {
+              "name": "Top-bucket associate ranking",
+              "scope": "company",
+              "selectivity": "selective"
+            }
+          ],
+          "card_version": "1.0",
+          "career_stage": "mid",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2020,
+              "field": "Finance, Investment and Banking",
+              "gpa_band": "3.5-3.69",
+              "honors": [],
+              "in_progress": false,
+              "institution": "University of Wisconsin–Madison",
+              "institution_tier": "T3"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 28,
+              "employment_type": "full_time",
+              "highlights": [
+                "Day-to-day associate on a $640M sale: model, CIM, data room, 61-party buyer list",
+                "Manages 2 analysts; model-review checklist cut senior-review error findings from 6 to 2 per deal",
+                "Top-bucket associate 2024; two pitches converted into mandates in 2025"
+              ],
+              "impact_scale": "org",
+              "org": "Robert W. Baird & Co.",
+              "org_tier": "B",
+              "role": "Associate, Investment Banking (Industrial Technology)",
+              "role_selectivity": "selective",
+              "seniority": "associate",
+              "years": "2023-present"
+            },
+            {
+              "duration_months": 36,
+              "employment_type": "full_time",
+              "highlights": [
+                "Lead analyst on a $520M sell-side and a $220M recapitalization",
+                "Built the group LBO template; first-draft model time from 3 days to 1"
+              ],
+              "impact_scale": "org",
+              "org": "Robert W. Baird & Co.",
+              "org_tier": "B",
+              "role": "Analyst, Investment Banking",
+              "role_selectivity": "selective",
+              "seniority": "analyst",
+              "years": "2020-2023"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Precedent transactions for an industrial distributor sale"
+              ],
+              "impact_scale": "team",
+              "org": "Robert W. Baird & Co.",
+              "org_tier": "B",
+              "role": "Summer Analyst, Investment Banking",
+              "role_selectivity": "selective",
+              "seniority": "intern",
+              "years": "2019-2019"
+            }
+          ],
+          "headline": "Investment banking associate, 5 years at a B-tier middle-market bank; 10 closed deals, ~$3B aggregate; CFA charterholder",
+          "leadership": [
+            "Manages two first-year analysts; both top-half in the 2025 review",
+            "Vice president of a university investment banking club"
+          ],
+          "notable": [
+            "Ten closed transactions with named roles, about $3B aggregate",
+            "CFA charter earned while in banking",
+            "Analyst-to-associate promotion at the same bank with a top-bucket ranking"
+          ],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "LBO modeling",
+            "Merger modeling",
+            "DCF valuation",
+            "Sell-side process management",
+            "Due diligence coordination",
+            "Capital IQ",
+            "FactSet",
+            "Excel VBA"
+          ],
+          "top_signal": "10 deals, ~$3B",
+          "years_fulltime": 5.3
+        },
+        "delta": 5,
+        "id": "jz4cv4gtug",
+        "r_before": 1474,
+        "stage": "mid"
+      },
+      "at": "2026-10-18T23:00:00Z",
+      "b": {
+        "card": {
+          "awards": [],
+          "card_version": "1.0",
+          "career_stage": "new_grad",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2025,
+              "field": "Finance",
+              "gpa_band": "3.0-3.49",
+              "honors": [],
+              "in_progress": false,
+              "institution": "The Ohio State University (Fisher)",
+              "institution_tier": "T3"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 4,
+              "employment_type": "full_time",
+              "highlights": [
+                "12-month rotation across branch operations, consumer lending and small business banking",
+                "Built an Excel weekly deposit-growth report for the regional manager"
+              ],
+              "impact_scale": "individual",
+              "org": "Huntington National Bank",
+              "org_tier": "C",
+              "role": "Retail Banking Rotational Program Associate",
+              "role_selectivity": "modest",
+              "seniority": "new_grad",
+              "years": "2025-present"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Prepared client paperwork and quarterly review materials for one advisor"
+              ],
+              "impact_scale": "individual",
+              "org": "Edward Jones",
+              "org_tier": "C",
+              "role": "Wealth Management Intern",
+              "role_selectivity": "modest",
+              "seniority": "intern",
+              "years": "2024-2024"
+            },
+            {
+              "duration_months": 33,
+              "employment_type": "part_time",
+              "highlights": [
+                "Service desk; trained new part-time associates"
+              ],
+              "impact_scale": "individual",
+              "org": "Kroger",
+              "org_tier": "D",
+              "role": "Customer Service Associate",
+              "role_selectivity": "modest",
+              "seniority": "other",
+              "years": "2021-2024"
+            }
+          ],
+          "headline": "New graduate in finance from a T3 state flagship; retail-bank rotational associate after a wealth-management internship",
+          "leadership": [
+            "Treasurer of a student investment club for two years; managed the club budget and dues"
+          ],
+          "notable": [],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Excel",
+            "Bloomberg Market Concepts",
+            "PowerPoint",
+            "Spanish (conversational)"
+          ],
+          "top_signal": "Bank rotational",
+          "years_fulltime": 0.3
+        },
+        "delta": -6,
+        "id": "xr3uglaj43",
+        "r_before": 1036,
+        "stage": "new_grad"
+      },
+      "c": 0.76,
+      "kind": "refine",
+      "m": "19a58191b8c7e73b",
+      "reason": "A: harder selections and larger stated scope. B: comparable stage but fewer verifiable outcomes.",
+      "w": "A"
+    },
+    {
+      "a": {
+        "card": {
+          "awards": [],
+          "card_version": "1.0",
+          "career_stage": "early",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2024,
+              "field": "Business Administration, Finance",
+              "gpa_band": "3.5-3.69",
+              "honors": [],
+              "in_progress": false,
+              "institution": "University of Missouri",
+              "institution_tier": "T3"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 27,
+              "employment_type": "full_time",
+              "highlights": [
+                "Owns the monthly forecast and annual plan for a $1.4B, 14-site division; presents variances to the division CFO",
+                "Driver-based model closed the forecast 2 business days earlier",
+                "Found $2.1M of annualized freight savings adopted by operations"
+              ],
+              "impact_scale": "org",
+              "org": "Emerson Electric",
+              "org_tier": "B",
+              "role": "Financial Analyst, FP&A, Discrete Automation",
+              "role_selectivity": "modest",
+              "seniority": "analyst",
+              "years": "2024-present"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Automated a weekly cash report, ~4 hours a week saved"
+              ],
+              "impact_scale": "team",
+              "org": "Emerson Electric",
+              "org_tier": "B",
+              "role": "Finance Intern, Corporate FP&A",
+              "role_selectivity": "modest",
+              "seniority": "intern",
+              "years": "2023"
+            },
+            {
+              "duration_months": 9,
+              "employment_type": "part_time",
+              "highlights": [
+                "Weekly review sessions for ~60 students"
+              ],
+              "impact_scale": "team",
+              "org": "University of Missouri",
+              "org_tier": "C",
+              "role": "Teaching Assistant, Financial Accounting",
+              "role_selectivity": "modest",
+              "seniority": "other",
+              "years": "2023-2024"
+            }
+          ],
+          "headline": "FP&A analyst, 2 years at a B-tier F500 industrial; owns the forecast for a $1.4B division; T3 finance degree",
+          "leadership": [
+            "Treasurer of a 90-member student finance association; $9,000 annual budget"
+          ],
+          "notable": [
+            "Sole owner of a $1.4B division forecast two years out of a T3 program",
+            "Freight-savings analysis worth $2.1M a year adopted by operations"
+          ],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Financial modeling",
+            "Variance analysis",
+            "Forecasting and budgeting",
+            "Hyperion Planning",
+            "Excel",
+            "Power Query",
+            "Power BI",
+            "Oracle ERP",
+            "PowerPoint"
+          ],
+          "top_signal": "$1.4B div forecast",
+          "years_fulltime": 2.3
+        },
+        "delta": -15,
+        "id": "2elgnjj7jt",
+        "r_before": 1257,
+        "stage": "early"
+      },
+      "at": "2026-10-17T23:00:00Z",
+      "b": {
+        "card": {
+          "awards": [
+            {
+              "name": "CFA Charterholder",
+              "scope": "international",
+              "selectivity": "selective"
+            },
+            {
+              "name": "Top-bucket associate ranking",
+              "scope": "company",
+              "selectivity": "selective"
+            }
+          ],
+          "card_version": "1.0",
+          "career_stage": "mid",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2020,
+              "field": "Finance, Investment and Banking",
+              "gpa_band": "3.5-3.69",
+              "honors": [],
+              "in_progress": false,
+              "institution": "University of Wisconsin–Madison",
+              "institution_tier": "T3"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 28,
+              "employment_type": "full_time",
+              "highlights": [
+                "Day-to-day associate on a $640M sale: model, CIM, data room, 61-party buyer list",
+                "Manages 2 analysts; model-review checklist cut senior-review error findings from 6 to 2 per deal",
+                "Top-bucket associate 2024; two pitches converted into mandates in 2025"
+              ],
+              "impact_scale": "org",
+              "org": "Robert W. Baird & Co.",
+              "org_tier": "B",
+              "role": "Associate, Investment Banking (Industrial Technology)",
+              "role_selectivity": "selective",
+              "seniority": "associate",
+              "years": "2023-present"
+            },
+            {
+              "duration_months": 36,
+              "employment_type": "full_time",
+              "highlights": [
+                "Lead analyst on a $520M sell-side and a $220M recapitalization",
+                "Built the group LBO template; first-draft model time from 3 days to 1"
+              ],
+              "impact_scale": "org",
+              "org": "Robert W. Baird & Co.",
+              "org_tier": "B",
+              "role": "Analyst, Investment Banking",
+              "role_selectivity": "selective",
+              "seniority": "analyst",
+              "years": "2020-2023"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Precedent transactions for an industrial distributor sale"
+              ],
+              "impact_scale": "team",
+              "org": "Robert W. Baird & Co.",
+              "org_tier": "B",
+              "role": "Summer Analyst, Investment Banking",
+              "role_selectivity": "selective",
+              "seniority": "intern",
+              "years": "2019-2019"
+            }
+          ],
+          "headline": "Investment banking associate, 5 years at a B-tier middle-market bank; 10 closed deals, ~$3B aggregate; CFA charterholder",
+          "leadership": [
+            "Manages two first-year analysts; both top-half in the 2025 review",
+            "Vice president of a university investment banking club"
+          ],
+          "notable": [
+            "Ten closed transactions with named roles, about $3B aggregate",
+            "CFA charter earned while in banking",
+            "Analyst-to-associate promotion at the same bank with a top-bucket ranking"
+          ],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "LBO modeling",
+            "Merger modeling",
+            "DCF valuation",
+            "Sell-side process management",
+            "Due diligence coordination",
+            "Capital IQ",
+            "FactSet",
+            "Excel VBA"
+          ],
+          "top_signal": "10 deals, ~$3B",
+          "years_fulltime": 5.3
+        },
+        "delta": 15,
+        "id": "jz4cv4gtug",
+        "r_before": 1459,
+        "stage": "mid"
+      },
+      "c": 0.68,
+      "kind": "refine",
+      "m": "b746b1a5d3fe752b",
+      "reason": "B: harder selections and larger stated scope. A: comparable stage but fewer verifiable outcomes.",
+      "w": "B"
+    },
+    {
+      "a": {
+        "card": {
+          "awards": [
+            {
+              "name": "Baker Scholar",
+              "scope": "institutional",
+              "selectivity": "highly_selective"
+            },
+            {
+              "name": "Joseph Wharton Scholar",
+              "scope": "institutional",
+              "selectivity": "selective"
+            },
+            {
+              "name": "CFA charterholder",
+              "scope": "international",
+              "selectivity": "selective"
+            }
+          ],
+          "card_version": "1.0",
+          "career_stage": "senior",
+          "education": [
+            {
+              "degree_level": "mba",
+              "end_year": 2014,
+              "field": "Business Administration",
+              "gpa_band": "not_listed",
+              "honors": [
+                "Baker Scholar"
+              ],
+              "in_progress": false,
+              "institution": "Harvard Business School",
+              "institution_tier": "T1"
+            },
+            {
+              "degree_level": "bachelor",
+              "end_year": 2010,
+              "field": "Economics",
+              "gpa_band": "not_listed",
+              "honors": [
+                "summa cum laude",
+                "Joseph Wharton Scholar"
+              ],
+              "in_progress": false,
+              "institution": "University of Pennsylvania (Wharton)",
+              "institution_tier": "T2"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 54,
+              "employment_type": "founder",
+              "highlights": [
+                "$2.0B Fund I in a single close; 28 institutional LPs",
+                "Realized 3.2x on a $140M investment sold at $1.4B EV",
+                "Fund I at 1.6x gross and 22% net IRR; Fund II targeting $2.5B"
+              ],
+              "impact_scale": "industry",
+              "org": "Growth equity fund (founded)",
+              "org_tier": "A",
+              "role": "Founder and Managing Partner",
+              "role_selectivity": "elite",
+              "seniority": "founder",
+              "years": "2022-present"
+            },
+            {
+              "duration_months": 96,
+              "employment_type": "full_time",
+              "highlights": [
+                "Led 9 investments totaling $2.3B",
+                "Realized 4.1x through an IPO and 2.6x through a strategic sale",
+                "Youngest partner promotion in the group at 33"
+              ],
+              "impact_scale": "industry",
+              "org": "General Atlantic",
+              "org_tier": "A",
+              "role": "Partner, Technology (VP through Partner)",
+              "role_selectivity": "elite",
+              "seniority": "md_partner",
+              "years": "2014-2022"
+            },
+            {
+              "duration_months": 24,
+              "employment_type": "full_time",
+              "highlights": [
+                "8 announced deals ($11B); top bucket both years"
+              ],
+              "impact_scale": "org",
+              "org": "Goldman Sachs",
+              "org_tier": "S",
+              "role": "Analyst, TMT Investment Banking",
+              "role_selectivity": "elite",
+              "seniority": "analyst",
+              "years": "2010-2012"
+            }
+          ],
+          "headline": "Founding managing partner of a $2B growth fund; ex-partner at an A-tier growth equity firm; S-tier TMT banking; 3 exits",
+          "leadership": [
+            "Leads a 19-person investment firm and its investment committee",
+            "Five current portfolio boards; chaired audit and compensation committees",
+            "Investment committee of a $1.8B university endowment"
+          ],
+          "notable": [
+            "Raised a $2.0B first fund in a single close",
+            "Three realized exits at 4.1x, 3.2x and 2.6x",
+            "Partner at 33 at an A-tier growth firm",
+            "Baker Scholar after top-bucket S-tier banking"
+          ],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Growth equity underwriting",
+            "Fundraising",
+            "Board governance",
+            "Vertical software",
+            "Healthcare IT",
+            "Fintech",
+            "Exit execution"
+          ],
+          "top_signal": "Founded $2B fund",
+          "years_fulltime": 14.5
+        },
+        "delta": 0,
+        "id": "si4jwz5kcs",
+        "r_before": 1997,
+        "stage": "senior"
+      },
+      "at": "2026-10-13T23:00:00Z",
+      "b": {
+        "card": {
+          "awards": [],
+          "card_version": "1.0",
+          "career_stage": "new_grad",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2025,
+              "field": "Finance",
+              "gpa_band": "3.0-3.49",
+              "honors": [],
+              "in_progress": false,
+              "institution": "The Ohio State University (Fisher)",
+              "institution_tier": "T3"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 4,
+              "employment_type": "full_time",
+              "highlights": [
+                "12-month rotation across branch operations, consumer lending and small business banking",
+                "Built an Excel weekly deposit-growth report for the regional manager"
+              ],
+              "impact_scale": "individual",
+              "org": "Huntington National Bank",
+              "org_tier": "C",
+              "role": "Retail Banking Rotational Program Associate",
+              "role_selectivity": "modest",
+              "seniority": "new_grad",
+              "years": "2025-present"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Prepared client paperwork and quarterly review materials for one advisor"
+              ],
+              "impact_scale": "individual",
+              "org": "Edward Jones",
+              "org_tier": "C",
+              "role": "Wealth Management Intern",
+              "role_selectivity": "modest",
+              "seniority": "intern",
+              "years": "2024-2024"
+            },
+            {
+              "duration_months": 33,
+              "employment_type": "part_time",
+              "highlights": [
+                "Service desk; trained new part-time associates"
+              ],
+              "impact_scale": "individual",
+              "org": "Kroger",
+              "org_tier": "D",
+              "role": "Customer Service Associate",
+              "role_selectivity": "modest",
+              "seniority": "other",
+              "years": "2021-2024"
+            }
+          ],
+          "headline": "New graduate in finance from a T3 state flagship; retail-bank rotational associate after a wealth-management internship",
+          "leadership": [
+            "Treasurer of a student investment club for two years; managed the club budget and dues"
+          ],
+          "notable": [],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Excel",
+            "Bloomberg Market Concepts",
+            "PowerPoint",
+            "Spanish (conversational)"
+          ],
+          "top_signal": "Bank rotational",
+          "years_fulltime": 0.3
+        },
+        "delta": 0,
+        "id": "xr3uglaj43",
+        "r_before": 1041,
+        "stage": "new_grad"
+      },
+      "c": 0.8,
+      "kind": "crosscheck",
+      "m": "a2686bfda6efca0c",
+      "reason": "A: harder selections and larger stated scope. B: comparable stage but fewer verifiable outcomes.",
+      "w": "A"
+    },
+    {
+      "a": {
+        "card": {
+          "awards": [
+            {
+              "name": "Departmental thesis prize for applied finance",
+              "scope": "institutional",
+              "selectivity": "selective"
+            },
+            {
+              "name": "Eastern Sprints bronze medal (second varsity eight)",
+              "scope": "regional",
+              "selectivity": "selective"
+            }
+          ],
+          "card_version": "1.0",
+          "career_stage": "new_grad",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2026,
+              "field": "Economics, Certificate in Finance",
+              "gpa_band": "3.7-3.89",
+              "honors": [
+                "Honors senior thesis",
+                "Departmental thesis prize for applied finance"
+              ],
+              "in_progress": false,
+              "institution": "Princeton University",
+              "institution_tier": "T1"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 3,
+              "employment_type": "full_time",
+              "highlights": [
+                "Return offer from the 2025 summer class; staffed on a $900M sell-side and a $1.2B follow-on"
+              ],
+              "impact_scale": "team",
+              "org": "Bank of America",
+              "org_tier": "A",
+              "role": "Investment Banking Analyst, Healthcare",
+              "role_selectivity": "highly_selective",
+              "seniority": "analyst",
+              "years": "2026-present"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Operating model and LBO for a $1.5B medical-device carve-out; pitch advanced to a second-round meeting",
+                "Trading comps for 18 companies across 3 live pitches; 25 CIM pages drafted",
+                "Top bucket of a 42-person class; 1 of 31 return offers"
+              ],
+              "impact_scale": "team",
+              "org": "Bank of America",
+              "org_tier": "A",
+              "role": "Investment Banking Summer Analyst, Healthcare",
+              "role_selectivity": "highly_selective",
+              "seniority": "intern",
+              "years": "2025"
+            },
+            {
+              "duration_months": 21,
+              "employment_type": "part_time",
+              "highlights": [
+                "Led a 12-person sector team; fund returned 14.2% in 2025 vs 11.8% benchmark",
+                "4 approved long positions; largest returned 38% over 11 months",
+                "Rebuilt risk reporting in Excel and Python"
+              ],
+              "impact_scale": "team",
+              "org": "Student-run investment fund (~$1.1M AUM)",
+              "org_tier": "C",
+              "role": "Portfolio Manager, healthcare and consumer",
+              "role_selectivity": "selective",
+              "seniority": "other",
+              "years": "2024-2026"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Two sell-side processes for $150M-$300M businesses; ~120-name buyer lists",
+                "Precedent-transactions analysis of 30 deals used in a fairness opinion"
+              ],
+              "impact_scale": "team",
+              "org": "Lincoln International",
+              "org_tier": "B",
+              "role": "Investment Banking Summer Analyst, Business Services",
+              "role_selectivity": "selective",
+              "seniority": "intern",
+              "years": "2024"
+            }
+          ],
+          "headline": "T1 economics graduate (3.7-3.89, thesis prize); bulge-bracket IB summer converted to analyst; student-fund PM ($1.1M)",
+          "leadership": [
+            "Captain of a varsity lightweight rowing second eight; Eastern Sprints bronze 2024",
+            "Co-president of a university economics society; 300-attendee alumni finance conference"
+          ],
+          "notable": [
+            "Top bucket of a 42-person bulge-bracket summer class and a return offer",
+            "Ran the healthcare and consumer book of a ~$1.1M student fund that beat its benchmark",
+            "T1 economics degree with an honors thesis that won the departmental applied-finance prize",
+            "Varsity lightweight rowing captain with a regional championship medal"
+          ],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Three-statement, LBO and merger modeling",
+            "Valuation",
+            "Excel",
+            "PowerPoint",
+            "Capital IQ",
+            "Bloomberg",
+            "FactSet",
+            "Python (pandas)"
+          ],
+          "top_signal": "BB IB return offer",
+          "years_fulltime": 0.3
+        },
+        "delta": -4,
+        "id": "lujxpyjxdh",
+        "r_before": 1454,
+        "stage": "new_grad"
+      },
+      "at": "2026-10-12T23:00:00Z",
+      "b": {
+        "card": {
+          "awards": [
+            {
+              "name": "Baker Scholar",
+              "scope": "institutional",
+              "selectivity": "highly_selective"
+            },
+            {
+              "name": "Joseph Wharton Scholar",
+              "scope": "institutional",
+              "selectivity": "selective"
+            },
+            {
+              "name": "CFA charterholder",
+              "scope": "international",
+              "selectivity": "selective"
+            }
+          ],
+          "card_version": "1.0",
+          "career_stage": "senior",
+          "education": [
+            {
+              "degree_level": "mba",
+              "end_year": 2014,
+              "field": "Business Administration",
+              "gpa_band": "not_listed",
+              "honors": [
+                "Baker Scholar"
+              ],
+              "in_progress": false,
+              "institution": "Harvard Business School",
+              "institution_tier": "T1"
+            },
+            {
+              "degree_level": "bachelor",
+              "end_year": 2010,
+              "field": "Economics",
+              "gpa_band": "not_listed",
+              "honors": [
+                "summa cum laude",
+                "Joseph Wharton Scholar"
+              ],
+              "in_progress": false,
+              "institution": "University of Pennsylvania (Wharton)",
+              "institution_tier": "T2"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 54,
+              "employment_type": "founder",
+              "highlights": [
+                "$2.0B Fund I in a single close; 28 institutional LPs",
+                "Realized 3.2x on a $140M investment sold at $1.4B EV",
+                "Fund I at 1.6x gross and 22% net IRR; Fund II targeting $2.5B"
+              ],
+              "impact_scale": "industry",
+              "org": "Growth equity fund (founded)",
+              "org_tier": "A",
+              "role": "Founder and Managing Partner",
+              "role_selectivity": "elite",
+              "seniority": "founder",
+              "years": "2022-present"
+            },
+            {
+              "duration_months": 96,
+              "employment_type": "full_time",
+              "highlights": [
+                "Led 9 investments totaling $2.3B",
+                "Realized 4.1x through an IPO and 2.6x through a strategic sale",
+                "Youngest partner promotion in the group at 33"
+              ],
+              "impact_scale": "industry",
+              "org": "General Atlantic",
+              "org_tier": "A",
+              "role": "Partner, Technology (VP through Partner)",
+              "role_selectivity": "elite",
+              "seniority": "md_partner",
+              "years": "2014-2022"
+            },
+            {
+              "duration_months": 24,
+              "employment_type": "full_time",
+              "highlights": [
+                "8 announced deals ($11B); top bucket both years"
+              ],
+              "impact_scale": "org",
+              "org": "Goldman Sachs",
+              "org_tier": "S",
+              "role": "Analyst, TMT Investment Banking",
+              "role_selectivity": "elite",
+              "seniority": "analyst",
+              "years": "2010-2012"
+            }
+          ],
+          "headline": "Founding managing partner of a $2B growth fund; ex-partner at an A-tier growth equity firm; S-tier TMT banking; 3 exits",
+          "leadership": [
+            "Leads a 19-person investment firm and its investment committee",
+            "Five current portfolio boards; chaired audit and compensation committees",
+            "Investment committee of a $1.8B university endowment"
+          ],
+          "notable": [
+            "Raised a $2.0B first fund in a single close",
+            "Three realized exits at 4.1x, 3.2x and 2.6x",
+            "Partner at 33 at an A-tier growth firm",
+            "Baker Scholar after top-bucket S-tier banking"
+          ],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Growth equity underwriting",
+            "Fundraising",
+            "Board governance",
+            "Vertical software",
+            "Healthcare IT",
+            "Fintech",
+            "Exit execution"
+          ],
+          "top_signal": "Founded $2B fund",
+          "years_fulltime": 14.5
+        },
+        "delta": 3,
+        "id": "si4jwz5kcs",
+        "r_before": 1994,
+        "stage": "senior"
+      },
+      "c": 0.8,
+      "kind": "crosscheck",
+      "m": "d3a8c6b8abb9592a",
+      "reason": "B: harder selections and larger stated scope. A: comparable stage but fewer verifiable outcomes.",
+      "w": "B"
+    },
+    {
+      "a": {
+        "card": {
+          "awards": [],
+          "card_version": "1.0",
+          "career_stage": "early",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2024,
+              "field": "Finance",
+              "gpa_band": "not_listed",
+              "honors": [],
+              "in_progress": false,
+              "institution": "Arizona State University, W. P. Carey School of Business",
+              "institution_tier": "T3"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 27,
+              "employment_type": "full_time",
+              "highlights": [
+                "Quarterly client review materials, proposals with allocation summaries and fee illustrations",
+                "Monthly reconciliation between custodian and portfolio-reporting systems",
+                "Account openings, transfers and distributions with operations"
+              ],
+              "impact_scale": "individual",
+              "org": "Regional wealth-management firm",
+              "org_tier": "C",
+              "role": "Financial Analyst",
+              "role_selectivity": "modest",
+              "seniority": "analyst",
+              "years": "2024-present"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Account paperwork and CRM updates; converted to full-time"
+              ],
+              "impact_scale": "individual",
+              "org": "Regional wealth-management firm",
+              "org_tier": "C",
+              "role": "Client Service Intern",
+              "role_selectivity": "modest",
+              "seniority": "intern",
+              "years": "2023"
+            }
+          ],
+          "headline": "Financial analyst, 2 years at a regional wealth-management firm; T3 finance degree; Series 7 and 66",
+          "leadership": [
+            "Volunteer instructor in a financial-literacy program, 2024-present"
+          ],
+          "notable": [],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Excel",
+            "Morningstar Direct",
+            "eMoney",
+            "Salesforce",
+            "Bloomberg",
+            "Client reporting"
+          ],
+          "top_signal": "WM analyst, 2 yrs",
+          "years_fulltime": 2.3
+        },
+        "delta": -47,
+        "id": "bswap4rgut",
+        "r_before": 1057,
+        "stage": "early"
+      },
+      "at": "2026-10-11T23:00:00Z",
+      "b": {
+        "card": {
+          "awards": [],
+          "card_version": "1.0",
+          "career_stage": "new_grad",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2025,
+              "field": "Finance",
+              "gpa_band": "3.0-3.49",
+              "honors": [],
+              "in_progress": false,
+              "institution": "The Ohio State University (Fisher)",
+              "institution_tier": "T3"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 4,
+              "employment_type": "full_time",
+              "highlights": [
+                "12-month rotation across branch operations, consumer lending and small business banking",
+                "Built an Excel weekly deposit-growth report for the regional manager"
+              ],
+              "impact_scale": "individual",
+              "org": "Huntington National Bank",
+              "org_tier": "C",
+              "role": "Retail Banking Rotational Program Associate",
+              "role_selectivity": "modest",
+              "seniority": "new_grad",
+              "years": "2025-present"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Prepared client paperwork and quarterly review materials for one advisor"
+              ],
+              "impact_scale": "individual",
+              "org": "Edward Jones",
+              "org_tier": "C",
+              "role": "Wealth Management Intern",
+              "role_selectivity": "modest",
+              "seniority": "intern",
+              "years": "2024-2024"
+            },
+            {
+              "duration_months": 33,
+              "employment_type": "part_time",
+              "highlights": [
+                "Service desk; trained new part-time associates"
+              ],
+              "impact_scale": "individual",
+              "org": "Kroger",
+              "org_tier": "D",
+              "role": "Customer Service Associate",
+              "role_selectivity": "modest",
+              "seniority": "other",
+              "years": "2021-2024"
+            }
+          ],
+          "headline": "New graduate in finance from a T3 state flagship; retail-bank rotational associate after a wealth-management internship",
+          "leadership": [
+            "Treasurer of a student investment club for two years; managed the club budget and dues"
+          ],
+          "notable": [],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Excel",
+            "Bloomberg Market Concepts",
+            "PowerPoint",
+            "Spanish (conversational)"
+          ],
+          "top_signal": "Bank rotational",
+          "years_fulltime": 0.3
+        },
+        "delta": 45,
+        "id": "xr3uglaj43",
+        "r_before": 996,
+        "stage": "new_grad"
+      },
+      "c": 0.64,
+      "kind": "refine",
+      "m": "db6f5a7f8923b1e9",
+      "reason": "B: harder selections and larger stated scope. A: comparable stage but fewer verifiable outcomes.",
+      "w": "B"
+    },
+    {
+      "a": {
+        "card": {
+          "awards": [
+            {
+              "name": "Business Honors Program admission",
+              "scope": "institutional",
+              "selectivity": "selective"
+            }
+          ],
+          "card_version": "1.0",
+          "career_stage": "student",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2028,
+              "field": "Finance",
+              "gpa_band": "3.7-3.89",
+              "honors": [
+                "Business Honors Program",
+                "University Honors"
+              ],
+              "in_progress": true,
+              "institution": "University of Texas at Austin (McCombs)",
+              "institution_tier": "T2"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "QoE on $180M, $45M and $320M transactions",
+                "Found $2.1M of non-recurring expenses for the adjusted EBITDA schedule",
+                "Return offer for 2027"
+              ],
+              "impact_scale": "team",
+              "org": "KPMG",
+              "org_tier": "B",
+              "role": "Financial Due Diligence Intern, Transaction Services",
+              "role_selectivity": "selective",
+              "seniority": "intern",
+              "years": "2026-2026"
+            },
+            {
+              "duration_months": 13,
+              "employment_type": "part_time",
+              "highlights": [
+                "Selected 8 of 94 applicants",
+                "Approved pitch up 18% vs 9% benchmark"
+              ],
+              "impact_scale": "team",
+              "org": "Student-run investment fund (~$900k AUM)",
+              "org_tier": "C",
+              "role": "Analyst, Industrials",
+              "role_selectivity": "selective",
+              "seniority": "analyst",
+              "years": "2025-present"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Spread 15 middle-market borrowers; covenant tracker adopted"
+              ],
+              "impact_scale": "team",
+              "org": "Texas Capital Bank",
+              "org_tier": "C",
+              "role": "Summer Analyst, Commercial Banking",
+              "role_selectivity": "modest",
+              "seniority": "intern",
+              "years": "2025-2025"
+            }
+          ],
+          "headline": "Finance junior in a T2 honors program; Big-4 transaction services intern with a return offer; $900k student-fund analyst",
+          "leadership": [
+            "Vice President of Education, undergraduate finance association; 10-week prep series for 60 students"
+          ],
+          "notable": [
+            "Student-fund pitch returned 18% against a 9% benchmark",
+            "Big-4 return offer as a rising junior"
+          ],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Excel modeling",
+            "Quality of earnings",
+            "NWC analysis",
+            "Comps",
+            "DCF",
+            "Capital IQ",
+            "Bloomberg",
+            "Credit spreading"
+          ],
+          "top_signal": "Big-4 TS intern",
+          "years_fulltime": 0
+        },
+        "delta": -12,
+        "id": "kjkdcdj5yr",
+        "r_before": 1234,
+        "stage": "student"
+      },
+      "at": "2026-10-10T23:00:00Z",
+      "b": {
+        "card": {
+          "awards": [
+            {
+              "name": "Top-bucket associate ranking",
+              "scope": "company",
+              "selectivity": "selective"
+            },
+            {
+              "name": "Director-to-MD leadership program selection",
+              "scope": "company",
+              "selectivity": "selective"
+            }
+          ],
+          "card_version": "1.0",
+          "career_stage": "senior",
+          "education": [
+            {
+              "degree_level": "mba",
+              "end_year": 2015,
+              "field": "Investment Banking",
+              "gpa_band": "not_listed",
+              "honors": [],
+              "in_progress": false,
+              "institution": "Cornell University (Johnson)",
+              "institution_tier": "T2"
+            },
+            {
+              "degree_level": "bachelor",
+              "end_year": 2011,
+              "field": "Finance and Accounting",
+              "gpa_band": "not_listed",
+              "honors": [
+                "with distinction"
+              ],
+              "in_progress": false,
+              "institution": "Indiana University (Kelley)",
+              "institution_tier": "T3"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 33,
+              "employment_type": "full_time",
+              "highlights": [
+                "Exclusive advisor on a $3.2B pharma sale; buy-side on a $4.1B CDMO acquisition",
+                "Attributed fees $38M (2024) and $52M (2025)",
+                "Runs a 12-person team; $120M revenue plan"
+              ],
+              "impact_scale": "industry",
+              "org": "Citi",
+              "org_tier": "A",
+              "role": "Managing Director, Healthcare Investment Banking",
+              "role_selectivity": "highly_selective",
+              "seniority": "md_partner",
+              "years": "2024-present"
+            },
+            {
+              "duration_months": 36,
+              "employment_type": "full_time",
+              "highlights": [
+                "Originated 5 mandates with $41M of fees",
+                "Sell-side on $2.7B and $1.1B transactions; $3.3B of issuance"
+              ],
+              "impact_scale": "industry",
+              "org": "Citi",
+              "org_tier": "A",
+              "role": "Director, Healthcare Investment Banking",
+              "role_selectivity": "highly_selective",
+              "seniority": "director",
+              "years": "2021-2023"
+            },
+            {
+              "duration_months": 36,
+              "employment_type": "full_time",
+              "highlights": [
+                "Execution lead on 9 deals totaling $8.9B"
+              ],
+              "impact_scale": "org",
+              "org": "Citi",
+              "org_tier": "A",
+              "role": "Vice President, Healthcare Investment Banking",
+              "role_selectivity": "highly_selective",
+              "seniority": "vp",
+              "years": "2018-2020"
+            },
+            {
+              "duration_months": 30,
+              "employment_type": "full_time",
+              "highlights": [
+                "6 transactions ($4.6B); top-bucket each year"
+              ],
+              "impact_scale": "org",
+              "org": "Citi",
+              "org_tier": "A",
+              "role": "Associate, Healthcare Investment Banking",
+              "role_selectivity": "highly_selective",
+              "seniority": "associate",
+              "years": "2015-2017"
+            },
+            {
+              "duration_months": 24,
+              "employment_type": "full_time",
+              "highlights": [
+                "7 closed sell-side deals, $90M to $650M"
+              ],
+              "impact_scale": "team",
+              "org": "William Blair",
+              "org_tier": "B",
+              "role": "Analyst, Healthcare Investment Banking",
+              "role_selectivity": "selective",
+              "seniority": "analyst",
+              "years": "2011-2013"
+            }
+          ],
+          "headline": "Managing director in healthcare investment banking at an A-tier bank; $20B of announced transactions led; 12-person team",
+          "leadership": [
+            "Runs a 12-person coverage team; group operating committee (one of 14 MDs)",
+            "Board member and treasurer of a $6M-budget free-clinic nonprofit"
+          ],
+          "notable": [
+            "$20.4B of announced transactions led or co-led since 2021",
+            "Fee revenue attributed of $52M in one year",
+            "MD at an A-tier bank after a middle-market analyst start"
+          ],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Healthcare M&A",
+            "Equity capital markets",
+            "Client coverage",
+            "Merger modeling",
+            "Acquisition financing",
+            "Team leadership"
+          ],
+          "top_signal": "$20B deals led",
+          "years_fulltime": 13.3
+        },
+        "delta": 12,
+        "id": "m3zjnglo6p",
+        "r_before": 1524,
+        "stage": "senior"
+      },
+      "c": 0.76,
+      "kind": "refine",
+      "m": "c3ce2f4c621a16e3",
+      "reason": "B: harder selections and larger stated scope. A: comparable stage but fewer verifiable outcomes.",
+      "w": "B"
+    },
+    {
+      "a": {
+        "card": {
+          "awards": [],
+          "card_version": "1.0",
+          "career_stage": "early",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2024,
+              "field": "Finance",
+              "gpa_band": "not_listed",
+              "honors": [],
+              "in_progress": false,
+              "institution": "Arizona State University, W. P. Carey School of Business",
+              "institution_tier": "T3"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 27,
+              "employment_type": "full_time",
+              "highlights": [
+                "Quarterly client review materials, proposals with allocation summaries and fee illustrations",
+                "Monthly reconciliation between custodian and portfolio-reporting systems",
+                "Account openings, transfers and distributions with operations"
+              ],
+              "impact_scale": "individual",
+              "org": "Regional wealth-management firm",
+              "org_tier": "C",
+              "role": "Financial Analyst",
+              "role_selectivity": "modest",
+              "seniority": "analyst",
+              "years": "2024-present"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Account paperwork and CRM updates; converted to full-time"
+              ],
+              "impact_scale": "individual",
+              "org": "Regional wealth-management firm",
+              "org_tier": "C",
+              "role": "Client Service Intern",
+              "role_selectivity": "modest",
+              "seniority": "intern",
+              "years": "2023"
+            }
+          ],
+          "headline": "Financial analyst, 2 years at a regional wealth-management firm; T3 finance degree; Series 7 and 66",
+          "leadership": [
+            "Volunteer instructor in a financial-literacy program, 2024-present"
+          ],
+          "notable": [],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Excel",
+            "Morningstar Direct",
+            "eMoney",
+            "Salesforce",
+            "Bloomberg",
+            "Client reporting"
+          ],
+          "top_signal": "WM analyst, 2 yrs",
+          "years_fulltime": 2.3
+        },
+        "delta": -1,
+        "id": "bswap4rgut",
+        "r_before": 1058,
+        "stage": "early"
+      },
+      "at": "2026-10-10T23:00:00Z",
+      "b": {
+        "card": {
+          "awards": [
+            {
+              "name": "Baker Scholar",
+              "scope": "institutional",
+              "selectivity": "highly_selective"
+            },
+            {
+              "name": "Joseph Wharton Scholar",
+              "scope": "institutional",
+              "selectivity": "selective"
+            },
+            {
+              "name": "CFA charterholder",
+              "scope": "international",
+              "selectivity": "selective"
+            }
+          ],
+          "card_version": "1.0",
+          "career_stage": "senior",
+          "education": [
+            {
+              "degree_level": "mba",
+              "end_year": 2014,
+              "field": "Business Administration",
+              "gpa_band": "not_listed",
+              "honors": [
+                "Baker Scholar"
+              ],
+              "in_progress": false,
+              "institution": "Harvard Business School",
+              "institution_tier": "T1"
+            },
+            {
+              "degree_level": "bachelor",
+              "end_year": 2010,
+              "field": "Economics",
+              "gpa_band": "not_listed",
+              "honors": [
+                "summa cum laude",
+                "Joseph Wharton Scholar"
+              ],
+              "in_progress": false,
+              "institution": "University of Pennsylvania (Wharton)",
+              "institution_tier": "T2"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 54,
+              "employment_type": "founder",
+              "highlights": [
+                "$2.0B Fund I in a single close; 28 institutional LPs",
+                "Realized 3.2x on a $140M investment sold at $1.4B EV",
+                "Fund I at 1.6x gross and 22% net IRR; Fund II targeting $2.5B"
+              ],
+              "impact_scale": "industry",
+              "org": "Growth equity fund (founded)",
+              "org_tier": "A",
+              "role": "Founder and Managing Partner",
+              "role_selectivity": "elite",
+              "seniority": "founder",
+              "years": "2022-present"
+            },
+            {
+              "duration_months": 96,
+              "employment_type": "full_time",
+              "highlights": [
+                "Led 9 investments totaling $2.3B",
+                "Realized 4.1x through an IPO and 2.6x through a strategic sale",
+                "Youngest partner promotion in the group at 33"
+              ],
+              "impact_scale": "industry",
+              "org": "General Atlantic",
+              "org_tier": "A",
+              "role": "Partner, Technology (VP through Partner)",
+              "role_selectivity": "elite",
+              "seniority": "md_partner",
+              "years": "2014-2022"
+            },
+            {
+              "duration_months": 24,
+              "employment_type": "full_time",
+              "highlights": [
+                "8 announced deals ($11B); top bucket both years"
+              ],
+              "impact_scale": "org",
+              "org": "Goldman Sachs",
+              "org_tier": "S",
+              "role": "Analyst, TMT Investment Banking",
+              "role_selectivity": "elite",
+              "seniority": "analyst",
+              "years": "2010-2012"
+            }
+          ],
+          "headline": "Founding managing partner of a $2B growth fund; ex-partner at an A-tier growth equity firm; S-tier TMT banking; 3 exits",
+          "leadership": [
+            "Leads a 19-person investment firm and its investment committee",
+            "Five current portfolio boards; chaired audit and compensation committees",
+            "Investment committee of a $1.8B university endowment"
+          ],
+          "notable": [
+            "Raised a $2.0B first fund in a single close",
+            "Three realized exits at 4.1x, 3.2x and 2.6x",
+            "Partner at 33 at an A-tier growth firm",
+            "Baker Scholar after top-bucket S-tier banking"
+          ],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Growth equity underwriting",
+            "Fundraising",
+            "Board governance",
+            "Vertical software",
+            "Healthcare IT",
+            "Fintech",
+            "Exit execution"
+          ],
+          "top_signal": "Founded $2B fund",
+          "years_fulltime": 14.5
+        },
+        "delta": 0,
+        "id": "si4jwz5kcs",
+        "r_before": 1994,
+        "stage": "senior"
+      },
+      "c": 0.8,
+      "kind": "refine",
+      "m": "f888d805cc948a1f",
+      "reason": "B: harder selections and larger stated scope. A: comparable stage but fewer verifiable outcomes.",
+      "w": "B"
+    },
+    {
+      "a": {
+        "card": {
+          "awards": [
+            {
+              "name": "CFA charter (all three levels first attempt)",
+              "scope": "international",
+              "selectivity": "selective"
+            },
+            {
+              "name": "John Harvard Scholar",
+              "scope": "institutional",
+              "selectivity": "selective"
+            }
+          ],
+          "card_version": "1.0",
+          "career_stage": "mid",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2017,
+              "field": "Applied Mathematics (economics track)",
+              "gpa_band": "3.7-3.89",
+              "honors": [
+                "magna cum laude",
+                "John Harvard Scholar (2015, 2016)"
+              ],
+              "in_progress": false,
+              "institution": "Harvard University",
+              "institution_tier": "T1"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 45,
+              "employment_type": "full_time",
+              "highlights": [
+                "$650M gross / $120M net book, sole coverage of 35 names; P&L $18M, $15M, $12M in 2025-2023; Sharpe 1.7, 1.6, 1.9",
+                "Sizing framework cut net factor beta 0.21 to 0.06; alt-data pipeline credited on 6 of the 10 largest 2025 winners",
+                "Approved for a PM-track allocation in 2026 with a $1.5B gross target book; manages 2 people"
+              ],
+              "impact_scale": "org",
+              "org": "Citadel (Surveyor Capital)",
+              "org_tier": "S",
+              "role": "Senior Analyst, US Software and Internet (PM track)",
+              "role_selectivity": "elite",
+              "seniority": "senior",
+              "years": "2023-present"
+            },
+            {
+              "duration_months": 42,
+              "employment_type": "full_time",
+              "highlights": [
+                "Covered 20 names for a $2B pod; 2 of the pod's 5 largest 2021 gains",
+                "Channel-check program across 40 resellers preceded 3 guidance cuts by a quarter or more",
+                "Promoted to senior analyst a year ahead of the ladder"
+              ],
+              "impact_scale": "org",
+              "org": "Citadel (Surveyor Capital)",
+              "org_tier": "S",
+              "role": "Analyst, US Software",
+              "role_selectivity": "elite",
+              "seniority": "analyst",
+              "years": "2019-2022"
+            },
+            {
+              "duration_months": 24,
+              "employment_type": "full_time",
+              "highlights": [
+                "6 closed transactions, ~$14B: 3 software sell-sides, 2 IPOs, 1 convertible",
+                "Merger model for a $4.2B software combination; top bucket both cycles"
+              ],
+              "impact_scale": "org",
+              "org": "Goldman Sachs",
+              "org_tier": "S",
+              "role": "Investment Banking Analyst, TMT",
+              "role_selectivity": "elite",
+              "seniority": "analyst",
+              "years": "2017-2019"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Comps and precedents for 3 live pitches; full-time offer"
+              ],
+              "impact_scale": "team",
+              "org": "Goldman Sachs",
+              "org_tier": "S",
+              "role": "Investment Banking Summer Analyst, TMT",
+              "role_selectivity": "elite",
+              "seniority": "intern",
+              "years": "2016"
+            }
+          ],
+          "headline": "PM-track senior analyst at an S-tier multi-strategy fund; $45M attributed P&L over 3 years; ex-GS TMT; T1 degree; CFA",
+          "leadership": [
+            "Manages 1 analyst and 1 quantitative associate; both promoted on schedule",
+            "Guest lecturer for an undergraduate investment-analysis course, 2024 and 2025"
+          ],
+          "notable": [
+            "Attributed P&L of $45M over three years with Sharpe above 1.6 each year and a 2.1% worst drawdown",
+            "GS TMT top bucket, then an S-tier multi-strategy pod, then PM-track approval with a $1.5B target book",
+            "Harvard applied mathematics, magna cum laude; CFA charter passed first attempt at every level",
+            "Flagged a revenue-recognition change two quarters before a restatement"
+          ],
+          "projects": [
+            {
+              "descriptor": "Alternative-data pipeline for software usage and hiring signals (Python, SQL)",
+              "highlight": "Credited on 6 of the pod's 10 largest winners in 2025",
+              "kind": "software",
+              "scale_signal": "feeds 3 analysts' models",
+              "technical_depth": "substantial"
+            }
+          ],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Long-short fundamental research",
+            "Cohort and unit-economics modeling",
+            "Factor-neutral portfolio construction",
+            "Event-driven positioning",
+            "Python (pandas, statsmodels)",
+            "SQL",
+            "Bloomberg",
+            "FactSet",
+            "Visible Alpha"
+          ],
+          "top_signal": "$45M 3-yr P&L",
+          "years_fulltime": 9.3
+        },
+        "delta": -23,
+        "id": "jocml7s5ue",
+        "r_before": 1813,
+        "stage": "mid"
+      },
+      "at": "2026-10-08T23:00:00Z",
+      "b": {
+        "card": {
+          "awards": [
+            {
+              "name": "Baker Scholar",
+              "scope": "institutional",
+              "selectivity": "highly_selective"
+            },
+            {
+              "name": "Joseph Wharton Scholar",
+              "scope": "institutional",
+              "selectivity": "selective"
+            },
+            {
+              "name": "CFA charterholder",
+              "scope": "international",
+              "selectivity": "selective"
+            }
+          ],
+          "card_version": "1.0",
+          "career_stage": "senior",
+          "education": [
+            {
+              "degree_level": "mba",
+              "end_year": 2014,
+              "field": "Business Administration",
+              "gpa_band": "not_listed",
+              "honors": [
+                "Baker Scholar"
+              ],
+              "in_progress": false,
+              "institution": "Harvard Business School",
+              "institution_tier": "T1"
+            },
+            {
+              "degree_level": "bachelor",
+              "end_year": 2010,
+              "field": "Economics",
+              "gpa_band": "not_listed",
+              "honors": [
+                "summa cum laude",
+                "Joseph Wharton Scholar"
+              ],
+              "in_progress": false,
+              "institution": "University of Pennsylvania (Wharton)",
+              "institution_tier": "T2"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 54,
+              "employment_type": "founder",
+              "highlights": [
+                "$2.0B Fund I in a single close; 28 institutional LPs",
+                "Realized 3.2x on a $140M investment sold at $1.4B EV",
+                "Fund I at 1.6x gross and 22% net IRR; Fund II targeting $2.5B"
+              ],
+              "impact_scale": "industry",
+              "org": "Growth equity fund (founded)",
+              "org_tier": "A",
+              "role": "Founder and Managing Partner",
+              "role_selectivity": "elite",
+              "seniority": "founder",
+              "years": "2022-present"
+            },
+            {
+              "duration_months": 96,
+              "employment_type": "full_time",
+              "highlights": [
+                "Led 9 investments totaling $2.3B",
+                "Realized 4.1x through an IPO and 2.6x through a strategic sale",
+                "Youngest partner promotion in the group at 33"
+              ],
+              "impact_scale": "industry",
+              "org": "General Atlantic",
+              "org_tier": "A",
+              "role": "Partner, Technology (VP through Partner)",
+              "role_selectivity": "elite",
+              "seniority": "md_partner",
+              "years": "2014-2022"
+            },
+            {
+              "duration_months": 24,
+              "employment_type": "full_time",
+              "highlights": [
+                "8 announced deals ($11B); top bucket both years"
+              ],
+              "impact_scale": "org",
+              "org": "Goldman Sachs",
+              "org_tier": "S",
+              "role": "Analyst, TMT Investment Banking",
+              "role_selectivity": "elite",
+              "seniority": "analyst",
+              "years": "2010-2012"
+            }
+          ],
+          "headline": "Founding managing partner of a $2B growth fund; ex-partner at an A-tier growth equity firm; S-tier TMT banking; 3 exits",
+          "leadership": [
+            "Leads a 19-person investment firm and its investment committee",
+            "Five current portfolio boards; chaired audit and compensation committees",
+            "Investment committee of a $1.8B university endowment"
+          ],
+          "notable": [
+            "Raised a $2.0B first fund in a single close",
+            "Three realized exits at 4.1x, 3.2x and 2.6x",
+            "Partner at 33 at an A-tier growth firm",
+            "Baker Scholar after top-bucket S-tier banking"
+          ],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Growth equity underwriting",
+            "Fundraising",
+            "Board governance",
+            "Vertical software",
+            "Healthcare IT",
+            "Fintech",
+            "Exit execution"
+          ],
+          "top_signal": "Founded $2B fund",
+          "years_fulltime": 14.5
+        },
+        "delta": 22,
+        "id": "si4jwz5kcs",
+        "r_before": 1961,
+        "stage": "senior"
+      },
+      "c": 0.64,
+      "kind": "refine",
+      "m": "3fc4bb752187b962",
+      "reason": "B: harder selections and larger stated scope. A: comparable stage but fewer verifiable outcomes.",
+      "w": "B"
+    },
+    {
+      "a": {
+        "card": {
+          "awards": [],
+          "card_version": "1.0",
+          "career_stage": "early",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2024,
+              "field": "Business Administration, Finance",
+              "gpa_band": "3.5-3.69",
+              "honors": [],
+              "in_progress": false,
+              "institution": "University of Missouri",
+              "institution_tier": "T3"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 27,
+              "employment_type": "full_time",
+              "highlights": [
+                "Owns the monthly forecast and annual plan for a $1.4B, 14-site division; presents variances to the division CFO",
+                "Driver-based model closed the forecast 2 business days earlier",
+                "Found $2.1M of annualized freight savings adopted by operations"
+              ],
+              "impact_scale": "org",
+              "org": "Emerson Electric",
+              "org_tier": "B",
+              "role": "Financial Analyst, FP&A, Discrete Automation",
+              "role_selectivity": "modest",
+              "seniority": "analyst",
+              "years": "2024-present"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Automated a weekly cash report, ~4 hours a week saved"
+              ],
+              "impact_scale": "team",
+              "org": "Emerson Electric",
+              "org_tier": "B",
+              "role": "Finance Intern, Corporate FP&A",
+              "role_selectivity": "modest",
+              "seniority": "intern",
+              "years": "2023"
+            },
+            {
+              "duration_months": 9,
+              "employment_type": "part_time",
+              "highlights": [
+                "Weekly review sessions for ~60 students"
+              ],
+              "impact_scale": "team",
+              "org": "University of Missouri",
+              "org_tier": "C",
+              "role": "Teaching Assistant, Financial Accounting",
+              "role_selectivity": "modest",
+              "seniority": "other",
+              "years": "2023-2024"
+            }
+          ],
+          "headline": "FP&A analyst, 2 years at a B-tier F500 industrial; owns the forecast for a $1.4B division; T3 finance degree",
+          "leadership": [
+            "Treasurer of a 90-member student finance association; $9,000 annual budget"
+          ],
+          "notable": [
+            "Sole owner of a $1.4B division forecast two years out of a T3 program",
+            "Freight-savings analysis worth $2.1M a year adopted by operations"
+          ],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Financial modeling",
+            "Variance analysis",
+            "Forecasting and budgeting",
+            "Hyperion Planning",
+            "Excel",
+            "Power Query",
+            "Power BI",
+            "Oracle ERP",
+            "PowerPoint"
+          ],
+          "top_signal": "$1.4B div forecast",
+          "years_fulltime": 2.3
+        },
+        "delta": -15,
+        "id": "2elgnjj7jt",
+        "r_before": 1269,
+        "stage": "early"
+      },
+      "at": "2026-10-08T23:00:00Z",
+      "b": {
+        "card": {
+          "awards": [
+            {
+              "name": "Top-bucket associate ranking",
+              "scope": "company",
+              "selectivity": "selective"
+            },
+            {
+              "name": "Director-to-MD leadership program selection",
+              "scope": "company",
+              "selectivity": "selective"
+            }
+          ],
+          "card_version": "1.0",
+          "career_stage": "senior",
+          "education": [
+            {
+              "degree_level": "mba",
+              "end_year": 2015,
+              "field": "Investment Banking",
+              "gpa_band": "not_listed",
+              "honors": [],
+              "in_progress": false,
+              "institution": "Cornell University (Johnson)",
+              "institution_tier": "T2"
+            },
+            {
+              "degree_level": "bachelor",
+              "end_year": 2011,
+              "field": "Finance and Accounting",
+              "gpa_band": "not_listed",
+              "honors": [
+                "with distinction"
+              ],
+              "in_progress": false,
+              "institution": "Indiana University (Kelley)",
+              "institution_tier": "T3"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 33,
+              "employment_type": "full_time",
+              "highlights": [
+                "Exclusive advisor on a $3.2B pharma sale; buy-side on a $4.1B CDMO acquisition",
+                "Attributed fees $38M (2024) and $52M (2025)",
+                "Runs a 12-person team; $120M revenue plan"
+              ],
+              "impact_scale": "industry",
+              "org": "Citi",
+              "org_tier": "A",
+              "role": "Managing Director, Healthcare Investment Banking",
+              "role_selectivity": "highly_selective",
+              "seniority": "md_partner",
+              "years": "2024-present"
+            },
+            {
+              "duration_months": 36,
+              "employment_type": "full_time",
+              "highlights": [
+                "Originated 5 mandates with $41M of fees",
+                "Sell-side on $2.7B and $1.1B transactions; $3.3B of issuance"
+              ],
+              "impact_scale": "industry",
+              "org": "Citi",
+              "org_tier": "A",
+              "role": "Director, Healthcare Investment Banking",
+              "role_selectivity": "highly_selective",
+              "seniority": "director",
+              "years": "2021-2023"
+            },
+            {
+              "duration_months": 36,
+              "employment_type": "full_time",
+              "highlights": [
+                "Execution lead on 9 deals totaling $8.9B"
+              ],
+              "impact_scale": "org",
+              "org": "Citi",
+              "org_tier": "A",
+              "role": "Vice President, Healthcare Investment Banking",
+              "role_selectivity": "highly_selective",
+              "seniority": "vp",
+              "years": "2018-2020"
+            },
+            {
+              "duration_months": 30,
+              "employment_type": "full_time",
+              "highlights": [
+                "6 transactions ($4.6B); top-bucket each year"
+              ],
+              "impact_scale": "org",
+              "org": "Citi",
+              "org_tier": "A",
+              "role": "Associate, Healthcare Investment Banking",
+              "role_selectivity": "highly_selective",
+              "seniority": "associate",
+              "years": "2015-2017"
+            },
+            {
+              "duration_months": 24,
+              "employment_type": "full_time",
+              "highlights": [
+                "7 closed sell-side deals, $90M to $650M"
+              ],
+              "impact_scale": "team",
+              "org": "William Blair",
+              "org_tier": "B",
+              "role": "Analyst, Healthcare Investment Banking",
+              "role_selectivity": "selective",
+              "seniority": "analyst",
+              "years": "2011-2013"
+            }
+          ],
+          "headline": "Managing director in healthcare investment banking at an A-tier bank; $20B of announced transactions led; 12-person team",
+          "leadership": [
+            "Runs a 12-person coverage team; group operating committee (one of 14 MDs)",
+            "Board member and treasurer of a $6M-budget free-clinic nonprofit"
+          ],
+          "notable": [
+            "$20.4B of announced transactions led or co-led since 2021",
+            "Fee revenue attributed of $52M in one year",
+            "MD at an A-tier bank after a middle-market analyst start"
+          ],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Healthcare M&A",
+            "Equity capital markets",
+            "Client coverage",
+            "Merger modeling",
+            "Acquisition financing",
+            "Team leadership"
+          ],
+          "top_signal": "$20B deals led",
+          "years_fulltime": 13.3
+        },
+        "delta": 16,
+        "id": "m3zjnglo6p",
+        "r_before": 1507,
+        "stage": "senior"
+      },
+      "c": 0.8,
+      "kind": "refine",
+      "m": "cbfcd2e77f0ea83f",
+      "reason": "B: harder selections and larger stated scope. A: comparable stage but fewer verifiable outcomes.",
+      "w": "B"
+    },
+    {
+      "a": {
+        "card": {
+          "awards": [],
+          "card_version": "1.0",
+          "career_stage": "early",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2024,
+              "field": "Finance",
+              "gpa_band": "not_listed",
+              "honors": [],
+              "in_progress": false,
+              "institution": "Arizona State University, W. P. Carey School of Business",
+              "institution_tier": "T3"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 27,
+              "employment_type": "full_time",
+              "highlights": [
+                "Quarterly client review materials, proposals with allocation summaries and fee illustrations",
+                "Monthly reconciliation between custodian and portfolio-reporting systems",
+                "Account openings, transfers and distributions with operations"
+              ],
+              "impact_scale": "individual",
+              "org": "Regional wealth-management firm",
+              "org_tier": "C",
+              "role": "Financial Analyst",
+              "role_selectivity": "modest",
+              "seniority": "analyst",
+              "years": "2024-present"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Account paperwork and CRM updates; converted to full-time"
+              ],
+              "impact_scale": "individual",
+              "org": "Regional wealth-management firm",
+              "org_tier": "C",
+              "role": "Client Service Intern",
+              "role_selectivity": "modest",
+              "seniority": "intern",
+              "years": "2023"
+            }
+          ],
+          "headline": "Financial analyst, 2 years at a regional wealth-management firm; T3 finance degree; Series 7 and 66",
+          "leadership": [
+            "Volunteer instructor in a financial-literacy program, 2024-present"
+          ],
+          "notable": [],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Excel",
+            "Morningstar Direct",
+            "eMoney",
+            "Salesforce",
+            "Bloomberg",
+            "Client reporting"
+          ],
+          "top_signal": "WM analyst, 2 yrs",
+          "years_fulltime": 2.3
+        },
+        "delta": 48,
+        "id": "bswap4rgut",
+        "r_before": 1023,
+        "stage": "early"
+      },
+      "at": "2026-10-07T23:00:00Z",
+      "b": {
+        "card": {
+          "awards": [
+            {
+              "name": "Joseph Wharton Scholars",
+              "scope": "institutional",
+              "selectivity": "selective"
+            },
+            {
+              "name": "Top-bucket analyst ranking, two years",
+              "scope": "company",
+              "selectivity": "highly_selective"
+            },
+            {
+              "name": "summa cum laude",
+              "scope": "institutional",
+              "selectivity": "selective"
+            }
+          ],
+          "card_version": "1.0",
+          "career_stage": "early",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2022,
+              "field": "Economics (Finance, Statistics)",
+              "gpa_band": "3.9-3.99",
+              "honors": [
+                "summa cum laude",
+                "Joseph Wharton Scholars",
+                "Dean's List all semesters"
+              ],
+              "in_progress": false,
+              "institution": "University of Pennsylvania (Wharton)",
+              "institution_tier": "T2"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 16,
+              "employment_type": "full_time",
+              "highlights": [
+                "Two closed investments: $700M growth buyout (co-led model and cohort analysis) and $260M growth equity (unit economics, 100-day plan)",
+                "Diligence lead on a $1.5B take-private; owned base and downside cases for the investment committee",
+                "Portfolio pricing work added ~$9M annualized revenue in year one"
+              ],
+              "impact_scale": "industry",
+              "org": "Warburg Pincus",
+              "org_tier": "S",
+              "role": "Associate, Technology and Business Services",
+              "role_selectivity": "elite",
+              "seniority": "associate",
+              "years": "2024-present"
+            },
+            {
+              "duration_months": 24,
+              "employment_type": "full_time",
+              "highlights": [
+                "Top-bucket ranking both years",
+                "Closed: $4.2B public sale, $1.1B sponsor sale (sole analyst, 40 buyers), $650M carve-out",
+                "Built the merger model adopted across the technology team"
+              ],
+              "impact_scale": "industry",
+              "org": "Evercore",
+              "org_tier": "S",
+              "role": "Analyst, Mergers and Acquisitions",
+              "role_selectivity": "highly_selective",
+              "seniority": "analyst",
+              "years": "2022-2024"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Return offer; comps for a live $2B sell-side"
+              ],
+              "impact_scale": "team",
+              "org": "Evercore",
+              "org_tier": "S",
+              "role": "Summer Analyst, M&A",
+              "role_selectivity": "highly_selective",
+              "seniority": "intern",
+              "years": "2021-2021"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Early-insight program; follow-on offering support"
+              ],
+              "impact_scale": "team",
+              "org": "Morgan Stanley",
+              "org_tier": "S",
+              "role": "Sophomore Summer Analyst, IBD",
+              "role_selectivity": "highly_selective",
+              "seniority": "intern",
+              "years": "2020-2020"
+            }
+          ],
+          "headline": "Megafund PE associate 3 years out of a T2 school; 2 closed investments; diligence lead on a $1.5B take-private",
+          "leadership": [
+            "Co-president of a 400-member undergraduate finance club",
+            "Technology portfolio manager of a ~$600k student fund; sector returned 14% vs 9% benchmark",
+            "Mentor in a women-in-finance group; guest speaker at a sophomore banking workshop twice"
+          ],
+          "notable": [
+            "Elite-boutique M&A analyst to megafund PE associate in two years, the standard elite path, executed",
+            "Diligence lead on a $1.5B take-private as a first-year associate",
+            "Top-bucket both analyst years with three closed deals above $650M",
+            "CFA Level II passed while in banking"
+          ],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "LBO modeling",
+            "Merger modeling",
+            "Cohort and unit-economics analysis",
+            "Commercial due diligence",
+            "Capital IQ",
+            "Pitchbook",
+            "Python (pandas)",
+            "SQL"
+          ],
+          "top_signal": "Megafund PE assoc.",
+          "years_fulltime": 3.3
+        },
+        "delta": -30,
+        "id": "ki4jslasr3",
+        "r_before": 1733,
+        "stage": "early"
+      },
+      "c": 0.8,
+      "kind": "refine",
+      "m": "584116f6eaedfea1",
+      "reason": "B: harder selections and larger stated scope. A: comparable stage but fewer verifiable outcomes.",
+      "w": "draw"
+    },
+    {
+      "a": {
+        "card": {
+          "awards": [],
+          "card_version": "1.0",
+          "career_stage": "student",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2028,
+              "field": "Business Administration",
+              "gpa_band": "not_listed",
+              "honors": [],
+              "in_progress": true,
+              "institution": "Western Illinois University",
+              "institution_tier": "T4"
+            },
+            {
+              "degree_level": "associate",
+              "end_year": 2026,
+              "field": "Arts",
+              "gpa_band": "not_listed",
+              "honors": [],
+              "in_progress": false,
+              "institution": "Spoon River College",
+              "institution_tier": "T4"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 3,
+              "employment_type": "full_time",
+              "highlights": [
+                "Transactions, drawer balancing and referrals during a summer"
+              ],
+              "impact_scale": "individual",
+              "org": "First Prairie Community Bank",
+              "org_tier": "C",
+              "role": "Teller",
+              "role_selectivity": "modest",
+              "seniority": "other",
+              "years": "2026-2026"
+            },
+            {
+              "duration_months": 25,
+              "employment_type": "part_time",
+              "highlights": [
+                "Trains new servers on the point-of-sale system"
+              ],
+              "impact_scale": "individual",
+              "org": "Riverbend Grill",
+              "org_tier": "D",
+              "role": "Server",
+              "role_selectivity": "modest",
+              "seniority": "other",
+              "years": "2024-present"
+            }
+          ],
+          "headline": "Business administration junior at a T4 regional university; summer bank teller; restaurant server; finance club member",
+          "leadership": [
+            "Finance club member; stock market simulation participant"
+          ],
+          "notable": [],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Excel",
+            "PowerPoint",
+            "Cash handling",
+            "Customer service"
+          ],
+          "top_signal": "Summer bank teller",
+          "years_fulltime": 0
+        },
+        "delta": -1,
+        "id": "cejzwt6qej",
+        "r_before": 865,
+        "stage": "student"
+      },
+      "at": "2026-10-07T23:00:00Z",
+      "b": {
+        "card": {
+          "awards": [
+            {
+              "name": "CFA charter (all three levels first attempt)",
+              "scope": "international",
+              "selectivity": "selective"
+            },
+            {
+              "name": "John Harvard Scholar",
+              "scope": "institutional",
+              "selectivity": "selective"
+            }
+          ],
+          "card_version": "1.0",
+          "career_stage": "mid",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2017,
+              "field": "Applied Mathematics (economics track)",
+              "gpa_band": "3.7-3.89",
+              "honors": [
+                "magna cum laude",
+                "John Harvard Scholar (2015, 2016)"
+              ],
+              "in_progress": false,
+              "institution": "Harvard University",
+              "institution_tier": "T1"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 45,
+              "employment_type": "full_time",
+              "highlights": [
+                "$650M gross / $120M net book, sole coverage of 35 names; P&L $18M, $15M, $12M in 2025-2023; Sharpe 1.7, 1.6, 1.9",
+                "Sizing framework cut net factor beta 0.21 to 0.06; alt-data pipeline credited on 6 of the 10 largest 2025 winners",
+                "Approved for a PM-track allocation in 2026 with a $1.5B gross target book; manages 2 people"
+              ],
+              "impact_scale": "org",
+              "org": "Citadel (Surveyor Capital)",
+              "org_tier": "S",
+              "role": "Senior Analyst, US Software and Internet (PM track)",
+              "role_selectivity": "elite",
+              "seniority": "senior",
+              "years": "2023-present"
+            },
+            {
+              "duration_months": 42,
+              "employment_type": "full_time",
+              "highlights": [
+                "Covered 20 names for a $2B pod; 2 of the pod's 5 largest 2021 gains",
+                "Channel-check program across 40 resellers preceded 3 guidance cuts by a quarter or more",
+                "Promoted to senior analyst a year ahead of the ladder"
+              ],
+              "impact_scale": "org",
+              "org": "Citadel (Surveyor Capital)",
+              "org_tier": "S",
+              "role": "Analyst, US Software",
+              "role_selectivity": "elite",
+              "seniority": "analyst",
+              "years": "2019-2022"
+            },
+            {
+              "duration_months": 24,
+              "employment_type": "full_time",
+              "highlights": [
+                "6 closed transactions, ~$14B: 3 software sell-sides, 2 IPOs, 1 convertible",
+                "Merger model for a $4.2B software combination; top bucket both cycles"
+              ],
+              "impact_scale": "org",
+              "org": "Goldman Sachs",
+              "org_tier": "S",
+              "role": "Investment Banking Analyst, TMT",
+              "role_selectivity": "elite",
+              "seniority": "analyst",
+              "years": "2017-2019"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Comps and precedents for 3 live pitches; full-time offer"
+              ],
+              "impact_scale": "team",
+              "org": "Goldman Sachs",
+              "org_tier": "S",
+              "role": "Investment Banking Summer Analyst, TMT",
+              "role_selectivity": "elite",
+              "seniority": "intern",
+              "years": "2016"
+            }
+          ],
+          "headline": "PM-track senior analyst at an S-tier multi-strategy fund; $45M attributed P&L over 3 years; ex-GS TMT; T1 degree; CFA",
+          "leadership": [
+            "Manages 1 analyst and 1 quantitative associate; both promoted on schedule",
+            "Guest lecturer for an undergraduate investment-analysis course, 2024 and 2025"
+          ],
+          "notable": [
+            "Attributed P&L of $45M over three years with Sharpe above 1.6 each year and a 2.1% worst drawdown",
+            "GS TMT top bucket, then an S-tier multi-strategy pod, then PM-track approval with a $1.5B target book",
+            "Harvard applied mathematics, magna cum laude; CFA charter passed first attempt at every level",
+            "Flagged a revenue-recognition change two quarters before a restatement"
+          ],
+          "projects": [
+            {
+              "descriptor": "Alternative-data pipeline for software usage and hiring signals (Python, SQL)",
+              "highlight": "Credited on 6 of the pod's 10 largest winners in 2025",
+              "kind": "software",
+              "scale_signal": "feeds 3 analysts' models",
+              "technical_depth": "substantial"
+            }
+          ],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Long-short fundamental research",
+            "Cohort and unit-economics modeling",
+            "Factor-neutral portfolio construction",
+            "Event-driven positioning",
+            "Python (pandas, statsmodels)",
+            "SQL",
+            "Bloomberg",
+            "FactSet",
+            "Visible Alpha"
+          ],
+          "top_signal": "$45M 3-yr P&L",
+          "years_fulltime": 9.3
+        },
+        "delta": 1,
+        "id": "jocml7s5ue",
+        "r_before": 1813,
+        "stage": "mid"
+      },
+      "c": 0.8,
+      "kind": "refine",
+      "m": "0f0418bbaae5831a",
+      "reason": "B: harder selections and larger stated scope. A: comparable stage but fewer verifiable outcomes.",
+      "w": "B"
+    },
+    {
+      "a": {
+        "card": {
+          "awards": [
+            {
+              "name": "CFA Charterholder",
+              "scope": "international",
+              "selectivity": "selective"
+            },
+            {
+              "name": "Top-bucket associate ranking",
+              "scope": "company",
+              "selectivity": "selective"
+            }
+          ],
+          "card_version": "1.0",
+          "career_stage": "mid",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2020,
+              "field": "Finance, Investment and Banking",
+              "gpa_band": "3.5-3.69",
+              "honors": [],
+              "in_progress": false,
+              "institution": "University of Wisconsin–Madison",
+              "institution_tier": "T3"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 28,
+              "employment_type": "full_time",
+              "highlights": [
+                "Day-to-day associate on a $640M sale: model, CIM, data room, 61-party buyer list",
+                "Manages 2 analysts; model-review checklist cut senior-review error findings from 6 to 2 per deal",
+                "Top-bucket associate 2024; two pitches converted into mandates in 2025"
+              ],
+              "impact_scale": "org",
+              "org": "Robert W. Baird & Co.",
+              "org_tier": "B",
+              "role": "Associate, Investment Banking (Industrial Technology)",
+              "role_selectivity": "selective",
+              "seniority": "associate",
+              "years": "2023-present"
+            },
+            {
+              "duration_months": 36,
+              "employment_type": "full_time",
+              "highlights": [
+                "Lead analyst on a $520M sell-side and a $220M recapitalization",
+                "Built the group LBO template; first-draft model time from 3 days to 1"
+              ],
+              "impact_scale": "org",
+              "org": "Robert W. Baird & Co.",
+              "org_tier": "B",
+              "role": "Analyst, Investment Banking",
+              "role_selectivity": "selective",
+              "seniority": "analyst",
+              "years": "2020-2023"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Precedent transactions for an industrial distributor sale"
+              ],
+              "impact_scale": "team",
+              "org": "Robert W. Baird & Co.",
+              "org_tier": "B",
+              "role": "Summer Analyst, Investment Banking",
+              "role_selectivity": "selective",
+              "seniority": "intern",
+              "years": "2019-2019"
+            }
+          ],
+          "headline": "Investment banking associate, 5 years at a B-tier middle-market bank; 10 closed deals, ~$3B aggregate; CFA charterholder",
+          "leadership": [
+            "Manages two first-year analysts; both top-half in the 2025 review",
+            "Vice president of a university investment banking club"
+          ],
+          "notable": [
+            "Ten closed transactions with named roles, about $3B aggregate",
+            "CFA charter earned while in banking",
+            "Analyst-to-associate promotion at the same bank with a top-bucket ranking"
+          ],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "LBO modeling",
+            "Merger modeling",
+            "DCF valuation",
+            "Sell-side process management",
+            "Due diligence coordination",
+            "Capital IQ",
+            "FactSet",
+            "Excel VBA"
+          ],
+          "top_signal": "10 deals, ~$3B",
+          "years_fulltime": 5.3
+        },
+        "delta": -4,
+        "id": "jz4cv4gtug",
+        "r_before": 1411,
+        "stage": "mid"
+      },
+      "at": "2026-10-05T23:00:00Z",
+      "b": {
+        "card": {
+          "awards": [
+            {
+              "name": "Baker Scholar",
+              "scope": "institutional",
+              "selectivity": "highly_selective"
+            },
+            {
+              "name": "Joseph Wharton Scholar",
+              "scope": "institutional",
+              "selectivity": "selective"
+            },
+            {
+              "name": "CFA charterholder",
+              "scope": "international",
+              "selectivity": "selective"
+            }
+          ],
+          "card_version": "1.0",
+          "career_stage": "senior",
+          "education": [
+            {
+              "degree_level": "mba",
+              "end_year": 2014,
+              "field": "Business Administration",
+              "gpa_band": "not_listed",
+              "honors": [
+                "Baker Scholar"
+              ],
+              "in_progress": false,
+              "institution": "Harvard Business School",
+              "institution_tier": "T1"
+            },
+            {
+              "degree_level": "bachelor",
+              "end_year": 2010,
+              "field": "Economics",
+              "gpa_band": "not_listed",
+              "honors": [
+                "summa cum laude",
+                "Joseph Wharton Scholar"
+              ],
+              "in_progress": false,
+              "institution": "University of Pennsylvania (Wharton)",
+              "institution_tier": "T2"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 54,
+              "employment_type": "founder",
+              "highlights": [
+                "$2.0B Fund I in a single close; 28 institutional LPs",
+                "Realized 3.2x on a $140M investment sold at $1.4B EV",
+                "Fund I at 1.6x gross and 22% net IRR; Fund II targeting $2.5B"
+              ],
+              "impact_scale": "industry",
+              "org": "Growth equity fund (founded)",
+              "org_tier": "A",
+              "role": "Founder and Managing Partner",
+              "role_selectivity": "elite",
+              "seniority": "founder",
+              "years": "2022-present"
+            },
+            {
+              "duration_months": 96,
+              "employment_type": "full_time",
+              "highlights": [
+                "Led 9 investments totaling $2.3B",
+                "Realized 4.1x through an IPO and 2.6x through a strategic sale",
+                "Youngest partner promotion in the group at 33"
+              ],
+              "impact_scale": "industry",
+              "org": "General Atlantic",
+              "org_tier": "A",
+              "role": "Partner, Technology (VP through Partner)",
+              "role_selectivity": "elite",
+              "seniority": "md_partner",
+              "years": "2014-2022"
+            },
+            {
+              "duration_months": 24,
+              "employment_type": "full_time",
+              "highlights": [
+                "8 announced deals ($11B); top bucket both years"
+              ],
+              "impact_scale": "org",
+              "org": "Goldman Sachs",
+              "org_tier": "S",
+              "role": "Analyst, TMT Investment Banking",
+              "role_selectivity": "elite",
+              "seniority": "analyst",
+              "years": "2010-2012"
+            }
+          ],
+          "headline": "Founding managing partner of a $2B growth fund; ex-partner at an A-tier growth equity firm; S-tier TMT banking; 3 exits",
+          "leadership": [
+            "Leads a 19-person investment firm and its investment committee",
+            "Five current portfolio boards; chaired audit and compensation committees",
+            "Investment committee of a $1.8B university endowment"
+          ],
+          "notable": [
+            "Raised a $2.0B first fund in a single close",
+            "Three realized exits at 4.1x, 3.2x and 2.6x",
+            "Partner at 33 at an A-tier growth firm",
+            "Baker Scholar after top-bucket S-tier banking"
+          ],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Growth equity underwriting",
+            "Fundraising",
+            "Board governance",
+            "Vertical software",
+            "Healthcare IT",
+            "Fintech",
+            "Exit execution"
+          ],
+          "top_signal": "Founded $2B fund",
+          "years_fulltime": 14.5
+        },
+        "delta": 4,
+        "id": "si4jwz5kcs",
+        "r_before": 1957,
+        "stage": "senior"
+      },
+      "c": 0.8,
+      "kind": "refine",
+      "m": "6eff3104b0d3ade5",
+      "reason": "B: harder selections and larger stated scope. A: comparable stage but fewer verifiable outcomes.",
+      "w": "B"
+    },
+    {
+      "a": {
+        "card": {
+          "awards": [
+            {
+              "name": "Joseph Wharton Scholars",
+              "scope": "institutional",
+              "selectivity": "selective"
+            },
+            {
+              "name": "Top-bucket analyst ranking, two years",
+              "scope": "company",
+              "selectivity": "highly_selective"
+            },
+            {
+              "name": "summa cum laude",
+              "scope": "institutional",
+              "selectivity": "selective"
+            }
+          ],
+          "card_version": "1.0",
+          "career_stage": "early",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2022,
+              "field": "Economics (Finance, Statistics)",
+              "gpa_band": "3.9-3.99",
+              "honors": [
+                "summa cum laude",
+                "Joseph Wharton Scholars",
+                "Dean's List all semesters"
+              ],
+              "in_progress": false,
+              "institution": "University of Pennsylvania (Wharton)",
+              "institution_tier": "T2"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 16,
+              "employment_type": "full_time",
+              "highlights": [
+                "Two closed investments: $700M growth buyout (co-led model and cohort analysis) and $260M growth equity (unit economics, 100-day plan)",
+                "Diligence lead on a $1.5B take-private; owned base and downside cases for the investment committee",
+                "Portfolio pricing work added ~$9M annualized revenue in year one"
+              ],
+              "impact_scale": "industry",
+              "org": "Warburg Pincus",
+              "org_tier": "S",
+              "role": "Associate, Technology and Business Services",
+              "role_selectivity": "elite",
+              "seniority": "associate",
+              "years": "2024-present"
+            },
+            {
+              "duration_months": 24,
+              "employment_type": "full_time",
+              "highlights": [
+                "Top-bucket ranking both years",
+                "Closed: $4.2B public sale, $1.1B sponsor sale (sole analyst, 40 buyers), $650M carve-out",
+                "Built the merger model adopted across the technology team"
+              ],
+              "impact_scale": "industry",
+              "org": "Evercore",
+              "org_tier": "S",
+              "role": "Analyst, Mergers and Acquisitions",
+              "role_selectivity": "highly_selective",
+              "seniority": "analyst",
+              "years": "2022-2024"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Return offer; comps for a live $2B sell-side"
+              ],
+              "impact_scale": "team",
+              "org": "Evercore",
+              "org_tier": "S",
+              "role": "Summer Analyst, M&A",
+              "role_selectivity": "highly_selective",
+              "seniority": "intern",
+              "years": "2021-2021"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Early-insight program; follow-on offering support"
+              ],
+              "impact_scale": "team",
+              "org": "Morgan Stanley",
+              "org_tier": "S",
+              "role": "Sophomore Summer Analyst, IBD",
+              "role_selectivity": "highly_selective",
+              "seniority": "intern",
+              "years": "2020-2020"
+            }
+          ],
+          "headline": "Megafund PE associate 3 years out of a T2 school; 2 closed investments; diligence lead on a $1.5B take-private",
+          "leadership": [
+            "Co-president of a 400-member undergraduate finance club",
+            "Technology portfolio manager of a ~$600k student fund; sector returned 14% vs 9% benchmark",
+            "Mentor in a women-in-finance group; guest speaker at a sophomore banking workshop twice"
+          ],
+          "notable": [
+            "Elite-boutique M&A analyst to megafund PE associate in two years, the standard elite path, executed",
+            "Diligence lead on a $1.5B take-private as a first-year associate",
+            "Top-bucket both analyst years with three closed deals above $650M",
+            "CFA Level II passed while in banking"
+          ],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "LBO modeling",
+            "Merger modeling",
+            "Cohort and unit-economics analysis",
+            "Commercial due diligence",
+            "Capital IQ",
+            "Pitchbook",
+            "Python (pandas)",
+            "SQL"
+          ],
+          "top_signal": "Megafund PE assoc.",
+          "years_fulltime": 3.3
+        },
+        "delta": 6,
+        "id": "ki4jslasr3",
+        "r_before": 1693,
+        "stage": "early"
+      },
+      "at": "2026-10-05T23:00:00Z",
+      "b": {
+        "card": {
+          "awards": [
+            {
+              "name": "Business Honors Program admission",
+              "scope": "institutional",
+              "selectivity": "selective"
+            }
+          ],
+          "card_version": "1.0",
+          "career_stage": "student",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2028,
+              "field": "Finance",
+              "gpa_band": "3.7-3.89",
+              "honors": [
+                "Business Honors Program",
+                "University Honors"
+              ],
+              "in_progress": true,
+              "institution": "University of Texas at Austin (McCombs)",
+              "institution_tier": "T2"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "QoE on $180M, $45M and $320M transactions",
+                "Found $2.1M of non-recurring expenses for the adjusted EBITDA schedule",
+                "Return offer for 2027"
+              ],
+              "impact_scale": "team",
+              "org": "KPMG",
+              "org_tier": "B",
+              "role": "Financial Due Diligence Intern, Transaction Services",
+              "role_selectivity": "selective",
+              "seniority": "intern",
+              "years": "2026-2026"
+            },
+            {
+              "duration_months": 13,
+              "employment_type": "part_time",
+              "highlights": [
+                "Selected 8 of 94 applicants",
+                "Approved pitch up 18% vs 9% benchmark"
+              ],
+              "impact_scale": "team",
+              "org": "Student-run investment fund (~$900k AUM)",
+              "org_tier": "C",
+              "role": "Analyst, Industrials",
+              "role_selectivity": "selective",
+              "seniority": "analyst",
+              "years": "2025-present"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Spread 15 middle-market borrowers; covenant tracker adopted"
+              ],
+              "impact_scale": "team",
+              "org": "Texas Capital Bank",
+              "org_tier": "C",
+              "role": "Summer Analyst, Commercial Banking",
+              "role_selectivity": "modest",
+              "seniority": "intern",
+              "years": "2025-2025"
+            }
+          ],
+          "headline": "Finance junior in a T2 honors program; Big-4 transaction services intern with a return offer; $900k student-fund analyst",
+          "leadership": [
+            "Vice President of Education, undergraduate finance association; 10-week prep series for 60 students"
+          ],
+          "notable": [
+            "Student-fund pitch returned 18% against a 9% benchmark",
+            "Big-4 return offer as a rising junior"
+          ],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Excel modeling",
+            "Quality of earnings",
+            "NWC analysis",
+            "Comps",
+            "DCF",
+            "Capital IQ",
+            "Bloomberg",
+            "Credit spreading"
+          ],
+          "top_signal": "Big-4 TS intern",
+          "years_fulltime": 0
+        },
+        "delta": -7,
+        "id": "kjkdcdj5yr",
+        "r_before": 1245,
+        "stage": "student"
+      },
+      "c": 0.8,
+      "kind": "refine",
+      "m": "ea37cd417082570b",
+      "reason": "A: harder selections and larger stated scope. B: comparable stage but fewer verifiable outcomes.",
+      "w": "A"
+    },
+    {
+      "a": {
+        "card": {
+          "awards": [],
+          "card_version": "1.0",
+          "career_stage": "early",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2024,
+              "field": "Business Administration, Finance",
+              "gpa_band": "3.5-3.69",
+              "honors": [],
+              "in_progress": false,
+              "institution": "University of Missouri",
+              "institution_tier": "T3"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 27,
+              "employment_type": "full_time",
+              "highlights": [
+                "Owns the monthly forecast and annual plan for a $1.4B, 14-site division; presents variances to the division CFO",
+                "Driver-based model closed the forecast 2 business days earlier",
+                "Found $2.1M of annualized freight savings adopted by operations"
+              ],
+              "impact_scale": "org",
+              "org": "Emerson Electric",
+              "org_tier": "B",
+              "role": "Financial Analyst, FP&A, Discrete Automation",
+              "role_selectivity": "modest",
+              "seniority": "analyst",
+              "years": "2024-present"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Automated a weekly cash report, ~4 hours a week saved"
+              ],
+              "impact_scale": "team",
+              "org": "Emerson Electric",
+              "org_tier": "B",
+              "role": "Finance Intern, Corporate FP&A",
+              "role_selectivity": "modest",
+              "seniority": "intern",
+              "years": "2023"
+            },
+            {
+              "duration_months": 9,
+              "employment_type": "part_time",
+              "highlights": [
+                "Weekly review sessions for ~60 students"
+              ],
+              "impact_scale": "team",
+              "org": "University of Missouri",
+              "org_tier": "C",
+              "role": "Teaching Assistant, Financial Accounting",
+              "role_selectivity": "modest",
+              "seniority": "other",
+              "years": "2023-2024"
+            }
+          ],
+          "headline": "FP&A analyst, 2 years at a B-tier F500 industrial; owns the forecast for a $1.4B division; T3 finance degree",
+          "leadership": [
+            "Treasurer of a 90-member student finance association; $9,000 annual budget"
+          ],
+          "notable": [
+            "Sole owner of a $1.4B division forecast two years out of a T3 program",
+            "Freight-savings analysis worth $2.1M a year adopted by operations"
+          ],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Financial modeling",
+            "Variance analysis",
+            "Forecasting and budgeting",
+            "Hyperion Planning",
+            "Excel",
+            "Power Query",
+            "Power BI",
+            "Oracle ERP",
+            "PowerPoint"
+          ],
+          "top_signal": "$1.4B div forecast",
+          "years_fulltime": 2.3
+        },
+        "delta": 40,
+        "id": "2elgnjj7jt",
+        "r_before": 1187,
+        "stage": "early"
+      },
+      "at": "2026-10-04T23:00:00Z",
+      "b": {
+        "card": {
+          "awards": [
+            {
+              "name": "Joseph Wharton Scholars",
+              "scope": "institutional",
+              "selectivity": "selective"
+            },
+            {
+              "name": "Top-bucket analyst ranking, two years",
+              "scope": "company",
+              "selectivity": "highly_selective"
+            },
+            {
+              "name": "summa cum laude",
+              "scope": "institutional",
+              "selectivity": "selective"
+            }
+          ],
+          "card_version": "1.0",
+          "career_stage": "early",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2022,
+              "field": "Economics (Finance, Statistics)",
+              "gpa_band": "3.9-3.99",
+              "honors": [
+                "summa cum laude",
+                "Joseph Wharton Scholars",
+                "Dean's List all semesters"
+              ],
+              "in_progress": false,
+              "institution": "University of Pennsylvania (Wharton)",
+              "institution_tier": "T2"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 16,
+              "employment_type": "full_time",
+              "highlights": [
+                "Two closed investments: $700M growth buyout (co-led model and cohort analysis) and $260M growth equity (unit economics, 100-day plan)",
+                "Diligence lead on a $1.5B take-private; owned base and downside cases for the investment committee",
+                "Portfolio pricing work added ~$9M annualized revenue in year one"
+              ],
+              "impact_scale": "industry",
+              "org": "Warburg Pincus",
+              "org_tier": "S",
+              "role": "Associate, Technology and Business Services",
+              "role_selectivity": "elite",
+              "seniority": "associate",
+              "years": "2024-present"
+            },
+            {
+              "duration_months": 24,
+              "employment_type": "full_time",
+              "highlights": [
+                "Top-bucket ranking both years",
+                "Closed: $4.2B public sale, $1.1B sponsor sale (sole analyst, 40 buyers), $650M carve-out",
+                "Built the merger model adopted across the technology team"
+              ],
+              "impact_scale": "industry",
+              "org": "Evercore",
+              "org_tier": "S",
+              "role": "Analyst, Mergers and Acquisitions",
+              "role_selectivity": "highly_selective",
+              "seniority": "analyst",
+              "years": "2022-2024"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Return offer; comps for a live $2B sell-side"
+              ],
+              "impact_scale": "team",
+              "org": "Evercore",
+              "org_tier": "S",
+              "role": "Summer Analyst, M&A",
+              "role_selectivity": "highly_selective",
+              "seniority": "intern",
+              "years": "2021-2021"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Early-insight program; follow-on offering support"
+              ],
+              "impact_scale": "team",
+              "org": "Morgan Stanley",
+              "org_tier": "S",
+              "role": "Sophomore Summer Analyst, IBD",
+              "role_selectivity": "highly_selective",
+              "seniority": "intern",
+              "years": "2020-2020"
+            }
+          ],
+          "headline": "Megafund PE associate 3 years out of a T2 school; 2 closed investments; diligence lead on a $1.5B take-private",
+          "leadership": [
+            "Co-president of a 400-member undergraduate finance club",
+            "Technology portfolio manager of a ~$600k student fund; sector returned 14% vs 9% benchmark",
+            "Mentor in a women-in-finance group; guest speaker at a sophomore banking workshop twice"
+          ],
+          "notable": [
+            "Elite-boutique M&A analyst to megafund PE associate in two years, the standard elite path, executed",
+            "Diligence lead on a $1.5B take-private as a first-year associate",
+            "Top-bucket both analyst years with three closed deals above $650M",
+            "CFA Level II passed while in banking"
+          ],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "LBO modeling",
+            "Merger modeling",
+            "Cohort and unit-economics analysis",
+            "Commercial due diligence",
+            "Capital IQ",
+            "Pitchbook",
+            "Python (pandas)",
+            "SQL"
+          ],
+          "top_signal": "Megafund PE assoc.",
+          "years_fulltime": 3.3
+        },
+        "delta": -32,
+        "id": "ki4jslasr3",
+        "r_before": 1726,
+        "stage": "early"
+      },
+      "c": 0.8,
+      "kind": "refine",
+      "m": "c710bb209f08f43c",
+      "reason": "B: harder selections and larger stated scope. A: comparable stage but fewer verifiable outcomes.",
+      "w": "draw"
+    },
+    {
+      "a": {
+        "card": {
+          "awards": [
+            {
+              "name": "CFA charter (all three levels first attempt)",
+              "scope": "international",
+              "selectivity": "selective"
+            },
+            {
+              "name": "John Harvard Scholar",
+              "scope": "institutional",
+              "selectivity": "selective"
+            }
+          ],
+          "card_version": "1.0",
+          "career_stage": "mid",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2017,
+              "field": "Applied Mathematics (economics track)",
+              "gpa_band": "3.7-3.89",
+              "honors": [
+                "magna cum laude",
+                "John Harvard Scholar (2015, 2016)"
+              ],
+              "in_progress": false,
+              "institution": "Harvard University",
+              "institution_tier": "T1"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 45,
+              "employment_type": "full_time",
+              "highlights": [
+                "$650M gross / $120M net book, sole coverage of 35 names; P&L $18M, $15M, $12M in 2025-2023; Sharpe 1.7, 1.6, 1.9",
+                "Sizing framework cut net factor beta 0.21 to 0.06; alt-data pipeline credited on 6 of the 10 largest 2025 winners",
+                "Approved for a PM-track allocation in 2026 with a $1.5B gross target book; manages 2 people"
+              ],
+              "impact_scale": "org",
+              "org": "Citadel (Surveyor Capital)",
+              "org_tier": "S",
+              "role": "Senior Analyst, US Software and Internet (PM track)",
+              "role_selectivity": "elite",
+              "seniority": "senior",
+              "years": "2023-present"
+            },
+            {
+              "duration_months": 42,
+              "employment_type": "full_time",
+              "highlights": [
+                "Covered 20 names for a $2B pod; 2 of the pod's 5 largest 2021 gains",
+                "Channel-check program across 40 resellers preceded 3 guidance cuts by a quarter or more",
+                "Promoted to senior analyst a year ahead of the ladder"
+              ],
+              "impact_scale": "org",
+              "org": "Citadel (Surveyor Capital)",
+              "org_tier": "S",
+              "role": "Analyst, US Software",
+              "role_selectivity": "elite",
+              "seniority": "analyst",
+              "years": "2019-2022"
+            },
+            {
+              "duration_months": 24,
+              "employment_type": "full_time",
+              "highlights": [
+                "6 closed transactions, ~$14B: 3 software sell-sides, 2 IPOs, 1 convertible",
+                "Merger model for a $4.2B software combination; top bucket both cycles"
+              ],
+              "impact_scale": "org",
+              "org": "Goldman Sachs",
+              "org_tier": "S",
+              "role": "Investment Banking Analyst, TMT",
+              "role_selectivity": "elite",
+              "seniority": "analyst",
+              "years": "2017-2019"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Comps and precedents for 3 live pitches; full-time offer"
+              ],
+              "impact_scale": "team",
+              "org": "Goldman Sachs",
+              "org_tier": "S",
+              "role": "Investment Banking Summer Analyst, TMT",
+              "role_selectivity": "elite",
+              "seniority": "intern",
+              "years": "2016"
+            }
+          ],
+          "headline": "PM-track senior analyst at an S-tier multi-strategy fund; $45M attributed P&L over 3 years; ex-GS TMT; T1 degree; CFA",
+          "leadership": [
+            "Manages 1 analyst and 1 quantitative associate; both promoted on schedule",
+            "Guest lecturer for an undergraduate investment-analysis course, 2024 and 2025"
+          ],
+          "notable": [
+            "Attributed P&L of $45M over three years with Sharpe above 1.6 each year and a 2.1% worst drawdown",
+            "GS TMT top bucket, then an S-tier multi-strategy pod, then PM-track approval with a $1.5B target book",
+            "Harvard applied mathematics, magna cum laude; CFA charter passed first attempt at every level",
+            "Flagged a revenue-recognition change two quarters before a restatement"
+          ],
+          "projects": [
+            {
+              "descriptor": "Alternative-data pipeline for software usage and hiring signals (Python, SQL)",
+              "highlight": "Credited on 6 of the pod's 10 largest winners in 2025",
+              "kind": "software",
+              "scale_signal": "feeds 3 analysts' models",
+              "technical_depth": "substantial"
+            }
+          ],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Long-short fundamental research",
+            "Cohort and unit-economics modeling",
+            "Factor-neutral portfolio construction",
+            "Event-driven positioning",
+            "Python (pandas, statsmodels)",
+            "SQL",
+            "Bloomberg",
+            "FactSet",
+            "Visible Alpha"
+          ],
+          "top_signal": "$45M 3-yr P&L",
+          "years_fulltime": 9.3
+        },
+        "delta": 1,
+        "id": "jocml7s5ue",
+        "r_before": 1811,
+        "stage": "mid"
+      },
+      "at": "2026-10-04T23:00:00Z",
+      "b": {
+        "card": {
+          "awards": [],
+          "card_version": "1.0",
+          "career_stage": "new_grad",
+          "education": [
+            {
+              "degree_level": "bachelor",
+              "end_year": 2025,
+              "field": "Finance",
+              "gpa_band": "3.0-3.49",
+              "honors": [],
+              "in_progress": false,
+              "institution": "The Ohio State University (Fisher)",
+              "institution_tier": "T3"
+            }
+          ],
+          "experiences": [
+            {
+              "duration_months": 4,
+              "employment_type": "full_time",
+              "highlights": [
+                "12-month rotation across branch operations, consumer lending and small business banking",
+                "Built an Excel weekly deposit-growth report for the regional manager"
+              ],
+              "impact_scale": "individual",
+              "org": "Huntington National Bank",
+              "org_tier": "C",
+              "role": "Retail Banking Rotational Program Associate",
+              "role_selectivity": "modest",
+              "seniority": "new_grad",
+              "years": "2025-present"
+            },
+            {
+              "duration_months": 3,
+              "employment_type": "internship",
+              "highlights": [
+                "Prepared client paperwork and quarterly review materials for one advisor"
+              ],
+              "impact_scale": "individual",
+              "org": "Edward Jones",
+              "org_tier": "C",
+              "role": "Wealth Management Intern",
+              "role_selectivity": "modest",
+              "seniority": "intern",
+              "years": "2024-2024"
+            },
+            {
+              "duration_months": 33,
+              "employment_type": "part_time",
+              "highlights": [
+                "Service desk; trained new part-time associates"
+              ],
+              "impact_scale": "individual",
+              "org": "Kroger",
+              "org_tier": "D",
+              "role": "Customer Service Associate",
+              "role_selectivity": "modest",
+              "seniority": "other",
+              "years": "2021-2024"
+            }
+          ],
+          "headline": "New graduate in finance from a T3 state flagship; retail-bank rotational associate after a wealth-management internship",
+          "leadership": [
+            "Treasurer of a student investment club for two years; managed the club budget and dues"
+          ],
+          "notable": [],
+          "projects": [],
+          "publications_summary": {
+            "citation_signal": "not stated",
+            "count_total": 0,
+            "first_author_count": 0,
+            "strong_venue_count": 0,
+            "top_venue_count": 0,
+            "venues": []
+          },
+          "skills_top": [
+            "Excel",
+            "Bloomberg Market Concepts",
+            "PowerPoint",
+            "Spanish (conversational)"
+          ],
+          "top_signal": "Bank rotational",
+          "years_fulltime": 0.3
+        },
+        "delta": -1,
+        "id": "xr3uglaj43",
+        "r_before": 1028,
+        "stage": "new_grad"
+      },
+      "c": 0.8,
+      "kind": "refine",
+      "m": "46f199cc1240e2c4",
+      "reason": "A: harder selections and larger stated scope. B: comparable stage but fewer verifiable outcomes.",
+      "w": "A"
+    }
+  ],
+  "schema": 1,
+  "updated_at": "2026-10-22T23:00:00Z"
+}

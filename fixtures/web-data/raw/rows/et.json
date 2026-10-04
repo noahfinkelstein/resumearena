@@ -1,0 +1,38 @@
+{
+  "etrkib4oit": {
+    "c": {
+      "general": 1,
+      "tech": 0.9
+    },
+    "ch": "9c2ad58f352287e235724e812206827a33bd4e24f8167ecd24179ba3b16e0f14",
+    "h": "three-page-student-r",
+    "p": "tech",
+    "s": "analyzed",
+    "sc": {
+      "general": 38,
+      "tech": 38
+    },
+    "sig": "CS junior, 3.5 GPA",
+    "ss": {
+      "general": [
+        38,
+        45,
+        15,
+        15,
+        30,
+        45
+      ],
+      "tech": [
+        38,
+        45,
+        15,
+        15,
+        25,
+        47
+      ]
+    },
+    "st": "student",
+    "t": 1791031260,
+    "v": "handle"
+  }
+}

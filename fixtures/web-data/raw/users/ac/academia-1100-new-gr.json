@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:21:00Z",
+  "handle": "academia-1100-new-gr",
+  "key_exposed": false,
+  "owner_hash": "7e95129e9d6148dec607591f12bb13e89e8a1521907588cca16437fcaabd3743",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:21:00Z",
+      "current": true,
+      "id": "hxq66qvixj"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

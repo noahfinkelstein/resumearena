@@ -1,0 +1,12 @@
+<!doctype html><meta charset="utf-8"><title>ResumeArena</title>
+<script>
+  // Keep the path, stash it in the query, bounce to the app root.
+  // /resumearena/r/abc?x=1#h  ->  /resumearena/?/r/abc&x=1#h
+  var l = window.location, seg = 1; // 1 = one path segment is the repo name
+  l.replace(
+    l.protocol + '//' + l.hostname + (l.port ? ':' + l.port : '') +
+    l.pathname.split('/').slice(0, 1 + seg).join('/') + '/?/' +
+    l.pathname.slice(1).split('/').slice(seg).join('/').replace(/&/g, '~and~') +
+    (l.search ? '&' + l.search.slice(1).replace(/&/g, '~and~') : '') + l.hash
+  );
+</script>

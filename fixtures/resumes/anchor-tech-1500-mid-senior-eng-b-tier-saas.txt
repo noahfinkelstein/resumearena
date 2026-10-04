@@ -1,0 +1,48 @@
+[name]
+[email] · [phone] · [url] · [url]
+Austin, TX
+
+SUMMARY
+Senior software engineer with five years at Atlassian, the last two owning the search indexing service behind Confluence and Jira search. Backend and distributed systems: Java, Kotlin, Kafka, OpenSearch, AWS. Promoted to senior in 2024.
+
+EXPERIENCE
+
+Atlassian — Austin, TX
+Senior Software Engineer, Search Platform · Mar 2024 – Present
+• Own the search indexing service that ingests content changes from Confluence and Jira: 1.4B indexed documents, 85k events/s sustained, 240k events/s peak, 99.95% availability over the last four quarters.
+• Cut p99 index-visibility latency from 4.2 s to 1.1 s by replacing a per-tenant polling loop with a change-data-capture pipeline on Kafka; p50 fell from 900 ms to 310 ms.
+• Led a 4-engineer, 9-month migration of the indexing fleet from self-managed Elasticsearch clusters to managed OpenSearch, retiring 310 EC2 instances and reducing run cost by $1.1M per year.
+• Designed the backfill scheduler used to reindex 11,000 enterprise tenants after schema changes; a full reindex now completes in 38 hours instead of 9 days.
+• Primary on-call for the service (one of six rotation members); authored 14 runbooks and reduced pages per week from 11 to 3 through alert tuning and two automated remediations.
+• Mentor two engineers; ran the team's design-review rotation for 2025.
+• Wrote the search platform's capacity model (CPU, heap and shard-count forecasts per tenant cohort); it has predicted quarterly fleet needs within 8% for five consecutive quarters and is the input to the group's annual budget.
+• Drove the adoption of OpenSearch k-NN for semantic search across Confluence; the hybrid ranker lifted search success rate (a click within the first three results) from 58% to 66% on 40M weekly queries.
+
+Software Engineer, Search Platform · Aug 2021 – Feb 2024
+• Built the tenant-aware query router that fans out search requests across 60 OpenSearch domains; it now serves 22k queries/s with p99 under 180 ms.
+• Reduced index storage by 27% (about 410 TB) by introducing field-level compression and dropping two unused analyzers after measuring their query share at under 0.1%.
+• Shipped the typeahead ranking service for Jira issue search; click-through on the first suggestion rose from 31% to 44% in the A/B test (n = 2.1M sessions).
+• Wrote the load-testing harness the team still uses; it replays 1 hour of production traffic at 3x in under 20 minutes.
+• Fixed a long-standing duplicate-document bug that affected 0.4% of reindexes; closed 60 related support escalations.
+• Co-designed the tenant-isolation scheme (one index alias per tenant group, 500 tenants per group) that let the platform onboard the 2023 enterprise cloud migration wave of 3,200 tenants without a single noisy-neighbour incident.
+• Instrumented the ingestion path with per-stage latency histograms; the dashboards are the standard view used by three other platform teams.
+
+Software Engineering Intern, Search Platform · May 2020 – Aug 2020
+• Prototyped synonym expansion for Confluence search; shipped behind a flag and adopted by the team after a 6% lift in zero-result-rate recovery. Returned with a full-time offer.
+
+EDUCATION
+The Ohio State University — Columbus, OH
+B.S. Computer Science and Engineering, May 2021 · GPA 3.6/4.0
+Teaching assistant, Software Engineering (CSE 3901), two semesters
+Senior capstone: a distributed log-aggregation service for the department's course infrastructure (team of 4)
+
+PROJECTS
+• kv-raft (personal): a Raft-based replicated key-value store in Go with snapshotting and membership changes; passes the MIT 6.824 test suite under race detection. Roughly 4k lines, 60 stars.
+• Internal talk: "Reindexing 11,000 tenants without downtime", Atlassian engineering summit, 2025.
+
+SKILLS
+Java, Kotlin, Go, Python · Kafka, OpenSearch/Elasticsearch, PostgreSQL, DynamoDB, Redis · AWS (EC2, S3, Lambda, Step Functions), Kubernetes, Terraform · Datadog, Splunk, SLO design, incident response
+
+INTERNAL RECOGNITION
+• Atlassian Platform Engineering Award, 2025 (team award for the OpenSearch migration)
+• Recognized by Confluence Cloud leadership for the index-visibility latency work, 2024

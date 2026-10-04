@@ -1,0 +1,108 @@
+{
+  "ngseiou44g": {
+    "card": {
+      "awards": [],
+      "card_version": "1.0",
+      "career_stage": "mid",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2021,
+          "field": "Computer Science",
+          "gpa_band": "3.5-3.69",
+          "honors": [],
+          "in_progress": false,
+          "institution": "Purdue University",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 30,
+          "employment_type": "full_time",
+          "highlights": [
+            "Owns callback delivery: about 1.2B callbacks a day across 3 regions",
+            "Adaptive backoff cut peak retry volume about 60% in the two largest incidents",
+            "Led a MySQL-to-DynamoDB migration with no customer-visible downtime"
+          ],
+          "impact_scale": "org",
+          "org": "Twilio",
+          "org_tier": "B",
+          "role": "Software Engineer II, Messaging Platform",
+          "role_selectivity": "selective",
+          "seniority": "mid",
+          "years": "2024-present"
+        },
+        {
+          "duration_months": 34,
+          "employment_type": "full_time",
+          "highlights": [
+            "Usage pipeline processing about 900M records a day",
+            "Fixed a double-counting bug worth about $40k a month",
+            "Month-end reconciliation from 2 days to 4 hours"
+          ],
+          "impact_scale": "org",
+          "org": "Twilio",
+          "org_tier": "B",
+          "role": "Software Engineer, Billing Platform",
+          "role_selectivity": "selective",
+          "seniority": "junior",
+          "years": "2021-2024"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Webhook-replay command shipped in the public CLI"
+          ],
+          "impact_scale": "team",
+          "org": "Twilio",
+          "org_tier": "B",
+          "role": "Software Engineering Intern",
+          "role_selectivity": "selective",
+          "seniority": "intern",
+          "years": "2020-2020"
+        }
+      ],
+      "headline": "Backend engineer, 5 years at a B-tier comms platform; owns a 1.2B-callback/day service; led a datastore migration",
+      "leadership": [
+        "Mentored two new graduates; design-review template adopted by four teams"
+      ],
+      "notable": [
+        "Service at 1.2B callbacks a day owned at five years of experience"
+      ],
+      "projects": [
+        {
+          "descriptor": "Open-source Go rate-limiting library",
+          "highlight": "Sliding-window and token-bucket strategies",
+          "kind": "software",
+          "scale_signal": "about 300 stars; used by two internal services",
+          "technical_depth": "standard"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Go",
+        "Java",
+        "Kafka",
+        "DynamoDB",
+        "AWS",
+        "Kubernetes",
+        "Terraform",
+        "gRPC",
+        "PostgreSQL",
+        "OpenTelemetry"
+      ],
+      "top_signal": "1.2B callbacks/day",
+      "years_fulltime": 5.3
+    },
+    "st": "mid"
+  }
+}

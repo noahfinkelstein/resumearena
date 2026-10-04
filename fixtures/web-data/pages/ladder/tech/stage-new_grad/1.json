@@ -1,0 +1,70 @@
+{
+  "category": "tech",
+  "cols": [
+    "rank",
+    "id",
+    "identity",
+    "tier",
+    "r",
+    "pm",
+    "w",
+    "l",
+    "d",
+    "stage",
+    "sig",
+    "d7",
+    "top"
+  ],
+  "page": 1,
+  "pages": 1,
+  "partition": "stage-new_grad",
+  "rows": [
+    [
+      1,
+      "62ijw6i4r3",
+      "fabricated-rhodes-io",
+      "candidate",
+      1722,
+      190,
+      13,
+      0,
+      4,
+      "new_grad",
+      "Overlapping claims",
+      0,
+      0.3333
+    ],
+    [
+      2,
+      "ds7exl67uy",
+      "tech-1100-new-grad-b",
+      "entrant",
+      1090,
+      198,
+      4,
+      11,
+      4,
+      "new_grad",
+      "IT help desk",
+      0,
+      0.6667
+    ],
+    [
+      3,
+      "bbbx4b7znn",
+      "anon-bbbx4b7",
+      "entrant",
+      696,
+      251,
+      0,
+      16,
+      1,
+      "new_grad",
+      "T3 grad, help desk",
+      0,
+      1
+    ]
+  ],
+  "schema": 1,
+  "total": 3
+}

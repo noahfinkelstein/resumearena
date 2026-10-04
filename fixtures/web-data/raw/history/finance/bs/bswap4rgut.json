@@ -1,0 +1,176 @@
+{
+  "cat": "finance",
+  "id": "bswap4rgut",
+  "lin": "bswap4rgut",
+  "placed": true,
+  "points": [
+    [
+      "2026-10-04",
+      992.81,
+      158.93,
+      "p"
+    ],
+    [
+      "2026-10-04",
+      964.65,
+      147.56,
+      "p"
+    ],
+    [
+      "2026-10-05",
+      1023.01,
+      136.02,
+      "m"
+    ],
+    [
+      "2026-10-07",
+      1070.75,
+      135.28,
+      "m"
+    ],
+    [
+      "2026-10-08",
+      1057.83,
+      130.86,
+      "m"
+    ],
+    [
+      "2026-10-10",
+      1057.26,
+      130.66,
+      "m"
+    ],
+    [
+      "2026-10-11",
+      1009.91,
+      123.55,
+      "m"
+    ],
+    [
+      "2026-10-13",
+      980.65,
+      116.88,
+      "m"
+    ],
+    [
+      "2026-10-15",
+      976.93,
+      115.69,
+      "m"
+    ],
+    [
+      "2026-10-19",
+      976.55,
+      115.56,
+      "m"
+    ],
+    [
+      "2026-10-21",
+      1013.36,
+      109.73,
+      "m"
+    ]
+  ],
+  "recent": [
+    {
+      "at": "2026-10-21T23:00:00Z",
+      "dr": 36.81,
+      "k": "anchor",
+      "m": "5b7fd4dd1ade242c",
+      "note": "Second: harder selections and larger stated scope. First: comparable stage but fewer verifiable outcomes.",
+      "o": "W",
+      "opp": "anchrfbaaa",
+      "opp_r": 1000
+    },
+    {
+      "at": "2026-10-19T23:00:00Z",
+      "dr": -0.38,
+      "k": "refine",
+      "m": "053b8a1fcfda8e3d",
+      "note": "First: harder selections and larger stated scope. Second: comparable stage but fewer verifiable outcomes.",
+      "o": "L",
+      "opp": "anchrfkaaa",
+      "opp_r": 1900
+    },
+    {
+      "at": "2026-10-15T23:00:00Z",
+      "dr": -3.72,
+      "k": "refine",
+      "m": "c5636a290db2d15d",
+      "note": "First: harder selections and larger stated scope. Second: comparable stage but fewer verifiable outcomes.",
+      "o": "L",
+      "opp": "anchrfgaaa",
+      "opp_r": 1500
+    },
+    {
+      "at": "2026-10-13T23:00:00Z",
+      "dr": -29.26,
+      "k": "refine",
+      "m": "932d82b9f6c2c537",
+      "note": "First: harder selections and larger stated scope. Second: comparable stage but fewer verifiable outcomes.",
+      "o": "L",
+      "opp": "anchrfcaaa",
+      "opp_r": 1100
+    },
+    {
+      "at": "2026-10-11T23:00:00Z",
+      "dr": -47.35,
+      "k": "refine",
+      "m": "db6f5a7f8923b1e9",
+      "note": "Second: harder selections and larger stated scope. First: comparable stage but fewer verifiable outcomes.",
+      "o": "L",
+      "opp": "xr3uglaj43",
+      "opp_r": 995.85
+    },
+    {
+      "at": "2026-10-10T23:00:00Z",
+      "dr": -0.57,
+      "k": "refine",
+      "m": "f888d805cc948a1f",
+      "note": "Second: harder selections and larger stated scope. First: comparable stage but fewer verifiable outcomes.",
+      "o": "L",
+      "opp": "si4jwz5kcs",
+      "opp_r": 1993.75
+    },
+    {
+      "at": "2026-10-08T23:00:00Z",
+      "dr": -12.92,
+      "k": "refine",
+      "m": "deca15a33612ab20",
+      "note": "First: harder selections and larger stated scope. Second: comparable stage but fewer verifiable outcomes.",
+      "o": "L",
+      "opp": "anchrffaaa",
+      "opp_r": 1400
+    },
+    {
+      "at": "2026-10-07T23:00:00Z",
+      "dr": 47.74,
+      "k": "refine",
+      "m": "584116f6eaedfea1",
+      "note": "Second: harder selections and larger stated scope. First: comparable stage but fewer verifiable outcomes.",
+      "o": "D",
+      "opp": "ki4jslasr3",
+      "opp_r": 1733.34
+    },
+    {
+      "at": "2026-10-05T23:00:00Z",
+      "dr": 58.36,
+      "k": "anchor",
+      "m": "94c8f6b67e22e759",
+      "note": "Second: harder selections and larger stated scope. First: comparable stage but fewer verifiable outcomes.",
+      "o": "W",
+      "opp": "anchrfbaaa",
+      "opp_r": 1000
+    },
+    {
+      "at": "2026-10-04T23:00:00Z",
+      "dr": -6.08,
+      "k": "placement",
+      "m": "7b99edc3c0ae6c97",
+      "note": "Second: harder selections and larger stated scope. First: comparable stage but fewer verifiable outcomes.",
+      "o": "L",
+      "opp": "m3zjnglo6p",
+      "opp_r": 1527.18
+    }
+  ]
+}

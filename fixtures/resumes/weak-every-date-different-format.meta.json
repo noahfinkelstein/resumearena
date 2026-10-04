@@ -1,0 +1,31 @@
+{
+  "expect": {
+    "gate": "pass",
+    "status": "analyzed"
+  },
+  "group": "weak",
+  "intended_anchor": null,
+  "intended_categories": [
+    "general"
+  ],
+  "intended_stage": "early",
+  "metrics": {
+    "char_count": 2906,
+    "columns_detected": 0,
+    "extraction_quality": 0.95,
+    "font_count": 0,
+    "image_count": 0,
+    "pages": 1,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "docx",
+    "word_count": 432
+  },
+  "slug": "weak-every-date-different-format"
+}

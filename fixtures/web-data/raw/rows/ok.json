@@ -1,0 +1,28 @@
+{
+  "okoo7overc": {
+    "c": {
+      "general": 1
+    },
+    "ch": "3224a9200caeb9beec053c8ee66e2e8fd55aa23aa74009a252fbb39deff3f0d4",
+    "h": "general-1000-student",
+    "p": "general",
+    "s": "analyzed",
+    "sc": {
+      "general": 22
+    },
+    "sig": "Comms sophomore",
+    "ss": {
+      "general": [
+        18,
+        40,
+        8,
+        10,
+        12,
+        25
+      ]
+    },
+    "st": "student",
+    "t": 1791030600,
+    "v": "handle"
+  }
+}

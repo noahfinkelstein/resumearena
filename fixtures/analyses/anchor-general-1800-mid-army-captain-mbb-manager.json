@@ -1,0 +1,647 @@
+{
+  "analysis_confidence": 0.95,
+  "ats": {
+    "detected": {
+      "action_verb_ratio": 0.9,
+      "bullet_count": 21,
+      "bullet_marker_consistent": true,
+      "contact_at_top": true,
+      "date_format_consistent": true,
+      "date_formats_seen": [
+        "Mon YYYY"
+      ],
+      "has_email": true,
+      "has_location": true,
+      "has_phone": true,
+      "has_profile_link": true,
+      "has_street_address": false,
+      "has_summary_section": true,
+      "nonstandard_headings": [
+        "SKILLS AND OTHER"
+      ],
+      "quantified_bullet_ratio": 0.9,
+      "reverse_chronological": true,
+      "section_order": [
+        "Summary",
+        "Experience",
+        "Education",
+        "Awards",
+        "Skills"
+      ],
+      "skill_bars_or_ratings": false,
+      "standard_headings": [
+        "PROFILE",
+        "EXPERIENCE",
+        "EDUCATION",
+        "AWARDS AND RECOGNITION"
+      ],
+      "uses_tables_suspected": false
+    },
+    "factors": {
+      "consistency": {
+        "note": "Mon YYYY throughout; every role dated; titles match scope",
+        "score": 100
+      },
+      "contact_info": {
+        "note": "City, email, phone and a profile link in the header",
+        "score": 100
+      },
+      "formatting": {
+        "note": "Standard headings, reverse-chronological, one bullet glyph, two fonts; a few bullets exceed 45 words",
+        "score": 95
+      },
+      "keyword_alignment": {
+        "note": "Operations, supply chain, procurement, organization design, leadership and client management appear with outcomes; P&L language absent",
+        "score": 92
+      },
+      "length": {
+        "note": "Two pages for nine years across two careers",
+        "score": 100
+      },
+      "parseability": {
+        "note": "Single column, clean text layer (0.96), standard headings, contact in the first two lines",
+        "score": 100
+      },
+      "quantification": {
+        "note": "19 of 21 bullets carry a number tied to an outcome (savings, headcount, rates, budgets)",
+        "score": 100
+      }
+    },
+    "fixes": [
+      {
+        "factor": "formatting",
+        "fix": "Split each into two bullets with one number apiece",
+        "issue": "Three bullets run past 45 words (the $60M engagement, the company command, the platoon line)",
+        "priority": "low"
+      },
+      {
+        "factor": "parseability",
+        "fix": "Separate into \"Skills\" and \"Additional\"",
+        "issue": "\"Skills and Other\" mixes tools, clearance, a marathon and volunteering",
+        "priority": "low"
+      },
+      {
+        "factor": "keyword_alignment",
+        "fix": "If true, add a bullet naming the business case or NPV model behind the $60M savings figure",
+        "issue": "No P&L or financial-modeling language despite the MBA and procurement work",
+        "priority": "low"
+      }
+    ],
+    "score": 98,
+    "target_role_used": "Senior operations leader or MBB principal track; chief of staff"
+  },
+  "awards": [
+    {
+      "issuer": "United States Army",
+      "name": "Bronze Star Medal",
+      "pool_estimate": "awarded for deployment leadership; minority of officers",
+      "scope": "national",
+      "selectivity": "highly_selective",
+      "verifiable": true,
+      "year": 2021
+    },
+    {
+      "issuer": "Harvard Business School",
+      "name": "Baker Scholar",
+      "pool_estimate": "top 5% of ~930 graduates",
+      "scope": "institutional",
+      "selectivity": "highly_selective",
+      "verifiable": true,
+      "year": 2023
+    },
+    {
+      "issuer": "United States Military Academy",
+      "name": "Distinguished Cadet",
+      "pool_estimate": "top 5%; graduated 31st of 998",
+      "scope": "institutional",
+      "selectivity": "highly_selective",
+      "verifiable": true,
+      "year": 2015
+    },
+    {
+      "issuer": "United States Army",
+      "name": "Ranger Tab",
+      "pool_estimate": "roughly half of attendees graduate; attendance is selective",
+      "scope": "national",
+      "selectivity": "highly_selective",
+      "verifiable": true,
+      "year": 2015
+    },
+    {
+      "issuer": "United States Army",
+      "name": "Meritorious Service Medal",
+      "pool_estimate": "common at the end of successful command",
+      "scope": "national",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2021
+    },
+    {
+      "issuer": "United States Military Academy",
+      "name": "George C. Marshall Award nominee",
+      "pool_estimate": "top cadet in the department, nominee only",
+      "scope": "institutional",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2015
+    }
+  ],
+  "card": {
+    "awards": [
+      {
+        "name": "Bronze Star Medal",
+        "scope": "national",
+        "selectivity": "highly_selective"
+      },
+      {
+        "name": "HBS Baker Scholar (top 5%)",
+        "scope": "institutional",
+        "selectivity": "highly_selective"
+      },
+      {
+        "name": "West Point Distinguished Cadet, 31st of 998",
+        "scope": "institutional",
+        "selectivity": "highly_selective"
+      },
+      {
+        "name": "Ranger Tab",
+        "scope": "national",
+        "selectivity": "highly_selective"
+      },
+      {
+        "name": "Meritorious Service Medal",
+        "scope": "national",
+        "selectivity": "selective"
+      },
+      {
+        "name": "Expert Infantryman Badge",
+        "scope": "national",
+        "selectivity": "selective"
+      }
+    ],
+    "card_version": "1.0",
+    "career_stage": "mid",
+    "education": [
+      {
+        "degree_level": "mba",
+        "end_year": 2023,
+        "field": "Business Administration",
+        "gpa_band": "not_listed",
+        "honors": [
+          "Baker Scholar (top 5%)"
+        ],
+        "in_progress": false,
+        "institution": "Harvard Business School",
+        "institution_tier": "T1"
+      },
+      {
+        "degree_level": "bachelor",
+        "end_year": 2015,
+        "field": "Operations Research",
+        "gpa_band": "not_listed",
+        "honors": [
+          "Distinguished Cadet (top 5%)",
+          "31st of 998",
+          "Cadet battalion commander"
+        ],
+        "in_progress": false,
+        "institution": "United States Military Academy at West Point",
+        "institution_tier": "T2"
+      }
+    ],
+    "experiences": [
+      {
+        "duration_months": 15,
+        "employment_type": "full_time",
+        "highlights": [
+          "Leads teams of 4-6; supply-chain transformation for a $9B distributor delivered ~$60M annual run-rate savings (70% realized in year one)",
+          "State procurement diagnostic on $1.8B of spend: $95M identified, first $30M captured",
+          "Top-tier rating among office engagement managers; leads veteran recruiting"
+        ],
+        "impact_scale": "org",
+        "org": "McKinsey & Company",
+        "org_tier": "A",
+        "role": "Engagement Manager",
+        "role_selectivity": "highly_selective",
+        "seniority": "manager",
+        "years": "2025-present"
+      },
+      {
+        "duration_months": 23,
+        "employment_type": "full_time",
+        "highlights": [
+          "Labor-planning model for a 40-site network cut overtime 22% at pilot plants",
+          "Operating model for a two-system hospital merger (11,000 employees)",
+          "Early promotion to engagement manager after 23 months"
+        ],
+        "impact_scale": "org",
+        "org": "McKinsey & Company",
+        "org_tier": "A",
+        "role": "Associate",
+        "role_selectivity": "highly_selective",
+        "seniority": "mid",
+        "years": "2023-2025"
+      },
+      {
+        "duration_months": 24,
+        "employment_type": "full_time",
+        "highlights": [
+          "Commanded 130 soldiers and ~$18M of equipment; nine-month Iraq deployment, 140 partnered operations, no soldiers killed or seriously injured",
+          "Bronze Star Medal; battalion's top-rated company in pre-deployment evaluation",
+          "Vehicle non-mission-capable rate 18% to 6% in four months"
+        ],
+        "impact_scale": "org",
+        "org": "United States Army, 101st Airborne Division",
+        "org_tier": "B",
+        "role": "Captain, Rifle Company Commander",
+        "role_selectivity": "highly_selective",
+        "seniority": "manager",
+        "years": "2019-2021"
+      },
+      {
+        "duration_months": 12,
+        "employment_type": "full_time",
+        "highlights": [
+          "Planned training for an 800-soldier battalion; managed a $2.4M training budget"
+        ],
+        "impact_scale": "org",
+        "org": "United States Army",
+        "org_tier": "B",
+        "role": "Captain, Battalion Assistant Operations Officer",
+        "role_selectivity": "selective",
+        "seniority": "mid",
+        "years": "2018-2019"
+      },
+      {
+        "duration_months": 36,
+        "employment_type": "full_time",
+        "highlights": [
+          "Led a 38-soldier platoon through a nine-month Afghanistan deployment: 90 combat patrols, no serious casualties",
+          "Ranger School graduate; property inspection passed with zero findings"
+        ],
+        "impact_scale": "team",
+        "org": "United States Army, 10th Mountain Division",
+        "org_tier": "B",
+        "role": "Lieutenant, Rifle Platoon Leader and Company Executive Officer",
+        "role_selectivity": "selective",
+        "seniority": "lead",
+        "years": "2015-2018"
+      }
+    ],
+    "headline": "MBB engagement manager; commanded 130 soldiers on deployment; West Point top 5%; T1 MBA Baker Scholar",
+    "leadership": [
+      "Company commander of 130 soldiers on a combat deployment; platoon leader of 38 on an earlier one",
+      "Engagement manager leading teams of 4-6 consultants; runs the office's veteran recruiting program",
+      "Cadet battalion commander responsible for ~500 cadets; co-president of a 200-member MBA veterans association"
+    ],
+    "notable": [
+      "Service-academy graduate in the top 5% with combat company command and a Bronze Star",
+      "Baker Scholar at a T1 MBA, then early promotion to MBB engagement manager",
+      "~$60M of verified annual savings on the most recent engagement",
+      "Two deployments led with no soldiers killed or seriously injured"
+    ],
+    "projects": [],
+    "publications_summary": {
+      "citation_signal": "not stated",
+      "count_total": 0,
+      "first_author_count": 0,
+      "strong_venue_count": 0,
+      "top_venue_count": 0,
+      "venues": []
+    },
+    "skills_top": [
+      "Operations and supply-chain strategy",
+      "Organization design",
+      "Public-sector transformation",
+      "Team leadership",
+      "Excel modeling",
+      "Alteryx",
+      "Tableau"
+    ],
+    "top_signal": "Commanded 130; MBB",
+    "years_fulltime": 9.3
+  },
+  "category_relevance": {
+    "academia": 0,
+    "finance": 0.3,
+    "general": 1,
+    "tech": 0.02
+  },
+  "education": [
+    {
+      "degree_level": "mba",
+      "end_year": 2023,
+      "field": "Business Administration",
+      "gpa": null,
+      "gpa_band": "not_listed",
+      "gpa_scale": null,
+      "honors": [
+        "Baker Scholar (top 5% of the class)"
+      ],
+      "in_progress": false,
+      "institution": "Harvard Business School",
+      "institution_tier": "T1",
+      "notes": "Co-president, Armed Forces Alumni Association (~200 members)",
+      "start_year": 2021
+    },
+    {
+      "degree_level": "bachelor",
+      "end_year": 2015,
+      "field": "Operations Research",
+      "gpa": null,
+      "gpa_band": "not_listed",
+      "gpa_scale": null,
+      "honors": [
+        "Distinguished Cadet (top 5%)",
+        "Graduated 31st of 998",
+        "Cadet battalion commander"
+      ],
+      "in_progress": false,
+      "institution": "United States Military Academy at West Point",
+      "institution_tier": "T2",
+      "notes": "Varsity wrestling, 3 years; George C. Marshall Award nominee",
+      "start_year": 2011
+    }
+  ],
+  "experiences": [
+    {
+      "bullets_condensed": [
+        "Leads teams of 4-6 consultants; owns work plan, VP-level client relationship and team development",
+        "Supply-chain transformation for a $9B distributor: ~$60M annual run-rate savings, 70% realized in year one, verified by client finance",
+        "State procurement diagnostic on $1.8B of spend: $95M identified; implementation office captured the first $30M",
+        "Top-tier rating among Chicago engagement managers 2025; leads the office veteran recruiting program"
+      ],
+      "duration_months": 15,
+      "employment_type": "full_time",
+      "end": "present",
+      "impact_scale": "org",
+      "is_current": true,
+      "org": "McKinsey & Company",
+      "org_tier": "A",
+      "org_type": "private_company",
+      "ownership": "led",
+      "quantified_impact": true,
+      "role": "Engagement Manager",
+      "role_selectivity": "highly_selective",
+      "seniority": "manager",
+      "start": "2025-07",
+      "team_or_division": "Chicago office; operations and public sector"
+    },
+    {
+      "bullets_condensed": [
+        "6 engagements across operations, organization design and public-sector strategy",
+        "Labor-planning model for a 40-site manufacturing network: overtime down 22% at 3 pilot plants",
+        "Operating model and governance for a two-hospital-system merger (11,000 employees)",
+        "Early promotion to engagement manager after 23 months"
+      ],
+      "duration_months": 23,
+      "employment_type": "full_time",
+      "end": "2025-06",
+      "impact_scale": "org",
+      "is_current": false,
+      "org": "McKinsey & Company",
+      "org_tier": "A",
+      "org_type": "private_company",
+      "ownership": "owned_component",
+      "quantified_impact": true,
+      "role": "Associate",
+      "role_selectivity": "highly_selective",
+      "seniority": "mid",
+      "start": "2023-08",
+      "team_or_division": "Chicago office"
+    },
+    {
+      "bullets_condensed": [
+        "Commanded a 130-soldier rifle company and ~$18M of equipment",
+        "Nine-month Iraq deployment: 140 partnered operations, zero soldiers killed or seriously injured",
+        "Bronze Star Medal; battalion's top company in pre-deployment evaluation; top 10% of brigade captains",
+        "Vehicle non-mission-capable rate 18% to 6% in four months"
+      ],
+      "duration_months": 24,
+      "employment_type": "full_time",
+      "end": "2021-05",
+      "impact_scale": "org",
+      "is_current": false,
+      "org": "United States Army",
+      "org_tier": "B",
+      "org_type": "military",
+      "ownership": "led",
+      "quantified_impact": true,
+      "role": "Captain, Company Commander",
+      "role_selectivity": "highly_selective",
+      "seniority": "manager",
+      "start": "2019-06",
+      "team_or_division": "1st Battalion, 26th Infantry Regiment, 101st Airborne Division"
+    },
+    {
+      "bullets_condensed": [
+        "Planned and synchronized training for an 800-soldier battalion; orders for 3 brigade exercises",
+        "Managed a $2.4M annual training budget and ammunition allocation"
+      ],
+      "duration_months": 12,
+      "employment_type": "full_time",
+      "end": "2019-05",
+      "impact_scale": "org",
+      "is_current": false,
+      "org": "United States Army",
+      "org_tier": "B",
+      "org_type": "military",
+      "ownership": "owned_component",
+      "quantified_impact": true,
+      "role": "Captain, Assistant Operations Officer",
+      "role_selectivity": "selective",
+      "seniority": "mid",
+      "start": "2018-06",
+      "team_or_division": "Battalion operations"
+    },
+    {
+      "bullets_condensed": [
+        "Led a 38-soldier platoon including a nine-month Afghanistan deployment; 90 combat patrols, no serious casualties",
+        "As executive officer, ran maintenance and logistics for a 140-soldier company; property inspection with zero findings",
+        "Ranger School graduate 2015; Air Assault and Airborne qualified"
+      ],
+      "duration_months": 36,
+      "employment_type": "full_time",
+      "end": "2018-05",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "United States Army",
+      "org_tier": "B",
+      "org_type": "military",
+      "ownership": "led",
+      "quantified_impact": true,
+      "role": "Lieutenant, Rifle Platoon Leader and Company Executive Officer",
+      "role_selectivity": "selective",
+      "seniority": "lead",
+      "start": "2015-06",
+      "team_or_division": "3rd Brigade Combat Team, 10th Mountain Division"
+    }
+  ],
+  "input": {
+    "is_resume": true,
+    "language": "en",
+    "parse_confidence": 0.96,
+    "placeholders_seen": [
+      "name",
+      "email",
+      "phone",
+      "url"
+    ],
+    "word_count_estimate": 680
+  },
+  "leadership": [
+    {
+      "budget_or_scale": "~$18M of equipment; nine-month combat deployment",
+      "elected_or_appointed": "appointed",
+      "highlight": "140 partnered operations with zero soldiers killed or seriously injured; Bronze Star",
+      "org": "United States Army, rifle company",
+      "people_led": 130,
+      "role": "Company Commander"
+    },
+    {
+      "budget_or_scale": "teams of 4-6; ~$60M client impact on the latest engagement",
+      "elected_or_appointed": "appointed",
+      "highlight": "Leads the Chicago office veteran recruiting program",
+      "org": "McKinsey & Company",
+      "people_led": 6,
+      "role": "Engagement Manager"
+    },
+    {
+      "budget_or_scale": "~500 cadets; one of 12",
+      "elected_or_appointed": "appointed",
+      "highlight": "One of 12 cadet battalion commanders",
+      "org": "United States Military Academy",
+      "people_led": 500,
+      "role": "Cadet battalion commander"
+    },
+    {
+      "budget_or_scale": "~200 members",
+      "elected_or_appointed": "elected",
+      "highlight": "Co-led a ~200-member veterans association during the MBA",
+      "org": "HBS Armed Forces Alumni Association",
+      "people_led": null,
+      "role": "Co-president"
+    }
+  ],
+  "projects": [],
+  "publications": [],
+  "red_flags": [],
+  "residual_pii": {
+    "email_count": 0,
+    "name_suspected": false,
+    "other_identifiers": [],
+    "phone_count": 0,
+    "street_address_suspected": false,
+    "url_count": 0
+  },
+  "schema_version": "1.1",
+  "scores": {
+    "academia": {
+      "holistic_score": 15,
+      "included": false,
+      "rationale": "No research footprint.",
+      "stage_relative_score": 15,
+      "sub_scores": {
+        "breadth": 20,
+        "impact": 10,
+        "pedigree": 65,
+        "selectivity": 55,
+        "trajectory": 50
+      },
+      "top_evidence": []
+    },
+    "finance": {
+      "holistic_score": 55,
+      "included": false,
+      "rationale": "MBB consulting counts at half weight; procurement and supply-chain savings are operational, not financial, outcomes.",
+      "stage_relative_score": 55,
+      "sub_scores": {
+        "breadth": 50,
+        "impact": 60,
+        "pedigree": 80,
+        "selectivity": 75,
+        "trajectory": 80
+      },
+      "top_evidence": []
+    },
+    "general": {
+      "holistic_score": 88,
+      "included": true,
+      "rationale": "Service-academy top 5%, combat company command of 130 with a Bronze Star, Baker Scholar at a T1 MBA, early promotion to MBB engagement manager with a verified ~$60M client outcome. Selection by others at every step; impact is org-level, not yet industry-level.",
+      "stage_relative_score": 88,
+      "sub_scores": {
+        "breadth": 82,
+        "impact": 84,
+        "pedigree": 86,
+        "selectivity": 92,
+        "trajectory": 88
+      },
+      "top_evidence": [
+        "Commanded 130 soldiers on deployment; Bronze Star; no soldiers killed or seriously injured",
+        "HBS Baker Scholar; West Point 31st of 998",
+        "~$60M annual run-rate savings verified by client finance; early promotion to EM"
+      ]
+    },
+    "tech": {
+      "holistic_score": 20,
+      "included": false,
+      "rationale": "Operations research degree and analytics tools; no technical role.",
+      "stage_relative_score": 20,
+      "sub_scores": {
+        "breadth": 30,
+        "impact": 30,
+        "pedigree": 55,
+        "selectivity": 50,
+        "trajectory": 60
+      },
+      "top_evidence": []
+    }
+  },
+  "signals": {
+    "career_stage": "mid",
+    "has_quantified_impact": true,
+    "highest_institution_tier": "T1",
+    "highest_org_tier": "A",
+    "max_impact_scale": "org",
+    "months_internship": 0,
+    "primary_domain": "other",
+    "sustained_org_tier": "A",
+    "top_role_selectivity": "highly_selective",
+    "trajectory": "accelerating",
+    "years_fulltime": 9.3
+  },
+  "skills": {
+    "certifications": [
+      "Secret clearance (inactive)"
+    ],
+    "domain": [
+      "operations and supply-chain strategy",
+      "organization design",
+      "public-sector transformation",
+      "procurement",
+      "merger integration",
+      "military operations planning"
+    ],
+    "keyword_stuffing_suspected": false,
+    "spoken_languages": [],
+    "technical": [
+      "Excel modeling",
+      "Alteryx",
+      "Tableau"
+    ]
+  },
+  "strengths": [
+    "Company command of 130 soldiers on a combat deployment with 140 operations, zero soldiers killed or seriously injured, and a Bronze Star",
+    "West Point top 5% (31st of 998) and HBS Baker Scholar: two independent top-5% selections",
+    "Early promotion to engagement manager after 23 months and a top-tier rating in the first EM year",
+    "Most recent engagement delivered ~$60M of annual savings verified by the client's finance team",
+    "Every role carries headcount, budget or outcome numbers, including the junior officer years"
+  ],
+  "verdict": "Combat company command with a Bronze Star, Baker Scholar, early MBB promotion with a $60M outcome; selection-heavy and quantified, not yet industry-scale.",
+  "weaknesses": [
+    "Impact is org-level so far; no industry-scale outcome or executive scope yet",
+    "Consulting tenure is three years; the EM role is 15 months old",
+    "No financial-modeling or P&L ownership on the page despite the target of senior operations roles",
+    "A few bullets are long enough to read as paragraphs"
+  ]
+}

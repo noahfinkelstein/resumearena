@@ -1,0 +1,627 @@
+{
+  "analysis": {
+    "analysis_confidence": 0.94,
+    "ats": {
+      "detected": {
+        "action_verb_ratio": 0.9,
+        "bullet_count": 31,
+        "bullet_marker_consistent": true,
+        "contact_at_top": true,
+        "date_format_consistent": true,
+        "date_formats_seen": [
+          "MMM YYYY"
+        ],
+        "has_email": true,
+        "has_location": true,
+        "has_phone": true,
+        "has_profile_link": true,
+        "has_street_address": false,
+        "has_summary_section": true,
+        "nonstandard_headings": [
+          "SELECTED TRANSACTIONS",
+          "OTHER"
+        ],
+        "quantified_bullet_ratio": 0.92,
+        "reverse_chronological": true,
+        "section_order": [
+          "Summary",
+          "Experience",
+          "Education",
+          "Projects",
+          "Awards"
+        ],
+        "skill_bars_or_ratings": false,
+        "standard_headings": [
+          "PROFILE",
+          "EXPERIENCE",
+          "EDUCATION"
+        ],
+        "uses_tables_suspected": false
+      },
+      "factors": {
+        "consistency": {
+          "note": "One date format (MMM YYYY); titles match scope",
+          "score": 100
+        },
+        "contact_info": {
+          "note": "Email, phone, city and a profile link",
+          "score": 100
+        },
+        "formatting": {
+          "note": "Standard headings, one bullet glyph, reverse-chronological, 2 fonts",
+          "score": 100
+        },
+        "keyword_alignment": {
+          "note": "Senior banker target: coverage, origination, bookrunning, M&A execution and financing all appear with numbers",
+          "score": 95
+        },
+        "length": {
+          "note": "2 pages for a senior banker",
+          "score": 100
+        },
+        "parseability": {
+          "note": "Single-column 2-page PDF, extraction quality 0.97; contact placeholders on line 2",
+          "score": 100
+        },
+        "quantification": {
+          "note": "Nearly every bullet carries a deal size, fee figure or team number",
+          "score": 100
+        }
+      },
+      "fixes": [
+        {
+          "factor": "formatting",
+          "fix": "Keep either the bullets or the tombstone list for each deal to save a third of a page",
+          "issue": "The transaction list repeats deals already described in the role bullets",
+          "priority": "low"
+        },
+        {
+          "factor": "keyword_alignment",
+          "fix": "Split into \"Licenses\" and \"Board and Teaching\" so parsers file the Series licenses as credentials",
+          "issue": "\"Other\" mixes licenses, a board seat and teaching",
+          "priority": "low"
+        },
+        {
+          "factor": "consistency",
+          "fix": "State \"fifteen years including an MBA\" or count only full-time years",
+          "issue": "The profile says fifteen years; the dated roles total about thirteen",
+          "priority": "low"
+        }
+      ],
+      "score": 99,
+      "target_role_used": "Managing director, healthcare investment banking"
+    },
+    "awards": [],
+    "card": {
+      "awards": [
+        {
+          "name": "Top-bucket associate ranking",
+          "scope": "company",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Director-to-MD leadership program selection",
+          "scope": "company",
+          "selectivity": "selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "senior",
+      "education": [
+        {
+          "degree_level": "mba",
+          "end_year": 2015,
+          "field": "Investment Banking",
+          "gpa_band": "not_listed",
+          "honors": [],
+          "in_progress": false,
+          "institution": "Cornell University (Johnson)",
+          "institution_tier": "T2"
+        },
+        {
+          "degree_level": "bachelor",
+          "end_year": 2011,
+          "field": "Finance and Accounting",
+          "gpa_band": "not_listed",
+          "honors": [
+            "with distinction"
+          ],
+          "in_progress": false,
+          "institution": "Indiana University (Kelley)",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 33,
+          "employment_type": "full_time",
+          "highlights": [
+            "Exclusive advisor on a $3.2B pharma sale; buy-side on a $4.1B CDMO acquisition",
+            "Attributed fees $38M (2024) and $52M (2025)",
+            "Runs a 12-person team; $120M revenue plan"
+          ],
+          "impact_scale": "industry",
+          "org": "Citi",
+          "org_tier": "A",
+          "role": "Managing Director, Healthcare Investment Banking",
+          "role_selectivity": "highly_selective",
+          "seniority": "md_partner",
+          "years": "2024-present"
+        },
+        {
+          "duration_months": 36,
+          "employment_type": "full_time",
+          "highlights": [
+            "Originated 5 mandates with $41M of fees",
+            "Sell-side on $2.7B and $1.1B transactions; $3.3B of issuance"
+          ],
+          "impact_scale": "industry",
+          "org": "Citi",
+          "org_tier": "A",
+          "role": "Director, Healthcare Investment Banking",
+          "role_selectivity": "highly_selective",
+          "seniority": "director",
+          "years": "2021-2023"
+        },
+        {
+          "duration_months": 36,
+          "employment_type": "full_time",
+          "highlights": [
+            "Execution lead on 9 deals totaling $8.9B"
+          ],
+          "impact_scale": "org",
+          "org": "Citi",
+          "org_tier": "A",
+          "role": "Vice President, Healthcare Investment Banking",
+          "role_selectivity": "highly_selective",
+          "seniority": "vp",
+          "years": "2018-2020"
+        },
+        {
+          "duration_months": 30,
+          "employment_type": "full_time",
+          "highlights": [
+            "6 transactions ($4.6B); top-bucket each year"
+          ],
+          "impact_scale": "org",
+          "org": "Citi",
+          "org_tier": "A",
+          "role": "Associate, Healthcare Investment Banking",
+          "role_selectivity": "highly_selective",
+          "seniority": "associate",
+          "years": "2015-2017"
+        },
+        {
+          "duration_months": 24,
+          "employment_type": "full_time",
+          "highlights": [
+            "7 closed sell-side deals, $90M to $650M"
+          ],
+          "impact_scale": "team",
+          "org": "William Blair",
+          "org_tier": "B",
+          "role": "Analyst, Healthcare Investment Banking",
+          "role_selectivity": "selective",
+          "seniority": "analyst",
+          "years": "2011-2013"
+        }
+      ],
+      "headline": "Managing director in healthcare investment banking at an A-tier bank; $20B of announced transactions led; 12-person team",
+      "leadership": [
+        "Runs a 12-person coverage team; group operating committee (one of 14 MDs)",
+        "Board member and treasurer of a $6M-budget free-clinic nonprofit"
+      ],
+      "notable": [
+        "$20.4B of announced transactions led or co-led since 2021",
+        "Fee revenue attributed of $52M in one year",
+        "MD at an A-tier bank after a middle-market analyst start"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Healthcare M&A",
+        "Equity capital markets",
+        "Client coverage",
+        "Merger modeling",
+        "Acquisition financing",
+        "Team leadership"
+      ],
+      "top_signal": "$20B deals led",
+      "years_fulltime": 13.3
+    },
+    "category_relevance": {
+      "academia": 0,
+      "finance": 1,
+      "general": 1,
+      "tech": 0
+    },
+    "education": [
+      {
+        "degree_level": "mba",
+        "end_year": 2015,
+        "field": "Business Administration, Investment Banking",
+        "gpa": null,
+        "gpa_band": "not_listed",
+        "gpa_scale": null,
+        "honors": [
+          "Park Leadership Fellow finalist"
+        ],
+        "in_progress": false,
+        "institution": "Cornell University, Johnson Graduate School of Management",
+        "institution_tier": "T2",
+        "notes": "",
+        "start_year": 2013
+      },
+      {
+        "degree_level": "bachelor",
+        "end_year": 2011,
+        "field": "Finance and Accounting",
+        "gpa": null,
+        "gpa_band": "not_listed",
+        "gpa_scale": null,
+        "honors": [
+          "Graduated with distinction",
+          "Investment Banking Workshop"
+        ],
+        "in_progress": false,
+        "institution": "Indiana University, Kelley School of Business",
+        "institution_tier": "T3",
+        "notes": "",
+        "start_year": null
+      }
+    ],
+    "experiences": [
+      {
+        "bullets_condensed": [
+          "Leads specialty pharma and medtech coverage; primary banker for three public clients ($31B combined market cap)",
+          "Runs a 12-person team; one of 14 MDs on the group operating committee; owns a $120M revenue plan",
+          "Exclusive advisor on a $3.2B pharma sale; buy-side on a $4.1B CDMO deal with $1.8B of financing",
+          "Attributed fees $38M (2024) and $52M (2025)"
+        ],
+        "duration_months": 33,
+        "employment_type": "full_time",
+        "end": "present",
+        "impact_scale": "industry",
+        "is_current": true,
+        "org": "Citi",
+        "org_tier": "A",
+        "org_type": "bank",
+        "ownership": "led",
+        "quantified_impact": true,
+        "role": "Managing Director",
+        "role_selectivity": "highly_selective",
+        "seniority": "md_partner",
+        "start": "2024-01",
+        "team_or_division": "Investment Banking, Healthcare"
+      },
+      {
+        "bullets_condensed": [
+          "Co-led coverage of 14 mid-cap companies; originated 5 mandates with $41M of fees",
+          "Sell-side on a $2.7B diagnostics sale and a $1.1B dental divestiture",
+          "Joint bookrunner on $3.3B of equity and converts including two IPOs",
+          "Selected for the director-to-MD leadership program"
+        ],
+        "duration_months": 36,
+        "employment_type": "full_time",
+        "end": "2023-12",
+        "impact_scale": "industry",
+        "is_current": false,
+        "org": "Citi",
+        "org_tier": "A",
+        "org_type": "bank",
+        "ownership": "led",
+        "quantified_impact": true,
+        "role": "Director",
+        "role_selectivity": "highly_selective",
+        "seniority": "director",
+        "start": "2021-01",
+        "team_or_division": "Investment Banking, Healthcare"
+      },
+      {
+        "bullets_condensed": [
+          "Execution lead on 9 announced deals totaling $8.9B",
+          "Managed deal teams of 3 to 5; ran the summer associate program for two years"
+        ],
+        "duration_months": 36,
+        "employment_type": "full_time",
+        "end": "2020-12",
+        "impact_scale": "org",
+        "is_current": false,
+        "org": "Citi",
+        "org_tier": "A",
+        "org_type": "bank",
+        "ownership": "led",
+        "quantified_impact": true,
+        "role": "Vice President",
+        "role_selectivity": "highly_selective",
+        "seniority": "vp",
+        "start": "2018-01",
+        "team_or_division": "Investment Banking, Healthcare"
+      },
+      {
+        "bullets_condensed": [
+          "Executed 6 announced transactions ($4.6B), including a $1.9B merger of equals",
+          "Top-bucket associate each year; built the medtech comps database"
+        ],
+        "duration_months": 30,
+        "employment_type": "full_time",
+        "end": "2017-12",
+        "impact_scale": "org",
+        "is_current": false,
+        "org": "Citi",
+        "org_tier": "A",
+        "org_type": "bank",
+        "ownership": "owned_component",
+        "quantified_impact": true,
+        "role": "Associate",
+        "role_selectivity": "highly_selective",
+        "seniority": "associate",
+        "start": "2015-07",
+        "team_or_division": "Investment Banking, Healthcare"
+      },
+      {
+        "bullets_condensed": [
+          "7 closed sell-side deals, $90M to $650M enterprise value",
+          "LBO, DCF and precedent analyses; CIMs and management presentations"
+        ],
+        "duration_months": 24,
+        "employment_type": "full_time",
+        "end": "2013-06",
+        "impact_scale": "team",
+        "is_current": false,
+        "org": "William Blair & Company",
+        "org_tier": "B",
+        "org_type": "bank",
+        "ownership": "contributed",
+        "quantified_impact": true,
+        "role": "Analyst",
+        "role_selectivity": "selective",
+        "seniority": "analyst",
+        "start": "2011-07",
+        "team_or_division": "Investment Banking, Healthcare"
+      }
+    ],
+    "input": {
+      "is_resume": true,
+      "language": "en",
+      "parse_confidence": 0.97,
+      "placeholders_seen": [
+        "name",
+        "email",
+        "phone",
+        "url"
+      ],
+      "word_count_estimate": 820
+    },
+    "leadership": [
+      {
+        "budget_or_scale": "$120M revenue plan",
+        "elected_or_appointed": "appointed",
+        "highlight": "Runs a 12-person coverage team and sits on the group operating committee",
+        "org": "Citi Healthcare Investment Banking",
+        "people_led": 12,
+        "role": "Team lead"
+      },
+      {
+        "budget_or_scale": "$6M annual budget",
+        "elected_or_appointed": "appointed",
+        "highlight": "Treasurer since 2022",
+        "org": "New York nonprofit operating free clinics",
+        "people_led": null,
+        "role": "Board member and treasurer"
+      }
+    ],
+    "projects": [],
+    "publications": [],
+    "red_flags": [],
+    "residual_pii": {
+      "email_count": 0,
+      "name_suspected": false,
+      "other_identifiers": [],
+      "phone_count": 0,
+      "street_address_suspected": false,
+      "url_count": 0
+    },
+    "schema_version": "1.1",
+    "scores": {
+      "academia": {
+        "holistic_score": 5,
+        "included": false,
+        "rationale": "Guest lecturing only.",
+        "stage_relative_score": 5,
+        "sub_scores": {
+          "breadth": 10,
+          "impact": 10,
+          "pedigree": 45,
+          "selectivity": 30,
+          "trajectory": 40
+        },
+        "top_evidence": []
+      },
+      "finance": {
+        "holistic_score": 88,
+        "included": true,
+        "rationale": "A-tier platform held eleven years, MD at year 13 on the standard ladder, every deal sized with a stated role; pedigree is T2/T3 and the start was middle-market, which keeps it below the S-tier anchor.",
+        "stage_relative_score": 88,
+        "sub_scores": {
+          "breadth": 40,
+          "impact": 90,
+          "pedigree": 72,
+          "selectivity": 80,
+          "trajectory": 78
+        },
+        "top_evidence": [
+          "$20.4B of announced transactions led or co-led since 2021, each with a role",
+          "Lead-left on a $1.4B follow-on; joint bookrunner on $3.3B of issuance",
+          "Top-bucket associate; director-to-MD program; MD at 13 years"
+        ]
+      },
+      "general": {
+        "holistic_score": 86,
+        "included": true,
+        "rationale": "Managing director at a bulge-bracket bank after a middle-market analyst start and a T2 MBA; $20B of announced transactions with named roles, attributed fees of $52M, and a 12-person team.",
+        "stage_relative_score": 86,
+        "sub_scores": {
+          "breadth": 40,
+          "impact": 88,
+          "pedigree": 70,
+          "selectivity": 78,
+          "trajectory": 78
+        },
+        "top_evidence": [
+          "Exclusive advisor on a $3.2B sale; buy-side on a $4.1B acquisition",
+          "Attributed fee revenue $38M in 2024 and $52M in 2025",
+          "Runs a 12-person team; one of 14 MDs on the group operating committee"
+        ]
+      },
+      "tech": {
+        "holistic_score": 5,
+        "included": false,
+        "rationale": "No technical footprint.",
+        "stage_relative_score": 5,
+        "sub_scores": {
+          "breadth": 10,
+          "impact": 20,
+          "pedigree": 40,
+          "selectivity": 30,
+          "trajectory": 40
+        },
+        "top_evidence": []
+      }
+    },
+    "signals": {
+      "career_stage": "senior",
+      "has_quantified_impact": true,
+      "highest_institution_tier": "T2",
+      "highest_org_tier": "A",
+      "max_impact_scale": "industry",
+      "months_internship": 0,
+      "primary_domain": "finance",
+      "sustained_org_tier": "A",
+      "top_role_selectivity": "highly_selective",
+      "trajectory": "steady",
+      "years_fulltime": 13.3
+    },
+    "skills": {
+      "certifications": [
+        "Series 7",
+        "Series 63",
+        "Series 79"
+      ],
+      "domain": [
+        "Healthcare M&A",
+        "Equity capital markets",
+        "Leveraged finance coordination",
+        "Client coverage"
+      ],
+      "keyword_stuffing_suspected": false,
+      "spoken_languages": [],
+      "technical": [
+        "Merger modeling",
+        "Loss-of-exclusivity modeling",
+        "Sum-of-the-parts analysis",
+        "LBO and DCF"
+      ]
+    },
+    "strengths": [
+      "$20.4B of announced transactions since 2021, each with a named role and size",
+      "Attributed fee revenue of $52M in 2025 and a $120M group revenue plan",
+      "Eleven years at an A-tier bank through associate, VP, director and MD",
+      "Runs a 12-person team and sits on the group operating committee"
+    ],
+    "verdict": "A bulge-bracket healthcare MD with every deal sized and a real team; the record is strong on execution and ordinary on pedigree.",
+    "weaknesses": [
+      "Pedigree is a T3 undergraduate and T2 MBA with a middle-market start",
+      "All deal evidence is at one platform; no buy-side or S-tier selection",
+      "The two-page tombstone list duplicates the role bullets",
+      "Stated fifteen years includes the MBA; dated full-time years are about thirteen"
+    ]
+  },
+  "card_sha256": "2b6de0d098738899d8dc396e5fa2f0e6c03d3fabdad7e7d446c44978d0ba3527",
+  "category_relevance": {
+    "academia": 0,
+    "finance": 1,
+    "general": 1,
+    "tech": 0
+  },
+  "created_at": "2026-10-03T12:16:00Z",
+  "deleted_at": null,
+  "duplicate_of": null,
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+5f7c9f15",
+    "verdict": {
+      "estimated_career_stage": "senior",
+      "is_resume": true,
+      "language": "en",
+      "prompt_injection_detected": false,
+      "reason": "Résumé with dated roles and education.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "finance-1800-senior",
+  "held_reason": null,
+  "id": "m3zjnglo6p",
+  "kind": "user",
+  "metrics": {
+    "char_count": 5461,
+    "columns_detected": 1,
+    "extraction_quality": 0.97,
+    "font_count": 2,
+    "image_count": 0,
+    "pages": 2,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 815
+  },
+  "owner_hash": "f6f42bbf21b0fce98382d4c3a76bb254e8ba89856231b91ed9b31e75aa99ce76",
+  "primary": "finance",
+  "rejected_reason": null,
+  "schema": 1,
+  "scores": {
+    "finance": 84,
+    "general": 81
+  },
+  "source": {
+    "client_version": "fixtures",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 1
+  },
+  "stage": "senior",
+  "status": "analyzed",
+  "superseded_by": null,
+  "supersedes": null,
+  "text": "[name]\n[email] · [phone] · [url]\nNew York, NY\n\nPROFILE\nManaging Director, Healthcare Investment Banking, Citi. Fifteen years in M&A and capital markets advisory, the last eleven at Citi covering specialty pharmaceuticals, medical technology and healthcare services. Led or co-led $20.4B of announced transactions since 2021. Lead a 12-person coverage team and hold primary relationships with three public-company clients.\n\nEXPERIENCE\n\nCitigroup Global Markets — Investment Banking, Healthcare Group, New York\nManaging Director · Jan 2024 – Present\n• Lead coverage for specialty pharma and medtech; primary relationship banker for three public companies with a combined market capitalization of $31B.\n• Run a 12-person team (2 directors, 3 VPs, 3 associates, 4 analysts); responsible for staffing, reviews and the group's analyst training module on sum-of-the-parts analysis.\n• Exclusive financial advisor on the $3.2B sale of a specialty pharmaceutical company to a strategic acquirer (announced 2025, closed 2026); led valuation, negotiated the merger agreement economics with counsel, and managed a 7-week competitive process with 11 parties.\n• Lead-left bookrunner on a $1.4B follow-on offering for a medical device company (2025) and joint bookrunner on $2.6B of investment-grade notes for a healthcare services client (2024).\n• Buy-side advisor on a $4.1B acquisition of a contract development and manufacturing organization (announced 2024, closed 2025), including $1.8B of committed acquisition financing arranged by Citi.\n• Fee revenue attributed to deals I originated or led: $38M in 2024 and $52M in 2025.\n• Joint bookrunner on a $900M initial public offering of a medtech company (2026); Citi was awarded the lead-left role on the follow-on scheduled for 2027.\n• Sponsor-side advisor on a $2.0B leveraged buyout of a healthcare services platform (announced 2026); coordinated the $1.3B unitranche financing with Citi's leveraged finance group.\n• Member of the Global Healthcare Group's operating committee (one of 14 MDs); own the group's annual revenue plan for specialty pharma coverage ($120M target for 2026).\n\nDirector · Jan 2021 – Dec 2023\n• Co-led coverage of 14 mid-cap medtech and diagnostics companies; originated 5 mandates with combined fees of $41M over three years.\n• Sell-side advisor on the $2.7B sale of a diagnostics company to a private equity sponsor (2022) and on the $1.1B divestiture of a dental products business (2023).\n• Joint bookrunner on $3.3B of equity and convertible issuance across six transactions, including two IPOs ($540M and $410M).\n• Built the group's standardized specialty pharma loss-of-exclusivity model, now used across the healthcare team.\n• Named a top-rated director in the 2022 and 2023 banker reviews; selected for the firm's director-to-MD leadership program in 2023.\n\nVice President · Jan 2018 – Dec 2020\n• Day-to-day execution lead on 9 announced M&A transactions totaling $8.9B, including a $2.2B cross-border acquisition of a European generics business.\n• Managed deal teams of 3 to 5 bankers; coordinated due diligence, fairness opinion committee materials and board presentations.\n• Ran the summer associate program for the healthcare group in 2019 and 2020 (10 associates per class).\n• Led the healthcare group's analyst recruiting at two target schools; 9 of the analysts hired in those years are still with the firm.\n\nAssociate · Jul 2015 – Dec 2017\n• Executed 6 announced transactions ($4.6B aggregate), including a $1.9B merger of equals in healthcare services; built the merger model and synergy analysis presented to both boards.\n• Ranked in the top bucket of the associate class in each year.\n• Built the first version of the group's medtech trading comps database (90 companies), still maintained by the analyst class.\n\nWilliam Blair & Company — Investment Banking, Healthcare, Chicago\nAnalyst · Jul 2011 – Jun 2013\n• Worked on 7 closed sell-side M&A transactions for founder- and sponsor-owned healthcare companies, $90M to $650M in enterprise value.\n• Built LBO, DCF and precedent-transaction analyses; drafted confidential information memoranda and management presentations.\n\nEDUCATION\nCornell University, Samuel Curtis Johnson Graduate School of Management — M.B.A., 2015\nConcentration in Investment Banking; Johnson Finance Club; Park Leadership Fellow finalist\n\nIndiana University, Kelley School of Business — B.S. Business, Finance and Accounting, 2011\nInvestment Banking Workshop; graduated with distinction\n\nSELECTED TRANSACTIONS (role, size, year)\n• Exclusive sell-side advisor, specialty pharmaceutical company, $3.2B, 2025\n• Buy-side advisor and financing, CDMO acquisition, $4.1B, 2024\n• Sell-side advisor, diagnostics company to sponsor, $2.7B, 2022\n• Lead-left bookrunner, medical device follow-on, $1.4B, 2025\n• Sell-side advisor, dental products divestiture, $1.1B, 2023\n• Joint bookrunner, two healthcare IPOs, $540M and $410M, 2021\n• Joint bookrunner, medtech IPO, $900M, 2026\n• Sponsor-side advisor and financing, healthcare services LBO, $2.0B, 2026\n\nOTHER\nSeries 7, 63 and 79 licenses · Board member and treasurer since 2022 of a New York nonprofit operating free clinics ($6M annual budget) · Guest lecturer, Johnson School healthcare M&A course (annually since 2020) · Mentor in the Citi Early ID program for first-generation college students (since 2021) · Panelist at the Cornell Johnson healthcare conference and the BIO International Convention (2024, 2025)",
+  "text_sha256": "e81dcb249c0eacdfc1834fcda031c51afe1ae488ce942fd606789239871f0c80",
+  "top_signal": "$20B deals led",
+  "updated_at": "2026-10-03T12:16:00Z",
+  "usage": {
+    "analysis_usd": 0.17728,
+    "gate_usd": 0.0016,
+    "latency_ms": 0
+  },
+  "versions": {
+    "analyst_model": "claude-opus-5-5",
+    "analyst_prompt": "analyst.v1+6dbc77ff",
+    "fell_back": false,
+    "gate_prompt": "gate.v1+5f7c9f15",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "visibility": "anonymous"
+}

@@ -1,0 +1,40 @@
+[name]
+[email] | [phone] | [url]
+Austin, TX
+
+EDUCATION
+The University of Texas at Austin, McCombs School of Business
+B.B.A. Finance, Business Honors Program · Expected May 2028 · GPA 3.74/4.00
+Honors: University Honors (Fall 2024, Spring 2025, Spring 2026); McCombs Dean's List
+Coursework: Valuation, Financial Statement Analysis, Corporate Finance (Honors), Investment Theory, Intermediate Accounting I and II
+
+EXPERIENCE
+KPMG LLP, Deal Advisory & Strategy — Transaction Services
+Financial Due Diligence Intern, Dallas, TX · June 2026 – August 2026
+• Supported buy-side quality-of-earnings work on three transactions: a $180M acquisition of a regional HVAC services roll-up, a $45M carve-out of a packaging business unit, and a $320M take-private of a software company.
+• Built the EBITDA bridge and net working capital analysis for the HVAC deal; identified $2.1M of non-recurring owner expenses and a $0.9M revenue recognition timing issue that were added to the adjusted EBITDA schedule in the final report.
+• Rebuilt the monthly NWC trend for 24 months from trial balances in Excel and reconciled to audited statements within $15k.
+• Drafted 11 pages of the diligence report, including customer concentration (top 10 customers were 46% of revenue) and churn analysis.
+• Prepared the data-room request list and tracked 140 management responses for the take-private engagement; summarized open items for the weekly partner call.
+• Received an offer to return for the 2027 summer.
+
+Longhorn Student Investment Fund (student-run, about $900k AUM, long-only equity)
+Analyst, Industrials sector · September 2025 – Present
+• One of 8 analysts selected from 94 applicants; cover 6 industrial names and present to a 14-member investment committee.
+• Pitched a mid-cap electrical equipment distributor in November 2025 using a comps set of 9 peers and a 5-year DCF; the committee approved a 3% position (about $27k), up 18% through September 2026 versus 9% for the benchmark.
+• Maintain the sector's weekly earnings tracker and update models after each quarterly report.
+• Co-wrote the fund's quarterly letter to the McCombs advisory board (Q2 2026) covering attribution for the industrials book.
+
+Texas Capital Bank, Dallas, TX
+Summer Analyst, Commercial Banking · June 2025 – August 2025
+• Spread financial statements for 15 middle-market borrowers and drafted annual review memos for two relationship managers.
+• Built a loan-covenant tracking sheet adopted by the team.
+• Attended 9 client site visits with relationship managers and wrote the call reports.
+
+LEADERSHIP
+Undergraduate Finance Association, McCombs · Vice President of Education, 2026 – Present
+• Run the 10-week technical interview prep series for 60 students; recruited 6 alumni speakers from banks and funds.
+
+SKILLS AND INTERESTS
+Excel (financial modeling, LBO and DCF templates), PowerPoint, Capital IQ, Bloomberg Terminal, Python (pandas, basics) · Spanish (conversational) · Club soccer, chess
+Certifications: Bloomberg Market Concepts (2025); CFA Level I candidate (sitting May 2027)

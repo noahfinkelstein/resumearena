@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:35:00Z",
+  "handle": "general-1600-senior",
+  "key_exposed": false,
+  "owner_hash": "a6ab324d0715bc2de8c9f9b40b7f314c78214b4c9e2f60949bca21922b402f16",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:35:00Z",
+      "current": true,
+      "id": "wjddmk5w4b"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

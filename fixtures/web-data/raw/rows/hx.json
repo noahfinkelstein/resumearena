@@ -1,0 +1,38 @@
+{
+  "hxq66qvixj": {
+    "c": {
+      "academia": 0.8,
+      "general": 1
+    },
+    "ch": "40f79ef8d90f6df0801204defc655ca033d632d8bcb979f87171d69e9125f120",
+    "h": "academia-1100-new-gr",
+    "p": "academia",
+    "s": "analyzed",
+    "sc": {
+      "academia": 29,
+      "general": 29
+    },
+    "sig": "MS thesis, no pub",
+    "ss": {
+      "academia": [
+        35,
+        32,
+        18,
+        20,
+        28,
+        32
+      ],
+      "general": [
+        35,
+        32,
+        18,
+        20,
+        30,
+        30
+      ]
+    },
+    "st": "new_grad",
+    "t": 1791030060,
+    "v": "anonymous"
+  }
+}

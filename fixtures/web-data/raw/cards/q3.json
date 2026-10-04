@@ -1,0 +1,150 @@
+{
+  "q35eqvdmw7": {
+    "card": {
+      "awards": [
+        {
+          "name": "Best Student Paper finalist, ICRA (1 of 5)",
+          "scope": "international",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "University first-year graduate fellowship",
+          "scope": "institutional",
+          "selectivity": "selective"
+        },
+        {
+          "name": "College of Engineering Outstanding Senior in Computer Engineering",
+          "scope": "institutional",
+          "selectivity": "selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "student",
+      "education": [
+        {
+          "degree_level": "phd",
+          "end_year": 2028,
+          "field": "Computer Science and Engineering (vision and robotics)",
+          "gpa_band": "3.9-3.99",
+          "honors": [],
+          "in_progress": true,
+          "institution": "University of Michigan",
+          "institution_tier": "T2"
+        },
+        {
+          "degree_level": "bachelor",
+          "end_year": 2023,
+          "field": "Computer Engineering",
+          "gpa_band": "3.7-3.89",
+          "honors": [
+            "with distinction",
+            "honors thesis",
+            "Outstanding Senior in Computer Engineering"
+          ],
+          "in_progress": false,
+          "institution": "Purdue University",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 38,
+          "employment_type": "fellowship",
+          "highlights": [
+            "Self-supervised 6-DoF pose method: +11 points over the prior best on a standard benchmark; first-author ICRA",
+            "Sim-to-real grasp affordances: 84% success on 40 unseen objects vs 67% baseline; first-author AAAI",
+            "Released a 210,000-frame RGB-D manipulation dataset; ~3,100 downloads, 9 citing papers in year one"
+          ],
+          "impact_scale": "team",
+          "org": "University of Michigan Robotics",
+          "org_tier": "A",
+          "role": "Graduate Research Assistant",
+          "role_selectivity": "highly_selective",
+          "seniority": "phd_student",
+          "years": "2023-present"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Depth-estimation error on reflective surfaces down 23% with a learned refinement step",
+            "Project became the AAAI submission; return offer for 2026"
+          ],
+          "impact_scale": "team",
+          "org": "Toyota Research Institute",
+          "org_tier": "B",
+          "role": "Research Intern, Robotics",
+          "role_selectivity": "selective",
+          "seniority": "intern",
+          "years": "2025"
+        },
+        {
+          "duration_months": 21,
+          "employment_type": "part_time",
+          "highlights": [
+            "Honors thesis on depth completion; built the lab's LiDAR-camera calibration tool"
+          ],
+          "impact_scale": "individual",
+          "org": "Purdue computer vision lab",
+          "org_tier": "B",
+          "role": "Undergraduate Research Assistant",
+          "role_selectivity": "selective",
+          "seniority": "research_assistant",
+          "years": "2021-2023"
+        }
+      ],
+      "headline": "Third-year robotics PhD student at a T2 university; first-author ICRA and AAAI papers; middle-author ICCV; dataset",
+      "leadership": [
+        "Co-mentors 2 undergraduate researchers; one is first author on a submitted workshop paper",
+        "Organizer of a robotics graduate student seminar, 2024-2025",
+        "Reviewer for ICRA, IROS and CVPR workshops"
+      ],
+      "notable": [
+        "Two first-author strong-venue papers by year three plus a middle-author top-venue paper",
+        "Best Student Paper finalist at ICRA 2025",
+        "Dataset with ~3,100 downloads and 9 citing papers in its first year",
+        "Industry research internship that produced a published paper and a return offer"
+      ],
+      "projects": [
+        {
+          "descriptor": "Open RGB-D manipulation dataset with 6-DoF annotations (210,000 frames)",
+          "highlight": "Data-collection and annotation pipeline, released with a workshop paper",
+          "kind": "research",
+          "scale_signal": "~3,100 downloads; 9 citing papers",
+          "technical_depth": "substantial"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 5,
+        "first_author_count": 3,
+        "strong_venue_count": 2,
+        "top_venue_count": 1,
+        "venues": [
+          "ICRA",
+          "AAAI",
+          "ICCV",
+          "CVPR Workshop",
+          "arXiv"
+        ]
+      },
+      "skills_top": [
+        "PyTorch",
+        "Python",
+        "C++",
+        "ROS 2",
+        "Isaac Sim",
+        "MuJoCo",
+        "Open3D",
+        "CUDA (basic)",
+        "Docker",
+        "Linux cluster administration",
+        "3D perception",
+        "sim-to-real transfer"
+      ],
+      "top_signal": "First-author ICRA",
+      "years_fulltime": 0
+    },
+    "st": "student"
+  }
+}

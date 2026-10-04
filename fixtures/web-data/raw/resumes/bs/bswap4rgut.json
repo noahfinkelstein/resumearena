@@ -1,0 +1,522 @@
+{
+  "analysis": {
+    "analysis_confidence": 0.9,
+    "ats": {
+      "detected": {
+        "action_verb_ratio": 0.5,
+        "bullet_count": 24,
+        "bullet_marker_consistent": true,
+        "contact_at_top": true,
+        "date_format_consistent": false,
+        "date_formats_seen": [
+          "Month YYYY",
+          "YYYY"
+        ],
+        "has_email": true,
+        "has_location": true,
+        "has_phone": true,
+        "has_profile_link": true,
+        "has_street_address": false,
+        "has_summary_section": true,
+        "nonstandard_headings": [
+          "CERTIFICATIONS AND SKILLS"
+        ],
+        "quantified_bullet_ratio": 0,
+        "reverse_chronological": true,
+        "section_order": [
+          "Summary",
+          "Experience",
+          "Education",
+          "Skills",
+          "Leadership"
+        ],
+        "skill_bars_or_ratings": false,
+        "standard_headings": [
+          "PROFILE",
+          "EXPERIENCE",
+          "EDUCATION",
+          "VOLUNTEER",
+          "INTERESTS"
+        ],
+        "uses_tables_suspected": false
+      },
+      "factors": {
+        "consistency": {
+          "note": "Month YYYY for jobs, YYYY for the club; titles match; superlatives repeated across every section",
+          "score": 85
+        },
+        "contact_info": {
+          "note": "City, email, phone and a profile link in the header",
+          "score": 100
+        },
+        "formatting": {
+          "note": "Standard headings, reverse-chronological; summary paragraph; one image on a non-academic résumé; two fonts",
+          "score": 85
+        },
+        "keyword_alignment": {
+          "note": "Reconciliation, proposals, RMDs and custodian platforms appear in a few bullets; most bullets are adjectives and tools appear only in the list",
+          "score": 50
+        },
+        "length": {
+          "note": "One page for two years of experience",
+          "score": 100
+        },
+        "parseability": {
+          "note": "Single column, clean text layer (0.95), standard headings, contact in the first two lines",
+          "score": 100
+        },
+        "quantification": {
+          "note": "No bullet contains a number tied to an outcome; rankings are asserted without a population or metric",
+          "score": 10
+        }
+      },
+      "fixes": [
+        {
+          "factor": "quantification",
+          "fix": "Before: \"#1 ranked analyst in the firm for overall performance and client impact\" → After: \"Supported __ advisors with $__M in client assets; cut quarterly review prep from __ to __ days\"",
+          "issue": "15 of 24 bullets are ranking claims with no number, issuer or population",
+          "priority": "high"
+        },
+        {
+          "factor": "keyword_alignment",
+          "fix": "Lead each role with the concrete tasks and their volumes (accounts reconciled per month, proposals produced, assets covered)",
+          "issue": "Superlatives replace the work: reconciliation, proposals and RMD processing appear once each",
+          "priority": "high"
+        },
+        {
+          "factor": "consistency",
+          "fix": "Remove every evaluative adjective; keep only facts a reference could confirm",
+          "issue": "Superlatives (\"world-class\", \"elite\", \"best\") repeat in profile, experience, education, skills and volunteer sections",
+          "priority": "medium"
+        },
+        {
+          "factor": "formatting",
+          "fix": "Remove the image; parsers drop it and some recruiters discount it",
+          "issue": "A photo or logo image is present on a non-academic résumé",
+          "priority": "medium"
+        },
+        {
+          "factor": "contact_info",
+          "fix": "Add the GPA if 3.5 or above, or omit the \"elite academic performance\" line",
+          "issue": "Education lists no GPA, honors or graduation detail beyond the year",
+          "priority": "low"
+        }
+      ],
+      "score": 71,
+      "target_role_used": "Wealth-management or financial-planning associate"
+    },
+    "awards": [],
+    "card": {
+      "awards": [],
+      "card_version": "1.0",
+      "career_stage": "early",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2024,
+          "field": "Finance",
+          "gpa_band": "not_listed",
+          "honors": [],
+          "in_progress": false,
+          "institution": "Arizona State University, W. P. Carey School of Business",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 27,
+          "employment_type": "full_time",
+          "highlights": [
+            "Quarterly client review materials, proposals with allocation summaries and fee illustrations",
+            "Monthly reconciliation between custodian and portfolio-reporting systems",
+            "Account openings, transfers and distributions with operations"
+          ],
+          "impact_scale": "individual",
+          "org": "Regional wealth-management firm",
+          "org_tier": "C",
+          "role": "Financial Analyst",
+          "role_selectivity": "modest",
+          "seniority": "analyst",
+          "years": "2024-present"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Account paperwork and CRM updates; converted to full-time"
+          ],
+          "impact_scale": "individual",
+          "org": "Regional wealth-management firm",
+          "org_tier": "C",
+          "role": "Client Service Intern",
+          "role_selectivity": "modest",
+          "seniority": "intern",
+          "years": "2023"
+        }
+      ],
+      "headline": "Financial analyst, 2 years at a regional wealth-management firm; T3 finance degree; Series 7 and 66",
+      "leadership": [
+        "Volunteer instructor in a financial-literacy program, 2024-present"
+      ],
+      "notable": [],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Excel",
+        "Morningstar Direct",
+        "eMoney",
+        "Salesforce",
+        "Bloomberg",
+        "Client reporting"
+      ],
+      "top_signal": "WM analyst, 2 yrs",
+      "years_fulltime": 2.3
+    },
+    "category_relevance": {
+      "academia": 0,
+      "finance": 0.75,
+      "general": 1,
+      "tech": 0
+    },
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2024,
+        "field": "Finance",
+        "gpa": null,
+        "gpa_band": "not_listed",
+        "gpa_scale": null,
+        "honors": [],
+        "in_progress": false,
+        "institution": "Arizona State University, W. P. Carey School of Business",
+        "institution_tier": "T3",
+        "notes": "GPA omitted; \"elite academic performance\" claimed without a number or honor",
+        "start_year": 2020
+      }
+    ],
+    "experiences": [
+      {
+        "bullets_condensed": [
+          "Quarterly client review materials for advisors' books",
+          "Monthly reconciliation of custodian data against the portfolio-reporting system",
+          "Prospect proposals with asset-allocation summaries and fee illustrations",
+          "Account openings, transfers and required minimum distributions with operations"
+        ],
+        "duration_months": 27,
+        "employment_type": "full_time",
+        "end": "present",
+        "impact_scale": "individual",
+        "is_current": true,
+        "org": "Desert Ridge Wealth Partners",
+        "org_tier": "C",
+        "org_type": "private_company",
+        "ownership": "supported",
+        "quantified_impact": false,
+        "role": "Financial Analyst",
+        "role_selectivity": "modest",
+        "seniority": "analyst",
+        "start": "2024-07",
+        "team_or_division": "Wealth management"
+      },
+      {
+        "bullets_condensed": [
+          "Account paperwork and CRM record updates",
+          "Received a full-time offer"
+        ],
+        "duration_months": 3,
+        "employment_type": "internship",
+        "end": "2023-08",
+        "impact_scale": "individual",
+        "is_current": false,
+        "org": "Desert Ridge Wealth Partners",
+        "org_tier": "C",
+        "org_type": "private_company",
+        "ownership": "supported",
+        "quantified_impact": false,
+        "role": "Summer Intern",
+        "role_selectivity": "modest",
+        "seniority": "intern",
+        "start": "2023-06",
+        "team_or_division": "Client service"
+      },
+      {
+        "bullets_condensed": [
+          "Stock pitches in a student club; no fund, AUM or results stated"
+        ],
+        "duration_months": 24,
+        "employment_type": "volunteer",
+        "end": "2024",
+        "impact_scale": "none",
+        "is_current": false,
+        "org": "Arizona State University Investment Club",
+        "org_tier": "D",
+        "org_type": "other",
+        "ownership": "contributed",
+        "quantified_impact": false,
+        "role": "Analyst",
+        "role_selectivity": "modest",
+        "seniority": "other",
+        "start": "2022",
+        "team_or_division": null
+      }
+    ],
+    "input": {
+      "is_resume": true,
+      "language": "en",
+      "parse_confidence": 0.95,
+      "placeholders_seen": [
+        "name",
+        "email",
+        "phone",
+        "url"
+      ],
+      "word_count_estimate": 490
+    },
+    "leadership": [
+      {
+        "budget_or_scale": "not stated",
+        "elected_or_appointed": "self_declared",
+        "highlight": "Volunteer instructor since 2024; \"best volunteer instructor\" claim has no issuer",
+        "org": "Junior Achievement",
+        "people_led": null,
+        "role": "Volunteer financial-literacy instructor"
+      }
+    ],
+    "projects": [],
+    "publications": [],
+    "red_flags": [
+      {
+        "detail": "\"#1 ranked analyst in the firm\", \"best in the office\", \"consistently ranked first in every internal review\": no issuer, population or metric",
+        "location": "Experience / financial analyst role",
+        "severity": "medium",
+        "type": "unverifiable_superlative"
+      },
+      {
+        "detail": "\"Best intern in the history of the program\" and \"offered a full-time position ahead of all other interns\" with no cohort size",
+        "location": "Experience / summer internship",
+        "severity": "medium",
+        "type": "unverifiable_superlative"
+      },
+      {
+        "detail": "\"World-class\", \"elite\", \"unmatched work ethic\" and \"exceptional leadership ability\" stand where tasks and numbers should be",
+        "location": "Profile, Skills",
+        "severity": "low",
+        "type": "self_description_as_evidence"
+      },
+      {
+        "detail": "\"Elite academic performance\" and \"one of the top students in the program\" with GPA omitted and no honors listed",
+        "location": "Education",
+        "severity": "low",
+        "type": "unverifiable_superlative"
+      }
+    ],
+    "residual_pii": {
+      "email_count": 0,
+      "name_suspected": false,
+      "other_identifiers": [],
+      "phone_count": 0,
+      "street_address_suspected": false,
+      "url_count": 0
+    },
+    "schema_version": "1.1",
+    "scores": {
+      "academia": {
+        "holistic_score": 5,
+        "included": false,
+        "rationale": "No research footprint.",
+        "stage_relative_score": 5,
+        "sub_scores": {
+          "breadth": 5,
+          "impact": 5,
+          "pedigree": 20,
+          "selectivity": 5,
+          "trajectory": 35
+        },
+        "top_evidence": []
+      },
+      "finance": {
+        "holistic_score": 28,
+        "included": true,
+        "rationale": "Wealth management at a regional firm is C-tier; the actual work is reconciliation, proposals and paperwork with no AUM, revenue or client numbers. Series 7 and 66 are neutral. \"#1 ranked\", \"best in the firm\" and \"top performer\" have no issuer or population and carry no weight.",
+        "stage_relative_score": 30,
+        "sub_scores": {
+          "breadth": 20,
+          "impact": 12,
+          "pedigree": 28,
+          "selectivity": 15,
+          "trajectory": 35
+        },
+        "top_evidence": [
+          "Reconciliation, proposals and account paperwork at a regional wealth-management firm",
+          "No deal, market or portfolio figure anywhere on the page",
+          "Series 7 and Series 66, 2024"
+        ]
+      },
+      "general": {
+        "holistic_score": 28,
+        "included": true,
+        "rationale": "Two years of client-service work at a C-tier wealth-management firm, a T3 finance degree with GPA omitted, two licenses, and a club role. Every ranking claim lacks an issuer, metric or population and is discounted to zero; what remains is routine support work.",
+        "stage_relative_score": 30,
+        "sub_scores": {
+          "breadth": 22,
+          "impact": 12,
+          "pedigree": 28,
+          "selectivity": 15,
+          "trajectory": 35
+        },
+        "top_evidence": [
+          "Financial analyst at a regional wealth-management firm since 2024",
+          "T3 finance degree, GPA omitted",
+          "Series 7 and 66"
+        ]
+      },
+      "tech": {
+        "holistic_score": 5,
+        "included": false,
+        "rationale": "No technical footprint.",
+        "stage_relative_score": 5,
+        "sub_scores": {
+          "breadth": 5,
+          "impact": 5,
+          "pedigree": 15,
+          "selectivity": 5,
+          "trajectory": 35
+        },
+        "top_evidence": []
+      }
+    },
+    "signals": {
+      "career_stage": "early",
+      "has_quantified_impact": false,
+      "highest_institution_tier": "T3",
+      "highest_org_tier": "C",
+      "max_impact_scale": "individual",
+      "months_internship": 3,
+      "primary_domain": "finance",
+      "sustained_org_tier": "C",
+      "top_role_selectivity": "modest",
+      "trajectory": "steady",
+      "years_fulltime": 2.3
+    },
+    "skills": {
+      "certifications": [
+        "Series 7 (2024)",
+        "Series 66 (2024)"
+      ],
+      "domain": [
+        "client reporting",
+        "account reconciliation",
+        "proposal preparation"
+      ],
+      "keyword_stuffing_suspected": false,
+      "spoken_languages": [],
+      "technical": [
+        "Excel",
+        "Morningstar Direct",
+        "eMoney",
+        "Salesforce",
+        "Bloomberg"
+      ]
+    },
+    "strengths": [
+      "Converted an internship into a full-time analyst seat at the same firm",
+      "Series 7 and Series 66 obtained in the first year of full-time work",
+      "A handful of bullets name real wealth-management tasks (custodian reconciliation, proposals, RMDs)"
+    ],
+    "verdict": "Two years of wealth-management support work wrapped in rankings no one issued; without the adjectives the record is routine entry-level.",
+    "weaknesses": [
+      "\"#1 ranked\", \"world-class\", \"best in the firm\" and \"top performer\" appear in nearly every bullet with no issuer, metric or population",
+      "No number anywhere: no assets covered, advisors supported, accounts, proposals or outcomes",
+      "GPA omitted while claiming \"elite academic performance\"",
+      "The role is client-service support at a regional wealth-management firm; the substance is entry level",
+      "Interests and volunteer lines also carry self-rankings, which undercuts the whole page"
+    ]
+  },
+  "card_sha256": "77cf51d5d6414b666a557f1146165407fd5ee90cb56a64dc473bc2fd73fbd404",
+  "category_relevance": {
+    "academia": 0,
+    "finance": 0.75,
+    "general": 1,
+    "tech": 0
+  },
+  "created_at": "2026-10-03T12:48:00Z",
+  "deleted_at": null,
+  "duplicate_of": null,
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+5f7c9f15",
+    "verdict": {
+      "estimated_career_stage": "early",
+      "is_resume": true,
+      "language": "en",
+      "prompt_injection_detected": false,
+      "reason": "Résumé with dated roles and education.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "world-class-superlat",
+  "held_reason": null,
+  "id": "bswap4rgut",
+  "kind": "user",
+  "metrics": {
+    "char_count": 3261,
+    "columns_detected": 1,
+    "extraction_quality": 0.95,
+    "font_count": 2,
+    "image_count": 1,
+    "pages": 1,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 490
+  },
+  "owner_hash": "9cdfdce1acc7365918899bc0b8c1f4a7b39653d7c071abc4e9a8c47c8e40712c",
+  "primary": "finance",
+  "rejected_reason": null,
+  "schema": 1,
+  "scores": {
+    "finance": 27,
+    "general": 27
+  },
+  "source": {
+    "client_version": "fixtures",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 1
+  },
+  "stage": "early",
+  "status": "analyzed",
+  "superseded_by": null,
+  "supersedes": null,
+  "text": "[name]\nScottsdale, AZ | [email] | [phone] | [url]\n\nPROFILE\nWorld-class financial analyst and #1 ranked performer with two years of elite experience in wealth management. Recognized as the best in the firm for client results, analytical excellence and leadership. A top performer who consistently exceeds every expectation and delivers best-in-class outcomes for high-net-worth clients.\n\nEXPERIENCE\n\nDesert Ridge Wealth Partners — Scottsdale, AZ\nFinancial Analyst | July 2024 – Present\n- #1 ranked analyst in the firm for overall performance and client impact\n- Deliver world-class portfolio analysis and reporting for high-net-worth clients, recognized by leadership as the best in the office\n- Top performer in client retention, with the strongest results in the firm\n- Built best-in-class financial models that set a new standard for the analyst team\n- Praised by senior advisors as the most talented analyst they have worked with\n- Selected as the go-to analyst for the firm's most important clients because of elite attention to detail\n- Consistently ranked first in every internal review and evaluation\n- Drive exceptional results on every project with unmatched work ethic\n- Lead the preparation of quarterly client review materials for advisors' books\n- Reconcile client account data between the custodian platform and the firm's portfolio reporting system each month\n- Prepare proposals for prospective clients, including asset allocation summaries and fee illustrations\n- Coordinate with the operations team on account openings, transfers and required minimum distributions\n- Handpicked by the managing partner to represent the firm at a national industry conference because of elite presentation skills\n\nDesert Ridge Wealth Partners — Scottsdale, AZ\nSummer Intern, Client Service | June 2023 – August 2023\n- Rated the best intern in the history of the program\n- Delivered world-class support to advisors and clients\n- Recognized as a top performer and offered a full-time position ahead of all other interns\n- Prepared account paperwork and updated client records in the CRM\n\nArizona State University Investment Club — Tempe, AZ\nAnalyst | 2022 – 2024\n- Top-ranked analyst in the club with the highest-quality stock pitches\n- Named best presenter at the annual pitch competition by popular opinion\n\nEDUCATION\nArizona State University, W. P. Carey School of Business — Tempe, AZ\nB.S. in Finance, May 2024\n- Elite academic performance and recognized as one of the top students in the program\n- Completed the most rigorous finance coursework offered\n- Coursework: Corporate Finance, Investments, Portfolio Management, Financial Statement Analysis, Derivatives\n\nCERTIFICATIONS AND SKILLS\n- Series 7 and Series 66 (2024)\n- World-class Excel skills; best-in-class financial modeling and valuation\n- Expert in Morningstar Direct, eMoney, Salesforce and Bloomberg\n- Elite communication and presentation skills; exceptional leadership ability\n- Unmatched work ethic and the highest standards of integrity\n\nVOLUNTEER\n- Volunteer, Junior Achievement financial literacy program, 2024 – Present (recognized as the best volunteer instructor in the chapter)\n\nINTERESTS\nGolf (club champion caliber), competitive running, mentoring the next generation of top performers",
+  "text_sha256": "7d17656af6b132b1bb5c31b46956e2488ab5e5c2f9b93659229be781a07fcf47",
+  "top_signal": "WM analyst, 2 yrs",
+  "updated_at": "2026-10-03T12:48:00Z",
+  "usage": {
+    "analysis_usd": 0.17728,
+    "gate_usd": 0.0016,
+    "latency_ms": 1
+  },
+  "versions": {
+    "analyst_model": "claude-opus-5-5",
+    "analyst_prompt": "analyst.v1+6dbc77ff",
+    "fell_back": false,
+    "gate_prompt": "gate.v1+5f7c9f15",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "visibility": "handle"
+}

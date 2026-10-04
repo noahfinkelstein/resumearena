@@ -1,0 +1,947 @@
+{
+  "analysis_confidence": 0.93,
+  "ats": {
+    "detected": {
+      "action_verb_ratio": 0.5,
+      "bullet_count": 41,
+      "bullet_marker_consistent": true,
+      "contact_at_top": true,
+      "date_format_consistent": true,
+      "date_formats_seen": [
+        "YYYY"
+      ],
+      "has_email": true,
+      "has_location": true,
+      "has_phone": true,
+      "has_profile_link": true,
+      "has_street_address": false,
+      "has_summary_section": true,
+      "nonstandard_headings": [
+        "ACADEMIC POSITIONS",
+        "OTHER AFFILIATIONS",
+        "RESEARCH FIELDS",
+        "RESEARCH STATEMENT",
+        "RESEARCH GRANTS AND FELLOWSHIPS",
+        "HONORS AND AWARDS",
+        "EDITORIAL AND REFEREE SERVICE",
+        "PROFESSIONAL SERVICE",
+        "DEPARTMENT AND UNIVERSITY SERVICE",
+        "DOCTORAL ADVISING",
+        "INVITED SEMINARS AND CONFERENCE PRESENTATIONS",
+        "POLICY ENGAGEMENT AND MEDIA",
+        "PROFESSIONAL MEMBERSHIPS"
+      ],
+      "quantified_bullet_ratio": 0.3,
+      "reverse_chronological": true,
+      "section_order": [
+        "Experience",
+        "Experience",
+        "Education",
+        "Summary",
+        "Summary",
+        "Publications",
+        "Publications",
+        "Awards",
+        "Awards",
+        "Leadership",
+        "Leadership",
+        "Leadership",
+        "Experience",
+        "Leadership",
+        "Projects",
+        "Leadership",
+        "Leadership",
+        "Skills"
+      ],
+      "skill_bars_or_ratings": false,
+      "standard_headings": [
+        "EDUCATION",
+        "PUBLICATIONS",
+        "WORKING PAPERS",
+        "TEACHING",
+        "SKILLS AND LANGUAGES"
+      ],
+      "uses_tables_suspected": false
+    },
+    "factors": {
+      "consistency": {
+        "note": "One date format (YYYY) throughout",
+        "score": 100
+      },
+      "contact_info": {
+        "note": "Email, phone, profile link and a department address line",
+        "score": 100
+      },
+      "formatting": {
+        "note": "Standard academic CV order; publications numbered; one bullet glyph elsewhere",
+        "score": 95
+      },
+      "keyword_alignment": {
+        "note": "Faculty or research economist target: fields, methods, data access, editorial service and funding all present",
+        "score": 85
+      },
+      "length": {
+        "note": "Academic CV scored on organization: complete sections in conventional order",
+        "score": 100
+      },
+      "parseability": {
+        "note": "Single-column 6-page PDF, extraction quality 0.94; numbered publication list and dated sections parse cleanly",
+        "score": 100
+      },
+      "quantification": {
+        "note": "Grants, students and evaluations carry numbers; publication and talk lines are inherently unquantified",
+        "score": 60
+      }
+    },
+    "fixes": [
+      {
+        "factor": "quantification",
+        "fix": "Add total citations and h-index with the source and date under Publications",
+        "issue": "Citation counts are not stated anywhere",
+        "priority": "low"
+      },
+      {
+        "factor": "formatting",
+        "fix": "Merge the three service sections and the two affiliation sections to bring the CV to four pages",
+        "issue": "Eighteen sections over six pages",
+        "priority": "low"
+      },
+      {
+        "factor": "length",
+        "fix": "Keep the last three years and summarize the rest in one line",
+        "issue": "The seminar list runs to eight lines of institutions",
+        "priority": "low"
+      }
+    ],
+    "score": 89,
+    "target_role_used": "Tenured faculty or senior research economist"
+  },
+  "awards": [
+    {
+      "issuer": "University of Wisconsin–Madison",
+      "name": "Vilas Associate Award",
+      "pool_estimate": "campus-wide mid-career research award",
+      "scope": "institutional",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2021
+    },
+    {
+      "issuer": "University of Wisconsin–Madison",
+      "name": "H. I. Romnes Faculty Fellowship",
+      "pool_estimate": "campus-wide faculty fellowship",
+      "scope": "institutional",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2020
+    },
+    {
+      "issuer": "National Tax Association Annual Conference",
+      "name": "Best Paper Award",
+      "pool_estimate": "one paper per conference",
+      "scope": "national",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2018
+    },
+    {
+      "issuer": "National Bureau of Economic Research",
+      "name": "NBER Research Associate appointment",
+      "pool_estimate": "by election of the program",
+      "scope": "national",
+      "selectivity": "highly_selective",
+      "verifiable": true,
+      "year": 2020
+    },
+    {
+      "issuer": "University of Wisconsin–Madison",
+      "name": "Department Excellence in Teaching Award",
+      "pool_estimate": "departmental",
+      "scope": "institutional",
+      "selectivity": "modest",
+      "verifiable": true,
+      "year": 2016
+    },
+    {
+      "issuer": "W.E. Upjohn Institute",
+      "name": "W.E. Upjohn Institute Early Career Research Award",
+      "pool_estimate": "small annual award pool",
+      "scope": "national",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2014
+    }
+  ],
+  "card": {
+    "awards": [
+      {
+        "name": "NBER Research Associate",
+        "scope": "national",
+        "selectivity": "highly_selective"
+      },
+      {
+        "name": "Associate Editor, top field journal",
+        "scope": "international",
+        "selectivity": "highly_selective"
+      },
+      {
+        "name": "Vilas Associate Award",
+        "scope": "institutional",
+        "selectivity": "selective"
+      },
+      {
+        "name": "National Tax Association best paper",
+        "scope": "national",
+        "selectivity": "selective"
+      },
+      {
+        "name": "Romnes Faculty Fellowship",
+        "scope": "institutional",
+        "selectivity": "selective"
+      },
+      {
+        "name": "Upjohn Early Career Research Award",
+        "scope": "national",
+        "selectivity": "selective"
+      }
+    ],
+    "card_version": "1.0",
+    "career_stage": "senior",
+    "education": [
+      {
+        "degree_level": "phd",
+        "end_year": 2012,
+        "field": "Economics",
+        "gpa_band": "not_listed",
+        "honors": [],
+        "in_progress": false,
+        "institution": "Northwestern University",
+        "institution_tier": "T2"
+      },
+      {
+        "degree_level": "bachelor",
+        "end_year": 2006,
+        "field": "Economics and Mathematics",
+        "gpa_band": "not_listed",
+        "honors": [
+          "magna cum laude"
+        ],
+        "in_progress": false,
+        "institution": "Carleton College",
+        "institution_tier": "T2"
+      }
+    ],
+    "experiences": [
+      {
+        "duration_months": 90,
+        "employment_type": "full_time",
+        "highlights": [
+          "30 publications including AER and Review of Economic Studies",
+          "Associate Editor, Journal of Public Economics; NBER Research Associate",
+          "PI on NSF ($382k) and Smith Richardson ($210k) grants"
+        ],
+        "impact_scale": "org",
+        "org": "University of Wisconsin–Madison",
+        "org_tier": "A",
+        "role": "Associate Professor of Economics (tenured)",
+        "role_selectivity": "highly_selective",
+        "seniority": "faculty",
+        "years": "2019-present"
+      },
+      {
+        "duration_months": 84,
+        "employment_type": "full_time",
+        "highlights": [
+          "Tenured at seven years with 20 publications"
+        ],
+        "impact_scale": "team",
+        "org": "University of Wisconsin–Madison",
+        "org_tier": "A",
+        "role": "Assistant Professor of Economics",
+        "role_selectivity": "highly_selective",
+        "seniority": "faculty",
+        "years": "2012-2019"
+      },
+      {
+        "duration_months": 5,
+        "employment_type": "fellowship",
+        "highlights": [],
+        "impact_scale": "team",
+        "org": "University of California, Berkeley",
+        "org_tier": "A",
+        "role": "Visiting Associate Professor",
+        "role_selectivity": "selective",
+        "seniority": "faculty",
+        "years": "2024-2024"
+      },
+      {
+        "duration_months": 4,
+        "employment_type": "fellowship",
+        "highlights": [],
+        "impact_scale": "team",
+        "org": "Federal Reserve Bank of Chicago",
+        "org_tier": "B",
+        "role": "Visiting Scholar",
+        "role_selectivity": "selective",
+        "seniority": "fellow",
+        "years": "2021-2021"
+      }
+    ],
+    "headline": "Tenured economics associate professor at a T2; 30 papers incl. AER and REStud; associate editor, top field journal",
+    "leadership": [
+      "Associate Editor, Journal of Public Economics; editorial board, National Tax Journal",
+      "Chair of graduate admissions; director of graduate placement",
+      "Co-organizer of an NBER Summer Institute meeting",
+      "Board of Directors, National Tax Association"
+    ],
+    "notable": [
+      "Two top-five economics journal publications",
+      "Associate editor at a top field journal and NBER Research Associate",
+      "Nine PhD students placed, including two at the Federal Reserve Board"
+    ],
+    "projects": [],
+    "publications_summary": {
+      "citation_signal": "not stated",
+      "count_total": 30,
+      "first_author_count": 17,
+      "strong_venue_count": 13,
+      "top_venue_count": 2,
+      "venues": [
+        "American Economic Review",
+        "Review of Economic Studies",
+        "AEJ: Economic Policy",
+        "Journal of Public Economics",
+        "Journal of Labor Economics",
+        "Review of Economics and Statistics",
+        "Journal of Human Resources",
+        "Journal of Urban Economics",
+        "Journal of Health Economics",
+        "National Tax Journal",
+        "Economic Journal",
+        "Labour Economics"
+      ]
+    },
+    "skills_top": [
+      "Public economics",
+      "Labor economics",
+      "Administrative data",
+      "Regression discontinuity",
+      "Stata",
+      "R"
+    ],
+    "top_signal": "AER + 30 papers",
+    "years_fulltime": 16.7
+  },
+  "category_relevance": {
+    "academia": 1,
+    "finance": 0.3,
+    "general": 1,
+    "tech": 0.05
+  },
+  "education": [
+    {
+      "degree_level": "phd",
+      "end_year": 2012,
+      "field": "Economics",
+      "gpa": null,
+      "gpa_band": "not_listed",
+      "gpa_scale": null,
+      "honors": [
+        "Dissertation Year Fellowship"
+      ],
+      "in_progress": false,
+      "institution": "Northwestern University",
+      "institution_tier": "T2",
+      "notes": "Three essays on state tax and transfer policy",
+      "start_year": 2006
+    },
+    {
+      "degree_level": "master",
+      "end_year": 2009,
+      "field": "Economics",
+      "gpa": null,
+      "gpa_band": "not_listed",
+      "gpa_scale": null,
+      "honors": [],
+      "in_progress": false,
+      "institution": "Northwestern University",
+      "institution_tier": "T2",
+      "notes": "",
+      "start_year": null
+    },
+    {
+      "degree_level": "bachelor",
+      "end_year": 2006,
+      "field": "Economics and Mathematics",
+      "gpa": null,
+      "gpa_band": "not_listed",
+      "gpa_scale": null,
+      "honors": [
+        "magna cum laude"
+      ],
+      "in_progress": false,
+      "institution": "Carleton College",
+      "institution_tier": "T2",
+      "notes": "",
+      "start_year": null
+    }
+  ],
+  "experiences": [
+    {
+      "bullets_condensed": [
+        "30 peer-reviewed publications including AER (2019) and Review of Economic Studies (2022)",
+        "Associate Editor, Journal of Public Economics; NBER Research Associate; editorial board, National Tax Journal",
+        "Grants as PI from NSF ($382k), Smith Richardson ($210k) and Spencer; co-PI Russell Sage ($148k)",
+        "Chaired 9 completed dissertations; graduate admissions chair 2023–25"
+      ],
+      "duration_months": 90,
+      "employment_type": "full_time",
+      "end": "present",
+      "impact_scale": "org",
+      "is_current": true,
+      "org": "University of Wisconsin–Madison, Department of Economics",
+      "org_tier": "A",
+      "org_type": "university",
+      "ownership": "led",
+      "quantified_impact": true,
+      "role": "Associate Professor (tenured)",
+      "role_selectivity": "highly_selective",
+      "seniority": "faculty",
+      "start": "2019",
+      "team_or_division": null
+    },
+    {
+      "bullets_condensed": [
+        "Tenured after seven years with 20 publications",
+        "NSF SES grant as PI; Upjohn early career award; department teaching award 2016"
+      ],
+      "duration_months": 84,
+      "employment_type": "full_time",
+      "end": "2019",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "University of Wisconsin–Madison, Department of Economics",
+      "org_tier": "A",
+      "org_type": "university",
+      "ownership": "led",
+      "quantified_impact": true,
+      "role": "Assistant Professor",
+      "role_selectivity": "highly_selective",
+      "seniority": "faculty",
+      "start": "2012",
+      "team_or_division": null
+    },
+    {
+      "bullets_condensed": [
+        "Visiting scholar, fall 2021"
+      ],
+      "duration_months": 4,
+      "employment_type": "fellowship",
+      "end": "2021",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "Federal Reserve Bank of Chicago",
+      "org_tier": "B",
+      "org_type": "government",
+      "ownership": "contributed",
+      "quantified_impact": false,
+      "role": "Visiting Scholar",
+      "role_selectivity": "selective",
+      "seniority": "fellow",
+      "start": "2021",
+      "team_or_division": null
+    },
+    {
+      "bullets_condensed": [
+        "Visiting appointment, spring 2024"
+      ],
+      "duration_months": 5,
+      "employment_type": "fellowship",
+      "end": "2024",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "University of California, Berkeley, Department of Economics",
+      "org_tier": "A",
+      "org_type": "university",
+      "ownership": "contributed",
+      "quantified_impact": false,
+      "role": "Visiting Associate Professor",
+      "role_selectivity": "selective",
+      "seniority": "faculty",
+      "start": "2024",
+      "team_or_division": null
+    }
+  ],
+  "input": {
+    "is_resume": true,
+    "language": "en",
+    "parse_confidence": 0.94,
+    "placeholders_seen": [
+      "name",
+      "email",
+      "phone",
+      "url"
+    ],
+    "word_count_estimate": 2060
+  },
+  "leadership": [
+    {
+      "budget_or_scale": "top field journal",
+      "elected_or_appointed": "appointed",
+      "highlight": "Associate editor since 2022; NTJ editorial board since 2019",
+      "org": "Journal of Public Economics",
+      "people_led": null,
+      "role": "Associate Editor"
+    },
+    {
+      "budget_or_scale": "PhD admissions 2023–25; placement director 2019–22",
+      "elected_or_appointed": "appointed",
+      "highlight": "Chaired graduate admissions and directed graduate placement",
+      "org": "Department of Economics, University of Wisconsin–Madison",
+      "people_led": null,
+      "role": "Chair, Graduate Admissions Committee"
+    },
+    {
+      "budget_or_scale": "2024 and 2025 meetings",
+      "elected_or_appointed": "appointed",
+      "highlight": "Co-organized the public economics meeting",
+      "org": "NBER Summer Institute, Public Economics",
+      "people_led": null,
+      "role": "Co-organizer"
+    },
+    {
+      "budget_or_scale": "2021–2024",
+      "elected_or_appointed": "elected",
+      "highlight": "Board member and program committee",
+      "org": "National Tax Association",
+      "people_led": null,
+      "role": "Board of Directors"
+    }
+  ],
+  "projects": [],
+  "publications": [
+    {
+      "author_count": 3,
+      "author_position": "first",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "American Economic Review",
+      "venue_tier": "top",
+      "year": 2019
+    },
+    {
+      "author_count": 2,
+      "author_position": "first",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "Review of Economic Studies",
+      "venue_tier": "top",
+      "year": 2022
+    },
+    {
+      "author_count": 1,
+      "author_position": "sole",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "American Economic Journal: Economic Policy",
+      "venue_tier": "strong",
+      "year": 2015
+    },
+    {
+      "author_count": 2,
+      "author_position": "first",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "American Economic Journal: Economic Policy",
+      "venue_tier": "strong",
+      "year": 2018
+    },
+    {
+      "author_count": 3,
+      "author_position": "middle",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "American Economic Journal: Economic Policy",
+      "venue_tier": "strong",
+      "year": 2023
+    },
+    {
+      "author_count": 1,
+      "author_position": "sole",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "Journal of Public Economics",
+      "venue_tier": "strong",
+      "year": 2014
+    },
+    {
+      "author_count": 2,
+      "author_position": "first",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "Journal of Public Economics",
+      "venue_tier": "strong",
+      "year": 2017
+    },
+    {
+      "author_count": 3,
+      "author_position": "middle",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "Journal of Public Economics",
+      "venue_tier": "strong",
+      "year": 2020
+    },
+    {
+      "author_count": 2,
+      "author_position": "first",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "Journal of Public Economics",
+      "venue_tier": "strong",
+      "year": 2024
+    },
+    {
+      "author_count": 2,
+      "author_position": "second",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "Journal of Labor Economics",
+      "venue_tier": "strong",
+      "year": 2016
+    },
+    {
+      "author_count": 1,
+      "author_position": "sole",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "Journal of Labor Economics",
+      "venue_tier": "strong",
+      "year": 2021
+    },
+    {
+      "author_count": 2,
+      "author_position": "first",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "Review of Economics and Statistics",
+      "venue_tier": "strong",
+      "year": 2018
+    },
+    {
+      "author_count": 3,
+      "author_position": "middle",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "Review of Economics and Statistics",
+      "venue_tier": "strong",
+      "year": 2025
+    },
+    {
+      "author_count": 1,
+      "author_position": "sole",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "Journal of Human Resources",
+      "venue_tier": "strong",
+      "year": 2017
+    },
+    {
+      "author_count": 2,
+      "author_position": "second",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "Journal of Human Resources",
+      "venue_tier": "strong",
+      "year": 2022
+    },
+    {
+      "author_count": 2,
+      "author_position": "first",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "Journal of Urban Economics",
+      "venue_tier": "standard",
+      "year": 2016
+    },
+    {
+      "author_count": 1,
+      "author_position": "sole",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "Journal of Urban Economics",
+      "venue_tier": "standard",
+      "year": 2021
+    },
+    {
+      "author_count": 3,
+      "author_position": "middle",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "Journal of Health Economics",
+      "venue_tier": "standard",
+      "year": 2019
+    },
+    {
+      "author_count": 2,
+      "author_position": "second",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "Journal of Health Economics",
+      "venue_tier": "standard",
+      "year": 2023
+    },
+    {
+      "author_count": 1,
+      "author_position": "sole",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "National Tax Journal",
+      "venue_tier": "standard",
+      "year": 2013
+    },
+    {
+      "author_count": 2,
+      "author_position": "first",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "National Tax Journal",
+      "venue_tier": "standard",
+      "year": 2019
+    },
+    {
+      "author_count": 2,
+      "author_position": "second",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "Economic Journal",
+      "venue_tier": "standard",
+      "year": 2020
+    },
+    {
+      "author_count": 3,
+      "author_position": "middle",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "American Economic Review: Papers and Proceedings",
+      "venue_tier": "standard",
+      "year": 2017
+    },
+    {
+      "author_count": 2,
+      "author_position": "first",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "AEA Papers and Proceedings",
+      "venue_tier": "standard",
+      "year": 2021
+    },
+    {
+      "author_count": 2,
+      "author_position": "second",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "Journal of Development Economics",
+      "venue_tier": "standard",
+      "year": 2015
+    },
+    {
+      "author_count": 1,
+      "author_position": "sole",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "Labour Economics",
+      "venue_tier": "standard",
+      "year": 2014
+    },
+    {
+      "author_count": 3,
+      "author_position": "middle",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "Labour Economics",
+      "venue_tier": "standard",
+      "year": 2020
+    },
+    {
+      "author_count": 2,
+      "author_position": "first",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "Journal of Policy Analysis and Management",
+      "venue_tier": "standard",
+      "year": 2016
+    },
+    {
+      "author_count": 3,
+      "author_position": "middle",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "Journal of Policy Analysis and Management",
+      "venue_tier": "standard",
+      "year": 2022
+    },
+    {
+      "author_count": 1,
+      "author_position": "sole",
+      "citations_claimed": null,
+      "field": "Economics",
+      "kind": "journal",
+      "venue": "Fiscal Studies",
+      "venue_tier": "standard",
+      "year": 2018
+    }
+  ],
+  "red_flags": [],
+  "residual_pii": {
+    "email_count": 0,
+    "name_suspected": false,
+    "other_identifiers": [],
+    "phone_count": 0,
+    "street_address_suspected": false,
+    "url_count": 0
+  },
+  "schema_version": "1.1",
+  "scores": {
+    "academia": {
+      "holistic_score": 70,
+      "included": true,
+      "rationale": "A productive mid-career public economist: 30 papers with two in top-five journals and thirteen in top field journals, highly selective editorial and NBER roles, steady on-ladder progression; no major prize and citation counts are not stated.",
+      "stage_relative_score": 70,
+      "sub_scores": {
+        "breadth": 35,
+        "impact": 66,
+        "pedigree": 78,
+        "selectivity": 72,
+        "trajectory": 66
+      },
+      "top_evidence": [
+        "Two top-five journal publications and 13 in top field journals",
+        "Associate Editor at the Journal of Public Economics; NBER Research Associate",
+        "NSF, Smith Richardson, Russell Sage and Spencer funding"
+      ]
+    },
+    "finance": {
+      "holistic_score": 40,
+      "included": false,
+      "rationale": "Public finance research counts at half weight; no practitioner finance role.",
+      "stage_relative_score": 40,
+      "sub_scores": {
+        "breadth": 20,
+        "impact": 40,
+        "pedigree": 70,
+        "selectivity": 50,
+        "trajectory": 50
+      },
+      "top_evidence": []
+    },
+    "general": {
+      "holistic_score": 68,
+      "included": true,
+      "rationale": "Tenured associate professor of economics at a T2 with 30 publications including two top-five journals, an associate editorship at a top field journal, NBER affiliation and funded grants; narrow outside research.",
+      "stage_relative_score": 68,
+      "sub_scores": {
+        "breadth": 35,
+        "impact": 62,
+        "pedigree": 78,
+        "selectivity": 72,
+        "trajectory": 65
+      },
+      "top_evidence": [
+        "AER 2019 and Review of Economic Studies 2022 publications",
+        "Associate Editor, Journal of Public Economics; NBER Research Associate",
+        "Tenure at seven years; 9 dissertations chaired"
+      ]
+    },
+    "tech": {
+      "holistic_score": 8,
+      "included": false,
+      "rationale": "Statistical computing only.",
+      "stage_relative_score": 8,
+      "sub_scores": {
+        "breadth": 10,
+        "impact": 15,
+        "pedigree": 55,
+        "selectivity": 30,
+        "trajectory": 35
+      },
+      "top_evidence": []
+    }
+  },
+  "signals": {
+    "career_stage": "senior",
+    "has_quantified_impact": true,
+    "highest_institution_tier": "T2",
+    "highest_org_tier": "A",
+    "max_impact_scale": "org",
+    "months_internship": 0,
+    "primary_domain": "academia",
+    "sustained_org_tier": "A",
+    "top_role_selectivity": "highly_selective",
+    "trajectory": "steady",
+    "years_fulltime": 16.7
+  },
+  "skills": {
+    "certifications": [],
+    "domain": [
+      "Public economics",
+      "Labor economics",
+      "Economics of education",
+      "Restricted-access administrative data",
+      "Regression discontinuity and bunching designs"
+    ],
+    "keyword_stuffing_suspected": false,
+    "spoken_languages": [
+      "English",
+      "German (reading)"
+    ],
+    "technical": [
+      "Stata",
+      "R",
+      "Python",
+      "SAS"
+    ]
+  },
+  "strengths": [
+    "30 peer-reviewed publications including the American Economic Review and the Review of Economic Studies",
+    "Associate Editor of the Journal of Public Economics and an NBER Research Associate",
+    "Grants as PI from NSF, Smith Richardson and Spencer",
+    "Nine dissertations chaired with placements at the Federal Reserve Board and the CBO"
+  ],
+  "verdict": "A productive tenured public economist with two top-five papers, a top field-journal editorship and steady funding; a complete CV rather than a remarkable one.",
+  "weaknesses": [
+    "No citation counts stated",
+    "No major national research prize; awards are campus-level and a conference best paper",
+    "Two top-five publications in sixteen years is solid, not distinguished",
+    "CV length and section count exceed what a committee reads"
+  ]
+}

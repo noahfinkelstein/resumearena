@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:34:00Z",
+  "handle": "general-1500-early-b",
+  "key_exposed": false,
+  "owner_hash": "d8cafe37cf8d8b151ca2af7a1c7bfe8f01f36c368b44fdba660b5263d355bf9a",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:34:00Z",
+      "current": true,
+      "id": "dwzis5ko2u"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

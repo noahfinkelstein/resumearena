@@ -1,0 +1,556 @@
+{
+  "analysis_confidence": 0.92,
+  "ats": {
+    "detected": {
+      "action_verb_ratio": 0.85,
+      "bullet_count": 12,
+      "bullet_marker_consistent": true,
+      "contact_at_top": true,
+      "date_format_consistent": false,
+      "date_formats_seen": [
+        "MMM YYYY",
+        "Season YYYY",
+        "YYYY"
+      ],
+      "has_email": true,
+      "has_location": true,
+      "has_phone": true,
+      "has_profile_link": true,
+      "has_street_address": false,
+      "has_summary_section": true,
+      "nonstandard_headings": [
+        "Research Interests"
+      ],
+      "quantified_bullet_ratio": 0.5,
+      "reverse_chronological": true,
+      "section_order": [
+        "Summary",
+        "Education",
+        "Experience",
+        "Publications",
+        "Experience",
+        "Skills",
+        "Awards"
+      ],
+      "skill_bars_or_ratings": false,
+      "standard_headings": [
+        "Education",
+        "Research Experience",
+        "Publications",
+        "Teaching",
+        "Skills",
+        "Honors"
+      ],
+      "uses_tables_suspected": false
+    },
+    "factors": {
+      "consistency": {
+        "note": "One date format in experience; teaching uses term names; the second role says \"same laboratory\"",
+        "score": 90
+      },
+      "contact_info": {
+        "note": "Email, phone, city and a profile link at the top",
+        "score": 100
+      },
+      "formatting": {
+        "note": "Consistent bullets; publications are numbered prose; the teaching entry is a paragraph",
+        "score": 90
+      },
+      "keyword_alignment": {
+        "note": "Imaging, surgery, pipeline and training competencies appear in bullets with scale",
+        "score": 85
+      },
+      "length": {
+        "note": "One page for an early-career research associate",
+        "score": 100
+      },
+      "parseability": {
+        "note": "Single column, standard headings, contact placeholders in the first two lines",
+        "score": 100
+      },
+      "quantification": {
+        "note": "About half of the bullets carry a volume, count or time saving",
+        "score": 80
+      }
+    },
+    "fixes": [
+      {
+        "factor": "consistency",
+        "fix": "Repeat the department and university on the second entry so each role parses on its own.",
+        "issue": "The graduate role names \"same laboratory\" instead of the organization",
+        "priority": "medium"
+      },
+      {
+        "factor": "quantification",
+        "fix": "Before: Trained four undergraduate research assistants → After: Trained 4 undergraduates; two now run cohorts of __ mice, freeing __ hours a week of my time.",
+        "issue": "Surgery and training bullets give counts but no outcome",
+        "priority": "medium"
+      },
+      {
+        "factor": "formatting",
+        "fix": "Make the teaching entry one bullet with terms and section sizes.",
+        "issue": "Teaching is a paragraph while every other section uses bullets",
+        "priority": "low"
+      }
+    ],
+    "score": 91,
+    "target_role_used": "PhD applicant or research technician, systems neuroscience"
+  },
+  "awards": [
+    {
+      "issuer": "University of Pittsburgh Department of Neurobiology",
+      "name": "Graduate student travel award",
+      "pool_estimate": "departmental",
+      "scope": "institutional",
+      "selectivity": "modest",
+      "verifiable": true,
+      "year": 2025
+    },
+    {
+      "issuer": "Pennsylvania State University",
+      "name": "Dean's List",
+      "pool_estimate": "top GPA band per semester",
+      "scope": "institutional",
+      "selectivity": "modest",
+      "verifiable": true,
+      "year": 2022
+    }
+  ],
+  "card": {
+    "awards": [
+      {
+        "name": "Departmental travel award",
+        "scope": "institutional",
+        "selectivity": "modest"
+      }
+    ],
+    "card_version": "1.0",
+    "career_stage": "early",
+    "education": [
+      {
+        "degree_level": "master",
+        "end_year": 2024,
+        "field": "Neuroscience",
+        "gpa_band": "3.7-3.89",
+        "honors": [],
+        "in_progress": false,
+        "institution": "University of Pittsburgh",
+        "institution_tier": "T3"
+      },
+      {
+        "degree_level": "bachelor",
+        "end_year": 2022,
+        "field": "Biology (CS minor)",
+        "gpa_band": "3.5-3.69",
+        "honors": [
+          "Dean's List, 4 semesters"
+        ],
+        "in_progress": false,
+        "institution": "Pennsylvania State University",
+        "institution_tier": "T3"
+      }
+    ],
+    "experiences": [
+      {
+        "duration_months": 27,
+        "employment_type": "full_time",
+        "highlights": [
+          "Runs the two-photon analysis pipeline for ~40 TB/year across 6 projects",
+          "GPU rewrite cut per-session processing from ~11 h to 2.5 h",
+          "Trained 4 undergraduates; ~90 cranial window surgeries"
+        ],
+        "impact_scale": "team",
+        "org": "University of Pittsburgh, Department of Neurobiology",
+        "org_tier": "B",
+        "role": "Research Associate",
+        "role_selectivity": "modest",
+        "seniority": "research_assistant",
+        "years": "2024-present"
+      },
+      {
+        "duration_months": 23,
+        "employment_type": "part_time",
+        "highlights": [
+          "Thesis on motion correction over 120 sessions; recommendations adopted as lab standard",
+          "Built rig control software now used on 3 rigs"
+        ],
+        "impact_scale": "team",
+        "org": "University of Pittsburgh, Department of Neurobiology",
+        "org_tier": "B",
+        "role": "Graduate Research Assistant",
+        "role_selectivity": "modest",
+        "seniority": "research_assistant",
+        "years": "2022-2024"
+      },
+      {
+        "duration_months": 17,
+        "employment_type": "part_time",
+        "highlights": [
+          "Zebrafish behavior assays; acknowledged in the resulting paper"
+        ],
+        "impact_scale": "individual",
+        "org": "Pennsylvania State University, Department of Biology",
+        "org_tier": "B",
+        "role": "Undergraduate Research Assistant",
+        "role_selectivity": "modest",
+        "seniority": "research_assistant",
+        "years": "2021-2022"
+      }
+    ],
+    "headline": "Research associate in a T3 neuroscience lab after a master's; 2 middle-author papers at standard venues",
+    "leadership": [
+      "Trained four undergraduate assistants; two now run their own behavioral cohorts",
+      "Maintains the lab code repository and onboards new members"
+    ],
+    "notable": [
+      "First-author poster at the main neuroscience society meeting",
+      "Pipeline rewrite with a measured 4x speed-up adopted lab-wide"
+    ],
+    "projects": [
+      {
+        "descriptor": "GPU-accelerated two-photon preprocessing stage for a multi-project lab",
+        "highlight": "Per-session processing ~11 h to 2.5 h; manual QC step removed",
+        "kind": "research",
+        "scale_signal": "~40 TB/year, 6 projects",
+        "technical_depth": "substantial"
+      }
+    ],
+    "publications_summary": {
+      "citation_signal": "not stated",
+      "count_total": 2,
+      "first_author_count": 0,
+      "strong_venue_count": 0,
+      "top_venue_count": 0,
+      "venues": [
+        "Journal of Neurophysiology",
+        "eNeuro"
+      ]
+    },
+    "skills_top": [
+      "Two-photon imaging analysis",
+      "Python",
+      "Suite2p",
+      "CaImAn",
+      "Cranial window surgery",
+      "Head-fixed behavior",
+      "Slurm",
+      "MATLAB"
+    ],
+    "top_signal": "2 mid-author pubs",
+    "years_fulltime": 2.3
+  },
+  "category_relevance": {
+    "academia": 1,
+    "finance": 0,
+    "general": 1,
+    "tech": 0.3
+  },
+  "education": [
+    {
+      "degree_level": "master",
+      "end_year": 2024,
+      "field": "Neuroscience",
+      "gpa": 3.8,
+      "gpa_band": "3.7-3.89",
+      "gpa_scale": 4,
+      "honors": [],
+      "in_progress": false,
+      "institution": "University of Pittsburgh",
+      "institution_tier": "T3",
+      "notes": "Thesis on motion correction for long two-photon recordings",
+      "start_year": 2022
+    },
+    {
+      "degree_level": "bachelor",
+      "end_year": 2022,
+      "field": "Biology, minor in Computer Science",
+      "gpa": 3.6,
+      "gpa_band": "3.5-3.69",
+      "gpa_scale": 4,
+      "honors": [
+        "Dean's List, 4 semesters"
+      ],
+      "in_progress": false,
+      "institution": "Pennsylvania State University",
+      "institution_tier": "T3",
+      "notes": "",
+      "start_year": 2018
+    }
+  ],
+  "experiences": [
+    {
+      "bullets_condensed": [
+        "Runs two-photon pipeline: ~40 TB/year, 6 projects",
+        "GPU preprocessing rewrite: ~11 h to 2.5 h per session; manual QC removed",
+        "~90 cranial window surgeries; head-fixed training",
+        "Trained 4 undergraduates; co-author on 2 papers; SfN poster 2025"
+      ],
+      "duration_months": 27,
+      "employment_type": "full_time",
+      "end": "present",
+      "impact_scale": "team",
+      "is_current": true,
+      "org": "University of Pittsburgh",
+      "org_tier": "B",
+      "org_type": "university",
+      "ownership": "owned_component",
+      "quantified_impact": true,
+      "role": "Research Associate",
+      "role_selectivity": "modest",
+      "seniority": "research_assistant",
+      "start": "2024-07",
+      "team_or_division": "Department of Neurobiology, cortical circuits lab"
+    },
+    {
+      "bullets_condensed": [
+        "Thesis compared 3 motion-correction methods on 120 sessions; adopted as lab standard",
+        "Rig control software (Arduino, Python) used on 3 rigs"
+      ],
+      "duration_months": 23,
+      "employment_type": "part_time",
+      "end": "2024-06",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "University of Pittsburgh",
+      "org_tier": "B",
+      "org_type": "university",
+      "ownership": "owned_component",
+      "quantified_impact": true,
+      "role": "Graduate Research Assistant",
+      "role_selectivity": "modest",
+      "seniority": "research_assistant",
+      "start": "2022-08",
+      "team_or_division": "Department of Neurobiology"
+    },
+    {
+      "bullets_condensed": [
+        "Zebrafish behavior assays and video tracking; acknowledged in the paper"
+      ],
+      "duration_months": 17,
+      "employment_type": "part_time",
+      "end": "2022-05",
+      "impact_scale": "individual",
+      "is_current": false,
+      "org": "Pennsylvania State University",
+      "org_tier": "B",
+      "org_type": "university",
+      "ownership": "supported",
+      "quantified_impact": false,
+      "role": "Undergraduate Research Assistant",
+      "role_selectivity": "modest",
+      "seniority": "research_assistant",
+      "start": "2021-01",
+      "team_or_division": "Department of Biology"
+    },
+    {
+      "bullets_condensed": [
+        "Two recitation sections of 25 students, two spring terms"
+      ],
+      "duration_months": 8,
+      "employment_type": "part_time",
+      "end": "2024-05",
+      "impact_scale": "individual",
+      "is_current": false,
+      "org": "University of Pittsburgh",
+      "org_tier": "B",
+      "org_type": "university",
+      "ownership": "supported",
+      "quantified_impact": false,
+      "role": "Teaching Assistant, Introduction to Neuroscience",
+      "role_selectivity": "modest",
+      "seniority": "other",
+      "start": "2023-01",
+      "team_or_division": null
+    }
+  ],
+  "input": {
+    "is_resume": true,
+    "language": "en",
+    "parse_confidence": 0.97,
+    "placeholders_seen": [
+      "name",
+      "email",
+      "phone",
+      "url"
+    ],
+    "word_count_estimate": 450
+  },
+  "leadership": [
+    {
+      "budget_or_scale": "4 undergraduates; 16-person lab",
+      "elected_or_appointed": "appointed",
+      "highlight": "Two trainees now run their own behavioral cohorts",
+      "org": "Cortical circuits lab, University of Pittsburgh",
+      "people_led": 4,
+      "role": "Trainer and code maintainer"
+    }
+  ],
+  "projects": [
+    {
+      "description_condensed": "Python rewrite of the lab preprocessing stage with GPU acceleration; ~11 h to 2.5 h per session; removed a manual QC step; used across 6 projects",
+      "has_external_validation": false,
+      "kind": "research",
+      "name": "GPU-accelerated two-photon preprocessing",
+      "quantified_impact": true,
+      "scale_signal": "~40 TB/year",
+      "technical_depth": "substantial"
+    },
+    {
+      "description_condensed": "Arduino and Python control stack for head-fixed training, deployed on 3 rigs",
+      "has_external_validation": false,
+      "kind": "hardware",
+      "name": "Behavioral rig control software",
+      "quantified_impact": false,
+      "scale_signal": "3 rigs",
+      "technical_depth": "standard"
+    }
+  ],
+  "publications": [
+    {
+      "author_count": 7,
+      "author_position": "middle",
+      "citations_claimed": null,
+      "field": "Systems neuroscience",
+      "kind": "journal",
+      "venue": "Journal of Neurophysiology",
+      "venue_tier": "standard",
+      "year": 2025
+    },
+    {
+      "author_count": 5,
+      "author_position": "middle",
+      "citations_claimed": null,
+      "field": "Neuroscience methods",
+      "kind": "journal",
+      "venue": "eNeuro",
+      "venue_tier": "standard",
+      "year": 2024
+    }
+  ],
+  "red_flags": [],
+  "residual_pii": {
+    "email_count": 0,
+    "name_suspected": false,
+    "other_identifiers": [],
+    "phone_count": 0,
+    "street_address_suspected": false,
+    "url_count": 0
+  },
+  "schema_version": "1.1",
+  "scores": {
+    "academia": {
+      "holistic_score": 50,
+      "included": true,
+      "rationale": "Competent technician record: owns the lab imaging pipeline with a measured speed-up, middle author on two standard-venue papers, SfN first-author poster, master's thesis adopted as lab standard; T3 institutions and no fellowship or first-author paper.",
+      "stage_relative_score": 57,
+      "sub_scores": {
+        "breadth": 35,
+        "impact": 48,
+        "pedigree": 40,
+        "selectivity": 28,
+        "trajectory": 50
+      },
+      "top_evidence": [
+        "Middle author on J Neurophysiol 2025 and eNeuro 2024",
+        "Runs the lab pipeline, ~40 TB/year, 4x faster after rewrite",
+        "First-author SfN poster 2025"
+      ]
+    },
+    "finance": {
+      "holistic_score": 2,
+      "included": false,
+      "rationale": "No finance footprint.",
+      "stage_relative_score": 2,
+      "sub_scores": {
+        "breadth": 3,
+        "impact": 3,
+        "pedigree": 10,
+        "selectivity": 3,
+        "trajectory": 10
+      },
+      "top_evidence": []
+    },
+    "general": {
+      "holistic_score": 48,
+      "included": true,
+      "rationale": "Master's plus two years as a full-time research associate at an R1; two middle-author papers at standard venues; a pipeline rewrite with a measured speed-up; trained four undergraduates; no selective fellowship or first-author paper.",
+      "stage_relative_score": 55,
+      "sub_scores": {
+        "breadth": 40,
+        "impact": 45,
+        "pedigree": 42,
+        "selectivity": 30,
+        "trajectory": 48
+      },
+      "top_evidence": [
+        "Two middle-author journal papers (standard venues)",
+        "Pipeline rewrite: ~11 h to 2.5 h per session, lab-wide",
+        "Trained 4 undergraduates; ~90 surgeries"
+      ]
+    },
+    "tech": {
+      "holistic_score": 28,
+      "included": false,
+      "rationale": "Scientific Python and a GPU pipeline rewrite; no software role or CS output.",
+      "stage_relative_score": 25,
+      "sub_scores": {
+        "breadth": 25,
+        "impact": 35,
+        "pedigree": 35,
+        "selectivity": 15,
+        "trajectory": 35
+      },
+      "top_evidence": []
+    }
+  },
+  "signals": {
+    "career_stage": "early",
+    "has_quantified_impact": true,
+    "highest_institution_tier": "T3",
+    "highest_org_tier": "B",
+    "max_impact_scale": "team",
+    "months_internship": 0,
+    "primary_domain": "academia",
+    "sustained_org_tier": "B",
+    "top_role_selectivity": "modest",
+    "trajectory": "steady",
+    "years_fulltime": 2.3
+  },
+  "skills": {
+    "certifications": [],
+    "domain": [
+      "Cranial window surgery",
+      "Head-fixed mouse behavior",
+      "Calcium imaging analysis",
+      "Systems neuroscience"
+    ],
+    "keyword_stuffing_suspected": false,
+    "spoken_languages": [],
+    "technical": [
+      "Two-photon microscopy",
+      "Suite2p",
+      "CaImAn",
+      "Python",
+      "NumPy",
+      "SciPy",
+      "scikit-learn",
+      "MATLAB",
+      "Slurm",
+      "Git",
+      "Arduino"
+    ]
+  },
+  "strengths": [
+    "Owns the lab imaging pipeline with a measured 4x speed-up and lab-wide adoption",
+    "Middle author on two peer-reviewed papers and first author on an SfN poster",
+    "Master's thesis produced a standard the lab adopted; rig software used on three rigs",
+    "Trained four undergraduates with a stated outcome for two of them"
+  ],
+  "verdict": "A competent neuroscience technician record: lab pipeline owned and sped up, two middle-author papers, no first-author output or selective award yet.",
+  "weaknesses": [
+    "No first-author paper; both publications are standard-venue middle authorships",
+    "All institutions are T3 and there is no fellowship, REU or competitive award",
+    "Research interests line reads as a PhD application statement rather than evidence",
+    "Impact stays inside one lab; no external validation of the pipeline work"
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "ki4jslasr3": {
+    "c": {
+      "finance": 1,
+      "general": 1
+    },
+    "ch": "6de566f265454c45e8cf61f7ea5a0a8b031bb2b446a6891a15cf3a2bbcd7084f",
+    "h": "finance-1900-early-m",
+    "p": "finance",
+    "s": "analyzed",
+    "sc": {
+      "finance": 91,
+      "general": 87
+    },
+    "sig": "Megafund PE assoc.",
+    "ss": {
+      "finance": [
+        92,
+        94,
+        82,
+        96,
+        50,
+        92
+      ],
+      "general": [
+        90,
+        92,
+        80,
+        95,
+        55,
+        90
+      ]
+    },
+    "st": "early",
+    "t": 1791029820,
+    "v": "anonymous"
+  }
+}

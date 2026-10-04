@@ -1,0 +1,114 @@
+{
+  "iv5kzargpe": {
+    "card": {
+      "awards": [],
+      "card_version": "1.0",
+      "career_stage": "mid",
+      "education": [
+        {
+          "degree_level": "master",
+          "end_year": 2020,
+          "field": "Biology",
+          "gpa_band": "not_listed",
+          "honors": [],
+          "in_progress": false,
+          "institution": "Iowa State University",
+          "institution_tier": "T3"
+        },
+        {
+          "degree_level": "bachelor",
+          "end_year": 2018,
+          "field": "Biology",
+          "gpa_band": "not_listed",
+          "honors": [],
+          "in_progress": false,
+          "institution": "University of Northern Iowa",
+          "institution_tier": "T4"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 38,
+          "employment_type": "full_time",
+          "highlights": [
+            "Runs a lab of 1 PI, 2 postdocs, 5 graduate students; ~$180,000 operating budget; 2,400-fish zebrafish colony",
+            "Three consecutive safety inspections with no citations; supervised 2 completed honors theses",
+            "Fourth of 7 authors on a 2025 Developmental Biology paper (genotyping and imaging)"
+          ],
+          "impact_scale": "team",
+          "org": "University of Minnesota, developmental biology laboratory",
+          "org_tier": "B",
+          "role": "Laboratory Manager",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2023-present"
+        },
+        {
+          "duration_months": 38,
+          "employment_type": "full_time",
+          "highlights": [
+            "~6,000 genotyping samples a year; 1,100-line seed stock; trained 7 students",
+            "Third of 5 authors on a 2022 Plant Physiology paper (mutant lines and phenotyping)"
+          ],
+          "impact_scale": "team",
+          "org": "Iowa State University, plant genetics laboratory",
+          "org_tier": "B",
+          "role": "Laboratory Manager and Research Technician",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2020-2023"
+        },
+        {
+          "duration_months": 20,
+          "employment_type": "part_time",
+          "highlights": [
+            "Two sections of ~24 students per term, four semesters"
+          ],
+          "impact_scale": "team",
+          "org": "Iowa State University",
+          "org_tier": "B",
+          "role": "Teaching Assistant, introductory biology labs",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2018-2020"
+        }
+      ],
+      "headline": "Lab manager, 6 years across two university biology labs; T3 master's; middle author on two standard-venue papers",
+      "leadership": [
+        "Manages the day-to-day operation of a 10-person lab with a ~$180,000 budget",
+        "Supervised two completed undergraduate honors theses"
+      ],
+      "notable": [
+        "Two middle-author papers in standard journals from two different labs",
+        "Zebrafish colony of ~2,400 fish across 160 tanks maintained with one part-time technician"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 2,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": [
+          "Developmental Biology",
+          "Plant Physiology"
+        ]
+      },
+      "skills_top": [
+        "CRISPR/Cas9 mutagenesis",
+        "PCR and qPCR",
+        "In situ hybridization",
+        "Confocal microscopy",
+        "Zebrafish husbandry",
+        "Arabidopsis husbandry",
+        "Cloning",
+        "Immunohistochemistry",
+        "R (basic statistics)",
+        "ImageJ/Fiji"
+      ],
+      "top_signal": "Lab manager, 6 yrs",
+      "years_fulltime": 6.3
+    },
+    "st": "mid"
+  }
+}

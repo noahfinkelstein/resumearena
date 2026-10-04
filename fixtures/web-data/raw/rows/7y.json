@@ -1,0 +1,38 @@
+{
+  "7yughruwis": {
+    "c": {
+      "general": 1,
+      "tech": 0.85
+    },
+    "ch": "7d05f9f7a8855b638520e3983da6ce2043954902a80d51e71e62a5a3d820217f",
+    "h": "tech-1000-student-re",
+    "p": "tech",
+    "s": "analyzed",
+    "sc": {
+      "general": 24,
+      "tech": 23
+    },
+    "sig": "CS sophomore",
+    "ss": {
+      "general": [
+        20,
+        40,
+        10,
+        12,
+        15,
+        28
+      ],
+      "tech": [
+        22,
+        40,
+        10,
+        12,
+        15,
+        26
+      ]
+    },
+    "st": "student",
+    "t": 1791028800,
+    "v": "anonymous"
+  }
+}

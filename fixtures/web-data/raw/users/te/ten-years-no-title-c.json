@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:43:00Z",
+  "handle": "ten-years-no-title-c",
+  "key_exposed": false,
+  "owner_hash": "c3c566495d81e950acd3efc81dd68ab4bf3a4dfde4a281b4b8a300c185ecb128",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:43:00Z",
+      "current": true,
+      "id": "yo35c23qpf"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

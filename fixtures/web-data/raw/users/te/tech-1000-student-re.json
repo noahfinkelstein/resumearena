@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:00:00Z",
+  "handle": "tech-1000-student-re",
+  "key_exposed": false,
+  "owner_hash": "4dd4deac69caf19f75c5c6071b0ef8f574a109d91e788133da2cbf135b2e8ae1",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:00:00Z",
+      "current": true,
+      "id": "7yughruwis"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

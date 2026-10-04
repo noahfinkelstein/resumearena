@@ -1,0 +1,107 @@
+{
+  "leqkwxvj4d": {
+    "card": {
+      "awards": [
+        {
+          "name": "Forbes 30 Under 30 (Enterprise Technology)",
+          "scope": "national",
+          "selectivity": "highly_selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "mid",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2018,
+          "field": "Computer Science",
+          "gpa_band": "3.7-3.89",
+          "honors": [
+            "with Distinction"
+          ],
+          "in_progress": false,
+          "institution": "Stanford University",
+          "institution_tier": "T1"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 46,
+          "employment_type": "founder",
+          "highlights": [
+            "ARR $0 to $6.1M in 3 years; 70 customers incl. 4 of the Fortune 100; NRR 128%",
+            "Designed a cache and scheduler running 400M actions/day, p99 hit latency under 30 ms",
+            "Leads 22 engineers across 4 teams; Series A led by a top-tier firm, $24M raised"
+          ],
+          "impact_scale": "industry",
+          "org": "Cachewright (YC W22)",
+          "org_tier": "A",
+          "role": "Co-founder and CTO",
+          "role_selectivity": "highly_selective",
+          "seniority": "founder",
+          "years": "2022-present"
+        },
+        {
+          "duration_months": 42,
+          "employment_type": "full_time",
+          "highlights": [
+            "Tech lead for change streams to GA: ~2,000 customers, ~1.2B records/day",
+            "Cut commit-path p99 latency 18% fleet-wide",
+            "Promoted to Senior in 2.5 years"
+          ],
+          "impact_scale": "org",
+          "org": "Google",
+          "org_tier": "A",
+          "role": "Senior Software Engineer, Spanner",
+          "role_selectivity": "selective",
+          "seniority": "senior",
+          "years": "2018-2021"
+        }
+      ],
+      "headline": "Co-founder/CTO of a 40-person YC dev-infra company ($6.1M ARR); ex-A-tier database team; 15k-star OSS maintainer",
+      "leadership": [
+        "Leads a 22-person engineering organization with 3 managers; attrition under 8%/year",
+        "Hiring committee member at an A-tier company; ~120 interviews"
+      ],
+      "notable": [
+        "YC-backed co-founder with a Series A from a top-tier firm and $6.1M ARR",
+        "First-author OSDI paper describing the production system",
+        "15k-star open-source project used in production at large companies",
+        "Tech lead of a GA database feature at an A-tier company by year 3"
+      ],
+      "projects": [
+        {
+          "descriptor": "Maintainer of an open-source remote build-cache server",
+          "highlight": "Co-maintains the remote execution API specification working group",
+          "kind": "software",
+          "scale_signal": "~15k stars, 180 contributors, ~400k downloads/month, production use at three large companies",
+          "technical_depth": "exceptional"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 1,
+        "first_author_count": 1,
+        "strong_venue_count": 0,
+        "top_venue_count": 1,
+        "venues": [
+          "OSDI"
+        ]
+      },
+      "skills_top": [
+        "Distributed systems",
+        "Go",
+        "C++",
+        "Build systems",
+        "Storage engines",
+        "gRPC",
+        "Kubernetes",
+        "Rust",
+        "Engineering management"
+      ],
+      "top_signal": "YC CTO, $6.1M ARR",
+      "years_fulltime": 7.3
+    },
+    "st": "mid"
+  }
+}

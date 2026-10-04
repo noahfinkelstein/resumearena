@@ -1,0 +1,55 @@
+{
+  "category": "finance",
+  "cols": [
+    "rank",
+    "id",
+    "identity",
+    "tier",
+    "r",
+    "pm",
+    "w",
+    "l",
+    "d",
+    "stage",
+    "sig",
+    "d7",
+    "top"
+  ],
+  "page": 1,
+  "pages": 1,
+  "partition": "stage-senior",
+  "rows": [
+    [
+      1,
+      "si4jwz5kcs",
+      "anon-si4jwz5",
+      "master",
+      2028,
+      202,
+      20,
+      0,
+      2,
+      "senior",
+      "Founded $2B fund",
+      0,
+      0.5
+    ],
+    [
+      2,
+      "m3zjnglo6p",
+      "anon-m3zjngl",
+      "challenger",
+      1577,
+      204,
+      11,
+      5,
+      1,
+      "senior",
+      "$20B deals led",
+      0,
+      1
+    ]
+  ],
+  "schema": 1,
+  "total": 2
+}

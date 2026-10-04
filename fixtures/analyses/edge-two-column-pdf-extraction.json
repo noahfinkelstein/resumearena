@@ -1,0 +1,546 @@
+{
+  "analysis_confidence": 0.72,
+  "ats": {
+    "detected": {
+      "action_verb_ratio": 0.9,
+      "bullet_count": 14,
+      "bullet_marker_consistent": true,
+      "contact_at_top": false,
+      "date_format_consistent": true,
+      "date_formats_seen": [
+        "MMM YYYY"
+      ],
+      "has_email": true,
+      "has_location": true,
+      "has_phone": true,
+      "has_profile_link": true,
+      "has_street_address": false,
+      "has_summary_section": false,
+      "nonstandard_headings": [
+        "Interests"
+      ],
+      "quantified_bullet_ratio": 0.86,
+      "reverse_chronological": true,
+      "section_order": [
+        "Skills",
+        "Experience",
+        "Education",
+        "Awards",
+        "Projects"
+      ],
+      "skill_bars_or_ratings": false,
+      "standard_headings": [
+        "Skills",
+        "Experience",
+        "Contact",
+        "Education",
+        "Certifications",
+        "Projects"
+      ],
+      "uses_tables_suspected": true
+    },
+    "factors": {
+      "consistency": {
+        "note": "One date format; titles match the bullets; continuous employment",
+        "score": 90
+      },
+      "contact_info": {
+        "note": "Email, phone, city and a profile link present but in a sidebar block mid-page",
+        "score": 90
+      },
+      "formatting": {
+        "note": "Three fonts and two images; bullets are consistent where they survive; headings present but out of order in the extraction",
+        "score": 70
+      },
+      "keyword_alignment": {
+        "note": "Spark, Airflow, Kafka, Flink, dbt, Snowflake and Kubernetes all appear in bullets with outcomes",
+        "score": 88
+      },
+      "length": {
+        "note": "One page for eight years",
+        "score": 100
+      },
+      "parseability": {
+        "note": "Two columns, extraction quality 0.5: the skills sidebar interleaves with the bullets, words split at hyphens, contact block sits mid-page",
+        "score": 45
+      },
+      "quantification": {
+        "note": "Nearly every bullet carries a cost, latency, volume or count",
+        "score": 100
+      }
+    },
+    "fixes": [
+      {
+        "factor": "parseability",
+        "fix": "Export a single-column version for applications: contact at the top, then experience, skills as a labeled list at the end.",
+        "issue": "Two-column layout: the skills sidebar interleaves with the bullets and words break mid-line in the extracted text",
+        "priority": "high"
+      },
+      {
+        "factor": "formatting",
+        "fix": "Use one font family and drop the images; icons are lost or misread by parsers.",
+        "issue": "Three fonts and two images on one page",
+        "priority": "medium"
+      },
+      {
+        "factor": "parseability",
+        "fix": "Place email, phone, city and link under the name in the first two lines.",
+        "issue": "Contact details appear mid-page in the extraction",
+        "priority": "medium"
+      },
+      {
+        "factor": "keyword_alignment",
+        "fix": "Attach each to a bullet or drop it.",
+        "issue": "Scala and Delta Lake appear only in the sidebar",
+        "priority": "low"
+      }
+    ],
+    "score": 78,
+    "target_role_used": "Senior or staff data engineer, platform"
+  },
+  "awards": [
+    {
+      "issuer": "Amazon Web Services",
+      "name": "AWS Certified Data Analytics - Specialty",
+      "pool_estimate": "vendor certification",
+      "scope": "international",
+      "selectivity": "modest",
+      "verifiable": true,
+      "year": 2022
+    },
+    {
+      "issuer": "Snowflake",
+      "name": "SnowPro Core",
+      "pool_estimate": "vendor certification",
+      "scope": "international",
+      "selectivity": "modest",
+      "verifiable": true,
+      "year": 2023
+    }
+  ],
+  "card": {
+    "awards": [
+      {
+        "name": "AWS Certified Data Analytics - Specialty",
+        "scope": "international",
+        "selectivity": "modest"
+      },
+      {
+        "name": "SnowPro Core",
+        "scope": "international",
+        "selectivity": "modest"
+      }
+    ],
+    "card_version": "1.0",
+    "career_stage": "mid",
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2018,
+        "field": "Computer Science",
+        "gpa_band": "3.0-3.49",
+        "honors": [],
+        "in_progress": false,
+        "institution": "University of Oregon",
+        "institution_tier": "T3"
+      }
+    ],
+    "experiences": [
+      {
+        "duration_months": 44,
+        "employment_type": "full_time",
+        "highlights": [
+          "Leads 4 engineers owning 1,400 pipelines, ~9 TB/day, 99.8% on-time vs 99.5% SLA",
+          "Re-architected batch ingestion: compute cost -38% (~$410k/yr); median latency 52 min to 19",
+          "Streaming layer for 11 clients at p95 under 90 s; data contracts cut incidents 23 to 6"
+        ],
+        "impact_scale": "org",
+        "org": "Northwind Analytics",
+        "org_tier": "C",
+        "role": "Senior Data Engineer (team lead)",
+        "role_selectivity": "modest",
+        "seniority": "senior",
+        "years": "2023-present"
+      },
+      {
+        "duration_months": 21,
+        "employment_type": "full_time",
+        "highlights": [
+          "Onboarding framework: new-client setup ~3 weeks to 4 days, used for 30+ clients",
+          "Redshift to Snowflake migration (~40 TB) with no reporting outage"
+        ],
+        "impact_scale": "org",
+        "org": "Northwind Analytics",
+        "org_tier": "C",
+        "role": "Data Engineer",
+        "role_selectivity": "modest",
+        "seniority": "mid",
+        "years": "2021-2023"
+      },
+      {
+        "duration_months": 10,
+        "employment_type": "full_time",
+        "highlights": [
+          "HL7 and claims pipelines for 14 clinics; automated monthly quality reporting"
+        ],
+        "impact_scale": "team",
+        "org": "Cascade Health Partners",
+        "org_tier": "C",
+        "role": "Data Engineer",
+        "role_selectivity": "modest",
+        "seniority": "mid",
+        "years": "2020-2021"
+      },
+      {
+        "duration_months": 25,
+        "employment_type": "full_time",
+        "highlights": [
+          "On-time monthly close reporting 70% to 100%; designed the claims dimensional model"
+        ],
+        "impact_scale": "team",
+        "org": "Cascade Health Partners",
+        "org_tier": "C",
+        "role": "Analytics Engineer",
+        "role_selectivity": "modest",
+        "seniority": "junior",
+        "years": "2018-2020"
+      }
+    ],
+    "headline": "Senior data engineer, 8 years, leads 4 at a C-tier analytics company; re-architecture cut compute cost 38%",
+    "leadership": [
+      "Leads a team of four; two mentees promoted within 18 months",
+      "Regional meetup talk on data contracts, ~120 attendees"
+    ],
+    "notable": [
+      "Platform re-architecture with a stated $410k annual saving and a 38% cost cut",
+      "Incident count cut from 23 to 6 through data contracts and tests"
+    ],
+    "projects": [
+      {
+        "descriptor": "Contributor to an open-source dbt utility package",
+        "highlight": "Incremental-snapshot macro",
+        "kind": "software",
+        "scale_signal": "6 merged PRs",
+        "technical_depth": "standard"
+      }
+    ],
+    "publications_summary": {
+      "citation_signal": "not stated",
+      "count_total": 0,
+      "first_author_count": 0,
+      "strong_venue_count": 0,
+      "top_venue_count": 0,
+      "venues": []
+    },
+    "skills_top": [
+      "Spark",
+      "Airflow",
+      "Kafka",
+      "Flink",
+      "dbt",
+      "Snowflake",
+      "Kubernetes",
+      "Python",
+      "SQL",
+      "Terraform",
+      "AWS",
+      "GCP"
+    ],
+    "top_signal": "38% compute cut",
+    "years_fulltime": 8.2
+  },
+  "category_relevance": {
+    "academia": 0,
+    "finance": 0.03,
+    "general": 1,
+    "tech": 1
+  },
+  "education": [
+    {
+      "degree_level": "bachelor",
+      "end_year": 2018,
+      "field": "Computer Science",
+      "gpa": 3.4,
+      "gpa_band": "3.0-3.49",
+      "gpa_scale": 4,
+      "honors": [],
+      "in_progress": false,
+      "institution": "University of Oregon",
+      "institution_tier": "T3",
+      "notes": "",
+      "start_year": 2014
+    }
+  ],
+  "experiences": [
+    {
+      "bullets_condensed": [
+        "Leads 4 engineers; 1,400 pipelines, ~9 TB/day, 99.8% on-time vs 99.5% SLA",
+        "Batch re-architecture: cost -38% (~$410k/yr); median latency 52 to 19 min",
+        "Streaming layer for 11 clients, p95 under 90 s",
+        "Data contracts and dbt tests on 300 models: incidents 23 to 6; 2 mentees promoted"
+      ],
+      "duration_months": 44,
+      "employment_type": "full_time",
+      "end": "present",
+      "impact_scale": "org",
+      "is_current": true,
+      "org": "Northwind Analytics",
+      "org_tier": "C",
+      "org_type": "private_company",
+      "ownership": "led",
+      "quantified_impact": true,
+      "role": "Senior Data Engineer",
+      "role_selectivity": "modest",
+      "seniority": "senior",
+      "start": "2023-03",
+      "team_or_division": null
+    },
+    {
+      "bullets_condensed": [
+        "Onboarding framework: ~3 weeks to 4 days; 30+ clients",
+        "Redshift to Snowflake, ~40 TB, 5 months, no outage",
+        "Owned SLA dashboard and batch on-call"
+      ],
+      "duration_months": 21,
+      "employment_type": "full_time",
+      "end": "2023-02",
+      "impact_scale": "org",
+      "is_current": false,
+      "org": "Northwind Analytics",
+      "org_tier": "C",
+      "org_type": "private_company",
+      "ownership": "owned_component",
+      "quantified_impact": true,
+      "role": "Data Engineer",
+      "role_selectivity": "modest",
+      "seniority": "mid",
+      "start": "2021-06",
+      "team_or_division": null
+    },
+    {
+      "bullets_condensed": [
+        "HL7 and claims ingestion for 14 clinics",
+        "Automated monthly quality-measure reporting (2 analyst-weeks/month)"
+      ],
+      "duration_months": 10,
+      "employment_type": "full_time",
+      "end": "2021-05",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "Cascade Health Partners",
+      "org_tier": "C",
+      "org_type": "private_company",
+      "ownership": "owned_component",
+      "quantified_impact": true,
+      "role": "Data Engineer",
+      "role_selectivity": "modest",
+      "seniority": "mid",
+      "start": "2020-08",
+      "team_or_division": null
+    },
+    {
+      "bullets_condensed": [
+        "SQL and dbt models for executive dashboards; on-time close 70% to 100%",
+        "Designed the claims dimensional model"
+      ],
+      "duration_months": 25,
+      "employment_type": "full_time",
+      "end": "2020-07",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "Cascade Health Partners",
+      "org_tier": "C",
+      "org_type": "private_company",
+      "ownership": "owned_component",
+      "quantified_impact": true,
+      "role": "Analytics Engineer",
+      "role_selectivity": "modest",
+      "seniority": "junior",
+      "start": "2018-07",
+      "team_or_division": null
+    }
+  ],
+  "input": {
+    "is_resume": true,
+    "language": "en",
+    "parse_confidence": 0.62,
+    "placeholders_seen": [
+      "name",
+      "email",
+      "phone",
+      "url"
+    ],
+    "word_count_estimate": 572
+  },
+  "leadership": [
+    {
+      "budget_or_scale": "4 engineers; 1,400 pipelines",
+      "elected_or_appointed": "appointed",
+      "highlight": "Two junior engineers promoted within 18 months",
+      "org": "Northwind Analytics",
+      "people_led": 4,
+      "role": "Team lead, ingestion platform"
+    }
+  ],
+  "projects": [
+    {
+      "description_condensed": "Six merged pull requests to an open-source dbt utility package, including an incremental-snapshot macro",
+      "has_external_validation": true,
+      "kind": "software",
+      "name": "dbt utility package contributions",
+      "quantified_impact": false,
+      "scale_signal": "6 merged PRs",
+      "technical_depth": "standard"
+    },
+    {
+      "description_condensed": "Regional data engineering meetup talk, 2025, about 120 attendees",
+      "has_external_validation": true,
+      "kind": "other",
+      "name": "Meetup talk on data contracts",
+      "quantified_impact": false,
+      "scale_signal": "~120 attendees",
+      "technical_depth": "unclear"
+    }
+  ],
+  "publications": [],
+  "red_flags": [],
+  "residual_pii": {
+    "email_count": 0,
+    "name_suspected": false,
+    "other_identifiers": [],
+    "phone_count": 0,
+    "street_address_suspected": false,
+    "url_count": 0
+  },
+  "schema_version": "1.1",
+  "scores": {
+    "academia": {
+      "holistic_score": 3,
+      "included": false,
+      "rationale": "No research output.",
+      "stage_relative_score": 3,
+      "sub_scores": {
+        "breadth": 5,
+        "impact": 5,
+        "pedigree": 15,
+        "selectivity": 5,
+        "trajectory": 10
+      },
+      "top_evidence": []
+    },
+    "finance": {
+      "holistic_score": 5,
+      "included": false,
+      "rationale": "No finance footprint.",
+      "stage_relative_score": 5,
+      "sub_scores": {
+        "breadth": 5,
+        "impact": 15,
+        "pedigree": 15,
+        "selectivity": 5,
+        "trajectory": 20
+      },
+      "top_evidence": []
+    },
+    "general": {
+      "holistic_score": 53,
+      "included": true,
+      "rationale": "Eight years at two C-tier companies to a senior lead of four with org-level, quantified outcomes (cost, latency, incidents, SLA); state-university degree and vendor certifications only; the extraction is garbled but the content is recoverable.",
+      "stage_relative_score": 60,
+      "sub_scores": {
+        "breadth": 35,
+        "impact": 68,
+        "pedigree": 35,
+        "selectivity": 30,
+        "trajectory": 60
+      },
+      "top_evidence": [
+        "Re-architecture: compute -38%, ~$410k/yr; latency 52 to 19 min",
+        "Leads 4 engineers; 1,400 pipelines at 99.8% on-time",
+        "Incidents 23 to 6 after data contracts"
+      ]
+    },
+    "tech": {
+      "holistic_score": 54,
+      "included": true,
+      "rationale": "Solid mid-career data engineer: led re-architecture, streaming layer and migration, each with numbers, plus a small team; no A/S-tier employer or selective program; the two-column PDF interleaves the sidebar with the bullets, lowering parse confidence.",
+      "stage_relative_score": 62,
+      "sub_scores": {
+        "breadth": 35,
+        "impact": 70,
+        "pedigree": 35,
+        "selectivity": 30,
+        "trajectory": 62
+      },
+      "top_evidence": [
+        "Compute cost -38% (~$410k/yr); median latency 52 to 19 min",
+        "Streaming for 11 clients at p95 under 90 s",
+        "Snowflake migration of ~40 TB with no outage"
+      ]
+    }
+  },
+  "signals": {
+    "career_stage": "mid",
+    "has_quantified_impact": true,
+    "highest_institution_tier": "T3",
+    "highest_org_tier": "C",
+    "max_impact_scale": "org",
+    "months_internship": 0,
+    "primary_domain": "tech",
+    "sustained_org_tier": "C",
+    "top_role_selectivity": "modest",
+    "trajectory": "steady",
+    "years_fulltime": 8.2
+  },
+  "skills": {
+    "certifications": [
+      "AWS Certified Data Analytics - Specialty",
+      "SnowPro Core"
+    ],
+    "domain": [
+      "Data contracts",
+      "Data modeling",
+      "CI/CD for data",
+      "Cost optimization",
+      "On-call leadership",
+      "Healthcare data (HL7, claims)",
+      "Retail analytics"
+    ],
+    "keyword_stuffing_suspected": false,
+    "spoken_languages": [],
+    "technical": [
+      "Python",
+      "SQL",
+      "Scala",
+      "Java (basic)",
+      "Spark",
+      "Airflow",
+      "dbt",
+      "Kafka",
+      "Flink",
+      "Snowflake",
+      "BigQuery",
+      "Delta Lake",
+      "AWS EMR",
+      "AWS Glue",
+      "S3",
+      "Redshift",
+      "GCP Dataflow",
+      "Kubernetes",
+      "Terraform"
+    ]
+  },
+  "strengths": [
+    "Led a platform re-architecture with a stated $410k annual saving and a 38% cost cut",
+    "Incident reduction (23 to 6) attributed to data contracts and tests across 300 models",
+    "Steady promotion to a team lead of four within one company; two mentees promoted",
+    "Large migrations (~40 TB Snowflake, Airflow to Kubernetes) with no outage stated"
+  ],
+  "verdict": "A solid eight-year data engineering record with real cost and reliability numbers, delivered in a two-column PDF that garbles on extraction.",
+  "weaknesses": [
+    "Two-column PDF: the skills sidebar interleaves with the bullets and words are split, so parsers and skim-readers lose the content",
+    "Both employers are C-tier regional companies; no selective program or award",
+    "Contact block sits mid-page in the extracted text",
+    "Team-lead scope of four with no budget or hiring figures stated"
+  ]
+}

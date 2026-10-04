@@ -1,0 +1,70 @@
+{
+  "category": "tech",
+  "cols": [
+    "rank",
+    "id",
+    "identity",
+    "tier",
+    "r",
+    "pm",
+    "w",
+    "l",
+    "d",
+    "stage",
+    "sig",
+    "d7",
+    "top"
+  ],
+  "page": 1,
+  "pages": 1,
+  "partition": "stage-senior",
+  "rows": [
+    [
+      1,
+      "e2foy26uvx",
+      "anon-e2foy26",
+      "expert",
+      1922,
+      204,
+      14,
+      0,
+      4,
+      "senior",
+      "ICML best paper",
+      0,
+      0.3333
+    ],
+    [
+      2,
+      "3hmlhodjpd",
+      "tech-1800-senior-sta",
+      "challenger",
+      1572,
+      192,
+      8,
+      5,
+      5,
+      "senior",
+      "60k-GPU scheduler",
+      0,
+      0.6667
+    ],
+    [
+      3,
+      "yo35c23qpf",
+      "ten-years-no-title-c",
+      "contender",
+      1200,
+      203,
+      5,
+      6,
+      4,
+      "senior",
+      "10 yrs, one title",
+      0,
+      1
+    ]
+  ],
+  "schema": 1,
+  "total": 3
+}

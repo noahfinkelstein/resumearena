@@ -1,0 +1,38 @@
+{
+  "cllczdo2b7": {
+    "c": {
+      "academia": 0.6,
+      "general": 1
+    },
+    "ch": "75d75e449b96fbafedacf3512f013cc6b9da94b72e83af38ed27196ac4b3e0cc",
+    "h": "academia-1000-studen",
+    "p": "academia",
+    "s": "analyzed",
+    "sc": {
+      "academia": 22,
+      "general": 24
+    },
+    "sig": "Bio lab assistant",
+    "ss": {
+      "academia": [
+        15,
+        35,
+        8,
+        8,
+        12,
+        28
+      ],
+      "general": [
+        18,
+        35,
+        10,
+        10,
+        20,
+        28
+      ]
+    },
+    "st": "student",
+    "t": 1791030000,
+    "v": "handle"
+  }
+}

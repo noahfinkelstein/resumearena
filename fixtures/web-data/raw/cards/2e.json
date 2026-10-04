@@ -1,0 +1,98 @@
+{
+  "2elgnjj7jt": {
+    "card": {
+      "awards": [],
+      "card_version": "1.0",
+      "career_stage": "early",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2024,
+          "field": "Business Administration, Finance",
+          "gpa_band": "3.5-3.69",
+          "honors": [],
+          "in_progress": false,
+          "institution": "University of Missouri",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 27,
+          "employment_type": "full_time",
+          "highlights": [
+            "Owns the monthly forecast and annual plan for a $1.4B, 14-site division; presents variances to the division CFO",
+            "Driver-based model closed the forecast 2 business days earlier",
+            "Found $2.1M of annualized freight savings adopted by operations"
+          ],
+          "impact_scale": "org",
+          "org": "Emerson Electric",
+          "org_tier": "B",
+          "role": "Financial Analyst, FP&A, Discrete Automation",
+          "role_selectivity": "modest",
+          "seniority": "analyst",
+          "years": "2024-present"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Automated a weekly cash report, ~4 hours a week saved"
+          ],
+          "impact_scale": "team",
+          "org": "Emerson Electric",
+          "org_tier": "B",
+          "role": "Finance Intern, Corporate FP&A",
+          "role_selectivity": "modest",
+          "seniority": "intern",
+          "years": "2023"
+        },
+        {
+          "duration_months": 9,
+          "employment_type": "part_time",
+          "highlights": [
+            "Weekly review sessions for ~60 students"
+          ],
+          "impact_scale": "team",
+          "org": "University of Missouri",
+          "org_tier": "C",
+          "role": "Teaching Assistant, Financial Accounting",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2023-2024"
+        }
+      ],
+      "headline": "FP&A analyst, 2 years at a B-tier F500 industrial; owns the forecast for a $1.4B division; T3 finance degree",
+      "leadership": [
+        "Treasurer of a 90-member student finance association; $9,000 annual budget"
+      ],
+      "notable": [
+        "Sole owner of a $1.4B division forecast two years out of a T3 program",
+        "Freight-savings analysis worth $2.1M a year adopted by operations"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Financial modeling",
+        "Variance analysis",
+        "Forecasting and budgeting",
+        "Hyperion Planning",
+        "Excel",
+        "Power Query",
+        "Power BI",
+        "Oracle ERP",
+        "PowerPoint"
+      ],
+      "top_signal": "$1.4B div forecast",
+      "years_fulltime": 2.3
+    },
+    "st": "early"
+  }
+}

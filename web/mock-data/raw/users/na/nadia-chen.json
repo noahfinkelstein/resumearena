@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-09-21T14:20:11Z",
+  "handle": "nadia-chen",
+  "key_exposed": false,
+  "owner_hash": "33853e46463bccd29d7579182efed74da0b9460d996f7a80a2eaa97a0779fd55",
+  "resumes": [
+    {
+      "created_at": "2026-09-21T14:20:11Z",
+      "current": true,
+      "id": "z5zqs7habg"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

@@ -1,0 +1,170 @@
+{
+  "cat": "general",
+  "id": "hosuux246y",
+  "lin": "hosuux246y",
+  "placed": true,
+  "points": [
+    [
+      "2026-10-05",
+      1320.14,
+      166.23,
+      "p"
+    ],
+    [
+      "2026-10-05",
+      1310.78,
+      131.21,
+      "p"
+    ],
+    [
+      "2026-10-05",
+      1307.49,
+      116.68,
+      "p"
+    ],
+    [
+      "2026-10-06",
+      1320.33,
+      113.24,
+      "m"
+    ],
+    [
+      "2026-10-13",
+      1351.65,
+      107.73,
+      "m"
+    ],
+    [
+      "2026-10-16",
+      1334.92,
+      104,
+      "m"
+    ],
+    [
+      "2026-10-18",
+      1354.63,
+      100.19,
+      "m"
+    ],
+    [
+      "2026-10-19",
+      1357.41,
+      99.46,
+      "m"
+    ],
+    [
+      "2026-10-21",
+      1376.16,
+      96.07,
+      "m"
+    ],
+    [
+      "2026-10-22",
+      1354.76,
+      92.81,
+      "m"
+    ]
+  ],
+  "recent": [
+    {
+      "at": "2026-10-22T23:00:00Z",
+      "dr": -21.4,
+      "k": "refine",
+      "m": "f639ad5c7aee9d9e",
+      "note": "First: harder selections and larger stated scope. Second: comparable stage but fewer verifiable outcomes.",
+      "o": "L",
+      "opp": "4jyb7vrzw7",
+      "opp_r": 1416.86
+    },
+    {
+      "at": "2026-10-21T23:00:00Z",
+      "dr": 18.75,
+      "k": "refine",
+      "m": "4ab0f1fbc3f40dd5",
+      "note": "First: harder selections and larger stated scope. Second: comparable stage but fewer verifiable outcomes.",
+      "o": "W",
+      "opp": "z7rc26crkt",
+      "opp_r": 1256.55
+    },
+    {
+      "at": "2026-10-19T23:00:00Z",
+      "dr": 2.78,
+      "k": "refine",
+      "m": "deb213a04878daf8",
+      "note": "Second: harder selections and larger stated scope. First: comparable stage but fewer verifiable outcomes.",
+      "o": "W",
+      "opp": "cllczdo2b7",
+      "opp_r": 825.05
+    },
+    {
+      "at": "2026-10-18T23:00:00Z",
+      "dr": 19.71,
+      "k": "refine",
+      "m": "09ab2c698d4f4acf",
+      "note": "Second: harder selections and larger stated scope. First: comparable stage but fewer verifiable outcomes.",
+      "o": "W",
+      "opp": "duzpgc2iik",
+      "opp_r": 1224.43
+    },
+    {
+      "at": "2026-10-16T23:00:00Z",
+      "dr": -16.73,
+      "k": "refine",
+      "m": "28832d78dacc4da6",
+      "note": "Second: harder selections and larger stated scope. First: comparable stage but fewer verifiable outcomes.",
+      "o": "L",
+      "opp": "m3zjnglo6p",
+      "opp_r": 1523.85
+    },
+    {
+      "at": "2026-10-13T23:00:00Z",
+      "dr": 31.32,
+      "k": "anchor",
+      "m": "b0fef01e9c434dd4",
+      "note": "Second: harder selections and larger stated scope. First: comparable stage but fewer verifiable outcomes.",
+      "o": "W",
+      "opp": "anchrgeaaa",
+      "opp_r": 1300
+    },
+    {
+      "at": "2026-10-06T23:00:00Z",
+      "dr": 12.84,
+      "k": "refine",
+      "m": "ada8768f1f87dbf6",
+      "note": "First: harder selections and larger stated scope. Second: comparable stage but fewer verifiable outcomes.",
+      "o": "W",
+      "opp": "xr3uglaj43",
+      "opp_r": 1034.54
+    },
+    {
+      "at": "2026-10-05T23:00:00Z",
+      "dr": -1.73,
+      "k": "placement",
+      "m": "484a57bba7763914",
+      "note": "Second: harder selections and larger stated scope. First: comparable stage but fewer verifiable outcomes.",
+      "o": "L",
+      "opp": "upfqinv6ti",
+      "opp_r": 1323.21
+    },
+    {
+      "at": "2026-10-05T23:00:00Z",
+      "dr": 1.56,
+      "k": "placement",
+      "m": "e20ecf5458cbd5f7",
+      "note": "First: harder selections and larger stated scope. Second: comparable stage but fewer verifiable outcomes.",
+      "o": "W",
+      "opp": "kjkdcdj5yr",
+      "opp_r": 1266.07
+    },
+    {
+      "at": "2026-10-05T23:00:00Z",
+      "dr": -4.94,
+      "k": "placement",
+      "m": "e4af66fbce3b20b7",
+      "note": "Second: harder selections and larger stated scope. First: comparable stage but fewer verifiable outcomes.",
+      "o": "L",
+      "opp": "jz4cv4gtug",
+      "opp_r": 1381.74
+    }
+  ]
+}

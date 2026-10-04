@@ -1,0 +1,527 @@
+{
+  "analysis": {
+    "analysis_confidence": 0.92,
+    "ats": {
+      "detected": {
+        "action_verb_ratio": 0.9,
+        "bullet_count": 15,
+        "bullet_marker_consistent": true,
+        "contact_at_top": true,
+        "date_format_consistent": true,
+        "date_formats_seen": [
+          "MMM YYYY"
+        ],
+        "has_email": true,
+        "has_location": true,
+        "has_phone": true,
+        "has_profile_link": true,
+        "has_street_address": false,
+        "has_summary_section": true,
+        "nonstandard_headings": [],
+        "quantified_bullet_ratio": 0.73,
+        "reverse_chronological": true,
+        "section_order": [
+          "Summary",
+          "Experience",
+          "Education",
+          "Skills",
+          "Leadership"
+        ],
+        "skill_bars_or_ratings": false,
+        "standard_headings": [
+          "Profile",
+          "Professional Experience",
+          "Education",
+          "Certifications and Training",
+          "Volunteer"
+        ],
+        "uses_tables_suspected": false
+      },
+      "factors": {
+        "consistency": {
+          "note": "One date format, titles match the bullets, no gaps",
+          "score": 100
+        },
+        "contact_info": {
+          "note": "Email, phone, city and a profile link at the top",
+          "score": 100
+        },
+        "formatting": {
+          "note": "Consistent bullets and reverse-chronological order; a keyword banner line sits under the title; layout not verified (docx)",
+          "score": 90
+        },
+        "keyword_alignment": {
+          "note": "Employee relations, compensation, retention, HRIS and workforce reporting all appear in bullets with outcomes",
+          "score": 90
+        },
+        "length": {
+          "note": "Two pages for a mid-career professional",
+          "score": 100
+        },
+        "parseability": {
+          "note": "Single column, standard headings, contact placeholders in the first two lines; layout not verified (docx)",
+          "score": 100
+        },
+        "quantification": {
+          "note": "Most bullets carry a before-and-after figure, a count or a dollar amount",
+          "score": 100
+        }
+      },
+      "fixes": [
+        {
+          "factor": "formatting",
+          "fix": "Remove the banner line; keep SHRM-CP next to the name if the certification matters for the target role.",
+          "issue": "The keyword banner under the title repeats terms already evidenced in the bullets",
+          "priority": "low"
+        },
+        {
+          "factor": "keyword_alignment",
+          "fix": "Add one bullet on vacancy or agency-spend forecasting with the dollar or FTE result.",
+          "issue": "Workforce planning appears in the banner but no bullet names a staffing model or forecast",
+          "priority": "low"
+        },
+        {
+          "factor": "quantification",
+          "fix": "Before: Prepare the monthly workforce dashboard → After: Built the monthly workforce dashboard that cut agency spend reporting from __ hours to __ and surfaced a $__ overtime trend.",
+          "issue": "The dashboard and orientation bullets state activity only",
+          "priority": "low"
+        }
+      ],
+      "score": 97,
+      "target_role_used": "Senior HR business partner or HR manager, healthcare"
+    },
+    "awards": [
+      {
+        "issuer": "Society for Human Resource Management",
+        "name": "SHRM Certified Professional",
+        "pool_estimate": "standard professional certification",
+        "scope": "national",
+        "selectivity": "modest",
+        "verifiable": true,
+        "year": 2022
+      }
+    ],
+    "card": {
+      "awards": [
+        {
+          "name": "SHRM-CP",
+          "scope": "national",
+          "selectivity": "modest"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "mid",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2020,
+          "field": "Human Resource Management",
+          "gpa_band": "3.0-3.49",
+          "honors": [],
+          "in_progress": false,
+          "institution": "Grand Valley State University",
+          "institution_tier": "T4"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 32,
+          "employment_type": "full_time",
+          "highlights": [
+            "Retention program: first-year RN turnover 31% to 22%, division turnover 19% to 14%",
+            "Compensation review of 42 job codes covering ~$3.1M of annual payroll, approved and implemented",
+            "~90 employee-relations cases a year; offer-to-acceptance time 9 days to 4"
+          ],
+          "impact_scale": "org",
+          "org": "Lakeshore Health System",
+          "org_tier": "C",
+          "role": "HR Business Partner, Nursing Division",
+          "role_selectivity": "modest",
+          "seniority": "mid",
+          "years": "2024-present"
+        },
+        {
+          "duration_months": 32,
+          "employment_type": "full_time",
+          "highlights": [
+            "Leave-processing errors ~12 to 3 a month after rewriting the intake checklist",
+            "HRIS data cleanup for ~700 records, 98% clean on first validation"
+          ],
+          "impact_scale": "team",
+          "org": "Lakeshore Health System",
+          "org_tier": "C",
+          "role": "HR Generalist, Shared Services",
+          "role_selectivity": "modest",
+          "seniority": "junior",
+          "years": "2021-2024"
+        },
+        {
+          "duration_months": 13,
+          "employment_type": "full_time",
+          "highlights": [
+            "Onboarding for ~60 hires a month during the pandemic surge"
+          ],
+          "impact_scale": "team",
+          "org": "Lakeshore Health System",
+          "org_tier": "C",
+          "role": "HR Coordinator, Talent Acquisition",
+          "role_selectivity": "modest",
+          "seniority": "junior",
+          "years": "2020-2021"
+        }
+      ],
+      "headline": "HR business partner for a 1,200-person nursing division, 5 years at a regional hospital system; RN turnover 31% to 22%",
+      "leadership": [
+        "Supports a Chief Nursing Officer and 38 nurse managers",
+        "Board member of a regional HR association chapter"
+      ],
+      "notable": [
+        "Division turnover outcome with before-and-after numbers over two fiscal years",
+        "Three promotions inside one employer in five years"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Employee relations",
+        "Retention analysis",
+        "Compensation review",
+        "Workforce dashboards",
+        "Workday HCM",
+        "Power BI",
+        "Leave administration",
+        "Crucial Conversations facilitation"
+      ],
+      "top_signal": "RN turnover 31→22%",
+      "years_fulltime": 6.3
+    },
+    "category_relevance": {
+      "academia": 0,
+      "finance": 0.08,
+      "general": 1,
+      "tech": 0.03
+    },
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2020,
+        "field": "Human Resource Management",
+        "gpa": 3.4,
+        "gpa_band": "3.0-3.49",
+        "gpa_scale": 4,
+        "honors": [],
+        "in_progress": false,
+        "institution": "Grand Valley State University",
+        "institution_tier": "T4",
+        "notes": "SHRM student chapter officer",
+        "start_year": 2016
+      }
+    ],
+    "experiences": [
+      {
+        "bullets_condensed": [
+          "Retention program: first-year RN turnover 31% to 22%; division 19% to 14%",
+          "Compensation review: 42 job codes, ~$3.1M payroll, implemented in 2 phases",
+          "~90 ER cases/year, none to litigation; engagement participation 61% to 84%",
+          "Offer-to-acceptance 9 days to 4 for ~150 residency hires/year"
+        ],
+        "duration_months": 32,
+        "employment_type": "full_time",
+        "end": "present",
+        "impact_scale": "org",
+        "is_current": true,
+        "org": "Lakeshore Health System",
+        "org_tier": "C",
+        "org_type": "nonprofit",
+        "ownership": "led",
+        "quantified_impact": true,
+        "role": "HR Business Partner",
+        "role_selectivity": "modest",
+        "seniority": "mid",
+        "start": "2024-03",
+        "team_or_division": "Nursing Division"
+      },
+      {
+        "bullets_condensed": [
+          "Generalist for ~700 employees",
+          "Leave-processing errors ~12 to 3 a month",
+          "HRIS cleanup ~700 records, 98% clean first pass",
+          "~40 ER cases/year; orientation twice a month"
+        ],
+        "duration_months": 32,
+        "employment_type": "full_time",
+        "end": "2024-02",
+        "impact_scale": "team",
+        "is_current": false,
+        "org": "Lakeshore Health System",
+        "org_tier": "C",
+        "org_type": "nonprofit",
+        "ownership": "owned_component",
+        "quantified_impact": true,
+        "role": "HR Generalist",
+        "role_selectivity": "modest",
+        "seniority": "junior",
+        "start": "2021-07",
+        "team_or_division": "Shared Services"
+      },
+      {
+        "bullets_condensed": [
+          "Scheduling, background checks and onboarding for ~60 hires/month",
+          "Built the offer-letter template library"
+        ],
+        "duration_months": 13,
+        "employment_type": "full_time",
+        "end": "2021-06",
+        "impact_scale": "team",
+        "is_current": false,
+        "org": "Lakeshore Health System",
+        "org_tier": "C",
+        "org_type": "nonprofit",
+        "ownership": "supported",
+        "quantified_impact": true,
+        "role": "HR Coordinator",
+        "role_selectivity": "modest",
+        "seniority": "junior",
+        "start": "2020-06",
+        "team_or_division": "Talent Acquisition"
+      }
+    ],
+    "input": {
+      "is_resume": true,
+      "language": "en",
+      "parse_confidence": 0.95,
+      "placeholders_seen": [
+        "name",
+        "email",
+        "phone",
+        "url"
+      ],
+      "word_count_estimate": 542
+    },
+    "leadership": [
+      {
+        "budget_or_scale": "chapter board; programming committee",
+        "elected_or_appointed": "elected",
+        "highlight": "Board member since 2024",
+        "org": "Regional HR association chapter",
+        "people_led": null,
+        "role": "Board member"
+      },
+      {
+        "budget_or_scale": "not stated",
+        "elected_or_appointed": "elected",
+        "highlight": "Officer in the final year",
+        "org": "SHRM student chapter, Grand Valley State",
+        "people_led": null,
+        "role": "Vice president of programming"
+      }
+    ],
+    "projects": [],
+    "publications": [],
+    "red_flags": [],
+    "residual_pii": {
+      "email_count": 0,
+      "name_suspected": false,
+      "other_identifiers": [],
+      "phone_count": 0,
+      "street_address_suspected": false,
+      "url_count": 0
+    },
+    "schema_version": "1.1",
+    "scores": {
+      "academia": {
+        "holistic_score": 2,
+        "included": false,
+        "rationale": "No research output.",
+        "stage_relative_score": 2,
+        "sub_scores": {
+          "breadth": 2,
+          "impact": 2,
+          "pedigree": 10,
+          "selectivity": 2,
+          "trajectory": 5
+        },
+        "top_evidence": []
+      },
+      "finance": {
+        "holistic_score": 10,
+        "included": false,
+        "rationale": "A payroll-scoped compensation review is the only finance-adjacent work.",
+        "stage_relative_score": 10,
+        "sub_scores": {
+          "breadth": 10,
+          "impact": 20,
+          "pedigree": 20,
+          "selectivity": 10,
+          "trajectory": 25
+        },
+        "top_evidence": []
+      },
+      "general": {
+        "holistic_score": 46,
+        "included": true,
+        "rationale": "Steady promotions inside one regional hospital system to business partner for a 1,200-person division, one real retention outcome with before-and-after numbers and a compensation review with a payroll figure; T4 degree, standard certification, no selective role.",
+        "stage_relative_score": 53,
+        "sub_scores": {
+          "breadth": 35,
+          "impact": 58,
+          "pedigree": 30,
+          "selectivity": 25,
+          "trajectory": 52
+        },
+        "top_evidence": [
+          "RN first-year turnover 31% to 22%; division 19% to 14%",
+          "Compensation review covering ~$3.1M of annual payroll",
+          "Three roles in five years at the same employer"
+        ]
+      },
+      "tech": {
+        "holistic_score": 5,
+        "included": false,
+        "rationale": "Power BI dashboards and an HRIS cleanup; no technical role.",
+        "stage_relative_score": 5,
+        "sub_scores": {
+          "breadth": 5,
+          "impact": 10,
+          "pedigree": 15,
+          "selectivity": 5,
+          "trajectory": 15
+        },
+        "top_evidence": []
+      }
+    },
+    "signals": {
+      "career_stage": "mid",
+      "has_quantified_impact": true,
+      "highest_institution_tier": "T4",
+      "highest_org_tier": "C",
+      "max_impact_scale": "org",
+      "months_internship": 0,
+      "primary_domain": "other",
+      "sustained_org_tier": "C",
+      "top_role_selectivity": "modest",
+      "trajectory": "steady",
+      "years_fulltime": 6.3
+    },
+    "skills": {
+      "certifications": [
+        "SHRM-CP",
+        "Crucial Conversations facilitator"
+      ],
+      "domain": [
+        "Employee relations",
+        "Workforce planning",
+        "Compensation review",
+        "Leave administration",
+        "Retention analysis",
+        "Healthcare HR"
+      ],
+      "keyword_stuffing_suspected": false,
+      "spoken_languages": [],
+      "technical": [
+        "Workday HCM",
+        "UKG Pro",
+        "Excel",
+        "Power BI"
+      ]
+    },
+    "strengths": [
+      "Retention outcome stated with two before-and-after measures across fiscal years",
+      "Compensation review scoped in job codes and payroll dollars, approved and implemented",
+      "Three promotions inside one employer in five years with growing client-group size (700 to 1,200)",
+      "Operational bullets carry numbers: ER caseload, offer-to-acceptance time, leave-error rate"
+    ],
+    "verdict": "Credible mid-career HR record: steady promotions at one hospital system and a turnover outcome with real numbers; nothing selective on the page.",
+    "weaknesses": [
+      "Entire career at one regional nonprofit; no selective employer, program or award",
+      "T4 degree with a 3.4 and a standard certification cap the pedigree",
+      "Impact is attributed to programs the person led within a division; no system-wide ownership yet",
+      "No people-management experience; the role supports managers rather than managing a team"
+    ]
+  },
+  "card_sha256": "3124151221c5598be6c675d359d53ed0b1ccb704483978309a83c2bab39e1948",
+  "category_relevance": {
+    "academia": 0,
+    "finance": 0.08,
+    "general": 1,
+    "tech": 0.03
+  },
+  "created_at": "2026-10-03T12:32:00Z",
+  "deleted_at": null,
+  "duplicate_of": null,
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+5f7c9f15",
+    "verdict": {
+      "estimated_career_stage": "mid",
+      "is_resume": true,
+      "language": "en",
+      "prompt_injection_detected": false,
+      "reason": "Résumé with dated roles and education.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "general-1300-mid-hr",
+  "held_reason": null,
+  "id": "udyten5veu",
+  "kind": "user",
+  "metrics": {
+    "char_count": 3766,
+    "columns_detected": 0,
+    "extraction_quality": 0.95,
+    "font_count": 0,
+    "image_count": 0,
+    "pages": 2,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "docx",
+    "word_count": 542
+  },
+  "owner_hash": "20bce2e35cfd28e5e171e1b4d8426778fd905e0dc1300071c975c0681881a759",
+  "primary": "general",
+  "rejected_reason": null,
+  "schema": 1,
+  "scores": {
+    "general": 48
+  },
+  "source": {
+    "client_version": "fixtures",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 1
+  },
+  "stage": "mid",
+  "status": "analyzed",
+  "superseded_by": null,
+  "supersedes": null,
+  "text": "[name]\nGrand Rapids, MI · [email] · [phone] · [url]\n\nHUMAN RESOURCES BUSINESS PARTNER\nSHRM-CP · Healthcare HR · Employee Relations · Workforce Planning · Compensation\n\nPROFILE\nFive years in human resources at a regional hospital system, progressing from HR generalist to business partner for a 1,200-person nursing division. Known for practical employee-relations work, clean data, and turning turnover numbers into retention plans that managers will actually use.\n\nPROFESSIONAL EXPERIENCE\n\nLakeshore Health System, Grand Rapids, MI\nRegional nonprofit hospital system: 4 hospitals, about 9,000 employees.\n\nHR Business Partner, Nursing Division (Mar 2024 – Present)\nSupports the Chief Nursing Officer and 38 nurse managers across inpatient units; 1,200 employees.\n• Led the nursing retention program for the division: exit-interview analysis, stay interviews with 140 nurses, and a revised preceptor model. Registered-nurse first-year turnover fell from 31% in FY2023 to 22% in FY2025; division-wide turnover from 19% to 14%.\n• Ran the FY2025 nursing compensation review with the compensation team: market-priced 42 job codes and recommended adjustments covering about $3.1M of annual payroll; approved by the executive team and implemented in two phases.\n• Handle employee-relations cases for the division (about 90 a year): investigations, performance plans, and accommodations; no case escalated to litigation in two years.\n• Coach nurse managers on performance conversations and engagement action plans; the division's engagement survey participation rose from 61% to 84%.\n• Partner with Talent Acquisition on the new-graduate nurse residency intake (about 150 hires a year); redesigned the offer process so the average offer-to-acceptance time dropped from 9 days to 4.\n• Prepare the monthly workforce dashboard (headcount, vacancies, overtime, agency spend) for the CNO and the hospital presidents.\n• Led the division's response to the 2025 state nurse-staffing reporting rule: built the data pull with the HRIS team and submitted the first two quarterly filings on time with no corrections.\n• Facilitate the Crucial Conversations course for new nurse managers (6 cohorts, about 70 managers trained since 2024).\n\nHR Generalist, Shared Services (Jul 2021 – Feb 2024)\n• Generalist support for about 700 employees across environmental services, food services, and facilities.\n• Managed leave of absence administration (FMLA, short-term disability) for the client groups; reduced leave-processing errors flagged by payroll from about 12 a month to 3 after rewriting the intake checklist.\n• Led the HRIS migration data cleanup for the shared-services population (about 700 records, 98% clean on the first validation pass).\n• Conducted new-hire orientation twice a month; co-wrote the current orientation materials.\n• Investigated and documented about 40 employee-relations cases a year.\n\nHR Coordinator, Talent Acquisition (Jun 2020 – Jun 2021)\n• Scheduled interviews and processed background checks and onboarding paperwork for about 60 hires a month during the pandemic hiring surge.\n• Built the offer-letter template library that is still in use.\n\nEDUCATION\nGrand Valley State University — B.B.A., Human Resource Management, 2020\nGPA 3.4/4.0. Society for Human Resource Management student chapter, vice president of programming (2019–2020).\n\nCERTIFICATIONS AND TRAINING\nSHRM Certified Professional (SHRM-CP), 2022\nCrucial Conversations facilitator certification, 2024\nWorkday HCM, UKG Pro, Excel (pivot tables, lookups), Power BI (dashboards)\n\nVOLUNTEER\nBoard member, Grand Rapids chapter of a regional HR association (2024 – Present); programming committee.\nVolunteer resume reviewer, community job-readiness nonprofit (2021 – Present; about 30 sessions a year).",
+  "text_sha256": "98618bc9d0a48ba2aa11148504273cb840aa4da31a1953fda8378960ad9be459",
+  "top_signal": "RN turnover 31→22%",
+  "updated_at": "2026-10-03T12:32:00Z",
+  "usage": {
+    "analysis_usd": 0.17728,
+    "gate_usd": 0.0016,
+    "latency_ms": 0
+  },
+  "versions": {
+    "analyst_model": "claude-opus-5-5",
+    "analyst_prompt": "analyst.v1+6dbc77ff",
+    "fell_back": false,
+    "gate_prompt": "gate.v1+5f7c9f15",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "visibility": "anonymous"
+}

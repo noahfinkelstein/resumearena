@@ -1,0 +1,32 @@
+{
+  "expect": {
+    "gate": "pass",
+    "status": "analyzed"
+  },
+  "group": "anchor",
+  "intended_anchor": 1300,
+  "intended_categories": [
+    "general",
+    "finance"
+  ],
+  "intended_stage": "early",
+  "metrics": {
+    "char_count": 2972,
+    "columns_detected": 0,
+    "extraction_quality": 0.95,
+    "font_count": 0,
+    "image_count": 0,
+    "pages": 1,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "docx",
+    "word_count": 445
+  },
+  "slug": "anchor-finance-1300-early-fpa-analyst-f500"
+}

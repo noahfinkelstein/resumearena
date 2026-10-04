@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:45:00Z",
+  "handle": "no-headings-at-all",
+  "key_exposed": false,
+  "owner_hash": "bda7e5ac02235fe3a505c9947fb9318f7bf155a7b908f4f647ea7435352c8db2",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:45:00Z",
+      "current": true,
+      "id": "iv5kzargpe"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

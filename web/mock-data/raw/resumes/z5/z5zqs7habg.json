@@ -1,0 +1,524 @@
+{
+  "analysis": {
+    "analysis_confidence": 0.86,
+    "ats": {
+      "detected": {
+        "action_verb_ratio": 0.86,
+        "bullet_count": 14,
+        "bullet_marker_consistent": true,
+        "contact_at_top": true,
+        "date_format_consistent": true,
+        "date_formats_seen": [
+          "MMM YYYY"
+        ],
+        "has_email": true,
+        "has_location": false,
+        "has_phone": true,
+        "has_profile_link": true,
+        "has_street_address": false,
+        "has_summary_section": true,
+        "nonstandard_headings": [],
+        "quantified_bullet_ratio": 0.64,
+        "reverse_chronological": true,
+        "section_order": [
+          "Summary",
+          "Experience",
+          "Education",
+          "Skills"
+        ],
+        "skill_bars_or_ratings": false,
+        "standard_headings": [
+          "Experience",
+          "Education",
+          "Skills"
+        ],
+        "uses_tables_suspected": false
+      },
+      "factors": {
+        "consistency": {
+          "note": "consistency read cleanly from the text.",
+          "score": 73
+        },
+        "contact_info": {
+          "note": "contact info read cleanly from the text.",
+          "score": 85
+        },
+        "formatting": {
+          "note": "formatting read cleanly from the text.",
+          "score": 88
+        },
+        "keyword_alignment": {
+          "note": "keyword alignment read cleanly from the text.",
+          "score": 56
+        },
+        "length": {
+          "note": "length read cleanly from the text.",
+          "score": 52
+        },
+        "parseability": {
+          "note": "parseability read cleanly from the text.",
+          "score": 94
+        },
+        "quantification": {
+          "note": "quantification read cleanly from the text.",
+          "score": 72
+        }
+      },
+      "fixes": [
+        {
+          "factor": "consistency",
+          "fix": "Use an end month or \"Present\" consistently.",
+          "issue": "Dates use \"Jan 2023 – present\"; two parsers read \"present\" as missing.",
+          "priority": "high"
+        },
+        {
+          "factor": "formatting",
+          "fix": "Export skills as plain lines, one group per line.",
+          "issue": "The skills section is a table.",
+          "priority": "medium"
+        },
+        {
+          "factor": "length",
+          "fix": "Cut the summary to one line with the strongest number.",
+          "issue": "The summary paragraph repeats the bullets.",
+          "priority": "low"
+        }
+      ],
+      "score": 76,
+      "target_role_used": "Software engineer, mid-career"
+    },
+    "awards": [
+      {
+        "issuer": null,
+        "name": "Eagle Scout",
+        "pool_estimate": "unknown pool",
+        "scope": "national",
+        "selectivity": "selective",
+        "verifiable": true,
+        "year": null
+      }
+    ],
+    "card": {
+      "awards": [
+        {
+          "name": "Eagle Scout",
+          "scope": "national",
+          "selectivity": "selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "early",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2023,
+          "field": "Economics",
+          "gpa_band": "3.7-3.89",
+          "honors": [
+            "Cum laude"
+          ],
+          "in_progress": false,
+          "institution": "Northwestern University",
+          "institution_tier": "T2"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 16,
+          "employment_type": "full_time",
+          "highlights": [
+            "Led a 3-person procurement workstream that identified $4M of annual savings for a $2B manufacturer",
+            "Promoted to consultant after 20 months (fastest cohort track)"
+          ],
+          "impact_scale": "org",
+          "org": "Deloitte Consulting (Strategy & Operations)",
+          "org_tier": "B",
+          "role": "Consultant",
+          "role_selectivity": "selective",
+          "seniority": "mid",
+          "years": "2025-present"
+        },
+        {
+          "duration_months": 20,
+          "employment_type": "full_time",
+          "highlights": [
+            "Built the operating model for a hospital merger integration (4 facilities)"
+          ],
+          "impact_scale": "team",
+          "org": "Deloitte Consulting (Strategy & Operations)",
+          "org_tier": "B",
+          "role": "Business Analyst",
+          "role_selectivity": "selective",
+          "seniority": "junior",
+          "years": "2023-2025"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Supported a branch-footprint analysis"
+          ],
+          "impact_scale": "individual",
+          "org": "Regional bank",
+          "org_tier": "C",
+          "role": "Summer Analyst",
+          "role_selectivity": "modest",
+          "seniority": "intern",
+          "years": "2022-2022"
+        }
+      ],
+      "headline": "Consultant with 3 years at a Big-4 strategy practice; led a workstream that saved a client $4M; T2 degree; Eagle Scout",
+      "leadership": [
+        "Captain, club rowing (40 athletes)",
+        "Volunteer tax preparer (2 seasons)"
+      ],
+      "notable": [
+        "Promoted early (20 months)"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Operating model design",
+        "Procurement analytics",
+        "Excel",
+        "PowerPoint",
+        "Stakeholder management",
+        "SQL (basic)"
+      ],
+      "top_signal": "Big-4 strategy",
+      "years_fulltime": 3
+    },
+    "category_relevance": {
+      "academia": 0.05,
+      "finance": 0.1,
+      "general": 1,
+      "tech": 0.1
+    },
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2023,
+        "field": "Economics",
+        "gpa": null,
+        "gpa_band": "3.7-3.89",
+        "gpa_scale": null,
+        "honors": [
+          "Cum laude"
+        ],
+        "in_progress": false,
+        "institution": "Northwestern University",
+        "institution_tier": "T2",
+        "notes": "",
+        "start_year": 2019
+      }
+    ],
+    "experiences": [
+      {
+        "bullets_condensed": [
+          "Led a 3-person procurement workstream that identified $4M of annual savings for a $2B manufacturer",
+          "Promoted to consultant after 20 months (fastest cohort track)"
+        ],
+        "duration_months": 16,
+        "employment_type": "full_time",
+        "end": "present",
+        "impact_scale": "org",
+        "is_current": true,
+        "org": "Deloitte Consulting (Strategy & Operations)",
+        "org_tier": "B",
+        "org_type": "private_company",
+        "ownership": "owned_component",
+        "quantified_impact": true,
+        "role": "Consultant",
+        "role_selectivity": "selective",
+        "seniority": "mid",
+        "start": "2025",
+        "team_or_division": null
+      },
+      {
+        "bullets_condensed": [
+          "Built the operating model for a hospital merger integration (4 facilities)"
+        ],
+        "duration_months": 20,
+        "employment_type": "full_time",
+        "end": "2025",
+        "impact_scale": "team",
+        "is_current": false,
+        "org": "Deloitte Consulting (Strategy & Operations)",
+        "org_tier": "B",
+        "org_type": "private_company",
+        "ownership": "owned_component",
+        "quantified_impact": true,
+        "role": "Business Analyst",
+        "role_selectivity": "selective",
+        "seniority": "junior",
+        "start": "2023",
+        "team_or_division": null
+      },
+      {
+        "bullets_condensed": [
+          "Supported a branch-footprint analysis"
+        ],
+        "duration_months": 3,
+        "employment_type": "internship",
+        "end": "2022",
+        "impact_scale": "individual",
+        "is_current": false,
+        "org": "Regional bank",
+        "org_tier": "C",
+        "org_type": "private_company",
+        "ownership": "owned_component",
+        "quantified_impact": false,
+        "role": "Summer Analyst",
+        "role_selectivity": "modest",
+        "seniority": "intern",
+        "start": "2022",
+        "team_or_division": null
+      }
+    ],
+    "input": {
+      "is_resume": true,
+      "language": "en",
+      "parse_confidence": 0.94,
+      "placeholders_seen": [
+        "name",
+        "email",
+        "phone",
+        "url"
+      ],
+      "word_count_estimate": 620
+    },
+    "leadership": [
+      {
+        "budget_or_scale": "not stated",
+        "elected_or_appointed": "unknown",
+        "highlight": "Captain, club rowing (40 athletes)",
+        "org": "Captain, club rowing (40 athletes)",
+        "people_led": null,
+        "role": "lead"
+      },
+      {
+        "budget_or_scale": "not stated",
+        "elected_or_appointed": "unknown",
+        "highlight": "Volunteer tax preparer (2 seasons)",
+        "org": "Volunteer tax preparer (2 seasons)",
+        "people_led": null,
+        "role": "lead"
+      }
+    ],
+    "projects": [],
+    "publications": [],
+    "red_flags": [
+      {
+        "detail": "\"Industry-leading\" appears twice without a number behind it.",
+        "location": "Experience / summary line",
+        "severity": "medium",
+        "type": "unverifiable_superlative"
+      }
+    ],
+    "residual_pii": {
+      "email_count": 0,
+      "name_suspected": false,
+      "other_identifiers": [],
+      "phone_count": 0,
+      "street_address_suspected": false,
+      "url_count": 0
+    },
+    "schema_version": "1.1",
+    "scores": {
+      "academia": {
+        "holistic_score": 87,
+        "included": false,
+        "rationale": "Consultant with 3 years at a Big-4 strategy practice; the academia weighting rewards the strongest lines on the card.",
+        "stage_relative_score": 85,
+        "sub_scores": {
+          "breadth": 69,
+          "impact": 56,
+          "pedigree": 68,
+          "selectivity": 73,
+          "trajectory": 48
+        },
+        "top_evidence": [
+          "Led a 3-person procurement workstream that identified $4M of annual savings for a $2B manufacturer",
+          "Built the operating model for a hospital merger integration (4 facilities)"
+        ]
+      },
+      "finance": {
+        "holistic_score": 83,
+        "included": false,
+        "rationale": "Consultant with 3 years at a Big-4 strategy practice; the finance weighting rewards the strongest lines on the card.",
+        "stage_relative_score": 83,
+        "sub_scores": {
+          "breadth": 49,
+          "impact": 74,
+          "pedigree": 57,
+          "selectivity": 46,
+          "trajectory": 74
+        },
+        "top_evidence": [
+          "Led a 3-person procurement workstream that identified $4M of annual savings for a $2B manufacturer",
+          "Built the operating model for a hospital merger integration (4 facilities)"
+        ]
+      },
+      "general": {
+        "holistic_score": 83,
+        "included": true,
+        "rationale": "Consultant with 3 years at a Big-4 strategy practice; the general weighting rewards the strongest lines on the card.",
+        "stage_relative_score": 90,
+        "sub_scores": {
+          "breadth": 81,
+          "impact": 76,
+          "pedigree": 69,
+          "selectivity": 94,
+          "trajectory": 66
+        },
+        "top_evidence": [
+          "Led a 3-person procurement workstream that identified $4M of annual savings for a $2B manufacturer",
+          "Built the operating model for a hospital merger integration (4 facilities)"
+        ]
+      },
+      "tech": {
+        "holistic_score": 87,
+        "included": false,
+        "rationale": "Consultant with 3 years at a Big-4 strategy practice; the tech weighting rewards the strongest lines on the card.",
+        "stage_relative_score": 85,
+        "sub_scores": {
+          "breadth": 61,
+          "impact": 50,
+          "pedigree": 52,
+          "selectivity": 63,
+          "trajectory": 53
+        },
+        "top_evidence": [
+          "Led a 3-person procurement workstream that identified $4M of annual savings for a $2B manufacturer",
+          "Built the operating model for a hospital merger integration (4 facilities)"
+        ]
+      }
+    },
+    "signals": {
+      "career_stage": "early",
+      "has_quantified_impact": true,
+      "highest_institution_tier": "T2",
+      "highest_org_tier": "B",
+      "max_impact_scale": "org",
+      "months_internship": 3,
+      "primary_domain": "other",
+      "sustained_org_tier": "B",
+      "top_role_selectivity": "selective",
+      "trajectory": "steady",
+      "years_fulltime": 3
+    },
+    "skills": {
+      "certifications": [],
+      "domain": [],
+      "keyword_stuffing_suspected": false,
+      "spoken_languages": [
+        "English"
+      ],
+      "technical": [
+        "Operating model design",
+        "Procurement analytics",
+        "Excel",
+        "PowerPoint",
+        "Stakeholder management",
+        "SQL (basic)"
+      ]
+    },
+    "strengths": [
+      "Quantified results on 7 of 9 bullets",
+      "Two promotions in 4 years at the same employer",
+      "Owned a system with named scale (40k rps)"
+    ],
+    "verdict": "A strong mid-career infrastructure resume whose numbers do the work; the education line is the only soft spot.",
+    "weaknesses": [
+      "Education sits below the ladder median for this tier",
+      "No open-source or public work listed",
+      "Summary paragraph repeats the bullets"
+    ]
+  },
+  "card_sha256": "a63284044f26e4ffedb467570c3e565bbe27c7b4dbdd9b9520703841f5ade5f4",
+  "category_relevance": {
+    "academia": 0.05,
+    "finance": 0.1,
+    "general": 1,
+    "tech": 0.1
+  },
+  "created_at": "2026-09-21T14:20:11Z",
+  "deleted_at": null,
+  "duplicate_of": null,
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+1a2b3c4d",
+    "verdict": {
+      "estimated_career_stage": "early",
+      "is_resume": true,
+      "language": "en",
+      "prompt_injection_detected": false,
+      "reason": "Two-page engineering résumé with dated roles.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "nadia-chen",
+  "held_reason": null,
+  "id": "z5zqs7habg",
+  "kind": "user",
+  "metrics": {
+    "char_count": 1003,
+    "columns_detected": 1,
+    "extraction_quality": 0.96,
+    "font_count": 3,
+    "image_count": 0,
+    "pages": 2,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 212
+  },
+  "owner_hash": "33853e46463bccd29d7579182efed74da0b9460d996f7a80a2eaa97a0779fd55",
+  "primary": "general",
+  "rejected_reason": null,
+  "schema": 1,
+  "scores": {
+    "general": 85
+  },
+  "source": {
+    "client_version": "mock.1",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 123456700
+  },
+  "stage": "early",
+  "status": "analyzed",
+  "superseded_by": null,
+  "supersedes": null,
+  "text": "[name]\n[email] · [phone] · [url]\n\nSummary\nInfrastructure engineer with six years building and operating high-throughput services. Led the migration of a 40k rps edge service to a new runtime, cutting p99 latency by 38% and on-call pages by half.\n\nExperience\nSenior engineer, Acme Cloud, Jan 2022 – present\n· Led migration of a 40k rps service to a new runtime; p99 latency down 38%, infrastructure cost down 22%\n· Designed the capacity model used by four product teams; forecast error under 6% over 18 months\n· Promoted twice in four years; mentor to five engineers, two of whom were promoted\n\nEngineer, Northwind Fintech, Jun 2020 – Dec 2021\n· Built the reconciliation pipeline for 2.1M daily transactions with a measured 99.98% match rate\n· Cut nightly batch time from 6 hours to 70 minutes by rewriting the join strategy\n\nEducation\nBS Computer Science, Large State University, 2020\nDean's list, 2018 – 2020\n\nSkills\nGo, Rust, Kubernetes, Terraform, PostgreSQL, Kafka, observability, capacity planning\n",
+  "text_sha256": "baa99c7558612a137780d9c5b0444ab758d2efb4fb52c8d36eb03f8bc1dddee6",
+  "top_signal": "Big-4 strategy",
+  "updated_at": "2026-09-21T14:22:51Z",
+  "usage": {
+    "analysis_usd": 0.188,
+    "gate_usd": 0.0046,
+    "latency_ms": 61230
+  },
+  "versions": {
+    "analyst_model": "claude-opus-5-5",
+    "analyst_prompt": "analyst.v1+9e8f7a6b",
+    "fell_back": false,
+    "gate_prompt": "gate.v1+1a2b3c4d",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "visibility": "anonymous"
+}

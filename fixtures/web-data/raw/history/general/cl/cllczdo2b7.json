@@ -1,0 +1,230 @@
+{
+  "cat": "general",
+  "id": "cllczdo2b7",
+  "lin": "cllczdo2b7",
+  "placed": true,
+  "points": [
+    [
+      "2026-10-03",
+      992,
+      217.78,
+      "m"
+    ],
+    [
+      "2026-10-03",
+      958.27,
+      203.75,
+      "m"
+    ],
+    [
+      "2026-10-03",
+      921.49,
+      190.21,
+      "m"
+    ],
+    [
+      "2026-10-03",
+      881.34,
+      153.17,
+      "p"
+    ],
+    [
+      "2026-10-03",
+      862.43,
+      147.8,
+      "m"
+    ],
+    [
+      "2026-10-03",
+      855.21,
+      145.21,
+      "m"
+    ],
+    [
+      "2026-10-03",
+      842.23,
+      140.91,
+      "m"
+    ],
+    [
+      "2026-10-03",
+      834.25,
+      126.76,
+      "p"
+    ],
+    [
+      "2026-10-03",
+      804.99,
+      118.96,
+      "p"
+    ],
+    [
+      "2026-10-04",
+      791.35,
+      116.09,
+      "m"
+    ],
+    [
+      "2026-10-04",
+      797.44,
+      111.44,
+      "m"
+    ],
+    [
+      "2026-10-04",
+      825.76,
+      106.9,
+      "m"
+    ],
+    [
+      "2026-10-04",
+      799.66,
+      102.91,
+      "m"
+    ],
+    [
+      "2026-10-05",
+      821.04,
+      101.35,
+      "m"
+    ],
+    [
+      "2026-10-06",
+      810.59,
+      98.96,
+      "m"
+    ],
+    [
+      "2026-10-10",
+      804.42,
+      97.44,
+      "m"
+    ],
+    [
+      "2026-10-11",
+      830.23,
+      94.2,
+      "m"
+    ],
+    [
+      "2026-10-13",
+      825.41,
+      93.05,
+      "m"
+    ],
+    [
+      "2026-10-16",
+      825.05,
+      92.96,
+      "m"
+    ],
+    [
+      "2026-10-19",
+      822.62,
+      92.37,
+      "m"
+    ]
+  ],
+  "recent": [
+    {
+      "at": "2026-10-19T23:00:00Z",
+      "dr": -2.43,
+      "k": "refine",
+      "m": "deb213a04878daf8",
+      "note": "Second: harder selections and larger stated scope. First: comparable stage but fewer verifiable outcomes.",
+      "o": "L",
+      "opp": "hosuux246y",
+      "opp_r": 1354.63
+    },
+    {
+      "at": "2026-10-16T23:00:00Z",
+      "dr": -0.36,
+      "k": "refine",
+      "m": "1a0d6a39f16821a3",
+      "note": "Second: harder selections and larger stated scope. First: comparable stage but fewer verifiable outcomes.",
+      "o": "L",
+      "opp": "leqkwxvj4d",
+      "opp_r": 1699.67
+    },
+    {
+      "at": "2026-10-13T23:00:00Z",
+      "dr": -4.82,
+      "k": "refine",
+      "m": "6e5050bc4bb61e43",
+      "note": "Second: harder selections and larger stated scope. First: comparable stage but fewer verifiable outcomes.",
+      "o": "L",
+      "opp": "duzpgc2iik",
+      "opp_r": 1224.16
+    },
+    {
+      "at": "2026-10-11T23:00:00Z",
+      "dr": 25.81,
+      "k": "refine",
+      "m": "4152631fc3a8f9fd",
+      "note": "First: harder selections and larger stated scope. Second: comparable stage but fewer verifiable outcomes.",
+      "o": "W",
+      "opp": "etrkib4oit",
+      "opp_r": 829.48
+    },
+    {
+      "at": "2026-10-10T23:00:00Z",
+      "dr": -6.17,
+      "k": "refine",
+      "m": "b6338c6f5123969c",
+      "note": "First: harder selections and larger stated scope. Second: comparable stage but fewer verifiable outcomes.",
+      "o": "L",
+      "opp": "2elgnjj7jt",
+      "opp_r": 1173.88
+    },
+    {
+      "at": "2026-10-06T23:00:00Z",
+      "dr": -10.45,
+      "k": "refine",
+      "m": "6284388b7cd1e116",
+      "note": "Second: harder selections and larger stated scope. First: comparable stage but fewer verifiable outcomes.",
+      "o": "L",
+      "opp": "ds7exl67uy",
+      "opp_r": 1079.68
+    },
+    {
+      "at": "2026-10-05T23:00:00Z",
+      "dr": 21.38,
+      "k": "refine",
+      "m": "2e7ee9e2eaa71ff7",
+      "note": "Second: harder selections and larger stated scope. First: comparable stage but fewer verifiable outcomes.",
+      "o": "D",
+      "opp": "udyten5veu",
+      "opp_r": 1180.04
+    },
+    {
+      "at": "2026-10-04T23:00:00Z",
+      "dr": -26.1,
+      "k": "placement",
+      "m": "04d6a11cd760e53f",
+      "note": "First: harder selections and larger stated scope. Second: comparable stage but fewer verifiable outcomes.",
+      "o": "L",
+      "opp": "bswap4rgut",
+      "opp_r": 850.44
+    },
+    {
+      "at": "2026-10-04T23:00:00Z",
+      "dr": 28.32,
+      "k": "placement",
+      "m": "88e1b943e15e5f9a",
+      "note": "Second: harder selections and larger stated scope. First: comparable stage but fewer verifiable outcomes.",
+      "o": "W",
+      "opp": "bbbx4b7znn",
+      "opp_r": 773.23
+    },
+    {
+      "at": "2026-10-04T23:00:00Z",
+      "dr": 6.09,
+      "k": "placement",
+      "m": "29e54e3c2cfcc5be",
+      "note": "First: harder selections and larger stated scope. Second: comparable stage but fewer verifiable outcomes.",
+      "o": "D",
+      "opp": "okoo7overc",
+      "opp_r": 867
+    }
+  ]
+}

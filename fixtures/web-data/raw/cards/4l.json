@@ -1,0 +1,165 @@
+{
+  "4lbszeut6z": {
+    "card": {
+      "awards": [
+        {
+          "name": "NBER Research Associate",
+          "scope": "national",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "Associate Editor, top field journal",
+          "scope": "international",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "Vilas Associate Award",
+          "scope": "institutional",
+          "selectivity": "selective"
+        },
+        {
+          "name": "National Tax Association best paper",
+          "scope": "national",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Romnes Faculty Fellowship",
+          "scope": "institutional",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Upjohn Early Career Research Award",
+          "scope": "national",
+          "selectivity": "selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "senior",
+      "education": [
+        {
+          "degree_level": "phd",
+          "end_year": 2012,
+          "field": "Economics",
+          "gpa_band": "not_listed",
+          "honors": [],
+          "in_progress": false,
+          "institution": "Northwestern University",
+          "institution_tier": "T2"
+        },
+        {
+          "degree_level": "bachelor",
+          "end_year": 2006,
+          "field": "Economics and Mathematics",
+          "gpa_band": "not_listed",
+          "honors": [
+            "magna cum laude"
+          ],
+          "in_progress": false,
+          "institution": "Carleton College",
+          "institution_tier": "T2"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 90,
+          "employment_type": "full_time",
+          "highlights": [
+            "30 publications including AER and Review of Economic Studies",
+            "Associate Editor, Journal of Public Economics; NBER Research Associate",
+            "PI on NSF ($382k) and Smith Richardson ($210k) grants"
+          ],
+          "impact_scale": "org",
+          "org": "University of Wisconsin–Madison",
+          "org_tier": "A",
+          "role": "Associate Professor of Economics (tenured)",
+          "role_selectivity": "highly_selective",
+          "seniority": "faculty",
+          "years": "2019-present"
+        },
+        {
+          "duration_months": 84,
+          "employment_type": "full_time",
+          "highlights": [
+            "Tenured at seven years with 20 publications"
+          ],
+          "impact_scale": "team",
+          "org": "University of Wisconsin–Madison",
+          "org_tier": "A",
+          "role": "Assistant Professor of Economics",
+          "role_selectivity": "highly_selective",
+          "seniority": "faculty",
+          "years": "2012-2019"
+        },
+        {
+          "duration_months": 5,
+          "employment_type": "fellowship",
+          "highlights": [],
+          "impact_scale": "team",
+          "org": "University of California, Berkeley",
+          "org_tier": "A",
+          "role": "Visiting Associate Professor",
+          "role_selectivity": "selective",
+          "seniority": "faculty",
+          "years": "2024-2024"
+        },
+        {
+          "duration_months": 4,
+          "employment_type": "fellowship",
+          "highlights": [],
+          "impact_scale": "team",
+          "org": "Federal Reserve Bank of Chicago",
+          "org_tier": "B",
+          "role": "Visiting Scholar",
+          "role_selectivity": "selective",
+          "seniority": "fellow",
+          "years": "2021-2021"
+        }
+      ],
+      "headline": "Tenured economics associate professor at a T2; 30 papers incl. AER and REStud; associate editor, top field journal",
+      "leadership": [
+        "Associate Editor, Journal of Public Economics; editorial board, National Tax Journal",
+        "Chair of graduate admissions; director of graduate placement",
+        "Co-organizer of an NBER Summer Institute meeting",
+        "Board of Directors, National Tax Association"
+      ],
+      "notable": [
+        "Two top-five economics journal publications",
+        "Associate editor at a top field journal and NBER Research Associate",
+        "Nine PhD students placed, including two at the Federal Reserve Board"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 30,
+        "first_author_count": 17,
+        "strong_venue_count": 13,
+        "top_venue_count": 2,
+        "venues": [
+          "American Economic Review",
+          "Review of Economic Studies",
+          "AEJ: Economic Policy",
+          "Journal of Public Economics",
+          "Journal of Labor Economics",
+          "Review of Economics and Statistics",
+          "Journal of Human Resources",
+          "Journal of Urban Economics",
+          "Journal of Health Economics",
+          "National Tax Journal",
+          "Economic Journal",
+          "Labour Economics"
+        ]
+      },
+      "skills_top": [
+        "Public economics",
+        "Labor economics",
+        "Administrative data",
+        "Regression discontinuity",
+        "Stata",
+        "R"
+      ],
+      "top_signal": "AER + 30 papers",
+      "years_fulltime": 16.7
+    },
+    "st": "senior"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:47:00Z",
+  "handle": "head-of-engineering",
+  "key_exposed": false,
+  "owner_hash": "cb6a0fc21dbaa68413d9be070768b8f4c13795dd9151823cb4338d55e76bfd49",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:47:00Z",
+      "current": true,
+      "id": "3eskfvqixj"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

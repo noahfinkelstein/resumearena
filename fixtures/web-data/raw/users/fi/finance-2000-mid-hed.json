@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:18:00Z",
+  "handle": "finance-2000-mid-hed",
+  "key_exposed": false,
+  "owner_hash": "27e249a5bd18d9fc6d263090a901c82818cc32ac337ee08f99b2996c2bb81243",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:18:00Z",
+      "current": true,
+      "id": "jocml7s5ue"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

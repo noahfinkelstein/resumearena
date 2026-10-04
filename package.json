@@ -1,0 +1,24 @@
+{
+  "name": "resumearena",
+  "private": true,
+  "version": "0.1.0",
+  "description": "ResumeArena: submit a resume, get an arena rating. Head-to-head LLM-judged ladders for general, tech, finance and academia. GitHub Pages + GitHub Actions only.",
+  "packageManager": "pnpm@11.17.0",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "preview": "pnpm --filter web preview",
+    "typecheck": "pnpm -r --workspace-concurrency=1 typecheck",
+    "test": "pnpm -r --workspace-concurrency=1 test",
+    "lint": "node scripts/lint.ts",
+    "prompts:sync": "node scripts/prompts-sync.ts",
+    "prompts:check": "node scripts/prompts-sync.ts --check",
+    "fixtures:web-data": "node engine/src/cli.ts fixtures web-data --from fixtures --out fixtures/web-data"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0",
+    "vitest": "^5.0.0"
+  }
+}

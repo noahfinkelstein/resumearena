@@ -1,0 +1,70 @@
+{
+  "category": "finance",
+  "cols": [
+    "rank",
+    "id",
+    "identity",
+    "tier",
+    "r",
+    "pm",
+    "w",
+    "l",
+    "d",
+    "stage",
+    "sig",
+    "d7",
+    "top"
+  ],
+  "page": 1,
+  "pages": 1,
+  "partition": "stage-senior",
+  "rows": [
+    [
+      1,
+      "z5pqvv3o4l",
+      "anon-z5pqvv3",
+      "expert",
+      1922,
+      129,
+      6,
+      8,
+      1,
+      "senior",
+      "Sloan Fellow",
+      17,
+      0.3492
+    ],
+    [
+      2,
+      "z5zr6mrnur",
+      "anon-z5zr6mr",
+      "expert",
+      1875,
+      125,
+      29,
+      28,
+      1,
+      "senior",
+      "Sloan Fellow",
+      -5,
+      0.381
+    ],
+    [
+      3,
+      "k7qit7hsnd",
+      "anon-k7qit7h",
+      "entrant",
+      963,
+      207,
+      9,
+      13,
+      2,
+      "senior",
+      "500M-user platform",
+      16,
+      0.9524
+    ]
+  ],
+  "schema": 1,
+  "total": 3
+}

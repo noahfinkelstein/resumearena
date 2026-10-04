@@ -1,0 +1,115 @@
+{
+  "upfqinv6ti": {
+    "card": {
+      "awards": [
+        {
+          "name": "Company platform engineering award (team)",
+          "scope": "company",
+          "selectivity": "selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "mid",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2021,
+          "field": "Computer Science and Engineering",
+          "gpa_band": "3.5-3.69",
+          "honors": [],
+          "in_progress": false,
+          "institution": "The Ohio State University",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 31,
+          "employment_type": "full_time",
+          "highlights": [
+            "Owns indexing service: 1.4B documents, 85k events/s sustained, 99.95% availability",
+            "Cut p99 index-visibility latency from 4.2 s to 1.1 s",
+            "Led 4-engineer migration to managed OpenSearch; $1.1M/yr saved"
+          ],
+          "impact_scale": "org",
+          "org": "Atlassian",
+          "org_tier": "B",
+          "role": "Senior Software Engineer, Search Platform",
+          "role_selectivity": "selective",
+          "seniority": "senior",
+          "years": "2024-present"
+        },
+        {
+          "duration_months": 31,
+          "employment_type": "full_time",
+          "highlights": [
+            "Query router across 60 domains: 22k queries/s, p99 under 180 ms",
+            "Index storage down 27% (about 410 TB)",
+            "Typeahead ranking lifted click-through from 31% to 44%"
+          ],
+          "impact_scale": "org",
+          "org": "Atlassian",
+          "org_tier": "B",
+          "role": "Software Engineer, Search Platform",
+          "role_selectivity": "selective",
+          "seniority": "mid",
+          "years": "2021-2024"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Synonym expansion prototype shipped; return offer"
+          ],
+          "impact_scale": "team",
+          "org": "Atlassian",
+          "org_tier": "B",
+          "role": "Software Engineering Intern",
+          "role_selectivity": "selective",
+          "seniority": "intern",
+          "years": "2020-2020"
+        }
+      ],
+      "headline": "Senior engineer, 5 years at a B-tier SaaS company; owns a 1.4B-document search index; led a $1.1M/yr migration",
+      "leadership": [
+        "Ran the team design-review rotation for 2025; mentors two engineers"
+      ],
+      "notable": [
+        "Promoted to senior engineer at 2.6 years",
+        "Owns a service doing 85k events/s with a $1.1M/yr migration behind it"
+      ],
+      "projects": [
+        {
+          "descriptor": "Raft-based replicated key-value store in Go",
+          "highlight": "Snapshotting and membership changes; passes a university test suite under race detection",
+          "kind": "software",
+          "scale_signal": "60 stars",
+          "technical_depth": "standard"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Java",
+        "Kotlin",
+        "Kafka",
+        "OpenSearch",
+        "AWS",
+        "Go",
+        "Kubernetes",
+        "Terraform",
+        "DynamoDB",
+        "Datadog"
+      ],
+      "top_signal": "85k events/s index",
+      "years_fulltime": 5.2
+    },
+    "st": "mid"
+  }
+}

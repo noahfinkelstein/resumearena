@@ -1,0 +1,194 @@
+{
+  "cat": "general",
+  "id": "x63yoqqpnq",
+  "lin": "x63yoqqpnq",
+  "placed": true,
+  "points": [
+    [
+      "2026-09-21",
+      2228,
+      220,
+      "p"
+    ],
+    [
+      "2026-09-21",
+      2318,
+      118,
+      "p"
+    ],
+    [
+      "2026-09-22",
+      2316.07,
+      73.1,
+      "m"
+    ],
+    [
+      "2026-09-23",
+      2308.25,
+      73.1,
+      "m"
+    ],
+    [
+      "2026-09-24",
+      2297.08,
+      73.1,
+      "m"
+    ],
+    [
+      "2026-09-25",
+      2298.95,
+      73.1,
+      "s"
+    ],
+    [
+      "2026-09-26",
+      2305.09,
+      73.1,
+      "m"
+    ],
+    [
+      "2026-09-27",
+      2306.52,
+      73.1,
+      "m"
+    ],
+    [
+      "2026-09-28",
+      2315.37,
+      73.1,
+      "m"
+    ],
+    [
+      "2026-09-29",
+      2332.67,
+      73.1,
+      "s"
+    ],
+    [
+      "2026-09-30",
+      2324.13,
+      73.1,
+      "m"
+    ],
+    [
+      "2026-10-01",
+      2332.33,
+      73.1,
+      "m"
+    ],
+    [
+      "2026-10-02",
+      2342.46,
+      73.1,
+      "m"
+    ],
+    [
+      "2026-10-03",
+      2388,
+      73.1,
+      "s"
+    ]
+  ],
+  "recent": [
+    {
+      "at": "2026-10-03T12:50:11Z",
+      "dr": -6,
+      "k": "refine",
+      "m": "952c82f121897605",
+      "note": "Second: first-author publication at a top venue. First: solid industry bullets without a comparable peak.",
+      "o": "L",
+      "opp": "k7v2m4syfl",
+      "opp_r": 2395
+    },
+    {
+      "at": "2026-10-03T11:20:11Z",
+      "dr": 0,
+      "k": "refine",
+      "m": "49f6730549e1278b",
+      "note": "Broader ownership at the same company tier; the second record’s projects are smaller in scope.",
+      "o": "D",
+      "opp": "p4hafoublb",
+      "opp_r": 2361
+    },
+    {
+      "at": "2026-10-03T09:50:11Z",
+      "dr": 0,
+      "k": "placement",
+      "m": "00d2bc2128977230",
+      "note": "First: owned a 40k rps migration with a p99 number. Second: strong A-tier record but smaller scope.",
+      "o": "D",
+      "opp": "p4cb33anln",
+      "opp_r": 2357
+    },
+    {
+      "at": "2026-10-03T08:20:11Z",
+      "dr": 8,
+      "k": "placement",
+      "m": "59a3fbaa030d8f71",
+      "note": "Second: first-author publication at a top venue. First: solid industry bullets without a comparable peak.",
+      "o": "W",
+      "opp": "anchrtgaaa",
+      "opp_r": 2351
+    },
+    {
+      "at": "2026-10-03T06:50:11Z",
+      "dr": -6,
+      "k": "placement",
+      "m": "fc190f2cb1486f7f",
+      "note": "Close on pedigree; the first record’s sustained tier and quantified bullets decide it.",
+      "o": "L",
+      "opp": "m24bxnzbo7",
+      "opp_r": 2344
+    },
+    {
+      "at": "2026-10-03T05:20:11Z",
+      "dr": -8,
+      "k": "placement",
+      "m": "06ad9c9cf2e09282",
+      "note": "Broader ownership at the same company tier; the second record’s projects are smaller in scope.",
+      "o": "L",
+      "opp": "x6ohbt27p3",
+      "opp_r": 2339
+    },
+    {
+      "at": "2026-10-03T03:50:11Z",
+      "dr": 0,
+      "k": "placement",
+      "m": "2369cbf6caed3a1d",
+      "note": "Broader ownership at the same company tier; the second record’s projects are smaller in scope.",
+      "o": "D",
+      "opp": "k7v2m4syfl",
+      "opp_r": 2395
+    },
+    {
+      "at": "2026-10-03T02:20:11Z",
+      "dr": -11,
+      "k": "placement",
+      "m": "b303590782c18a68",
+      "note": "Second: first-author publication at a top venue. First: solid industry bullets without a comparable peak.",
+      "o": "L",
+      "opp": "p4hafoublb",
+      "opp_r": 2361
+    },
+    {
+      "at": "2026-10-03T00:50:11Z",
+      "dr": 0,
+      "k": "placement",
+      "m": "38c64c77d991f21b",
+      "note": "Broader ownership at the same company tier; the second record’s projects are smaller in scope.",
+      "o": "D",
+      "opp": "p4cb33anln",
+      "opp_r": 2357
+    },
+    {
+      "at": "2026-10-02T23:20:11Z",
+      "dr": -10,
+      "k": "placement",
+      "m": "bd40e9a58637cf72",
+      "note": "Broader ownership at the same company tier; the second record’s projects are smaller in scope.",
+      "o": "L",
+      "opp": "a4rtjsmyhf",
+      "opp_r": 2351
+    }
+  ]
+}

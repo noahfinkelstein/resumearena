@@ -1,0 +1,9 @@
+{
+  "extends": "../tsconfig.base.json",
+  "compilerOptions": {
+    "lib": ["ES2023", "DOM"],
+    "types": ["node"],
+    "typeRoots": ["../node_modules/@types"]
+  },
+  "include": ["lint.ts", "plan-maintenance.ts", "prompts-sync.ts", "verify-assumptions.ts", "test/**/*.ts"]
+}

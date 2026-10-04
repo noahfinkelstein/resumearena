@@ -1,0 +1,243 @@
+{
+  "yo35c23qpf": {
+    "card": {
+      "awards": [],
+      "card_version": "1.0",
+      "career_stage": "senior",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2016,
+          "field": "Computer Science",
+          "gpa_band": "not_listed",
+          "honors": [],
+          "in_progress": false,
+          "institution": "Rutgers University",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 123,
+          "employment_type": "full_time",
+          "highlights": [
+            "Settlement batch runtime cut from 6 hours to 4.5 hours (2021)",
+            "Reference data service response 180 ms to 95 ms with caching",
+            "Java 8 to 17 upgrade of the reporting portal (2024)"
+          ],
+          "impact_scale": "team",
+          "org": "JPMorgan Chase technology division",
+          "org_tier": "B",
+          "role": "Software Engineer (Associate)",
+          "role_selectivity": "selective",
+          "seniority": "mid",
+          "years": "2016-present"
+        },
+        {
+          "duration_months": 12,
+          "employment_type": "full_time",
+          "highlights": [],
+          "impact_scale": "individual",
+          "org": "JPMorgan Chase technology division",
+          "org_tier": "B",
+          "role": "Technology Analyst Program",
+          "role_selectivity": "selective",
+          "seniority": "new_grad",
+          "years": "2016-2017"
+        }
+      ],
+      "headline": "Software engineer, 10 years at a B-tier bank technology division under one title; maintains three post-trade systems",
+      "leadership": [],
+      "notable": [],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Java",
+        "Spring",
+        "PL/SQL",
+        "Oracle",
+        "Batch processing",
+        "REST services",
+        "Autosys",
+        "Jenkins",
+        "JUnit"
+      ],
+      "top_signal": "10 yrs, one title",
+      "years_fulltime": 10.3
+    },
+    "st": "senior"
+  },
+  "yohkicbmyf": {
+    "card": {
+      "awards": [
+        {
+          "name": "Kavli Prize in Nanoscience",
+          "scope": "international",
+          "selectivity": "elite"
+        },
+        {
+          "name": "Member, National Academy of Sciences",
+          "scope": "national",
+          "selectivity": "elite"
+        },
+        {
+          "name": "Member, National Academy of Engineering",
+          "scope": "national",
+          "selectivity": "elite"
+        },
+        {
+          "name": "MacArthur Fellowship",
+          "scope": "national",
+          "selectivity": "elite"
+        },
+        {
+          "name": "Alan T. Waterman Award",
+          "scope": "national",
+          "selectivity": "elite"
+        },
+        {
+          "name": "Packard Fellowship",
+          "scope": "national",
+          "selectivity": "elite"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "executive",
+      "education": [
+        {
+          "degree_level": "phd",
+          "end_year": 1999,
+          "field": "Chemical Engineering",
+          "gpa_band": "not_listed",
+          "honors": [],
+          "in_progress": false,
+          "institution": "Massachusetts Institute of Technology",
+          "institution_tier": "T1"
+        },
+        {
+          "degree_level": "bachelor",
+          "end_year": 1994,
+          "field": "Chemical Engineering",
+          "gpa_band": "not_listed",
+          "honors": [
+            "summa cum laude"
+          ],
+          "in_progress": false,
+          "institution": "Princeton University",
+          "institution_tier": "T1"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 300,
+          "employment_type": "full_time",
+          "highlights": [
+            "Chair of a 34-faculty department with ~$45M annual research expenditure; hired 9 faculty in 5 years",
+            "Founding director of an energy-materials center: 4 to 11 faculty, $25M endowment, ~$70M sponsored research, 14 start-ups",
+            "~200 papers, ~60 in top venues, ~60,000 citations, h-index 118; 14 US patents"
+          ],
+          "impact_scale": "global",
+          "org": "Stanford University",
+          "org_tier": "S",
+          "role": "Professor and Chair, Chemical Engineering",
+          "role_selectivity": "elite",
+          "seniority": "faculty",
+          "years": "2001-present"
+        },
+        {
+          "duration_months": 48,
+          "employment_type": "part_time",
+          "highlights": [
+            "Five-institution center, $19M over four years"
+          ],
+          "impact_scale": "industry",
+          "org": "US Department of Energy",
+          "org_tier": "B",
+          "role": "Director, Energy Frontier Research Center",
+          "role_selectivity": "highly_selective",
+          "seniority": "director",
+          "years": "2012-2016"
+        },
+        {
+          "duration_months": 72,
+          "employment_type": "founder",
+          "highlights": [
+            "Series B; acquired by a major automotive supplier in 2020"
+          ],
+          "impact_scale": "industry",
+          "org": "Solid-state battery materials company (co-founded)",
+          "org_tier": "B",
+          "role": "Co-founder and scientific adviser",
+          "role_selectivity": "highly_selective",
+          "seniority": "founder",
+          "years": "2014-2020"
+        },
+        {
+          "duration_months": 24,
+          "employment_type": "fellowship",
+          "highlights": [
+            "Offered a Miller Fellowship, declined for a faculty position"
+          ],
+          "impact_scale": "team",
+          "org": "University of California, Berkeley",
+          "org_tier": "A",
+          "role": "Postdoctoral Fellow, Chemistry",
+          "role_selectivity": "highly_selective",
+          "seniority": "postdoc",
+          "years": "1999-2001"
+        }
+      ],
+      "headline": "Full professor and department chair at a T1 university; NAS and NAE member; Kavli Prize; ~200 papers, ~60,000 citations",
+      "leadership": [
+        "Chair of a 34-faculty department; 9 faculty hired, doctoral applications up 60%, $80M renovation funded",
+        "Founding director of an 11-faculty center with a $25M endowment and ~$70M cumulative sponsored research",
+        "Supervised 42 PhDs and 38 postdocs; 15 now faculty, 3 with NSF CAREER awards",
+        "Chaired a DOE advisory subcommittee; associate editor of a top chemistry journal"
+      ],
+      "notable": [
+        "Kavli Prize laureate and member of both national academies",
+        "About 60,000 citations with ten papers above 900 citations each, including Science and Nature",
+        "Fifteen former trainees on faculties including MIT, Berkeley, Caltech and ETH Zurich",
+        "Co-founded a battery materials company acquired by a major automotive supplier",
+        "Highly Cited Researcher ten years running"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "~60,000 citations claimed; h-index 118",
+        "count_total": 200,
+        "first_author_count": 0,
+        "strong_venue_count": 40,
+        "top_venue_count": 60,
+        "venues": [
+          "Nature",
+          "Science",
+          "Nature Energy",
+          "Nature Materials",
+          "JACS",
+          "Nature Communications",
+          "PNAS",
+          "Annual Reviews"
+        ]
+      },
+      "skills_top": [
+        "Interfacial electrochemistry",
+        "Solid-state electrolytes",
+        "Operando X-ray and electron microscopy",
+        "Materials synthesis",
+        "Research leadership",
+        "Fundraising",
+        "German (fluent)"
+      ],
+      "top_signal": "Kavli Prize, NAS",
+      "years_fulltime": 27
+    },
+    "st": "executive"
+  }
+}

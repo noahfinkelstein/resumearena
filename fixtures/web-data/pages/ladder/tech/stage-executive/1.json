@@ -1,0 +1,40 @@
+{
+  "category": "tech",
+  "cols": [
+    "rank",
+    "id",
+    "identity",
+    "tier",
+    "r",
+    "pm",
+    "w",
+    "l",
+    "d",
+    "stage",
+    "sig",
+    "d7",
+    "top"
+  ],
+  "page": 1,
+  "pages": 1,
+  "partition": "stage-executive",
+  "rows": [
+    [
+      1,
+      "rd44paml4q",
+      "anon-rd44pam",
+      "expert",
+      1848,
+      205,
+      9,
+      1,
+      4,
+      "executive",
+      "Founder-CEO, IPO",
+      0,
+      1
+    ]
+  ],
+  "schema": 1,
+  "total": 1
+}

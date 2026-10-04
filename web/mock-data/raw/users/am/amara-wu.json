@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-09-21T14:20:11Z",
+  "handle": "amara-wu",
+  "key_exposed": false,
+  "owner_hash": "49343c16e90418eddab82c40bb0b5a7ea53d1dffdf9b239fe4e07c560c4945e7",
+  "resumes": [
+    {
+      "created_at": "2026-09-21T14:20:11Z",
+      "current": true,
+      "id": "a4rtjsmyhf"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

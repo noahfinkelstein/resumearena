@@ -1,0 +1,32 @@
+{
+  "expect": {
+    "gate": "pass",
+    "status": "analyzed"
+  },
+  "group": "gamed",
+  "intended_anchor": null,
+  "intended_categories": [
+    "general",
+    "tech"
+  ],
+  "intended_stage": "new_grad",
+  "metrics": {
+    "char_count": 3026,
+    "columns_detected": 0,
+    "extraction_quality": 1,
+    "font_count": 0,
+    "image_count": 0,
+    "pages": 2,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 2
+    },
+    "source": "paste",
+    "word_count": 483
+  },
+  "slug": "gamed-fabricated-rhodes-ioi-series-b-at-22"
+}

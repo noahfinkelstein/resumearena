@@ -1,0 +1,133 @@
+{
+  "si4jwz5kcs": {
+    "card": {
+      "awards": [
+        {
+          "name": "Baker Scholar",
+          "scope": "institutional",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "Joseph Wharton Scholar",
+          "scope": "institutional",
+          "selectivity": "selective"
+        },
+        {
+          "name": "CFA charterholder",
+          "scope": "international",
+          "selectivity": "selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "senior",
+      "education": [
+        {
+          "degree_level": "mba",
+          "end_year": 2014,
+          "field": "Business Administration",
+          "gpa_band": "not_listed",
+          "honors": [
+            "Baker Scholar"
+          ],
+          "in_progress": false,
+          "institution": "Harvard Business School",
+          "institution_tier": "T1"
+        },
+        {
+          "degree_level": "bachelor",
+          "end_year": 2010,
+          "field": "Economics",
+          "gpa_band": "not_listed",
+          "honors": [
+            "summa cum laude",
+            "Joseph Wharton Scholar"
+          ],
+          "in_progress": false,
+          "institution": "University of Pennsylvania (Wharton)",
+          "institution_tier": "T2"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 54,
+          "employment_type": "founder",
+          "highlights": [
+            "$2.0B Fund I in a single close; 28 institutional LPs",
+            "Realized 3.2x on a $140M investment sold at $1.4B EV",
+            "Fund I at 1.6x gross and 22% net IRR; Fund II targeting $2.5B"
+          ],
+          "impact_scale": "industry",
+          "org": "Growth equity fund (founded)",
+          "org_tier": "A",
+          "role": "Founder and Managing Partner",
+          "role_selectivity": "elite",
+          "seniority": "founder",
+          "years": "2022-present"
+        },
+        {
+          "duration_months": 96,
+          "employment_type": "full_time",
+          "highlights": [
+            "Led 9 investments totaling $2.3B",
+            "Realized 4.1x through an IPO and 2.6x through a strategic sale",
+            "Youngest partner promotion in the group at 33"
+          ],
+          "impact_scale": "industry",
+          "org": "General Atlantic",
+          "org_tier": "A",
+          "role": "Partner, Technology (VP through Partner)",
+          "role_selectivity": "elite",
+          "seniority": "md_partner",
+          "years": "2014-2022"
+        },
+        {
+          "duration_months": 24,
+          "employment_type": "full_time",
+          "highlights": [
+            "8 announced deals ($11B); top bucket both years"
+          ],
+          "impact_scale": "org",
+          "org": "Goldman Sachs",
+          "org_tier": "S",
+          "role": "Analyst, TMT Investment Banking",
+          "role_selectivity": "elite",
+          "seniority": "analyst",
+          "years": "2010-2012"
+        }
+      ],
+      "headline": "Founding managing partner of a $2B growth fund; ex-partner at an A-tier growth equity firm; S-tier TMT banking; 3 exits",
+      "leadership": [
+        "Leads a 19-person investment firm and its investment committee",
+        "Five current portfolio boards; chaired audit and compensation committees",
+        "Investment committee of a $1.8B university endowment"
+      ],
+      "notable": [
+        "Raised a $2.0B first fund in a single close",
+        "Three realized exits at 4.1x, 3.2x and 2.6x",
+        "Partner at 33 at an A-tier growth firm",
+        "Baker Scholar after top-bucket S-tier banking"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Growth equity underwriting",
+        "Fundraising",
+        "Board governance",
+        "Vertical software",
+        "Healthcare IT",
+        "Fintech",
+        "Exit execution"
+      ],
+      "top_signal": "Founded $2B fund",
+      "years_fulltime": 14.5
+    },
+    "st": "senior"
+  }
+}

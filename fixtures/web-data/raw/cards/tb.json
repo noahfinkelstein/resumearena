@@ -1,0 +1,109 @@
+{
+  "tbaag4phg4": {
+    "card": {
+      "awards": [],
+      "card_version": "1.0",
+      "career_stage": "early",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2024,
+          "field": "Computer Science",
+          "gpa_band": "3.0-3.49",
+          "honors": [],
+          "in_progress": false,
+          "institution": "University of Nebraska–Lincoln",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 17,
+          "employment_type": "full_time",
+          "highlights": [
+            "Built an invoice reconciliation tool that cut a weekly 9-hour task to 2 hours",
+            "Raised billing-service test coverage from 41% to 68%; incidents fell from 7 to 2 per quarter",
+            "Maintains the carrier-rate import pipeline; 10-15 support tickets a month"
+          ],
+          "impact_scale": "team",
+          "org": "Freightline Systems",
+          "org_tier": "C",
+          "role": "Software Engineer I",
+          "role_selectivity": "modest",
+          "seniority": "junior",
+          "years": "2024-present"
+        },
+        {
+          "duration_months": 4,
+          "employment_type": "internship",
+          "highlights": [
+            "Shipped CSV export used by about 120 customer accounts; return offer"
+          ],
+          "impact_scale": "team",
+          "org": "Freightline Systems",
+          "org_tier": "C",
+          "role": "Software Engineering Intern",
+          "role_selectivity": "modest",
+          "seniority": "intern",
+          "years": "2023-2023"
+        },
+        {
+          "duration_months": 10,
+          "employment_type": "part_time",
+          "highlights": [
+            "Ran two weekly lab sections of about 25 students"
+          ],
+          "impact_scale": "individual",
+          "org": "University of Nebraska–Lincoln",
+          "org_tier": "D",
+          "role": "Teaching Assistant",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2022-2023"
+        }
+      ],
+      "headline": "Junior developer, 2 years at a mid-size logistics software company; built a reconciliation tool with a measured saving",
+      "leadership": [
+        "Volunteer mentor at a weekend coding club for high-school students (2 years)"
+      ],
+      "notable": [],
+      "projects": [
+        {
+          "descriptor": "Personal ML project: freight ETA model on a public dataset",
+          "highlight": "MAE 3.1 h against a 5.4 h baseline",
+          "kind": "software",
+          "scale_signal": "none stated",
+          "technical_depth": "standard"
+        },
+        {
+          "descriptor": "Capstone: constraint-based course timetable generator (team of 4)",
+          "highlight": "Owned the solver and database layer; demoed to the advising office",
+          "kind": "software",
+          "scale_signal": "none stated",
+          "technical_depth": "standard"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Python",
+        "PostgreSQL",
+        "Java",
+        "Spring Boot",
+        "React",
+        "Kubernetes",
+        "pytest",
+        "Grafana"
+      ],
+      "top_signal": "9h to 2h reconcile",
+      "years_fulltime": 1.4
+    },
+    "st": "early"
+  }
+}

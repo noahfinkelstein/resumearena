@@ -1,0 +1,55 @@
+[name]
+New York, NY · [email] · [phone] · [url]
+
+SUMMARY
+Senior analyst on the portfolio-manager track at Citadel (Surveyor Capital), covering US software and internet with a $650M gross book. Attributed P&L of $45M over the last three calendar years with a Sharpe above 1.6 in each. Eight years in markets: two in Goldman Sachs TMT investment banking, six at Citadel. CFA charterholder. Harvard applied mathematics.
+
+EXPERIENCE
+
+Citadel — Surveyor Capital, New York, NY
+Senior Analyst, US Software and Internet (PM track) | Jan 2023 – Present
+- Run a $650M gross / $120M net long-short book within a sector PM's pod; sole coverage of 35 names across enterprise software and internet marketplaces
+- Attributed P&L: $18M (2025), $15M (2024), $12M (2023); annual Sharpe 1.7, 1.6 and 1.9; worst drawdown 2.1% of gross
+- Built a position-sizing framework tied to event calendars and factor exposures that cut the book's net factor beta from 0.21 to 0.06 while keeping idiosyncratic return
+- Developed the pod's alternative-data pipeline for software usage and hiring signals (Python, SQL); it now feeds 3 analysts' models and was credited on 6 of the 10 largest winners in 2025
+- Manage one analyst and one quantitative associate; both promoted within the pod on schedule
+- Approved for PM-track allocation in 2026 with a target launch book of $1.5B gross
+- Largest single-name contributions: a short in a vertical-software consolidator ahead of a 40% guidance cut (about $6M), and a long in an infrastructure-software name through two beat-and-raise quarters (about $5M)
+- Built a 9-year cohort model for seat-based software companies that the pod now uses as its standard template; maintain a 120-page coverage book updated quarterly
+- Present the book's positioning and risk to the Surveyor investment committee monthly; completed Citadel's PM development program in 2025
+
+Analyst, US Software | Jul 2019 – Dec 2022
+- Covered 20 enterprise software names for a $2B pod; built the earnings models and short theses that produced 2 of the pod's 5 largest gains in 2021
+- Developed a channel-check program across 40 resellers and systems integrators that preceded 3 guidance cuts by at least one quarter
+- Flagged a revenue-recognition change at a covered company two quarters before a restatement; the resulting short was the pod's largest gain in 2022 (about $9M, of which about $4M attributed to me)
+- Wrote the pod's weekly sector note (about 900 subscribers inside the firm) from 2020 to 2022
+- Promoted to senior analyst after three and a half years, one year ahead of the typical Surveyor ladder
+
+Goldman Sachs — Investment Banking Division, TMT Group, New York, NY
+Analyst | Jul 2017 – Jun 2019
+- Executed 6 closed transactions totaling about $14B in value: 3 sell-side M&A mandates for enterprise software companies, 2 IPOs and 1 convertible offering
+- Built the merger model and synergy analysis for a $4.2B public-to-public software combination; presented the accretion case to the client CFO
+- Advised on the $2.8B sale of a payments-software company to a strategic acquirer; ran the data room and the buyer diligence process across 9 bidders
+- Ranked top bucket in both analyst review cycles; selected to lead the group's new-analyst modeling training in 2018
+
+Goldman Sachs — Investment Banking Division, TMT Group, New York, NY
+Summer Analyst | Jun 2016 – Aug 2016
+- Built the comparables and precedent-transactions analyses for 3 live software pitches; received a full-time offer at the end of the program
+
+EDUCATION
+Harvard University — Cambridge, MA
+A.B. in Applied Mathematics (economics track), magna cum laude, 2017 | GPA 3.86
+Senior thesis on order-flow imbalance and short-horizon equity returns; John Harvard Scholar (2015, 2016)
+Harvard Financial Analysts Club, director of education; Harvard varsity squash, 2013 – 2015
+
+CREDENTIALS
+- CFA charterholder (charter awarded 2021; passed all three levels on the first attempt)
+- Series 7, 63 and 86/87 (held while at Goldman Sachs)
+
+INVESTMENT PROCESS AND TOOLS
+Bottom-up fundamental research, unit-economics and cohort modeling, event-driven positioning, factor-neutral portfolio construction; Python (pandas, statsmodels), SQL, Bloomberg, FactSet, Visible Alpha, internal risk systems
+
+OTHER
+- Guest lecturer, Harvard undergraduate course on investment analysis, 2024 and 2025
+- Volunteer mentor, a nonprofit that prepares first-generation college students for finance careers, 2020 – Present
+- Fluent in Mandarin

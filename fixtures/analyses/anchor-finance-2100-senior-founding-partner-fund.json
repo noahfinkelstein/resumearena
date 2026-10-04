@@ -1,0 +1,524 @@
+{
+  "analysis_confidence": 0.95,
+  "ats": {
+    "detected": {
+      "action_verb_ratio": 0.85,
+      "bullet_count": 34,
+      "bullet_marker_consistent": true,
+      "contact_at_top": true,
+      "date_format_consistent": true,
+      "date_formats_seen": [
+        "YYYY"
+      ],
+      "has_email": true,
+      "has_location": true,
+      "has_phone": true,
+      "has_profile_link": true,
+      "has_street_address": false,
+      "has_summary_section": true,
+      "nonstandard_headings": [
+        "BOARD AND ADVISORY ROLES",
+        "SELECTED INVESTMENTS AND OUTCOMES",
+        "OTHER"
+      ],
+      "quantified_bullet_ratio": 0.9,
+      "reverse_chronological": true,
+      "section_order": [
+        "Summary",
+        "Experience",
+        "Education",
+        "Leadership",
+        "Projects",
+        "Awards"
+      ],
+      "skill_bars_or_ratings": false,
+      "standard_headings": [
+        "SUMMARY",
+        "EXPERIENCE",
+        "EDUCATION"
+      ],
+      "uses_tables_suspected": false
+    },
+    "factors": {
+      "consistency": {
+        "note": "One date format (YYYY); titles match scope",
+        "score": 100
+      },
+      "contact_info": {
+        "note": "Email, phone, city and a profile link",
+        "score": 100
+      },
+      "formatting": {
+        "note": "Standard headings, one bullet glyph, reverse-chronological, one font",
+        "score": 100
+      },
+      "keyword_alignment": {
+        "note": "Growth equity partner target: sourcing, underwriting, exits, boards, fundraising and LP relations all appear with numbers",
+        "score": 95
+      },
+      "length": {
+        "note": "2 pages for a senior investor",
+        "score": 100
+      },
+      "parseability": {
+        "note": "Single-column 2-page PDF, extraction quality 0.98; contact placeholders on line 2",
+        "score": 100
+      },
+      "quantification": {
+        "note": "Nearly every bullet carries a fund size, multiple, dollar figure or count",
+        "score": 100
+      }
+    },
+    "fixes": [
+      {
+        "factor": "formatting",
+        "fix": "Keep the table and shorten the matching bullets to one line each",
+        "issue": "The investments table repeats outcomes already in the role bullets",
+        "priority": "low"
+      },
+      {
+        "factor": "consistency",
+        "fix": "State the lead-investment count once with the period it covers",
+        "issue": "The summary counts 14 lead investments; the roles describe 7 plus 9 with overlap",
+        "priority": "low"
+      },
+      {
+        "factor": "keyword_alignment",
+        "fix": "Move credentials into a \"Credentials\" line under Education",
+        "issue": "\"Other\" buries the CFA charter and licenses",
+        "priority": "low"
+      }
+    ],
+    "score": 99,
+    "target_role_used": "Growth equity partner or fund founder"
+  },
+  "awards": [
+    {
+      "issuer": "Harvard Business School",
+      "name": "Baker Scholar",
+      "pool_estimate": "top 5% of about 900 MBAs",
+      "scope": "institutional",
+      "selectivity": "highly_selective",
+      "verifiable": true,
+      "year": 2014
+    },
+    {
+      "issuer": "Wharton",
+      "name": "Joseph Wharton Scholar",
+      "pool_estimate": "honors program, top ~10% of class",
+      "scope": "institutional",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2010
+    },
+    {
+      "issuer": "CFA Institute",
+      "name": "CFA charterholder",
+      "pool_estimate": "three exams, ~40% pass each",
+      "scope": "international",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2016
+    }
+  ],
+  "card": {
+    "awards": [
+      {
+        "name": "Baker Scholar",
+        "scope": "institutional",
+        "selectivity": "highly_selective"
+      },
+      {
+        "name": "Joseph Wharton Scholar",
+        "scope": "institutional",
+        "selectivity": "selective"
+      },
+      {
+        "name": "CFA charterholder",
+        "scope": "international",
+        "selectivity": "selective"
+      }
+    ],
+    "card_version": "1.0",
+    "career_stage": "senior",
+    "education": [
+      {
+        "degree_level": "mba",
+        "end_year": 2014,
+        "field": "Business Administration",
+        "gpa_band": "not_listed",
+        "honors": [
+          "Baker Scholar"
+        ],
+        "in_progress": false,
+        "institution": "Harvard Business School",
+        "institution_tier": "T1"
+      },
+      {
+        "degree_level": "bachelor",
+        "end_year": 2010,
+        "field": "Economics",
+        "gpa_band": "not_listed",
+        "honors": [
+          "summa cum laude",
+          "Joseph Wharton Scholar"
+        ],
+        "in_progress": false,
+        "institution": "University of Pennsylvania (Wharton)",
+        "institution_tier": "T2"
+      }
+    ],
+    "experiences": [
+      {
+        "duration_months": 54,
+        "employment_type": "founder",
+        "highlights": [
+          "$2.0B Fund I in a single close; 28 institutional LPs",
+          "Realized 3.2x on a $140M investment sold at $1.4B EV",
+          "Fund I at 1.6x gross and 22% net IRR; Fund II targeting $2.5B"
+        ],
+        "impact_scale": "industry",
+        "org": "Growth equity fund (founded)",
+        "org_tier": "A",
+        "role": "Founder and Managing Partner",
+        "role_selectivity": "elite",
+        "seniority": "founder",
+        "years": "2022-present"
+      },
+      {
+        "duration_months": 96,
+        "employment_type": "full_time",
+        "highlights": [
+          "Led 9 investments totaling $2.3B",
+          "Realized 4.1x through an IPO and 2.6x through a strategic sale",
+          "Youngest partner promotion in the group at 33"
+        ],
+        "impact_scale": "industry",
+        "org": "General Atlantic",
+        "org_tier": "A",
+        "role": "Partner, Technology (VP through Partner)",
+        "role_selectivity": "elite",
+        "seniority": "md_partner",
+        "years": "2014-2022"
+      },
+      {
+        "duration_months": 24,
+        "employment_type": "full_time",
+        "highlights": [
+          "8 announced deals ($11B); top bucket both years"
+        ],
+        "impact_scale": "org",
+        "org": "Goldman Sachs",
+        "org_tier": "S",
+        "role": "Analyst, TMT Investment Banking",
+        "role_selectivity": "elite",
+        "seniority": "analyst",
+        "years": "2010-2012"
+      }
+    ],
+    "headline": "Founding managing partner of a $2B growth fund; ex-partner at an A-tier growth equity firm; S-tier TMT banking; 3 exits",
+    "leadership": [
+      "Leads a 19-person investment firm and its investment committee",
+      "Five current portfolio boards; chaired audit and compensation committees",
+      "Investment committee of a $1.8B university endowment"
+    ],
+    "notable": [
+      "Raised a $2.0B first fund in a single close",
+      "Three realized exits at 4.1x, 3.2x and 2.6x",
+      "Partner at 33 at an A-tier growth firm",
+      "Baker Scholar after top-bucket S-tier banking"
+    ],
+    "projects": [],
+    "publications_summary": {
+      "citation_signal": "not stated",
+      "count_total": 0,
+      "first_author_count": 0,
+      "strong_venue_count": 0,
+      "top_venue_count": 0,
+      "venues": []
+    },
+    "skills_top": [
+      "Growth equity underwriting",
+      "Fundraising",
+      "Board governance",
+      "Vertical software",
+      "Healthcare IT",
+      "Fintech",
+      "Exit execution"
+    ],
+    "top_signal": "Founded $2B fund",
+    "years_fulltime": 14.5
+  },
+  "category_relevance": {
+    "academia": 0,
+    "finance": 1,
+    "general": 1,
+    "tech": 0.1
+  },
+  "education": [
+    {
+      "degree_level": "mba",
+      "end_year": 2014,
+      "field": "Business Administration",
+      "gpa": null,
+      "gpa_band": "not_listed",
+      "gpa_scale": null,
+      "honors": [
+        "Baker Scholar (top 5%)"
+      ],
+      "in_progress": false,
+      "institution": "Harvard Business School",
+      "institution_tier": "T1",
+      "notes": "",
+      "start_year": 2012
+    },
+    {
+      "degree_level": "bachelor",
+      "end_year": 2010,
+      "field": "Economics (Finance and Statistics)",
+      "gpa": null,
+      "gpa_band": "not_listed",
+      "gpa_scale": null,
+      "honors": [
+        "summa cum laude",
+        "Joseph Wharton Scholar"
+      ],
+      "in_progress": false,
+      "institution": "University of Pennsylvania, The Wharton School",
+      "institution_tier": "T2",
+      "notes": "",
+      "start_year": null
+    }
+  ],
+  "experiences": [
+    {
+      "bullets_condensed": [
+        "Raised a $2.0B Fund I in a single 2023 close; 28 institutional LPs including three named pension and endowment anchors",
+        "Leads a 19-person team; deployed $1.1B across 7 investments growing revenue 46% a year",
+        "Realized 3.2x on a $140M investment sold at $1.4B EV (2025); Fund I at 1.6x gross, 22% net IRR",
+        "Fund II in market at a $2.5B target with re-ups from 24 of 28 LPs"
+      ],
+      "duration_months": 54,
+      "employment_type": "founder",
+      "end": "present",
+      "impact_scale": "industry",
+      "is_current": true,
+      "org": "Meridian Crest Growth Partners",
+      "org_tier": "A",
+      "org_type": "fund",
+      "ownership": "led",
+      "quantified_impact": true,
+      "role": "Founder and Managing Partner",
+      "role_selectivity": "elite",
+      "seniority": "founder",
+      "start": "2022",
+      "team_or_division": null
+    },
+    {
+      "bullets_condensed": [
+        "Led or co-led 9 investments totaling $2.3B in software, fintech and healthcare IT",
+        "Realized 4.1x on a $210M cybersecurity investment through IPO; 2.6x on a $160M healthcare payments sale",
+        "Co-led a 2019 strategy review reallocating $1.5B toward vertical software (cohort 2.9x gross)",
+        "Youngest partner promotion in the technology group at the time (age 33); 7 boards"
+      ],
+      "duration_months": 96,
+      "employment_type": "full_time",
+      "end": "2022",
+      "impact_scale": "industry",
+      "is_current": false,
+      "org": "General Atlantic",
+      "org_tier": "A",
+      "org_type": "fund",
+      "ownership": "led",
+      "quantified_impact": true,
+      "role": "Partner (from Vice President)",
+      "role_selectivity": "elite",
+      "seniority": "md_partner",
+      "start": "2014",
+      "team_or_division": "Technology"
+    },
+    {
+      "bullets_condensed": [
+        "8 announced transactions ($11B), including a $3.4B software merger",
+        "Top-bucket both years; offered the third-year promotion"
+      ],
+      "duration_months": 24,
+      "employment_type": "full_time",
+      "end": "2012",
+      "impact_scale": "org",
+      "is_current": false,
+      "org": "Goldman Sachs",
+      "org_tier": "S",
+      "org_type": "bank",
+      "ownership": "contributed",
+      "quantified_impact": true,
+      "role": "Analyst",
+      "role_selectivity": "elite",
+      "seniority": "analyst",
+      "start": "2010",
+      "team_or_division": "Investment Banking, TMT"
+    }
+  ],
+  "input": {
+    "is_resume": true,
+    "language": "en",
+    "parse_confidence": 0.98,
+    "placeholders_seen": [
+      "name",
+      "email",
+      "phone",
+      "url"
+    ],
+    "word_count_estimate": 890
+  },
+  "leadership": [
+    {
+      "budget_or_scale": "$2.0B fund; 28 institutional LPs",
+      "elected_or_appointed": "founded",
+      "highlight": "Founded the firm and leads its investment committee",
+      "org": "Meridian Crest Growth Partners",
+      "people_led": 19,
+      "role": "Founder and Managing Partner"
+    },
+    {
+      "budget_or_scale": "5 current boards; 7 prior",
+      "elected_or_appointed": "appointed",
+      "highlight": "Chaired two audit committees and one compensation committee",
+      "org": "Five portfolio companies",
+      "people_led": null,
+      "role": "Director (lead director at one)"
+    },
+    {
+      "budget_or_scale": "$1.8B endowment",
+      "elected_or_appointed": "appointed",
+      "highlight": "Investment committee since 2024",
+      "org": "University endowment ($1.8B)",
+      "people_led": null,
+      "role": "Investment committee member"
+    }
+  ],
+  "projects": [],
+  "publications": [],
+  "red_flags": [],
+  "residual_pii": {
+    "email_count": 0,
+    "name_suspected": false,
+    "other_identifiers": [],
+    "phone_count": 0,
+    "street_address_suspected": false,
+    "url_count": 0
+  },
+  "schema_version": "1.1",
+  "scores": {
+    "academia": {
+      "holistic_score": 8,
+      "included": false,
+      "rationale": "One practitioner book chapter.",
+      "stage_relative_score": 8,
+      "sub_scores": {
+        "breadth": 10,
+        "impact": 10,
+        "pedigree": 70,
+        "selectivity": 50,
+        "trajectory": 40
+      },
+      "top_evidence": []
+    },
+    "finance": {
+      "holistic_score": 97,
+      "included": true,
+      "rationale": "Multiple S/A-tier selections in sequence, a founded fund at institutional scale, realized multiples and a marked Fund I; the only reservation is a sixteen-year record that is entirely growth equity.",
+      "stage_relative_score": 98,
+      "sub_scores": {
+        "breadth": 55,
+        "impact": 94,
+        "pedigree": 96,
+        "selectivity": 97,
+        "trajectory": 96
+      },
+      "top_evidence": [
+        "$2.0B Fund I single close; Fund II at $2.5B with 24 of 28 re-ups",
+        "Realized exits at 4.1x, 3.2x and 2.6x gross",
+        "Partner at 33; GS TMT top-bucket analyst; Baker Scholar"
+      ]
+    },
+    "general": {
+      "holistic_score": 96,
+      "included": true,
+      "rationale": "S-tier banking start, Baker Scholar, youngest partner in an A-tier growth group, then a $2B fund with named institutional anchors; three realized exits with multiples and five board seats.",
+      "stage_relative_score": 97,
+      "sub_scores": {
+        "breadth": 60,
+        "impact": 92,
+        "pedigree": 95,
+        "selectivity": 96,
+        "trajectory": 95
+      },
+      "top_evidence": [
+        "Founded a $2.0B growth equity fund with named institutional anchors",
+        "Youngest partner promotion at an A-tier growth firm; 4.1x and 2.6x realized exits",
+        "Goldman Sachs TMT analyst, top bucket; HBS Baker Scholar"
+      ]
+    },
+    "tech": {
+      "holistic_score": 20,
+      "included": false,
+      "rationale": "Invests in software; no technical role.",
+      "stage_relative_score": 20,
+      "sub_scores": {
+        "breadth": 20,
+        "impact": 40,
+        "pedigree": 60,
+        "selectivity": 60,
+        "trajectory": 60
+      },
+      "top_evidence": []
+    }
+  },
+  "signals": {
+    "career_stage": "senior",
+    "has_quantified_impact": true,
+    "highest_institution_tier": "T1",
+    "highest_org_tier": "S",
+    "max_impact_scale": "industry",
+    "months_internship": 0,
+    "primary_domain": "finance",
+    "sustained_org_tier": "S",
+    "top_role_selectivity": "elite",
+    "trajectory": "accelerating",
+    "years_fulltime": 14.5
+  },
+  "skills": {
+    "certifications": [
+      "CFA charter",
+      "Series 7, 63 and 79 (inactive)"
+    ],
+    "domain": [
+      "Vertical software",
+      "Healthcare technology",
+      "Fintech",
+      "Fundraising"
+    ],
+    "keyword_stuffing_suspected": false,
+    "spoken_languages": [],
+    "technical": [
+      "Growth equity underwriting",
+      "Cohort revenue analysis",
+      "Fund formation and LP reporting",
+      "Board governance"
+    ]
+  },
+  "strengths": [
+    "Founded and closed a $2.0B fund with named pension and endowment anchors",
+    "Three realized exits with stated multiples (4.1x, 3.2x, 2.6x) and a marked Fund I (1.6x gross, 22% net IRR)",
+    "Youngest partner promotion in an A-tier technology growth group",
+    "Goldman Sachs TMT top-bucket analyst and HBS Baker Scholar"
+  ],
+  "verdict": "A growth investor whose record is a sequence of selections by others ending in a $2B fund of his own; the register is dry and every outcome is sized.",
+  "weaknesses": [
+    "Sixteen years entirely in growth equity; no operating or public-markets exposure",
+    "Fund I is 2.5 years into deployment, so most marks are unrealized",
+    "Board and advisory list leans on anonymized descriptions",
+    "Investments table and bullets duplicate each other"
+  ]
+}

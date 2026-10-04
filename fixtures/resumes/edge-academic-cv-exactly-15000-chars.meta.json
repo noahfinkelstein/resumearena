@@ -1,0 +1,32 @@
+{
+  "expect": {
+    "gate": "pass",
+    "status": "analyzed"
+  },
+  "group": "edge",
+  "intended_anchor": null,
+  "intended_categories": [
+    "general",
+    "academia"
+  ],
+  "intended_stage": "senior",
+  "metrics": {
+    "char_count": 15000,
+    "columns_detected": 1,
+    "extraction_quality": 0.94,
+    "font_count": 1,
+    "image_count": 0,
+    "pages": 6,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 2056
+  },
+  "slug": "edge-academic-cv-exactly-15000-chars"
+}

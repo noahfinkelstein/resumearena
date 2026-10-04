@@ -1,0 +1,40 @@
+{
+  "category": "academia",
+  "cols": [
+    "rank",
+    "id",
+    "identity",
+    "tier",
+    "r",
+    "pm",
+    "w",
+    "l",
+    "d",
+    "stage",
+    "sig",
+    "d7",
+    "top"
+  ],
+  "page": 1,
+  "pages": 1,
+  "partition": "stage-executive",
+  "rows": [
+    [
+      1,
+      "yohkicbmyf",
+      "academia-2100-execut",
+      "candidate",
+      1673,
+      211,
+      7,
+      1,
+      7,
+      "executive",
+      "Kavli Prize, NAS",
+      0,
+      1
+    ]
+  ],
+  "schema": 1,
+  "total": 1
+}

@@ -1,0 +1,88 @@
+{
+  "37sazldmbg": {
+    "card": {
+      "awards": [],
+      "card_version": "1.0",
+      "career_stage": "early",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2022,
+          "field": "Business Administration, Management",
+          "gpa_band": "not_listed",
+          "honors": [],
+          "in_progress": false,
+          "institution": "Kansas State University",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 51,
+          "employment_type": "full_time",
+          "highlights": [
+            "Schedules deliveries, supports inventory counts and prepares shipping reports"
+          ],
+          "impact_scale": "individual",
+          "org": "Tri-State Regional Distribution",
+          "org_tier": "C",
+          "role": "Operations Coordinator",
+          "role_selectivity": "modest",
+          "seniority": "junior",
+          "years": "2022-present"
+        },
+        {
+          "duration_months": 9,
+          "employment_type": "part_time",
+          "highlights": [],
+          "impact_scale": "individual",
+          "org": "Tri-State Regional Distribution",
+          "org_tier": "C",
+          "role": "Warehouse Associate (seasonal)",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2019-2021"
+        },
+        {
+          "duration_months": 21,
+          "employment_type": "part_time",
+          "highlights": [
+            "Supervised student employees on shifts"
+          ],
+          "impact_scale": "team",
+          "org": "Kansas State University Dining Services",
+          "org_tier": "C",
+          "role": "Student Supervisor",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2020-2022"
+        }
+      ],
+      "headline": "Operations coordinator, 4 years at a regional distributor; T3 business degree; responsibilities listed without outcomes",
+      "leadership": [
+        "Student shift supervisor in university dining"
+      ],
+      "notable": [],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Scheduling",
+        "Inventory support",
+        "Vendor communication",
+        "Excel",
+        "Warehouse management systems",
+        "OSHA 10"
+      ],
+      "top_signal": "Ops coordinator",
+      "years_fulltime": 4.2
+    },
+    "st": "early"
+  }
+}

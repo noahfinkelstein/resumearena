@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:39:00Z",
+  "handle": "general-2100-executi",
+  "key_exposed": false,
+  "owner_hash": "b1cf507507931070d7e25c90ddfd98b058c64a70e76cfa3197b3ab6e75f8b7f3",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:39:00Z",
+      "current": true,
+      "id": "rd44paml4q"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

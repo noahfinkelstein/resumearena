@@ -1,0 +1,90 @@
+{
+  "okoo7overc": {
+    "card": {
+      "awards": [],
+      "card_version": "1.0",
+      "career_stage": "student",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2028,
+          "field": "Communication Studies",
+          "gpa_band": "not_listed",
+          "honors": [
+            "Dean's List (one semester)"
+          ],
+          "in_progress": true,
+          "institution": "University of North Carolina at Greensboro",
+          "institution_tier": "T4"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 26,
+          "employment_type": "part_time",
+          "highlights": [
+            "Certified barista trainer in 2025; store partner of the month once"
+          ],
+          "impact_scale": "individual",
+          "org": "Starbucks",
+          "org_tier": "C",
+          "role": "Barista",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2024-present"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "part_time",
+          "highlights": [
+            "Supervised groups of ~15 children; helped plan a talent show"
+          ],
+          "impact_scale": "individual",
+          "org": "City parks and recreation department",
+          "org_tier": "C",
+          "role": "Summer Camp Counselor",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2024"
+        },
+        {
+          "duration_months": 21,
+          "employment_type": "volunteer",
+          "highlights": [
+            "Weekly campus tours for prospective students"
+          ],
+          "impact_scale": "individual",
+          "org": "University admissions office",
+          "org_tier": "C",
+          "role": "Volunteer campus tour guide",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2025-present"
+        }
+      ],
+      "headline": "Communications sophomore at a T4 regional university; part-time barista and former camp counselor; two club memberships",
+      "leadership": [],
+      "notable": [],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Microsoft Word",
+        "PowerPoint",
+        "Canva",
+        "Google Workspace",
+        "Social media (Instagram, TikTok, Facebook)",
+        "Customer service"
+      ],
+      "top_signal": "Comms sophomore",
+      "years_fulltime": 0
+    },
+    "st": "student"
+  }
+}

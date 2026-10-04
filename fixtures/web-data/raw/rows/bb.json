@@ -1,0 +1,38 @@
+{
+  "bbbx4b7znn": {
+    "c": {
+      "general": 1,
+      "tech": 0.75
+    },
+    "ch": "ad8e9022153af37506e716b321f251601f3882c826ccc60824c54ac52234a2f5",
+    "h": "tool-list-no-evidenc",
+    "p": "tech",
+    "s": "analyzed",
+    "sc": {
+      "general": 25,
+      "tech": 25
+    },
+    "sig": "T3 grad, help desk",
+    "ss": {
+      "general": [
+        30,
+        35,
+        12,
+        15,
+        22,
+        27
+      ],
+      "tech": [
+        30,
+        35,
+        12,
+        15,
+        20,
+        28
+      ]
+    },
+    "st": "new_grad",
+    "t": 1791031320,
+    "v": "anonymous"
+  }
+}

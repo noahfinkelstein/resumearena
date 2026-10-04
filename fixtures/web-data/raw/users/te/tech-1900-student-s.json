@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:07:00Z",
+  "handle": "tech-1900-student-s",
+  "key_exposed": false,
+  "owner_hash": "40f3e1a4956313cd690442681778f97f7fe557bf20491bf1de966e7d02bdf08d",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:07:00Z",
+      "current": true,
+      "id": "dtxtsp6zgw"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

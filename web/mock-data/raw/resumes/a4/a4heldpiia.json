@@ -1,0 +1,472 @@
+{
+  "analysis": {
+    "analysis_confidence": 0.86,
+    "ats": {
+      "detected": {
+        "action_verb_ratio": 0.86,
+        "bullet_count": 14,
+        "bullet_marker_consistent": true,
+        "contact_at_top": true,
+        "date_format_consistent": true,
+        "date_formats_seen": [
+          "MMM YYYY"
+        ],
+        "has_email": true,
+        "has_location": false,
+        "has_phone": true,
+        "has_profile_link": true,
+        "has_street_address": false,
+        "has_summary_section": true,
+        "nonstandard_headings": [],
+        "quantified_bullet_ratio": 0.64,
+        "reverse_chronological": true,
+        "section_order": [
+          "Summary",
+          "Experience",
+          "Education",
+          "Skills"
+        ],
+        "skill_bars_or_ratings": false,
+        "standard_headings": [
+          "Experience",
+          "Education",
+          "Skills"
+        ],
+        "uses_tables_suspected": false
+      },
+      "factors": {
+        "consistency": {
+          "note": "consistency read cleanly from the text.",
+          "score": 50
+        },
+        "contact_info": {
+          "note": "contact info read cleanly from the text.",
+          "score": 86
+        },
+        "formatting": {
+          "note": "formatting read cleanly from the text.",
+          "score": 70
+        },
+        "keyword_alignment": {
+          "note": "keyword alignment read cleanly from the text.",
+          "score": 86
+        },
+        "length": {
+          "note": "length read cleanly from the text.",
+          "score": 80
+        },
+        "parseability": {
+          "note": "parseability read cleanly from the text.",
+          "score": 73
+        },
+        "quantification": {
+          "note": "quantification read cleanly from the text.",
+          "score": 90
+        }
+      },
+      "fixes": [
+        {
+          "factor": "consistency",
+          "fix": "Use an end month or \"Present\" consistently.",
+          "issue": "Dates use \"Jan 2023 – present\"; two parsers read \"present\" as missing.",
+          "priority": "high"
+        },
+        {
+          "factor": "formatting",
+          "fix": "Export skills as plain lines, one group per line.",
+          "issue": "The skills section is a table.",
+          "priority": "medium"
+        },
+        {
+          "factor": "length",
+          "fix": "Cut the summary to one line with the strongest number.",
+          "issue": "The summary paragraph repeats the bullets.",
+          "priority": "low"
+        }
+      ],
+      "score": 77,
+      "target_role_used": "Software engineer, mid-career"
+    },
+    "awards": [
+      {
+        "issuer": null,
+        "name": "SDR of the quarter (1 of 30)",
+        "pool_estimate": "unknown pool",
+        "scope": "company",
+        "selectivity": "modest",
+        "verifiable": true,
+        "year": null
+      }
+    ],
+    "card": {
+      "awards": [
+        {
+          "name": "SDR of the quarter (1 of 30)",
+          "scope": "company",
+          "selectivity": "modest"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "early",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2024,
+          "field": "Business Administration",
+          "gpa_band": "3.0-3.49",
+          "honors": [],
+          "in_progress": false,
+          "institution": "University of Oregon",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 26,
+          "employment_type": "full_time",
+          "highlights": [
+            "Books ~35 qualified meetings a quarter; 108% of quota over the last 4 quarters",
+            "Top 5 of 30 SDRs in two quarters"
+          ],
+          "impact_scale": "team",
+          "org": "Mid-size HR software company",
+          "org_tier": "C",
+          "role": "Sales Development Representative",
+          "role_selectivity": "modest",
+          "seniority": "junior",
+          "years": "2024-present"
+        },
+        {
+          "duration_months": 20,
+          "employment_type": "part_time",
+          "highlights": [
+            "Supervised 4 student staff on evening shifts"
+          ],
+          "impact_scale": "individual",
+          "org": "Campus recreation center",
+          "org_tier": "D",
+          "role": "Front Desk Lead",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2022-2024"
+        }
+      ],
+      "headline": "Sales development rep, 2 years at a mid-size SaaS company; 108% of quota; state-university degree",
+      "leadership": [
+        "Supervised 4 student staff"
+      ],
+      "notable": [],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Outbound prospecting",
+        "Salesforce",
+        "Outreach",
+        "Cold calling",
+        "CRM hygiene"
+      ],
+      "top_signal": "SDR, 2 years",
+      "years_fulltime": 2
+    },
+    "category_relevance": {
+      "academia": 0.05,
+      "finance": 0.1,
+      "general": 1,
+      "tech": 0.1
+    },
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2024,
+        "field": "Business Administration",
+        "gpa": null,
+        "gpa_band": "3.0-3.49",
+        "gpa_scale": null,
+        "honors": [],
+        "in_progress": false,
+        "institution": "University of Oregon",
+        "institution_tier": "T3",
+        "notes": "",
+        "start_year": 2020
+      }
+    ],
+    "experiences": [
+      {
+        "bullets_condensed": [
+          "Books ~35 qualified meetings a quarter; 108% of quota over the last 4 quarters",
+          "Top 5 of 30 SDRs in two quarters"
+        ],
+        "duration_months": 26,
+        "employment_type": "full_time",
+        "end": "present",
+        "impact_scale": "team",
+        "is_current": true,
+        "org": "Mid-size HR software company",
+        "org_tier": "C",
+        "org_type": "private_company",
+        "ownership": "owned_component",
+        "quantified_impact": true,
+        "role": "Sales Development Representative",
+        "role_selectivity": "modest",
+        "seniority": "junior",
+        "start": "2024",
+        "team_or_division": null
+      },
+      {
+        "bullets_condensed": [
+          "Supervised 4 student staff on evening shifts"
+        ],
+        "duration_months": 20,
+        "employment_type": "part_time",
+        "end": "2024",
+        "impact_scale": "individual",
+        "is_current": false,
+        "org": "Campus recreation center",
+        "org_tier": "D",
+        "org_type": "private_company",
+        "ownership": "owned_component",
+        "quantified_impact": true,
+        "role": "Front Desk Lead",
+        "role_selectivity": "modest",
+        "seniority": "other",
+        "start": "2022",
+        "team_or_division": null
+      }
+    ],
+    "input": {
+      "is_resume": true,
+      "language": "en",
+      "parse_confidence": 0.94,
+      "placeholders_seen": [
+        "name",
+        "email",
+        "phone",
+        "url"
+      ],
+      "word_count_estimate": 620
+    },
+    "leadership": [
+      {
+        "budget_or_scale": "not stated",
+        "elected_or_appointed": "unknown",
+        "highlight": "Supervised 4 student staff",
+        "org": "Supervised 4 student staff",
+        "people_led": null,
+        "role": "lead"
+      }
+    ],
+    "projects": [],
+    "publications": [],
+    "red_flags": [
+      {
+        "detail": "\"Industry-leading\" appears twice without a number behind it.",
+        "location": "Experience / summary line",
+        "severity": "medium",
+        "type": "unverifiable_superlative"
+      }
+    ],
+    "residual_pii": {
+      "email_count": 0,
+      "name_suspected": false,
+      "other_identifiers": [],
+      "phone_count": 0,
+      "street_address_suspected": false,
+      "url_count": 0
+    },
+    "schema_version": "1.1",
+    "scores": {
+      "academia": {
+        "holistic_score": 92,
+        "included": false,
+        "rationale": "Sales development rep, 2 years at a mid-size SaaS company; the academia weighting rewards the strongest lines on the card.",
+        "stage_relative_score": 90,
+        "sub_scores": {
+          "breadth": 65,
+          "impact": 67,
+          "pedigree": 72,
+          "selectivity": 55,
+          "trajectory": 67
+        },
+        "top_evidence": [
+          "Books ~35 qualified meetings a quarter; 108% of quota over the last 4 quarters",
+          "Supervised 4 student staff on evening shifts"
+        ]
+      },
+      "finance": {
+        "holistic_score": 79,
+        "included": false,
+        "rationale": "Sales development rep, 2 years at a mid-size SaaS company; the finance weighting rewards the strongest lines on the card.",
+        "stage_relative_score": 79,
+        "sub_scores": {
+          "breadth": 64,
+          "impact": 77,
+          "pedigree": 58,
+          "selectivity": 62,
+          "trajectory": 64
+        },
+        "top_evidence": [
+          "Books ~35 qualified meetings a quarter; 108% of quota over the last 4 quarters",
+          "Supervised 4 student staff on evening shifts"
+        ]
+      },
+      "general": {
+        "holistic_score": 86,
+        "included": true,
+        "rationale": "Sales development rep, 2 years at a mid-size SaaS company; the general weighting rewards the strongest lines on the card.",
+        "stage_relative_score": 86,
+        "sub_scores": {
+          "breadth": 90,
+          "impact": 81,
+          "pedigree": 77,
+          "selectivity": 87,
+          "trajectory": 93
+        },
+        "top_evidence": [
+          "Books ~35 qualified meetings a quarter; 108% of quota over the last 4 quarters",
+          "Supervised 4 student staff on evening shifts"
+        ]
+      },
+      "tech": {
+        "holistic_score": 87,
+        "included": false,
+        "rationale": "Sales development rep, 2 years at a mid-size SaaS company; the tech weighting rewards the strongest lines on the card.",
+        "stage_relative_score": 74,
+        "sub_scores": {
+          "breadth": 53,
+          "impact": 63,
+          "pedigree": 76,
+          "selectivity": 59,
+          "trajectory": 68
+        },
+        "top_evidence": [
+          "Books ~35 qualified meetings a quarter; 108% of quota over the last 4 quarters",
+          "Supervised 4 student staff on evening shifts"
+        ]
+      }
+    },
+    "signals": {
+      "career_stage": "early",
+      "has_quantified_impact": true,
+      "highest_institution_tier": "T3",
+      "highest_org_tier": "C",
+      "max_impact_scale": "team",
+      "months_internship": 3,
+      "primary_domain": "other",
+      "sustained_org_tier": "C",
+      "top_role_selectivity": "modest",
+      "trajectory": "steady",
+      "years_fulltime": 2
+    },
+    "skills": {
+      "certifications": [],
+      "domain": [],
+      "keyword_stuffing_suspected": false,
+      "spoken_languages": [
+        "English"
+      ],
+      "technical": [
+        "Outbound prospecting",
+        "Salesforce",
+        "Outreach",
+        "Cold calling",
+        "CRM hygiene"
+      ]
+    },
+    "strengths": [
+      "Quantified results on 7 of 9 bullets",
+      "Two promotions in 4 years at the same employer",
+      "Owned a system with named scale (40k rps)"
+    ],
+    "verdict": "A strong mid-career infrastructure resume whose numbers do the work; the education line is the only soft spot.",
+    "weaknesses": [
+      "Education sits below the ladder median for this tier",
+      "No open-source or public work listed",
+      "Summary paragraph repeats the bullets"
+    ]
+  },
+  "card_sha256": "d14f1cb7483c320f0141d7fe4bbbd09acef7b0c0ef670a4716f5e94c2b351e17",
+  "category_relevance": {
+    "academia": 0.05,
+    "finance": 0.1,
+    "general": 1,
+    "tech": 0.1
+  },
+  "created_at": "2026-10-03T11:56:11Z",
+  "deleted_at": null,
+  "duplicate_of": null,
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+1a2b3c4d",
+    "verdict": {
+      "estimated_career_stage": "early",
+      "is_resume": true,
+      "language": "en",
+      "prompt_injection_detected": false,
+      "reason": "Two-page engineering résumé with dated roles.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "held-example",
+  "held_reason": "pii",
+  "id": "a4heldpiia",
+  "kind": "user",
+  "metrics": {
+    "char_count": 1003,
+    "columns_detected": 1,
+    "extraction_quality": 0.96,
+    "font_count": 3,
+    "image_count": 0,
+    "pages": 2,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 212
+  },
+  "owner_hash": "f274c05a954c362991e459a7ff70bad482b19bd211f67ca3cd805cb111640ee0",
+  "primary": "general",
+  "rejected_reason": null,
+  "schema": 1,
+  "scores": {
+    "general": 86
+  },
+  "source": {
+    "client_version": "mock.1",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 123456700
+  },
+  "stage": "early",
+  "status": "held",
+  "superseded_by": null,
+  "supersedes": null,
+  "text_sha256": "d4b6d4283bce38d929693d23312b734de05c3fec1132b76271ddf017a7bb02d6",
+  "top_signal": "SDR, 2 years",
+  "updated_at": "2026-10-03T11:58:51Z",
+  "usage": {
+    "analysis_usd": 0.188,
+    "gate_usd": 0.0046,
+    "latency_ms": 61230
+  },
+  "versions": {
+    "analyst_model": "claude-opus-5-5",
+    "analyst_prompt": "analyst.v1+9e8f7a6b",
+    "fell_back": false,
+    "gate_prompt": "gate.v1+1a2b3c4d",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "visibility": "anonymous"
+}

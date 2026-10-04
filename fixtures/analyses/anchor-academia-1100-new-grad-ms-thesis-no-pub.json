@@ -1,0 +1,475 @@
+{
+  "analysis_confidence": 0.92,
+  "ats": {
+    "detected": {
+      "action_verb_ratio": 0.85,
+      "bullet_count": 13,
+      "bullet_marker_consistent": true,
+      "contact_at_top": true,
+      "date_format_consistent": true,
+      "date_formats_seen": [
+        "Month YYYY"
+      ],
+      "has_email": true,
+      "has_location": true,
+      "has_phone": true,
+      "has_profile_link": true,
+      "has_street_address": false,
+      "has_summary_section": false,
+      "nonstandard_headings": [
+        "MEMBERSHIPS AND ACTIVITIES"
+      ],
+      "quantified_bullet_ratio": 0.31,
+      "reverse_chronological": true,
+      "section_order": [
+        "Education",
+        "Experience",
+        "Experience",
+        "Skills",
+        "Publications",
+        "Leadership"
+      ],
+      "skill_bars_or_ratings": false,
+      "standard_headings": [
+        "EDUCATION",
+        "RESEARCH EXPERIENCE",
+        "TEACHING EXPERIENCE",
+        "SKILLS",
+        "PRESENTATIONS"
+      ],
+      "uses_tables_suspected": false
+    },
+    "factors": {
+      "consistency": {
+        "note": "Month YYYY throughout; every role dated",
+        "score": 100
+      },
+      "contact_info": {
+        "note": "City, email, phone and a profile link in the header",
+        "score": 100
+      },
+      "formatting": {
+        "note": "Standard headings, reverse-chronological, one bullet glyph; layout not verified (docx)",
+        "score": 100
+      },
+      "keyword_alignment": {
+        "note": "Characterization methods appear in bullets; alloy design, data analysis and writing competencies for a research-technician role are thin or list-only",
+        "score": 68
+      },
+      "length": {
+        "note": "One page equivalent for a new graduate",
+        "score": 100
+      },
+      "parseability": {
+        "note": "Standard headings, contact in the first two lines; layout not verified (docx, extraction 0.95)",
+        "score": 100
+      },
+      "quantification": {
+        "note": "4 of 13 bullets carry a number, mostly counts of specimens and students rather than outcomes; action verbs throughout",
+        "score": 50
+      }
+    },
+    "fixes": [
+      {
+        "factor": "quantification",
+        "fix": "Before: \"Collected SEM and EBSD data on grain size, texture and precipitates\" → After: \"Measured grain size across 4 schedules; found __% refinement after __ h, used in the follow-on study\"",
+        "issue": "Bullets count specimens and students but rarely state a result",
+        "priority": "high"
+      },
+      {
+        "factor": "keyword_alignment",
+        "fix": "If the capstone or thesis used a design of experiments or statistical analysis, name it in a bullet with the sample sizes",
+        "issue": "Process-engineering terms (DOE, SPC, qualification) are absent for the likely industry target",
+        "priority": "medium"
+      },
+      {
+        "factor": "length",
+        "fix": "Move it to a Publications heading as \"In preparation\" with the target journal, and update it the day it is submitted",
+        "issue": "The \"in preparation\" manuscript is the strongest line and sits last in a bullet list",
+        "priority": "medium"
+      },
+      {
+        "factor": "formatting",
+        "fix": "Split into \"Professional Memberships\" and \"Service\" or drop the outreach line",
+        "issue": "Memberships and outreach share a heading",
+        "priority": "low"
+      }
+    ],
+    "score": 85,
+    "target_role_used": "Materials research technician or process engineer, metals and additive manufacturing"
+  },
+  "awards": [],
+  "card": {
+    "awards": [],
+    "card_version": "1.0",
+    "career_stage": "new_grad",
+    "education": [
+      {
+        "degree_level": "master",
+        "end_year": 2026,
+        "field": "Materials Science and Engineering",
+        "gpa_band": "3.5-3.69",
+        "honors": [],
+        "in_progress": false,
+        "institution": "The Ohio State University",
+        "institution_tier": "T3"
+      },
+      {
+        "degree_level": "bachelor",
+        "end_year": 2024,
+        "field": "Materials Science and Engineering",
+        "gpa_band": "3.0-3.49",
+        "honors": [],
+        "in_progress": false,
+        "institution": "The Ohio State University",
+        "institution_tier": "T3"
+      }
+    ],
+    "experiences": [
+      {
+        "duration_months": 12,
+        "employment_type": "part_time",
+        "highlights": [
+          "~120 additively manufactured superalloy specimens across 4 heat treatments; SEM, EBSD, microhardness",
+          "Found a hardness plateau after 8 hours of aging that informed a follow-on study",
+          "First-author manuscript in preparation; trained 2 undergraduates"
+        ],
+        "impact_scale": "individual",
+        "org": "The Ohio State University, alloys laboratory",
+        "org_tier": "B",
+        "role": "Graduate Research Assistant",
+        "role_selectivity": "modest",
+        "seniority": "research_assistant",
+        "years": "2025-2026"
+      },
+      {
+        "duration_months": 21,
+        "employment_type": "part_time",
+        "highlights": [
+          "Lab sections of ~48 and ~30 students over four semesters"
+        ],
+        "impact_scale": "team",
+        "org": "The Ohio State University",
+        "org_tier": "B",
+        "role": "Graduate Teaching Assistant",
+        "role_selectivity": "modest",
+        "seniority": "other",
+        "years": "2024-2026"
+      },
+      {
+        "duration_months": 5,
+        "employment_type": "part_time",
+        "highlights": [
+          "Assisted with tensile testing and fractography"
+        ],
+        "impact_scale": "individual",
+        "org": "The Ohio State University, alloys laboratory",
+        "org_tier": "B",
+        "role": "Undergraduate Research Assistant",
+        "role_selectivity": "modest",
+        "seniority": "research_assistant",
+        "years": "2024"
+      }
+    ],
+    "headline": "Materials science master's graduate from a T3 state university; defended thesis, no publication; four semesters as a TA",
+    "leadership": [],
+    "notable": [],
+    "projects": [
+      {
+        "descriptor": "Senior capstone: corrosion testing of coated fasteners for an equipment sponsor",
+        "highlight": "Team project presented at a college showcase",
+        "kind": "research",
+        "scale_signal": "none stated",
+        "technical_depth": "standard"
+      }
+    ],
+    "publications_summary": {
+      "citation_signal": "not stated",
+      "count_total": 0,
+      "first_author_count": 0,
+      "strong_venue_count": 0,
+      "top_venue_count": 0,
+      "venues": []
+    },
+    "skills_top": [
+      "SEM",
+      "EBSD",
+      "Vickers microhardness",
+      "Metallographic preparation",
+      "Heat treatment",
+      "MATLAB",
+      "OIM Analysis",
+      "Tensile testing",
+      "XRD (basic)",
+      "Thermo-Calc (introductory)"
+    ],
+    "top_signal": "MS thesis, no pub",
+    "years_fulltime": 0
+  },
+  "category_relevance": {
+    "academia": 0.8,
+    "finance": 0,
+    "general": 1,
+    "tech": 0.08
+  },
+  "education": [
+    {
+      "degree_level": "master",
+      "end_year": 2026,
+      "field": "Materials Science and Engineering",
+      "gpa": 3.54,
+      "gpa_band": "3.5-3.69",
+      "gpa_scale": 4,
+      "honors": [],
+      "in_progress": false,
+      "institution": "The Ohio State University",
+      "institution_tier": "T3",
+      "notes": "Thesis on microstructural evolution of additively manufactured Inconel 718; defended June 2026; departmental RA final year",
+      "start_year": 2024
+    },
+    {
+      "degree_level": "bachelor",
+      "end_year": 2024,
+      "field": "Materials Science and Engineering",
+      "gpa": 3.41,
+      "gpa_band": "3.0-3.49",
+      "gpa_scale": 4,
+      "honors": [],
+      "in_progress": false,
+      "institution": "The Ohio State University",
+      "institution_tier": "T3",
+      "notes": "Senior capstone on corrosion testing for an agricultural equipment sponsor",
+      "start_year": 2020
+    }
+  ],
+  "experiences": [
+    {
+      "bullets_condensed": [
+        "Prepared ~120 LPBF Inconel 718 specimens across 4 heat-treatment schedules",
+        "SEM and EBSD on grain size, texture and precipitates; Vickers microhardness maps on every set",
+        "Hardness plateau after 8 h of aging informed the lab's follow-on study",
+        "Manuscript in preparation (first author, with adviser); trained 2 undergraduates"
+      ],
+      "duration_months": 12,
+      "employment_type": "part_time",
+      "end": "2026-08",
+      "impact_scale": "individual",
+      "is_current": false,
+      "org": "The Ohio State University",
+      "org_tier": "B",
+      "org_type": "university",
+      "ownership": "owned_component",
+      "quantified_impact": false,
+      "role": "Graduate Research Assistant",
+      "role_selectivity": "modest",
+      "seniority": "research_assistant",
+      "start": "2025-08",
+      "team_or_division": "Advanced Alloys Laboratory"
+    },
+    {
+      "bullets_condensed": [
+        "Lab sections for Introduction to Materials Science (~48 students) and Mechanical Behavior (~30), four semesters",
+        "Graded reports and problem sets; maintained the teaching metallography lab"
+      ],
+      "duration_months": 21,
+      "employment_type": "part_time",
+      "end": "2026-05",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "The Ohio State University",
+      "org_tier": "B",
+      "org_type": "university",
+      "ownership": "supported",
+      "quantified_impact": false,
+      "role": "Graduate Teaching Assistant",
+      "role_selectivity": "modest",
+      "seniority": "other",
+      "start": "2024-08",
+      "team_or_division": "Department of Materials Science and Engineering"
+    },
+    {
+      "bullets_condensed": [
+        "Assisted graduate students with tensile testing and fractography of welded steel coupons",
+        "Organized the specimen inventory"
+      ],
+      "duration_months": 5,
+      "employment_type": "part_time",
+      "end": "2024-05",
+      "impact_scale": "individual",
+      "is_current": false,
+      "org": "The Ohio State University",
+      "org_tier": "B",
+      "org_type": "university",
+      "ownership": "supported",
+      "quantified_impact": false,
+      "role": "Undergraduate Research Assistant",
+      "role_selectivity": "modest",
+      "seniority": "research_assistant",
+      "start": "2024-01",
+      "team_or_division": "Advanced Alloys Laboratory"
+    }
+  ],
+  "input": {
+    "is_resume": true,
+    "language": "en",
+    "parse_confidence": 0.95,
+    "placeholders_seen": [
+      "name",
+      "email",
+      "phone",
+      "url"
+    ],
+    "word_count_estimate": 390
+  },
+  "leadership": [],
+  "projects": [
+    {
+      "description_condensed": "Corrosion testing of coated fasteners for an agricultural equipment sponsor; team presentation at the college showcase",
+      "has_external_validation": false,
+      "kind": "research",
+      "name": "Senior capstone",
+      "quantified_impact": false,
+      "scale_signal": "none stated",
+      "technical_depth": "standard"
+    }
+  ],
+  "publications": [
+    {
+      "author_count": 1,
+      "author_position": "sole",
+      "citations_claimed": null,
+      "field": "materials science",
+      "kind": "thesis",
+      "venue": "Ohio State University (thesis)",
+      "venue_tier": "unknown",
+      "year": 2026
+    }
+  ],
+  "red_flags": [],
+  "residual_pii": {
+    "email_count": 0,
+    "name_suspected": false,
+    "other_identifiers": [],
+    "phone_count": 0,
+    "street_address_suspected": false,
+    "url_count": 0
+  },
+  "schema_version": "1.1",
+  "scores": {
+    "academia": {
+      "holistic_score": 32,
+      "included": true,
+      "rationale": "Master's with thesis at a T3 R1, one year of real bench work with a modest finding, a first-author manuscript in preparation but no accepted paper, no fellowship, departmental poster only. A competent technician record before any external validation.",
+      "stage_relative_score": 32,
+      "sub_scores": {
+        "breadth": 28,
+        "impact": 18,
+        "pedigree": 35,
+        "selectivity": 20,
+        "trajectory": 32
+      },
+      "top_evidence": [
+        "Defended M.S. thesis, June 2026; manuscript in preparation",
+        "~120 specimens characterized by SEM, EBSD and microhardness",
+        "Departmental symposium poster, 2026"
+      ]
+    },
+    "finance": {
+      "holistic_score": 5,
+      "included": false,
+      "rationale": "No finance footprint.",
+      "stage_relative_score": 5,
+      "sub_scores": {
+        "breadth": 5,
+        "impact": 5,
+        "pedigree": 20,
+        "selectivity": 10,
+        "trajectory": 30
+      },
+      "top_evidence": []
+    },
+    "general": {
+      "holistic_score": 30,
+      "included": true,
+      "rationale": "A master's at a T3 state university with a defended thesis, a manuscript still in preparation, four semesters of TA work and a capstone. Methods are listed accurately; nothing has yet been validated outside the department.",
+      "stage_relative_score": 30,
+      "sub_scores": {
+        "breadth": 30,
+        "impact": 18,
+        "pedigree": 35,
+        "selectivity": 20,
+        "trajectory": 32
+      },
+      "top_evidence": [
+        "M.S. with a defended thesis, no publication",
+        "Four semesters as a teaching assistant",
+        "Departmental poster; manuscript in preparation"
+      ]
+    },
+    "tech": {
+      "holistic_score": 12,
+      "included": false,
+      "rationale": "MATLAB and image analysis in a materials lab; no software or engineering role.",
+      "stage_relative_score": 12,
+      "sub_scores": {
+        "breadth": 15,
+        "impact": 10,
+        "pedigree": 30,
+        "selectivity": 15,
+        "trajectory": 30
+      },
+      "top_evidence": []
+    }
+  },
+  "signals": {
+    "career_stage": "new_grad",
+    "has_quantified_impact": false,
+    "highest_institution_tier": "T3",
+    "highest_org_tier": "B",
+    "max_impact_scale": "individual",
+    "months_internship": 0,
+    "primary_domain": "academia",
+    "sustained_org_tier": "B",
+    "top_role_selectivity": "modest",
+    "trajectory": "steady",
+    "years_fulltime": 0
+  },
+  "skills": {
+    "certifications": [],
+    "domain": [
+      "additive manufacturing of superalloys",
+      "microstructural characterization"
+    ],
+    "keyword_stuffing_suspected": false,
+    "spoken_languages": [],
+    "technical": [
+      "SEM",
+      "EBSD",
+      "optical microscopy",
+      "XRD (basic)",
+      "Vickers and Rockwell hardness",
+      "Instron tensile testing",
+      "DSC",
+      "heat treatment",
+      "metallographic preparation",
+      "MATLAB",
+      "OIM Analysis",
+      "ImageJ",
+      "Thermo-Calc (introductory)",
+      "LaTeX"
+    ]
+  },
+  "strengths": [
+    "Defended master's thesis with a year of hands-on characterization on ~120 specimens across four heat-treatment schedules",
+    "A concrete finding (hardness plateau after 8 hours of aging) that shaped the lab's next study",
+    "Four semesters of laboratory teaching at ~48 and ~30 students per section",
+    "Instrument list is specific and matches the bullets (SEM, EBSD, microhardness, tensile)"
+  ],
+  "verdict": "A competent master's technician record with a defended thesis and nothing yet validated outside the department.",
+  "weaknesses": [
+    "No accepted or submitted publication; the manuscript is \"in preparation\" with no venue named",
+    "No fellowship, award or external presentation; the only poster is departmental",
+    "GPA 3.41 undergraduate and 3.54 graduate at a T3 school with no honors",
+    "Bullets count things (specimens, students) rather than stating what changed"
+  ]
+}

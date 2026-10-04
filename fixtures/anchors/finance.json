@@ -1,0 +1,1144 @@
+{
+  "anchors": [
+    {
+      "card": {
+        "awards": [],
+        "card_version": "1.0",
+        "career_stage": "student",
+        "education": [
+          {
+            "degree_level": "bachelor",
+            "end_year": 2028,
+            "field": "Business Administration (Finance)",
+            "gpa_band": "not_listed",
+            "honors": [],
+            "in_progress": true,
+            "institution": "Georgia Southern University",
+            "institution_tier": "T4"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 4,
+            "employment_type": "part_time",
+            "highlights": [
+              "Processed customer deposits and withdrawals",
+              "Balanced a cash drawer daily"
+            ],
+            "impact_scale": "individual",
+            "org": "Regional community bank",
+            "org_tier": "C",
+            "role": "Teller",
+            "role_selectivity": "modest",
+            "seniority": "other",
+            "years": "2026-2026"
+          },
+          {
+            "duration_months": 12,
+            "employment_type": "part_time",
+            "highlights": [
+              "Served tables on weekend shifts"
+            ],
+            "impact_scale": "individual",
+            "org": "Family restaurant",
+            "org_tier": "D",
+            "role": "Server",
+            "role_selectivity": "modest",
+            "seniority": "other",
+            "years": "2024-2025"
+          }
+        ],
+        "headline": "Business administration junior at a regional university; bank-teller summer job; finance club member",
+        "leadership": [
+          "Member, student finance club"
+        ],
+        "notable": [],
+        "projects": [],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 0,
+          "first_author_count": 0,
+          "strong_venue_count": 0,
+          "top_venue_count": 0,
+          "venues": []
+        },
+        "skills_top": [
+          "Excel",
+          "PowerPoint",
+          "Customer service"
+        ],
+        "top_signal": "Bank teller",
+        "years_fulltime": 0
+      },
+      "id": "anchrfbaaa",
+      "rating": 1000,
+      "spec": "minimal: regional-university business major, bank-teller summer job, finance club member",
+      "stage": "student"
+    },
+    {
+      "card": {
+        "awards": [],
+        "card_version": "1.0",
+        "career_stage": "new_grad",
+        "education": [
+          {
+            "degree_level": "bachelor",
+            "end_year": 2026,
+            "field": "Finance",
+            "gpa_band": "3.0-3.49",
+            "honors": [],
+            "in_progress": false,
+            "institution": "University of Central Florida",
+            "institution_tier": "T3"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 5,
+            "employment_type": "full_time",
+            "highlights": [
+              "Rotations in branch operations and consumer lending",
+              "Built a weekly branch deposit report in Excel"
+            ],
+            "impact_scale": "individual",
+            "org": "Regional bank",
+            "org_tier": "C",
+            "role": "Rotational Analyst (retail banking)",
+            "role_selectivity": "modest",
+            "seniority": "analyst",
+            "years": "2026-present"
+          },
+          {
+            "duration_months": 3,
+            "employment_type": "internship",
+            "highlights": [
+              "Prepared client meeting packets and updated CRM records"
+            ],
+            "impact_scale": "individual",
+            "org": "Wealth-management office of a national brokerage",
+            "org_tier": "C",
+            "role": "Summer Intern",
+            "role_selectivity": "modest",
+            "seniority": "intern",
+            "years": "2025-2025"
+          }
+        ],
+        "headline": "Recent finance graduate from a state university; rotational analyst at a regional bank; wealth-management internship",
+        "leadership": [
+          "Treasurer, student investment club (~40 members)"
+        ],
+        "notable": [],
+        "projects": [],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 0,
+          "first_author_count": 0,
+          "strong_venue_count": 0,
+          "top_venue_count": 0,
+          "venues": []
+        },
+        "skills_top": [
+          "Excel",
+          "Bloomberg Terminal (basic)",
+          "PowerPoint",
+          "Financial statements"
+        ],
+        "top_signal": "Bank rotational",
+        "years_fulltime": 0.5
+      },
+      "id": "anchrfcaaa",
+      "rating": 1100,
+      "spec": "minimal-plus: state-university finance degree, retail-bank rotational analyst, wealth-management internship",
+      "stage": "new_grad"
+    },
+    {
+      "card": {
+        "awards": [],
+        "card_version": "1.0",
+        "career_stage": "student",
+        "education": [
+          {
+            "degree_level": "bachelor",
+            "end_year": 2027,
+            "field": "Finance",
+            "gpa_band": "3.5-3.69",
+            "honors": [
+              "Dean's list"
+            ],
+            "in_progress": true,
+            "institution": "University of South Carolina",
+            "institution_tier": "T3"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 3,
+            "employment_type": "internship",
+            "highlights": [
+              "Spread financials for ~25 middle-market borrowers and drafted 6 credit memos",
+              "Built a covenant-tracking sheet adopted by the team"
+            ],
+            "impact_scale": "team",
+            "org": "Regional commercial bank",
+            "org_tier": "C",
+            "role": "Credit Analyst Intern",
+            "role_selectivity": "modest",
+            "seniority": "intern",
+            "years": "2026-2026"
+          }
+        ],
+        "headline": "Finance senior at a state flagship; credit analyst intern at a regional bank; student investment club officer",
+        "leadership": [
+          "Vice president, student investment club (~80 members; manages a $60k paper portfolio)"
+        ],
+        "notable": [],
+        "projects": [],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 0,
+          "first_author_count": 0,
+          "strong_venue_count": 0,
+          "top_venue_count": 0,
+          "venues": []
+        },
+        "skills_top": [
+          "Excel",
+          "Financial modeling (3-statement)",
+          "Credit analysis",
+          "Bloomberg Terminal",
+          "PowerPoint"
+        ],
+        "top_signal": "Credit intern",
+        "years_fulltime": 0
+      },
+      "id": "anchrfdaaa",
+      "rating": 1200,
+      "spec": "below typical: state-flagship finance senior, credit-analyst internship at a regional bank, investment club officer",
+      "stage": "student"
+    },
+    {
+      "card": {
+        "awards": [],
+        "card_version": "1.0",
+        "career_stage": "early",
+        "education": [
+          {
+            "degree_level": "bachelor",
+            "end_year": 2024,
+            "field": "Finance",
+            "gpa_band": "3.5-3.69",
+            "honors": [],
+            "in_progress": false,
+            "institution": "Michigan State University",
+            "institution_tier": "T3"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 26,
+            "employment_type": "full_time",
+            "highlights": [
+              "Owns the quarterly forecast model for a $300M-revenue division",
+              "Automated a variance report, cutting close preparation from 3 days to 1",
+              "Identified $1.2M of recurring overspend in logistics contracts"
+            ],
+            "impact_scale": "team",
+            "org": "Fortune 500 industrial manufacturer",
+            "org_tier": "B",
+            "role": "Financial Analyst, FP&A",
+            "role_selectivity": "modest",
+            "seniority": "analyst",
+            "years": "2024-present"
+          },
+          {
+            "duration_months": 3,
+            "employment_type": "internship",
+            "highlights": [
+              "Supported capital-expenditure tracking"
+            ],
+            "impact_scale": "individual",
+            "org": "Fortune 500 industrial manufacturer",
+            "org_tier": "B",
+            "role": "Finance Intern",
+            "role_selectivity": "modest",
+            "seniority": "intern",
+            "years": "2023-2023"
+          }
+        ],
+        "headline": "FP&A analyst, 2 years at a Fortune 500 manufacturer; owns the forecast for a $300M division",
+        "leadership": [],
+        "notable": [],
+        "projects": [],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 0,
+          "first_author_count": 0,
+          "strong_venue_count": 0,
+          "top_venue_count": 0,
+          "venues": []
+        },
+        "skills_top": [
+          "Excel",
+          "Financial modeling",
+          "Hyperion",
+          "SAP",
+          "Power BI",
+          "Variance analysis"
+        ],
+        "top_signal": "F500 FP&A analyst",
+        "years_fulltime": 2
+      },
+      "id": "anchrfeaaa",
+      "rating": 1300,
+      "spec": "typical: two years of FP&A at a Fortune 500 company, owns a divisional forecast, some quantified savings",
+      "stage": "early"
+    },
+    {
+      "card": {
+        "awards": [
+          {
+            "name": "University business honors program",
+            "scope": "institutional",
+            "selectivity": "selective"
+          }
+        ],
+        "card_version": "1.0",
+        "career_stage": "student",
+        "education": [
+          {
+            "degree_level": "bachelor",
+            "end_year": 2027,
+            "field": "Finance (Business Honors)",
+            "gpa_band": "3.7-3.89",
+            "honors": [
+              "Business Honors Program"
+            ],
+            "in_progress": true,
+            "institution": "University of Texas at Austin",
+            "institution_tier": "T2"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 3,
+            "employment_type": "internship",
+            "highlights": [
+              "Built quality-of-earnings schedules on 3 sell-side engagements ($40M-$250M deal sizes)",
+              "Prepared a working-capital analysis cited in a final report"
+            ],
+            "impact_scale": "team",
+            "org": "Big-4 accounting firm, Transaction Services",
+            "org_tier": "B",
+            "role": "Summer Intern",
+            "role_selectivity": "selective",
+            "seniority": "intern",
+            "years": "2026-2026"
+          },
+          {
+            "duration_months": 14,
+            "employment_type": "part_time",
+            "highlights": [
+              "Pitched 2 long ideas; one added to a $500k student-managed portfolio"
+            ],
+            "impact_scale": "team",
+            "org": "Student-run investment fund",
+            "org_tier": "C",
+            "role": "Analyst, Industrials",
+            "role_selectivity": "selective",
+            "seniority": "analyst",
+            "years": "2025-present"
+          }
+        ],
+        "headline": "Finance junior at a T2 university; Big-4 transaction services intern; analyst in a $500k student fund",
+        "leadership": [
+          "Analyst in a student-managed fund ($500k AUM, 25 members)"
+        ],
+        "notable": [],
+        "projects": [],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 0,
+          "first_author_count": 0,
+          "strong_venue_count": 0,
+          "top_venue_count": 0,
+          "venues": []
+        },
+        "skills_top": [
+          "Excel",
+          "Financial modeling",
+          "Quality of earnings",
+          "Comparable company analysis",
+          "PowerPoint",
+          "Bloomberg Terminal"
+        ],
+        "top_signal": "Big-4 TS intern",
+        "years_fulltime": 0
+      },
+      "id": "anchrffaaa",
+      "rating": 1400,
+      "spec": "typical-plus: T2 target-school junior, Big-4 transaction services internship, analyst in a real student fund",
+      "stage": "student"
+    },
+    {
+      "card": {
+        "awards": [],
+        "card_version": "1.0",
+        "career_stage": "early",
+        "education": [
+          {
+            "degree_level": "bachelor",
+            "end_year": 2024,
+            "field": "Finance",
+            "gpa_band": "3.7-3.89",
+            "honors": [
+              "Investment Banking Workshop"
+            ],
+            "in_progress": false,
+            "institution": "Indiana University Bloomington (Kelley)",
+            "institution_tier": "T3"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 27,
+            "employment_type": "full_time",
+            "highlights": [
+              "Executed 6 closed M&A transactions totaling ~$2.1B across industrials and business services",
+              "Built the operating model and LBO analysis for a $600M sell-side; ranked top bucket in year 2",
+              "Staffed on ~3 live pitches a month; trained 2 first-year analysts"
+            ],
+            "impact_scale": "org",
+            "org": "William Blair",
+            "org_tier": "B",
+            "role": "Investment Banking Analyst",
+            "role_selectivity": "selective",
+            "seniority": "analyst",
+            "years": "2024-present"
+          },
+          {
+            "duration_months": 3,
+            "employment_type": "internship",
+            "highlights": [
+              "Supported a $150M sell-side; built the buyer list and CIM sections"
+            ],
+            "impact_scale": "team",
+            "org": "Regional middle-market bank",
+            "org_tier": "B",
+            "role": "Investment Banking Summer Analyst",
+            "role_selectivity": "selective",
+            "seniority": "intern",
+            "years": "2023-2023"
+          }
+        ],
+        "headline": "Investment banking analyst, 2 years at a middle-market bank; 6 closed deals totaling $2.1B; CFA Level II",
+        "leadership": [],
+        "notable": [
+          "6 closed deals totaling ~$2.1B in 2 years",
+          "Top-bucket analyst ranking in year 2",
+          "CFA Level II candidate"
+        ],
+        "projects": [],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 0,
+          "first_author_count": 0,
+          "strong_venue_count": 0,
+          "top_venue_count": 0,
+          "venues": []
+        },
+        "skills_top": [
+          "Financial modeling",
+          "LBO analysis",
+          "M&A process execution",
+          "Valuation",
+          "Excel",
+          "PowerPoint",
+          "Capital IQ",
+          "FactSet"
+        ],
+        "top_signal": "MM IB analyst",
+        "years_fulltime": 2
+      },
+      "id": "anchrfgaaa",
+      "rating": 1500,
+      "spec": "solid: two years as a middle-market IB analyst, six closed deals with sizes, top-bucket ranking, CFA progress",
+      "stage": "early"
+    },
+    {
+      "card": {
+        "awards": [
+          {
+            "name": "Phi Beta Kappa",
+            "scope": "institutional",
+            "selectivity": "selective"
+          }
+        ],
+        "card_version": "1.0",
+        "career_stage": "new_grad",
+        "education": [
+          {
+            "degree_level": "bachelor",
+            "end_year": 2026,
+            "field": "Economics (certificate in Finance)",
+            "gpa_band": "3.7-3.89",
+            "honors": [
+              "Phi Beta Kappa",
+              "Senior thesis with high honors"
+            ],
+            "in_progress": false,
+            "institution": "Princeton University",
+            "institution_tier": "T1"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 3,
+            "employment_type": "full_time",
+            "highlights": [
+              "Joined full-time after a return offer; staffed on a $900M sell-side"
+            ],
+            "impact_scale": "team",
+            "org": "Barclays",
+            "org_tier": "A",
+            "role": "Investment Banking Analyst, Industrials",
+            "role_selectivity": "selective",
+            "seniority": "analyst",
+            "years": "2026-present"
+          },
+          {
+            "duration_months": 3,
+            "employment_type": "internship",
+            "highlights": [
+              "Built merger models for 2 live deals; received a return offer"
+            ],
+            "impact_scale": "team",
+            "org": "Barclays",
+            "org_tier": "A",
+            "role": "Investment Banking Summer Analyst",
+            "role_selectivity": "selective",
+            "seniority": "intern",
+            "years": "2025-2025"
+          },
+          {
+            "duration_months": 2,
+            "employment_type": "internship",
+            "highlights": [
+              "Built comps for lower-middle-market pitches"
+            ],
+            "impact_scale": "individual",
+            "org": "Boutique advisory firm",
+            "org_tier": "C",
+            "role": "Summer Analyst",
+            "role_selectivity": "modest",
+            "seniority": "intern",
+            "years": "2024-2024"
+          }
+        ],
+        "headline": "T1 economics graduate; bulge-bracket IB summer analyst with a return offer; student fund portfolio manager",
+        "leadership": [
+          "Portfolio manager, student investment fund ($1.2M AUM, 40 members)"
+        ],
+        "notable": [
+          "Senior thesis awarded high honors"
+        ],
+        "projects": [],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 0,
+          "first_author_count": 0,
+          "strong_venue_count": 0,
+          "top_venue_count": 0,
+          "venues": []
+        },
+        "skills_top": [
+          "Financial modeling",
+          "Valuation",
+          "Excel",
+          "PowerPoint",
+          "Stata",
+          "Capital IQ"
+        ],
+        "top_signal": "BB IB return offer",
+        "years_fulltime": 0.3
+      },
+      "id": "anchrfhaaa",
+      "rating": 1600,
+      "spec": "solid-plus: T1 economics degree, bulge-bracket IB summer with a return offer, student fund PM, Phi Beta Kappa",
+      "stage": "new_grad"
+    },
+    {
+      "card": {
+        "awards": [],
+        "card_version": "1.0",
+        "career_stage": "early",
+        "education": [
+          {
+            "degree_level": "bachelor",
+            "end_year": 2024,
+            "field": "Economics (Finance)",
+            "gpa_band": "3.7-3.89",
+            "honors": [
+              "Magna cum laude"
+            ],
+            "in_progress": false,
+            "institution": "University of Pennsylvania (Wharton)",
+            "institution_tier": "T2"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 27,
+            "employment_type": "full_time",
+            "highlights": [
+              "Closed 4 transactions totaling ~$4B including a $2.3B software take-private (lead analyst on the model)",
+              "Ranked top bucket both years; staffed as the only analyst on a $700M sell-side",
+              "Built the recurring-revenue analysis template adopted by the group"
+            ],
+            "impact_scale": "org",
+            "org": "Goldman Sachs",
+            "org_tier": "S",
+            "role": "Investment Banking Analyst, TMT",
+            "role_selectivity": "elite",
+            "seniority": "analyst",
+            "years": "2024-present"
+          },
+          {
+            "duration_months": 3,
+            "employment_type": "internship",
+            "highlights": [
+              "Return offer; supported 2 live deals"
+            ],
+            "impact_scale": "team",
+            "org": "Goldman Sachs",
+            "org_tier": "S",
+            "role": "Investment Banking Summer Analyst",
+            "role_selectivity": "elite",
+            "seniority": "intern",
+            "years": "2023-2023"
+          }
+        ],
+        "headline": "TMT investment banking analyst at an S-tier bank, 2 years; top bucket; $4B of closed deals with named roles",
+        "leadership": [
+          "President, undergraduate finance club (300 members); ran a 40-firm recruiting conference"
+        ],
+        "notable": [
+          "Lead analyst on a $2.3B take-private",
+          "Top-bucket ranking in both analyst years"
+        ],
+        "projects": [],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 0,
+          "first_author_count": 0,
+          "strong_venue_count": 0,
+          "top_venue_count": 0,
+          "venues": []
+        },
+        "skills_top": [
+          "LBO and merger modeling",
+          "Software and internet valuation",
+          "Take-private execution",
+          "Excel",
+          "PowerPoint",
+          "FactSet",
+          "Capital IQ"
+        ],
+        "top_signal": "S-tier TMT analyst",
+        "years_fulltime": 2
+      },
+      "id": "anchrfiaaa",
+      "rating": 1700,
+      "spec": "strong: S-tier TMT banking analyst with top-bucket ranking and $4B of closed deals with named roles",
+      "stage": "early"
+    },
+    {
+      "card": {
+        "awards": [
+          {
+            "name": "CFA charterholder",
+            "scope": "international",
+            "selectivity": "selective"
+          }
+        ],
+        "card_version": "1.0",
+        "career_stage": "mid",
+        "education": [
+          {
+            "degree_level": "mba",
+            "end_year": 2022,
+            "field": "Finance",
+            "gpa_band": "not_listed",
+            "honors": [
+              "Honors"
+            ],
+            "in_progress": false,
+            "institution": "University of Chicago (Booth)",
+            "institution_tier": "T2"
+          },
+          {
+            "degree_level": "bachelor",
+            "end_year": 2017,
+            "field": "Commerce",
+            "gpa_band": "3.7-3.89",
+            "honors": [],
+            "in_progress": false,
+            "institution": "University of Virginia",
+            "institution_tier": "T2"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 22,
+            "employment_type": "full_time",
+            "highlights": [
+              "Led day-to-day execution on 5 closed deals totaling ~$1.5B",
+              "Manages 2 associates and 3 analysts; runs 2 client relationships independently"
+            ],
+            "impact_scale": "org",
+            "org": "Jefferies",
+            "org_tier": "A",
+            "role": "Vice President, Investment Banking (Healthcare)",
+            "role_selectivity": "highly_selective",
+            "seniority": "vp",
+            "years": "2025-present"
+          },
+          {
+            "duration_months": 36,
+            "employment_type": "full_time",
+            "highlights": [
+              "Executed a $600M sell-side and two $200M+ financings"
+            ],
+            "impact_scale": "org",
+            "org": "Jefferies",
+            "org_tier": "A",
+            "role": "Associate, Investment Banking",
+            "role_selectivity": "selective",
+            "seniority": "associate",
+            "years": "2022-2025"
+          },
+          {
+            "duration_months": 36,
+            "employment_type": "full_time",
+            "highlights": [
+              "Closed 5 middle-market M&A deals"
+            ],
+            "impact_scale": "team",
+            "org": "Piper Sandler",
+            "org_tier": "B",
+            "role": "Investment Banking Analyst",
+            "role_selectivity": "selective",
+            "seniority": "analyst",
+            "years": "2017-2020"
+          }
+        ],
+        "headline": "Investment banking VP at an A-tier bank after 7 years; led execution on $1.5B of deals; CFA charterholder",
+        "leadership": [
+          "Manages a 5-person deal team"
+        ],
+        "notable": [
+          "Promoted analyst to associate to VP without a gap",
+          "CFA charterholder"
+        ],
+        "projects": [],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 0,
+          "first_author_count": 0,
+          "strong_venue_count": 0,
+          "top_venue_count": 0,
+          "venues": []
+        },
+        "skills_top": [
+          "M&A execution",
+          "Healthcare sector coverage",
+          "LBO modeling",
+          "Debt and equity financing",
+          "Client management",
+          "Excel",
+          "PowerPoint"
+        ],
+        "top_signal": "IB VP at 7 yrs",
+        "years_fulltime": 7
+      },
+      "id": "anchrfjaaa",
+      "rating": 1800,
+      "spec": "strong-plus: IB vice president at an A-tier bank by year 7, led $1.5B of deals, CFA charter, T2 MBA",
+      "stage": "mid"
+    },
+    {
+      "card": {
+        "awards": [
+          {
+            "name": "Phi Beta Kappa",
+            "scope": "institutional",
+            "selectivity": "selective"
+          }
+        ],
+        "card_version": "1.0",
+        "career_stage": "mid",
+        "education": [
+          {
+            "degree_level": "bachelor",
+            "end_year": 2020,
+            "field": "Applied Mathematics (Economics)",
+            "gpa_band": "3.9-3.99",
+            "honors": [
+              "Magna cum laude",
+              "Phi Beta Kappa"
+            ],
+            "in_progress": false,
+            "institution": "Harvard University",
+            "institution_tier": "T1"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 18,
+            "employment_type": "full_time",
+            "highlights": [
+              "Led diligence workstreams on a $3B take-private; board observer at the portfolio company",
+              "Sourced and underwrote 2 add-on acquisitions totaling $400M"
+            ],
+            "impact_scale": "industry",
+            "org": "Blackstone",
+            "org_tier": "S",
+            "role": "Senior Associate, Private Equity",
+            "role_selectivity": "elite",
+            "seniority": "associate",
+            "years": "2025-present"
+          },
+          {
+            "duration_months": 30,
+            "employment_type": "full_time",
+            "highlights": [
+              "Underwrote 12 opportunities; 2 closed ($1.1B combined)"
+            ],
+            "impact_scale": "org",
+            "org": "Blackstone",
+            "org_tier": "S",
+            "role": "Associate, Private Equity",
+            "role_selectivity": "elite",
+            "seniority": "associate",
+            "years": "2022-2025"
+          },
+          {
+            "duration_months": 24,
+            "employment_type": "full_time",
+            "highlights": [
+              "Top-bucket analyst; 3 closed deals totaling $5B"
+            ],
+            "impact_scale": "org",
+            "org": "Morgan Stanley",
+            "org_tier": "S",
+            "role": "Investment Banking Analyst, M&A",
+            "role_selectivity": "elite",
+            "seniority": "analyst",
+            "years": "2020-2022"
+          }
+        ],
+        "headline": "Megafund PE senior associate after an S-tier M&A analyst program; led diligence on a $3B LBO; T1 degree",
+        "leadership": [
+          "Board observer at a portfolio company"
+        ],
+        "notable": [
+          "Analyst to megafund associate at 2 years",
+          "Led diligence on a $3B LBO"
+        ],
+        "projects": [],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 0,
+          "first_author_count": 0,
+          "strong_venue_count": 0,
+          "top_venue_count": 0,
+          "venues": []
+        },
+        "skills_top": [
+          "LBO modeling",
+          "Due diligence",
+          "Take-private execution",
+          "Portfolio company value creation",
+          "Debt financing",
+          "Excel",
+          "PowerPoint"
+        ],
+        "top_signal": "Megafund PE assoc",
+        "years_fulltime": 6
+      },
+      "id": "anchrfkaaa",
+      "rating": 1900,
+      "spec": "exceptional: S-tier M&A analyst to megafund PE senior associate, led diligence on a $3B LBO, T1 degree",
+      "stage": "mid"
+    },
+    {
+      "card": {
+        "awards": [
+          {
+            "name": "Arjay Miller Scholar (top 10% of MBA class)",
+            "scope": "institutional",
+            "selectivity": "highly_selective"
+          }
+        ],
+        "card_version": "1.0",
+        "career_stage": "senior",
+        "education": [
+          {
+            "degree_level": "mba",
+            "end_year": 2020,
+            "field": "General Management",
+            "gpa_band": "not_listed",
+            "honors": [
+              "Arjay Miller Scholar"
+            ],
+            "in_progress": false,
+            "institution": "Stanford University (GSB)",
+            "institution_tier": "T1"
+          },
+          {
+            "degree_level": "bachelor",
+            "end_year": 2014,
+            "field": "Economics and Mathematics",
+            "gpa_band": "3.9-3.99",
+            "honors": [
+              "Summa cum laude"
+            ],
+            "in_progress": false,
+            "institution": "Yale University",
+            "institution_tier": "T2"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 36,
+            "employment_type": "full_time",
+            "highlights": [
+              "Led 3 platform investments totaling ~$5B enterprise value; 2 board seats",
+              "Runs a 6-person deal team; sourced a $1.8B carve-out"
+            ],
+            "impact_scale": "industry",
+            "org": "Apollo Global Management",
+            "org_tier": "S",
+            "role": "Principal, Private Equity",
+            "role_selectivity": "elite",
+            "seniority": "director",
+            "years": "2023-present"
+          },
+          {
+            "duration_months": 36,
+            "employment_type": "full_time",
+            "highlights": [
+              "Executed 2 buyouts ($2.2B combined)"
+            ],
+            "impact_scale": "org",
+            "org": "KKR",
+            "org_tier": "S",
+            "role": "Vice President, Private Equity",
+            "role_selectivity": "elite",
+            "seniority": "vp",
+            "years": "2020-2023"
+          },
+          {
+            "duration_months": 24,
+            "employment_type": "full_time",
+            "highlights": [
+              "Pre-MBA associate; 1 closed buyout"
+            ],
+            "impact_scale": "org",
+            "org": "KKR",
+            "org_tier": "S",
+            "role": "Associate, Private Equity",
+            "role_selectivity": "elite",
+            "seniority": "associate",
+            "years": "2016-2018"
+          },
+          {
+            "duration_months": 24,
+            "employment_type": "full_time",
+            "highlights": [
+              "Advised on 4 announced deals totaling $12B"
+            ],
+            "impact_scale": "org",
+            "org": "Centerview Partners",
+            "org_tier": "S",
+            "role": "Investment Banking Analyst",
+            "role_selectivity": "elite",
+            "seniority": "analyst",
+            "years": "2014-2016"
+          }
+        ],
+        "headline": "Megafund PE principal, 12 years; elite-boutique and megafund path; led $5B of transactions",
+        "leadership": [
+          "Director on 2 portfolio company boards",
+          "Leads a 6-person investment team"
+        ],
+        "notable": [
+          "Elite boutique to KKR to Apollo principal by year 9",
+          "$5B of led transactions"
+        ],
+        "projects": [],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 0,
+          "first_author_count": 0,
+          "strong_venue_count": 0,
+          "top_venue_count": 0,
+          "venues": []
+        },
+        "skills_top": [
+          "Buyout execution",
+          "Carve-outs",
+          "Portfolio governance",
+          "Capital structure",
+          "Deal sourcing",
+          "Team leadership"
+        ],
+        "top_signal": "Megafund principal",
+        "years_fulltime": 12
+      },
+      "id": "anchrflaaa",
+      "rating": 2000,
+      "spec": "exceptional-plus: elite boutique to two megafunds, principal by year 9, $5B of led transactions, two board seats",
+      "stage": "senior"
+    },
+    {
+      "card": {
+        "awards": [
+          {
+            "name": "Baker Scholar (top 5% of HBS class)",
+            "scope": "institutional",
+            "selectivity": "highly_selective"
+          },
+          {
+            "name": "Phi Beta Kappa",
+            "scope": "institutional",
+            "selectivity": "selective"
+          }
+        ],
+        "card_version": "1.0",
+        "career_stage": "executive",
+        "education": [
+          {
+            "degree_level": "mba",
+            "end_year": 2013,
+            "field": "General Management",
+            "gpa_band": "not_listed",
+            "honors": [
+              "Baker Scholar"
+            ],
+            "in_progress": false,
+            "institution": "Harvard Business School",
+            "institution_tier": "T1"
+          },
+          {
+            "degree_level": "bachelor",
+            "end_year": 2008,
+            "field": "Mathematics",
+            "gpa_band": "3.9-3.99",
+            "honors": [
+              "Phi Beta Kappa"
+            ],
+            "in_progress": false,
+            "institution": "Massachusetts Institute of Technology",
+            "institution_tier": "T1"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 66,
+            "employment_type": "founder",
+            "highlights": [
+              "Raised $1.2B across two funds from endowments and sovereign investors",
+              "Fund I net IRR 24% (audited); team of 22 investment professionals"
+            ],
+            "impact_scale": "industry",
+            "org": "Special-situations fund (founded)",
+            "org_tier": "S",
+            "role": "Founder and Managing Partner",
+            "role_selectivity": "elite",
+            "seniority": "founder",
+            "years": "2021-present"
+          },
+          {
+            "duration_months": 60,
+            "employment_type": "full_time",
+            "highlights": [
+              "Led ~$6B of structured and distressed investments; sat on 4 boards"
+            ],
+            "impact_scale": "industry",
+            "org": "Apollo Global Management",
+            "org_tier": "S",
+            "role": "Partner, Hybrid Value",
+            "role_selectivity": "elite",
+            "seniority": "md_partner",
+            "years": "2016-2021"
+          },
+          {
+            "duration_months": 36,
+            "employment_type": "full_time",
+            "highlights": [
+              "Led the firm's first investments in two new sectors"
+            ],
+            "impact_scale": "org",
+            "org": "Apollo Global Management",
+            "org_tier": "S",
+            "role": "Principal",
+            "role_selectivity": "elite",
+            "seniority": "director",
+            "years": "2013-2016"
+          },
+          {
+            "duration_months": 36,
+            "employment_type": "full_time",
+            "highlights": [
+              "Top-bucket analyst"
+            ],
+            "impact_scale": "org",
+            "org": "Goldman Sachs",
+            "org_tier": "S",
+            "role": "Analyst, TMT Investment Banking",
+            "role_selectivity": "elite",
+            "seniority": "analyst",
+            "years": "2008-2011"
+          }
+        ],
+        "headline": "Founder of a $1.2B AUM special-situations fund; former megafund partner; 18 years; audited track record",
+        "leadership": [
+          "Founded and leads a 22-person investment firm",
+          "Board member at 4 portfolio companies; trustee on a university endowment investment committee"
+        ],
+        "notable": [
+          "Founded a fund that raised $1.2B",
+          "Megafund partner by year 8",
+          "Audited 24% net IRR on Fund I"
+        ],
+        "projects": [],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 0,
+          "first_author_count": 0,
+          "strong_venue_count": 0,
+          "top_venue_count": 0,
+          "venues": []
+        },
+        "skills_top": [
+          "Special situations",
+          "Distressed investing",
+          "Fundraising",
+          "Portfolio construction",
+          "Capital structure",
+          "Firm leadership"
+        ],
+        "top_signal": "$1.2B AUM founder",
+        "years_fulltime": 18
+      },
+      "id": "anchrfmaaa",
+      "rating": 2100,
+      "spec": "rare: founder of a $1.2B AUM fund with an audited track record, former megafund partner, S-tier banking start",
+      "stage": "executive"
+    }
+  ],
+  "category": "finance",
+  "prompt_version": "judge.v1",
+  "schema": 1,
+  "validated_at": null
+}

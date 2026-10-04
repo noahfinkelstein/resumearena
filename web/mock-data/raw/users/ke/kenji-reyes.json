@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-09-21T14:20:11Z",
+  "handle": "kenji-reyes",
+  "key_exposed": false,
+  "owner_hash": "0cb88b270b289f6b61647740febf4fd492e3292aae7c0040a377e8efdd48051a",
+  "resumes": [
+    {
+      "created_at": "2026-09-21T14:20:11Z",
+      "current": true,
+      "id": "q6bt3szmji"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

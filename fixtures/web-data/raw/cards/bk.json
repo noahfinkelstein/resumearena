@@ -1,0 +1,87 @@
+{
+  "bkpaevkhpb": {
+    "card": {
+      "awards": [],
+      "card_version": "1.0",
+      "career_stage": "new_grad",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2025,
+          "field": "Marketing",
+          "gpa_band": "3.0-3.49",
+          "honors": [],
+          "in_progress": false,
+          "institution": "Eastern Kentucky University",
+          "institution_tier": "T4"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 13,
+          "employment_type": "full_time",
+          "highlights": [
+            "Schedules posts and drafts reports for eight client accounts"
+          ],
+          "impact_scale": "individual",
+          "org": "Fieldstone Creative",
+          "org_tier": "C",
+          "role": "Marketing Coordinator",
+          "role_selectivity": "modest",
+          "seniority": "junior",
+          "years": "2025-present"
+        },
+        {
+          "duration_months": 4,
+          "employment_type": "internship",
+          "highlights": [
+            "Game-day promotions and social content"
+          ],
+          "impact_scale": "individual",
+          "org": "Eastern Kentucky University Athletics",
+          "org_tier": "C",
+          "role": "Marketing Intern",
+          "role_selectivity": "modest",
+          "seniority": "intern",
+          "years": "2025-2025"
+        },
+        {
+          "duration_months": 29,
+          "employment_type": "part_time",
+          "highlights": [],
+          "impact_scale": "individual",
+          "org": "Campus bookstore",
+          "org_tier": "D",
+          "role": "Sales Associate",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2022-2024"
+        }
+      ],
+      "headline": "Marketing new grad from a T4 university; one year as a coordinator at a small agency; athletics-department internship",
+      "leadership": [
+        "Marketing association chapter member"
+      ],
+      "notable": [],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Social scheduling",
+        "Mailchimp",
+        "Canva",
+        "Client reporting",
+        "Copywriting"
+      ],
+      "top_signal": "Agency coordinator",
+      "years_fulltime": 1.1
+    },
+    "st": "new_grad"
+  }
+}

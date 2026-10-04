@@ -1,0 +1,13 @@
+name: setup
+description: pnpm (from package.json#packageManager) + Node 24 (from .nvmrc) + cached, frozen install
+runs:
+  using: composite
+  steps:
+    # pnpm must exist before setup-node can use `cache: pnpm`.
+    - uses: pnpm/action-setup@v4
+    - uses: actions/setup-node@v5
+      with:
+        node-version-file: .nvmrc
+        cache: pnpm
+    - run: pnpm install --frozen-lockfile
+      shell: bash

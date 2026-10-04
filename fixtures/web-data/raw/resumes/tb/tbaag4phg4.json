@@ -1,0 +1,547 @@
+{
+  "analysis": {
+    "analysis_confidence": 0.9,
+    "ats": {
+      "detected": {
+        "action_verb_ratio": 0.92,
+        "bullet_count": 13,
+        "bullet_marker_consistent": true,
+        "contact_at_top": true,
+        "date_format_consistent": true,
+        "date_formats_seen": [
+          "MMM YYYY"
+        ],
+        "has_email": true,
+        "has_location": true,
+        "has_phone": true,
+        "has_profile_link": true,
+        "has_street_address": false,
+        "has_summary_section": true,
+        "nonstandard_headings": [],
+        "quantified_bullet_ratio": 0.46,
+        "reverse_chronological": true,
+        "section_order": [
+          "Summary",
+          "Education",
+          "Experience",
+          "Projects",
+          "Skills",
+          "Leadership"
+        ],
+        "skill_bars_or_ratings": false,
+        "standard_headings": [
+          "Summary",
+          "Education",
+          "Experience",
+          "Projects",
+          "Skills",
+          "Activities"
+        ],
+        "uses_tables_suspected": false
+      },
+      "factors": {
+        "consistency": {
+          "note": "One date format, matching titles, no gaps",
+          "score": 100
+        },
+        "contact_info": {
+          "note": "Email, phone, city and a profile link at the top",
+          "score": 100
+        },
+        "formatting": {
+          "note": "Consistent bullets and reverse-chronological order; the project entries use paragraphs rather than bullets",
+          "score": 95
+        },
+        "keyword_alignment": {
+          "note": "Backend and infrastructure terms appear in bullets; testing and CI are evidenced, cloud and system design less so",
+          "score": 78
+        },
+        "length": {
+          "note": "One page for an early-career engineer",
+          "score": 100
+        },
+        "parseability": {
+          "note": "Single column, standard headings, contact placeholders in the first two lines",
+          "score": 100
+        },
+        "quantification": {
+          "note": "About half of the bullets carry a number tied to an outcome",
+          "score": 80
+        }
+      },
+      "fixes": [
+        {
+          "factor": "quantification",
+          "fix": "Before: Migrated three scheduled jobs to Kubernetes → After: Migrated 3 jobs to Kubernetes, cutting failed nightly runs from __ to __ a month.",
+          "issue": "Pipeline maintenance and the Kubernetes migration bullets state activity without an outcome",
+          "priority": "medium"
+        },
+        {
+          "factor": "keyword_alignment",
+          "fix": "Add one bullet showing a CI or container change with a result, such as build time or deploy frequency.",
+          "issue": "Docker and GitHub Actions appear only in the skills list",
+          "priority": "medium"
+        },
+        {
+          "factor": "formatting",
+          "fix": "Convert each project into two bullets: what you built and the measured result.",
+          "issue": "Project descriptions are prose paragraphs while experience uses bullets",
+          "priority": "low"
+        },
+        {
+          "factor": "length",
+          "fix": "Fold the mentoring line into Leadership or drop it to free space for a third project.",
+          "issue": "The activities line adds little for a software role",
+          "priority": "low"
+        }
+      ],
+      "score": 92,
+      "target_role_used": "Software engineer, 1-3 years"
+    },
+    "awards": [],
+    "card": {
+      "awards": [],
+      "card_version": "1.0",
+      "career_stage": "early",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2024,
+          "field": "Computer Science",
+          "gpa_band": "3.0-3.49",
+          "honors": [],
+          "in_progress": false,
+          "institution": "University of Nebraska–Lincoln",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 17,
+          "employment_type": "full_time",
+          "highlights": [
+            "Built an invoice reconciliation tool that cut a weekly 9-hour task to 2 hours",
+            "Raised billing-service test coverage from 41% to 68%; incidents fell from 7 to 2 per quarter",
+            "Maintains the carrier-rate import pipeline; 10-15 support tickets a month"
+          ],
+          "impact_scale": "team",
+          "org": "Freightline Systems",
+          "org_tier": "C",
+          "role": "Software Engineer I",
+          "role_selectivity": "modest",
+          "seniority": "junior",
+          "years": "2024-present"
+        },
+        {
+          "duration_months": 4,
+          "employment_type": "internship",
+          "highlights": [
+            "Shipped CSV export used by about 120 customer accounts; return offer"
+          ],
+          "impact_scale": "team",
+          "org": "Freightline Systems",
+          "org_tier": "C",
+          "role": "Software Engineering Intern",
+          "role_selectivity": "modest",
+          "seniority": "intern",
+          "years": "2023-2023"
+        },
+        {
+          "duration_months": 10,
+          "employment_type": "part_time",
+          "highlights": [
+            "Ran two weekly lab sections of about 25 students"
+          ],
+          "impact_scale": "individual",
+          "org": "University of Nebraska–Lincoln",
+          "org_tier": "D",
+          "role": "Teaching Assistant",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2022-2023"
+        }
+      ],
+      "headline": "Junior developer, 2 years at a mid-size logistics software company; built a reconciliation tool with a measured saving",
+      "leadership": [
+        "Volunteer mentor at a weekend coding club for high-school students (2 years)"
+      ],
+      "notable": [],
+      "projects": [
+        {
+          "descriptor": "Personal ML project: freight ETA model on a public dataset",
+          "highlight": "MAE 3.1 h against a 5.4 h baseline",
+          "kind": "software",
+          "scale_signal": "none stated",
+          "technical_depth": "standard"
+        },
+        {
+          "descriptor": "Capstone: constraint-based course timetable generator (team of 4)",
+          "highlight": "Owned the solver and database layer; demoed to the advising office",
+          "kind": "software",
+          "scale_signal": "none stated",
+          "technical_depth": "standard"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Python",
+        "PostgreSQL",
+        "Java",
+        "Spring Boot",
+        "React",
+        "Kubernetes",
+        "pytest",
+        "Grafana"
+      ],
+      "top_signal": "9h to 2h reconcile",
+      "years_fulltime": 1.4
+    },
+    "category_relevance": {
+      "academia": 0.08,
+      "finance": 0.05,
+      "general": 1,
+      "tech": 0.95
+    },
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2024,
+        "field": "Computer Science",
+        "gpa": 3.2,
+        "gpa_band": "3.0-3.49",
+        "gpa_scale": 4,
+        "honors": [],
+        "in_progress": false,
+        "institution": "University of Nebraska–Lincoln",
+        "institution_tier": "T3",
+        "notes": "Standard CS core coursework listed",
+        "start_year": 2020
+      }
+    ],
+    "experiences": [
+      {
+        "bullets_condensed": [
+          "Built invoice reconciliation tool; weekly task 9 h to 2 h",
+          "Test coverage 41% to 68%; service incidents 7 to 2 per quarter",
+          "Maintains carrier-rate import pipeline; 10-15 tickets a month",
+          "Migrated 3 scheduled jobs to Kubernetes; on-call one week in six"
+        ],
+        "duration_months": 17,
+        "employment_type": "full_time",
+        "end": "present",
+        "impact_scale": "team",
+        "is_current": true,
+        "org": "Freightline Systems",
+        "org_tier": "C",
+        "org_type": "private_company",
+        "ownership": "owned_component",
+        "quantified_impact": true,
+        "role": "Software Engineer I",
+        "role_selectivity": "modest",
+        "seniority": "junior",
+        "start": "2024-06",
+        "team_or_division": null
+      },
+      {
+        "bullets_condensed": [
+          "CSV export used by about 120 customer accounts",
+          "Fixed 20+ front-end bugs; return offer"
+        ],
+        "duration_months": 4,
+        "employment_type": "internship",
+        "end": "2023-08",
+        "impact_scale": "team",
+        "is_current": false,
+        "org": "Freightline Systems",
+        "org_tier": "C",
+        "org_type": "private_company",
+        "ownership": "contributed",
+        "quantified_impact": true,
+        "role": "Software Engineering Intern",
+        "role_selectivity": "modest",
+        "seniority": "intern",
+        "start": "2023-05",
+        "team_or_division": null
+      },
+      {
+        "bullets_condensed": [
+          "Two weekly lab sections of about 25 students; grading and office hours"
+        ],
+        "duration_months": 10,
+        "employment_type": "part_time",
+        "end": "2023-05",
+        "impact_scale": "individual",
+        "is_current": false,
+        "org": "University of Nebraska–Lincoln",
+        "org_tier": "D",
+        "org_type": "university",
+        "ownership": "supported",
+        "quantified_impact": false,
+        "role": "Teaching Assistant, Introduction to Programming",
+        "role_selectivity": "modest",
+        "seniority": "other",
+        "start": "2022-08",
+        "team_or_division": null
+      }
+    ],
+    "input": {
+      "is_resume": true,
+      "language": "en",
+      "parse_confidence": 0.97,
+      "placeholders_seen": [
+        "name",
+        "email",
+        "phone",
+        "url"
+      ],
+      "word_count_estimate": 465
+    },
+    "leadership": [
+      {
+        "budget_or_scale": "not stated",
+        "elected_or_appointed": "unknown",
+        "highlight": "Mentored high-school students for two years",
+        "org": "Weekend coding club",
+        "people_led": null,
+        "role": "Volunteer mentor"
+      }
+    ],
+    "projects": [
+      {
+        "description_condensed": "Gradient-boosted ETA model on a public freight dataset; MAE 3.1 h vs 5.4 h baseline",
+        "has_external_validation": false,
+        "kind": "software",
+        "name": "Shipment ETA estimator",
+        "quantified_impact": true,
+        "scale_signal": "none stated",
+        "technical_depth": "standard"
+      },
+      {
+        "description_condensed": "Capstone timetable generator (Java, Spring Boot, PostgreSQL); solver and database layer; demoed to advising office",
+        "has_external_validation": false,
+        "kind": "software",
+        "name": "Course scheduler",
+        "quantified_impact": false,
+        "scale_signal": "department demo",
+        "technical_depth": "standard"
+      }
+    ],
+    "publications": [],
+    "red_flags": [],
+    "residual_pii": {
+      "email_count": 0,
+      "name_suspected": false,
+      "other_identifiers": [],
+      "phone_count": 0,
+      "street_address_suspected": false,
+      "url_count": 0
+    },
+    "schema_version": "1.1",
+    "scores": {
+      "academia": {
+        "holistic_score": 12,
+        "included": false,
+        "rationale": "A teaching-assistant year and no research output.",
+        "stage_relative_score": 12,
+        "sub_scores": {
+          "breadth": 10,
+          "impact": 10,
+          "pedigree": 20,
+          "selectivity": 10,
+          "trajectory": 20
+        },
+        "top_evidence": []
+      },
+      "finance": {
+        "holistic_score": 15,
+        "included": false,
+        "rationale": "No finance footprint beyond billing-domain software.",
+        "stage_relative_score": 15,
+        "sub_scores": {
+          "breadth": 10,
+          "impact": 15,
+          "pedigree": 20,
+          "selectivity": 10,
+          "trajectory": 20
+        },
+        "top_evidence": []
+      },
+      "general": {
+        "holistic_score": 46,
+        "included": true,
+        "rationale": "State-university CS degree, one C-tier employer, a reconciliation tool with a measured time saving; no selective roles or awards.",
+        "stage_relative_score": 52,
+        "sub_scores": {
+          "breadth": 35,
+          "impact": 42,
+          "pedigree": 35,
+          "selectivity": 25,
+          "trajectory": 45
+        },
+        "top_evidence": [
+          "Reconciliation tool cut a weekly 9-hour task to 2 hours",
+          "Test coverage 41% to 68%; incidents 7 to 2 per quarter",
+          "Return offer after the internship"
+        ]
+      },
+      "tech": {
+        "holistic_score": 47,
+        "included": true,
+        "rationale": "Two years as a junior developer at a mid-size logistics company; one owned internal tool with a measured saving and a coverage improvement; maintenance work otherwise.",
+        "stage_relative_score": 53,
+        "sub_scores": {
+          "breadth": 30,
+          "impact": 44,
+          "pedigree": 35,
+          "selectivity": 25,
+          "trajectory": 45
+        },
+        "top_evidence": [
+          "Invoice reconciliation tool, 9 h to 2 h weekly",
+          "Coverage 41% to 68%, incidents 7 to 2 per quarter",
+          "Migrated 3 jobs to Kubernetes; on-call rotation"
+        ]
+      }
+    },
+    "signals": {
+      "career_stage": "early",
+      "has_quantified_impact": true,
+      "highest_institution_tier": "T3",
+      "highest_org_tier": "C",
+      "max_impact_scale": "team",
+      "months_internship": 4,
+      "primary_domain": "tech",
+      "sustained_org_tier": "C",
+      "top_role_selectivity": "modest",
+      "trajectory": "steady",
+      "years_fulltime": 1.4
+    },
+    "skills": {
+      "certifications": [],
+      "domain": [
+        "Logistics billing systems",
+        "Invoice reconciliation"
+      ],
+      "keyword_stuffing_suspected": false,
+      "spoken_languages": [],
+      "technical": [
+        "Python",
+        "Java",
+        "SQL",
+        "JavaScript",
+        "Bash",
+        "PostgreSQL",
+        "Spring Boot",
+        "React",
+        "Docker",
+        "Kubernetes",
+        "Git",
+        "GitHub Actions",
+        "pytest",
+        "Grafana",
+        "scikit-learn",
+        "pandas"
+      ]
+    },
+    "strengths": [
+      "Reconciliation tool with a concrete saving: weekly work from 9 hours to 2",
+      "Test-coverage bullet ties the number to fewer incidents (7 to 2 per quarter)",
+      "Internship converted to a return offer at the same company",
+      "On-call participation and a support runbook show ownership beyond feature work"
+    ],
+    "verdict": "Two steady years as a junior developer at a mid-size logistics company; one tool with a real saving, the rest maintenance.",
+    "weaknesses": [
+      "All experience is at one C-tier company; no selective role or program on the record",
+      "Impact is team-scale throughout; no bullet reaches a customer-facing or revenue number",
+      "Kubernetes is listed as basic and the migration bullet has no outcome",
+      "GPA of 3.2 and no honors leave pedigree at the state-university baseline"
+    ]
+  },
+  "card_sha256": "a42390c8296feb491fcb536ce7652e6fb4c6746242353d1b946f0148f62f55df",
+  "category_relevance": {
+    "academia": 0.08,
+    "finance": 0.05,
+    "general": 1,
+    "tech": 0.95
+  },
+  "created_at": "2026-10-03T12:02:00Z",
+  "deleted_at": null,
+  "duplicate_of": null,
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+5f7c9f15",
+    "verdict": {
+      "estimated_career_stage": "early",
+      "is_resume": true,
+      "language": "en",
+      "prompt_injection_detected": false,
+      "reason": "Résumé with dated roles and education.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "tech-1300-early-juni",
+  "held_reason": null,
+  "id": "tbaag4phg4",
+  "kind": "user",
+  "metrics": {
+    "char_count": 3038,
+    "columns_detected": 1,
+    "extraction_quality": 0.97,
+    "font_count": 2,
+    "image_count": 0,
+    "pages": 1,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 465
+  },
+  "owner_hash": "f528674fc98bf592413a0625b9190b2b3464bf5637c5778ffc0df1f31a13fb6e",
+  "primary": "tech",
+  "rejected_reason": null,
+  "schema": 1,
+  "scores": {
+    "general": 46,
+    "tech": 46
+  },
+  "source": {
+    "client_version": "fixtures",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 1
+  },
+  "stage": "early",
+  "status": "analyzed",
+  "superseded_by": null,
+  "supersedes": null,
+  "text": "[name]\nOmaha, NE · [email] · [phone] · [url]\n\nSUMMARY\nSoftware engineer with two years at a logistics software company, mostly on the billing service. Comfortable with Python and Java services on PostgreSQL, writing tests for code I did not write, and being on call for it. Looking for a backend role on a larger team.\n\nEDUCATION\nUniversity of Nebraska–Lincoln — B.S. Computer Science, May 2024\nGPA 3.2/4.0. Relevant coursework: Data Structures, Database Systems, Operating Systems, Software Engineering, Computer Networks.\n\nEXPERIENCE\nFreightline Systems, Omaha, NE — Software Engineer I (Jun 2024 – Present)\nLogistics software company (about 400 employees) selling shipment tracking and billing tools to regional carriers.\n• Built an internal invoice reconciliation tool (Python, PostgreSQL) that matches carrier invoices against shipment records; cut the billing team's weekly reconciliation from about 9 hours to 2.\n• Raised unit test coverage on the billing service from 41% to 68% over two quarters by targeting the modules with the most production incidents; incident count for the service fell from 7 to 2 per quarter.\n• Maintain the carrier-rate import pipeline and fix data-mapping bugs reported by customer support, typically 10 to 15 tickets a month.\n• Migrated three scheduled jobs from cron on a single VM to the team's Kubernetes cluster, with alerts in Grafana.\n• Take part in the team's on-call rotation (one week in six) for the billing service.\n• Wrote the runbook for the invoice pipeline that the support team now uses for first-line triage.\n• Reviewed pull requests from two interns during summer 2025 and paired with them on their onboarding tickets.\n• Replaced a hand-maintained spreadsheet of carrier surcharge codes with a database table and an admin page, removing a monthly manual update.\n\nFreightline Systems, Omaha, NE — Software Engineering Intern (May 2023 – Aug 2023)\n• Added CSV export to the customer shipment dashboard, used by about 120 customer accounts.\n• Fixed 20+ bugs in the React front end over the summer; received a return offer.\n\nUniversity of Nebraska–Lincoln — Teaching Assistant, Introduction to Programming (Aug 2022 – May 2023)\n• Ran two weekly lab sections of about 25 students each; graded assignments and held office hours.\n\nPROJECTS\nShipment ETA estimator (personal, 2024) — Python, scikit-learn, pandas\nGradient-boosted model trained on a public freight dataset; mean absolute error of 3.1 hours against a 5.4-hour baseline. Notebook and write-up on GitHub.\n\nCourse scheduler (senior capstone, team of 4, 2024) — Java, Spring Boot, PostgreSQL\nConstraint-based timetable generator for the CS department; handled the solver and the database layer. Demoed to the undergraduate advising office.\n\nSKILLS\nLanguages: Python, Java, SQL, JavaScript, Bash\nTools: PostgreSQL, Spring Boot, React, Docker, Kubernetes (basic), Git, GitHub Actions, pytest, Grafana\n\nACTIVITIES\nMember, ACM student chapter (2021–2024). Volunteer mentor at a weekend coding club for high-school students (2023–2024).",
+  "text_sha256": "cb15d712c8c739a823505096c4009f1837e753454727f0aa87ff4ef0e619a277",
+  "top_signal": "9h to 2h reconcile",
+  "updated_at": "2026-10-03T12:02:00Z",
+  "usage": {
+    "analysis_usd": 0.17728,
+    "gate_usd": 0.0016,
+    "latency_ms": 1
+  },
+  "versions": {
+    "analyst_model": "claude-opus-5-5",
+    "analyst_prompt": "analyst.v1+6dbc77ff",
+    "fell_back": false,
+    "gate_prompt": "gate.v1+5f7c9f15",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "visibility": "handle"
+}

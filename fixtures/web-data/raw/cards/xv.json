@@ -1,0 +1,116 @@
+{
+  "xvfgtvrvjr": {
+    "card": {
+      "awards": [
+        {
+          "name": "Churchill Scholarship (elect)",
+          "scope": "national",
+          "selectivity": "elite"
+        },
+        {
+          "name": "Goldwater Scholarship",
+          "scope": "national",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "Biophysical Society platform talk",
+          "scope": "international",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Detur Book Prize",
+          "scope": "institutional",
+          "selectivity": "selective"
+        },
+        {
+          "name": "John Harvard Scholar",
+          "scope": "institutional",
+          "selectivity": "selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "student",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2027,
+          "field": "Chemical and Physical Biology",
+          "gpa_band": "4.0",
+          "honors": [
+            "John Harvard Scholar",
+            "Detur Book Prize"
+          ],
+          "in_progress": true,
+          "institution": "Harvard College",
+          "institution_tier": "T1"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 37,
+          "employment_type": "part_time",
+          "highlights": [
+            "First-author Science paper: 3.1 Å cryo-EM structure from 1.9M particles",
+            "First-author PNAS method paper adopted by two other groups",
+            "Purified 14 transporter variants for the functional assays"
+          ],
+          "impact_scale": "industry",
+          "org": "Harvard University structural biology lab",
+          "org_tier": "A",
+          "role": "Undergraduate Researcher",
+          "role_selectivity": "selective",
+          "seniority": "research_assistant",
+          "years": "2023-present"
+        },
+        {
+          "duration_months": 6,
+          "employment_type": "internship",
+          "highlights": [
+            "Particle-picking pipeline cut curation from 20 hours to 2 per data set",
+            "Coauthor on a manuscript in review"
+          ],
+          "impact_scale": "team",
+          "org": "Lawrence Berkeley National Laboratory",
+          "org_tier": "B",
+          "role": "SULI intern (two summers)",
+          "role_selectivity": "selective",
+          "seniority": "intern",
+          "years": "2024-2025"
+        }
+      ],
+      "headline": "T1 senior with a 4.0; first-author Science and PNAS papers; Goldwater Scholar and Churchill Scholar-elect",
+      "leadership": [
+        "Leads a weekly after-school lab for a middle school",
+        "Course assistant for an introductory life sciences course"
+      ],
+      "notable": [
+        "First-author Science paper as an undergraduate",
+        "Churchill and Goldwater selections",
+        "Perfect GPA at a T1 university"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 3,
+        "first_author_count": 2,
+        "strong_venue_count": 1,
+        "top_venue_count": 1,
+        "venues": [
+          "Science",
+          "Proceedings of the National Academy of Sciences"
+        ]
+      },
+      "skills_top": [
+        "Cryo-EM",
+        "Protein purification",
+        "Single-molecule FRET",
+        "cryoSPARC",
+        "RELION",
+        "Python"
+      ],
+      "top_signal": "1st-author Science",
+      "years_fulltime": 0
+    },
+    "st": "student"
+  }
+}

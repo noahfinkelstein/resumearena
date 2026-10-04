@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:27:00Z",
+  "handle": "academia-1900-senior",
+  "key_exposed": false,
+  "owner_hash": "e85a19131b55a322b6c6620ae69548953e7a73ff5e142c67fdeb21e68725e2f3",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:27:00Z",
+      "current": true,
+      "id": "cd3ywxohut"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

@@ -1,0 +1,575 @@
+{
+  "analysis": {
+    "analysis_confidence": 0.86,
+    "ats": {
+      "detected": {
+        "action_verb_ratio": 0.86,
+        "bullet_count": 14,
+        "bullet_marker_consistent": true,
+        "contact_at_top": true,
+        "date_format_consistent": true,
+        "date_formats_seen": [
+          "MMM YYYY"
+        ],
+        "has_email": true,
+        "has_location": false,
+        "has_phone": true,
+        "has_profile_link": true,
+        "has_street_address": false,
+        "has_summary_section": true,
+        "nonstandard_headings": [],
+        "quantified_bullet_ratio": 0.64,
+        "reverse_chronological": true,
+        "section_order": [
+          "Summary",
+          "Experience",
+          "Education",
+          "Skills"
+        ],
+        "skill_bars_or_ratings": false,
+        "standard_headings": [
+          "Experience",
+          "Education",
+          "Skills"
+        ],
+        "uses_tables_suspected": false
+      },
+      "factors": {
+        "consistency": {
+          "note": "consistency read cleanly from the text.",
+          "score": 59
+        },
+        "contact_info": {
+          "note": "contact info read cleanly from the text.",
+          "score": 87
+        },
+        "formatting": {
+          "note": "formatting read cleanly from the text.",
+          "score": 83
+        },
+        "keyword_alignment": {
+          "note": "keyword alignment read cleanly from the text.",
+          "score": 62
+        },
+        "length": {
+          "note": "length read cleanly from the text.",
+          "score": 51
+        },
+        "parseability": {
+          "note": "parseability read cleanly from the text.",
+          "score": 71
+        },
+        "quantification": {
+          "note": "quantification read cleanly from the text.",
+          "score": 85
+        }
+      },
+      "fixes": [
+        {
+          "factor": "consistency",
+          "fix": "Use an end month or \"Present\" consistently.",
+          "issue": "Dates use \"Jan 2023 – present\"; two parsers read \"present\" as missing.",
+          "priority": "high"
+        },
+        {
+          "factor": "formatting",
+          "fix": "Export skills as plain lines, one group per line.",
+          "issue": "The skills section is a table.",
+          "priority": "medium"
+        },
+        {
+          "factor": "length",
+          "fix": "Cut the summary to one line with the strongest number.",
+          "issue": "The summary paragraph repeats the bullets.",
+          "priority": "low"
+        }
+      ],
+      "score": 72,
+      "target_role_used": "Software engineer, mid-career"
+    },
+    "awards": [
+      {
+        "issuer": null,
+        "name": "ICPC World Finals silver medal",
+        "pool_estimate": "unknown pool",
+        "scope": "international",
+        "selectivity": "elite",
+        "verifiable": true,
+        "year": null
+      },
+      {
+        "issuer": null,
+        "name": "Forbes 30 Under 30 (enterprise technology)",
+        "pool_estimate": "unknown pool",
+        "scope": "national",
+        "selectivity": "highly_selective",
+        "verifiable": true,
+        "year": null
+      }
+    ],
+    "card": {
+      "awards": [
+        {
+          "name": "ICPC World Finals silver medal",
+          "scope": "international",
+          "selectivity": "elite"
+        },
+        {
+          "name": "Forbes 30 Under 30 (enterprise technology)",
+          "scope": "national",
+          "selectivity": "highly_selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "executive",
+      "education": [
+        {
+          "degree_level": "master",
+          "end_year": 2013,
+          "field": "Computer Science",
+          "gpa_band": "3.9-3.99",
+          "honors": [],
+          "in_progress": false,
+          "institution": "Stanford University",
+          "institution_tier": "T1"
+        },
+        {
+          "degree_level": "bachelor",
+          "end_year": 2011,
+          "field": "Computer Science",
+          "gpa_band": "non_us_scale",
+          "honors": [
+            "Top 1% of class"
+          ],
+          "in_progress": false,
+          "institution": "Tsinghua University",
+          "institution_tier": "T2"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 18,
+          "employment_type": "full_time",
+          "highlights": [
+            "Integrated the acquired product into a platform used by ~2M developers",
+            "Leads 180 engineers across 4 sites"
+          ],
+          "impact_scale": "industry",
+          "org": "Public cloud company (acquirer)",
+          "org_tier": "A",
+          "role": "VP of Engineering, Developer Platform",
+          "role_selectivity": "highly_selective",
+          "seniority": "vp",
+          "years": "2025-present"
+        },
+        {
+          "duration_months": 72,
+          "employment_type": "founder",
+          "highlights": [
+            "Grew engineering from 2 to 90; product reached ~300k monthly active developers",
+            "Raised Series A and B from top-tier venture firms; company acquired for $400M"
+          ],
+          "impact_scale": "industry",
+          "org": "Developer-tools startup (co-founded)",
+          "org_tier": "B",
+          "role": "Co-founder and CTO",
+          "role_selectivity": "elite",
+          "seniority": "founder",
+          "years": "2019-2025"
+        },
+        {
+          "duration_months": 72,
+          "employment_type": "full_time",
+          "highlights": [
+            "Tech lead for a build-system service used by every engineer at the company"
+          ],
+          "impact_scale": "org",
+          "org": "Google",
+          "org_tier": "A",
+          "role": "Staff Software Engineer",
+          "role_selectivity": "highly_selective",
+          "seniority": "staff",
+          "years": "2013-2019"
+        }
+      ],
+      "headline": "Co-founder/CTO of a company acquired for $400M; ex-staff at an A-tier company; ICPC World Finals medalist",
+      "leadership": [
+        "Grew a founding team to 90 engineers; now leads 180",
+        "Board observer at two seed-stage startups"
+      ],
+      "notable": [
+        "Company acquired for $400M after a Series B",
+        "ICPC World Finals silver medal",
+        "Two first-author SOSP/OSDI papers",
+        "Staff at an A-tier company at 6 years"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 4,
+        "first_author_count": 2,
+        "strong_venue_count": 1,
+        "top_venue_count": 3,
+        "venues": [
+          "SOSP",
+          "OSDI",
+          "EuroSys"
+        ]
+      },
+      "skills_top": [
+        "Distributed systems",
+        "Build systems",
+        "Go",
+        "C++",
+        "Technical leadership",
+        "Developer platforms",
+        "Organizational design",
+        "Fundraising"
+      ],
+      "top_signal": "$400M acquisition",
+      "years_fulltime": 13
+    },
+    "category_relevance": {
+      "academia": 0.05,
+      "finance": 0.1,
+      "general": 1,
+      "tech": 0.1
+    },
+    "education": [
+      {
+        "degree_level": "master",
+        "end_year": 2013,
+        "field": "Computer Science",
+        "gpa": null,
+        "gpa_band": "3.9-3.99",
+        "gpa_scale": null,
+        "honors": [],
+        "in_progress": false,
+        "institution": "Stanford University",
+        "institution_tier": "T1",
+        "notes": "",
+        "start_year": 2009
+      },
+      {
+        "degree_level": "bachelor",
+        "end_year": 2011,
+        "field": "Computer Science",
+        "gpa": null,
+        "gpa_band": "non_us_scale",
+        "gpa_scale": null,
+        "honors": [
+          "Top 1% of class"
+        ],
+        "in_progress": false,
+        "institution": "Tsinghua University",
+        "institution_tier": "T2",
+        "notes": "",
+        "start_year": 2007
+      }
+    ],
+    "experiences": [
+      {
+        "bullets_condensed": [
+          "Integrated the acquired product into a platform used by ~2M developers",
+          "Leads 180 engineers across 4 sites"
+        ],
+        "duration_months": 18,
+        "employment_type": "full_time",
+        "end": "present",
+        "impact_scale": "industry",
+        "is_current": true,
+        "org": "Public cloud company (acquirer)",
+        "org_tier": "A",
+        "org_type": "private_company",
+        "ownership": "owned_component",
+        "quantified_impact": true,
+        "role": "VP of Engineering, Developer Platform",
+        "role_selectivity": "highly_selective",
+        "seniority": "vp",
+        "start": "2025",
+        "team_or_division": null
+      },
+      {
+        "bullets_condensed": [
+          "Grew engineering from 2 to 90; product reached ~300k monthly active developers",
+          "Raised Series A and B from top-tier venture firms; company acquired for $400M"
+        ],
+        "duration_months": 72,
+        "employment_type": "founder",
+        "end": "2025",
+        "impact_scale": "industry",
+        "is_current": false,
+        "org": "Developer-tools startup (co-founded)",
+        "org_tier": "B",
+        "org_type": "private_company",
+        "ownership": "owned_component",
+        "quantified_impact": true,
+        "role": "Co-founder and CTO",
+        "role_selectivity": "elite",
+        "seniority": "founder",
+        "start": "2019",
+        "team_or_division": null
+      },
+      {
+        "bullets_condensed": [
+          "Tech lead for a build-system service used by every engineer at the company"
+        ],
+        "duration_months": 72,
+        "employment_type": "full_time",
+        "end": "2019",
+        "impact_scale": "org",
+        "is_current": false,
+        "org": "Google",
+        "org_tier": "A",
+        "org_type": "private_company",
+        "ownership": "owned_component",
+        "quantified_impact": false,
+        "role": "Staff Software Engineer",
+        "role_selectivity": "highly_selective",
+        "seniority": "staff",
+        "start": "2013",
+        "team_or_division": null
+      }
+    ],
+    "input": {
+      "is_resume": true,
+      "language": "en",
+      "parse_confidence": 0.94,
+      "placeholders_seen": [
+        "name",
+        "email",
+        "phone",
+        "url"
+      ],
+      "word_count_estimate": 620
+    },
+    "leadership": [
+      {
+        "budget_or_scale": "not stated",
+        "elected_or_appointed": "unknown",
+        "highlight": "Grew a founding team to 90 engineers; now leads 180",
+        "org": "Grew a founding team to 90 engineers; now leads 180",
+        "people_led": null,
+        "role": "lead"
+      },
+      {
+        "budget_or_scale": "not stated",
+        "elected_or_appointed": "unknown",
+        "highlight": "Board observer at two seed-stage startups",
+        "org": "Board observer at two seed-stage startups",
+        "people_led": null,
+        "role": "lead"
+      }
+    ],
+    "projects": [],
+    "publications": [],
+    "red_flags": [
+      {
+        "detail": "\"Industry-leading\" appears twice without a number behind it.",
+        "location": "Experience / summary line",
+        "severity": "medium",
+        "type": "unverifiable_superlative"
+      }
+    ],
+    "residual_pii": {
+      "email_count": 0,
+      "name_suspected": false,
+      "other_identifiers": [],
+      "phone_count": 0,
+      "street_address_suspected": false,
+      "url_count": 0
+    },
+    "schema_version": "1.1",
+    "scores": {
+      "academia": {
+        "holistic_score": 69,
+        "included": false,
+        "rationale": "Co-founder/CTO of a company acquired for $400M; the academia weighting rewards the strongest lines on the card.",
+        "stage_relative_score": 78,
+        "sub_scores": {
+          "breadth": 49,
+          "impact": 49,
+          "pedigree": 39,
+          "selectivity": 39,
+          "trajectory": 56
+        },
+        "top_evidence": [
+          "Integrated the acquired product into a platform used by ~2M developers",
+          "Grew engineering from 2 to 90; product reached ~300k monthly active developers"
+        ]
+      },
+      "finance": {
+        "holistic_score": 69,
+        "included": false,
+        "rationale": "Co-founder/CTO of a company acquired for $400M; the finance weighting rewards the strongest lines on the card.",
+        "stage_relative_score": 71,
+        "sub_scores": {
+          "breadth": 55,
+          "impact": 54,
+          "pedigree": 66,
+          "selectivity": 65,
+          "trajectory": 44
+        },
+        "top_evidence": [
+          "Integrated the acquired product into a platform used by ~2M developers",
+          "Grew engineering from 2 to 90; product reached ~300k monthly active developers"
+        ]
+      },
+      "general": {
+        "holistic_score": 83,
+        "included": true,
+        "rationale": "Co-founder/CTO of a company acquired for $400M; the general weighting rewards the strongest lines on the card.",
+        "stage_relative_score": 73,
+        "sub_scores": {
+          "breadth": 87,
+          "impact": 59,
+          "pedigree": 86,
+          "selectivity": 77,
+          "trajectory": 71
+        },
+        "top_evidence": [
+          "Integrated the acquired product into a platform used by ~2M developers",
+          "Grew engineering from 2 to 90; product reached ~300k monthly active developers"
+        ]
+      },
+      "tech": {
+        "holistic_score": 80,
+        "included": false,
+        "rationale": "Co-founder/CTO of a company acquired for $400M; the tech weighting rewards the strongest lines on the card.",
+        "stage_relative_score": 80,
+        "sub_scores": {
+          "breadth": 45,
+          "impact": 41,
+          "pedigree": 59,
+          "selectivity": 62,
+          "trajectory": 62
+        },
+        "top_evidence": [
+          "Integrated the acquired product into a platform used by ~2M developers",
+          "Grew engineering from 2 to 90; product reached ~300k monthly active developers"
+        ]
+      }
+    },
+    "signals": {
+      "career_stage": "executive",
+      "has_quantified_impact": true,
+      "highest_institution_tier": "T1",
+      "highest_org_tier": "A",
+      "max_impact_scale": "industry",
+      "months_internship": 3,
+      "primary_domain": "other",
+      "sustained_org_tier": "A",
+      "top_role_selectivity": "highly_selective",
+      "trajectory": "steady",
+      "years_fulltime": 13
+    },
+    "skills": {
+      "certifications": [],
+      "domain": [],
+      "keyword_stuffing_suspected": false,
+      "spoken_languages": [
+        "English"
+      ],
+      "technical": [
+        "Distributed systems",
+        "Build systems",
+        "Go",
+        "C++",
+        "Technical leadership",
+        "Developer platforms",
+        "Organizational design",
+        "Fundraising"
+      ]
+    },
+    "strengths": [
+      "Quantified results on 7 of 9 bullets",
+      "Two promotions in 4 years at the same employer",
+      "Owned a system with named scale (40k rps)"
+    ],
+    "verdict": "A strong mid-career infrastructure resume whose numbers do the work; the education line is the only soft spot.",
+    "weaknesses": [
+      "Education sits below the ladder median for this tier",
+      "No open-source or public work listed",
+      "Summary paragraph repeats the bullets"
+    ]
+  },
+  "card_sha256": "2144128463c5f68cbf58889cbed1a7f514f219dc6dad2945a3d21249f025aa08",
+  "category_relevance": {
+    "academia": 0.05,
+    "finance": 0.1,
+    "general": 1,
+    "tech": 0.1
+  },
+  "created_at": "2026-09-21T14:20:11Z",
+  "deleted_at": null,
+  "duplicate_of": null,
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+1a2b3c4d",
+    "verdict": {
+      "estimated_career_stage": "executive",
+      "is_resume": true,
+      "language": "en",
+      "prompt_injection_detected": false,
+      "reason": "Two-page engineering résumé with dated roles.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "sofia-said",
+  "held_reason": null,
+  "id": "p4hafoublb",
+  "kind": "user",
+  "metrics": {
+    "char_count": 1003,
+    "columns_detected": 1,
+    "extraction_quality": 0.96,
+    "font_count": 3,
+    "image_count": 0,
+    "pages": 2,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 212
+  },
+  "owner_hash": "2a08ef46275c80e1948ce12eaa896d99842883978e18c31238595dfa9352ecd2",
+  "primary": "general",
+  "rejected_reason": null,
+  "schema": 1,
+  "scores": {
+    "general": 74
+  },
+  "source": {
+    "client_version": "mock.1",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 123456700
+  },
+  "stage": "executive",
+  "status": "analyzed",
+  "superseded_by": null,
+  "supersedes": null,
+  "text": "[name]\n[email] · [phone] · [url]\n\nSummary\nInfrastructure engineer with six years building and operating high-throughput services. Led the migration of a 40k rps edge service to a new runtime, cutting p99 latency by 38% and on-call pages by half.\n\nExperience\nSenior engineer, Acme Cloud, Jan 2022 – present\n· Led migration of a 40k rps service to a new runtime; p99 latency down 38%, infrastructure cost down 22%\n· Designed the capacity model used by four product teams; forecast error under 6% over 18 months\n· Promoted twice in four years; mentor to five engineers, two of whom were promoted\n\nEngineer, Northwind Fintech, Jun 2020 – Dec 2021\n· Built the reconciliation pipeline for 2.1M daily transactions with a measured 99.98% match rate\n· Cut nightly batch time from 6 hours to 70 minutes by rewriting the join strategy\n\nEducation\nBS Computer Science, Large State University, 2020\nDean's list, 2018 – 2020\n\nSkills\nGo, Rust, Kubernetes, Terraform, PostgreSQL, Kafka, observability, capacity planning\n",
+  "text_sha256": "4de6baf1b56f15118efe7b0b28cef75e9466d0795d32fe31ce0eb161b21687c5",
+  "top_signal": "$400M acquisition",
+  "updated_at": "2026-09-21T14:22:51Z",
+  "usage": {
+    "analysis_usd": 0.188,
+    "gate_usd": 0.0046,
+    "latency_ms": 61230
+  },
+  "versions": {
+    "analyst_model": "claude-opus-5-5",
+    "analyst_prompt": "analyst.v1+9e8f7a6b",
+    "fell_back": false,
+    "gate_prompt": "gate.v1+1a2b3c4d",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "visibility": "anonymous"
+}

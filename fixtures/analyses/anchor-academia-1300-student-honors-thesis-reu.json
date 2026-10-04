@@ -1,0 +1,506 @@
+{
+  "analysis_confidence": 0.92,
+  "ats": {
+    "detected": {
+      "action_verb_ratio": 0.9,
+      "bullet_count": 15,
+      "bullet_marker_consistent": true,
+      "contact_at_top": true,
+      "date_format_consistent": true,
+      "date_formats_seen": [
+        "MMM YYYY"
+      ],
+      "has_email": true,
+      "has_location": false,
+      "has_phone": true,
+      "has_profile_link": true,
+      "has_street_address": false,
+      "has_summary_section": false,
+      "nonstandard_headings": [
+        "ACTIVITIES"
+      ],
+      "quantified_bullet_ratio": 0.33,
+      "reverse_chronological": true,
+      "section_order": [
+        "Education",
+        "Experience",
+        "Publications",
+        "Experience",
+        "Awards",
+        "Leadership",
+        "Skills"
+      ],
+      "skill_bars_or_ratings": false,
+      "standard_headings": [
+        "EDUCATION",
+        "RESEARCH EXPERIENCE",
+        "PUBLICATIONS AND PRESENTATIONS",
+        "TEACHING",
+        "AWARDS",
+        "SKILLS"
+      ],
+      "uses_tables_suspected": false
+    },
+    "factors": {
+      "consistency": {
+        "note": "One date format (MMM YYYY)",
+        "score": 100
+      },
+      "contact_info": {
+        "note": "Email, phone and a profile link; no city or region",
+        "score": 75
+      },
+      "formatting": {
+        "note": "Standard headings, one bullet glyph, reverse-chronological, 2 fonts",
+        "score": 100
+      },
+      "keyword_alignment": {
+        "note": "Physics PhD applicant target: lasers, vacuum, data acquisition and a publication appear in bullets; computational work is thin",
+        "score": 85
+      },
+      "length": {
+        "note": "1 page for a student",
+        "score": 100
+      },
+      "parseability": {
+        "note": "Single-column 1-page PDF, extraction quality 0.95; contact placeholders on line 2",
+        "score": 100
+      },
+      "quantification": {
+        "note": "About a third of bullets carry a number; several are measurement values rather than outcomes",
+        "score": 60
+      }
+    },
+    "fixes": [
+      {
+        "factor": "quantification",
+        "fix": "Before: implemented frequency stabilization to an atomic reference → After: locked the laser to __ kHz linewidth with __ hours of unattended uptime",
+        "issue": "The REU laser bullet states no performance figure",
+        "priority": "medium"
+      },
+      {
+        "factor": "contact_info",
+        "fix": "Add a location line under the name",
+        "issue": "No city or region is given",
+        "priority": "medium"
+      },
+      {
+        "factor": "formatting",
+        "fix": "Make the thesis title a bullet or an italic sub-line so parsers keep it with the role",
+        "issue": "The thesis entry lists a title line without a bullet marker",
+        "priority": "low"
+      }
+    ],
+    "score": 89,
+    "target_role_used": "Physics PhD applicant or research technician"
+  },
+  "awards": [
+    {
+      "issuer": "University of Colorado Boulder",
+      "name": "Undergraduate Research Opportunities Program grant ($1,500)",
+      "pool_estimate": "broad campus grant",
+      "scope": "institutional",
+      "selectivity": "modest",
+      "verifiable": true,
+      "year": 2026
+    },
+    {
+      "issuer": "NSF / University of Michigan",
+      "name": "NSF Research Experience for Undergraduates placement",
+      "pool_estimate": "roughly 5-15% of REU applicants",
+      "scope": "national",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2025
+    },
+    {
+      "issuer": "University of Colorado Boulder",
+      "name": "Dean's List, 5 semesters",
+      "pool_estimate": "top ~25% by GPA",
+      "scope": "institutional",
+      "selectivity": "modest",
+      "verifiable": true,
+      "year": 2026
+    }
+  ],
+  "card": {
+    "awards": [
+      {
+        "name": "NSF REU placement",
+        "scope": "national",
+        "selectivity": "selective"
+      },
+      {
+        "name": "Undergraduate research grant",
+        "scope": "institutional",
+        "selectivity": "modest"
+      },
+      {
+        "name": "Dean's List, 5 semesters",
+        "scope": "institutional",
+        "selectivity": "modest"
+      }
+    ],
+    "card_version": "1.0",
+    "career_stage": "student",
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2027,
+        "field": "Physics",
+        "gpa_band": "3.7-3.89",
+        "honors": [
+          "Honors Program",
+          "Dean's List"
+        ],
+        "in_progress": true,
+        "institution": "University of Colorado Boulder",
+        "institution_tier": "T3"
+      }
+    ],
+    "experiences": [
+      {
+        "duration_months": 2,
+        "employment_type": "part_time",
+        "highlights": [
+          "Measured 2 nT field drift over 8 hours; identified the 50 Hz source"
+        ],
+        "impact_scale": "individual",
+        "org": "University of Colorado Boulder physics department",
+        "org_tier": "B",
+        "role": "Honors thesis student",
+        "role_selectivity": "selective",
+        "seniority": "research_assistant",
+        "years": "2026-present"
+      },
+      {
+        "duration_months": 3,
+        "employment_type": "internship",
+        "highlights": [
+          "Built a 780 nm laser system now in daily use",
+          "Data for a workshop paper (4th of 6 authors)"
+        ],
+        "impact_scale": "team",
+        "org": "University of Michigan (NSF REU)",
+        "org_tier": "A",
+        "role": "REU student, ultracold atoms lab",
+        "role_selectivity": "selective",
+        "seniority": "research_assistant",
+        "years": "2025-2025"
+      },
+      {
+        "duration_months": 5,
+        "employment_type": "part_time",
+        "highlights": [
+          "RF resonator and vacuum work"
+        ],
+        "impact_scale": "individual",
+        "org": "University of Colorado Boulder atomic physics group",
+        "org_tier": "B",
+        "role": "Research Assistant",
+        "role_selectivity": "modest",
+        "seniority": "research_assistant",
+        "years": "2025-2025"
+      }
+    ],
+    "headline": "Physics senior at a T3 flagship; NSF REU at a T2 with a middle-author workshop paper; honors thesis in progress",
+    "leadership": [
+      "Learning assistant for two recitation sections of 25",
+      "Outreach coordinator, physics student society"
+    ],
+    "notable": [
+      "Middle author on a workshop paper before senior year"
+    ],
+    "projects": [],
+    "publications_summary": {
+      "citation_signal": "not stated",
+      "count_total": 1,
+      "first_author_count": 0,
+      "strong_venue_count": 0,
+      "top_venue_count": 0,
+      "venues": [
+        "Midwest Cold Atom Workshop"
+      ]
+    },
+    "skills_top": [
+      "Optics alignment",
+      "Laser stabilization",
+      "Vacuum systems",
+      "Python",
+      "LabVIEW",
+      "RF electronics"
+    ],
+    "top_signal": "NSF REU alumnus",
+    "years_fulltime": 0
+  },
+  "category_relevance": {
+    "academia": 0.8,
+    "finance": 0,
+    "general": 1,
+    "tech": 0.2
+  },
+  "education": [
+    {
+      "degree_level": "bachelor",
+      "end_year": 2027,
+      "field": "Physics (minor in Mathematics)",
+      "gpa": 3.81,
+      "gpa_band": "3.7-3.89",
+      "gpa_scale": 4,
+      "honors": [
+        "Honors Program",
+        "Dean's List (5 semesters)"
+      ],
+      "in_progress": true,
+      "institution": "University of Colorado Boulder",
+      "institution_tier": "T3",
+      "notes": "Honors thesis in progress",
+      "start_year": null
+    }
+  ],
+  "experiences": [
+    {
+      "bullets_condensed": [
+        "Built a fluxgate magnetometer station; measured 2 nT field drift over 8 hours and traced the 50 Hz source",
+        "Writing a Python noise-spectrum fitting package; defense April 2027",
+        "Designed the mu-metal shield layout for the next package revision"
+      ],
+      "duration_months": 2,
+      "employment_type": "part_time",
+      "end": "present",
+      "impact_scale": "individual",
+      "is_current": true,
+      "org": "University of Colorado Boulder, Department of Physics",
+      "org_tier": "B",
+      "org_type": "university",
+      "ownership": "owned_component",
+      "quantified_impact": false,
+      "role": "Honors thesis student",
+      "role_selectivity": "selective",
+      "seniority": "research_assistant",
+      "start": "2026-08",
+      "team_or_division": null
+    },
+    {
+      "bullets_condensed": [
+        "Built and stabilized a 780 nm tapered-amplifier laser system now in daily use",
+        "Wrote the acquisition script and collected the data for a workshop proceedings paper (4th of 6 authors)",
+        "Poster at the REU symposium; trained two incoming students"
+      ],
+      "duration_months": 3,
+      "employment_type": "internship",
+      "end": "2025-08",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "University of Michigan, Department of Physics (NSF REU)",
+      "org_tier": "A",
+      "org_type": "university",
+      "ownership": "contributed",
+      "quantified_impact": false,
+      "role": "REU student",
+      "role_selectivity": "selective",
+      "seniority": "research_assistant",
+      "start": "2025-06",
+      "team_or_division": "Ultracold atoms laboratory"
+    },
+    {
+      "bullets_condensed": [
+        "Machined and tested a copper RF resonator; assisted with bake-out and leak checks",
+        "LabVIEW logging routine still used by the group"
+      ],
+      "duration_months": 5,
+      "employment_type": "part_time",
+      "end": "2025-05",
+      "impact_scale": "individual",
+      "is_current": false,
+      "org": "University of Colorado Boulder, Experimental Atomic Physics group",
+      "org_tier": "B",
+      "org_type": "university",
+      "ownership": "supported",
+      "quantified_impact": false,
+      "role": "Research Assistant",
+      "role_selectivity": "modest",
+      "seniority": "research_assistant",
+      "start": "2025-01",
+      "team_or_division": null
+    },
+    {
+      "bullets_condensed": [
+        "Led two weekly recitation sections of about 25 students"
+      ],
+      "duration_months": 9,
+      "employment_type": "part_time",
+      "end": "2026-05",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "University of Colorado Boulder",
+      "org_tier": "B",
+      "org_type": "university",
+      "ownership": "owned_component",
+      "quantified_impact": false,
+      "role": "Learning Assistant, General Physics I",
+      "role_selectivity": "modest",
+      "seniority": "other",
+      "start": "2025-08",
+      "team_or_division": null
+    }
+  ],
+  "input": {
+    "is_resume": true,
+    "language": "en",
+    "parse_confidence": 0.95,
+    "placeholders_seen": [
+      "name",
+      "email",
+      "phone",
+      "url"
+    ],
+    "word_count_estimate": 450
+  },
+  "leadership": [
+    {
+      "budget_or_scale": "monthly school demonstrations",
+      "elected_or_appointed": "elected",
+      "highlight": "Organizes monthly demonstrations at an elementary school",
+      "org": "Society of Physics Students, CU Boulder chapter",
+      "people_led": null,
+      "role": "Outreach coordinator"
+    }
+  ],
+  "projects": [],
+  "publications": [
+    {
+      "author_count": 6,
+      "author_position": "middle",
+      "citations_claimed": null,
+      "field": "Atomic physics",
+      "kind": "workshop",
+      "venue": "Midwest Cold Atom Workshop proceedings",
+      "venue_tier": "workshop",
+      "year": 2026
+    }
+  ],
+  "red_flags": [],
+  "residual_pii": {
+    "email_count": 0,
+    "name_suspected": false,
+    "other_identifiers": [],
+    "phone_count": 0,
+    "street_address_suspected": false,
+    "url_count": 0
+  },
+  "schema_version": "1.1",
+  "scores": {
+    "academia": {
+      "holistic_score": 55,
+      "included": true,
+      "rationale": "REU, honors thesis and one middle-author workshop paper match the mid anchor exactly; no first-author output, no strong venue, T3 home institution.",
+      "stage_relative_score": 55,
+      "sub_scores": {
+        "breadth": 35,
+        "impact": 30,
+        "pedigree": 50,
+        "selectivity": 50,
+        "trajectory": 52
+      },
+      "top_evidence": [
+        "Middle author on a 2026 workshop proceedings paper",
+        "NSF REU in an ultracold atoms lab; laser system in daily use",
+        "Honors thesis on magnetic noise in an ion-trap package"
+      ]
+    },
+    "finance": {
+      "holistic_score": 3,
+      "included": false,
+      "rationale": "No finance footprint.",
+      "stage_relative_score": 3,
+      "sub_scores": {
+        "breadth": 5,
+        "impact": 5,
+        "pedigree": 30,
+        "selectivity": 10,
+        "trajectory": 30
+      },
+      "top_evidence": []
+    },
+    "general": {
+      "holistic_score": 53,
+      "included": true,
+      "rationale": "State flagship honors student with a 3.81, an NSF REU at a T2 that produced a middle-author workshop paper, and an honors thesis under way; outcomes are lab-scale.",
+      "stage_relative_score": 52,
+      "sub_scores": {
+        "breadth": 35,
+        "impact": 28,
+        "pedigree": 50,
+        "selectivity": 48,
+        "trajectory": 50
+      },
+      "top_evidence": [
+        "NSF REU at a T2 university; 4th of 6 authors on a workshop paper",
+        "Honors thesis in progress with a measured 2 nT drift result",
+        "GPA 3.81, Honors Program, 5 Dean's List semesters"
+      ]
+    },
+    "tech": {
+      "holistic_score": 20,
+      "included": false,
+      "rationale": "Python and LabVIEW instrumentation code; no software role.",
+      "stage_relative_score": 20,
+      "sub_scores": {
+        "breadth": 20,
+        "impact": 20,
+        "pedigree": 40,
+        "selectivity": 25,
+        "trajectory": 40
+      },
+      "top_evidence": []
+    }
+  },
+  "signals": {
+    "career_stage": "student",
+    "has_quantified_impact": false,
+    "highest_institution_tier": "T3",
+    "highest_org_tier": "A",
+    "max_impact_scale": "team",
+    "months_internship": 3,
+    "primary_domain": "academia",
+    "sustained_org_tier": "unknown",
+    "top_role_selectivity": "selective",
+    "trajectory": "too_early",
+    "years_fulltime": 0
+  },
+  "skills": {
+    "certifications": [],
+    "domain": [
+      "Optics alignment",
+      "Vacuum systems",
+      "RF electronics",
+      "Laser frequency stabilization",
+      "Basic machining"
+    ],
+    "keyword_stuffing_suspected": false,
+    "spoken_languages": [],
+    "technical": [
+      "Python",
+      "NumPy",
+      "SciPy",
+      "Matplotlib",
+      "LabVIEW",
+      "MATLAB",
+      "LaTeX"
+    ]
+  },
+  "strengths": [
+    "NSF REU at a T2 university that produced a middle-author workshop paper",
+    "Honors thesis already has a measured result (2 nT drift over 8 hours; 50 Hz source identified)",
+    "GPA 3.81 in the Honors Program at a state flagship",
+    "Hands-on optics, vacuum and RF work described concretely"
+  ],
+  "verdict": "A correctly modest physics senior with an REU, a workshop coauthorship and a thesis under way; on track for a solid graduate application, not yet beyond it.",
+  "weaknesses": [
+    "No first-author output and no standard-venue publication",
+    "Research tenure is short: five months, a summer and two months of thesis work",
+    "Impact is individual or lab-scale throughout",
+    "No location on the page"
+  ]
+}

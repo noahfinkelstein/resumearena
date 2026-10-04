@@ -1,0 +1,66 @@
+[name]
+[email] | [phone] | [url] | [url]
+
+SUMMARY
+22-year-old founder, Rhodes Scholar, IOI gold medalist and published Nature author. Founded and scaled a venture-backed AI company to a Series B while completing degrees at two universities. Featured on the Forbes 30 Under 30 list. Seeking a role as a chief technology officer, venture partner or research director.
+
+EXPERIENCE
+
+Founder and CEO, Quantara AI — San Francisco, CA and London, UK
+January 2023 – Present
+- Founded the company at age 19 and raised a Series B led by top-tier investors; company valued in the hundreds of millions
+- Built and lead a team of 85 engineers and researchers across three continents
+- Architected the entire core platform personally, including the proprietary foundation model
+- Signed Fortune 100 customers in the first year of operation
+- Named one of the most influential founders in AI by multiple publications
+- Closed the Series A in 2023 and the Series B in 2024 while simultaneously enrolled full-time at Oxford and Stanford
+- Personally wrote the first million lines of the codebase in six months
+
+Research Scientist, Google DeepMind — London, UK
+June 2022 – December 2023 (full-time)
+- Led a research team on large language model reasoning
+- First author on a paper published in Nature in 2023 on emergent reasoning in large models, cited over 2,000 times
+- Invented a training method now used across the industry
+
+Quantitative Researcher, Jane Street — New York, NY
+September 2022 – August 2023 (full-time)
+- Developed trading strategies responsible for significant P&L
+- Youngest researcher ever hired by the firm
+- Promoted to senior researcher within four months
+
+Software Engineering Intern, Meta — Menlo Park, CA
+Summer 2021
+- Shipped a feature used by over a billion people
+
+EDUCATION
+University of Oxford — Oxford, UK
+M.Sc. in Computer Science, Rhodes Scholar, 2022 – 2024 (full-time residency in Oxford)
+Thesis awarded the department's highest distinction
+
+Stanford University — Stanford, CA
+B.S. in Computer Science and Mathematics, 2021 – 2024 (full-time, in residence), GPA 4.0
+Graduated at the top of the class in three years while founding the company
+
+AWARDS AND HONORS
+- Rhodes Scholarship, 2022
+- International Olympiad in Informatics, gold medal, 2020 and 2021
+- Forbes 30 Under 30, 2024
+- Putnam Fellow, 2022
+- Thiel Fellowship finalist, 2023
+- Nature paper selected as one of the ten breakthroughs of the year
+- Winner of an international hackathon with over 10,000 participants, 2020
+- Youngest person ever admitted to a national academy of young scientists
+
+PUBLICATIONS
+- First author, Nature, 2023: emergent reasoning in large language models (over 2,000 citations)
+- First author, NeurIPS 2022 (oral presentation)
+- Sole author, ICML 2021
+
+SKILLS
+Deep learning, distributed systems, quantitative finance, leadership, fundraising, public speaking
+Python, C++, Rust, JAX, CUDA
+
+ADDITIONAL
+- Fluent in five languages
+- Advisor to several unicorn startups
+- Invited speaker at major international conferences

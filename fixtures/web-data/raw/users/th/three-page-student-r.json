@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:41:00Z",
+  "handle": "three-page-student-r",
+  "key_exposed": false,
+  "owner_hash": "7222081ba83d99887f47654734c07c5eab290380d0b7f91140df5dcdbf64528d",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:41:00Z",
+      "current": true,
+      "id": "etrkib4oit"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

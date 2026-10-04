@@ -1,0 +1,38 @@
+{
+  "3hmlhodjpd": {
+    "c": {
+      "general": 1,
+      "tech": 1
+    },
+    "ch": "14387d53cfd2229119e199fa4a56822ab0ab1aff5dab77c6db2d996303b5d1d8",
+    "h": "tech-1800-senior-sta",
+    "p": "tech",
+    "s": "analyzed",
+    "sc": {
+      "general": 81,
+      "tech": 84
+    },
+    "sig": "60k-GPU scheduler",
+    "ss": {
+      "general": [
+        70,
+        80,
+        88,
+        66,
+        58,
+        86
+      ],
+      "tech": [
+        72,
+        82,
+        90,
+        70,
+        60,
+        88
+      ]
+    },
+    "st": "senior",
+    "t": 1791029160,
+    "v": "handle"
+  }
+}

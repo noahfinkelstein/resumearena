@@ -1,0 +1,1255 @@
+{
+  "anchors": [
+    {
+      "card": {
+        "awards": [],
+        "card_version": "1.0",
+        "career_stage": "student",
+        "education": [
+          {
+            "degree_level": "bachelor",
+            "end_year": 2028,
+            "field": "Computer Science",
+            "gpa_band": "not_listed",
+            "honors": [],
+            "in_progress": true,
+            "institution": "Kennesaw State University",
+            "institution_tier": "T4"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 14,
+            "employment_type": "part_time",
+            "highlights": [
+              "Stocked shelves and assisted customers during weekend shifts",
+              "Trained two new associates on the register"
+            ],
+            "impact_scale": "individual",
+            "org": "Target",
+            "org_tier": "C",
+            "role": "Sales Floor Team Member",
+            "role_selectivity": "modest",
+            "seniority": "other",
+            "years": "2025-present"
+          }
+        ],
+        "headline": "CS sophomore at a regional university; part-time retail associate; coursework projects only",
+        "leadership": [
+          "Member, campus coding club"
+        ],
+        "notable": [],
+        "projects": [
+          {
+            "descriptor": "To-do list web app from an online course",
+            "highlight": "Followed a tutorial; added a dark-mode toggle",
+            "kind": "software",
+            "scale_signal": "none stated",
+            "technical_depth": "tutorial"
+          },
+          {
+            "descriptor": "Course project: command-line inventory tracker in Java",
+            "highlight": "Group assignment for an intro data structures course",
+            "kind": "software",
+            "scale_signal": "none stated",
+            "technical_depth": "tutorial"
+          }
+        ],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 0,
+          "first_author_count": 0,
+          "strong_venue_count": 0,
+          "top_venue_count": 0,
+          "venues": []
+        },
+        "skills_top": [
+          "Java",
+          "Python",
+          "HTML",
+          "CSS",
+          "Git"
+        ],
+        "top_signal": "CS sophomore",
+        "years_fulltime": 0
+      },
+      "id": "anchrtbaaa",
+      "rating": 1000,
+      "spec": "minimal: regional-university CS sophomore, retail job, tutorial projects",
+      "stage": "student"
+    },
+    {
+      "card": {
+        "awards": [],
+        "card_version": "1.0",
+        "career_stage": "new_grad",
+        "education": [
+          {
+            "degree_level": "certificate",
+            "end_year": 2025,
+            "field": "Software Engineering Immersive",
+            "gpa_band": "not_listed",
+            "honors": [],
+            "in_progress": false,
+            "institution": "General Assembly",
+            "institution_tier": "T4"
+          },
+          {
+            "degree_level": "bachelor",
+            "end_year": 2024,
+            "field": "Communication Studies",
+            "gpa_band": "3.0-3.49",
+            "honors": [],
+            "in_progress": false,
+            "institution": "Texas State University",
+            "institution_tier": "T4"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 13,
+            "employment_type": "full_time",
+            "highlights": [
+              "Resolved ~30 password and hardware tickets a week for a 200-person office",
+              "Imaged and deployed laptops for new hires"
+            ],
+            "impact_scale": "individual",
+            "org": "Regional insurance brokerage",
+            "org_tier": "C",
+            "role": "IT Help Desk Technician",
+            "role_selectivity": "modest",
+            "seniority": "junior",
+            "years": "2025-present"
+          },
+          {
+            "duration_months": 20,
+            "employment_type": "part_time",
+            "highlights": [
+              "Operated the register and processed returns"
+            ],
+            "impact_scale": "individual",
+            "org": "Campus bookstore",
+            "org_tier": "D",
+            "role": "Cashier",
+            "role_selectivity": "modest",
+            "seniority": "other",
+            "years": "2022-2024"
+          }
+        ],
+        "headline": "Bootcamp graduate with a BA in communications; IT help-desk technician for one year; tutorial-grade portfolio projects",
+        "leadership": [],
+        "notable": [],
+        "projects": [
+          {
+            "descriptor": "Recipe-search web app (bootcamp capstone)",
+            "highlight": "React front end over a public recipes API",
+            "kind": "software",
+            "scale_signal": "none stated",
+            "technical_depth": "tutorial"
+          },
+          {
+            "descriptor": "Weather dashboard clone",
+            "highlight": "Deployed to a free hosting tier",
+            "kind": "software",
+            "scale_signal": "none stated",
+            "technical_depth": "tutorial"
+          }
+        ],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 0,
+          "first_author_count": 0,
+          "strong_venue_count": 0,
+          "top_venue_count": 0,
+          "venues": []
+        },
+        "skills_top": [
+          "JavaScript",
+          "React",
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "HTML",
+          "CSS"
+        ],
+        "top_signal": "Bootcamp graduate",
+        "years_fulltime": 1
+      },
+      "id": "anchrtcaaa",
+      "rating": 1100,
+      "spec": "minimal-plus: bootcamp certificate on an unrelated degree, one year of help-desk work",
+      "stage": "new_grad"
+    },
+    {
+      "card": {
+        "awards": [],
+        "card_version": "1.0",
+        "career_stage": "student",
+        "education": [
+          {
+            "degree_level": "bachelor",
+            "end_year": 2027,
+            "field": "Computer Science",
+            "gpa_band": "3.5-3.69",
+            "honors": [
+              "Dean's list (2 semesters)"
+            ],
+            "in_progress": true,
+            "institution": "University of Alabama",
+            "institution_tier": "T3"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 3,
+            "employment_type": "internship",
+            "highlights": [
+              "Built 4 client landing pages in a CMS; one cut page load time from 6 s to 2 s",
+              "Wrote a form-validation script reused on 3 client sites"
+            ],
+            "impact_scale": "team",
+            "org": "Local web development agency",
+            "org_tier": "C",
+            "role": "Software Engineering Intern",
+            "role_selectivity": "modest",
+            "seniority": "intern",
+            "years": "2026-2026"
+          }
+        ],
+        "headline": "CS senior at a state university; summer intern at a local web agency; dean's list twice",
+        "leadership": [
+          "Secretary, ACM student chapter (60 members)"
+        ],
+        "notable": [],
+        "projects": [
+          {
+            "descriptor": "Capstone: campus parking availability app",
+            "highlight": "Flask back end polling a county data feed every 5 minutes",
+            "kind": "software",
+            "scale_signal": "used by ~40 classmates",
+            "technical_depth": "standard"
+          },
+          {
+            "descriptor": "Sorting-algorithm visualizer",
+            "highlight": "Class assignment extended with step controls",
+            "kind": "software",
+            "scale_signal": "none stated",
+            "technical_depth": "tutorial"
+          }
+        ],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 0,
+          "first_author_count": 0,
+          "strong_venue_count": 0,
+          "top_venue_count": 0,
+          "venues": []
+        },
+        "skills_top": [
+          "Python",
+          "Flask",
+          "JavaScript",
+          "SQL",
+          "Git",
+          "Java"
+        ],
+        "top_signal": "Agency SWE intern",
+        "years_fulltime": 0
+      },
+      "id": "anchrtdaaa",
+      "rating": 1200,
+      "spec": "below typical: state-university CS senior, one agency internship, a capstone with a few users",
+      "stage": "student"
+    },
+    {
+      "card": {
+        "awards": [],
+        "card_version": "1.0",
+        "career_stage": "early",
+        "education": [
+          {
+            "degree_level": "bachelor",
+            "end_year": 2024,
+            "field": "Computer Science",
+            "gpa_band": "3.0-3.49",
+            "honors": [],
+            "in_progress": false,
+            "institution": "Iowa State University",
+            "institution_tier": "T3"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 26,
+            "employment_type": "full_time",
+            "highlights": [
+              "Maintains a Java/Spring billing module; closes ~15 tickets a month",
+              "Built an internal CSV reconciliation tool that saved the finance team ~6 hours a week",
+              "Added integration tests that cut a recurring release regression to zero over 2 quarters"
+            ],
+            "impact_scale": "team",
+            "org": "Mid-size logistics software company",
+            "org_tier": "C",
+            "role": "Software Developer",
+            "role_selectivity": "modest",
+            "seniority": "junior",
+            "years": "2024-present"
+          },
+          {
+            "duration_months": 18,
+            "employment_type": "part_time",
+            "highlights": [
+              "Supported lab machines and printers"
+            ],
+            "impact_scale": "individual",
+            "org": "University IT services",
+            "org_tier": "D",
+            "role": "Student Technician",
+            "role_selectivity": "modest",
+            "seniority": "intern",
+            "years": "2022-2024"
+          }
+        ],
+        "headline": "Junior developer, 2 years at a mid-size logistics software company; one internal tool with measured savings",
+        "leadership": [],
+        "notable": [],
+        "projects": [
+          {
+            "descriptor": "Class project: multiplayer trivia game over WebSockets",
+            "highlight": "Team of 3; handled the server and room state",
+            "kind": "software",
+            "scale_signal": "none stated",
+            "technical_depth": "standard"
+          }
+        ],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 0,
+          "first_author_count": 0,
+          "strong_venue_count": 0,
+          "top_venue_count": 0,
+          "venues": []
+        },
+        "skills_top": [
+          "Java",
+          "Spring Boot",
+          "SQL",
+          "PostgreSQL",
+          "JUnit",
+          "Git",
+          "Docker"
+        ],
+        "top_signal": "2 yrs junior dev",
+        "years_fulltime": 2
+      },
+      "id": "anchrteaaa",
+      "rating": 1300,
+      "spec": "typical: two years as a junior developer at a mid-size company, one internal tool with a measured saving",
+      "stage": "early"
+    },
+    {
+      "card": {
+        "awards": [
+          {
+            "name": "Regional hackathon top 10",
+            "scope": "regional",
+            "selectivity": "modest"
+          }
+        ],
+        "card_version": "1.0",
+        "career_stage": "student",
+        "education": [
+          {
+            "degree_level": "bachelor",
+            "end_year": 2027,
+            "field": "Computer Science",
+            "gpa_band": "3.7-3.89",
+            "honors": [
+              "Dean's list"
+            ],
+            "in_progress": true,
+            "institution": "University of Wisconsin-Madison",
+            "institution_tier": "T2"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 3,
+            "employment_type": "internship",
+            "highlights": [
+              "Added a config-diff feature to an internal network management tool used by ~200 engineers",
+              "Reduced a nightly test job from 90 to 35 minutes by parallelizing fixtures"
+            ],
+            "impact_scale": "team",
+            "org": "Cisco",
+            "org_tier": "B",
+            "role": "Software Engineering Intern",
+            "role_selectivity": "selective",
+            "seniority": "intern",
+            "years": "2026-2026"
+          },
+          {
+            "duration_months": 8,
+            "employment_type": "part_time",
+            "highlights": [
+              "Wrote data-cleaning scripts for a network measurement study"
+            ],
+            "impact_scale": "individual",
+            "org": "University networking research lab",
+            "org_tier": "B",
+            "role": "Undergraduate Research Assistant",
+            "role_selectivity": "modest",
+            "seniority": "research_assistant",
+            "years": "2025-2026"
+          }
+        ],
+        "headline": "CS junior at a T2 university; software engineering intern at a large networking company; side project with 300 users",
+        "leadership": [
+          "Teaching assistant, intro programming (120 students)"
+        ],
+        "notable": [
+          "Browser extension with ~300 active users"
+        ],
+        "projects": [
+          {
+            "descriptor": "Browser extension that batches course-registration alerts",
+            "highlight": "Published on an extension store; handles token refresh and rate limits",
+            "kind": "software",
+            "scale_signal": "~300 active users",
+            "technical_depth": "standard"
+          },
+          {
+            "descriptor": "Hackathon: campus bus ETA predictor",
+            "highlight": "Gradient-boosted model on 6 months of GPS logs; top-10 finish at a regional hackathon",
+            "kind": "software",
+            "scale_signal": "none stated",
+            "technical_depth": "standard"
+          }
+        ],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 0,
+          "first_author_count": 0,
+          "strong_venue_count": 0,
+          "top_venue_count": 0,
+          "venues": []
+        },
+        "skills_top": [
+          "Python",
+          "C++",
+          "Go",
+          "JavaScript",
+          "Linux",
+          "Git",
+          "scikit-learn"
+        ],
+        "top_signal": "B-tier SWE intern",
+        "years_fulltime": 0
+      },
+      "id": "anchrtfaaa",
+      "rating": 1400,
+      "spec": "typical-plus: T2 CS junior, B-tier internship, a side project with real users",
+      "stage": "student"
+    },
+    {
+      "card": {
+        "awards": [
+          {
+            "name": "ICPC North America regional, 14th of 90 teams",
+            "scope": "regional",
+            "selectivity": "modest"
+          }
+        ],
+        "card_version": "1.0",
+        "career_stage": "early",
+        "education": [
+          {
+            "degree_level": "bachelor",
+            "end_year": 2023,
+            "field": "Computer Science",
+            "gpa_band": "3.5-3.69",
+            "honors": [],
+            "in_progress": false,
+            "institution": "University of Illinois Chicago",
+            "institution_tier": "T3"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 38,
+            "employment_type": "full_time",
+            "highlights": [
+              "Owns a checkout tax-calculation service handling ~12k requests/s at peak",
+              "Cut p99 latency from 480 ms to 190 ms by caching merchant rules and removing a synchronous call",
+              "On-call lead for a 6-person team; wrote the runbook that halved mean time to recovery"
+            ],
+            "impact_scale": "org",
+            "org": "Shopify",
+            "org_tier": "B",
+            "role": "Software Engineer II",
+            "role_selectivity": "selective",
+            "seniority": "mid",
+            "years": "2023-present"
+          },
+          {
+            "duration_months": 3,
+            "employment_type": "internship",
+            "highlights": [
+              "Shipped an A/B-tested notification change that lifted click-through 4%"
+            ],
+            "impact_scale": "team",
+            "org": "LinkedIn",
+            "org_tier": "B",
+            "role": "Software Engineering Intern",
+            "role_selectivity": "selective",
+            "seniority": "intern",
+            "years": "2022-2022"
+          }
+        ],
+        "headline": "Mid-level engineer, 3 years at a B-tier e-commerce platform; owns a checkout service with p99 numbers",
+        "leadership": [],
+        "notable": [
+          "Promoted to SWE II after 18 months"
+        ],
+        "projects": [
+          {
+            "descriptor": "Open-source Ruby gem for idempotency keys",
+            "highlight": "Handles retries and key expiry; 95% test coverage",
+            "kind": "software",
+            "scale_signal": "~120 stars, used in 2 companies",
+            "technical_depth": "standard"
+          }
+        ],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 0,
+          "first_author_count": 0,
+          "strong_venue_count": 0,
+          "top_venue_count": 0,
+          "venues": []
+        },
+        "skills_top": [
+          "Ruby",
+          "Rails",
+          "Go",
+          "MySQL",
+          "Redis",
+          "Kafka",
+          "Kubernetes",
+          "Datadog"
+        ],
+        "top_signal": "Owns checkout svc",
+        "years_fulltime": 3
+      },
+      "id": "anchrtgaaa",
+      "rating": 1500,
+      "spec": "solid: three years at a B-tier platform after a B-tier internship, owns a service with p99 numbers",
+      "stage": "early"
+    },
+    {
+      "card": {
+        "awards": [],
+        "card_version": "1.0",
+        "career_stage": "mid",
+        "education": [
+          {
+            "degree_level": "bachelor",
+            "end_year": 2020,
+            "field": "Computer Science and Engineering",
+            "gpa_band": "3.5-3.69",
+            "honors": [],
+            "in_progress": false,
+            "institution": "Ohio State University",
+            "institution_tier": "T3"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 44,
+            "employment_type": "full_time",
+            "highlights": [
+              "Tech lead for the metrics ingestion pipeline: 2M events/s, 99.99% availability over 2 years",
+              "Led a storage-format migration that cut infrastructure cost ~$3M/yr",
+              "Mentored 4 engineers; 2 promoted"
+            ],
+            "impact_scale": "org",
+            "org": "Datadog",
+            "org_tier": "A",
+            "role": "Senior Software Engineer",
+            "role_selectivity": "selective",
+            "seniority": "senior",
+            "years": "2023-present"
+          },
+          {
+            "duration_months": 18,
+            "employment_type": "full_time",
+            "highlights": [
+              "Built backpressure controls that removed a class of outage"
+            ],
+            "impact_scale": "team",
+            "org": "Datadog",
+            "org_tier": "A",
+            "role": "Software Engineer",
+            "role_selectivity": "selective",
+            "seniority": "mid",
+            "years": "2021-2023"
+          },
+          {
+            "duration_months": 16,
+            "employment_type": "full_time",
+            "highlights": [
+              "Built the payments reconciliation service"
+            ],
+            "impact_scale": "team",
+            "org": "Mid-size fintech startup",
+            "org_tier": "C",
+            "role": "Software Engineer",
+            "role_selectivity": "modest",
+            "seniority": "junior",
+            "years": "2020-2021"
+          }
+        ],
+        "headline": "Senior engineer at an A-tier observability company, 6 years; owns a 2M events/s ingestion pipeline",
+        "leadership": [],
+        "notable": [
+          "Senior at an A-tier company by year 4",
+          "Infrastructure savings of ~$3M/yr from a led migration"
+        ],
+        "projects": [],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 0,
+          "first_author_count": 0,
+          "strong_venue_count": 0,
+          "top_venue_count": 0,
+          "venues": []
+        },
+        "skills_top": [
+          "Go",
+          "Rust",
+          "Kafka",
+          "Cassandra",
+          "Kubernetes",
+          "gRPC",
+          "Terraform",
+          "Distributed systems"
+        ],
+        "top_signal": "2M events/s pipe",
+        "years_fulltime": 6
+      },
+      "id": "anchrthaaa",
+      "rating": 1600,
+      "spec": "solid-plus: senior engineer at an A-tier company by year 4, owns an org-level pipeline with cost numbers",
+      "stage": "mid"
+    },
+    {
+      "card": {
+        "awards": [
+          {
+            "name": "USACO Platinum division",
+            "scope": "national",
+            "selectivity": "highly_selective"
+          },
+          {
+            "name": "ICPC Mid-Central regional, 2nd place",
+            "scope": "regional",
+            "selectivity": "highly_selective"
+          }
+        ],
+        "card_version": "1.0",
+        "career_stage": "new_grad",
+        "education": [
+          {
+            "degree_level": "bachelor",
+            "end_year": 2026,
+            "field": "Computer Science",
+            "gpa_band": "3.9-3.99",
+            "honors": [
+              "Bronze Tablet (top 3% of college)",
+              "James Scholar"
+            ],
+            "in_progress": false,
+            "institution": "University of Illinois Urbana-Champaign",
+            "institution_tier": "T1"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 5,
+            "employment_type": "full_time",
+            "highlights": [
+              "Shipped a webhook retry scheduler used by ~20k merchants within the first quarter"
+            ],
+            "impact_scale": "team",
+            "org": "Stripe",
+            "org_tier": "A",
+            "role": "Software Engineer",
+            "role_selectivity": "selective",
+            "seniority": "new_grad",
+            "years": "2026-present"
+          },
+          {
+            "duration_months": 3,
+            "employment_type": "internship",
+            "highlights": [
+              "Reduced build time for a core serving binary by 22%"
+            ],
+            "impact_scale": "team",
+            "org": "Google",
+            "org_tier": "A",
+            "role": "Software Engineering Intern",
+            "role_selectivity": "selective",
+            "seniority": "intern",
+            "years": "2025-2025"
+          },
+          {
+            "duration_months": 3,
+            "employment_type": "internship",
+            "highlights": [
+              "Built an internal dashboard for flag-rollout health"
+            ],
+            "impact_scale": "team",
+            "org": "Google",
+            "org_tier": "A",
+            "role": "STEP Intern",
+            "role_selectivity": "selective",
+            "seniority": "intern",
+            "years": "2024-2024"
+          }
+        ],
+        "headline": "New-grad engineer at an A-tier payments company; T1 CS degree; two Google internships; USACO Platinum",
+        "leadership": [
+          "Course assistant, data structures (400 students, 2 semesters)"
+        ],
+        "notable": [
+          "Two Google internships before graduation",
+          "Rust crate with ~2k stars and ~40k monthly downloads"
+        ],
+        "projects": [
+          {
+            "descriptor": "Open-source Rust rate-limiter crate",
+            "highlight": "Lock-free token bucket; adopted by two notable OSS projects",
+            "kind": "software",
+            "scale_signal": "~2k stars, ~40k monthly downloads",
+            "technical_depth": "substantial"
+          },
+          {
+            "descriptor": "Course project: toy OS kernel with paging and a scheduler",
+            "highlight": "Top grade in the systems course",
+            "kind": "software",
+            "scale_signal": "none stated",
+            "technical_depth": "substantial"
+          }
+        ],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 0,
+          "first_author_count": 0,
+          "strong_venue_count": 0,
+          "top_venue_count": 0,
+          "venues": []
+        },
+        "skills_top": [
+          "Rust",
+          "C++",
+          "Go",
+          "Java",
+          "Distributed systems",
+          "Linux",
+          "Bazel",
+          "Kubernetes"
+        ],
+        "top_signal": "USACO Platinum",
+        "years_fulltime": 0.5
+      },
+      "id": "anchrtiaaa",
+      "rating": 1700,
+      "spec": "strong: T1 CS, two Google internships, A-tier new-grad role, USACO Platinum, OSS crate with real adoption",
+      "stage": "new_grad"
+    },
+    {
+      "card": {
+        "awards": [],
+        "card_version": "1.0",
+        "career_stage": "mid",
+        "education": [
+          {
+            "degree_level": "master",
+            "end_year": 2019,
+            "field": "Computer Science",
+            "gpa_band": "3.7-3.89",
+            "honors": [],
+            "in_progress": false,
+            "institution": "University of Michigan",
+            "institution_tier": "T2"
+          },
+          {
+            "degree_level": "bachelor",
+            "end_year": 2018,
+            "field": "Computer Science",
+            "gpa_band": "3.7-3.89",
+            "honors": [
+              "Magna cum laude"
+            ],
+            "in_progress": false,
+            "institution": "University of Michigan",
+            "institution_tier": "T2"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 20,
+            "employment_type": "full_time",
+            "highlights": [
+              "Led the 12-engineer rewrite of a query optimizer; median query latency down 35% across all customers",
+              "Owns the technical roadmap for a product line with ~$200M ARR"
+            ],
+            "impact_scale": "org",
+            "org": "Databricks",
+            "org_tier": "A",
+            "role": "Staff Software Engineer",
+            "role_selectivity": "highly_selective",
+            "seniority": "staff",
+            "years": "2025-present"
+          },
+          {
+            "duration_months": 30,
+            "employment_type": "full_time",
+            "highlights": [
+              "Designed an adaptive caching layer that cut cloud cost ~18% for the largest workloads"
+            ],
+            "impact_scale": "org",
+            "org": "Databricks",
+            "org_tier": "A",
+            "role": "Senior Software Engineer",
+            "role_selectivity": "selective",
+            "seniority": "senior",
+            "years": "2022-2025"
+          },
+          {
+            "duration_months": 36,
+            "employment_type": "full_time",
+            "highlights": [
+              "Built a storage-tiering service for a petabyte-scale data lake product"
+            ],
+            "impact_scale": "org",
+            "org": "Amazon Web Services",
+            "org_tier": "A",
+            "role": "Software Development Engineer II",
+            "role_selectivity": "selective",
+            "seniority": "mid",
+            "years": "2019-2022"
+          }
+        ],
+        "headline": "Staff engineer at an A-tier data platform company after 7 years; led a query-engine rewrite; VLDB coauthor",
+        "leadership": [
+          "Tech lead for 12 engineers across 3 teams"
+        ],
+        "notable": [
+          "Staff level 7 years after graduation (top ~5% on the software ladder)",
+          "VLDB coauthor from industry"
+        ],
+        "projects": [],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 1,
+          "first_author_count": 0,
+          "strong_venue_count": 1,
+          "top_venue_count": 0,
+          "venues": [
+            "VLDB"
+          ]
+        },
+        "skills_top": [
+          "Scala",
+          "Java",
+          "C++",
+          "Spark",
+          "Query optimization",
+          "Distributed systems",
+          "AWS",
+          "Kubernetes"
+        ],
+        "top_signal": "Staff at 7 yrs",
+        "years_fulltime": 7
+      },
+      "id": "anchrtjaaa",
+      "rating": 1800,
+      "spec": "strong-plus: staff at an A-tier company at 7 years (top ~5% on the ladder), org-level outcomes, a strong-venue coauthorship",
+      "stage": "mid"
+    },
+    {
+      "card": {
+        "awards": [
+          {
+            "name": "ICPC World Finals participant",
+            "scope": "international",
+            "selectivity": "elite"
+          },
+          {
+            "name": "ICPC North America regional champion",
+            "scope": "regional",
+            "selectivity": "highly_selective"
+          }
+        ],
+        "card_version": "1.0",
+        "career_stage": "senior",
+        "education": [
+          {
+            "degree_level": "bachelor",
+            "end_year": 2015,
+            "field": "Computer Science",
+            "gpa_band": "3.9-3.99",
+            "honors": [
+              "University Honors"
+            ],
+            "in_progress": false,
+            "institution": "Carnegie Mellon University",
+            "institution_tier": "T1"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 30,
+            "employment_type": "full_time",
+            "highlights": [
+              "Leads a 40-engineer platform group; serving stack handles ~500M daily users",
+              "Drove a latency program that cut p95 by 28% and saved ~$40M/yr in compute"
+            ],
+            "impact_scale": "industry",
+            "org": "Google",
+            "org_tier": "A",
+            "role": "Senior Staff Software Engineer",
+            "role_selectivity": "highly_selective",
+            "seniority": "principal",
+            "years": "2024-present"
+          },
+          {
+            "duration_months": 48,
+            "employment_type": "full_time",
+            "highlights": [
+              "Tech lead for a storage system migrated with zero downtime across 3 regions"
+            ],
+            "impact_scale": "org",
+            "org": "Google",
+            "org_tier": "A",
+            "role": "Staff Software Engineer",
+            "role_selectivity": "highly_selective",
+            "seniority": "staff",
+            "years": "2020-2024"
+          },
+          {
+            "duration_months": 60,
+            "employment_type": "full_time",
+            "highlights": [
+              "Shipped 3 launches on a consumer product; 2 patents granted"
+            ],
+            "impact_scale": "org",
+            "org": "Google",
+            "org_tier": "A",
+            "role": "Software Engineer, then Senior Software Engineer",
+            "role_selectivity": "selective",
+            "seniority": "senior",
+            "years": "2015-2020"
+          }
+        ],
+        "headline": "Senior staff engineer at an A-tier company, 11 years; leads 40 engineers on a 500M-user platform; ICPC WF",
+        "leadership": [
+          "Leads 40 engineers across 5 teams; manages 4 tech leads"
+        ],
+        "notable": [
+          "Senior staff at an A-tier company by year 9",
+          "ICPC World Finals participant",
+          "2 granted patents"
+        ],
+        "projects": [],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 2,
+          "first_author_count": 1,
+          "strong_venue_count": 1,
+          "top_venue_count": 0,
+          "venues": [
+            "ICDE"
+          ]
+        },
+        "skills_top": [
+          "C++",
+          "Java",
+          "Go",
+          "Distributed storage",
+          "Serving infrastructure",
+          "Capacity planning",
+          "Performance engineering",
+          "Technical leadership"
+        ],
+        "top_signal": "500M-user platform",
+        "years_fulltime": 11
+      },
+      "id": "anchrtkaaa",
+      "rating": 1900,
+      "spec": "exceptional: senior staff at an A-tier company leading 40 engineers on a 500M-user platform, ICPC World Finalist, patents",
+      "stage": "senior"
+    },
+    {
+      "card": {
+        "awards": [
+          {
+            "name": "IOI gold medal",
+            "scope": "international",
+            "selectivity": "elite"
+          },
+          {
+            "name": "ICPC World Finals, 9th place",
+            "scope": "international",
+            "selectivity": "elite"
+          },
+          {
+            "name": "Putnam top 100",
+            "scope": "national",
+            "selectivity": "highly_selective"
+          }
+        ],
+        "card_version": "1.0",
+        "career_stage": "early",
+        "education": [
+          {
+            "degree_level": "bachelor",
+            "end_year": 2023,
+            "field": "Computer Science and Mathematics",
+            "gpa_band": "3.9-3.99",
+            "honors": [
+              "Phi Beta Kappa"
+            ],
+            "in_progress": false,
+            "institution": "Massachusetts Institute of Technology",
+            "institution_tier": "T1"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 40,
+            "employment_type": "full_time",
+            "highlights": [
+              "Owns the market-data normalization layer for 3 asset classes; p99 under 40 microseconds",
+              "Cut a reconciliation job from 4 h to 11 min; adopted desk-wide"
+            ],
+            "impact_scale": "org",
+            "org": "Jane Street",
+            "org_tier": "S",
+            "role": "Software Engineer",
+            "role_selectivity": "elite",
+            "seniority": "mid",
+            "years": "2023-present"
+          },
+          {
+            "duration_months": 3,
+            "employment_type": "internship",
+            "highlights": [
+              "Built a replay tool now used in onboarding"
+            ],
+            "impact_scale": "team",
+            "org": "Jane Street",
+            "org_tier": "S",
+            "role": "Software Engineering Intern",
+            "role_selectivity": "elite",
+            "seniority": "intern",
+            "years": "2022-2022"
+          },
+          {
+            "duration_months": 3,
+            "employment_type": "internship",
+            "highlights": [
+              "Internship work became a first-author ICML paper"
+            ],
+            "impact_scale": "team",
+            "org": "Google DeepMind",
+            "org_tier": "S",
+            "role": "Research Intern",
+            "role_selectivity": "elite",
+            "seniority": "intern",
+            "years": "2021-2021"
+          }
+        ],
+        "headline": "Engineer at an S-tier trading firm, 3 years; IOI gold medalist; first-author ICML paper",
+        "leadership": [
+          "Coached a national informatics olympiad training camp (30 students, 2 summers)"
+        ],
+        "notable": [
+          "IOI gold medal",
+          "ICPC World Finals 9th place",
+          "First-author ICML paper from an undergraduate internship",
+          "Core contributor to a framework with millions of users"
+        ],
+        "projects": [
+          {
+            "descriptor": "Core contributor to a major open-source ML framework (compiler subsystem)",
+            "highlight": "Authored a fusion pass that sped up common training graphs ~8%",
+            "kind": "software",
+            "scale_signal": "framework with millions of users; ~60 merged PRs",
+            "technical_depth": "exceptional"
+          }
+        ],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 2,
+          "first_author_count": 1,
+          "strong_venue_count": 1,
+          "top_venue_count": 1,
+          "venues": [
+            "ICML",
+            "AISTATS"
+          ]
+        },
+        "skills_top": [
+          "OCaml",
+          "C++",
+          "Python",
+          "Low-latency systems",
+          "Compilers",
+          "ML systems",
+          "Linux kernel tuning",
+          "Networking"
+        ],
+        "top_signal": "IOI gold",
+        "years_fulltime": 3
+      },
+      "id": "anchrtlaaa",
+      "rating": 2000,
+      "spec": "exceptional-plus: IOI gold, three years at an S-tier trading firm, core contributor to a major ML framework, first-author ICML",
+      "stage": "early"
+    },
+    {
+      "card": {
+        "awards": [
+          {
+            "name": "ICPC World Finals silver medal",
+            "scope": "international",
+            "selectivity": "elite"
+          },
+          {
+            "name": "Forbes 30 Under 30 (enterprise technology)",
+            "scope": "national",
+            "selectivity": "highly_selective"
+          }
+        ],
+        "card_version": "1.0",
+        "career_stage": "executive",
+        "education": [
+          {
+            "degree_level": "master",
+            "end_year": 2013,
+            "field": "Computer Science",
+            "gpa_band": "3.9-3.99",
+            "honors": [],
+            "in_progress": false,
+            "institution": "Stanford University",
+            "institution_tier": "T1"
+          },
+          {
+            "degree_level": "bachelor",
+            "end_year": 2011,
+            "field": "Computer Science",
+            "gpa_band": "non_us_scale",
+            "honors": [
+              "Top 1% of class"
+            ],
+            "in_progress": false,
+            "institution": "Tsinghua University",
+            "institution_tier": "T2"
+          }
+        ],
+        "experiences": [
+          {
+            "duration_months": 18,
+            "employment_type": "full_time",
+            "highlights": [
+              "Integrated the acquired product into a platform used by ~2M developers",
+              "Leads 180 engineers across 4 sites"
+            ],
+            "impact_scale": "industry",
+            "org": "Public cloud company (acquirer)",
+            "org_tier": "A",
+            "role": "VP of Engineering, Developer Platform",
+            "role_selectivity": "highly_selective",
+            "seniority": "vp",
+            "years": "2025-present"
+          },
+          {
+            "duration_months": 72,
+            "employment_type": "founder",
+            "highlights": [
+              "Grew engineering from 2 to 90; product reached ~300k monthly active developers",
+              "Raised Series A and B from top-tier venture firms; company acquired for $400M"
+            ],
+            "impact_scale": "industry",
+            "org": "Developer-tools startup (co-founded)",
+            "org_tier": "B",
+            "role": "Co-founder and CTO",
+            "role_selectivity": "elite",
+            "seniority": "founder",
+            "years": "2019-2025"
+          },
+          {
+            "duration_months": 72,
+            "employment_type": "full_time",
+            "highlights": [
+              "Tech lead for a build-system service used by every engineer at the company"
+            ],
+            "impact_scale": "org",
+            "org": "Google",
+            "org_tier": "A",
+            "role": "Staff Software Engineer",
+            "role_selectivity": "highly_selective",
+            "seniority": "staff",
+            "years": "2013-2019"
+          }
+        ],
+        "headline": "Co-founder/CTO of a company acquired for $400M; ex-staff at an A-tier company; ICPC World Finals medalist",
+        "leadership": [
+          "Grew a founding team to 90 engineers; now leads 180",
+          "Board observer at two seed-stage startups"
+        ],
+        "notable": [
+          "Company acquired for $400M after a Series B",
+          "ICPC World Finals silver medal",
+          "Two first-author SOSP/OSDI papers",
+          "Staff at an A-tier company at 6 years"
+        ],
+        "projects": [],
+        "publications_summary": {
+          "citation_signal": "not stated",
+          "count_total": 4,
+          "first_author_count": 2,
+          "strong_venue_count": 1,
+          "top_venue_count": 3,
+          "venues": [
+            "SOSP",
+            "OSDI",
+            "EuroSys"
+          ]
+        },
+        "skills_top": [
+          "Distributed systems",
+          "Build systems",
+          "Go",
+          "C++",
+          "Technical leadership",
+          "Developer platforms",
+          "Organizational design",
+          "Fundraising"
+        ],
+        "top_signal": "$400M acquisition",
+        "years_fulltime": 13
+      },
+      "id": "anchrtmaaa",
+      "rating": 2100,
+      "spec": "rare: co-founder/CTO with a $400M acquisition, ex-staff at an A-tier company, ICPC WF medal, first-author SOSP/OSDI",
+      "stage": "executive"
+    }
+  ],
+  "category": "tech",
+  "prompt_version": "judge.v1",
+  "schema": 1,
+  "validated_at": null
+}

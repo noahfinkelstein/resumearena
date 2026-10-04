@@ -1,0 +1,64 @@
+[name]
+Cambridge, MA · [email] · [phone] · [url]
+
+CURRICULUM VITAE
+
+APPOINTMENTS
+2024–present  Postdoctoral Fellow, Department of Brain and Cognitive Sciences, Massachusetts Institute of Technology. Damon Runyon Fellowship Award holder. Laboratory of a Howard Hughes Medical Institute investigator; circuit mechanisms of flexible decision making.
+
+EDUCATION
+2019–2024  Ph.D., Neuroscience, University of Michigan. Dissertation: Thalamocortical control of evidence accumulation in the mouse. Rackham Predoctoral Fellowship (final year).
+2015–2019  B.S., Biology and Mathematics, University of Rochester. Summa cum laude. Phi Beta Kappa.
+
+FELLOWSHIPS AND AWARDS
+2024–2027  Damon Runyon Fellowship Award (three years; approximately 15 awarded nationally per cycle in the basic science track)
+2024  University of Michigan ProQuest Distinguished Dissertation Award (one of ten university-wide)
+2023  Rackham Predoctoral Fellowship, University of Michigan
+2022  Society for Neuroscience Trainee Professional Development Award
+2021  Cosyne travel grant
+2019  Phi Beta Kappa; summa cum laude, University of Rochester
+
+PUBLICATIONS (citations per Google Scholar, approximately 900 total)
+1. [name] et al. Thalamic gating of cortical evidence accumulation during perceptual decisions. Nature Neuroscience, 2024. First author. Approximately 190 citations.
+2. [name] et al. A population code for decision confidence in mouse anterior cingulate cortex. Nature Communications, 2023. First author. Approximately 140 citations.
+3. [name] et al. Cell-type-specific contributions of mediodorsal thalamus to task switching. Neuron, 2022. First author. Approximately 260 citations.
+4. [name] (4th of 11 authors). A cortex-wide map of decision-related activity in the mouse. Science, 2022. Approximately 210 citations.
+5. [name] et al. Optogenetic dissection of thalamocortical loops during evidence accumulation. Journal of Neuroscience, 2021. First author.
+6. [name] et al. Closed-loop optogenetic perturbation with sub-millisecond latency on a low-cost microcontroller. eNeuro, 2020. First author.
+7. [name] (3rd of 6 authors). Behavioral state modulates thalamic responses to sensory input. Current Biology, 2021.
+8. [name] (2nd of 4 authors). History biases in rodent perceptual decisions. Journal of Neurophysiology, 2020.
+Preprints: one first-author manuscript under review (2025), posted to bioRxiv.
+
+INVITED TALKS
+2025  Department of Neuroscience, Columbia University (Zuckerman Institute seminar series)
+2025  Princeton Neuroscience Institute
+2025  Department of Neurobiology, Harvard Medical School
+2024  Center for Neural Science, New York University
+2023  Cosyne main meeting, selected talk from abstracts (approximately 8% of submissions)
+2022  Society for Neuroscience, nanosymposium talk
+
+RESEARCH EXPERIENCE
+Postdoctoral Fellow, MIT (Sep 2024 – present)
+• Leading a project combining high-density electrophysiology (Neuropixels 2.0, about 1,500 simultaneously recorded neurons) with chemogenetic manipulation of thalamic subnuclei during a dynamic foraging task.
+• Developed the lab's spike-sorting and session-alignment pipeline, used by 5 lab members; processes about 2 TB per week.
+• Supervise one graduate student rotation and one undergraduate (UROP).
+• Secured the Damon Runyon fellowship with a proposal on thalamic contributions to belief updating.
+
+Graduate Student, University of Michigan (Sep 2019 – Aug 2024)
+• Five first-author papers (above); established the lab's two-photon imaging rig and its analysis stack.
+• Mentored four undergraduates and two rotation students; two undergraduates are co-authors.
+• Taught as graduate student instructor for two terms (Introduction to Neuroscience; 70 students per section).
+
+Undergraduate Researcher, University of Rochester (2016 – 2019)
+• Honors thesis on history biases in perceptual decisions; second author on the resulting paper.
+
+SERVICE
+Reviewer: Nature Neuroscience, Neuron, eLife, Journal of Neuroscience, Cosyne (2022–present; about 20 manuscripts).
+Co-organizer, Michigan Neuroscience Graduate Student Symposium, 2022 (120 attendees).
+Member, Society for Neuroscience; Computational and Systems Neuroscience (Cosyne).
+
+TECHNICAL SKILLS
+High-density electrophysiology (Neuropixels), two-photon calcium imaging, optogenetics and chemogenetics, head-fixed and freely moving rodent behavior, stereotaxic surgery, Python (NumPy, PyTorch, scikit-learn), MATLAB, Kilosort, Suite2p, Bayesian and latent-variable models of behavior, high-performance computing.
+
+REFERENCES
+Available on request.

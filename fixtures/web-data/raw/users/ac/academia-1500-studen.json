@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:24:00Z",
+  "handle": "academia-1500-studen",
+  "key_exposed": false,
+  "owner_hash": "8a38ddc4cf436c5d18969c6415cdd5aaa448b90aea5d494c64e0179fc0f35298",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:24:00Z",
+      "current": true,
+      "id": "q35eqvdmw7"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

@@ -1,0 +1,34 @@
+{
+  "category": "finance",
+  "medians": null,
+  "page_size": 100,
+  "pages": 1,
+  "stages": {
+    "early": {
+      "pages": 1,
+      "total": 3
+    },
+    "executive": {
+      "pages": 0,
+      "total": 0
+    },
+    "mid": {
+      "pages": 1,
+      "total": 2
+    },
+    "new_grad": {
+      "pages": 1,
+      "total": 2
+    },
+    "senior": {
+      "pages": 1,
+      "total": 2
+    },
+    "student": {
+      "pages": 1,
+      "total": 2
+    }
+  },
+  "total": 11,
+  "updated_at": "2026-10-23T23:00:00Z"
+}

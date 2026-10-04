@@ -1,0 +1,535 @@
+{
+  "analysis_confidence": 0.95,
+  "ats": {
+    "detected": {
+      "action_verb_ratio": 0.83,
+      "bullet_count": 23,
+      "bullet_marker_consistent": true,
+      "contact_at_top": true,
+      "date_format_consistent": true,
+      "date_formats_seen": [
+        "Mon YYYY"
+      ],
+      "has_email": true,
+      "has_location": true,
+      "has_phone": true,
+      "has_profile_link": true,
+      "has_street_address": false,
+      "has_summary_section": true,
+      "nonstandard_headings": [
+        "INVESTMENT PROCESS AND TOOLS"
+      ],
+      "quantified_bullet_ratio": 0.91,
+      "reverse_chronological": true,
+      "section_order": [
+        "Summary",
+        "Experience",
+        "Education",
+        "Awards",
+        "Skills",
+        "Leadership"
+      ],
+      "skill_bars_or_ratings": false,
+      "standard_headings": [
+        "SUMMARY",
+        "EXPERIENCE",
+        "EDUCATION",
+        "CREDENTIALS",
+        "OTHER"
+      ],
+      "uses_tables_suspected": false
+    },
+    "factors": {
+      "consistency": {
+        "note": "Mon YYYY throughout; every role dated; titles match scope",
+        "score": 100
+      },
+      "contact_info": {
+        "note": "City, email, phone and a profile link in the header",
+        "score": 100
+      },
+      "formatting": {
+        "note": "Standard headings, reverse-chronological, one bullet glyph, two fonts, no images",
+        "score": 100
+      },
+      "keyword_alignment": {
+        "note": "Long-short research, P&L, sizing, factor exposure, channel checks, alt data, Python and SQL all appear in bullets with outcomes",
+        "score": 100
+      },
+      "length": {
+        "note": "Two pages for nine years in markets",
+        "score": 100
+      },
+      "parseability": {
+        "note": "Single column, clean text layer (0.96), standard headings, contact in the first two lines",
+        "score": 100
+      },
+      "quantification": {
+        "note": "21 of 23 bullets carry a number tied to an outcome (P&L, Sharpe, deal values, counts)",
+        "score": 100
+      }
+    },
+    "fixes": [
+      {
+        "factor": "parseability",
+        "fix": "Rename it \"Skills\"",
+        "issue": "\"Investment Process and Tools\" is a heading parsers map inconsistently",
+        "priority": "low"
+      },
+      {
+        "factor": "formatting",
+        "fix": "Cut the summary to two lines: current seat and the PM-track approval",
+        "issue": "The summary repeats the book size and P&L that the first role states",
+        "priority": "low"
+      },
+      {
+        "factor": "consistency",
+        "fix": "State both series in the same order (2025, 2024, 2023)",
+        "issue": "Sharpe ratios are listed in a different year order than the P&L figures",
+        "priority": "low"
+      }
+    ],
+    "score": 100,
+    "target_role_used": "Portfolio manager, long-short equity (software and internet)"
+  },
+  "awards": [
+    {
+      "issuer": "CFA Institute",
+      "name": "CFA charter",
+      "pool_estimate": "all three levels passed first attempt",
+      "scope": "international",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2021
+    },
+    {
+      "issuer": "Harvard College",
+      "name": "John Harvard Scholar",
+      "pool_estimate": "top ~5% of the class by GPA",
+      "scope": "institutional",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2016
+    }
+  ],
+  "card": {
+    "awards": [
+      {
+        "name": "CFA charter (all three levels first attempt)",
+        "scope": "international",
+        "selectivity": "selective"
+      },
+      {
+        "name": "John Harvard Scholar",
+        "scope": "institutional",
+        "selectivity": "selective"
+      }
+    ],
+    "card_version": "1.0",
+    "career_stage": "mid",
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2017,
+        "field": "Applied Mathematics (economics track)",
+        "gpa_band": "3.7-3.89",
+        "honors": [
+          "magna cum laude",
+          "John Harvard Scholar (2015, 2016)"
+        ],
+        "in_progress": false,
+        "institution": "Harvard University",
+        "institution_tier": "T1"
+      }
+    ],
+    "experiences": [
+      {
+        "duration_months": 45,
+        "employment_type": "full_time",
+        "highlights": [
+          "$650M gross / $120M net book, sole coverage of 35 names; P&L $18M, $15M, $12M in 2025-2023; Sharpe 1.7, 1.6, 1.9",
+          "Sizing framework cut net factor beta 0.21 to 0.06; alt-data pipeline credited on 6 of the 10 largest 2025 winners",
+          "Approved for a PM-track allocation in 2026 with a $1.5B gross target book; manages 2 people"
+        ],
+        "impact_scale": "org",
+        "org": "Citadel (Surveyor Capital)",
+        "org_tier": "S",
+        "role": "Senior Analyst, US Software and Internet (PM track)",
+        "role_selectivity": "elite",
+        "seniority": "senior",
+        "years": "2023-present"
+      },
+      {
+        "duration_months": 42,
+        "employment_type": "full_time",
+        "highlights": [
+          "Covered 20 names for a $2B pod; 2 of the pod's 5 largest 2021 gains",
+          "Channel-check program across 40 resellers preceded 3 guidance cuts by a quarter or more",
+          "Promoted to senior analyst a year ahead of the ladder"
+        ],
+        "impact_scale": "org",
+        "org": "Citadel (Surveyor Capital)",
+        "org_tier": "S",
+        "role": "Analyst, US Software",
+        "role_selectivity": "elite",
+        "seniority": "analyst",
+        "years": "2019-2022"
+      },
+      {
+        "duration_months": 24,
+        "employment_type": "full_time",
+        "highlights": [
+          "6 closed transactions, ~$14B: 3 software sell-sides, 2 IPOs, 1 convertible",
+          "Merger model for a $4.2B software combination; top bucket both cycles"
+        ],
+        "impact_scale": "org",
+        "org": "Goldman Sachs",
+        "org_tier": "S",
+        "role": "Investment Banking Analyst, TMT",
+        "role_selectivity": "elite",
+        "seniority": "analyst",
+        "years": "2017-2019"
+      },
+      {
+        "duration_months": 3,
+        "employment_type": "internship",
+        "highlights": [
+          "Comps and precedents for 3 live pitches; full-time offer"
+        ],
+        "impact_scale": "team",
+        "org": "Goldman Sachs",
+        "org_tier": "S",
+        "role": "Investment Banking Summer Analyst, TMT",
+        "role_selectivity": "elite",
+        "seniority": "intern",
+        "years": "2016"
+      }
+    ],
+    "headline": "PM-track senior analyst at an S-tier multi-strategy fund; $45M attributed P&L over 3 years; ex-GS TMT; T1 degree; CFA",
+    "leadership": [
+      "Manages 1 analyst and 1 quantitative associate; both promoted on schedule",
+      "Guest lecturer for an undergraduate investment-analysis course, 2024 and 2025"
+    ],
+    "notable": [
+      "Attributed P&L of $45M over three years with Sharpe above 1.6 each year and a 2.1% worst drawdown",
+      "GS TMT top bucket, then an S-tier multi-strategy pod, then PM-track approval with a $1.5B target book",
+      "Harvard applied mathematics, magna cum laude; CFA charter passed first attempt at every level",
+      "Flagged a revenue-recognition change two quarters before a restatement"
+    ],
+    "projects": [
+      {
+        "descriptor": "Alternative-data pipeline for software usage and hiring signals (Python, SQL)",
+        "highlight": "Credited on 6 of the pod's 10 largest winners in 2025",
+        "kind": "software",
+        "scale_signal": "feeds 3 analysts' models",
+        "technical_depth": "substantial"
+      }
+    ],
+    "publications_summary": {
+      "citation_signal": "not stated",
+      "count_total": 0,
+      "first_author_count": 0,
+      "strong_venue_count": 0,
+      "top_venue_count": 0,
+      "venues": []
+    },
+    "skills_top": [
+      "Long-short fundamental research",
+      "Cohort and unit-economics modeling",
+      "Factor-neutral portfolio construction",
+      "Event-driven positioning",
+      "Python (pandas, statsmodels)",
+      "SQL",
+      "Bloomberg",
+      "FactSet",
+      "Visible Alpha"
+    ],
+    "top_signal": "$45M 3-yr P&L",
+    "years_fulltime": 9.3
+  },
+  "category_relevance": {
+    "academia": 0.05,
+    "finance": 1,
+    "general": 1,
+    "tech": 0.2
+  },
+  "education": [
+    {
+      "degree_level": "bachelor",
+      "end_year": 2017,
+      "field": "Applied Mathematics (economics track)",
+      "gpa": 3.86,
+      "gpa_band": "3.7-3.89",
+      "gpa_scale": 4,
+      "honors": [
+        "magna cum laude",
+        "John Harvard Scholar (2015, 2016)"
+      ],
+      "in_progress": false,
+      "institution": "Harvard University",
+      "institution_tier": "T1",
+      "notes": "Senior thesis on order-flow imbalance and short-horizon equity returns; varsity squash",
+      "start_year": 2013
+    }
+  ],
+  "experiences": [
+    {
+      "bullets_condensed": [
+        "$650M gross / $120M net book; sole coverage of 35 names",
+        "P&L $18M (2025), $15M (2024), $12M (2023); Sharpe 1.7, 1.6, 1.9; worst drawdown 2.1% of gross",
+        "Sizing framework cut net factor beta 0.21 to 0.06; alt-data pipeline credited on 6 of 10 largest 2025 winners",
+        "Approved for PM-track allocation in 2026, $1.5B gross target; manages 1 analyst and 1 quant associate"
+      ],
+      "duration_months": 45,
+      "employment_type": "full_time",
+      "end": "present",
+      "impact_scale": "org",
+      "is_current": true,
+      "org": "Citadel",
+      "org_tier": "S",
+      "org_type": "fund",
+      "ownership": "led",
+      "quantified_impact": true,
+      "role": "Senior Analyst (PM track)",
+      "role_selectivity": "elite",
+      "seniority": "senior",
+      "start": "2023-01",
+      "team_or_division": "Surveyor Capital, US Software and Internet"
+    },
+    {
+      "bullets_condensed": [
+        "Covered 20 enterprise software names for a $2B pod; 2 of its 5 largest 2021 gains",
+        "Channel-check program across 40 resellers preceded 3 guidance cuts by at least a quarter",
+        "Flagged a revenue-recognition change 2 quarters before a restatement; ~$4M attributed on the short",
+        "Promoted to senior analyst after 3.5 years, a year ahead of the ladder"
+      ],
+      "duration_months": 42,
+      "employment_type": "full_time",
+      "end": "2022-12",
+      "impact_scale": "org",
+      "is_current": false,
+      "org": "Citadel",
+      "org_tier": "S",
+      "org_type": "fund",
+      "ownership": "owned_component",
+      "quantified_impact": true,
+      "role": "Analyst",
+      "role_selectivity": "elite",
+      "seniority": "analyst",
+      "start": "2019-07",
+      "team_or_division": "Surveyor Capital, US Software"
+    },
+    {
+      "bullets_condensed": [
+        "6 closed transactions totaling ~$14B: 3 software sell-sides, 2 IPOs, 1 convertible",
+        "Merger model and synergy analysis for a $4.2B public-to-public software combination",
+        "Ran the data room and 9-bidder diligence on a $2.8B payments-software sale",
+        "Top bucket both review cycles; led new-analyst modeling training in 2018"
+      ],
+      "duration_months": 24,
+      "employment_type": "full_time",
+      "end": "2019-06",
+      "impact_scale": "org",
+      "is_current": false,
+      "org": "Goldman Sachs",
+      "org_tier": "S",
+      "org_type": "bank",
+      "ownership": "owned_component",
+      "quantified_impact": true,
+      "role": "Analyst",
+      "role_selectivity": "elite",
+      "seniority": "analyst",
+      "start": "2017-07",
+      "team_or_division": "Investment Banking Division, TMT"
+    },
+    {
+      "bullets_condensed": [
+        "Comps and precedent-transactions analyses for 3 live software pitches; full-time offer"
+      ],
+      "duration_months": 3,
+      "employment_type": "internship",
+      "end": "2016-08",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "Goldman Sachs",
+      "org_tier": "S",
+      "org_type": "bank",
+      "ownership": "supported",
+      "quantified_impact": false,
+      "role": "Summer Analyst",
+      "role_selectivity": "elite",
+      "seniority": "intern",
+      "start": "2016-06",
+      "team_or_division": "Investment Banking Division, TMT"
+    }
+  ],
+  "input": {
+    "is_resume": true,
+    "language": "en",
+    "parse_confidence": 0.96,
+    "placeholders_seen": [
+      "name",
+      "email",
+      "phone",
+      "url"
+    ],
+    "word_count_estimate": 710
+  },
+  "leadership": [
+    {
+      "budget_or_scale": "$650M gross book",
+      "elected_or_appointed": "appointed",
+      "highlight": "Manages 1 analyst and 1 quantitative associate; both promoted on schedule",
+      "org": "Citadel Surveyor pod",
+      "people_led": 2,
+      "role": "Senior analyst managing a two-person team"
+    },
+    {
+      "budget_or_scale": "not stated",
+      "elected_or_appointed": "elected",
+      "highlight": "Ran the club's education program as an undergraduate",
+      "org": "Harvard Financial Analysts Club",
+      "people_led": null,
+      "role": "Director of education"
+    }
+  ],
+  "projects": [
+    {
+      "description_condensed": "Software usage and hiring signals in Python and SQL; feeds 3 analysts' models; credited on 6 of the pod's 10 largest 2025 winners",
+      "has_external_validation": true,
+      "kind": "software",
+      "name": "Alternative-data pipeline",
+      "quantified_impact": true,
+      "scale_signal": "feeds 3 analysts' models",
+      "technical_depth": "substantial"
+    }
+  ],
+  "publications": [],
+  "red_flags": [],
+  "residual_pii": {
+    "email_count": 0,
+    "name_suspected": false,
+    "other_identifiers": [],
+    "phone_count": 0,
+    "street_address_suspected": false,
+    "url_count": 0
+  },
+  "schema_version": "1.1",
+  "scores": {
+    "academia": {
+      "holistic_score": 20,
+      "included": false,
+      "rationale": "An undergraduate thesis and guest lectures; no research track.",
+      "stage_relative_score": 20,
+      "sub_scores": {
+        "breadth": 20,
+        "impact": 20,
+        "pedigree": 75,
+        "selectivity": 50,
+        "trajectory": 50
+      },
+      "top_evidence": []
+    },
+    "finance": {
+      "holistic_score": 96,
+      "included": true,
+      "rationale": "Two S-tier platforms (GS TMT, Citadel), $45M attributed P&L with Sharpe and drawdown stated, promotion a year ahead of the ladder, PM-track approval before 32, T1 quantitative degree, CFA charter. Short of the top bar only because the book is not yet the person's own.",
+      "stage_relative_score": 96,
+      "sub_scores": {
+        "breadth": 55,
+        "impact": 92,
+        "pedigree": 95,
+        "selectivity": 95,
+        "trajectory": 94
+      },
+      "top_evidence": [
+        "P&L $18M / $15M / $12M on a $650M gross book; worst drawdown 2.1%",
+        "GS TMT analyst, 6 closed deals ~$14B, top bucket both cycles",
+        "PM-track allocation approved for 2026, $1.5B gross target"
+      ]
+    },
+    "general": {
+      "holistic_score": 94,
+      "included": true,
+      "rationale": "Harvard applied math magna cum laude, GS TMT top bucket, six years at an S-tier multi-strategy fund with $45M of attributed P&L and PM-track approval, CFA on first attempts. Breadth is narrow by design; everything else is selection by others with numbers.",
+      "stage_relative_score": 94,
+      "sub_scores": {
+        "breadth": 60,
+        "impact": 88,
+        "pedigree": 93,
+        "selectivity": 94,
+        "trajectory": 92
+      },
+      "top_evidence": [
+        "$45M attributed P&L over three years, Sharpe above 1.6 each year",
+        "GS TMT top bucket then Citadel; PM-track approval with a $1.5B target book",
+        "Harvard applied mathematics, magna cum laude; CFA charter"
+      ]
+    },
+    "tech": {
+      "holistic_score": 30,
+      "included": false,
+      "rationale": "Built an alternative-data pipeline in Python and SQL; no engineering role.",
+      "stage_relative_score": 30,
+      "sub_scores": {
+        "breadth": 30,
+        "impact": 45,
+        "pedigree": 65,
+        "selectivity": 60,
+        "trajectory": 60
+      },
+      "top_evidence": []
+    }
+  },
+  "signals": {
+    "career_stage": "mid",
+    "has_quantified_impact": true,
+    "highest_institution_tier": "T1",
+    "highest_org_tier": "S",
+    "max_impact_scale": "org",
+    "months_internship": 3,
+    "primary_domain": "finance",
+    "sustained_org_tier": "S",
+    "top_role_selectivity": "elite",
+    "trajectory": "accelerating",
+    "years_fulltime": 9.3
+  },
+  "skills": {
+    "certifications": [
+      "CFA charterholder (2021)",
+      "Series 7, 63, 86/87 (held at Goldman Sachs)"
+    ],
+    "domain": [
+      "bottom-up fundamental research",
+      "unit-economics and cohort modeling",
+      "event-driven positioning",
+      "factor-neutral portfolio construction",
+      "software and internet sector coverage"
+    ],
+    "keyword_stuffing_suspected": false,
+    "spoken_languages": [
+      "English",
+      "Mandarin (fluent)"
+    ],
+    "technical": [
+      "Python (pandas, statsmodels)",
+      "SQL",
+      "Bloomberg",
+      "FactSet",
+      "Visible Alpha"
+    ]
+  },
+  "strengths": [
+    "Attributed P&L of $18M, $15M and $12M on a $650M gross book with Sharpe above 1.6 every year and a 2.1% worst drawdown",
+    "Two S-tier platforms in sequence: GS TMT (top bucket, ~$14B closed) then Citadel, with promotion a year ahead of the ladder",
+    "PM-track allocation approved for 2026 with a $1.5B gross target, the next step stated on the page",
+    "Alt-data pipeline and the revenue-recognition call show research process, not just outcomes",
+    "Harvard applied mathematics magna cum laude and the CFA charter on first attempts"
+  ],
+  "verdict": "GS TMT to an S-tier pod to PM-track approval with $45M of attributed P&L and Sharpe above 1.6 each year; the only thing missing is the book of one's own.",
+  "weaknesses": [
+    "The $1.5B book is approved, not yet run; the PM track record starts next year",
+    "Breadth is narrow by design: one sector, no leadership beyond a two-person team",
+    "The summary duplicates numbers from the first role and costs space on a two-page document"
+  ]
+}

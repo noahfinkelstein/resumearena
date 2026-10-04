@@ -1,0 +1,38 @@
+{
+  "leqkwxvj4d": {
+    "c": {
+      "general": 1,
+      "tech": 1
+    },
+    "ch": "c8c0f65318125fc7f379b9394fdf6dac271cb4dcdf3967c3903bff3f83867c56",
+    "h": "tech-2000-mid-founde",
+    "p": "tech",
+    "s": "analyzed",
+    "sc": {
+      "general": 93,
+      "tech": 94
+    },
+    "sig": "YC CTO, $6.1M ARR",
+    "ss": {
+      "general": [
+        88,
+        95,
+        92,
+        90,
+        80,
+        96
+      ],
+      "tech": [
+        88,
+        95,
+        94,
+        90,
+        78,
+        97
+      ]
+    },
+    "st": "mid",
+    "t": 1791029280,
+    "v": "anonymous"
+  }
+}

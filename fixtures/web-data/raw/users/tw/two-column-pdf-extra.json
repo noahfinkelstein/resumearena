@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:56:00Z",
+  "handle": "two-column-pdf-extra",
+  "key_exposed": false,
+  "owner_hash": "6ab8945f4d382e394707943cf257d60514274e8825e3c2fa7faccd74655cabdb",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:56:00Z",
+      "current": true,
+      "id": "hosuux246y"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

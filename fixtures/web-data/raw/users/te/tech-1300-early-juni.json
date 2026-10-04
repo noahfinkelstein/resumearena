@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:02:00Z",
+  "handle": "tech-1300-early-juni",
+  "key_exposed": false,
+  "owner_hash": "f528674fc98bf592413a0625b9190b2b3464bf5637c5778ffc0df1f31a13fb6e",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:02:00Z",
+      "current": true,
+      "id": "tbaag4phg4"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

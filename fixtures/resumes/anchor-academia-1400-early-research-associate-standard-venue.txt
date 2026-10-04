@@ -1,0 +1,46 @@
+[name]
+Pittsburgh, PA · [email] · [phone] · [url]
+
+RESEARCH INTERESTS
+Systems neuroscience; two-photon calcium imaging; analysis pipelines for large-scale neural recordings. Applying to PhD programs in neuroscience for fall 2027.
+
+EDUCATION
+University of Pittsburgh — M.S. Neuroscience, 2024
+Thesis: Motion-correction strategies for long-duration two-photon recordings in behaving mice. GPA 3.8/4.0.
+Pennsylvania State University — B.S. Biology, minor in Computer Science, 2022
+GPA 3.6/4.0. Dean's List, four semesters.
+
+RESEARCH EXPERIENCE
+Research Associate, Department of Neurobiology, University of Pittsburgh (Jul 2024 – Present)
+Laboratory studying cortical circuits during sensory learning (16-person lab).
+• Run the lab's two-photon imaging analysis pipeline: motion correction, source extraction, and spike inference for about 40 TB of recordings a year across 6 ongoing projects.
+• Rewrote the pipeline's preprocessing stage in Python with GPU acceleration, reducing per-session processing from about 11 hours to 2.5 and removing a manual quality-control step.
+• Perform cranial window surgeries and head-post implants (about 90 mice to date) and run head-fixed behavioral training.
+• Trained four undergraduate research assistants on imaging, surgery assistance, and data handling; two of them now run their own behavioral cohorts.
+• Co-author on two journal papers (below); contributed the imaging analysis and the related figures.
+• Maintain the lab's shared analysis code repository and documentation; onboard new members.
+• Presented a poster at the Society for Neuroscience annual meeting, 2025.
+• Manage the lab's animal-protocol amendments and the quarterly imaging-core usage report (about 1,100 hours of microscope time a year).
+• Run the weekly data-quality review for new imaging sessions and triage rig problems before they reach the PI.
+
+Graduate Research Assistant, same laboratory (Aug 2022 – Jun 2024)
+• Master's thesis comparing three motion-correction methods on 120 imaging sessions; recommendations adopted as the lab standard.
+• Built the behavioral rig control software (Arduino and Python) now used on three rigs.
+
+Undergraduate Research Assistant, Department of Biology, Pennsylvania State University (Jan 2021 – May 2022)
+• Zebrafish behavior assays and video tracking for a graduate student's project; acknowledged in the resulting paper.
+
+PUBLICATIONS
+1. Layer-specific dynamics of sensory responses during associative learning in mouse barrel cortex. Journal of Neurophysiology, 2025. Fourth of seven authors.
+2. A low-cost head-fixation and reward delivery system for mouse behavioral training. eNeuro, 2024. Third of five authors.
+3. Poster: Scaling two-photon preprocessing for multi-project laboratories. Society for Neuroscience, 2025. First author.
+
+TEACHING
+Teaching Assistant, Introduction to Neuroscience, University of Pittsburgh (Spring 2023, Spring 2024). Two recitation sections of 25 students each.
+
+SKILLS
+Two-photon microscopy, cranial window surgery, head-fixed behavior, Suite2p, CaImAn, Python (NumPy, SciPy, scikit-learn), MATLAB, Linux cluster computing (Slurm), Git, Arduino.
+
+HONORS
+Graduate student travel award, University of Pittsburgh Department of Neurobiology, 2025.
+Dean's List, Pennsylvania State University (4 semesters).

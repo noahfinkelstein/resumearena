@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:16:00Z",
+  "handle": "finance-1800-senior",
+  "key_exposed": false,
+  "owner_hash": "f6f42bbf21b0fce98382d4c3a76bb254e8ba89856231b91ed9b31e75aa99ce76",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:16:00Z",
+      "current": true,
+      "id": "m3zjnglo6p"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

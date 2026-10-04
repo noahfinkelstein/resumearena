@@ -1,0 +1,545 @@
+{
+  "analysis_confidence": 0.95,
+  "ats": {
+    "detected": {
+      "action_verb_ratio": 0.9,
+      "bullet_count": 19,
+      "bullet_marker_consistent": true,
+      "contact_at_top": true,
+      "date_format_consistent": true,
+      "date_formats_seen": [
+        "MMM YYYY",
+        "YYYY"
+      ],
+      "has_email": true,
+      "has_location": false,
+      "has_phone": true,
+      "has_profile_link": true,
+      "has_street_address": false,
+      "has_summary_section": false,
+      "nonstandard_headings": [
+        "ATHLETICS"
+      ],
+      "quantified_bullet_ratio": 0.7,
+      "reverse_chronological": true,
+      "section_order": [
+        "Education",
+        "Awards",
+        "Experience",
+        "Leadership",
+        "Leadership",
+        "Skills"
+      ],
+      "skill_bars_or_ratings": false,
+      "standard_headings": [
+        "EDUCATION",
+        "FELLOWSHIPS AND HONORS",
+        "EXPERIENCE",
+        "LEADERSHIP",
+        "SKILLS"
+      ],
+      "uses_tables_suspected": false
+    },
+    "factors": {
+      "consistency": {
+        "note": "One date format (MMM YYYY and YYYY ranges in their conventional places)",
+        "score": 100
+      },
+      "contact_info": {
+        "note": "Email, phone and a profile link; no city or region",
+        "score": 75
+      },
+      "formatting": {
+        "note": "Standard headings, one bullet glyph, reverse-chronological, one font",
+        "score": 100
+      },
+      "keyword_alignment": {
+        "note": "Policy fellowship or nonprofit leadership target: fundraising, program outcomes, policy writing and research appear with numbers",
+        "score": 90
+      },
+      "length": {
+        "note": "1 page for a new grad",
+        "score": 100
+      },
+      "parseability": {
+        "note": "Single-column 1-page PDF, extraction quality 0.98; contact placeholders on line 2",
+        "score": 100
+      },
+      "quantification": {
+        "note": "About 70% of bullets tie a number to an outcome (students, dollars, enrollment rates, race results)",
+        "score": 100
+      }
+    },
+    "fixes": [
+      {
+        "factor": "contact_info",
+        "fix": "Add a location line under the name",
+        "issue": "No city or region is given",
+        "priority": "medium"
+      },
+      {
+        "factor": "formatting",
+        "fix": "Fold the crew entry into Leadership and keep the captaincy line first",
+        "issue": "\"Athletics\" is not a heading most parsers map",
+        "priority": "low"
+      },
+      {
+        "factor": "quantification",
+        "fix": "Add one clause on the paper's result, e.g. \"found that __ raised turnout by __ points\"",
+        "issue": "The research assistant bullets state data size but not the finding",
+        "priority": "low"
+      }
+    ],
+    "score": 97,
+    "target_role_used": "Graduate fellowship or public-policy associate"
+  },
+  "awards": [
+    {
+      "issuer": "Rhodes Trust",
+      "name": "Rhodes Scholarship",
+      "pool_estimate": "32 American scholars a year",
+      "scope": "national",
+      "selectivity": "elite",
+      "verifiable": true,
+      "year": 2026
+    },
+    {
+      "issuer": "Truman Foundation",
+      "name": "Harry S. Truman Scholarship",
+      "pool_estimate": "54 of about 700 nominees",
+      "scope": "national",
+      "selectivity": "highly_selective",
+      "verifiable": true,
+      "year": 2025
+    },
+    {
+      "issuer": "Yale University",
+      "name": "Phi Beta Kappa, junior-year election",
+      "pool_estimate": "top 2% of the class",
+      "scope": "institutional",
+      "selectivity": "highly_selective",
+      "verifiable": true,
+      "year": 2025
+    },
+    {
+      "issuer": "Yale University",
+      "name": "Departmental prize for best senior thesis",
+      "pool_estimate": "one per year in the major",
+      "scope": "institutional",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2026
+    },
+    {
+      "issuer": "Yale University",
+      "name": "Yale College Dean's Research Fellowship",
+      "pool_estimate": "competitive summer fellowship",
+      "scope": "institutional",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2024
+    },
+    {
+      "issuer": "Collegiate Rowing Coaches Association",
+      "name": "CRCA First-Team Scholar-Athlete",
+      "pool_estimate": "GPA-based team honor",
+      "scope": "national",
+      "selectivity": "modest",
+      "verifiable": true,
+      "year": 2026
+    }
+  ],
+  "card": {
+    "awards": [
+      {
+        "name": "Rhodes Scholarship",
+        "scope": "national",
+        "selectivity": "elite"
+      },
+      {
+        "name": "Truman Scholarship",
+        "scope": "national",
+        "selectivity": "highly_selective"
+      },
+      {
+        "name": "Phi Beta Kappa, junior election",
+        "scope": "institutional",
+        "selectivity": "highly_selective"
+      },
+      {
+        "name": "Department best-thesis prize",
+        "scope": "institutional",
+        "selectivity": "selective"
+      },
+      {
+        "name": "Dean's Research Fellowship",
+        "scope": "institutional",
+        "selectivity": "selective"
+      },
+      {
+        "name": "CRCA Scholar-Athlete",
+        "scope": "national",
+        "selectivity": "modest"
+      }
+    ],
+    "card_version": "1.0",
+    "career_stage": "new_grad",
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2026,
+        "field": "Ethics, Politics, and Economics",
+        "gpa_band": "3.9-3.99",
+        "honors": [
+          "summa cum laude",
+          "Phi Beta Kappa",
+          "Department thesis prize"
+        ],
+        "in_progress": false,
+        "institution": "Yale University",
+        "institution_tier": "T2"
+      }
+    ],
+    "experiences": [
+      {
+        "duration_months": 50,
+        "employment_type": "founder",
+        "highlights": [
+          "Grew from 40 to about 3,000 students across 14 schools",
+          "Raised $610,000; $240,000 budget; 3 staff and 210 volunteers",
+          "91% college enrollment in the first two cohorts vs 68% baseline"
+        ],
+        "impact_scale": "org",
+        "org": "Mentoring nonprofit (founded)",
+        "org_tier": "C",
+        "role": "Founder and Executive Director",
+        "role_selectivity": "selective",
+        "seniority": "founder",
+        "years": "2022-present"
+      },
+      {
+        "duration_months": 3,
+        "employment_type": "internship",
+        "highlights": [
+          "Transfer-policy memo used in committee questions"
+        ],
+        "impact_scale": "team",
+        "org": "Office of a United States Senator",
+        "org_tier": "B",
+        "role": "Policy Intern, Education and Labor",
+        "role_selectivity": "selective",
+        "seniority": "intern",
+        "years": "2025-2025"
+      },
+      {
+        "duration_months": 21,
+        "employment_type": "part_time",
+        "highlights": [
+          "Coauthor on a working paper presented at APSA 2025"
+        ],
+        "impact_scale": "team",
+        "org": "Yale Institution for Social and Policy Studies",
+        "org_tier": "A",
+        "role": "Research Assistant",
+        "role_selectivity": "modest",
+        "seniority": "research_assistant",
+        "years": "2023-2025"
+      }
+    ],
+    "headline": "T2 new grad, summa cum laude; Rhodes and Truman Scholar; D-I crew captain; founded a 3,000-student nonprofit",
+    "leadership": [
+      "Founded and runs a 14-school nonprofit with 210 volunteers and a $240k budget",
+      "Captain of a 46-athlete Division I crew; stroke of a championship eight",
+      "Elected treasurer managing a $400,000 student activities budget",
+      "Chaired a grants committee allocating $85,000"
+    ],
+    "notable": [
+      "Rhodes and Truman selections in consecutive years",
+      "Nonprofit founded at 18 now serving 3,000 students",
+      "Division I captain with a summa cum laude degree"
+    ],
+    "projects": [],
+    "publications_summary": {
+      "citation_signal": "one working paper, not stated",
+      "count_total": 0,
+      "first_author_count": 0,
+      "strong_venue_count": 0,
+      "top_venue_count": 0,
+      "venues": []
+    },
+    "skills_top": [
+      "Nonprofit leadership",
+      "Fundraising",
+      "Education policy",
+      "Stata",
+      "R",
+      "Spanish"
+    ],
+    "top_signal": "Rhodes Scholar",
+    "years_fulltime": 0.4
+  },
+  "category_relevance": {
+    "academia": 0.3,
+    "finance": 0,
+    "general": 1,
+    "tech": 0
+  },
+  "education": [
+    {
+      "degree_level": "bachelor",
+      "end_year": 2026,
+      "field": "Ethics, Politics, and Economics",
+      "gpa": 3.96,
+      "gpa_band": "3.9-3.99",
+      "gpa_scale": 4,
+      "honors": [
+        "summa cum laude",
+        "Phi Beta Kappa (junior-year election)",
+        "Departmental prize for best senior thesis"
+      ],
+      "in_progress": false,
+      "institution": "Yale University",
+      "institution_tier": "T2",
+      "notes": "",
+      "start_year": 2022
+    }
+  ],
+  "experiences": [
+    {
+      "bullets_condensed": [
+        "Grew a near-peer mentoring nonprofit from 1 school and 40 students to 14 schools and about 3,000 students",
+        "Raised $610,000 cumulative; 2026 budget $240,000; 3 staff and 210 volunteer mentors",
+        "91% of the first two cohorts enrolled in college against 68% for their schools",
+        "District MOUs with data-sharing; cited as a model program by the state education department"
+      ],
+      "duration_months": 50,
+      "employment_type": "founder",
+      "end": "present",
+      "impact_scale": "org",
+      "is_current": true,
+      "org": "Bridgeline Mentors",
+      "org_tier": "C",
+      "org_type": "nonprofit",
+      "ownership": "led",
+      "quantified_impact": true,
+      "role": "Founder and Executive Director",
+      "role_selectivity": "selective",
+      "seniority": "founder",
+      "start": "2022",
+      "team_or_division": null
+    },
+    {
+      "bullets_condensed": [
+        "12-page transfer-policy memo used in the senator's committee questions",
+        "Staffed two constituent roundtables; wrote constituent-response language"
+      ],
+      "duration_months": 3,
+      "employment_type": "internship",
+      "end": "2025-08",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "Office of a United States Senator",
+      "org_tier": "B",
+      "org_type": "government",
+      "ownership": "contributed",
+      "quantified_impact": false,
+      "role": "Policy Intern",
+      "role_selectivity": "selective",
+      "seniority": "intern",
+      "start": "2025-06",
+      "team_or_division": "Education and Labor"
+    },
+    {
+      "bullets_condensed": [
+        "Cleaned and coded a 40,000-record school-board election data set",
+        "Coauthor on a working paper presented at the 2025 APSA meeting"
+      ],
+      "duration_months": 21,
+      "employment_type": "part_time",
+      "end": "2025-05",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "Yale Institution for Social and Policy Studies",
+      "org_tier": "A",
+      "org_type": "university",
+      "ownership": "contributed",
+      "quantified_impact": false,
+      "role": "Research Assistant",
+      "role_selectivity": "modest",
+      "seniority": "research_assistant",
+      "start": "2023-09",
+      "team_or_division": null
+    }
+  ],
+  "input": {
+    "is_resume": true,
+    "language": "en",
+    "parse_confidence": 0.98,
+    "placeholders_seen": [
+      "name",
+      "email",
+      "phone",
+      "url"
+    ],
+    "word_count_estimate": 520
+  },
+  "leadership": [
+    {
+      "budget_or_scale": "$240,000 budget; 3 staff; 210 volunteers; 3,000 students",
+      "elected_or_appointed": "founded",
+      "highlight": "Founded and runs a 14-school mentoring nonprofit",
+      "org": "Bridgeline Mentors",
+      "people_led": 213,
+      "role": "Founder and Executive Director"
+    },
+    {
+      "budget_or_scale": "46-athlete Division I squad",
+      "elected_or_appointed": "elected",
+      "highlight": "Stroke of the eight that won the 2025 Eastern Sprints; 2nd at the 2026 IRA",
+      "org": "Yale Men's Heavyweight Crew",
+      "people_led": 46,
+      "role": "Captain"
+    },
+    {
+      "budget_or_scale": "$400,000 student activities budget",
+      "elected_or_appointed": "elected",
+      "highlight": "Managed the student activities budget 2024–25",
+      "org": "Yale College Council",
+      "people_led": null,
+      "role": "Treasurer"
+    },
+    {
+      "budget_or_scale": "$85,000 allocated",
+      "elected_or_appointed": "elected",
+      "highlight": "Chaired the subcommittee allocating $85,000 to student service projects",
+      "org": "Dwight Hall",
+      "people_led": null,
+      "role": "Executive Committee; grants subcommittee chair"
+    },
+    {
+      "budget_or_scale": "one of 8 of 60 applicants",
+      "elected_or_appointed": "appointed",
+      "highlight": "Selected 8 of 60 applicants",
+      "org": "Residential college",
+      "people_led": null,
+      "role": "First-year counselor"
+    }
+  ],
+  "projects": [],
+  "publications": [],
+  "red_flags": [],
+  "residual_pii": {
+    "email_count": 0,
+    "name_suspected": false,
+    "other_identifiers": [],
+    "phone_count": 0,
+    "street_address_suspected": false,
+    "url_count": 0
+  },
+  "schema_version": "1.1",
+  "scores": {
+    "academia": {
+      "holistic_score": 40,
+      "included": false,
+      "rationale": "Research assistant with an APSA working paper and a prize-winning thesis; not a research career yet.",
+      "stage_relative_score": 40,
+      "sub_scores": {
+        "breadth": 30,
+        "impact": 30,
+        "pedigree": 80,
+        "selectivity": 70,
+        "trajectory": 55
+      },
+      "top_evidence": []
+    },
+    "finance": {
+      "holistic_score": 10,
+      "included": false,
+      "rationale": "No finance footprint beyond budget management.",
+      "stage_relative_score": 10,
+      "sub_scores": {
+        "breadth": 20,
+        "impact": 20,
+        "pedigree": 60,
+        "selectivity": 50,
+        "trajectory": 40
+      },
+      "top_evidence": []
+    },
+    "general": {
+      "holistic_score": 92,
+      "included": true,
+      "rationale": "Rhodes and Truman selections, summa cum laude with the department thesis prize, Division I captaincy, and a founded nonprofit with 3,000 students, a $240k budget and a measured enrollment outcome; impact is org-scale and every claim is sized.",
+      "stage_relative_score": 93,
+      "sub_scores": {
+        "breadth": 88,
+        "impact": 72,
+        "pedigree": 90,
+        "selectivity": 98,
+        "trajectory": 82
+      },
+      "top_evidence": [
+        "Rhodes Scholar-elect and Truman Scholar",
+        "Founded a nonprofit reaching 3,000 students with a $610k cumulative raise and 91% college enrollment",
+        "Division I crew captain; summa cum laude with the thesis prize"
+      ]
+    },
+    "tech": {
+      "holistic_score": 5,
+      "included": false,
+      "rationale": "Stata and R for research assistance.",
+      "stage_relative_score": 5,
+      "sub_scores": {
+        "breadth": 10,
+        "impact": 10,
+        "pedigree": 50,
+        "selectivity": 30,
+        "trajectory": 30
+      },
+      "top_evidence": []
+    }
+  },
+  "signals": {
+    "career_stage": "new_grad",
+    "has_quantified_impact": true,
+    "highest_institution_tier": "T2",
+    "highest_org_tier": "B",
+    "max_impact_scale": "org",
+    "months_internship": 3,
+    "primary_domain": "other",
+    "sustained_org_tier": "C",
+    "top_role_selectivity": "elite",
+    "trajectory": "accelerating",
+    "years_fulltime": 0.4
+  },
+  "skills": {
+    "certifications": [],
+    "domain": [
+      "Grant writing",
+      "Nonprofit management",
+      "Education policy",
+      "Public speaking"
+    ],
+    "keyword_stuffing_suspected": false,
+    "spoken_languages": [
+      "Spanish (fluent)"
+    ],
+    "technical": [
+      "Stata",
+      "R"
+    ]
+  },
+  "strengths": [
+    "Rhodes Scholar-elect and Truman Scholar, both national selections",
+    "Founded a nonprofit that grew to 14 schools and 3,000 students with a 91% college-enrollment rate stated against a 68% baseline",
+    "Division I crew captain; stroke of an Eastern Sprints-winning eight",
+    "Summa cum laude with the department's best-thesis prize and junior-year Phi Beta Kappa"
+  ],
+  "verdict": "A new graduate whose every line is a selection by others, with a founded organization whose outcomes are measured; the record is national-level for the stage.",
+  "weaknesses": [
+    "No location on the page",
+    "Research output is one coauthored working paper",
+    "Full-time professional experience is limited to a summer internship",
+    "The nonprofit's enrollment comparison is unadjusted for selection into the program"
+  ]
+}

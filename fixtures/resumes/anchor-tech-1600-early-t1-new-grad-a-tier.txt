@@ -1,0 +1,48 @@
+[name]
+Menlo Park, CA · [email] · [phone] · [url] · [url]
+
+EDUCATION
+Carnegie Mellon University, School of Computer Science — B.S. Computer Science, May 2024
+GPA 3.9/4.0. University Honors. Concentration in Machine Learning.
+Coursework: Distributed Systems (15-440), Machine Learning (10-701), Operating Systems (15-410), Deep Learning Systems, Algorithms.
+
+EXPERIENCE
+Meta, Menlo Park, CA — Software Engineer, Feed Ranking (Aug 2024 – Present)
+• Shipped a freshness-aware re-ranking stage for the main feed candidate pipeline; the A/B test showed +0.8% daily active engagement and +1.2% sessions per user across a 5% holdout, now at 100% of traffic.
+• Owned the feature-logging path that feeds the ranking model's training data: cut end-to-end logging latency p95 from 2.4 s to 0.9 s by batching writes and removing a synchronous RPC.
+• Primary on-call for the ranking service one week in five; wrote the runbook section on model-rollback and led the mitigation of two SEV3 incidents.
+• Mentored the team's summer intern; the intern's project (a calibration monitor) was adopted into the model-health dashboard.
+• Reviewed about 200 diffs across the team's C++ and Python code in the first year.
+• Wrote the design document for a candidate-deduplication pass that is now in the H1 2026 roadmap; the offline estimate is a 4% reduction in ranking compute at equal quality.
+• Built an internal tool that replays a day of production feed requests against a candidate model build; used by the ranking team for every pre-launch check since Q2 2025.
+
+Microsoft, Redmond, WA — Software Engineering Intern, Azure Monitor (May 2023 – Aug 2023)
+• Built a query-cost estimator for the log analytics service that warned users before expensive queries ran; shipped behind a flag to 3 internal tenants, then to public preview.
+• Reduced the estimator's false-positive rate from 22% to 9% by adding a sampled-cardinality step.
+
+Carnegie Mellon University — Teaching Assistant, 15-213 Introduction to Computer Systems (Jan 2023 – May 2023)
+• Led a weekly recitation of 30 students; held office hours and graded the malloc and proxy labs.
+
+Carnegie Mellon University, Catalyst Lab — Undergraduate Research Assistant (Sep 2022 – May 2023)
+• Implemented a benchmark harness for sparse attention kernels; results were used in a workshop paper (second author) at the ML systems workshop at NeurIPS 2023.
+
+PROJECTS
+Distributed key-value store (15-440 final, team of 2, 2023) — Go
+Raft-based replicated store with log compaction and membership changes; passed the course's partition-injection test suite at 100%.
+
+Open-source contribution: PyTorch (2023–2024)
+Three merged pull requests to the profiler, including a fix for a double-counted CUDA event on nested ranges and a documentation pass on the memory timeline view.
+
+Sparse attention kernel benchmark (Catalyst Lab, 2023) — CUDA, PyTorch
+Harness comparing four block-sparse attention implementations across sequence lengths from 1k to 64k tokens; found a 2.3x gap between the fastest and slowest at 32k that the paper reports.
+
+AWARDS
+HackMIT 2023 — Grand Prize winner (team of 4), out of about 1,000 participants
+Dean's List, every semester 2020–2024
+Meta Above & Beyond award, H1 2025 (team-level recognition for the feed freshness launch)
+
+SKILLS
+Python, C++, Go, SQL · PyTorch, Spark, Presto, Hive · Kubernetes, Thrift, gRPC · A/B experimentation, feature logging, on-call operations
+
+INTERESTS
+Competitive programming (Codeforces, Division 1), trail running

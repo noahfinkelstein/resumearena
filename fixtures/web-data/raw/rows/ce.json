@@ -1,0 +1,38 @@
+{
+  "cejzwt6qej": {
+    "c": {
+      "finance": 0.4,
+      "general": 1
+    },
+    "ch": "57a79cd11aeae068f0fbbc8dfae069c2f2d0f20656afa1da0983f2cb8e1c43c1",
+    "h": "finance-1000-student",
+    "p": "finance",
+    "s": "analyzed",
+    "sc": {
+      "finance": 20,
+      "general": 19
+    },
+    "sig": "Summer bank teller",
+    "ss": {
+      "finance": [
+        10,
+        40,
+        6,
+        5,
+        10,
+        24
+      ],
+      "general": [
+        10,
+        40,
+        8,
+        6,
+        15,
+        22
+      ]
+    },
+    "st": "student",
+    "t": 1791029400,
+    "v": "anonymous"
+  }
+}

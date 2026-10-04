@@ -1,0 +1,38 @@
+{
+  "duzpgc2iik": {
+    "c": {
+      "academia": 0.8,
+      "general": 1
+    },
+    "ch": "b1f3feeb7f89113ea1a20ea2aa5e1d403830e875fa447b5d2ebc6a96b070727f",
+    "h": "academia-1300-studen",
+    "p": "academia",
+    "s": "analyzed",
+    "sc": {
+      "academia": 50,
+      "general": 48
+    },
+    "sig": "NSF REU alumnus",
+    "ss": {
+      "academia": [
+        50,
+        52,
+        30,
+        50,
+        35,
+        55
+      ],
+      "general": [
+        50,
+        50,
+        28,
+        48,
+        35,
+        52
+      ]
+    },
+    "st": "student",
+    "t": 1791030120,
+    "v": "anonymous"
+  }
+}

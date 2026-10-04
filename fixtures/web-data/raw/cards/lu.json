@@ -1,0 +1,131 @@
+{
+  "lujxpyjxdh": {
+    "card": {
+      "awards": [
+        {
+          "name": "Departmental thesis prize for applied finance",
+          "scope": "institutional",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Eastern Sprints bronze medal (second varsity eight)",
+          "scope": "regional",
+          "selectivity": "selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "new_grad",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2026,
+          "field": "Economics, Certificate in Finance",
+          "gpa_band": "3.7-3.89",
+          "honors": [
+            "Honors senior thesis",
+            "Departmental thesis prize for applied finance"
+          ],
+          "in_progress": false,
+          "institution": "Princeton University",
+          "institution_tier": "T1"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 3,
+          "employment_type": "full_time",
+          "highlights": [
+            "Return offer from the 2025 summer class; staffed on a $900M sell-side and a $1.2B follow-on"
+          ],
+          "impact_scale": "team",
+          "org": "Bank of America",
+          "org_tier": "A",
+          "role": "Investment Banking Analyst, Healthcare",
+          "role_selectivity": "highly_selective",
+          "seniority": "analyst",
+          "years": "2026-present"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Operating model and LBO for a $1.5B medical-device carve-out; pitch advanced to a second-round meeting",
+            "Trading comps for 18 companies across 3 live pitches; 25 CIM pages drafted",
+            "Top bucket of a 42-person class; 1 of 31 return offers"
+          ],
+          "impact_scale": "team",
+          "org": "Bank of America",
+          "org_tier": "A",
+          "role": "Investment Banking Summer Analyst, Healthcare",
+          "role_selectivity": "highly_selective",
+          "seniority": "intern",
+          "years": "2025"
+        },
+        {
+          "duration_months": 21,
+          "employment_type": "part_time",
+          "highlights": [
+            "Led a 12-person sector team; fund returned 14.2% in 2025 vs 11.8% benchmark",
+            "4 approved long positions; largest returned 38% over 11 months",
+            "Rebuilt risk reporting in Excel and Python"
+          ],
+          "impact_scale": "team",
+          "org": "Student-run investment fund (~$1.1M AUM)",
+          "org_tier": "C",
+          "role": "Portfolio Manager, healthcare and consumer",
+          "role_selectivity": "selective",
+          "seniority": "other",
+          "years": "2024-2026"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Two sell-side processes for $150M-$300M businesses; ~120-name buyer lists",
+            "Precedent-transactions analysis of 30 deals used in a fairness opinion"
+          ],
+          "impact_scale": "team",
+          "org": "Lincoln International",
+          "org_tier": "B",
+          "role": "Investment Banking Summer Analyst, Business Services",
+          "role_selectivity": "selective",
+          "seniority": "intern",
+          "years": "2024"
+        }
+      ],
+      "headline": "T1 economics graduate (3.7-3.89, thesis prize); bulge-bracket IB summer converted to analyst; student-fund PM ($1.1M)",
+      "leadership": [
+        "Captain of a varsity lightweight rowing second eight; Eastern Sprints bronze 2024",
+        "Co-president of a university economics society; 300-attendee alumni finance conference"
+      ],
+      "notable": [
+        "Top bucket of a 42-person bulge-bracket summer class and a return offer",
+        "Ran the healthcare and consumer book of a ~$1.1M student fund that beat its benchmark",
+        "T1 economics degree with an honors thesis that won the departmental applied-finance prize",
+        "Varsity lightweight rowing captain with a regional championship medal"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Three-statement, LBO and merger modeling",
+        "Valuation",
+        "Excel",
+        "PowerPoint",
+        "Capital IQ",
+        "Bloomberg",
+        "FactSet",
+        "Python (pandas)"
+      ],
+      "top_signal": "BB IB return offer",
+      "years_fulltime": 0.3
+    },
+    "st": "new_grad"
+  }
+}

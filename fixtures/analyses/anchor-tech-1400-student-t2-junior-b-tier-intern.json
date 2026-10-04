@@ -1,0 +1,453 @@
+{
+  "analysis_confidence": 0.93,
+  "ats": {
+    "detected": {
+      "action_verb_ratio": 0.88,
+      "bullet_count": 16,
+      "bullet_marker_consistent": true,
+      "contact_at_top": true,
+      "date_format_consistent": true,
+      "date_formats_seen": [
+        "Month YYYY"
+      ],
+      "has_email": true,
+      "has_location": true,
+      "has_phone": true,
+      "has_profile_link": true,
+      "has_street_address": false,
+      "has_summary_section": false,
+      "nonstandard_headings": [],
+      "quantified_bullet_ratio": 0.75,
+      "reverse_chronological": true,
+      "section_order": [
+        "Education",
+        "Experience",
+        "Projects",
+        "Awards",
+        "Skills",
+        "Leadership"
+      ],
+      "skill_bars_or_ratings": false,
+      "standard_headings": [
+        "EDUCATION",
+        "EXPERIENCE",
+        "PROJECTS",
+        "AWARDS",
+        "SKILLS",
+        "ACTIVITIES"
+      ],
+      "uses_tables_suspected": false
+    },
+    "factors": {
+      "consistency": {
+        "note": "Month YYYY throughout; every role dated; titles match bullets",
+        "score": 100
+      },
+      "contact_info": {
+        "note": "City, email, phone and two profile links in the header",
+        "score": 100
+      },
+      "formatting": {
+        "note": "Standard headings, reverse-chronological, one bullet glyph, two font families, no images",
+        "score": 100
+      },
+      "keyword_alignment": {
+        "note": "C++, Python, testing, Linux, networking and Git all appear in bullets with outcomes; missing: cloud, CI/CD, data structures named in a bullet",
+        "score": 84
+      },
+      "length": {
+        "note": "One page for a student",
+        "score": 100
+      },
+      "parseability": {
+        "note": "Single column, clean text layer (0.96), standard headings, contact in the first two lines",
+        "score": 100
+      },
+      "quantification": {
+        "note": "12 of 16 bullets carry a number tied to an outcome (intervals, defects, users, memory, evaluations)",
+        "score": 100
+      }
+    },
+    "fixes": [
+      {
+        "factor": "keyword_alignment",
+        "fix": "Add \"Runs ~60 Playwright cases on every pull request in GitHub Actions\" and name the data structures behind the autograder suites",
+        "issue": "No bullet names CI, cloud or a data-structures concept, though the course and the extension's CI exist",
+        "priority": "medium"
+      },
+      {
+        "factor": "formatting",
+        "fix": "Keep it once, under Education, and use the Awards line for the hackathon only",
+        "issue": "Dean's list appears under both Education and Awards",
+        "priority": "low"
+      },
+      {
+        "factor": "length",
+        "fix": "Keep the three most relevant courses or replace the line with the OS project bullet",
+        "issue": "Coursework line lists six courses without signal",
+        "priority": "low"
+      }
+    ],
+    "score": 98,
+    "target_role_used": "Software engineering intern or new-grad software engineer, systems"
+  },
+  "awards": [
+    {
+      "issuer": "HackTX",
+      "name": "HackTX 2025 Top 10 finalist",
+      "pool_estimate": "top 10 of ~110 teams",
+      "scope": "regional",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2025
+    }
+  ],
+  "card": {
+    "awards": [
+      {
+        "name": "Regional hackathon top-10 finalist (~110 teams)",
+        "scope": "regional",
+        "selectivity": "selective"
+      }
+    ],
+    "card_version": "1.0",
+    "career_stage": "student",
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2027,
+        "field": "Computer Science",
+        "gpa_band": "3.7-3.89",
+        "honors": [
+          "Dean's Honor List (3 semesters)"
+        ],
+        "in_progress": true,
+        "institution": "The University of Texas at Austin",
+        "institution_tier": "T2"
+      }
+    ],
+    "experiences": [
+      {
+        "duration_months": 3,
+        "employment_type": "internship",
+        "highlights": [
+          "Telemetry export path in a C++ control-plane daemon; collection interval 60 s to 10 s on a 48-port switch",
+          "pytest harness over 140 CLI commands found 3 defects before the release cut",
+          "Fixed a memory growth issue; RSS flat over a 72-hour soak"
+        ],
+        "impact_scale": "team",
+        "org": "Cisco Systems",
+        "org_tier": "B",
+        "role": "Software Engineering Intern, Enterprise Networking",
+        "role_selectivity": "selective",
+        "seniority": "intern",
+        "years": "2026"
+      },
+      {
+        "duration_months": 14,
+        "employment_type": "part_time",
+        "highlights": [
+          "Two weekly sections of ~25 students; 6 autograder suites used by ~400 students a semester",
+          "Section evaluations 4.7 / 5"
+        ],
+        "impact_scale": "team",
+        "org": "The University of Texas at Austin",
+        "org_tier": "B",
+        "role": "Undergraduate Teaching Assistant, Data Structures",
+        "role_selectivity": "selective",
+        "seniority": "other",
+        "years": "2025-present"
+      }
+    ],
+    "headline": "CS junior at a T2 public university (3.7-3.89); SWE intern at a B-tier networking company; extension with 300 users",
+    "leadership": [],
+    "notable": [
+      "Shipped a browser extension with ~300 weekly users and 41 public reviews",
+      "Internship fixes shipped before a release cut at a large networking company"
+    ],
+    "projects": [
+      {
+        "descriptor": "Browser extension for grouping and suspending idle tabs (TypeScript)",
+        "highlight": "35% memory reduction on a 40-tab session; 9 releases; Playwright suite of ~60 cases",
+        "kind": "software",
+        "scale_signal": "~300 weekly active users, 4.6 stars across 41 reviews",
+        "technical_depth": "standard"
+      },
+      {
+        "descriptor": "Operating-systems course kernel: priority donation, user-program loader, buffer cache",
+        "highlight": "Passed 100% of the course test suite",
+        "kind": "software",
+        "scale_signal": "none stated",
+        "technical_depth": "standard"
+      }
+    ],
+    "publications_summary": {
+      "citation_signal": "not stated",
+      "count_total": 0,
+      "first_author_count": 0,
+      "strong_venue_count": 0,
+      "top_venue_count": 0,
+      "venues": []
+    },
+    "skills_top": [
+      "C++",
+      "Python",
+      "TypeScript",
+      "Java",
+      "pytest",
+      "Linux",
+      "Git",
+      "Docker",
+      "GDB",
+      "Wireshark",
+      "PostgreSQL",
+      "SQL"
+    ],
+    "top_signal": "B-tier SWE intern",
+    "years_fulltime": 0
+  },
+  "category_relevance": {
+    "academia": 0.12,
+    "finance": 0.03,
+    "general": 1,
+    "tech": 0.95
+  },
+  "education": [
+    {
+      "degree_level": "bachelor",
+      "end_year": 2027,
+      "field": "Computer Science",
+      "gpa": 3.82,
+      "gpa_band": "3.7-3.89",
+      "gpa_scale": 4,
+      "honors": [
+        "Dean's Honor List: Fall 2024, Spring 2025, Fall 2025"
+      ],
+      "in_progress": true,
+      "institution": "The University of Texas at Austin",
+      "institution_tier": "T2",
+      "notes": "Systems-heavy coursework: OS, networks, architecture, databases, ML",
+      "start_year": 2023
+    }
+  ],
+  "experiences": [
+    {
+      "bullets_condensed": [
+        "Telemetry export path for interface counters in a C++ daemon; collection interval 60 s to 10 s on a 48-port switch",
+        "pytest regression harness over 140 CLI commands; 3 defects found before the release branch cut",
+        "Memory growth fix in the event dispatcher; RSS flat over a 72-hour soak test",
+        "Presented to a 30-person engineering group"
+      ],
+      "duration_months": 3,
+      "employment_type": "internship",
+      "end": "2026-08",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "Cisco Systems",
+      "org_tier": "B",
+      "org_type": "public_company",
+      "ownership": "owned_component",
+      "quantified_impact": true,
+      "role": "Software Engineering Intern",
+      "role_selectivity": "selective",
+      "seniority": "intern",
+      "start": "2026-05",
+      "team_or_division": "Enterprise Networking, Catalyst switching software"
+    },
+    {
+      "bullets_condensed": [
+        "Two weekly discussion sections of ~25 students; 4 office hours a week",
+        "6 Java autograder suites used by ~400 students a semester",
+        "Section evaluations averaged 4.7 / 5 in Fall 2025"
+      ],
+      "duration_months": 14,
+      "employment_type": "part_time",
+      "end": "present",
+      "impact_scale": "team",
+      "is_current": true,
+      "org": "The University of Texas at Austin",
+      "org_tier": "B",
+      "org_type": "university",
+      "ownership": "owned_component",
+      "quantified_impact": true,
+      "role": "Undergraduate Teaching Assistant",
+      "role_selectivity": "selective",
+      "seniority": "other",
+      "start": "2025-08",
+      "team_or_division": "CS 314 Data Structures"
+    }
+  ],
+  "input": {
+    "is_resume": true,
+    "language": "en",
+    "parse_confidence": 0.96,
+    "placeholders_seen": [
+      "name",
+      "email",
+      "phone",
+      "url"
+    ],
+    "word_count_estimate": 430
+  },
+  "leadership": [
+    {
+      "budget_or_scale": "introductory programming workshops for high-school students",
+      "elected_or_appointed": "unknown",
+      "highlight": "Mentored high-school students in introductory programming workshops, 2025",
+      "org": "Code Orange",
+      "people_led": null,
+      "role": "Volunteer mentor"
+    }
+  ],
+  "projects": [
+    {
+      "description_condensed": "Chrome extension that groups and suspends idle tabs; ~300 weekly active users, 4.6 stars over 41 reviews; 35% memory reduction on a 40-tab session; 9 releases; Playwright suite of ~60 cases",
+      "has_external_validation": true,
+      "kind": "software",
+      "name": "TabTidy",
+      "quantified_impact": true,
+      "scale_signal": "~300 weekly active users",
+      "technical_depth": "standard"
+    },
+    {
+      "description_condensed": "Priority donation, user-program loader and a buffer cache with write-behind; 100% of the course test suite",
+      "has_external_validation": false,
+      "kind": "software",
+      "name": "Pintos extension (CS 439)",
+      "quantified_impact": false,
+      "scale_signal": "none stated",
+      "technical_depth": "standard"
+    }
+  ],
+  "publications": [],
+  "red_flags": [],
+  "residual_pii": {
+    "email_count": 0,
+    "name_suspected": false,
+    "other_identifiers": [],
+    "phone_count": 0,
+    "street_address_suspected": false,
+    "url_count": 0
+  },
+  "schema_version": "1.1",
+  "scores": {
+    "academia": {
+      "holistic_score": 20,
+      "included": false,
+      "rationale": "TA role only; no research output.",
+      "stage_relative_score": 20,
+      "sub_scores": {
+        "breadth": 20,
+        "impact": 15,
+        "pedigree": 50,
+        "selectivity": 25,
+        "trajectory": 50
+      },
+      "top_evidence": []
+    },
+    "finance": {
+      "holistic_score": 15,
+      "included": false,
+      "rationale": "No finance footprint.",
+      "stage_relative_score": 15,
+      "sub_scores": {
+        "breadth": 15,
+        "impact": 10,
+        "pedigree": 40,
+        "selectivity": 20,
+        "trajectory": 50
+      },
+      "top_evidence": []
+    },
+    "general": {
+      "holistic_score": 57,
+      "included": true,
+      "rationale": "T2 public university with a 3.8, one B-tier internship with measured results, a TA role with scale numbers, and a shipped side project with real users. A regional hackathon top-10 is the only competitive selection.",
+      "stage_relative_score": 58,
+      "sub_scores": {
+        "breadth": 50,
+        "impact": 38,
+        "pedigree": 60,
+        "selectivity": 52,
+        "trajectory": 55
+      },
+      "top_evidence": [
+        "3.82 GPA at a T2 public university, dean's list 3 semesters",
+        "Cisco SWE internship with shipped fixes and numbers",
+        "Browser extension with ~300 weekly users"
+      ]
+    },
+    "tech": {
+      "holistic_score": 58,
+      "included": true,
+      "rationale": "One B-tier systems internship with three quantified outcomes, a shipped extension with ~300 weekly users and a test suite, solid systems coursework, and a TA role. No A/S-tier selection and no competitive-programming or research signal; a typical strong-junior record.",
+      "stage_relative_score": 60,
+      "sub_scores": {
+        "breadth": 48,
+        "impact": 40,
+        "pedigree": 62,
+        "selectivity": 55,
+        "trajectory": 58
+      },
+      "top_evidence": [
+        "Cisco internship: 60 s to 10 s telemetry interval; harness found 3 defects pre-release",
+        "TabTidy: ~300 weekly active users, 35% memory reduction, 9 releases",
+        "Autograder suites used by ~400 students a semester"
+      ]
+    }
+  },
+  "signals": {
+    "career_stage": "student",
+    "has_quantified_impact": true,
+    "highest_institution_tier": "T2",
+    "highest_org_tier": "B",
+    "max_impact_scale": "team",
+    "months_internship": 3,
+    "primary_domain": "tech",
+    "sustained_org_tier": "unknown",
+    "top_role_selectivity": "selective",
+    "trajectory": "too_early",
+    "years_fulltime": 0
+  },
+  "skills": {
+    "certifications": [],
+    "domain": [
+      "networking protocols",
+      "concurrency",
+      "REST APIs",
+      "test automation"
+    ],
+    "keyword_stuffing_suspected": false,
+    "spoken_languages": [],
+    "technical": [
+      "C++",
+      "Python",
+      "Java",
+      "TypeScript",
+      "Go",
+      "SQL",
+      "Linux",
+      "Git",
+      "Docker",
+      "pytest",
+      "GDB",
+      "Wireshark",
+      "PostgreSQL",
+      "Playwright",
+      "Chrome Extension APIs"
+    ]
+  },
+  "strengths": [
+    "Cisco internship bullets carry before-and-after numbers: 60 s to 10 s interval, 3 defects found pre-release, RSS flat over 72 hours",
+    "TabTidy is shipped and used: ~300 weekly active users, 41 reviews, 9 releases, a Playwright suite",
+    "Autograder suites used by ~400 students a semester and a 4.7 / 5 section rating",
+    "3.82 GPA at a T2 public university with systems-heavy coursework"
+  ],
+  "verdict": "A strong-junior record: a B-tier systems internship with measured results and a shipped extension with real users, no selective bar above regional yet.",
+  "weaknesses": [
+    "No A/S-tier selection yet: one B-tier internship and a regional hackathon top-10 are the hardest bars cleared",
+    "No research, publication or competitive-programming line to separate the record from other strong juniors",
+    "Project scope is individual; nothing on the page has run at organizational scale",
+    "Dean's list is listed twice, which spends space without adding information"
+  ]
+}

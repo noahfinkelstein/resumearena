@@ -1,0 +1,54 @@
+[name]
+Ann Arbor, MI | [email] | [phone] | [url] | [url]
+
+EDUCATION
+University of Michigan — Ann Arbor, MI
+Ph.D. in Computer Science and Engineering (computer vision and robotics), expected 2028; third year
+Adviser: faculty member in the robotics institute; research on self-supervised 3D perception for mobile manipulation
+Coursework: Computer Vision, Probabilistic Robotics, Advanced Machine Learning, Convex Optimization; GPA 3.9
+
+Purdue University — West Lafayette, IN
+B.S. in Computer Engineering, May 2023 | GPA 3.78, with distinction
+Undergraduate research in the computer vision lab (two years); honors thesis on depth completion for LiDAR
+
+RESEARCH EXPERIENCE
+Graduate Research Assistant, University of Michigan Robotics | August 2023 – Present
+- Developed a self-supervised method for 3D object pose estimation from RGB-D sequences that improved pose accuracy by 11 points over the prior best on a standard benchmark; first-author paper at ICRA 2025
+- Built a learned grasp-affordance model that transfers from simulation to a physical arm; 84% grasp success on 40 unseen household objects versus 67% for the baseline; first-author paper at AAAI 2026
+- Contributed the data-collection pipeline and the evaluation protocol to a lab paper on language-conditioned manipulation; fourth of seven authors, ICCV 2025
+- Released an RGB-D manipulation dataset of 210,000 frames with 6-DoF annotations; about 3,100 downloads and 9 citing papers in the first year
+- Co-mentor two undergraduate researchers; one is first author on a submitted workshop paper
+- Maintain the lab's shared training cluster (12 GPUs) and the experiment-tracking setup used by 9 students
+- Ran the real-robot evaluation campaign for the lab's manipulation work: about 1,400 physical grasp trials on two arms over 6 weeks, with a logging pipeline that reproduces every trial from recorded sensor data
+- Passed the qualifying examination in May 2025 with the thesis proposal on self-supervised 3D perception for manipulation
+
+Research Intern, Toyota Research Institute, Robotics Division | May 2025 – August 2025
+- Worked on a perception module for a home-assistance robot; reduced depth-estimation error on reflective surfaces by 23% using a learned refinement step
+- Internship project led to the AAAI 2026 submission (joint with the Michigan lab); offered a return internship for 2026
+
+Undergraduate Research Assistant, Purdue Computer Vision Lab | August 2021 – May 2023
+- Honors thesis on sparse-to-dense depth completion; presented at the Purdue undergraduate research conference (poster)
+- Built the lab's LiDAR-camera calibration tool used for two subsequent data-collection efforts
+
+TEACHING
+- Graduate Student Instructor, EECS 442 Computer Vision, University of Michigan, Winter 2025 (about 180 students; ran two discussion sections and wrote two programming assignments)
+- Teaching assistant, ECE 264 Advanced C Programming, Purdue, Fall 2022
+
+PUBLICATIONS
+1. ICRA 2025 — first author (of 4) — self-supervised 6-DoF object pose estimation from RGB-D video
+2. AAAI 2026 — first author (of 5) — sim-to-real grasp affordances for unseen objects
+3. ICCV 2025 — fourth author (of 7) — language-conditioned mobile manipulation benchmark
+4. CVPR 2024 Workshop on Embodied AI — second author (of 3) — dataset paper for RGB-D manipulation
+5. arXiv 2026 — first author — preprint under review on cross-embodiment affordance transfer
+
+HONORS
+- Rackham Graduate Fellowship, University of Michigan, 2023 – 2024 (first-year funding)
+- Best Student Paper finalist, ICRA 2025 (one of 5 finalists)
+- Purdue College of Engineering Outstanding Senior in Computer Engineering, 2023
+
+SERVICE
+- Reviewer: ICRA 2026, IROS 2025, CVPR 2026 workshops
+- Organizer, Michigan Robotics graduate student seminar, 2024 – 2025
+
+SKILLS
+Python, PyTorch, C++, ROS 2, CUDA (basic), Isaac Sim, MuJoCo, Open3D, Docker, Linux cluster administration; 3D perception, self-supervised learning, manipulation, sim-to-real transfer

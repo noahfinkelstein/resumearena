@@ -1,0 +1,814 @@
+{
+  "analysis": {
+    "analysis_confidence": 0.94,
+    "ats": {
+      "detected": {
+        "action_verb_ratio": 0.6,
+        "bullet_count": 47,
+        "bullet_marker_consistent": true,
+        "contact_at_top": true,
+        "date_format_consistent": false,
+        "date_formats_seen": [
+          "Month YYYY",
+          "YYYY"
+        ],
+        "has_email": true,
+        "has_location": true,
+        "has_phone": true,
+        "has_profile_link": true,
+        "has_street_address": false,
+        "has_summary_section": true,
+        "nonstandard_headings": [
+          "ACADEMIC APPOINTMENTS",
+          "POSTDOCTORAL TRAINING",
+          "RESEARCH FUNDING",
+          "STUDENTS SUPERVISED",
+          "PROFESSIONAL SERVICE",
+          "INVITED TALKS",
+          "UNIVERSITY SERVICE",
+          "PROFESSIONAL MEMBERSHIPS"
+        ],
+        "quantified_bullet_ratio": 0.77,
+        "reverse_chronological": true,
+        "section_order": [
+          "Experience",
+          "Education",
+          "Experience",
+          "Summary",
+          "Awards",
+          "Awards",
+          "Publications",
+          "Leadership",
+          "Experience",
+          "Leadership",
+          "Leadership",
+          "Leadership",
+          "Publications",
+          "Skills"
+        ],
+        "skill_bars_or_ratings": false,
+        "standard_headings": [
+          "EDUCATION",
+          "PUBLICATIONS",
+          "TEACHING",
+          "PATENTS",
+          "HONORS AND AWARDS"
+        ],
+        "uses_tables_suspected": false
+      },
+      "factors": {
+        "consistency": {
+          "note": "YYYY and Month YYYY used consistently by section; every appointment dated",
+          "score": 100
+        },
+        "contact_info": {
+          "note": "City, email, phone and a profile link in the header",
+          "score": 100
+        },
+        "formatting": {
+          "note": "CV sections ordered conventionally; numbered selected publications; two fonts; funding lines run long",
+          "score": 90
+        },
+        "keyword_alignment": {
+          "note": "Computational imaging, inverse problems, uncertainty quantification, grants, mentoring and service appear with numbers; software tooling absent",
+          "score": 92
+        },
+        "length": {
+          "note": "Academic CV with a faculty role: scored on organization; clear sections and numbered publications",
+          "score": 100
+        },
+        "parseability": {
+          "note": "Single column, clean text layer (0.93); several CV-specific headings a parser cannot map; contact in the first two lines",
+          "score": 90
+        },
+        "quantification": {
+          "note": "Funding amounts, paper counts, h-index, student outcomes and enrollments are stated throughout",
+          "score": 100
+        }
+      },
+      "fixes": [
+        {
+          "factor": "parseability",
+          "fix": "If the target is an industry research role, add a one-page résumé variant with Experience, Education, Publications and Skills headings",
+          "issue": "CV headings (\"Academic Appointments\", \"Students Supervised\", \"Research Funding\") are unmapped by industry parsers",
+          "priority": "low"
+        },
+        {
+          "factor": "formatting",
+          "fix": "Put amount and dates on a second line so each grant parses as its own entry",
+          "issue": "Funding entries run as single long lines",
+          "priority": "low"
+        },
+        {
+          "factor": "keyword_alignment",
+          "fix": "For industry readers, add a short Tools line (PyTorch, MATLAB, reconstruction toolkits) under Skills",
+          "issue": "No software or data tooling named anywhere",
+          "priority": "low"
+        }
+      ],
+      "score": 95,
+      "target_role_used": "Tenured faculty; department leadership or senior industry research lead in imaging"
+    },
+    "awards": [
+      {
+        "issuer": "National Science Foundation",
+        "name": "NSF CAREER Award",
+        "pool_estimate": "~15-20% of eligible applicants; career-defining",
+        "scope": "national",
+        "selectivity": "elite",
+        "verifiable": true,
+        "year": 2019
+      },
+      {
+        "issuer": "IEEE International Conference on Computational Photography",
+        "name": "Best Paper Award",
+        "pool_estimate": "1 of ~40 accepted papers",
+        "scope": "international",
+        "selectivity": "highly_selective",
+        "verifiable": true,
+        "year": 2021
+      },
+      {
+        "issuer": "IEEE Signal Processing Society",
+        "name": "Early Career Technical Achievement Award",
+        "pool_estimate": "1-2 a year society-wide",
+        "scope": "international",
+        "selectivity": "highly_selective",
+        "verifiable": true,
+        "year": 2024
+      },
+      {
+        "issuer": "Whiting School of Engineering",
+        "name": "Excellence in Teaching Award",
+        "pool_estimate": "a few per year across the school",
+        "scope": "institutional",
+        "selectivity": "selective",
+        "verifiable": true,
+        "year": 2022
+      },
+      {
+        "issuer": "Johns Hopkins University",
+        "name": "Catalyst Award",
+        "pool_estimate": "early-career faculty across the university",
+        "scope": "institutional",
+        "selectivity": "selective",
+        "verifiable": true,
+        "year": 2019
+      },
+      {
+        "issuer": "IEEE",
+        "name": "Senior Member",
+        "pool_estimate": "grade based on years and achievement",
+        "scope": "international",
+        "selectivity": "modest",
+        "verifiable": true,
+        "year": 2021
+      },
+      {
+        "issuer": "IEEE Transactions on Signal Processing",
+        "name": "Young Author Best Paper Award finalist",
+        "pool_estimate": "finalist, pool not stated",
+        "scope": "international",
+        "selectivity": "selective",
+        "verifiable": true,
+        "year": 2017
+      }
+    ],
+    "card": {
+      "awards": [
+        {
+          "name": "NSF CAREER Award",
+          "scope": "national",
+          "selectivity": "elite"
+        },
+        {
+          "name": "Best Paper Award, IEEE ICCP",
+          "scope": "international",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "IEEE SPS Early Career Technical Achievement Award",
+          "scope": "international",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "Whiting School Excellence in Teaching Award",
+          "scope": "institutional",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Johns Hopkins Catalyst Award",
+          "scope": "institutional",
+          "selectivity": "selective"
+        },
+        {
+          "name": "IEEE Senior Member",
+          "scope": "international",
+          "selectivity": "modest"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "senior",
+      "education": [
+        {
+          "degree_level": "phd",
+          "end_year": 2015,
+          "field": "Electrical Engineering",
+          "gpa_band": "not_listed",
+          "honors": [
+            "Beckman Institute graduate fellow"
+          ],
+          "in_progress": false,
+          "institution": "University of Illinois Urbana-Champaign",
+          "institution_tier": "T1"
+        },
+        {
+          "degree_level": "master",
+          "end_year": 2012,
+          "field": "Electrical Engineering",
+          "gpa_band": "not_listed",
+          "honors": [],
+          "in_progress": false,
+          "institution": "University of Illinois Urbana-Champaign",
+          "institution_tier": "T1"
+        },
+        {
+          "degree_level": "bachelor",
+          "end_year": 2010,
+          "field": "Electrical and Computer Engineering",
+          "gpa_band": "not_listed",
+          "honors": [
+            "highest honors"
+          ],
+          "in_progress": false,
+          "institution": "Georgia Institute of Technology",
+          "institution_tier": "T1"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 39,
+          "employment_type": "full_time",
+          "highlights": [
+            "Group of 7 PhD students, 2 postdocs, 4 undergraduates; ~$5.5M external funding as PI or co-PI (~$3.4M as PI)",
+            "Associate editor of an IEEE transactions journal; area chair at NeurIPS, ICML and CVPR; general co-chair of a conference",
+            "Director of graduate admissions for ~900 applications a year; faculty search chair"
+          ],
+          "impact_scale": "industry",
+          "org": "Johns Hopkins University",
+          "org_tier": "A",
+          "role": "Associate Professor (tenured), Electrical and Computer Engineering",
+          "role_selectivity": "highly_selective",
+          "seniority": "faculty",
+          "years": "2023-present"
+        },
+        {
+          "duration_months": 72,
+          "employment_type": "full_time",
+          "highlights": [
+            "NSF CAREER (2019); best paper at IEEE ICCP (2021); school teaching award (2022)",
+            "Tenure on the standard clock; 8 PhD graduates, 3 now faculty",
+            "Developed the graduate computational-imaging course (~45) and teaches signals and systems (~120)"
+          ],
+          "impact_scale": "industry",
+          "org": "Johns Hopkins University",
+          "org_tier": "A",
+          "role": "Assistant Professor, Electrical and Computer Engineering",
+          "role_selectivity": "highly_selective",
+          "seniority": "faculty",
+          "years": "2017-2023"
+        },
+        {
+          "duration_months": 24,
+          "employment_type": "fellowship",
+          "highlights": [
+            "Two-year postdoc in a statistics department before the faculty appointment"
+          ],
+          "impact_scale": "team",
+          "org": "Columbia University",
+          "org_tier": "A",
+          "role": "Postdoctoral Research Associate, Statistics",
+          "role_selectivity": "highly_selective",
+          "seniority": "postdoc",
+          "years": "2015-2017"
+        }
+      ],
+      "headline": "Tenured associate professor of ECE at a T2 R1; NSF CAREER; 50 papers, h-index 30; ~$3.4M as PI; 8 PhD graduates",
+      "leadership": [
+        "Supervised 8 PhD graduates (3 faculty, 4 industry research, 1 postdoc) and 3 postdocs now in tenure-track positions",
+        "Associate editor, IEEE Transactions on Computational Imaging; area chair NeurIPS 2023-2025, ICML 2024-2025, CVPR 2025",
+        "General co-chair, IEEE International Conference on Computational Photography 2026",
+        "Director of graduate admissions (~900 applications a year); faculty search committee chair"
+      ],
+      "notable": [
+        "NSF CAREER plus a top-conference best paper and an IEEE society early-career award",
+        "50 papers with 15 at top venues, h-index 30, ~4,200 citations at year nine from the PhD",
+        "About $5.5M in external funding as PI or co-PI, including an NIH R01 and an NSF Medium as lead PI",
+        "Eight PhD graduates, three now faculty; three former postdocs in tenure-track positions",
+        "Three granted patents licensed to an imaging-sensor company"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "~4,200 citations claimed, h-index 30",
+        "count_total": 50,
+        "first_author_count": 4,
+        "strong_venue_count": 10,
+        "top_venue_count": 15,
+        "venues": [
+          "IEEE Transactions on Signal Processing",
+          "IEEE Transactions on Image Processing",
+          "SIAM Journal on Imaging Sciences",
+          "NeurIPS",
+          "ICML",
+          "CVPR",
+          "ICLR",
+          "IEEE ICCP",
+          "ICASSP"
+        ]
+      },
+      "skills_top": [
+        "Computational imaging",
+        "Inverse problems with learned priors",
+        "Sparse and low-rank recovery",
+        "Uncertainty quantification",
+        "Statistical signal processing",
+        "Medical imaging reconstruction"
+      ],
+      "top_signal": "NSF CAREER, h=30",
+      "years_fulltime": 11.3
+    },
+    "category_relevance": {
+      "academia": 1,
+      "finance": 0,
+      "general": 1,
+      "tech": 0.3
+    },
+    "education": [
+      {
+        "degree_level": "phd",
+        "end_year": 2015,
+        "field": "Electrical Engineering",
+        "gpa": null,
+        "gpa_band": "not_listed",
+        "gpa_scale": null,
+        "honors": [
+          "Beckman Institute graduate fellow"
+        ],
+        "in_progress": false,
+        "institution": "University of Illinois Urbana-Champaign",
+        "institution_tier": "T1",
+        "notes": "Dissertation on sparse signal recovery for coherent imaging systems",
+        "start_year": 2010
+      },
+      {
+        "degree_level": "master",
+        "end_year": 2012,
+        "field": "Electrical Engineering",
+        "gpa": null,
+        "gpa_band": "not_listed",
+        "gpa_scale": null,
+        "honors": [],
+        "in_progress": false,
+        "institution": "University of Illinois Urbana-Champaign",
+        "institution_tier": "T1",
+        "notes": "",
+        "start_year": 2010
+      },
+      {
+        "degree_level": "bachelor",
+        "end_year": 2010,
+        "field": "Electrical and Computer Engineering",
+        "gpa": null,
+        "gpa_band": "not_listed",
+        "gpa_scale": null,
+        "honors": [
+          "highest honors"
+        ],
+        "in_progress": false,
+        "institution": "Georgia Institute of Technology",
+        "institution_tier": "T1",
+        "notes": "",
+        "start_year": 2006
+      }
+    ],
+    "experiences": [
+      {
+        "bullets_condensed": [
+          "Group of 7 PhD students, 2 postdocs and 4 undergraduates",
+          "~$5.5M external funding as PI or co-PI; ~$3.4M as PI (NSF CAREER, NIH R01 co-PI, DARPA, NSF Medium lead PI)",
+          "Associate editor IEEE Transactions on Computational Imaging; area chair NeurIPS, ICML, CVPR; general co-chair ICCP 2026",
+          "Director of graduate admissions (~900 applications a year); faculty search committee chair"
+        ],
+        "duration_months": 39,
+        "employment_type": "full_time",
+        "end": "present",
+        "impact_scale": "industry",
+        "is_current": true,
+        "org": "Johns Hopkins University",
+        "org_tier": "A",
+        "org_type": "university",
+        "ownership": "led",
+        "quantified_impact": true,
+        "role": "Associate Professor (with tenure)",
+        "role_selectivity": "highly_selective",
+        "seniority": "faculty",
+        "start": "2023-07",
+        "team_or_division": "Department of Electrical and Computer Engineering, Whiting School of Engineering"
+      },
+      {
+        "bullets_condensed": [
+          "NSF CAREER Award 2019 ($548,000); best paper at IEEE ICCP 2021",
+          "Tenure on the standard clock; 8 PhD graduates, 3 now faculty",
+          "Developed the graduate course Computational Imaging (~45) and teaches Signals and Systems (~120); teaching award 2022",
+          "Mean teaching evaluation 4.6 / 5 across 14 offerings"
+        ],
+        "duration_months": 72,
+        "employment_type": "full_time",
+        "end": "2023-06",
+        "impact_scale": "industry",
+        "is_current": false,
+        "org": "Johns Hopkins University",
+        "org_tier": "A",
+        "org_type": "university",
+        "ownership": "led",
+        "quantified_impact": true,
+        "role": "Assistant Professor",
+        "role_selectivity": "highly_selective",
+        "seniority": "faculty",
+        "start": "2017-07",
+        "team_or_division": "Department of Electrical and Computer Engineering"
+      },
+      {
+        "bullets_condensed": [
+          "Two-year postdoc in statistics before the faculty appointment"
+        ],
+        "duration_months": 24,
+        "employment_type": "fellowship",
+        "end": "2017-06",
+        "impact_scale": "team",
+        "is_current": false,
+        "org": "Columbia University",
+        "org_tier": "A",
+        "org_type": "university",
+        "ownership": "contributed",
+        "quantified_impact": false,
+        "role": "Postdoctoral Research Associate",
+        "role_selectivity": "highly_selective",
+        "seniority": "postdoc",
+        "start": "2015-07",
+        "team_or_division": "Department of Statistics"
+      }
+    ],
+    "input": {
+      "is_resume": true,
+      "language": "en",
+      "parse_confidence": 0.93,
+      "placeholders_seen": [
+        "name",
+        "email",
+        "phone",
+        "url"
+      ],
+      "word_count_estimate": 840
+    },
+    "leadership": [
+      {
+        "budget_or_scale": "~$5.5M external funding as PI or co-PI",
+        "elected_or_appointed": "appointed",
+        "highlight": "8 PhD graduates (3 faculty), 3 postdocs now tenure-track, 19 undergraduate researchers (6 coauthors)",
+        "org": "Johns Hopkins ECE research group",
+        "people_led": 13,
+        "role": "Principal investigator"
+      },
+      {
+        "budget_or_scale": "top-venue review service",
+        "elected_or_appointed": "appointed",
+        "highlight": "Associate editor IEEE TCI; area chair at three top venues; general co-chair of ICCP 2026; 6 NSF panels",
+        "org": "IEEE / NeurIPS / ICML / CVPR",
+        "people_led": null,
+        "role": "Associate editor, area chair, general co-chair"
+      },
+      {
+        "budget_or_scale": "~900 applications a year",
+        "elected_or_appointed": "appointed",
+        "highlight": "Ran graduate admissions 2022-2025 and chaired a faculty search 2024-2025",
+        "org": "Johns Hopkins ECE",
+        "people_led": null,
+        "role": "Director of Graduate Admissions; faculty search chair"
+      }
+    ],
+    "projects": [],
+    "publications": [
+      {
+        "author_count": null,
+        "author_position": "last",
+        "citations_claimed": null,
+        "field": "self-supervised reconstruction with calibrated uncertainty",
+        "kind": "journal",
+        "venue": "IEEE Transactions on Signal Processing",
+        "venue_tier": "top",
+        "year": 2025
+      },
+      {
+        "author_count": null,
+        "author_position": "last",
+        "citations_claimed": null,
+        "field": "plug-and-play priors under model mismatch",
+        "kind": "conference",
+        "venue": "NeurIPS",
+        "venue_tier": "top",
+        "year": 2024
+      },
+      {
+        "author_count": null,
+        "author_position": "last",
+        "citations_claimed": null,
+        "field": "low-light scientific imaging",
+        "kind": "conference",
+        "venue": "CVPR",
+        "venue_tier": "top",
+        "year": 2024
+      },
+      {
+        "author_count": null,
+        "author_position": "last",
+        "citations_claimed": null,
+        "field": "learned proximal operators",
+        "kind": "journal",
+        "venue": "SIAM Journal on Imaging Sciences",
+        "venue_tier": "strong",
+        "year": 2023
+      },
+      {
+        "author_count": null,
+        "author_position": "second",
+        "citations_claimed": null,
+        "field": "diffusion priors for inverse problems",
+        "kind": "conference",
+        "venue": "ICML",
+        "venue_tier": "top",
+        "year": 2023
+      },
+      {
+        "author_count": null,
+        "author_position": "last",
+        "citations_claimed": null,
+        "field": "unrolled networks for coherent imaging",
+        "kind": "journal",
+        "venue": "IEEE Transactions on Image Processing",
+        "venue_tier": "top",
+        "year": 2022
+      },
+      {
+        "author_count": null,
+        "author_position": "last",
+        "citations_claimed": null,
+        "field": "compressive hyperspectral imaging",
+        "kind": "conference",
+        "venue": "IEEE ICCP",
+        "venue_tier": "strong",
+        "year": 2021
+      },
+      {
+        "author_count": null,
+        "author_position": "last",
+        "citations_claimed": null,
+        "field": "equivariant imaging",
+        "kind": "conference",
+        "venue": "ICLR",
+        "venue_tier": "top",
+        "year": 2021
+      },
+      {
+        "author_count": 1,
+        "author_position": "sole",
+        "citations_claimed": null,
+        "field": "structured sparse recovery bounds",
+        "kind": "journal",
+        "venue": "IEEE Transactions on Signal Processing",
+        "venue_tier": "top",
+        "year": 2019
+      },
+      {
+        "author_count": null,
+        "author_position": "first",
+        "citations_claimed": null,
+        "field": "sparse recovery for coherent imaging",
+        "kind": "journal",
+        "venue": "IEEE Transactions on Signal Processing",
+        "venue_tier": "top",
+        "year": 2016
+      },
+      {
+        "author_count": null,
+        "author_position": "unknown",
+        "citations_claimed": null,
+        "field": "computational imaging systems (one of three granted, 2019-2024)",
+        "kind": "patent",
+        "venue": "US patent",
+        "venue_tier": "unknown",
+        "year": 2024
+      }
+    ],
+    "red_flags": [],
+    "residual_pii": {
+      "email_count": 0,
+      "name_suspected": false,
+      "other_identifiers": [],
+      "phone_count": 0,
+      "street_address_suspected": false,
+      "url_count": 0
+    },
+    "schema_version": "1.1",
+    "scores": {
+      "academia": {
+        "holistic_score": 90,
+        "included": true,
+        "rationale": "Tenure at year nine from the PhD with NSF CAREER, a best-paper award, a society early-career award, 15 top-venue papers, h-index 30, ~$3.4M as PI, eight PhD graduates (three faculty), an associate editorship and area-chair service. Short of the field-prize level.",
+        "stage_relative_score": 91,
+        "sub_scores": {
+          "breadth": 62,
+          "impact": 86,
+          "pedigree": 80,
+          "selectivity": 90,
+          "trajectory": 85
+        },
+        "top_evidence": [
+          "NSF CAREER 2019; IEEE ICCP Best Paper 2021; IEEE SPS Early Career Award 2024",
+          "50 papers, 15 at top venues, h-index 30, ~4,200 citations",
+          "~$3.4M as PI; 8 PhD graduates with 3 in faculty positions"
+        ]
+      },
+      "finance": {
+        "holistic_score": 10,
+        "included": false,
+        "rationale": "No finance footprint.",
+        "stage_relative_score": 10,
+        "sub_scores": {
+          "breadth": 10,
+          "impact": 30,
+          "pedigree": 60,
+          "selectivity": 50,
+          "trajectory": 60
+        },
+        "top_evidence": []
+      },
+      "general": {
+        "holistic_score": 88,
+        "included": true,
+        "rationale": "T1 degrees, tenure at a T2 R1 on the standard clock, NSF CAREER, a best-paper award and a society early-career award, ~$5.5M in funding, 50 papers with h-index 30, eight PhD graduates with three in faculty posts. Breadth is academic only.",
+        "stage_relative_score": 89,
+        "sub_scores": {
+          "breadth": 60,
+          "impact": 84,
+          "pedigree": 80,
+          "selectivity": 88,
+          "trajectory": 84
+        },
+        "top_evidence": [
+          "NSF CAREER, IEEE ICCP best paper, IEEE SPS early-career award",
+          "50 papers, 15 top-venue, h-index 30, ~4,200 citations",
+          "~$5.5M external funding; 8 PhD graduates, 3 now faculty"
+        ]
+      },
+      "tech": {
+        "holistic_score": 45,
+        "included": false,
+        "rationale": "ML-adjacent imaging research with NeurIPS, ICML, CVPR and ICLR papers and three licensed patents; no industry or software role.",
+        "stage_relative_score": 45,
+        "sub_scores": {
+          "breadth": 40,
+          "impact": 60,
+          "pedigree": 75,
+          "selectivity": 65,
+          "trajectory": 70
+        },
+        "top_evidence": []
+      }
+    },
+    "signals": {
+      "career_stage": "senior",
+      "has_quantified_impact": true,
+      "highest_institution_tier": "T1",
+      "highest_org_tier": "A",
+      "max_impact_scale": "industry",
+      "months_internship": 0,
+      "primary_domain": "academia",
+      "sustained_org_tier": "A",
+      "top_role_selectivity": "highly_selective",
+      "trajectory": "accelerating",
+      "years_fulltime": 11.3
+    },
+    "skills": {
+      "certifications": [],
+      "domain": [
+        "medical imaging reconstruction (low-dose CT)",
+        "compressive and hyperspectral imaging",
+        "scientific imaging"
+      ],
+      "keyword_stuffing_suspected": false,
+      "spoken_languages": [],
+      "technical": [
+        "Computational imaging",
+        "statistical signal processing",
+        "inverse problems with learned priors",
+        "sparse and low-rank recovery",
+        "uncertainty quantification"
+      ]
+    },
+    "strengths": [
+      "NSF CAREER, an IEEE ICCP best paper and an IEEE SPS early-career award: three independent selections at the national or international level",
+      "50 papers with 15 at top venues and h-index 30 at year nine from the PhD, with ~4,200 citations stated",
+      "~$5.5M in external funding (NIH R01 co-PI, NSF Medium lead PI, DARPA) and tenure on the standard clock",
+      "Eight PhD graduates with three now faculty and three former postdocs in tenure-track posts",
+      "Associate editorship, area-chair roles at NeurIPS, ICML and CVPR, and a general co-chair appointment"
+    ],
+    "verdict": "A tenured mid-career imaging group with CAREER, a best paper, h-index 30 and eight PhD graduates; strong by any academic measure, one prize short of rare.",
+    "weaknesses": [
+      "Only 4 first-author papers; the record is a group record, which is normal for faculty but limits the personal-authorship signal",
+      "No field-level prize (Sloan, Packard, PECASE) that would mark the 98 level",
+      "Service load (graduate admissions, search chair, co-chair) is heavy relative to the stated recent first-author output",
+      "The CV format will not parse well in industry systems if that is ever a target"
+    ]
+  },
+  "card_sha256": "5802ed408c95f6f7c11318ecd48c70413c6f110ab08fb8a99ce73538fe940437",
+  "category_relevance": {
+    "academia": 1,
+    "finance": 0,
+    "general": 1,
+    "tech": 0.3
+  },
+  "created_at": "2026-10-03T12:27:00Z",
+  "deleted_at": null,
+  "duplicate_of": null,
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+5f7c9f15",
+    "verdict": {
+      "estimated_career_stage": "senior",
+      "is_resume": true,
+      "language": "en",
+      "prompt_injection_detected": false,
+      "reason": "Résumé with dated roles and education.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "academia-1900-senior",
+  "held_reason": null,
+  "id": "cd3ywxohut",
+  "kind": "user",
+  "metrics": {
+    "char_count": 5922,
+    "columns_detected": 1,
+    "extraction_quality": 0.93,
+    "font_count": 2,
+    "image_count": 0,
+    "pages": 3,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 842
+  },
+  "owner_hash": "e85a19131b55a322b6c6620ae69548953e7a73ff5e142c67fdeb21e68725e2f3",
+  "primary": "academia",
+  "rejected_reason": null,
+  "schema": 1,
+  "scores": {
+    "academia": 88,
+    "general": 86
+  },
+  "source": {
+    "client_version": "fixtures",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 1
+  },
+  "stage": "senior",
+  "status": "analyzed",
+  "superseded_by": null,
+  "supersedes": null,
+  "text": "[name]\nBaltimore, MD · [email] · [phone] · [url]\n\nACADEMIC APPOINTMENTS\nJohns Hopkins University, Whiting School of Engineering — Baltimore, MD\nAssociate Professor (with tenure), Department of Electrical and Computer Engineering, July 2023 – Present\nAssistant Professor, Department of Electrical and Computer Engineering, July 2017 – June 2023\nSecondary appointment, Department of Computer Science, 2020 – Present\nAffiliated faculty, Mathematical Institute for Data Science and the Laboratory for Computational Sensing and Robotics\n\nEDUCATION\nPh.D., Electrical Engineering, University of Illinois Urbana-Champaign, 2015\nDissertation on sparse signal recovery for coherent imaging systems; Beckman Institute graduate fellow\nM.S., Electrical Engineering, University of Illinois Urbana-Champaign, 2012\nB.S., Electrical and Computer Engineering, Georgia Institute of Technology, 2010, highest honors\n\nPOSTDOCTORAL TRAINING\nPostdoctoral Research Associate, Department of Statistics, Columbia University, 2015 – 2017\n\nRESEARCH\nComputational imaging and statistical signal processing: inverse problems with learned priors, sparse and low-rank recovery, uncertainty quantification for medical and scientific imaging. The group currently has 7 Ph.D. students, 2 postdoctoral fellows and 4 undergraduate researchers.\n\nHONORS AND AWARDS\n- NSF CAREER Award, 2019\n- Best Paper Award, IEEE International Conference on Computational Photography, 2021\n- IEEE Signal Processing Society Early Career Technical Achievement Award, 2024\n- Johns Hopkins Catalyst Award, 2019\n- Whiting School of Engineering Excellence in Teaching Award, 2022\n- Senior Member, IEEE, 2021\n- Finalist, Young Author Best Paper Award, IEEE Transactions on Signal Processing, 2017 (as doctoral author)\n\nRESEARCH FUNDING (as principal investigator unless noted)\n- NSF CAREER: learned priors for scientific imaging, 2019 – 2024, $548,000\n- NIH R01 (co-PI with a radiology faculty member): uncertainty-aware reconstruction for low-dose CT, 2022 – 2027, $2.6M (PI share $1.3M)\n- DARPA seedling: compressive imaging for low-light sensing, 2020 – 2022, $740,000\n- NSF CCF Medium (lead PI, 3 institutions): algorithmic foundations of self-supervised inverse problems, 2023 – 2027, $1.2M (JHU share $650,000)\n- Industry gifts and awards (two imaging companies, one cloud provider): $410,000 total since 2018\nTotal external funding as PI or co-PI: about $5.5M; as PI: about $3.4M\n\nPUBLICATIONS\n50 peer-reviewed publications (22 journal, 28 conference); 15 at top venues (IEEE Transactions on Signal Processing, IEEE Transactions on Image Processing, SIAM Journal on Imaging Sciences, NeurIPS, ICML, CVPR, ICLR); h-index 30; about 4,200 citations as of September 2026.\n\nSelected (student authors from my group in positions 1 – 2 on most):\n1. IEEE Transactions on Signal Processing, 2025 — last author — self-supervised reconstruction with calibrated uncertainty\n2. NeurIPS 2024 — last author — plug-and-play priors with convergence guarantees under model mismatch\n3. CVPR 2024 — last author — joint denoising and super-resolution for low-light scientific cameras\n4. SIAM Journal on Imaging Sciences, 2023 — last author — provable recovery with learned proximal operators\n5. ICML 2023 — second author (collaborator's student first) — diffusion priors for linear inverse problems\n6. IEEE Transactions on Image Processing, 2022 — last author — unrolled networks for coherent imaging\n7. IEEE ICCP 2021 — last author — single-shot compressive hyperspectral imaging (Best Paper Award)\n8. ICLR 2021 — last author — equivariant imaging without ground truth\n9. IEEE Transactions on Signal Processing, 2019 — sole author — sharp phase-transition bounds for structured sparse recovery\n10. IEEE Transactions on Signal Processing, 2016 — first author — sparse recovery for coherent imaging (from the dissertation)\n\nSTUDENTS SUPERVISED\n- 8 Ph.D. graduates (2021 – 2026): 3 now in faculty positions (two R1 universities, one liberal-arts college), 4 in industry research (imaging, semiconductor, cloud), 1 postdoctoral fellow\n- 3 former postdoctoral fellows, all now in tenure-track positions\n- 7 current Ph.D. students, 2 current postdoctoral fellows\n- Supervised 19 undergraduate researchers; 6 are coauthors on published papers\n\nTEACHING\n- Developed and teach the graduate course Computational Imaging (enrollment about 45) and the undergraduate course Signals and Systems (enrollment about 120)\n- Co-developed the department's first-year design course module on imaging sensors, 2021\n- Mean teaching evaluation 4.6 / 5 across 14 course offerings\n- Lecturer, IEEE Signal Processing Society summer school on computational imaging, 2023 and 2025\n\nPROFESSIONAL SERVICE\n- Associate Editor, IEEE Transactions on Computational Imaging, 2022 – Present\n- Area Chair: NeurIPS 2023, 2024, 2025; ICML 2024, 2025; CVPR 2025\n- Technical Program Committee: IEEE ICCP (2020 – 2025), ICASSP (2018 – 2024)\n- General Co-Chair, IEEE International Conference on Computational Photography, 2026\n- NSF review panels (CCF, ECCS): 6 panels since 2018\n- Member, IEEE Signal Processing Society Computational Imaging Technical Committee, 2020 – Present\n\nINVITED TALKS (selected, 2023 – 2026)\nStanford Electrical Engineering seminar (2026); MIT Computational Imaging seminar (2025); Caltech IST seminar (2025); SIAM Conference on Imaging Science plenary-track minisymposium (2024); EPFL Center for Imaging (2024); Max Planck Institute for Intelligent Systems (2023); 24 invited talks since 2018.\n\nUNIVERSITY SERVICE\n- Director of Graduate Admissions, ECE, 2022 – 2025 (about 900 applications a year)\n- Faculty search committee chair, ECE, 2024 – 2025\n- Whiting School diversity and climate committee, 2019 – 2022\n\nPATENTS\n- Three granted US patents on compressive and computational imaging systems (2019, 2022, 2024), licensed to one imaging-sensor company\n\nPROFESSIONAL MEMBERSHIPS\nIEEE (Senior Member), SIAM, Optica",
+  "text_sha256": "0cf8290924b62344a607e187120a7ed9bfde5e3f4f302a78dc68b050452dc8c9",
+  "top_signal": "NSF CAREER, h=30",
+  "updated_at": "2026-10-03T12:27:00Z",
+  "usage": {
+    "analysis_usd": 0.17728,
+    "gate_usd": 0.0016,
+    "latency_ms": 0
+  },
+  "versions": {
+    "analyst_model": "claude-opus-5-5",
+    "analyst_prompt": "analyst.v1+6dbc77ff",
+    "fell_back": false,
+    "gate_prompt": "gate.v1+5f7c9f15",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "visibility": "anonymous"
+}

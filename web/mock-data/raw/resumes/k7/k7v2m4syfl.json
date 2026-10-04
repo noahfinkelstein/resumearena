@@ -1,0 +1,455 @@
+{
+  "analysis": {
+    "analysis_confidence": 0.86,
+    "ats": {
+      "detected": {
+        "action_verb_ratio": 0.86,
+        "bullet_count": 14,
+        "bullet_marker_consistent": true,
+        "contact_at_top": true,
+        "date_format_consistent": true,
+        "date_formats_seen": [
+          "MMM YYYY"
+        ],
+        "has_email": true,
+        "has_location": false,
+        "has_phone": true,
+        "has_profile_link": true,
+        "has_street_address": false,
+        "has_summary_section": true,
+        "nonstandard_headings": [],
+        "quantified_bullet_ratio": 0.64,
+        "reverse_chronological": true,
+        "section_order": [
+          "Summary",
+          "Experience",
+          "Education",
+          "Skills"
+        ],
+        "skill_bars_or_ratings": false,
+        "standard_headings": [
+          "Experience",
+          "Education",
+          "Skills"
+        ],
+        "uses_tables_suspected": false
+      },
+      "factors": {
+        "consistency": {
+          "note": "consistency read cleanly from the text.",
+          "score": 83
+        },
+        "contact_info": {
+          "note": "contact info read cleanly from the text.",
+          "score": 56
+        },
+        "formatting": {
+          "note": "formatting read cleanly from the text.",
+          "score": 69
+        },
+        "keyword_alignment": {
+          "note": "keyword alignment read cleanly from the text.",
+          "score": 76
+        },
+        "length": {
+          "note": "length read cleanly from the text.",
+          "score": 53
+        },
+        "parseability": {
+          "note": "parseability read cleanly from the text.",
+          "score": 61
+        },
+        "quantification": {
+          "note": "quantification read cleanly from the text.",
+          "score": 82
+        }
+      },
+      "fixes": [
+        {
+          "factor": "consistency",
+          "fix": "Use an end month or \"Present\" consistently.",
+          "issue": "Dates use \"Jan 2023 – present\"; two parsers read \"present\" as missing.",
+          "priority": "high"
+        },
+        {
+          "factor": "formatting",
+          "fix": "Export skills as plain lines, one group per line.",
+          "issue": "The skills section is a table.",
+          "priority": "medium"
+        },
+        {
+          "factor": "length",
+          "fix": "Cut the summary to one line with the strongest number.",
+          "issue": "The summary paragraph repeats the bullets.",
+          "priority": "low"
+        }
+      ],
+      "score": 70,
+      "target_role_used": "Software engineer, mid-career"
+    },
+    "awards": [],
+    "card": {
+      "awards": [],
+      "card_version": "1.0",
+      "career_stage": "new_grad",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2026,
+          "field": "Finance",
+          "gpa_band": "3.0-3.49",
+          "honors": [],
+          "in_progress": false,
+          "institution": "University of Central Florida",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 5,
+          "employment_type": "full_time",
+          "highlights": [
+            "Rotations in branch operations and consumer lending",
+            "Built a weekly branch deposit report in Excel"
+          ],
+          "impact_scale": "individual",
+          "org": "Regional bank",
+          "org_tier": "C",
+          "role": "Rotational Analyst (retail banking)",
+          "role_selectivity": "modest",
+          "seniority": "analyst",
+          "years": "2026-present"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Prepared client meeting packets and updated CRM records"
+          ],
+          "impact_scale": "individual",
+          "org": "Wealth-management office of a national brokerage",
+          "org_tier": "C",
+          "role": "Summer Intern",
+          "role_selectivity": "modest",
+          "seniority": "intern",
+          "years": "2025-2025"
+        }
+      ],
+      "headline": "Recent finance graduate from a state university; rotational analyst at a regional bank; wealth-management internship",
+      "leadership": [
+        "Treasurer, student investment club (~40 members)"
+      ],
+      "notable": [],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Excel",
+        "Bloomberg Terminal (basic)",
+        "PowerPoint",
+        "Financial statements"
+      ],
+      "top_signal": "Bank rotational",
+      "years_fulltime": 0.5
+    },
+    "category_relevance": {
+      "academia": 0.05,
+      "finance": 0.1,
+      "general": 1,
+      "tech": 0.1
+    },
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2026,
+        "field": "Finance",
+        "gpa": null,
+        "gpa_band": "3.0-3.49",
+        "gpa_scale": null,
+        "honors": [],
+        "in_progress": false,
+        "institution": "University of Central Florida",
+        "institution_tier": "T3",
+        "notes": "",
+        "start_year": 2022
+      }
+    ],
+    "experiences": [
+      {
+        "bullets_condensed": [
+          "Rotations in branch operations and consumer lending",
+          "Built a weekly branch deposit report in Excel"
+        ],
+        "duration_months": 5,
+        "employment_type": "full_time",
+        "end": "present",
+        "impact_scale": "individual",
+        "is_current": true,
+        "org": "Regional bank",
+        "org_tier": "C",
+        "org_type": "private_company",
+        "ownership": "owned_component",
+        "quantified_impact": false,
+        "role": "Rotational Analyst (retail banking)",
+        "role_selectivity": "modest",
+        "seniority": "analyst",
+        "start": "2026",
+        "team_or_division": null
+      },
+      {
+        "bullets_condensed": [
+          "Prepared client meeting packets and updated CRM records"
+        ],
+        "duration_months": 3,
+        "employment_type": "internship",
+        "end": "2025",
+        "impact_scale": "individual",
+        "is_current": false,
+        "org": "Wealth-management office of a national brokerage",
+        "org_tier": "C",
+        "org_type": "private_company",
+        "ownership": "owned_component",
+        "quantified_impact": false,
+        "role": "Summer Intern",
+        "role_selectivity": "modest",
+        "seniority": "intern",
+        "start": "2025",
+        "team_or_division": null
+      }
+    ],
+    "input": {
+      "is_resume": true,
+      "language": "en",
+      "parse_confidence": 0.94,
+      "placeholders_seen": [
+        "name",
+        "email",
+        "phone",
+        "url"
+      ],
+      "word_count_estimate": 620
+    },
+    "leadership": [
+      {
+        "budget_or_scale": "not stated",
+        "elected_or_appointed": "unknown",
+        "highlight": "Treasurer, student investment club (~40 members)",
+        "org": "Treasurer, student investment club (~40 members)",
+        "people_led": null,
+        "role": "lead"
+      }
+    ],
+    "projects": [],
+    "publications": [],
+    "red_flags": [
+      {
+        "detail": "\"Industry-leading\" appears twice without a number behind it.",
+        "location": "Experience / summary line",
+        "severity": "medium",
+        "type": "unverifiable_superlative"
+      }
+    ],
+    "residual_pii": {
+      "email_count": 0,
+      "name_suspected": false,
+      "other_identifiers": [],
+      "phone_count": 0,
+      "street_address_suspected": false,
+      "url_count": 0
+    },
+    "schema_version": "1.1",
+    "scores": {
+      "academia": {
+        "holistic_score": 68,
+        "included": false,
+        "rationale": "Recent finance graduate from a state university; the academia weighting rewards the strongest lines on the card.",
+        "stage_relative_score": 56,
+        "sub_scores": {
+          "breadth": 45,
+          "impact": 30,
+          "pedigree": 35,
+          "selectivity": 37,
+          "trajectory": 31
+        },
+        "top_evidence": [
+          "Rotations in branch operations and consumer lending",
+          "Prepared client meeting packets and updated CRM records"
+        ]
+      },
+      "finance": {
+        "holistic_score": 59,
+        "included": false,
+        "rationale": "Recent finance graduate from a state university; the finance weighting rewards the strongest lines on the card.",
+        "stage_relative_score": 55,
+        "sub_scores": {
+          "breadth": 43,
+          "impact": 55,
+          "pedigree": 53,
+          "selectivity": 42,
+          "trajectory": 39
+        },
+        "top_evidence": [
+          "Rotations in branch operations and consumer lending",
+          "Prepared client meeting packets and updated CRM records"
+        ]
+      },
+      "general": {
+        "holistic_score": 61,
+        "included": true,
+        "rationale": "Recent finance graduate from a state university; the general weighting rewards the strongest lines on the card.",
+        "stage_relative_score": 64,
+        "sub_scores": {
+          "breadth": 70,
+          "impact": 73,
+          "pedigree": 52,
+          "selectivity": 75,
+          "trajectory": 68
+        },
+        "top_evidence": [
+          "Rotations in branch operations and consumer lending",
+          "Prepared client meeting packets and updated CRM records"
+        ]
+      },
+      "tech": {
+        "holistic_score": 64,
+        "included": false,
+        "rationale": "Recent finance graduate from a state university; the tech weighting rewards the strongest lines on the card.",
+        "stage_relative_score": 60,
+        "sub_scores": {
+          "breadth": 58,
+          "impact": 39,
+          "pedigree": 43,
+          "selectivity": 55,
+          "trajectory": 49
+        },
+        "top_evidence": [
+          "Rotations in branch operations and consumer lending",
+          "Prepared client meeting packets and updated CRM records"
+        ]
+      }
+    },
+    "signals": {
+      "career_stage": "new_grad",
+      "has_quantified_impact": true,
+      "highest_institution_tier": "T3",
+      "highest_org_tier": "C",
+      "max_impact_scale": "individual",
+      "months_internship": 3,
+      "primary_domain": "other",
+      "sustained_org_tier": "C",
+      "top_role_selectivity": "modest",
+      "trajectory": "steady",
+      "years_fulltime": 0.5
+    },
+    "skills": {
+      "certifications": [],
+      "domain": [],
+      "keyword_stuffing_suspected": false,
+      "spoken_languages": [
+        "English"
+      ],
+      "technical": [
+        "Excel",
+        "Bloomberg Terminal (basic)",
+        "PowerPoint",
+        "Financial statements"
+      ]
+    },
+    "strengths": [
+      "Quantified results on 7 of 9 bullets",
+      "Two promotions in 4 years at the same employer",
+      "Owned a system with named scale (40k rps)"
+    ],
+    "verdict": "A strong mid-career infrastructure resume whose numbers do the work; the education line is the only soft spot.",
+    "weaknesses": [
+      "Education sits below the ladder median for this tier",
+      "No open-source or public work listed",
+      "Summary paragraph repeats the bullets"
+    ]
+  },
+  "card_sha256": "4137aa9ef74f28e121394af635e907e3299c68bf163fb4100ff908a1ca324237",
+  "category_relevance": {
+    "academia": 0.05,
+    "finance": 0.1,
+    "general": 1,
+    "tech": 0.1
+  },
+  "created_at": "2026-09-21T14:20:11Z",
+  "deleted_at": null,
+  "duplicate_of": null,
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+1a2b3c4d",
+    "verdict": {
+      "estimated_career_stage": "new_grad",
+      "is_resume": true,
+      "language": "en",
+      "prompt_injection_detected": false,
+      "reason": "Two-page engineering résumé with dated roles.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "priya-castellan",
+  "held_reason": null,
+  "id": "k7v2m4syfl",
+  "kind": "user",
+  "metrics": {
+    "char_count": 1003,
+    "columns_detected": 1,
+    "extraction_quality": 0.96,
+    "font_count": 3,
+    "image_count": 0,
+    "pages": 2,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 212
+  },
+  "owner_hash": "ce150ea800ad507c426ddb7455acf4ad8805a6d74f7f903bc3519850f2dfeed0",
+  "primary": "general",
+  "rejected_reason": null,
+  "schema": 1,
+  "scores": {
+    "general": 66
+  },
+  "source": {
+    "client_version": "mock.1",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 123456700
+  },
+  "stage": "new_grad",
+  "status": "analyzed",
+  "superseded_by": null,
+  "supersedes": null,
+  "text": "[name]\n[email] · [phone] · [url]\n\nSummary\nInfrastructure engineer with six years building and operating high-throughput services. Led the migration of a 40k rps edge service to a new runtime, cutting p99 latency by 38% and on-call pages by half.\n\nExperience\nSenior engineer, Acme Cloud, Jan 2022 – present\n· Led migration of a 40k rps service to a new runtime; p99 latency down 38%, infrastructure cost down 22%\n· Designed the capacity model used by four product teams; forecast error under 6% over 18 months\n· Promoted twice in four years; mentor to five engineers, two of whom were promoted\n\nEngineer, Northwind Fintech, Jun 2020 – Dec 2021\n· Built the reconciliation pipeline for 2.1M daily transactions with a measured 99.98% match rate\n· Cut nightly batch time from 6 hours to 70 minutes by rewriting the join strategy\n\nEducation\nBS Computer Science, Large State University, 2020\nDean's list, 2018 – 2020\n\nSkills\nGo, Rust, Kubernetes, Terraform, PostgreSQL, Kafka, observability, capacity planning\n",
+  "text_sha256": "fcad654bbb5a4562df2a03465adc10118051fe3f5ef07211100c2b309a501dc4",
+  "top_signal": "Bank rotational",
+  "updated_at": "2026-09-21T14:22:51Z",
+  "usage": {
+    "analysis_usd": 0.188,
+    "gate_usd": 0.0046,
+    "latency_ms": 61230
+  },
+  "versions": {
+    "analyst_model": "claude-opus-5-5",
+    "analyst_prompt": "analyst.v1+9e8f7a6b",
+    "fell_back": false,
+    "gate_prompt": "gate.v1+1a2b3c4d",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "visibility": "anonymous"
+}

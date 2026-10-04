@@ -1,0 +1,418 @@
+{
+  "analysis_confidence": 0.9,
+  "ats": {
+    "detected": {
+      "action_verb_ratio": 0.85,
+      "bullet_count": 17,
+      "bullet_marker_consistent": true,
+      "contact_at_top": true,
+      "date_format_consistent": false,
+      "date_formats_seen": [
+        "Month YYYY",
+        "YYYY"
+      ],
+      "has_email": true,
+      "has_location": true,
+      "has_phone": true,
+      "has_profile_link": false,
+      "has_street_address": false,
+      "has_summary_section": false,
+      "nonstandard_headings": [],
+      "quantified_bullet_ratio": 0.06,
+      "reverse_chronological": true,
+      "section_order": [
+        "Education",
+        "Experience",
+        "Experience",
+        "Leadership",
+        "Skills"
+      ],
+      "skill_bars_or_ratings": false,
+      "standard_headings": [
+        "Education",
+        "Research Experience",
+        "Work Experience",
+        "Activities",
+        "Skills"
+      ],
+      "uses_tables_suspected": false
+    },
+    "factors": {
+      "consistency": {
+        "note": "Experience uses Month YYYY while activities use bare years",
+        "score": 90
+      },
+      "contact_info": {
+        "note": "Email and phone present; city on the third line; no profile link",
+        "score": 75
+      },
+      "formatting": {
+        "note": "Consistent bullets and order; layout not verified (docx); the Biology Club line has no bullet",
+        "score": 95
+      },
+      "keyword_alignment": {
+        "note": "Lab techniques appear in bullets but no result, assay count or dataset is named; research skills live mostly in the skills list",
+        "score": 40
+      },
+      "length": {
+        "note": "One page for a student",
+        "score": 100
+      },
+      "parseability": {
+        "note": "Single column, standard headings, contact placeholders in the first two lines; layout not verified (docx)",
+        "score": 100
+      },
+      "quantification": {
+        "note": "Numbers present are hours and ages, not outcomes",
+        "score": 20
+      }
+    },
+    "fixes": [
+      {
+        "factor": "quantification",
+        "fix": "Before: Help with DNA extractions and run PCR → After: Genotyped __ plant lines by PCR for a project on __; results used in the lab's __ presentation.",
+        "issue": "No bullet states what the lab work produced",
+        "priority": "high"
+      },
+      {
+        "factor": "keyword_alignment",
+        "fix": "Name the project question, the technique you own end to end, and one result, even a negative one.",
+        "issue": "The research entry reads as a duty list",
+        "priority": "high"
+      },
+      {
+        "factor": "contact_info",
+        "fix": "Add a professional profile link on the contact line.",
+        "issue": "No profile or portfolio link",
+        "priority": "medium"
+      },
+      {
+        "factor": "consistency",
+        "fix": "Use Month YYYY everywhere.",
+        "issue": "Two date formats across sections",
+        "priority": "low"
+      }
+    ],
+    "score": 72,
+    "target_role_used": "Undergraduate research assistant or summer research program applicant"
+  },
+  "awards": [],
+  "card": {
+    "awards": [],
+    "card_version": "1.0",
+    "career_stage": "student",
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2027,
+        "field": "Biology (Chemistry minor)",
+        "gpa_band": "not_listed",
+        "honors": [],
+        "in_progress": true,
+        "institution": "Western Illinois University",
+        "institution_tier": "T4"
+      }
+    ],
+    "experiences": [
+      {
+        "duration_months": 6,
+        "employment_type": "part_time",
+        "highlights": [
+          "Prepares media and buffers; maintains plant lines; PCR and gels under supervision"
+        ],
+        "impact_scale": "individual",
+        "org": "Western Illinois University, Department of Biological Sciences",
+        "org_tier": "D",
+        "role": "Undergraduate Research Assistant",
+        "role_selectivity": "modest",
+        "seniority": "research_assistant",
+        "years": "2026-present"
+      },
+      {
+        "duration_months": 26,
+        "employment_type": "part_time",
+        "highlights": [
+          "15-20 hours a week alongside the degree"
+        ],
+        "impact_scale": "individual",
+        "org": "Walmart",
+        "org_tier": "D",
+        "role": "Sales Associate (part-time)",
+        "role_selectivity": "modest",
+        "seniority": "other",
+        "years": "2024-present"
+      },
+      {
+        "duration_months": 3,
+        "employment_type": "part_time",
+        "highlights": [
+          "Supervised groups of children aged 8 to 11"
+        ],
+        "impact_scale": "individual",
+        "org": "Park district summer camp",
+        "org_tier": "D",
+        "role": "Camp Counselor",
+        "role_selectivity": "modest",
+        "seniority": "other",
+        "years": "2025-2025"
+      }
+    ],
+    "headline": "Biology junior at a T4 regional university; six months as an undergraduate lab assistant; part-time retail job",
+    "leadership": [],
+    "notable": [],
+    "projects": [],
+    "publications_summary": {
+      "citation_signal": "not stated",
+      "count_total": 0,
+      "first_author_count": 0,
+      "strong_venue_count": 0,
+      "top_venue_count": 0,
+      "venues": []
+    },
+    "skills_top": [
+      "PCR",
+      "Gel electrophoresis",
+      "Media preparation",
+      "Aseptic technique",
+      "Light microscopy",
+      "R (basic)"
+    ],
+    "top_signal": "Bio lab assistant",
+    "years_fulltime": 0
+  },
+  "category_relevance": {
+    "academia": 0.6,
+    "finance": 0,
+    "general": 1,
+    "tech": 0.03
+  },
+  "education": [
+    {
+      "degree_level": "bachelor",
+      "end_year": 2027,
+      "field": "Biology",
+      "gpa": null,
+      "gpa_band": "not_listed",
+      "gpa_scale": null,
+      "honors": [],
+      "in_progress": true,
+      "institution": "Western Illinois University",
+      "institution_tier": "T4",
+      "notes": "Chemistry minor; GPA not listed; introductory and core biology coursework",
+      "start_year": 2023
+    }
+  ],
+  "experiences": [
+    {
+      "bullets_condensed": [
+        "Assists graduate students; prepares media, plates and buffers",
+        "Maintains plant lines; records growth data",
+        "DNA extractions, PCR and gels under supervision",
+        "Weekly lab meeting and journal club"
+      ],
+      "duration_months": 6,
+      "employment_type": "part_time",
+      "end": "present",
+      "impact_scale": "individual",
+      "is_current": true,
+      "org": "Western Illinois University, Department of Biological Sciences",
+      "org_tier": "D",
+      "org_type": "university",
+      "ownership": "supported",
+      "quantified_impact": false,
+      "role": "Undergraduate Research Assistant",
+      "role_selectivity": "modest",
+      "seniority": "research_assistant",
+      "start": "2026-04",
+      "team_or_division": "Plant molecular biology lab"
+    },
+    {
+      "bullets_condensed": [
+        "Customer help, stocking, register and returns; 15-20 h/week"
+      ],
+      "duration_months": 26,
+      "employment_type": "part_time",
+      "end": "present",
+      "impact_scale": "individual",
+      "is_current": true,
+      "org": "Walmart",
+      "org_tier": "D",
+      "org_type": "public_company",
+      "ownership": "supported",
+      "quantified_impact": false,
+      "role": "Sales Associate",
+      "role_selectivity": "modest",
+      "seniority": "other",
+      "start": "2024-08",
+      "team_or_division": null
+    },
+    {
+      "bullets_condensed": [
+        "Supervised groups of children aged 8-11; led games and science crafts"
+      ],
+      "duration_months": 3,
+      "employment_type": "part_time",
+      "end": "2025-08",
+      "impact_scale": "individual",
+      "is_current": false,
+      "org": "Spring Lake Park District Summer Camp",
+      "org_tier": "D",
+      "org_type": "government",
+      "ownership": "supported",
+      "quantified_impact": false,
+      "role": "Camp Counselor",
+      "role_selectivity": "modest",
+      "seniority": "other",
+      "start": "2025-06",
+      "team_or_division": null
+    }
+  ],
+  "input": {
+    "is_resume": true,
+    "language": "en",
+    "parse_confidence": 0.95,
+    "placeholders_seen": [
+      "name",
+      "email",
+      "phone"
+    ],
+    "word_count_estimate": 322
+  },
+  "leadership": [
+    {
+      "budget_or_scale": "not stated",
+      "elected_or_appointed": "unknown",
+      "highlight": "Attends monthly meetings; volunteered at the annual blood drive",
+      "org": "Pre-Health Society",
+      "people_led": null,
+      "role": "Member"
+    }
+  ],
+  "projects": [],
+  "publications": [],
+  "red_flags": [],
+  "residual_pii": {
+    "email_count": 0,
+    "name_suspected": false,
+    "other_identifiers": [],
+    "phone_count": 0,
+    "street_address_suspected": false,
+    "url_count": 0
+  },
+  "schema_version": "1.1",
+  "scores": {
+    "academia": {
+      "holistic_score": 20,
+      "included": true,
+      "rationale": "Lab membership at a T4 school with generic research-assistant duties, no poster, thesis or presentation, GPA omitted; standard pre-health activities.",
+      "stage_relative_score": 28,
+      "sub_scores": {
+        "breadth": 12,
+        "impact": 8,
+        "pedigree": 15,
+        "selectivity": 8,
+        "trajectory": 35
+      },
+      "top_evidence": [
+        "Prepared media and buffers; PCR and gels under supervision",
+        "Weekly lab meeting and journal club attendance",
+        "No poster, thesis or publication"
+      ]
+    },
+    "finance": {
+      "holistic_score": 2,
+      "included": false,
+      "rationale": "No finance footprint.",
+      "stage_relative_score": 2,
+      "sub_scores": {
+        "breadth": 2,
+        "impact": 2,
+        "pedigree": 5,
+        "selectivity": 2,
+        "trajectory": 5
+      },
+      "top_evidence": []
+    },
+    "general": {
+      "holistic_score": 22,
+      "included": true,
+      "rationale": "Regional-university biology junior, GPA omitted; six months of supervised lab assistance, a retail job and society membership; no outcome or selection anywhere.",
+      "stage_relative_score": 28,
+      "sub_scores": {
+        "breadth": 20,
+        "impact": 10,
+        "pedigree": 18,
+        "selectivity": 10,
+        "trajectory": 35
+      },
+      "top_evidence": [
+        "Undergraduate Research Assistant, 6 months, duties only",
+        "Sales Associate, part-time, 2 years",
+        "Pre-Health Society member"
+      ]
+    },
+    "tech": {
+      "holistic_score": 4,
+      "included": false,
+      "rationale": "Basic R from a statistics course only.",
+      "stage_relative_score": 4,
+      "sub_scores": {
+        "breadth": 3,
+        "impact": 3,
+        "pedigree": 8,
+        "selectivity": 3,
+        "trajectory": 10
+      },
+      "top_evidence": []
+    }
+  },
+  "signals": {
+    "career_stage": "student",
+    "has_quantified_impact": false,
+    "highest_institution_tier": "T4",
+    "highest_org_tier": "D",
+    "max_impact_scale": "individual",
+    "months_internship": 0,
+    "primary_domain": "academia",
+    "sustained_org_tier": "D",
+    "top_role_selectivity": "modest",
+    "trajectory": "too_early",
+    "years_fulltime": 0
+  },
+  "skills": {
+    "certifications": [
+      "CPR and First Aid"
+    ],
+    "domain": [
+      "Plant molecular biology (assistant level)"
+    ],
+    "keyword_stuffing_suspected": false,
+    "spoken_languages": [
+      "Spanish (basic)"
+    ],
+    "technical": [
+      "Pipetting",
+      "Media preparation",
+      "PCR",
+      "Gel electrophoresis",
+      "Aseptic technique",
+      "Light microscopy",
+      "Word",
+      "Excel",
+      "PowerPoint",
+      "R (basic)"
+    ]
+  },
+  "strengths": [
+    "Joined a research lab by junior year and attends journal club",
+    "Holds a part-time job of 15-20 hours a week through the degree",
+    "Lab techniques listed match the bullets (PCR, gels, media preparation)"
+  ],
+  "verdict": "Regional-university biology junior with six months of supervised lab duties and nothing yet produced; typical early pre-health record.",
+  "weaknesses": [
+    "Research bullets describe duties with no project, result or presentation",
+    "GPA is omitted",
+    "No selective program, award or honors; activities are memberships",
+    "No poster, summer research program or independent project yet"
+  ]
+}

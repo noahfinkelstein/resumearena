@@ -1,0 +1,131 @@
+name: deploy
+run-name: "deploy ${{ github.event_name }} ${{ inputs.reason || github.ref_name }}"
+
+on:
+  push:
+    # `data` only fires for human pushes; bot pushes with GITHUB_TOKEN do not trigger workflows.
+    branches: [main, data]
+    paths-ignore:
+      - "docs/**"
+      - "ops/runbooks/**"
+      - "**/*.md"
+  workflow_dispatch:
+    inputs:
+      reason:
+        type: string
+        required: false
+        default: manual
+        description: "why (shows in the run list)"
+
+permissions: {}
+
+# Owner constraint (spec D-20): a newer deploy supersedes an older one. A cancelled deploy-pages step is harmless;
+# the swap is atomic on GitHub's side. The abuse response is ops/runbooks/cancel-flood.md, not this file.
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  # The github-pages environment only accepts deployments from the default branch, so a human push to `data`
+  # re-dispatches this workflow on main.
+  redispatch:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/data'
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    permissions:
+      actions: write
+    steps:
+      - name: Dispatch deploy on main
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run deploy.yml --repo "$GITHUB_REPOSITORY" --ref main -f reason="data push $GITHUB_SHA"
+
+  build:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+    env:
+      VITE_BASE: /resumearena/
+      VITE_REPO: ${{ github.repository }}
+      VITE_SUBMIT_TOKEN: ${{ vars.SUBMIT_TOKEN }}   # public by design (spec §12); may be empty = fallback-only build
+      VITE_BUILD_ID: ${{ github.run_id }}.${{ github.run_attempt }}
+      VITE_COMMIT: ${{ github.sha }}
+      VITE_MANAGE: "1"   # set to "0" if release step 6 (D-60) finds dispatch inputs readable
+      VITE_CONTACT_EMAIL: ${{ vars.CONTACT_EMAIL }}   # optional (spec §14 step 7); unset → /about#contact points at the issue tracker
+      RA_DATA_DIR: ${{ github.workspace }}/data
+      RA_LLM_MODE: mock  # build-indexes never calls a model and this job has no API key
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 1
+
+      - uses: ./.github/actions/setup
+
+      - uses: ./.github/actions/data-checkout
+        with:
+          patterns: |
+            /settings.json
+            /status.json
+            /ratings/
+            /rows/
+            /arena/
+
+      # D-59: the token expiry lives in ops/token.json on main, not in a second variable.
+      - name: Read the token expiry
+        run: |
+          expires="$(node -p "JSON.parse(require('node:fs').readFileSync('ops/token.json', 'utf8')).expires")"
+          [[ "$expires" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]] || { echo "::error file=ops/token.json::expires must be YYYY-MM-DD, got '$expires'"; exit 1; }
+          echo "VITE_TOKEN_EXPIRES=$expires" >> "$GITHUB_ENV"
+
+      - name: Build the SPA
+        run: pnpm --filter web build
+
+      - name: Build the indexes
+        run: node engine/src/cli.ts build-indexes --out web/dist/data --build-id "$VITE_BUILD_ID" --commit "$VITE_COMMIT"
+
+      - name: Guard the artifact
+        run: |
+          set -u
+          fail() { echo "::error::$1"; exit 1; }
+          test -f web/dist/index.html        || fail "web/dist/index.html missing"
+          test -f web/dist/.nojekyll         || fail "web/dist/.nojekyll missing (D-47)"
+          test -f web/dist/404.html          || fail "web/dist/404.html missing (D-47)"
+          test -f web/dist/data/manifest.json || fail "web/dist/data/manifest.json missing"
+          test -f web/dist/data/status.json   || fail "web/dist/data/status.json missing"
+          test -f web/dist/data/settings.json || fail "web/dist/data/settings.json missing"
+          size_mb="$(du -sm web/dist | cut -f1)"
+          files="$(find web/dist -type f | wc -l | tr -d ' ')"
+          echo "artifact: ${size_mb} MB, ${files} files, build ${VITE_BUILD_ID}"
+          [ "$size_mb" -lt 800 ] || fail "artifact over 800 MB (${size_mb} MB)"
+          if find web/dist -name '*.map' -print -quit | grep -q .; then fail "source maps in artifact"; fi
+          # Pages rejects file names with ':' or '*'; ids are base32 so this only catches a builder bug.
+          if find web/dist -name '*[:*]*' -print -quit | grep -q .; then fail "forbidden characters in artifact file names"; fi
+          {
+            echo "### deploy"
+            echo ""
+            echo "| artifact | files | build |"
+            echo "|---|---|---|"
+            echo "| ${size_mb} MB | ${files} | ${VITE_BUILD_ID} |"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

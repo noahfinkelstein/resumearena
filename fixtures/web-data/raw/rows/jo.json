@@ -1,0 +1,38 @@
+{
+  "jocml7s5ue": {
+    "c": {
+      "finance": 1,
+      "general": 1
+    },
+    "ch": "866006ad0c4a8e303603e801e68faa03ccff1e274f37d077c056d75dd4998808",
+    "h": "finance-2000-mid-hed",
+    "p": "finance",
+    "s": "analyzed",
+    "sc": {
+      "finance": 94,
+      "general": 91
+    },
+    "sig": "$45M 3-yr P&L",
+    "ss": {
+      "finance": [
+        95,
+        94,
+        92,
+        95,
+        55,
+        96
+      ],
+      "general": [
+        93,
+        92,
+        88,
+        94,
+        60,
+        94
+      ]
+    },
+    "st": "mid",
+    "t": 1791029880,
+    "v": "handle"
+  }
+}

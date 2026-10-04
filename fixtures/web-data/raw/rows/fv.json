@@ -1,0 +1,28 @@
+{
+  "fv6bj7sbra": {
+    "c": {
+      "general": 1
+    },
+    "ch": "f643347dd7b86f58c42485fb9e2077c3d70d5428d4b4cddacbb4685dc9676682",
+    "h": "general-1400-student",
+    "p": "general",
+    "s": "analyzed",
+    "sc": {
+      "general": 58
+    },
+    "sig": "Legislative intern",
+    "ss": {
+      "general": [
+        58,
+        62,
+        42,
+        50,
+        62,
+        60
+      ]
+    },
+    "st": "student",
+    "t": 1791030780,
+    "v": "anonymous"
+  }
+}

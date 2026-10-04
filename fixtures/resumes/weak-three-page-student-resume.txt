@@ -1,0 +1,79 @@
+[name]
+Tempe, AZ · [email] · [phone] · [url] · [url]
+
+OBJECTIVE
+I am a highly motivated and detail-oriented Computer Science student at Arizona State University with a strong passion for software development, problem solving, and learning new technologies. I am seeking a summer 2027 software engineering internship where I can apply the knowledge I have gained in my coursework and personal projects to real-world problems, contribute to a collaborative team environment, and continue to grow as an engineer under the mentorship of experienced professionals.
+
+Throughout my academic career I have developed a solid foundation in data structures, algorithms, object-oriented programming, and web development, and I have consistently challenged myself to go beyond the classroom through independent projects, hackathons, and student organizations. I believe my combination of technical skills, strong work ethic, and enthusiasm for technology would make me a valuable addition to any engineering team, and I am excited about the opportunity to bring my skills to an innovative company.
+
+EDUCATION
+Arizona State University, Ira A. Fulton Schools of Engineering — Tempe, AZ
+Bachelor of Science in Computer Science, expected May 2028
+GPA: 3.5/4.0 · Dean's List: Fall 2024, Spring 2025, Spring 2026
+
+COURSEWORK
+CSE 110 – Principles of Programming: Introduction to programming in Java covering variables, control flow, methods, arrays, and basic object-oriented design. Final project was a text-based inventory management program.
+CSE 205 – Object-Oriented Programming and Data Structures: Classes, inheritance, polymorphism, interfaces, generics, linked lists, stacks, queues, and recursion in Java. Weekly programming assignments and two exams.
+CSE 230 – Computer Organization and Assembly Language: MIPS assembly, number representation, memory hierarchy, and the datapath. Wrote a small assembler as the final project.
+CSE 240 – Introduction to Programming Languages: Programming paradigms using C, Scheme, and Prolog; parsing, scoping, and memory management in C.
+CSE 310 – Data Structures and Algorithms: Asymptotic analysis, sorting, hash tables, balanced trees, graphs, shortest paths, minimum spanning trees, and dynamic programming. Implemented a graph library in C++.
+CSE 330 – Operating Systems: Processes, threads, synchronization, scheduling, virtual memory, and file systems. Lab assignments included a user-level thread library and a simple shell.
+CSE 340 – Principles of Programming Languages: Lexical analysis, parsing, type checking, and interpreters; wrote a recursive-descent parser and an interpreter for a small language.
+CSE 360 – Introduction to Software Engineering: Requirements, UML, agile methods, version control, and testing. Semester-long team project (see Projects).
+CSE 365 – Information Assurance: Security principles, cryptography basics, authentication, access control, and common vulnerabilities.
+MAT 243 – Discrete Mathematical Structures: Logic, proofs, sets, relations, functions, counting, and graph theory.
+MAT 343 – Applied Linear Algebra: Matrices, vector spaces, eigenvalues; MATLAB assignments.
+STP 420 – Introductory Applied Statistics: Probability, hypothesis testing, and regression in R.
+Currently enrolled (Fall 2026): CSE 412 Database Management; CSE 445 Distributed Software Development; CSE 475 Foundations of Machine Learning.
+
+PROJECTS
+Campus Study Group Finder (CSE 360 team project, team of 5, Spring 2026) — Java, JavaFX, SQLite, GitHub
+A desktop application that lets students post and join study groups for their courses. I served as the team's Scrum master and was responsible for the database schema and the data access layer. We used a two-week sprint cadence with GitHub Projects for tracking, wrote JUnit tests for the data layer, and presented the final product to the class. I learned a great deal about coordinating a team, resolving merge conflicts, and writing documentation for teammates. Final grade on the project: A.
+
+Weather Dashboard (personal project, Summer 2025) — JavaScript, React, Node.js, Express, OpenWeather API
+A single-page web application that displays the current weather and a five-day forecast for any city entered by the user, following a React tutorial series and then extending it. I added a favorites list stored in the browser's local storage, a dark mode toggle, and a small Express backend that caches API responses to stay under the free-tier request limit. Deployed to a free hosting platform. This project taught me the basics of React hooks, asynchronous requests, REST APIs, and deploying a full-stack application.
+
+Sudoku Solver and Generator (personal project, Winter 2025) — Python, Tkinter
+A desktop Sudoku application with a backtracking solver, a puzzle generator with three difficulty levels, and a simple graphical interface built in Tkinter. The solver uses constraint propagation before backtracking, which made solving most puzzles nearly instant. I wrote unit tests for the solver with pytest and documented the algorithm in the README. I built this to practice recursion and algorithm design after taking CSE 310.
+
+Personal Portfolio Website (ongoing) — HTML, CSS, JavaScript
+A static website showcasing my projects, resume, and blog posts about what I am learning. Built from scratch without a framework to practice responsive design and accessibility basics.
+
+EXPERIENCE
+Sales Associate, Best Buy — Tempe, AZ (June 2025 – Present, part-time, about 16 hours per week)
+• Assist customers in the computing department with laptop, tablet, and accessory purchases, explaining specifications and comparing products.
+• Set up and troubleshoot demo devices on the sales floor and help with inventory counts.
+• Recognized as a top-five associate in the department for customer satisfaction survey scores in Q4 2025.
+
+Peer Tutor, ASU Engineering Tutoring Center — Tempe, AZ (August 2025 – Present)
+• Tutor students in CSE 110 and CSE 205 during drop-in hours, about 6 hours a week.
+• Help students debug Java programs and understand object-oriented concepts.
+
+Volunteer Instructor, Code for Kids Tempe (Summer 2024)
+• Taught introductory Scratch programming to middle school students in a two-week summer camp.
+
+STUDENT ORGANIZATIONS AND ACTIVITIES
+• Software Developers Association (SoDA) at ASU — Member since Fall 2024; attend weekly technical talks and workshops; participated in the Fall 2025 internal hackathon (built a campus event recommendation prototype in 24 hours with three other students).
+• ACM Student Chapter — Member; attended the Spring 2026 programming competition practice sessions.
+• Women in Computer Science (WiCS) — Ally member; volunteered at the Spring 2026 high school outreach day.
+• Sun Devil Hackathon (Fall 2025) — Participant; team built a recipe-suggestion web app from pantry ingredients; did not place.
+• Intramural soccer — Team captain, Fall 2025 and Spring 2026 seasons.
+• Residence hall community council — Floor representative, 2024–2025 academic year; helped plan two floor events per semester.
+
+TECHNICAL SKILLS
+Programming Languages: Java (proficient), Python (proficient), C/C++ (intermediate), JavaScript (intermediate), HTML/CSS, SQL (basic), MIPS assembly (coursework), Scheme and Prolog (coursework), MATLAB (coursework), R (coursework)
+Frameworks and Libraries: React, Node.js, Express, JavaFX, Tkinter, JUnit, pytest
+Tools: Git and GitHub, VS Code, IntelliJ IDEA, Eclipse, Linux command line, SQLite, Postman, Figma (basic)
+Concepts: Object-oriented design, data structures and algorithms, agile/Scrum, unit testing, REST APIs, basic networking and operating systems
+
+CERTIFICATIONS AND ONLINE COURSES
+• Responsive Web Design Certification, freeCodeCamp (2025)
+• JavaScript Algorithms and Data Structures Certification, freeCodeCamp (2025)
+• Introduction to Machine Learning, online course (audited, 2026)
+• AWS Cloud Practitioner Essentials, online course (in progress)
+
+INTERESTS
+Hiking and backpacking (four Arizona summit hikes), soccer, chess (online rating around 1400), building mechanical keyboards, science fiction novels, cooking, playing guitar, and hobby game development (currently learning Godot).
+
+REFERENCES
+Available upon request.

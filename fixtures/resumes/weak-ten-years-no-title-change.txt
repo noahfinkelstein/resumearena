@@ -1,0 +1,59 @@
+[name]
+[email] | [phone] | [url]
+Jersey City, NJ
+
+SUMMARY
+Software engineer with ten years at JPMorgan Chase in the Corporate & Investment Bank technology division. Experienced in Java, Oracle and batch processing for post-trade systems. Reliable, detail-oriented and familiar with the firm's change-management and production-support processes. Comfortable with on-call support, release coordination and working with offshore teams.
+
+EXPERIENCE
+
+JPMorgan Chase & Co. — Corporate & Investment Bank Technology, Jersey City, NJ
+Software Engineer (Associate) · July 2016 – Present
+
+Trade Settlement Batch (2016 – Present)
+• Maintain and enhance the overnight settlement batch for fixed-income trades, a Java and PL/SQL application processing about 400,000 trades per night
+• Reduced the end-to-end batch runtime from roughly 6 hours to 4.5 hours in 2021 by reordering job dependencies and adding two indexes
+• Handle production support rotation one week in five; resolve data and job failures and document root causes
+• Implemented regulatory field changes for three reporting mandates between 2018 and 2024
+• Migrated the job scheduler configuration from Autosys to the firm's internal scheduler in 2023
+• Perform the quarterly disaster recovery test for the batch and update the recovery documentation
+• Coordinate release testing with the operations user-acceptance team twice a quarter and prepare the release notes
+• Maintain the batch's job dependency documentation and the runbook used by the overnight support team
+
+Reference Data Service (2017 – Present)
+• Maintain the REST service that provides security master and counterparty data to about 20 downstream applications
+• Added caching in 2019 that lowered average response time from 180 ms to 95 ms
+• Wrote and maintain the regression test suite (about 600 test cases) run before each release
+• Coordinate quarterly data-quality reviews with the reference data operations team
+• Handle access requests and onboarding questions from downstream teams
+• Supported the 2022 migration of the service's database to a new Oracle version with the database team
+• Respond to audit requests for access logs and change records
+
+Reporting Portal (2016 – Present)
+• Maintain the internal web portal (Java, Spring MVC, Oracle) used by operations staff to view settlement status and exceptions
+• Delivered small enhancements each release cycle, such as new filters, export to Excel and additional exception categories
+• Upgraded the application from Java 8 to Java 17 in 2024 as part of the firm-wide platform refresh
+• Completed the annual security remediation items for all three applications each year
+• Helped onboard new team members by walking them through the three codebases and the release process
+• Fixed accessibility findings from the 2023 internal review (contrast, keyboard navigation)
+• Added single sign-on integration in 2020 following the firm's standard pattern
+
+Technology Analyst Program (rotational), JPMorgan Chase · July 2016 – June 2017
+• Rotations in the settlement batch team and the reporting portal team; converted to the settlement team at the end of the program
+
+EDUCATION
+Rutgers University – New Brunswick, NJ
+B.S. Computer Science, May 2016
+
+TECHNICAL SKILLS
+Java (8, 11, 17), Spring, PL/SQL, Oracle Database, Autosys, Jenkins, Git, Bitbucket, JIRA, Linux shell scripting, JUnit, Maven, SQL Developer, ServiceNow, Confluence, Splunk (basic), basic Python
+
+TRAINING AND CERTIFICATIONS
+• Oracle Certified Associate, Java SE 8 Programmer (2017)
+• Internal courses: Secure Coding, Agile Fundamentals, Cloud Foundations (2022), Kafka Basics (2025)
+• Attend the division's annual technology conference each year
+
+ADDITIONAL INFORMATION
+• Consistently rated "meets expectations" in annual reviews
+• Participate in the division's code review guild and the quarterly hackathon (team member, 2019, 2021, 2023)
+• Registered for the firm's internal Java certification track, 2026

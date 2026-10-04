@@ -1,0 +1,10 @@
+{
+  "name": "@resumearena/scripts",
+  "private": true,
+  "type": "module",
+  "description": "Repository scripts (lint, maintenance planner, release helpers). Not a workspace package; run with node from the repository root.",
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run"
+  }
+}

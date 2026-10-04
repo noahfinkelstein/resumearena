@@ -1,0 +1,40 @@
+[name]
+Bloomington, IN · [email] · [phone] · [url]
+
+EDUCATION
+Indiana University, Kelley School of Business — Bloomington, IN
+B.S. in Business, Finance and Business Analytics co-majors, expected May 2028
+GPA 3.78/4.0 · Dean's List, four semesters · Kelley Investment Banking Workshop (selected cohort of 60)
+Coursework: Corporate Finance, Financial Modeling and Valuation, Intermediate Accounting I, Investments, Data Analysis with Python
+
+EXPERIENCE
+
+PwC — Chicago, IL
+Deals Advisory Intern, Financial Due Diligence (Jun 2026 – Aug 2026)
+• Supported quality-of-earnings analyses on two buy-side engagements (a $140M industrial distributor and a $60M dental practice roll-up); rebuilt the monthly revenue bridge and the normalized EBITDA schedule for the distributor.
+• Built the working-capital peg analysis for the roll-up, reconciling 18 months of trial balances; two adjustments identified (about $1.1M combined) were included in the final report.
+• Prepared the data-room request list and tracked about 300 document requests across both engagements.
+• Received a return offer for the 2027 summer.
+
+Kelley Student Fund (student-managed endowment fund, about $1.2M under management) — Bloomington, IN
+Analyst, Industrials sector (Sep 2025 – Present)
+• Pitched two long positions to the 14-member investment committee; one was approved (a 2.5% position in a rail-equipment supplier that has returned 11% against the sector index's 4% since purchase).
+• Maintain the sector's three-statement models and the weekly performance update for the portfolio managers.
+• Co-wrote the fund's semiannual letter section on industrials (sent to about 200 donors and alumni).
+
+Indiana University Credit Union — Bloomington, IN
+Member Service Representative (part-time, Aug 2024 – May 2025)
+• Handled teller transactions and account openings about 12 hours a week during the academic year.
+
+PROJECTS
+LBO case study, Kelley Investment Banking Workshop (Spring 2026): built a full LBO model for a publicly listed packaging company, including a sources-and-uses table, debt schedule with three tranches, and returns sensitivity; presented to a panel of three alumni bankers and finished second of twelve teams.
+Sector screening tool (Fall 2025): Python script that pulls fundamentals for about 400 industrial companies and ranks them on return on invested capital, leverage, and free-cash-flow yield; now used by the student fund's industrials team for idea generation.
+Case competition, Deloitte undergraduate consulting case (Fall 2025): team of four; regional finalist.
+I am happy to share the models on request; questions: maya dot lindqvist at gmail dot com
+
+LEADERSHIP
+Kelley Finance Club — Director of Education (2025–present): run the eight-session modeling bootcamp for sophomores (about 80 attendees per session this year).
+Women in Business, Kelley chapter — Mentor to two first-year students.
+
+SKILLS
+Excel (three-statement, LBO, DCF, comps), PowerPoint, Python (pandas), Capital IQ, Bloomberg Terminal (BMC certificate), FactSet; Swedish (native), English (native)

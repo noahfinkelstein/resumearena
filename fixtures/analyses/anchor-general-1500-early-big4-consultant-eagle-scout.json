@@ -1,0 +1,515 @@
+{
+  "analysis_confidence": 0.93,
+  "ats": {
+    "detected": {
+      "action_verb_ratio": 0.95,
+      "bullet_count": 15,
+      "bullet_marker_consistent": true,
+      "contact_at_top": true,
+      "date_format_consistent": true,
+      "date_formats_seen": [
+        "MMM YYYY"
+      ],
+      "has_email": true,
+      "has_location": true,
+      "has_phone": true,
+      "has_profile_link": true,
+      "has_street_address": false,
+      "has_summary_section": false,
+      "nonstandard_headings": [
+        "OTHER"
+      ],
+      "quantified_bullet_ratio": 0.8,
+      "reverse_chronological": true,
+      "section_order": [
+        "Experience",
+        "Education",
+        "Leadership",
+        "Skills",
+        "Activities"
+      ],
+      "skill_bars_or_ratings": false,
+      "standard_headings": [
+        "EXPERIENCE",
+        "EDUCATION",
+        "LEADERSHIP AND ACTIVITIES",
+        "SKILLS"
+      ],
+      "uses_tables_suspected": false
+    },
+    "factors": {
+      "consistency": {
+        "note": "One date format (MMM YYYY)",
+        "score": 100
+      },
+      "contact_info": {
+        "note": "Email, phone, city and a profile link",
+        "score": 100
+      },
+      "formatting": {
+        "note": "Standard headings, one bullet glyph, reverse-chronological, 2 fonts",
+        "score": 100
+      },
+      "keyword_alignment": {
+        "note": "Consultant target: workstream leadership, modeling, operating models and client outcomes all appear with numbers",
+        "score": 95
+      },
+      "length": {
+        "note": "1 page at three years",
+        "score": 100
+      },
+      "parseability": {
+        "note": "Single-column 1-page PDF, extraction quality 0.97; contact placeholders on line 2",
+        "score": 100
+      },
+      "quantification": {
+        "note": "About 80% of bullets tie a number to an outcome",
+        "score": 100
+      }
+    },
+    "fixes": [
+      {
+        "factor": "formatting",
+        "fix": "Fold the tutoring line into Leadership and drop the marathon, or rename the section \"Interests\"",
+        "issue": "\"Other\" holds a marathon and a tutoring role",
+        "priority": "low"
+      },
+      {
+        "factor": "quantification",
+        "fix": "State what the food bank changed after the assessment, e.g. \"recommendations cut delivery routes from __ to __\"",
+        "issue": "The pro bono bullet has hours but no outcome",
+        "priority": "low"
+      },
+      {
+        "factor": "keyword_alignment",
+        "fix": "Either cite the analysis done in Python or remove it",
+        "issue": "Python is listed as basic with no supporting bullet",
+        "priority": "low"
+      }
+    ],
+    "score": 99,
+    "target_role_used": "Strategy consultant or corporate strategy associate"
+  },
+  "awards": [
+    {
+      "issuer": "Boy Scouts of America",
+      "name": "Eagle Scout",
+      "pool_estimate": "about 6% of Scouts",
+      "scope": "national",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2018
+    },
+    {
+      "issuer": "University of Michigan",
+      "name": "James B. Angell Scholar",
+      "pool_estimate": "two consecutive all-A terms",
+      "scope": "institutional",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2022
+    },
+    {
+      "issuer": "Deloitte Consulting",
+      "name": "Early promotion to Consultant",
+      "pool_estimate": "7 months ahead of a 24-month cycle",
+      "scope": "company",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2025
+    },
+    {
+      "issuer": "Deloitte Consulting",
+      "name": "Firm analytics certification cohort",
+      "pool_estimate": "12 of about 140 in the office",
+      "scope": "company",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2026
+    }
+  ],
+  "card": {
+    "awards": [
+      {
+        "name": "Eagle Scout",
+        "scope": "national",
+        "selectivity": "selective"
+      },
+      {
+        "name": "Early promotion to consultant",
+        "scope": "company",
+        "selectivity": "selective"
+      },
+      {
+        "name": "Firm analytics cohort, 12 of 140",
+        "scope": "company",
+        "selectivity": "selective"
+      },
+      {
+        "name": "James B. Angell Scholar",
+        "scope": "institutional",
+        "selectivity": "selective"
+      }
+    ],
+    "card_version": "1.0",
+    "career_stage": "early",
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2023,
+        "field": "Economics",
+        "gpa_band": "3.7-3.89",
+        "honors": [
+          "cum laude",
+          "James B. Angell Scholar",
+          "Honors Program"
+        ],
+        "in_progress": false,
+        "institution": "University of Michigan",
+        "institution_tier": "T2"
+      }
+    ],
+    "experiences": [
+      {
+        "duration_months": 21,
+        "employment_type": "full_time",
+        "highlights": [
+          "Led procurement workstream: $4.0M savings identified, $2.6M contracted, for a $2B manufacturer",
+          "Integration operating model for an 11-hospital, $3.1B merger approved by the board",
+          "Promoted 7 months ahead of the standard cycle"
+        ],
+        "impact_scale": "org",
+        "org": "Deloitte Consulting",
+        "org_tier": "B",
+        "role": "Consultant, Strategy & Operations",
+        "role_selectivity": "selective",
+        "seniority": "mid",
+        "years": "2025-present"
+      },
+      {
+        "duration_months": 17,
+        "employment_type": "full_time",
+        "highlights": [
+          "$85M distribution-center investment case approved by the client board",
+          "Order-to-cash handoffs cut from 14 to 6; invoice cycle 11 days to 4"
+        ],
+        "impact_scale": "org",
+        "org": "Deloitte Consulting",
+        "org_tier": "B",
+        "role": "Business Analyst, Strategy & Operations",
+        "role_selectivity": "selective",
+        "seniority": "analyst",
+        "years": "2023-2024"
+      },
+      {
+        "duration_months": 3,
+        "employment_type": "internship",
+        "highlights": [
+          "Found $1.9M of unrealized discounts across 1,200 SKUs"
+        ],
+        "impact_scale": "team",
+        "org": "Deloitte Consulting",
+        "org_tier": "B",
+        "role": "Summer Business Analyst",
+        "role_selectivity": "selective",
+        "seniority": "intern",
+        "years": "2022-2022"
+      }
+    ],
+    "headline": "Big-4 strategy consultant, 3 years, promoted early; led a $4M savings workstream; T2 economics degree cum laude",
+    "leadership": [
+      "Captain of a 44-athlete club rowing team with a $60k budget; 4th at nationals",
+      "Led a 30-volunteer Eagle Scout service project",
+      "Project lead for a 120-hour pro bono logistics assessment",
+      "Vice president of a university economics society"
+    ],
+    "notable": [
+      "Promoted 7 months early at a Big-4 practice",
+      "$4M savings workstream led at three years of experience",
+      "Eagle Scout and club team captain"
+    ],
+    "projects": [],
+    "publications_summary": {
+      "citation_signal": "not stated",
+      "count_total": 0,
+      "first_author_count": 0,
+      "strong_venue_count": 0,
+      "top_venue_count": 0,
+      "venues": []
+    },
+    "skills_top": [
+      "Procurement strategy",
+      "Operating model design",
+      "Financial modeling",
+      "Process mapping",
+      "Alteryx",
+      "Tableau",
+      "SQL"
+    ],
+    "top_signal": "$4M savings led",
+    "years_fulltime": 3.2
+  },
+  "category_relevance": {
+    "academia": 0,
+    "finance": 0.3,
+    "general": 1,
+    "tech": 0.05
+  },
+  "education": [
+    {
+      "degree_level": "bachelor",
+      "end_year": 2023,
+      "field": "Economics (minor in Statistics)",
+      "gpa": 3.72,
+      "gpa_band": "3.7-3.89",
+      "gpa_scale": 4,
+      "honors": [
+        "cum laude",
+        "James B. Angell Scholar",
+        "University Honors Program",
+        "Honors thesis"
+      ],
+      "in_progress": false,
+      "institution": "University of Michigan",
+      "institution_tier": "T2",
+      "notes": "",
+      "start_year": null
+    }
+  ],
+  "experiences": [
+    {
+      "bullets_condensed": [
+        "Led the procurement workstream for a $2B manufacturer: $640M of spend, 6 sourcing events, $4.0M savings identified, $2.6M contracted",
+        "Built the integration operating model for an 11-hospital, $3.1B merger; roadmap approved by the combined board",
+        "Led a 6-week diagnostic sizing a $9M EBITDA opportunity; converted to a 9-month engagement",
+        "Promoted 7 months early; selected 12 of 140 for a firm analytics cohort"
+      ],
+      "duration_months": 21,
+      "employment_type": "full_time",
+      "end": "present",
+      "impact_scale": "org",
+      "is_current": true,
+      "org": "Deloitte Consulting",
+      "org_tier": "B",
+      "org_type": "private_company",
+      "ownership": "led",
+      "quantified_impact": true,
+      "role": "Consultant",
+      "role_selectivity": "selective",
+      "seniority": "mid",
+      "start": "2025-01",
+      "team_or_division": "Strategy & Operations"
+    },
+    {
+      "bullets_condensed": [
+        "5-year model and investment case for an $85M distribution center approved by the client board",
+        "Mapped order-to-cash across three sites; 14 handoffs consolidated to 6; invoice cycle 11 days to 4",
+        "Built a 31-system hospital shared-services benchmark reused on four engagements",
+        "Rated above expectations in both annual reviews"
+      ],
+      "duration_months": 17,
+      "employment_type": "full_time",
+      "end": "2024-12",
+      "impact_scale": "org",
+      "is_current": false,
+      "org": "Deloitte Consulting",
+      "org_tier": "B",
+      "org_type": "private_company",
+      "ownership": "owned_component",
+      "quantified_impact": true,
+      "role": "Business Analyst",
+      "role_selectivity": "selective",
+      "seniority": "analyst",
+      "start": "2023-08",
+      "team_or_division": "Strategy & Operations"
+    },
+    {
+      "bullets_condensed": [
+        "Price-waterfall analysis for 1,200 SKUs found $1.9M of unrealized discounts"
+      ],
+      "duration_months": 3,
+      "employment_type": "internship",
+      "end": "2022-08",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "Deloitte Consulting",
+      "org_tier": "B",
+      "org_type": "private_company",
+      "ownership": "contributed",
+      "quantified_impact": true,
+      "role": "Summer Business Analyst",
+      "role_selectivity": "selective",
+      "seniority": "intern",
+      "start": "2022-06",
+      "team_or_division": null
+    }
+  ],
+  "input": {
+    "is_resume": true,
+    "language": "en",
+    "parse_confidence": 0.97,
+    "placeholders_seen": [
+      "name",
+      "email",
+      "phone",
+      "url"
+    ],
+    "word_count_estimate": 520
+  },
+  "leadership": [
+    {
+      "budget_or_scale": "$60k annual budget",
+      "elected_or_appointed": "elected",
+      "highlight": "Team placed 4th at the 2023 ACRA national championship",
+      "org": "Michigan Men's Rowing (club)",
+      "people_led": 44,
+      "role": "Captain"
+    },
+    {
+      "budget_or_scale": "trail boardwalks for a county forest preserve",
+      "elected_or_appointed": "founded",
+      "highlight": "Led 30 volunteers",
+      "org": "Eagle Scout service project",
+      "people_led": 30,
+      "role": "Project lead"
+    },
+    {
+      "budget_or_scale": "120 hours",
+      "elected_or_appointed": "appointed",
+      "highlight": "Food-bank logistics assessment, 2025",
+      "org": "Deloitte Chicago Pro Bono Program",
+      "people_led": null,
+      "role": "Project lead"
+    },
+    {
+      "budget_or_scale": "12-speaker alumni series",
+      "elected_or_appointed": "elected",
+      "highlight": "Organized a 12-speaker alumni careers series",
+      "org": "Michigan Economics Society",
+      "people_led": null,
+      "role": "Vice President"
+    }
+  ],
+  "projects": [],
+  "publications": [],
+  "red_flags": [],
+  "residual_pii": {
+    "email_count": 0,
+    "name_suspected": false,
+    "other_identifiers": [],
+    "phone_count": 0,
+    "street_address_suspected": false,
+    "url_count": 0
+  },
+  "schema_version": "1.1",
+  "scores": {
+    "academia": {
+      "holistic_score": 8,
+      "included": false,
+      "rationale": "An honors thesis; no publications.",
+      "stage_relative_score": 8,
+      "sub_scores": {
+        "breadth": 10,
+        "impact": 10,
+        "pedigree": 55,
+        "selectivity": 30,
+        "trajectory": 40
+      },
+      "top_evidence": []
+    },
+    "finance": {
+      "holistic_score": 45,
+      "included": false,
+      "rationale": "Strategy consulting counts at half weight toward finance; modeling work is real but not in a finance role.",
+      "stage_relative_score": 45,
+      "sub_scores": {
+        "breadth": 30,
+        "impact": 50,
+        "pedigree": 60,
+        "selectivity": 45,
+        "trajectory": 60
+      },
+      "top_evidence": []
+    },
+    "general": {
+      "holistic_score": 74,
+      "included": true,
+      "rationale": "T2 economics cum laude, three years at a Big-4 strategy practice with an early promotion, a $4M savings workstream and a hospital-merger operating model; Eagle Scout and a club captaincy add breadth.",
+      "stage_relative_score": 75,
+      "sub_scores": {
+        "breadth": 62,
+        "impact": 66,
+        "pedigree": 68,
+        "selectivity": 60,
+        "trajectory": 74
+      },
+      "top_evidence": [
+        "Led a workstream that identified $4.0M of savings for a $2B manufacturer",
+        "Promoted 7 months ahead of the standard cycle",
+        "Eagle Scout; captain of a 44-athlete club team"
+      ]
+    },
+    "tech": {
+      "holistic_score": 15,
+      "included": false,
+      "rationale": "Analytics tooling only.",
+      "stage_relative_score": 15,
+      "sub_scores": {
+        "breadth": 20,
+        "impact": 30,
+        "pedigree": 50,
+        "selectivity": 30,
+        "trajectory": 45
+      },
+      "top_evidence": []
+    }
+  },
+  "signals": {
+    "career_stage": "early",
+    "has_quantified_impact": true,
+    "highest_institution_tier": "T2",
+    "highest_org_tier": "B",
+    "max_impact_scale": "org",
+    "months_internship": 3,
+    "primary_domain": "other",
+    "sustained_org_tier": "B",
+    "top_role_selectivity": "selective",
+    "trajectory": "accelerating",
+    "years_fulltime": 3.2
+  },
+  "skills": {
+    "certifications": [],
+    "domain": [
+      "Procurement and sourcing",
+      "Operating model design",
+      "Post-merger integration",
+      "Process mapping",
+      "Pricing analysis"
+    ],
+    "keyword_stuffing_suspected": false,
+    "spoken_languages": [
+      "Spanish (professional)"
+    ],
+    "technical": [
+      "Excel financial modeling",
+      "PowerPoint",
+      "Alteryx",
+      "Tableau",
+      "SQL",
+      "Python"
+    ]
+  },
+  "strengths": [
+    "Led a procurement workstream that identified $4.0M of savings, $2.6M contracted, for a $2B manufacturer",
+    "Promoted to consultant 7 months early and selected 12 of 140 for a firm analytics cohort",
+    "Built the integration operating model for an 11-hospital, $3.1B merger approved by the board",
+    "Eagle Scout and captain of a 44-athlete club team with a $60k budget"
+  ],
+  "verdict": "A fast-promoted Big-4 strategy consultant with quantified client outcomes and real leadership outside work; strong for three years, with no elite selection yet.",
+  "weaknesses": [
+    "Employer is a B-tier practice; no MBB, bank or fund selection",
+    "Three years is short to judge trajectory beyond one early promotion",
+    "Rowing is a club team, not varsity",
+    "\"Other\" section adds little"
+  ]
+}

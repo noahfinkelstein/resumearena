@@ -1,0 +1,44 @@
+[name]
+[email] · [phone] · [url]
+
+EDUCATION
+Harvard College, Cambridge, MA
+A.B. in Chemical and Physical Biology, expected May 2027 · GPA 4.00/4.00
+Secondary field in Mathematics · John Harvard Scholar (top 5% of class, 2024, 2025, 2026)
+
+HONORS AND FELLOWSHIPS
+• Churchill Scholar-elect, 2027–28 (one year of fully funded study at the University of Cambridge; 16 awarded nationally)
+• Barry Goldwater Scholarship, 2025 (438 scholars nationally)
+• Harvard College Research Program grants, 2024 and 2025
+• Detur Book Prize, 2024 (awarded to sophomores with the highest first-year academic standing)
+
+RESEARCH EXPERIENCE
+
+Department of Molecular and Cellular Biology, Harvard University · Undergraduate Researcher · Sep 2023 – Present
+• First author of a 2026 Science paper reporting the cryo-electron microscopy structure of a bacterial membrane transporter in its outward-open state and a transport mechanism validated by single-molecule FRET.
+• Collected and processed all cryo-EM data for the paper (3.1 Å reconstruction from 1.9M particles); designed and purified 14 transporter variants used in the functional assays.
+• First author of a 2025 PNAS paper on a cysteine cross-linking method for trapping transporter intermediates; the method has since been used by two other groups.
+• Senior thesis in progress on the energetic coupling of the transport cycle; defense expected March 2027.
+
+Lawrence Berkeley National Laboratory, Molecular Biophysics and Integrated Bioimaging Division · Science Undergraduate Laboratory Internship (SULI) · Jun 2025 – Aug 2025 and Jun 2024 – Aug 2024
+• 2025: developed a Python pipeline for automated particle picking on a tomography data set, reducing manual curation time from about 20 hours to 2 hours per data set; adopted by the group.
+• 2024: prepared and screened cryo-EM grids for a membrane protein complex; co-author on the resulting manuscript (in review).
+
+PUBLICATIONS
+1. First author (of 7). Structural basis of alternating access in a bacterial amino-acid transporter. Science, 2026.
+2. First author (of 5). Cysteine cross-linking traps for intermediate states of a secondary transporter. Proceedings of the National Academy of Sciences, 2025.
+3. Co-author (4th of 9). Manuscript on a membrane protein complex from the 2024 SULI project, in review, 2026.
+
+PRESENTATIONS
+• Oral presentation, Biophysical Society Annual Meeting, 2026 (undergraduate selected for a platform talk)
+• Poster, Gordon Research Conference on Membrane Transport Proteins, 2025
+• Poster, Harvard Undergraduate Research Symposium, 2024 and 2025
+• Poster, Harvard Molecular and Cellular Biology departmental retreat, 2026
+
+TEACHING AND SERVICE
+• Course assistant, Life Sciences 1a (introductory chemistry and biology), Fall 2025 and Fall 2026
+• Peer tutor, Harvard Bureau of Study Counsel, 2024 – Present
+• Harvard College Science Outreach: lead a weekly after-school lab for a Cambridge middle school, 2024 – Present
+
+SKILLS
+Cryo-EM (grid preparation, data collection on Titan Krios, processing in cryoSPARC and RELION), protein expression and purification, single-molecule FRET, Python, MATLAB, ChimeraX, PyMOL

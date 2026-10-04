@@ -1,0 +1,194 @@
+{
+  "cat": "general",
+  "id": "k7q2m3xw5a",
+  "lin": "k7q2m3xw5a",
+  "placed": true,
+  "points": [
+    [
+      "2026-09-21",
+      1729,
+      220,
+      "p"
+    ],
+    [
+      "2026-09-21",
+      1819,
+      118,
+      "p"
+    ],
+    [
+      "2026-09-22",
+      1827.21,
+      89.4,
+      "m"
+    ],
+    [
+      "2026-09-23",
+      1829.89,
+      89.4,
+      "m"
+    ],
+    [
+      "2026-09-24",
+      1834.67,
+      89.4,
+      "m"
+    ],
+    [
+      "2026-09-25",
+      1842.92,
+      89.4,
+      "s"
+    ],
+    [
+      "2026-09-26",
+      1855.71,
+      89.4,
+      "m"
+    ],
+    [
+      "2026-09-27",
+      1851.96,
+      89.4,
+      "m"
+    ],
+    [
+      "2026-09-28",
+      1842.05,
+      89.4,
+      "m"
+    ],
+    [
+      "2026-09-29",
+      1850.49,
+      89.4,
+      "s"
+    ],
+    [
+      "2026-09-30",
+      1847.74,
+      89.4,
+      "m"
+    ],
+    [
+      "2026-10-01",
+      1837.27,
+      89.4,
+      "m"
+    ],
+    [
+      "2026-10-02",
+      1850.32,
+      89.4,
+      "m"
+    ],
+    [
+      "2026-10-03",
+      1889,
+      89.4,
+      "s"
+    ]
+  ],
+  "recent": [
+    {
+      "at": "2026-10-03T12:50:11Z",
+      "dr": 6,
+      "k": "refine",
+      "m": "db6c5da176230eff",
+      "note": "Close on pedigree; the first record’s sustained tier and quantified bullets decide it.",
+      "o": "W",
+      "opp": "k7v2m4syfl",
+      "opp_r": 2395
+    },
+    {
+      "at": "2026-10-03T11:20:11Z",
+      "dr": 5,
+      "k": "refine",
+      "m": "bf46e65187bb7671",
+      "note": "First: owned a 40k rps migration with a p99 number. Second: strong A-tier record but smaller scope.",
+      "o": "W",
+      "opp": "x63yoqqpnq",
+      "opp_r": 2388
+    },
+    {
+      "at": "2026-10-03T09:50:11Z",
+      "dr": -14,
+      "k": "placement",
+      "m": "d39b51f739df6848",
+      "note": "Broader ownership at the same company tier; the second record’s projects are smaller in scope.",
+      "o": "L",
+      "opp": "p4hafoublb",
+      "opp_r": 2361
+    },
+    {
+      "at": "2026-10-03T08:20:11Z",
+      "dr": 0,
+      "k": "placement",
+      "m": "754a4caa436a89d7",
+      "note": "First: owned a 40k rps migration with a p99 number. Second: strong A-tier record but smaller scope.",
+      "o": "D",
+      "opp": "anchrtgaaa",
+      "opp_r": 2357
+    },
+    {
+      "at": "2026-10-03T06:50:11Z",
+      "dr": -7,
+      "k": "placement",
+      "m": "4c050c5609f65d6b",
+      "note": "Broader ownership at the same company tier; the second record’s projects are smaller in scope.",
+      "o": "L",
+      "opp": "a4rtjsmyhf",
+      "opp_r": 2351
+    },
+    {
+      "at": "2026-10-03T05:20:11Z",
+      "dr": 11,
+      "k": "placement",
+      "m": "d6726206f90ba154",
+      "note": "First: owned a 40k rps migration with a p99 number. Second: strong A-tier record but smaller scope.",
+      "o": "W",
+      "opp": "m24bxnzbo7",
+      "opp_r": 2344
+    },
+    {
+      "at": "2026-10-03T03:50:11Z",
+      "dr": -6,
+      "k": "placement",
+      "m": "adb531339381ac86",
+      "note": "Close on pedigree; the first record’s sustained tier and quantified bullets decide it.",
+      "o": "L",
+      "opp": "k7v2m4syfl",
+      "opp_r": 2395
+    },
+    {
+      "at": "2026-10-03T02:20:11Z",
+      "dr": -10,
+      "k": "placement",
+      "m": "52a8d79750487b4d",
+      "note": "Close on pedigree; the first record’s sustained tier and quantified bullets decide it.",
+      "o": "L",
+      "opp": "x63yoqqpnq",
+      "opp_r": 2388
+    },
+    {
+      "at": "2026-10-03T00:50:11Z",
+      "dr": -7,
+      "k": "placement",
+      "m": "6db4f4761b4307a4",
+      "note": "Broader ownership at the same company tier; the second record’s projects are smaller in scope.",
+      "o": "L",
+      "opp": "p4hafoublb",
+      "opp_r": 2361
+    },
+    {
+      "at": "2026-10-02T23:20:11Z",
+      "dr": 11,
+      "k": "placement",
+      "m": "bc359781b5772800",
+      "note": "First: owned a 40k rps migration with a p99 number. Second: strong A-tier record but smaller scope.",
+      "o": "W",
+      "opp": "p4cb33anln",
+      "opp_r": 2357
+    }
+  ]
+}

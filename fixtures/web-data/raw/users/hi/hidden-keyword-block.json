@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:49:00Z",
+  "handle": "hidden-keyword-block",
+  "key_exposed": false,
+  "owner_hash": "f7cfc035386e49e9a00a5972ea391c24d078219bd079ff8d3f85a1c67f757e29",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:49:00Z",
+      "current": true,
+      "id": "ngseiou44g"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

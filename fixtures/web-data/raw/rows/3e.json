@@ -1,0 +1,38 @@
+{
+  "3eskfvqixj": {
+    "c": {
+      "general": 1,
+      "tech": 0.95
+    },
+    "ch": "bbed2b0ede10b96d17ec134b9b0a995c79687daacab072b099380dc9725e8942",
+    "h": "head-of-engineering",
+    "p": "tech",
+    "s": "analyzed",
+    "sc": {
+      "general": 35,
+      "tech": 36
+    },
+    "sig": "Solo-eng startup",
+    "ss": {
+      "general": [
+        28,
+        38,
+        30,
+        15,
+        25,
+        40
+      ],
+      "tech": [
+        28,
+        38,
+        32,
+        15,
+        25,
+        42
+      ]
+    },
+    "st": "early",
+    "t": 1791031620,
+    "v": "handle"
+  }
+}

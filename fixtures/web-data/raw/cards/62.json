@@ -1,0 +1,140 @@
+{
+  "62ijw6i4r3": {
+    "card": {
+      "awards": [
+        {
+          "name": "Rhodes Scholarship (claimed; unverifiable, timeline conflicts)",
+          "scope": "international",
+          "selectivity": "unknown"
+        },
+        {
+          "name": "IOI gold medal 2020 and 2021 (claimed)",
+          "scope": "international",
+          "selectivity": "unknown"
+        },
+        {
+          "name": "Putnam Fellow 2022 (claimed)",
+          "scope": "national",
+          "selectivity": "unknown"
+        },
+        {
+          "name": "Forbes 30 Under 30, 2024 (claimed)",
+          "scope": "national",
+          "selectivity": "unknown"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "new_grad",
+      "education": [
+        {
+          "degree_level": "master",
+          "end_year": 2024,
+          "field": "Computer Science (claimed concurrent with a US bachelor's)",
+          "gpa_band": "not_listed",
+          "honors": [],
+          "in_progress": false,
+          "institution": "University of Oxford",
+          "institution_tier": "T1"
+        },
+        {
+          "degree_level": "bachelor",
+          "end_year": 2024,
+          "field": "Computer Science and Mathematics (claimed concurrent with an Oxford master's)",
+          "gpa_band": "4.0",
+          "honors": [],
+          "in_progress": false,
+          "institution": "Stanford University",
+          "institution_tier": "T1"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 45,
+          "employment_type": "founder",
+          "highlights": [
+            "Claims a Series B, 85 staff and Fortune 100 customers; no investor, revenue or customer named"
+          ],
+          "impact_scale": "none",
+          "org": "Self-founded AI startup",
+          "org_tier": "D",
+          "role": "Founder and CEO",
+          "role_selectivity": "unknown",
+          "seniority": "founder",
+          "years": "2023-present"
+        },
+        {
+          "duration_months": 19,
+          "employment_type": "full_time",
+          "highlights": [
+            "Claims a first-author Nature paper with 2,000+ citations within a year; dates overlap a full-time fund role and two degrees"
+          ],
+          "impact_scale": "none",
+          "org": "Google DeepMind",
+          "org_tier": "S",
+          "role": "Research Scientist (claimed full-time, overlapping two other full-time roles)",
+          "role_selectivity": "unknown",
+          "seniority": "mid",
+          "years": "2022-2023"
+        },
+        {
+          "duration_months": 12,
+          "employment_type": "full_time",
+          "highlights": [
+            "\"Significant P&L\" and \"youngest researcher ever hired\"; no figure"
+          ],
+          "impact_scale": "none",
+          "org": "Jane Street",
+          "org_tier": "S",
+          "role": "Quantitative Researcher (claimed full-time, overlapping)",
+          "role_selectivity": "unknown",
+          "seniority": "mid",
+          "years": "2022-2023"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "\"Shipped a feature used by over a billion people\"; no detail"
+          ],
+          "impact_scale": "none",
+          "org": "Meta",
+          "org_tier": "A",
+          "role": "Software Engineering Intern",
+          "role_selectivity": "unknown",
+          "seniority": "intern",
+          "years": "2021"
+        }
+      ],
+      "headline": "22-year-old claiming concurrent full-time roles at two S-tier firms and a founded company during two full-time degrees",
+      "leadership": [
+        "Claims to lead 85 engineers and researchers across three continents"
+      ],
+      "notable": [
+        "Four elite-tier claims whose dates cannot coexist; none carries a verifiable detail"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "2,000+ citations claimed on a 2023 paper; implausible for the timeline",
+        "count_total": 3,
+        "first_author_count": 2,
+        "strong_venue_count": 0,
+        "top_venue_count": 3,
+        "venues": [
+          "Nature",
+          "NeurIPS",
+          "ICML"
+        ]
+      },
+      "skills_top": [
+        "Python",
+        "C++",
+        "Rust",
+        "JAX",
+        "CUDA"
+      ],
+      "top_signal": "Overlapping claims",
+      "years_fulltime": 0
+    },
+    "st": "new_grad"
+  }
+}

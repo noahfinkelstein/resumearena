@@ -1,0 +1,38 @@
+{
+  "upfqinv6ti": {
+    "c": {
+      "general": 1,
+      "tech": 1
+    },
+    "ch": "a631a54a6471fdaf042b788bc3548da310016f1b0a29590033cc4815c2c4558a",
+    "h": "tech-1500-mid-senior",
+    "p": "tech",
+    "s": "analyzed",
+    "sc": {
+      "general": 66,
+      "tech": 71
+    },
+    "sig": "85k events/s index",
+    "ss": {
+      "general": [
+        55,
+        72,
+        72,
+        50,
+        40,
+        70
+      ],
+      "tech": [
+        55,
+        74,
+        76,
+        55,
+        45,
+        76
+      ]
+    },
+    "st": "mid",
+    "t": 1791029040,
+    "v": "anonymous"
+  }
+}

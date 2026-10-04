@@ -1,0 +1,109 @@
+{
+  "budget": {
+    "analysis_usd": 3.9,
+    "daily_usd": 25,
+    "day": "2026-10-03",
+    "exhausted": false,
+    "hard_stopped": false,
+    "refine_spent_usd": 1.9,
+    "spent_usd": 7.12
+  },
+  "build_id": "412345678.1",
+  "counts": {
+    "analyzed": 250,
+    "anchors": 48,
+    "deleted": 0,
+    "duplicate": 0,
+    "held": 1,
+    "matches": 23456,
+    "needs_review": 0,
+    "placing": 1,
+    "queued": 1,
+    "rated": 249,
+    "rejected": 1,
+    "resumes": 252,
+    "superseded": 0,
+    "users": 250
+  },
+  "deploy_pending": false,
+  "deployed_at": "2026-10-03T14:20:11Z",
+  "health": {
+    "alerts": [],
+    "cancelled_runs_24h": 0,
+    "dispatch_path_24h": 96,
+    "failed_runs_24h": 1,
+    "issue_path_24h": 0,
+    "judge_healthy": true,
+    "schedule_enabled": true,
+    "submissions_last_hour": 4,
+    "token_expires": "2027-10-01"
+  },
+  "last_deploy_requested_at": "2026-10-03T14:20:10Z",
+  "last_rerank": {
+    "at": "2026-10-03T14:20:00Z",
+    "changed": true,
+    "duration_s": 311,
+    "matches": 42,
+    "placements_completed": 3,
+    "run_id": 123456789,
+    "state": "ok",
+    "trigger": "workflow_run",
+    "waves": 4
+  },
+  "last_submission_at": "2026-10-03T14:11:02Z",
+  "paused": false,
+  "per_category": {
+    "academia": {
+      "anchor_accuracy_7d": 0.86,
+      "anchor_n_7d": 31,
+      "anchor_residual_7d": 0.051,
+      "disagreement_rate_7d": 0.27,
+      "mean": 1490,
+      "rated": 59,
+      "sd": 210
+    },
+    "finance": {
+      "anchor_accuracy_7d": 0.88,
+      "anchor_n_7d": 44,
+      "anchor_residual_7d": -0.03,
+      "disagreement_rate_7d": 0.24,
+      "mean": 1498,
+      "rated": 63,
+      "sd": 188
+    },
+    "general": {
+      "anchor_accuracy_7d": 0.91,
+      "anchor_n_7d": 210,
+      "anchor_residual_7d": 0.012,
+      "disagreement_rate_7d": 0.21,
+      "mean": 1512,
+      "rated": 249,
+      "sd": 196
+    },
+    "tech": {
+      "anchor_accuracy_7d": 0.93,
+      "anchor_n_7d": 120,
+      "anchor_residual_7d": 0.004,
+      "disagreement_rate_7d": 0.19,
+      "mean": 1520,
+      "rated": 56,
+      "sd": 201
+    }
+  },
+  "queue": {
+    "analysis": 1,
+    "delete": 0,
+    "oldest_queued_at": "2026-10-03T14:12:41Z",
+    "placement": 3
+  },
+  "schema": 1,
+  "updated_at": "2026-10-03T14:20:11Z",
+  "versions": {
+    "analyst_prompt": "analyst.v1+9e8f7a6b",
+    "engine": "0.1.0",
+    "gate_prompt": "gate.v1+1a2b3c4d",
+    "judge_prompt": "judge.v1+5c4d3e2f",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  }
+}

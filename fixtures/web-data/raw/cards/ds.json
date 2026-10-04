@@ -1,0 +1,104 @@
+{
+  "ds7exl67uy": {
+    "card": {
+      "awards": [],
+      "card_version": "1.0",
+      "career_stage": "new_grad",
+      "education": [
+        {
+          "degree_level": "certificate",
+          "end_year": 2025,
+          "field": "Software Engineering Immersive",
+          "gpa_band": "not_listed",
+          "honors": [],
+          "in_progress": false,
+          "institution": "General Assembly",
+          "institution_tier": "T4"
+        },
+        {
+          "degree_level": "bachelor",
+          "end_year": 2024,
+          "field": "Communication Studies",
+          "gpa_band": "not_listed",
+          "honors": [],
+          "in_progress": false,
+          "institution": "University of Central Missouri",
+          "institution_tier": "T4"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 13,
+          "employment_type": "full_time",
+          "highlights": [
+            "Resolves about 25 tickets per week for about 90 employees",
+            "Set up and imaged 40 laptops in a hardware refresh"
+          ],
+          "impact_scale": "individual",
+          "org": "Harlow & Pruett Insurance Group",
+          "org_tier": "C",
+          "role": "IT Help Desk Technician",
+          "role_selectivity": "modest",
+          "seniority": "junior",
+          "years": "2025-present"
+        },
+        {
+          "duration_months": 27,
+          "employment_type": "part_time",
+          "highlights": [
+            "Checkout and service desk; trained seasonal staff"
+          ],
+          "impact_scale": "individual",
+          "org": "Target",
+          "org_tier": "C",
+          "role": "Guest Advocate",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2022-2024"
+        }
+      ],
+      "headline": "Bootcamp graduate with an unrelated BA from a T4 university; one year on an IT help desk; tutorial-grade projects",
+      "leadership": [],
+      "notable": [
+        "Moved from communications to IT through a 12-week bootcamp and a help-desk job"
+      ],
+      "projects": [
+        {
+          "descriptor": "React recipe-search app (bootcamp project)",
+          "highlight": "Ingredient search against a third-party API; favorites in local storage",
+          "kind": "software",
+          "scale_signal": "none stated",
+          "technical_depth": "tutorial"
+        },
+        {
+          "descriptor": "JavaScript weather dashboard (bootcamp project)",
+          "highlight": "Five-day forecast with search history",
+          "kind": "software",
+          "scale_signal": "none stated",
+          "technical_depth": "tutorial"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "JavaScript",
+        "React",
+        "Node.js",
+        "Express",
+        "SQL",
+        "Git",
+        "Microsoft 365",
+        "Active Directory"
+      ],
+      "top_signal": "IT help desk",
+      "years_fulltime": 1.1
+    },
+    "st": "new_grad"
+  }
+}

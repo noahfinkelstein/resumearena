@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:48:00Z",
+  "handle": "world-class-superlat",
+  "key_exposed": false,
+  "owner_hash": "9cdfdce1acc7365918899bc0b8c1f4a7b39653d7c071abc4e9a8c47c8e40712c",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:48:00Z",
+      "current": true,
+      "id": "bswap4rgut"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

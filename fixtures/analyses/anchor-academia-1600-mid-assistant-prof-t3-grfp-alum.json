@@ -1,0 +1,668 @@
+{
+  "analysis_confidence": 0.94,
+  "ats": {
+    "detected": {
+      "action_verb_ratio": 0.7,
+      "bullet_count": 27,
+      "bullet_marker_consistent": true,
+      "contact_at_top": true,
+      "date_format_consistent": true,
+      "date_formats_seen": [
+        "MMM YYYY",
+        "YYYY"
+      ],
+      "has_email": true,
+      "has_location": true,
+      "has_phone": true,
+      "has_profile_link": true,
+      "has_street_address": false,
+      "has_summary_section": false,
+      "nonstandard_headings": [
+        "ACADEMIC APPOINTMENTS",
+        "FUNDING",
+        "FELLOWSHIPS AND AWARDS",
+        "INVITED TALKS",
+        "MENTORING"
+      ],
+      "quantified_bullet_ratio": 0.5,
+      "reverse_chronological": true,
+      "section_order": [
+        "Experience",
+        "Education",
+        "Summary",
+        "Awards",
+        "Awards",
+        "Publications",
+        "Projects",
+        "Experience",
+        "Leadership",
+        "Leadership"
+      ],
+      "skill_bars_or_ratings": false,
+      "standard_headings": [
+        "EDUCATION",
+        "RESEARCH",
+        "PUBLICATIONS",
+        "TEACHING",
+        "SERVICE"
+      ],
+      "uses_tables_suspected": false
+    },
+    "factors": {
+      "consistency": {
+        "note": "One date format (YYYY and MMM YYYY used in their conventional places)",
+        "score": 100
+      },
+      "contact_info": {
+        "note": "Email, phone, profile link and a department address line",
+        "score": 100
+      },
+      "formatting": {
+        "note": "CV headings in a standard academic order; one bullet glyph; publication list uses numbers, which is conventional",
+        "score": 95
+      },
+      "keyword_alignment": {
+        "note": "Faculty or industry research target: catalysis, spectroscopy, mentoring, funding and teaching all appear with specifics",
+        "score": 90
+      },
+      "length": {
+        "note": "Academic CV scored on organization: sections are complete and ordered",
+        "score": 100
+      },
+      "parseability": {
+        "note": "Single-column 3-page PDF, extraction quality 0.96; numbered publication list parses cleanly",
+        "score": 100
+      },
+      "quantification": {
+        "note": "Grants, group size, course sizes, evaluations and citations are all stated; most publication lines are not bullets",
+        "score": 80
+      }
+    },
+    "fixes": [
+      {
+        "factor": "quantification",
+        "fix": "Add one line per project with its current status, e.g. \"Project 1: 12 substrates, up to 94% yield, manuscript in preparation\"",
+        "issue": "The research paragraph names projects but no results",
+        "priority": "low"
+      },
+      {
+        "factor": "formatting",
+        "fix": "Merge into one \"Mentoring and Service\" section to shorten the CV by a quarter page",
+        "issue": "\"Mentoring\" and \"Service\" could carry the admissions and advising roles together",
+        "priority": "low"
+      },
+      {
+        "factor": "keyword_alignment",
+        "fix": "Add a short \"Techniques\" line naming XAS, EPR, NMR and kinetics so keyword parsers find them",
+        "issue": "Instrumentation skills appear only in prose",
+        "priority": "low"
+      }
+    ],
+    "score": 94,
+    "target_role_used": "Tenure-track or industrial research chemist"
+  },
+  "awards": [
+    {
+      "issuer": "National Science Foundation",
+      "name": "NSF Graduate Research Fellowship",
+      "pool_estimate": "~16% of ~12,000 applicants",
+      "scope": "national",
+      "selectivity": "highly_selective",
+      "verifiable": true,
+      "year": 2019
+    },
+    {
+      "issuer": "National Science Foundation",
+      "name": "NSF CHE research grant, Principal Investigator ($540,000)",
+      "pool_estimate": "program funding rate ~25%",
+      "scope": "national",
+      "selectivity": "highly_selective",
+      "verifiable": true,
+      "year": 2026
+    },
+    {
+      "issuer": "American Chemical Society",
+      "name": "ACS Division of Inorganic Chemistry Young Investigator Award",
+      "pool_estimate": "about a dozen symposium speakers a year",
+      "scope": "national",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2023
+    },
+    {
+      "issuer": "University of Wisconsin–Madison",
+      "name": "WARF Dissertation Fellowship",
+      "pool_estimate": "competitive campus fellowship",
+      "scope": "institutional",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2022
+    },
+    {
+      "issuer": "American Chemical Society",
+      "name": "ACS Petroleum Research Fund Doctoral New Investigator grant",
+      "pool_estimate": "early-career grant program",
+      "scope": "national",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2026
+    }
+  ],
+  "card": {
+    "awards": [
+      {
+        "name": "NSF Graduate Research Fellowship",
+        "scope": "national",
+        "selectivity": "highly_selective"
+      },
+      {
+        "name": "NSF research grant as PI",
+        "scope": "national",
+        "selectivity": "highly_selective"
+      },
+      {
+        "name": "ACS inorganic division young investigator symposium",
+        "scope": "national",
+        "selectivity": "selective"
+      },
+      {
+        "name": "ACS PRF Doctoral New Investigator",
+        "scope": "national",
+        "selectivity": "selective"
+      },
+      {
+        "name": "University dissertation fellowship",
+        "scope": "institutional",
+        "selectivity": "selective"
+      }
+    ],
+    "card_version": "1.0",
+    "career_stage": "mid",
+    "education": [
+      {
+        "degree_level": "phd",
+        "end_year": 2023,
+        "field": "Chemistry",
+        "gpa_band": "not_listed",
+        "honors": [
+          "NSF GRFP"
+        ],
+        "in_progress": false,
+        "institution": "University of Wisconsin–Madison",
+        "institution_tier": "T2"
+      },
+      {
+        "degree_level": "bachelor",
+        "end_year": 2018,
+        "field": "Chemistry",
+        "gpa_band": "not_listed",
+        "honors": [
+          "summa cum laude",
+          "Phi Beta Kappa"
+        ],
+        "in_progress": false,
+        "institution": "Macalester College",
+        "institution_tier": "T4"
+      }
+    ],
+    "experiences": [
+      {
+        "duration_months": 14,
+        "employment_type": "full_time",
+        "highlights": [
+          "NSF CHE grant as PI ($540k) plus ACS PRF ($110k)",
+          "Group of 3 PhD students and 2 undergraduates",
+          "Two corresponding-author papers in year one"
+        ],
+        "impact_scale": "team",
+        "org": "University of Utah",
+        "org_tier": "B",
+        "role": "Assistant Professor of Chemistry",
+        "role_selectivity": "highly_selective",
+        "seniority": "faculty",
+        "years": "2025-present"
+      },
+      {
+        "duration_months": 23,
+        "employment_type": "fellowship",
+        "highlights": [
+          "First-author JACS paper; coauthor on JACS and Nature Chemistry papers"
+        ],
+        "impact_scale": "team",
+        "org": "California Institute of Technology",
+        "org_tier": "A",
+        "role": "Postdoctoral Scholar",
+        "role_selectivity": "highly_selective",
+        "seniority": "postdoc",
+        "years": "2023-2025"
+      },
+      {
+        "duration_months": 60,
+        "employment_type": "fellowship",
+        "highlights": [
+          "Three first-author papers; NSF GRFP"
+        ],
+        "impact_scale": "team",
+        "org": "University of Wisconsin–Madison",
+        "org_tier": "A",
+        "role": "PhD student",
+        "role_selectivity": "highly_selective",
+        "seniority": "phd_student",
+        "years": "2018-2023"
+      }
+    ],
+    "headline": "Chemistry assistant professor at a T3 R1; T2 PhD with NSF GRFP, T1 postdoc; 12 papers, 4 first-author; NSF PI",
+    "leadership": [
+      "Principal investigator of a 5-person group with $1.75M in grants and start-up",
+      "Graduate admissions committee; faculty advisor to the graduate student council"
+    ],
+    "notable": [
+      "NSF grant as PI in the second faculty year",
+      "Five top-venue papers by five years past the PhD start"
+    ],
+    "projects": [],
+    "publications_summary": {
+      "citation_signal": "about 620 citations claimed; h-index 9",
+      "count_total": 12,
+      "first_author_count": 4,
+      "strong_venue_count": 1,
+      "top_venue_count": 5,
+      "venues": [
+        "J. Am. Chem. Soc.",
+        "Nature Chemistry",
+        "Angew. Chem. Int. Ed.",
+        "Chem. Sci.",
+        "Organometallics",
+        "Inorg. Chem.",
+        "J. Org. Chem.",
+        "Dalton Trans.",
+        "Inorg. Chim. Acta"
+      ]
+    },
+    "skills_top": [
+      "First-row metal catalysis",
+      "C–H functionalization",
+      "Operando XAS",
+      "EPR",
+      "Photoredox catalysis",
+      "Reaction kinetics"
+    ],
+    "top_signal": "NSF PI, 12 papers",
+    "years_fulltime": 5.7
+  },
+  "category_relevance": {
+    "academia": 1,
+    "finance": 0,
+    "general": 1,
+    "tech": 0.05
+  },
+  "education": [
+    {
+      "degree_level": "phd",
+      "end_year": 2023,
+      "field": "Chemistry (Inorganic)",
+      "gpa": null,
+      "gpa_band": "not_listed",
+      "gpa_scale": null,
+      "honors": [
+        "NSF Graduate Research Fellowship",
+        "WARF Dissertation Fellowship"
+      ],
+      "in_progress": false,
+      "institution": "University of Wisconsin–Madison",
+      "institution_tier": "T2",
+      "notes": "Earth-abundant metal catalysts for C–H functionalization",
+      "start_year": 2018
+    },
+    {
+      "degree_level": "bachelor",
+      "end_year": 2018,
+      "field": "Chemistry",
+      "gpa": null,
+      "gpa_band": "not_listed",
+      "gpa_scale": null,
+      "honors": [
+        "summa cum laude",
+        "Phi Beta Kappa",
+        "Department Senior Prize"
+      ],
+      "in_progress": false,
+      "institution": "Macalester College",
+      "institution_tier": "T4",
+      "notes": "",
+      "start_year": null
+    }
+  ],
+  "experiences": [
+    {
+      "bullets_condensed": [
+        "Leads a group of 3 PhD students and 2 undergraduates on first-row metal catalysis",
+        "NSF CHE grant as PI ($540k, 2026–2029); ACS PRF DNI ($110k); $1.1M start-up",
+        "Two corresponding-author papers (JACS 2026, Organometallics 2026)",
+        "Teaches a 110-student inorganic course (4.6/5) and a graduate mechanisms course"
+      ],
+      "duration_months": 14,
+      "employment_type": "full_time",
+      "end": "present",
+      "impact_scale": "team",
+      "is_current": true,
+      "org": "University of Utah, Department of Chemistry",
+      "org_tier": "B",
+      "org_type": "university",
+      "ownership": "led",
+      "quantified_impact": true,
+      "role": "Assistant Professor",
+      "role_selectivity": "highly_selective",
+      "seniority": "faculty",
+      "start": "2025-08",
+      "team_or_division": null
+    },
+    {
+      "bullets_condensed": [
+        "First-author JACS 2024 on enantioselective C–N bond formation under copper photocatalysis",
+        "Coauthor on JACS 2025 and Nature Chemistry 2025 papers",
+        "Mentored undergraduates and a rotation student"
+      ],
+      "duration_months": 23,
+      "employment_type": "fellowship",
+      "end": "2025-07",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "California Institute of Technology",
+      "org_tier": "A",
+      "org_type": "university",
+      "ownership": "owned_component",
+      "quantified_impact": false,
+      "role": "Postdoctoral Scholar",
+      "role_selectivity": "highly_selective",
+      "seniority": "postdoc",
+      "start": "2023-09",
+      "team_or_division": "Chemistry and Chemical Engineering"
+    },
+    {
+      "bullets_condensed": [
+        "Three first-author papers (Angewandte 2023, JOC 2022, Organometallics 2021) and three coauthorships",
+        "NSF GRFP 2019–2022; WARF dissertation fellowship; ACS DIC Young Investigator symposium 2023"
+      ],
+      "duration_months": 60,
+      "employment_type": "fellowship",
+      "end": "2023-08",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "University of Wisconsin–Madison",
+      "org_tier": "A",
+      "org_type": "university",
+      "ownership": "owned_component",
+      "quantified_impact": false,
+      "role": "PhD student (NSF GRFP)",
+      "role_selectivity": "highly_selective",
+      "seniority": "phd_student",
+      "start": "2018-09",
+      "team_or_division": null
+    }
+  ],
+  "input": {
+    "is_resume": true,
+    "language": "en",
+    "parse_confidence": 0.96,
+    "placeholders_seen": [
+      "name",
+      "email",
+      "phone",
+      "url"
+    ],
+    "word_count_estimate": 710
+  },
+  "leadership": [
+    {
+      "budget_or_scale": "$540k NSF grant, $110k PRF, $1.1M start-up",
+      "elected_or_appointed": "appointed",
+      "highlight": "Supervises 3 PhD students and 2 undergraduates; serves on graduate admissions",
+      "org": "Research group, University of Utah",
+      "people_led": 5,
+      "role": "Principal Investigator"
+    }
+  ],
+  "projects": [],
+  "publications": [
+    {
+      "author_count": 3,
+      "author_position": "last",
+      "citations_claimed": null,
+      "field": "Inorganic chemistry",
+      "kind": "journal",
+      "venue": "J. Am. Chem. Soc.",
+      "venue_tier": "top",
+      "year": 2026
+    },
+    {
+      "author_count": 4,
+      "author_position": "last",
+      "citations_claimed": null,
+      "field": "Inorganic chemistry",
+      "kind": "journal",
+      "venue": "Organometallics",
+      "venue_tier": "standard",
+      "year": 2026
+    },
+    {
+      "author_count": 6,
+      "author_position": "second",
+      "citations_claimed": null,
+      "field": "Organic chemistry",
+      "kind": "journal",
+      "venue": "J. Am. Chem. Soc.",
+      "venue_tier": "top",
+      "year": 2025
+    },
+    {
+      "author_count": 5,
+      "author_position": "middle",
+      "citations_claimed": null,
+      "field": "Organic chemistry",
+      "kind": "journal",
+      "venue": "Nature Chemistry",
+      "venue_tier": "top",
+      "year": 2025
+    },
+    {
+      "author_count": 4,
+      "author_position": "first",
+      "citations_claimed": null,
+      "field": "Organic chemistry",
+      "kind": "journal",
+      "venue": "J. Am. Chem. Soc.",
+      "venue_tier": "top",
+      "year": 2024
+    },
+    {
+      "author_count": 3,
+      "author_position": "first",
+      "citations_claimed": null,
+      "field": "Inorganic chemistry",
+      "kind": "journal",
+      "venue": "Angew. Chem. Int. Ed.",
+      "venue_tier": "top",
+      "year": 2023
+    },
+    {
+      "author_count": 4,
+      "author_position": "second",
+      "citations_claimed": null,
+      "field": "Inorganic chemistry",
+      "kind": "journal",
+      "venue": "Inorg. Chem.",
+      "venue_tier": "standard",
+      "year": 2022
+    },
+    {
+      "author_count": 3,
+      "author_position": "first",
+      "citations_claimed": null,
+      "field": "Organic chemistry",
+      "kind": "journal",
+      "venue": "J. Org. Chem.",
+      "venue_tier": "standard",
+      "year": 2022
+    },
+    {
+      "author_count": 4,
+      "author_position": "middle",
+      "citations_claimed": null,
+      "field": "Inorganic chemistry",
+      "kind": "journal",
+      "venue": "Chem. Sci.",
+      "venue_tier": "strong",
+      "year": 2021
+    },
+    {
+      "author_count": 2,
+      "author_position": "first",
+      "citations_claimed": null,
+      "field": "Inorganic chemistry",
+      "kind": "journal",
+      "venue": "Organometallics",
+      "venue_tier": "standard",
+      "year": 2021
+    },
+    {
+      "author_count": 5,
+      "author_position": "middle",
+      "citations_claimed": null,
+      "field": "Inorganic chemistry",
+      "kind": "journal",
+      "venue": "Dalton Trans.",
+      "venue_tier": "standard",
+      "year": 2020
+    },
+    {
+      "author_count": 3,
+      "author_position": "second",
+      "citations_claimed": null,
+      "field": "Inorganic chemistry",
+      "kind": "journal",
+      "venue": "Inorg. Chim. Acta",
+      "venue_tier": "standard",
+      "year": 2018
+    }
+  ],
+  "red_flags": [],
+  "residual_pii": {
+    "email_count": 0,
+    "name_suspected": false,
+    "other_identifiers": [],
+    "phone_count": 0,
+    "street_address_suspected": false,
+    "url_count": 0
+  },
+  "schema_version": "1.1",
+  "scores": {
+    "academia": {
+      "holistic_score": 74,
+      "included": true,
+      "rationale": "On the standard chemistry ladder with highly selective markers at each step (GRFP, T1 postdoc, R1 hire, NSF PI); first-author count is four with one in JACS, below the multiple-first-author-top-venue bar; citations are modest (about 620).",
+      "stage_relative_score": 75,
+      "sub_scores": {
+        "breadth": 40,
+        "impact": 62,
+        "pedigree": 72,
+        "selectivity": 72,
+        "trajectory": 68
+      },
+      "top_evidence": [
+        "First-author JACS 2024 and Angewandte 2023",
+        "NSF CHE grant as PI, $540k, in the second year on the faculty",
+        "Twelve publications, five in top venues; h-index 9"
+      ]
+    },
+    "finance": {
+      "holistic_score": 2,
+      "included": false,
+      "rationale": "No finance footprint.",
+      "stage_relative_score": 2,
+      "sub_scores": {
+        "breadth": 5,
+        "impact": 5,
+        "pedigree": 40,
+        "selectivity": 20,
+        "trajectory": 30
+      },
+      "top_evidence": []
+    },
+    "general": {
+      "holistic_score": 70,
+      "included": true,
+      "rationale": "T2 PhD with an NSF GRFP, T1 postdoc, tenure-track post at an R1 with a first NSF grant as PI; twelve papers including four first-author and five in top venues; narrow outside chemistry.",
+      "stage_relative_score": 70,
+      "sub_scores": {
+        "breadth": 40,
+        "impact": 55,
+        "pedigree": 72,
+        "selectivity": 70,
+        "trajectory": 65
+      },
+      "top_evidence": [
+        "NSF GRFP, then NSF CHE grant as PI in year one on the tenure track",
+        "Twelve papers: 4 first-author, 3 in JACS, 1 Nature Chemistry, 1 Angewandte",
+        "Assistant professor at an R1 after a Caltech postdoc"
+      ]
+    },
+    "tech": {
+      "holistic_score": 10,
+      "included": false,
+      "rationale": "Instrumentation and analysis code only.",
+      "stage_relative_score": 10,
+      "sub_scores": {
+        "breadth": 10,
+        "impact": 20,
+        "pedigree": 50,
+        "selectivity": 40,
+        "trajectory": 40
+      },
+      "top_evidence": []
+    }
+  },
+  "signals": {
+    "career_stage": "mid",
+    "has_quantified_impact": true,
+    "highest_institution_tier": "T1",
+    "highest_org_tier": "A",
+    "max_impact_scale": "team",
+    "months_internship": 0,
+    "primary_domain": "academia",
+    "sustained_org_tier": "A",
+    "top_role_selectivity": "highly_selective",
+    "trajectory": "steady",
+    "years_fulltime": 5.7
+  },
+  "skills": {
+    "certifications": [],
+    "domain": [
+      "First-row transition-metal catalysis",
+      "C–H functionalization",
+      "Mechanistic study"
+    ],
+    "keyword_stuffing_suspected": false,
+    "spoken_languages": [],
+    "technical": [
+      "Organometallic synthesis",
+      "Operando X-ray absorption spectroscopy",
+      "EPR",
+      "Reaction kinetics",
+      "Photoredox catalysis"
+    ]
+  },
+  "strengths": [
+    "NSF CHE grant as PI in the second year on the tenure track ($540k)",
+    "Twelve papers with four first-author and five in top venues (JACS, Angewandte, Nature Chemistry)",
+    "NSF GRFP during the PhD and a Caltech postdoc",
+    "Group of five already running, with a 4.6/5 evaluation on a 110-student course"
+  ],
+  "verdict": "Second-year assistant professor on the standard ladder with a GRFP, a T1 postdoc and a first NSF grant; the publication record is solid, not distinguished.",
+  "weaknesses": [
+    "One first-author paper in a top venue; the other top-venue papers are coauthorships",
+    "Citations are modest (about 620, h-index 9) for the stage",
+    "Undergraduate degree is from a T4 liberal arts college",
+    "The research paragraph describes projects without results"
+  ]
+}

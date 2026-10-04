@@ -1,0 +1,889 @@
+{
+  "analysis": {
+    "analysis_confidence": 0.94,
+    "ats": {
+      "detected": {
+        "action_verb_ratio": 0.6,
+        "bullet_count": 3,
+        "bullet_marker_consistent": true,
+        "contact_at_top": true,
+        "date_format_consistent": true,
+        "date_formats_seen": [
+          "YYYY-YYYY",
+          "YYYY"
+        ],
+        "has_email": true,
+        "has_location": true,
+        "has_phone": true,
+        "has_profile_link": true,
+        "has_street_address": false,
+        "has_summary_section": true,
+        "nonstandard_headings": [
+          "Research",
+          "Mentoring",
+          "Professional Service",
+          "Invited Lectures",
+          "Entrepreneurship and Advising",
+          "Leadership Outcomes as Chair and Center Director"
+        ],
+        "quantified_bullet_ratio": 0.9,
+        "reverse_chronological": true,
+        "section_order": [
+          "Experience",
+          "Education",
+          "Awards",
+          "Summary",
+          "Publications",
+          "Leadership",
+          "Leadership",
+          "Awards",
+          "Experience",
+          "Experience",
+          "Leadership",
+          "Skills"
+        ],
+        "skill_bars_or_ratings": false,
+        "standard_headings": [
+          "Academic Appointments",
+          "Education",
+          "Honors and Awards",
+          "Selected Publications",
+          "Teaching",
+          "Skills and Languages"
+        ],
+        "uses_tables_suspected": true
+      },
+      "factors": {
+        "consistency": {
+          "note": "Year ranges throughout; the full professor appointment and the chair role overlap by design",
+          "score": 90
+        },
+        "contact_info": {
+          "note": "Email, phone, city and a profile link in the first three lines",
+          "score": 100
+        },
+        "formatting": {
+          "note": "Academic CV conventions: year-prefixed lines, numbered publications and one bulleted section; three fonts",
+          "score": 85
+        },
+        "keyword_alignment": {
+          "note": "Research, leadership, fundraising, editorial and teaching evidence throughout",
+          "score": 95
+        },
+        "length": {
+          "note": "Four pages for a condensed senior academic CV; scored on organization, which is clear with labeled selected sections",
+          "score": 90
+        },
+        "parseability": {
+          "note": "Single column; year-prefixed rows in Appointments, Awards and Service read as two-column fragments; one interpunct-separated lecture list",
+          "score": 85
+        },
+        "quantification": {
+          "note": "Citations, headcounts, dollar figures and counts in nearly every line",
+          "score": 100
+        }
+      },
+      "fixes": [
+        {
+          "factor": "parseability",
+          "fix": "Move the year to the end of each line after a comma so a parser reads one entry per line.",
+          "issue": "Year-prefixed rows across five sections parse as column fragments",
+          "priority": "low"
+        },
+        {
+          "factor": "formatting",
+          "fix": "Use two fonts and put each named lecture on its own line or cut the list to five.",
+          "issue": "Three fonts and an interpunct-separated lecture list",
+          "priority": "low"
+        },
+        {
+          "factor": "length",
+          "fix": "Trim invited lectures and service to the top five each; the publication list already carries the signal.",
+          "issue": "Four pages for a condensed CV",
+          "priority": "low"
+        }
+      ],
+      "score": 91,
+      "target_role_used": "Dean, provost or national laboratory director"
+    },
+    "awards": [
+      {
+        "issuer": "Kavli Foundation and Norwegian Academy",
+        "name": "Kavli Prize in Nanoscience",
+        "pool_estimate": "biennial; 1-3 laureates per field",
+        "scope": "international",
+        "selectivity": "elite",
+        "verifiable": true,
+        "year": 2024
+      },
+      {
+        "issuer": "National Academy of Sciences",
+        "name": "Member, National Academy of Sciences",
+        "pool_estimate": "~120 elected per year across all sciences",
+        "scope": "national",
+        "selectivity": "elite",
+        "verifiable": true,
+        "year": 2019
+      },
+      {
+        "issuer": "National Academy of Engineering",
+        "name": "Member, National Academy of Engineering",
+        "pool_estimate": "~100 elected per year",
+        "scope": "national",
+        "selectivity": "elite",
+        "verifiable": true,
+        "year": 2017
+      },
+      {
+        "issuer": "MacArthur Foundation",
+        "name": "MacArthur Fellowship",
+        "pool_estimate": "20-25 per year, all fields",
+        "scope": "national",
+        "selectivity": "elite",
+        "verifiable": true,
+        "year": 2008
+      },
+      {
+        "issuer": "National Science Foundation",
+        "name": "Alan T. Waterman Award",
+        "pool_estimate": "1-3 per year",
+        "scope": "national",
+        "selectivity": "elite",
+        "verifiable": true,
+        "year": 2010
+      },
+      {
+        "issuer": "Packard Foundation",
+        "name": "Packard Fellowship",
+        "pool_estimate": "~20 per year",
+        "scope": "national",
+        "selectivity": "elite",
+        "verifiable": true,
+        "year": 2004
+      },
+      {
+        "issuer": "American Chemical Society",
+        "name": "ACS Award in Pure Chemistry",
+        "pool_estimate": "1 per year",
+        "scope": "national",
+        "selectivity": "elite",
+        "verifiable": true,
+        "year": 2015
+      },
+      {
+        "issuer": "Alfred P. Sloan Foundation",
+        "name": "Sloan Research Fellowship",
+        "pool_estimate": "~125 per year across fields",
+        "scope": "national",
+        "selectivity": "elite",
+        "verifiable": true,
+        "year": 2002
+      },
+      {
+        "issuer": "National Science Foundation",
+        "name": "NSF CAREER Award",
+        "pool_estimate": "several hundred per year",
+        "scope": "national",
+        "selectivity": "elite",
+        "verifiable": true,
+        "year": 2003
+      },
+      {
+        "issuer": "Clarivate",
+        "name": "Highly Cited Researcher",
+        "pool_estimate": "top ~0.1% by citations, ten years running",
+        "scope": "international",
+        "selectivity": "highly_selective",
+        "verifiable": true,
+        "year": 2025
+      }
+    ],
+    "card": {
+      "awards": [
+        {
+          "name": "Kavli Prize in Nanoscience",
+          "scope": "international",
+          "selectivity": "elite"
+        },
+        {
+          "name": "Member, National Academy of Sciences",
+          "scope": "national",
+          "selectivity": "elite"
+        },
+        {
+          "name": "Member, National Academy of Engineering",
+          "scope": "national",
+          "selectivity": "elite"
+        },
+        {
+          "name": "MacArthur Fellowship",
+          "scope": "national",
+          "selectivity": "elite"
+        },
+        {
+          "name": "Alan T. Waterman Award",
+          "scope": "national",
+          "selectivity": "elite"
+        },
+        {
+          "name": "Packard Fellowship",
+          "scope": "national",
+          "selectivity": "elite"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "executive",
+      "education": [
+        {
+          "degree_level": "phd",
+          "end_year": 1999,
+          "field": "Chemical Engineering",
+          "gpa_band": "not_listed",
+          "honors": [],
+          "in_progress": false,
+          "institution": "Massachusetts Institute of Technology",
+          "institution_tier": "T1"
+        },
+        {
+          "degree_level": "bachelor",
+          "end_year": 1994,
+          "field": "Chemical Engineering",
+          "gpa_band": "not_listed",
+          "honors": [
+            "summa cum laude"
+          ],
+          "in_progress": false,
+          "institution": "Princeton University",
+          "institution_tier": "T1"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 300,
+          "employment_type": "full_time",
+          "highlights": [
+            "Chair of a 34-faculty department with ~$45M annual research expenditure; hired 9 faculty in 5 years",
+            "Founding director of an energy-materials center: 4 to 11 faculty, $25M endowment, ~$70M sponsored research, 14 start-ups",
+            "~200 papers, ~60 in top venues, ~60,000 citations, h-index 118; 14 US patents"
+          ],
+          "impact_scale": "global",
+          "org": "Stanford University",
+          "org_tier": "S",
+          "role": "Professor and Chair, Chemical Engineering",
+          "role_selectivity": "elite",
+          "seniority": "faculty",
+          "years": "2001-present"
+        },
+        {
+          "duration_months": 48,
+          "employment_type": "part_time",
+          "highlights": [
+            "Five-institution center, $19M over four years"
+          ],
+          "impact_scale": "industry",
+          "org": "US Department of Energy",
+          "org_tier": "B",
+          "role": "Director, Energy Frontier Research Center",
+          "role_selectivity": "highly_selective",
+          "seniority": "director",
+          "years": "2012-2016"
+        },
+        {
+          "duration_months": 72,
+          "employment_type": "founder",
+          "highlights": [
+            "Series B; acquired by a major automotive supplier in 2020"
+          ],
+          "impact_scale": "industry",
+          "org": "Solid-state battery materials company (co-founded)",
+          "org_tier": "B",
+          "role": "Co-founder and scientific adviser",
+          "role_selectivity": "highly_selective",
+          "seniority": "founder",
+          "years": "2014-2020"
+        },
+        {
+          "duration_months": 24,
+          "employment_type": "fellowship",
+          "highlights": [
+            "Offered a Miller Fellowship, declined for a faculty position"
+          ],
+          "impact_scale": "team",
+          "org": "University of California, Berkeley",
+          "org_tier": "A",
+          "role": "Postdoctoral Fellow, Chemistry",
+          "role_selectivity": "highly_selective",
+          "seniority": "postdoc",
+          "years": "1999-2001"
+        }
+      ],
+      "headline": "Full professor and department chair at a T1 university; NAS and NAE member; Kavli Prize; ~200 papers, ~60,000 citations",
+      "leadership": [
+        "Chair of a 34-faculty department; 9 faculty hired, doctoral applications up 60%, $80M renovation funded",
+        "Founding director of an 11-faculty center with a $25M endowment and ~$70M cumulative sponsored research",
+        "Supervised 42 PhDs and 38 postdocs; 15 now faculty, 3 with NSF CAREER awards",
+        "Chaired a DOE advisory subcommittee; associate editor of a top chemistry journal"
+      ],
+      "notable": [
+        "Kavli Prize laureate and member of both national academies",
+        "About 60,000 citations with ten papers above 900 citations each, including Science and Nature",
+        "Fifteen former trainees on faculties including MIT, Berkeley, Caltech and ETH Zurich",
+        "Co-founded a battery materials company acquired by a major automotive supplier",
+        "Highly Cited Researcher ten years running"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "~60,000 citations claimed; h-index 118",
+        "count_total": 200,
+        "first_author_count": 0,
+        "strong_venue_count": 40,
+        "top_venue_count": 60,
+        "venues": [
+          "Nature",
+          "Science",
+          "Nature Energy",
+          "Nature Materials",
+          "JACS",
+          "Nature Communications",
+          "PNAS",
+          "Annual Reviews"
+        ]
+      },
+      "skills_top": [
+        "Interfacial electrochemistry",
+        "Solid-state electrolytes",
+        "Operando X-ray and electron microscopy",
+        "Materials synthesis",
+        "Research leadership",
+        "Fundraising",
+        "German (fluent)"
+      ],
+      "top_signal": "Kavli Prize, NAS",
+      "years_fulltime": 27
+    },
+    "category_relevance": {
+      "academia": 1,
+      "finance": 0,
+      "general": 1,
+      "tech": 0.2
+    },
+    "education": [
+      {
+        "degree_level": "phd",
+        "end_year": 1999,
+        "field": "Chemical Engineering",
+        "gpa": null,
+        "gpa_band": "not_listed",
+        "gpa_scale": null,
+        "honors": [],
+        "in_progress": false,
+        "institution": "Massachusetts Institute of Technology",
+        "institution_tier": "T1",
+        "notes": "",
+        "start_year": 1994
+      },
+      {
+        "degree_level": "bachelor",
+        "end_year": 1994,
+        "field": "Chemical Engineering",
+        "gpa": null,
+        "gpa_band": "not_listed",
+        "gpa_scale": null,
+        "honors": [
+          "summa cum laude"
+        ],
+        "in_progress": false,
+        "institution": "Princeton University",
+        "institution_tier": "T1",
+        "notes": "",
+        "start_year": 1990
+      }
+    ],
+    "experiences": [
+      {
+        "bullets_condensed": [
+          "34 faculty, ~180 graduate students, ~$45M annual research expenditure",
+          "Hired 9 faculty in 5 years; doctoral applications up 60%",
+          "2 new degree programs; $80M renovation funded",
+          "Postdoctoral teaching fellowship: 18 fellows, 12 now faculty"
+        ],
+        "duration_months": 60,
+        "employment_type": "full_time",
+        "end": "present",
+        "impact_scale": "org",
+        "is_current": true,
+        "org": "Stanford University",
+        "org_tier": "S",
+        "org_type": "university",
+        "ownership": "led",
+        "quantified_impact": true,
+        "role": "Chair",
+        "role_selectivity": "elite",
+        "seniority": "faculty",
+        "start": "2021",
+        "team_or_division": "Department of Chemical Engineering"
+      },
+      {
+        "bullets_condensed": [
+          "4 to 11 faculty across 4 departments; ~$12M/year sponsored research",
+          "$25M endowment gift; ~$70M cumulative sponsored research",
+          "14 affiliated start-ups; 300-attendee industry symposium"
+        ],
+        "duration_months": 120,
+        "employment_type": "full_time",
+        "end": "present",
+        "impact_scale": "industry",
+        "is_current": true,
+        "org": "Stanford University",
+        "org_tier": "S",
+        "org_type": "university",
+        "ownership": "led",
+        "quantified_impact": true,
+        "role": "Founding Director",
+        "role_selectivity": "elite",
+        "seniority": "director",
+        "start": "2016",
+        "team_or_division": "Center for Electrochemical Energy Materials"
+      },
+      {
+        "bullets_condensed": [
+          "~200 papers, ~60 in top venues; ~60,000 citations; h-index 118",
+          "14 US patents; 2 licensed; 1 basis of a co-founded company",
+          "42 PhDs and 38 postdocs supervised; 15 now faculty",
+          "Thermodynamics course ~110 students/year; 2 teaching awards"
+        ],
+        "duration_months": 300,
+        "employment_type": "full_time",
+        "end": "present",
+        "impact_scale": "global",
+        "is_current": true,
+        "org": "Stanford University",
+        "org_tier": "S",
+        "org_type": "university",
+        "ownership": "led",
+        "quantified_impact": true,
+        "role": "Assistant, Associate, then Full Professor",
+        "role_selectivity": "elite",
+        "seniority": "faculty",
+        "start": "2001",
+        "team_or_division": "Department of Chemical Engineering"
+      },
+      {
+        "bullets_condensed": [
+          "5 institutions, $19M over 4 years"
+        ],
+        "duration_months": 48,
+        "employment_type": "part_time",
+        "end": "2016",
+        "impact_scale": "industry",
+        "is_current": false,
+        "org": "US Department of Energy",
+        "org_tier": "B",
+        "org_type": "government",
+        "ownership": "led",
+        "quantified_impact": true,
+        "role": "Center Director",
+        "role_selectivity": "highly_selective",
+        "seniority": "director",
+        "start": "2012",
+        "team_or_division": "Energy Frontier Research Center"
+      },
+      {
+        "bullets_condensed": [
+          "Series B; acquired by a major automotive supplier in 2020"
+        ],
+        "duration_months": 72,
+        "employment_type": "founder",
+        "end": "2020",
+        "impact_scale": "industry",
+        "is_current": false,
+        "org": "Solid-state battery materials company",
+        "org_tier": "B",
+        "org_type": "startup",
+        "ownership": "led",
+        "quantified_impact": false,
+        "role": "Co-founder and scientific adviser",
+        "role_selectivity": "highly_selective",
+        "seniority": "founder",
+        "start": "2014",
+        "team_or_division": null
+      },
+      {
+        "bullets_condensed": [
+          "Miller Fellowship offered and declined for a faculty position"
+        ],
+        "duration_months": 24,
+        "employment_type": "fellowship",
+        "end": "2001",
+        "impact_scale": "team",
+        "is_current": false,
+        "org": "University of California, Berkeley",
+        "org_tier": "A",
+        "org_type": "university",
+        "ownership": "led",
+        "quantified_impact": false,
+        "role": "Postdoctoral Fellow",
+        "role_selectivity": "highly_selective",
+        "seniority": "postdoc",
+        "start": "1999",
+        "team_or_division": "Department of Chemistry"
+      }
+    ],
+    "input": {
+      "is_resume": true,
+      "language": "en",
+      "parse_confidence": 0.95,
+      "placeholders_seen": [
+        "name",
+        "email",
+        "phone",
+        "url"
+      ],
+      "word_count_estimate": 837
+    },
+    "leadership": [
+      {
+        "budget_or_scale": "34 faculty, ~180 graduate students, ~$45M/year",
+        "elected_or_appointed": "appointed",
+        "highlight": "Hired 9 faculty; applications up 60%; $80M renovation funded",
+        "org": "Stanford Department of Chemical Engineering",
+        "people_led": 34,
+        "role": "Chair"
+      },
+      {
+        "budget_or_scale": "11 faculty, 60 trainees, ~$12M/year, $25M endowment",
+        "elected_or_appointed": "founded",
+        "highlight": "14 affiliated start-ups; ~$70M cumulative sponsored research",
+        "org": "Stanford Center for Electrochemical Energy Materials",
+        "people_led": 71,
+        "role": "Founding Director"
+      },
+      {
+        "budget_or_scale": "national advisory subcommittee",
+        "elected_or_appointed": "appointed",
+        "highlight": "Chaired the energy-storage subcommittee 2018-2021",
+        "org": "US Department of Energy BESAC",
+        "people_led": null,
+        "role": "Subcommittee chair, energy storage"
+      },
+      {
+        "budget_or_scale": "top chemistry journal",
+        "elected_or_appointed": "appointed",
+        "highlight": "Associate editor since 2020",
+        "org": "Journal of the American Chemical Society",
+        "people_led": null,
+        "role": "Associate Editor"
+      }
+    ],
+    "projects": [],
+    "publications": [
+      {
+        "author_count": null,
+        "author_position": "last",
+        "citations_claimed": 1400,
+        "field": "Energy materials",
+        "kind": "journal",
+        "venue": "Nature",
+        "venue_tier": "top",
+        "year": 2023
+      },
+      {
+        "author_count": null,
+        "author_position": "last",
+        "citations_claimed": 1900,
+        "field": "Energy materials",
+        "kind": "journal",
+        "venue": "Science",
+        "venue_tier": "top",
+        "year": 2021
+      },
+      {
+        "author_count": null,
+        "author_position": "last",
+        "citations_claimed": 2600,
+        "field": "Energy materials",
+        "kind": "journal",
+        "venue": "Nature Energy",
+        "venue_tier": "top",
+        "year": 2019
+      },
+      {
+        "author_count": null,
+        "author_position": "last",
+        "citations_claimed": 2100,
+        "field": "Energy materials",
+        "kind": "journal",
+        "venue": "Nature Materials",
+        "venue_tier": "top",
+        "year": 2017
+      },
+      {
+        "author_count": null,
+        "author_position": "last",
+        "citations_claimed": 1200,
+        "field": "Electrochemistry",
+        "kind": "journal",
+        "venue": "JACS",
+        "venue_tier": "top",
+        "year": 2015
+      },
+      {
+        "author_count": null,
+        "author_position": "last",
+        "citations_claimed": 1700,
+        "field": "Energy materials",
+        "kind": "journal",
+        "venue": "Nature Communications",
+        "venue_tier": "top",
+        "year": 2014
+      },
+      {
+        "author_count": null,
+        "author_position": "last",
+        "citations_claimed": 3200,
+        "field": "Energy materials",
+        "kind": "journal",
+        "venue": "Science",
+        "venue_tier": "top",
+        "year": 2011
+      },
+      {
+        "author_count": null,
+        "author_position": "last",
+        "citations_claimed": 2800,
+        "field": "Energy materials",
+        "kind": "journal",
+        "venue": "Nature Materials",
+        "venue_tier": "top",
+        "year": 2010
+      },
+      {
+        "author_count": null,
+        "author_position": "last",
+        "citations_claimed": 900,
+        "field": "Electrochemistry",
+        "kind": "journal",
+        "venue": "PNAS",
+        "venue_tier": "strong",
+        "year": 2008
+      },
+      {
+        "author_count": null,
+        "author_position": "last",
+        "citations_claimed": 1100,
+        "field": "Electrocatalysis",
+        "kind": "journal",
+        "venue": "JACS",
+        "venue_tier": "top",
+        "year": 2004
+      }
+    ],
+    "red_flags": [],
+    "residual_pii": {
+      "email_count": 0,
+      "name_suspected": false,
+      "other_identifiers": [],
+      "phone_count": 0,
+      "street_address_suspected": false,
+      "url_count": 0
+    },
+    "schema_version": "1.1",
+    "scores": {
+      "academia": {
+        "holistic_score": 97,
+        "included": true,
+        "rationale": "Field-recognized at the highest level: international prize, two academies, early-career elite awards in sequence, ten papers above 900 citations each, h-index 118, 42 PhDs with 15 now faculty, department chair and center founder at a T1.",
+        "stage_relative_score": 99,
+        "sub_scores": {
+          "breadth": 80,
+          "impact": 98,
+          "pedigree": 98,
+          "selectivity": 99,
+          "trajectory": 95
+        },
+        "top_evidence": [
+          "Kavli Prize; NAS and NAE membership",
+          "Ten selected papers with 900-3,200 citations each",
+          "42 PhDs supervised; 15 now faculty including at MIT, Berkeley, Caltech, ETH"
+        ]
+      },
+      "finance": {
+        "holistic_score": 15,
+        "included": false,
+        "rationale": "Fundraising and a company exit; no finance role.",
+        "stage_relative_score": 10,
+        "sub_scores": {
+          "breadth": 10,
+          "impact": 30,
+          "pedigree": 60,
+          "selectivity": 50,
+          "trajectory": 40
+        },
+        "top_evidence": []
+      },
+      "general": {
+        "holistic_score": 96,
+        "included": true,
+        "rationale": "Kavli Prize, both national academies, MacArthur and Waterman, ~60,000 citations, 15 trainees on faculties, chair of a T1 department and founding director of a center with a $25M endowment, a co-founded company acquired; T1 degrees.",
+        "stage_relative_score": 97,
+        "sub_scores": {
+          "breadth": 85,
+          "impact": 97,
+          "pedigree": 98,
+          "selectivity": 99,
+          "trajectory": 95
+        },
+        "top_evidence": [
+          "Kavli Prize 2024; NAS 2019; NAE 2017",
+          "~200 papers, ~60 top-venue, ~60,000 citations, h-index 118",
+          "Chair of a 34-faculty department; center with $25M endowment"
+        ]
+      },
+      "tech": {
+        "holistic_score": 40,
+        "included": false,
+        "rationale": "Patents and a materials company; no software or hardware engineering role.",
+        "stage_relative_score": 35,
+        "sub_scores": {
+          "breadth": 40,
+          "impact": 60,
+          "pedigree": 80,
+          "selectivity": 70,
+          "trajectory": 60
+        },
+        "top_evidence": []
+      }
+    },
+    "signals": {
+      "career_stage": "executive",
+      "has_quantified_impact": true,
+      "highest_institution_tier": "T1",
+      "highest_org_tier": "S",
+      "max_impact_scale": "global",
+      "months_internship": 0,
+      "primary_domain": "academia",
+      "sustained_org_tier": "S",
+      "top_role_selectivity": "elite",
+      "trajectory": "accelerating",
+      "years_fulltime": 27
+    },
+    "skills": {
+      "certifications": [],
+      "domain": [
+        "Interfacial electrochemistry",
+        "Solid-state electrolytes",
+        "Fast-ion conductors",
+        "Energy storage",
+        "Research administration",
+        "Fundraising"
+      ],
+      "keyword_stuffing_suspected": false,
+      "spoken_languages": [
+        "English",
+        "German (fluent)",
+        "Japanese (conversational)"
+      ],
+      "technical": [
+        "Electrochemical characterization",
+        "Operando X-ray microscopy",
+        "Operando electron microscopy",
+        "Solid-state synthesis",
+        "Materials informatics"
+      ]
+    },
+    "strengths": [
+      "Kavli Prize plus membership in both the NAS and the NAE",
+      "Early-career elite awards in sequence: Sloan, CAREER, Packard, MacArthur, Waterman",
+      "Ten selected papers each above 900 citations; ~60,000 total; h-index 118",
+      "Fifteen former trainees on faculties at named T1 and T2 institutions; 42 PhDs supervised",
+      "Department chair and center founder with stated hiring, fundraising and start-up outcomes"
+    ],
+    "verdict": "A field-defining academic record: international prize, both academies, ~60,000 citations, 15 faculty trainees, and chair of a T1 department.",
+    "weaknesses": [
+      "Citation counts and the ~200 paper figure are self-reported approximations",
+      "Entrepreneurship section gives the exit but not deal size or revenue",
+      "The lecture and service lists are long for a condensed CV",
+      "No first-author positions stated on the selected papers, as expected for a group leader"
+    ]
+  },
+  "card_sha256": "21b97b9712d05befb488ab4e3d2f90ee0b69bb869d849334bde06eb6a93d40a4",
+  "category_relevance": {
+    "academia": 1,
+    "finance": 0,
+    "general": 1,
+    "tech": 0.2
+  },
+  "created_at": "2026-10-03T12:29:00Z",
+  "deleted_at": null,
+  "duplicate_of": null,
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+5f7c9f15",
+    "verdict": {
+      "estimated_career_stage": "executive",
+      "is_resume": true,
+      "language": "en",
+      "prompt_injection_detected": false,
+      "reason": "Résumé with dated roles and education.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "academia-2100-execut",
+  "held_reason": null,
+  "id": "yohkicbmyf",
+  "kind": "user",
+  "metrics": {
+    "char_count": 6424,
+    "columns_detected": 1,
+    "extraction_quality": 0.95,
+    "font_count": 3,
+    "image_count": 0,
+    "pages": 4,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 837
+  },
+  "owner_hash": "1865dcf07c4ced25bf5aa040ab260f856f3a67fc179675823d06cd458d6183f2",
+  "primary": "academia",
+  "rejected_reason": null,
+  "schema": 1,
+  "scores": {
+    "academia": 98,
+    "general": 96
+  },
+  "source": {
+    "client_version": "fixtures",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 1
+  },
+  "stage": "executive",
+  "status": "analyzed",
+  "superseded_by": null,
+  "supersedes": null,
+  "text": "[name]\nProfessor and Chair, Department of Chemical Engineering, Stanford University\nStanford, CA · [email] · [phone] · [url]\n\nCondensed curriculum vitae (full CV, approximately 40 pages, available on request).\n\nACADEMIC APPOINTMENTS\n2021–present  Chair, Department of Chemical Engineering, Stanford University (34 faculty, about 180 graduate students, annual research expenditure about $45M)\n2016–present  Founding Director, Stanford Center for Electrochemical Energy Materials (11 faculty across 4 departments; about $12M a year in sponsored research; 60 graduate students and postdocs)\n2012–present  Professor of Chemical Engineering and, by courtesy, of Materials Science and Engineering, Stanford University\n2007–2012  Associate Professor (with tenure), Department of Chemical Engineering, Stanford University\n2001–2007  Assistant Professor, Department of Chemical Engineering, Stanford University\n1999–2001  Postdoctoral Fellow, Department of Chemistry, University of California, Berkeley\n\nEDUCATION\n1999  Ph.D., Chemical Engineering, Massachusetts Institute of Technology\n1994  B.S.E., Chemical Engineering, summa cum laude, Princeton University\n\nHONORS AND AWARDS (selected)\n2024  Kavli Prize in Nanoscience (shared with two co-laureates)\n2019  Member, National Academy of Sciences\n2017  Member, National Academy of Engineering\n2016  Fellow, American Academy of Arts and Sciences\n2015  ACS Award in Pure Chemistry\n2013  Fellow, Materials Research Society\n2010  Alan T. Waterman Award, National Science Foundation\n2008  MacArthur Fellowship\n2004  Packard Fellowship for Science and Engineering\n2003  NSF CAREER Award\n2002  Alfred P. Sloan Research Fellowship\n2000  Miller Research Fellowship, University of California, Berkeley (declined for faculty position)\nHighly Cited Researcher, Clarivate, every year 2016–2025\n\nRESEARCH\nInterfacial electrochemistry and nanostructured materials for energy storage and conversion: solid-state electrolytes, operando characterization of electrode interfaces, and design rules for fast-ion conductors. Roughly 200 peer-reviewed papers (about 60 in Nature, Science, Nature-family journals, JACS, or PNAS); approximately 60,000 citations; h-index 118 (Google Scholar, 2026). Fourteen issued US patents; two licensed to a battery manufacturer and one forming the basis of a company I co-founded in 2014 (acquired 2020).\n\nSELECTED PUBLICATIONS (of about 200; corresponding author on all listed)\n1. Design rules for lithium superionic conductors from lattice dynamics. Nature, 2023. About 1,400 citations.\n2. Operando imaging of dendrite nucleation at solid electrolyte interfaces. Science, 2021. About 1,900 citations.\n3. A ceramic-polymer composite electrolyte with ionic conductivity above 10 mS/cm at room temperature. Nature Energy, 2019. About 2,600 citations.\n4. Anion-framework engineering of sulfide electrolytes. Nature Materials, 2017. About 2,100 citations.\n5. Interfacial charge transfer at oxide cathodes probed by ambient-pressure X-ray spectroscopy. JACS, 2015. About 1,200 citations.\n6. Grain-boundary resistance in garnet electrolytes. Nature Communications, 2014. About 1,700 citations.\n7. Nanoscale phase separation in lithium iron phosphate during cycling. Science, 2011. About 3,200 citations.\n8. Surface reconstruction of layered oxide cathodes. Nature Materials, 2010. About 2,800 citations.\n9. Electrochemical strain microscopy of ion transport. PNAS, 2008. About 900 citations.\n10. Templated growth of mesoporous metal oxides for electrocatalysis. JACS, 2004. About 1,100 citations.\nAlso: 3 Annual Reviews articles; 2 book chapters; co-editor of one Springer volume (2018).\n\nMENTORING\nSupervised 42 Ph.D. students to completion and 38 postdoctoral fellows. Fifteen former students and postdocs now hold faculty positions (including at MIT, Berkeley, Caltech, ETH Zurich, Tsinghua, Michigan, Northwestern, UT Austin); eleven are in industrial research leadership; two founded companies. Three former students have received NSF CAREER awards and one a Sloan Fellowship.\n\nPROFESSIONAL SERVICE (selected)\n2022–present  Member, Board on Energy and Environmental Systems, National Academies\n2020–present  Associate Editor, Journal of the American Chemical Society\n2018–2021  Chair, Basic Energy Sciences Advisory Committee subcommittee on energy storage, US Department of Energy\n2014–2019  Editorial board, Nature Energy\n2012–2016  Director, DOE Energy Frontier Research Center on interfacial ion transport (five institutions, $19M over four years)\nProgram committee chair, Materials Research Society Fall Meeting, 2016. Reviewer for NSF, DOE, NIH, ERC, and about 25 journals.\n\nINVITED LECTURES (selected from about 300)\nKavli Prize Lecture, Oslo, 2024 · Plenary, International Meeting on Lithium Batteries, 2022 · Faraday Discussions opening lecture, 2021 · Priestley Medal Symposium invited talk, 2019 · MRS Fall Meeting plenary, 2017 · Gordon Research Conference on Electrochemistry, chair 2015 · Named lectureships at Caltech, Cornell, Delft, Kyoto, Northwestern, Penn, Toronto, Wisconsin\n\nTEACHING\nUndergraduate thermodynamics (annually since 2001; about 110 students a year); graduate electrochemical engineering (developed 2006; now taught at four other universities from the published notes). Stanford School of Engineering teaching award, 2009 and 2018.\n\nENTREPRENEURSHIP AND ADVISING\nCo-founder and scientific adviser, solid-state battery materials company (2014–2020; Series B; acquired by a major automotive supplier in 2020). Scientific advisory boards of three energy-storage companies and one national laboratory directorate. Expert witness in two patent matters (2017, 2022).\n\nLEADERSHIP OUTCOMES AS CHAIR AND CENTER DIRECTOR\n• Department: hired 9 faculty in five years (5 women, 3 from under-represented groups); doctoral applications up 60%; two new interdisciplinary degree programs launched; $80M building renovation funded and under construction.\n• Center: grew from 4 to 11 faculty; raised a $25M endowment gift and about $70M in cumulative sponsored research; 14 center-affiliated start-ups; annual industry symposium with 300 attendees.\n• Established the department's postdoctoral teaching fellowship (18 fellows to date; 12 now faculty).\n\nSKILLS AND LANGUAGES\nElectrochemical characterization, operando X-ray and electron microscopy, solid-state synthesis, materials informatics. English (native), German (fluent), Japanese (conversational).",
+  "text_sha256": "caf279d3188e74f04a9f2b1534a3f2c532018c0897cc2771ca253c29fa891653",
+  "top_signal": "Kavli Prize, NAS",
+  "updated_at": "2026-10-03T12:29:00Z",
+  "usage": {
+    "analysis_usd": 0.17728,
+    "gate_usd": 0.0016,
+    "latency_ms": 0
+  },
+  "versions": {
+    "analyst_model": "claude-opus-5-5",
+    "analyst_prompt": "analyst.v1+6dbc77ff",
+    "fell_back": false,
+    "gate_prompt": "gate.v1+5f7c9f15",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "visibility": "handle"
+}

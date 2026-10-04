@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:55:00Z",
+  "handle": "academic-cv-exactly",
+  "key_exposed": false,
+  "owner_hash": "5518ef970552f374b32d76fd24d7f47428d8c847c1f1101b20e6bc6a2d95459c",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:55:00Z",
+      "current": true,
+      "id": "4lbszeut6z"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

@@ -1,0 +1,32 @@
+{
+  "expect": {
+    "gate": "pass",
+    "status": "analyzed"
+  },
+  "group": "anchor",
+  "intended_anchor": 1900,
+  "intended_categories": [
+    "general",
+    "academia"
+  ],
+  "intended_stage": "senior",
+  "metrics": {
+    "char_count": 5922,
+    "columns_detected": 1,
+    "extraction_quality": 0.93,
+    "font_count": 2,
+    "image_count": 0,
+    "pages": 3,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 842
+  },
+  "slug": "anchor-academia-1900-senior-associate-prof-career-award"
+}

@@ -1,0 +1,40 @@
+[name]
+[email] | [phone] | Harrisburg, PA
+
+OBJECTIVE
+Computer Science student looking for a summer internship or part-time programming role where I can learn from experienced developers and help out on real projects.
+
+EDUCATION
+Shippensburg University of Pennsylvania — Shippensburg, PA
+Bachelor of Science in Computer Science, expected May 2028
+Relevant coursework: Introduction to Programming (Python), Object-Oriented Programming (Java), Discrete Mathematics, Calculus I, Introduction to Web Development, Computer Organization
+
+WORK EXPERIENCE
+Sales Associate, Target — Carlisle, PA
+June 2024 – Present (part-time, 15 to 20 hours a week during the semester, full-time in summer)
+- Responsible for helping customers find products and answering questions about store policies and returns
+- Operate the cash register and self-checkout area and handle exchanges and price checks
+- Restock shelves and keep the electronics and home sections organized and faced
+- Trained two new seasonal associates on register procedures during the 2025 holiday season
+
+PROJECTS
+Task Manager Web App (Online Course Project) — Spring 2026
+- Built a to-do list application while following a Udemy full-stack web development course
+- Used HTML, CSS, JavaScript and a small Node.js and Express server to add, edit and delete tasks
+- Tasks are saved in the browser's local storage so they stay after the page is refreshed
+- Added a dark mode toggle on my own after finishing the course videos
+
+Student Grade Calculator (CSC 110 Assignment) — Fall 2025
+- Wrote a Python program that reads grades from a text file and prints the class average, highest and lowest score
+- Added input checking so the program does not crash on empty lines or letters where numbers should be
+- Received full marks on the assignment
+
+SKILLS
+Programming languages: Python, Java, HTML/CSS, some JavaScript
+Tools: VS Code, Git (basic), Microsoft Office, Google Docs
+Soft skills: Communication, teamwork, time management, customer service
+
+ACTIVITIES
+Member, Computer Science Club, Shippensburg University (Fall 2025 – Present)
+Volunteer, campus Habitat for Humanity build day (Spring 2025)
+Intramural soccer, Fall 2024 and Fall 2025

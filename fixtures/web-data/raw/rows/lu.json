@@ -1,0 +1,38 @@
+{
+  "lujxpyjxdh": {
+    "c": {
+      "finance": 1,
+      "general": 1
+    },
+    "ch": "9ab1981ba8000dd984bad6b558e3a4cc985fb3a060b4876fd96825ee7be21a98",
+    "h": "finance-1600-new-gra",
+    "p": "finance",
+    "s": "analyzed",
+    "sc": {
+      "finance": 77,
+      "general": 74
+    },
+    "sig": "BB IB return offer",
+    "ss": {
+      "finance": [
+        85,
+        72,
+        52,
+        80,
+        60,
+        80
+      ],
+      "general": [
+        85,
+        70,
+        50,
+        78,
+        65,
+        78
+      ]
+    },
+    "st": "new_grad",
+    "t": 1791029700,
+    "v": "handle"
+  }
+}

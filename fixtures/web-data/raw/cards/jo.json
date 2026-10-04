@@ -1,0 +1,140 @@
+{
+  "jocml7s5ue": {
+    "card": {
+      "awards": [
+        {
+          "name": "CFA charter (all three levels first attempt)",
+          "scope": "international",
+          "selectivity": "selective"
+        },
+        {
+          "name": "John Harvard Scholar",
+          "scope": "institutional",
+          "selectivity": "selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "mid",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2017,
+          "field": "Applied Mathematics (economics track)",
+          "gpa_band": "3.7-3.89",
+          "honors": [
+            "magna cum laude",
+            "John Harvard Scholar (2015, 2016)"
+          ],
+          "in_progress": false,
+          "institution": "Harvard University",
+          "institution_tier": "T1"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 45,
+          "employment_type": "full_time",
+          "highlights": [
+            "$650M gross / $120M net book, sole coverage of 35 names; P&L $18M, $15M, $12M in 2025-2023; Sharpe 1.7, 1.6, 1.9",
+            "Sizing framework cut net factor beta 0.21 to 0.06; alt-data pipeline credited on 6 of the 10 largest 2025 winners",
+            "Approved for a PM-track allocation in 2026 with a $1.5B gross target book; manages 2 people"
+          ],
+          "impact_scale": "org",
+          "org": "Citadel (Surveyor Capital)",
+          "org_tier": "S",
+          "role": "Senior Analyst, US Software and Internet (PM track)",
+          "role_selectivity": "elite",
+          "seniority": "senior",
+          "years": "2023-present"
+        },
+        {
+          "duration_months": 42,
+          "employment_type": "full_time",
+          "highlights": [
+            "Covered 20 names for a $2B pod; 2 of the pod's 5 largest 2021 gains",
+            "Channel-check program across 40 resellers preceded 3 guidance cuts by a quarter or more",
+            "Promoted to senior analyst a year ahead of the ladder"
+          ],
+          "impact_scale": "org",
+          "org": "Citadel (Surveyor Capital)",
+          "org_tier": "S",
+          "role": "Analyst, US Software",
+          "role_selectivity": "elite",
+          "seniority": "analyst",
+          "years": "2019-2022"
+        },
+        {
+          "duration_months": 24,
+          "employment_type": "full_time",
+          "highlights": [
+            "6 closed transactions, ~$14B: 3 software sell-sides, 2 IPOs, 1 convertible",
+            "Merger model for a $4.2B software combination; top bucket both cycles"
+          ],
+          "impact_scale": "org",
+          "org": "Goldman Sachs",
+          "org_tier": "S",
+          "role": "Investment Banking Analyst, TMT",
+          "role_selectivity": "elite",
+          "seniority": "analyst",
+          "years": "2017-2019"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Comps and precedents for 3 live pitches; full-time offer"
+          ],
+          "impact_scale": "team",
+          "org": "Goldman Sachs",
+          "org_tier": "S",
+          "role": "Investment Banking Summer Analyst, TMT",
+          "role_selectivity": "elite",
+          "seniority": "intern",
+          "years": "2016"
+        }
+      ],
+      "headline": "PM-track senior analyst at an S-tier multi-strategy fund; $45M attributed P&L over 3 years; ex-GS TMT; T1 degree; CFA",
+      "leadership": [
+        "Manages 1 analyst and 1 quantitative associate; both promoted on schedule",
+        "Guest lecturer for an undergraduate investment-analysis course, 2024 and 2025"
+      ],
+      "notable": [
+        "Attributed P&L of $45M over three years with Sharpe above 1.6 each year and a 2.1% worst drawdown",
+        "GS TMT top bucket, then an S-tier multi-strategy pod, then PM-track approval with a $1.5B target book",
+        "Harvard applied mathematics, magna cum laude; CFA charter passed first attempt at every level",
+        "Flagged a revenue-recognition change two quarters before a restatement"
+      ],
+      "projects": [
+        {
+          "descriptor": "Alternative-data pipeline for software usage and hiring signals (Python, SQL)",
+          "highlight": "Credited on 6 of the pod's 10 largest winners in 2025",
+          "kind": "software",
+          "scale_signal": "feeds 3 analysts' models",
+          "technical_depth": "substantial"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Long-short fundamental research",
+        "Cohort and unit-economics modeling",
+        "Factor-neutral portfolio construction",
+        "Event-driven positioning",
+        "Python (pandas, statsmodels)",
+        "SQL",
+        "Bloomberg",
+        "FactSet",
+        "Visible Alpha"
+      ],
+      "top_signal": "$45M 3-yr P&L",
+      "years_fulltime": 9.3
+    },
+    "st": "mid"
+  }
+}

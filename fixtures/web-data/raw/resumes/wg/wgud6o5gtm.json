@@ -1,0 +1,668 @@
+{
+  "analysis": {
+    "analysis_confidence": 0.94,
+    "ats": {
+      "detected": {
+        "action_verb_ratio": 0.87,
+        "bullet_count": 15,
+        "bullet_marker_consistent": true,
+        "contact_at_top": true,
+        "date_format_consistent": true,
+        "date_formats_seen": [
+          "Month YYYY"
+        ],
+        "has_email": true,
+        "has_location": true,
+        "has_phone": true,
+        "has_profile_link": true,
+        "has_street_address": false,
+        "has_summary_section": false,
+        "nonstandard_headings": [
+          "FELLOWSHIPS AND AWARDS",
+          "INVITED TALKS"
+        ],
+        "quantified_bullet_ratio": 0.8,
+        "reverse_chronological": true,
+        "section_order": [
+          "Experience",
+          "Education",
+          "Experience",
+          "Publications",
+          "Awards",
+          "Leadership",
+          "Leadership",
+          "Skills"
+        ],
+        "skill_bars_or_ratings": false,
+        "standard_headings": [
+          "CURRENT POSITION",
+          "EDUCATION",
+          "RESEARCH EXPERIENCE",
+          "PUBLICATIONS",
+          "SKILLS",
+          "SERVICE"
+        ],
+        "uses_tables_suspected": false
+      },
+      "factors": {
+        "consistency": {
+          "note": "Month YYYY throughout; every role dated; titles match",
+          "score": 100
+        },
+        "contact_info": {
+          "note": "City, email, phone and a profile link in the header",
+          "score": 100
+        },
+        "formatting": {
+          "note": "Standard headings, reverse-chronological, numbered publications, one bullet glyph, two fonts",
+          "score": 100
+        },
+        "keyword_alignment": {
+          "note": "Multi-omics, variational inference, PyTorch, workflow managers, HPC, mentoring and grant writing appear in bullets; spatial transcriptomics is introductory",
+          "score": 92
+        },
+        "length": {
+          "note": "Two pages for a postdoc with six publications; organized with numbered publications",
+          "score": 100
+        },
+        "parseability": {
+          "note": "Single column, clean text layer (0.96), standard headings, contact in the first two lines",
+          "score": 100
+        },
+        "quantification": {
+          "note": "12 of 15 bullets carry a number tied to an outcome (accuracy, cells, citations, downloads, students)",
+          "score": 100
+        }
+      },
+      "fixes": [
+        {
+          "factor": "contact_info",
+          "fix": "Remove the spelled-out repository address from the bullet; the header link placeholder already covers it, and the package can be named generically",
+          "issue": "A code-repository address is spelled out in words inside a research bullet, where the scrub did not catch it",
+          "priority": "high"
+        },
+        {
+          "factor": "formatting",
+          "fix": "Merge them so the role appears once with its dates",
+          "issue": "\"Current Position\" and \"Research Experience\" both describe the postdoc role",
+          "priority": "low"
+        },
+        {
+          "factor": "keyword_alignment",
+          "fix": "Drop it or add the dataset it was applied to",
+          "issue": "Spatial transcriptomics is listed as introductory and appears in no bullet",
+          "priority": "low"
+        }
+      ],
+      "score": 99,
+      "target_role_used": "Computational biology faculty candidate or industry computational scientist"
+    },
+    "awards": [
+      {
+        "issuer": "NIH / University of Pennsylvania",
+        "name": "NIH T32 Postdoctoral Training Fellowship in Regenerative Medicine",
+        "pool_estimate": "institutional training slots, competitive within the program",
+        "scope": "national",
+        "selectivity": "selective",
+        "verifiable": true,
+        "year": 2024
+      },
+      {
+        "issuer": "Boston University College of Engineering",
+        "name": "Outstanding Dissertation Award",
+        "pool_estimate": "one per year across the college",
+        "scope": "institutional",
+        "selectivity": "selective",
+        "verifiable": true,
+        "year": 2024
+      },
+      {
+        "issuer": "NSF",
+        "name": "NSF Graduate Research Fellowship honorable mention",
+        "pool_estimate": "honorable mention, not the award",
+        "scope": "national",
+        "selectivity": "selective",
+        "verifiable": true,
+        "year": 2019
+      },
+      {
+        "issuer": "Single Cell Genomics conference",
+        "name": "Best poster",
+        "pool_estimate": "conference poster pool, size not stated",
+        "scope": "international",
+        "selectivity": "selective",
+        "verifiable": true,
+        "year": 2022
+      }
+    ],
+    "card": {
+      "awards": [
+        {
+          "name": "NIH T32 postdoctoral training fellowship",
+          "scope": "national",
+          "selectivity": "selective"
+        },
+        {
+          "name": "College of Engineering Outstanding Dissertation Award",
+          "scope": "institutional",
+          "selectivity": "selective"
+        },
+        {
+          "name": "NSF GRFP honorable mention",
+          "scope": "national",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Best poster, Single Cell Genomics conference",
+          "scope": "international",
+          "selectivity": "selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "early",
+      "education": [
+        {
+          "degree_level": "phd",
+          "end_year": 2024,
+          "field": "Biomedical Engineering",
+          "gpa_band": "not_listed",
+          "honors": [
+            "College of Engineering Outstanding Dissertation Award"
+          ],
+          "in_progress": false,
+          "institution": "Boston University",
+          "institution_tier": "T3"
+        },
+        {
+          "degree_level": "bachelor",
+          "end_year": 2018,
+          "field": "Bioengineering",
+          "gpa_band": "not_listed",
+          "honors": [
+            "cum laude"
+          ],
+          "in_progress": false,
+          "institution": "University of Maryland, College Park",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 25,
+          "employment_type": "fellowship",
+          "highlights": [
+            "Probabilistic single-cell multi-omic alignment: cell-state accuracy 71% to 86% on 4 public datasets; first-author Nature Methods",
+            "Identified two transitional fibroblast states in a 210,000-cell fibrosis atlas, validated by imaging; co-first author, in revision",
+            "Open-source Python package: ~180 stars, ~2,100 downloads; wrote the computational sections of a funded R01 renewal"
+          ],
+          "impact_scale": "team",
+          "org": "University of Pennsylvania, Bioengineering",
+          "org_tier": "A",
+          "role": "Postdoctoral Researcher",
+          "role_selectivity": "highly_selective",
+          "seniority": "postdoc",
+          "years": "2024-present"
+        },
+        {
+          "duration_months": 72,
+          "employment_type": "fellowship",
+          "highlights": [
+            "Variational multi-omic integration framework; first-author Genome Biology, ~140 citations",
+            "Data-integration pipeline for a Nature Immunology study (3rd of 11 authors)",
+            "Batch-correction benchmark used by 3 labs; teaching fellow for 3 semesters"
+          ],
+          "impact_scale": "team",
+          "org": "Boston University",
+          "org_tier": "B",
+          "role": "Graduate Research Assistant, Biomedical Engineering",
+          "role_selectivity": "selective",
+          "seniority": "phd_student",
+          "years": "2018-2024"
+        }
+      ],
+      "headline": "Bioengineering postdoc at a T2 university; first-author Nature Methods and Genome Biology; co-first Cell Systems",
+      "leadership": [
+        "Co-supervises 2 PhD students and 1 master's student",
+        "Co-organizes a postdoctoral seminar; reviewer for Nature Methods, Genome Biology, Bioinformatics and ISMB"
+      ],
+      "notable": [
+        "First-author Nature Methods paper accepted within two years of the PhD",
+        "Method raised cell-state assignment accuracy from 71% to 86% across four public datasets",
+        "Three first- or co-first-author papers plus a 3rd-author Nature Immunology paper",
+        "Wrote the computational sections of an NIH R01 renewal that was funded"
+      ],
+      "projects": [
+        {
+          "descriptor": "Open-source Python package for temporal alignment of single-cell multi-omic profiles",
+          "highlight": "Documentation and tutorials released with the Nature Methods paper",
+          "kind": "software",
+          "scale_signal": "~180 stars; ~2,100 downloads",
+          "technical_depth": "substantial"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "~140 citations claimed on one paper",
+        "count_total": 6,
+        "first_author_count": 3,
+        "strong_venue_count": 2,
+        "top_venue_count": 2,
+        "venues": [
+          "Nature Methods",
+          "Cell Systems",
+          "Genome Biology",
+          "Nature Immunology",
+          "Bioinformatics",
+          "bioRxiv"
+        ]
+      },
+      "skills_top": [
+        "Python (PyTorch, scanpy, scvi-tools)",
+        "Variational inference",
+        "Single-cell RNA-seq and ATAC-seq analysis",
+        "R (Seurat, Bioconductor)",
+        "Snakemake",
+        "Nextflow",
+        "Slurm HPC",
+        "Spatial transcriptomics (introductory)"
+      ],
+      "top_signal": "Nature Methods 1st",
+      "years_fulltime": 5.1
+    },
+    "category_relevance": {
+      "academia": 1,
+      "finance": 0,
+      "general": 1,
+      "tech": 0.3
+    },
+    "education": [
+      {
+        "degree_level": "phd",
+        "end_year": 2024,
+        "field": "Biomedical Engineering",
+        "gpa": null,
+        "gpa_band": "not_listed",
+        "gpa_scale": null,
+        "honors": [
+          "College of Engineering Outstanding Dissertation Award, 2024"
+        ],
+        "in_progress": false,
+        "institution": "Boston University",
+        "institution_tier": "T3",
+        "notes": "Dissertation on computational integration of single-cell transcriptomic and chromatin-accessibility data",
+        "start_year": 2018
+      },
+      {
+        "degree_level": "bachelor",
+        "end_year": 2018,
+        "field": "Bioengineering",
+        "gpa": null,
+        "gpa_band": "not_listed",
+        "gpa_scale": null,
+        "honors": [
+          "cum laude"
+        ],
+        "in_progress": false,
+        "institution": "University of Maryland, College Park",
+        "institution_tier": "T3",
+        "notes": "",
+        "start_year": 2014
+      }
+    ],
+    "experiences": [
+      {
+        "bullets_condensed": [
+          "Probabilistic model aligning single-cell RNA and ATAC profiles across time; accuracy 71% to 86% on 4 public datasets",
+          "Applied to a 210,000-cell lung fibrosis atlas; two transitional fibroblast states validated by imaging",
+          "First-author Nature Methods (2026, accepted); co-first Cell Systems (in revision); open-source package ~180 stars, ~2,100 downloads",
+          "Co-supervises 3 students; wrote the computational sections of a funded NIH R01 renewal"
+        ],
+        "duration_months": 25,
+        "employment_type": "fellowship",
+        "end": "present",
+        "impact_scale": "team",
+        "is_current": true,
+        "org": "University of Pennsylvania",
+        "org_tier": "A",
+        "org_type": "university",
+        "ownership": "led",
+        "quantified_impact": true,
+        "role": "Postdoctoral Researcher",
+        "role_selectivity": "highly_selective",
+        "seniority": "postdoc",
+        "start": "2024-09",
+        "team_or_division": "Department of Bioengineering"
+      },
+      {
+        "bullets_condensed": [
+          "Variational-inference framework for multi-omic single-cell integration; first-author Genome Biology 2023, ~140 citations",
+          "Data-integration pipeline and figures for a Nature Immunology 2022 study; 3rd of 11 authors",
+          "Batch-correction benchmark used by 3 labs; middle author, Bioinformatics 2021",
+          "Teaching fellow for 3 semesters; mentored 4 summer undergraduates"
+        ],
+        "duration_months": 72,
+        "employment_type": "fellowship",
+        "end": "2024-08",
+        "impact_scale": "team",
+        "is_current": false,
+        "org": "Boston University",
+        "org_tier": "B",
+        "org_type": "university",
+        "ownership": "led",
+        "quantified_impact": true,
+        "role": "Graduate Research Assistant",
+        "role_selectivity": "selective",
+        "seniority": "phd_student",
+        "start": "2018-09",
+        "team_or_division": "Biomedical Engineering"
+      }
+    ],
+    "input": {
+      "is_resume": true,
+      "language": "en",
+      "parse_confidence": 0.96,
+      "placeholders_seen": [
+        "name",
+        "email",
+        "phone",
+        "url"
+      ],
+      "word_count_estimate": 540
+    },
+    "leadership": [
+      {
+        "budget_or_scale": "2 PhD students, 1 master's student",
+        "elected_or_appointed": "appointed",
+        "highlight": "Co-supervises three students on computational projects",
+        "org": "University of Pennsylvania host laboratory",
+        "people_led": 3,
+        "role": "Co-supervisor"
+      },
+      {
+        "budget_or_scale": "departmental seminar",
+        "elected_or_appointed": "self_declared",
+        "highlight": "Co-organizes the postdoctoral seminar since 2025",
+        "org": "Penn Bioengineering postdoctoral seminar",
+        "people_led": null,
+        "role": "Co-organizer"
+      }
+    ],
+    "projects": [
+      {
+        "description_condensed": "Open-source Python package with documentation and tutorials for the Nature Methods method; ~180 stars and ~2,100 downloads since release",
+        "has_external_validation": true,
+        "kind": "software",
+        "name": "Single-cell multi-omic alignment package",
+        "quantified_impact": true,
+        "scale_signal": "~180 stars; ~2,100 downloads",
+        "technical_depth": "substantial"
+      }
+    ],
+    "publications": [
+      {
+        "author_count": null,
+        "author_position": "first",
+        "citations_claimed": null,
+        "field": "single-cell multi-omics (accepted)",
+        "kind": "journal",
+        "venue": "Nature Methods",
+        "venue_tier": "top",
+        "year": 2026
+      },
+      {
+        "author_count": null,
+        "author_position": "co_first",
+        "citations_claimed": null,
+        "field": "lung fibrosis atlas (in revision)",
+        "kind": "journal",
+        "venue": "Cell Systems",
+        "venue_tier": "strong",
+        "year": null
+      },
+      {
+        "author_count": null,
+        "author_position": "first",
+        "citations_claimed": 140,
+        "field": "single-cell data integration",
+        "kind": "journal",
+        "venue": "Genome Biology",
+        "venue_tier": "strong",
+        "year": 2023
+      },
+      {
+        "author_count": 11,
+        "author_position": "middle",
+        "citations_claimed": null,
+        "field": "immunology, inflammatory bowel disease",
+        "kind": "journal",
+        "venue": "Nature Immunology",
+        "venue_tier": "top",
+        "year": 2022
+      },
+      {
+        "author_count": 6,
+        "author_position": "middle",
+        "citations_claimed": null,
+        "field": "batch-correction benchmark",
+        "kind": "journal",
+        "venue": "Bioinformatics",
+        "venue_tier": "standard",
+        "year": 2021
+      },
+      {
+        "author_count": null,
+        "author_position": "second",
+        "citations_claimed": null,
+        "field": "chromatin dynamics in fibroblast activation",
+        "kind": "preprint",
+        "venue": "bioRxiv",
+        "venue_tier": "preprint",
+        "year": 2025
+      }
+    ],
+    "red_flags": [],
+    "residual_pii": {
+      "email_count": 0,
+      "name_suspected": false,
+      "other_identifiers": [],
+      "phone_count": 0,
+      "street_address_suspected": false,
+      "url_count": 1
+    },
+    "schema_version": "1.1",
+    "scores": {
+      "academia": {
+        "holistic_score": 75,
+        "included": true,
+        "rationale": "Second-year postdoc with a first-author Nature Methods paper, a first-author Genome Biology paper (~140 citations), a co-first Cell Systems paper, a funded R01 contribution and a used package. T3 PhD; no national fellowship beyond a T32 slot and a GRFP honorable mention.",
+        "stage_relative_score": 76,
+        "sub_scores": {
+          "breadth": 55,
+          "impact": 72,
+          "pedigree": 70,
+          "selectivity": 68,
+          "trajectory": 74
+        },
+        "top_evidence": [
+          "First-author Nature Methods 2026; first-author Genome Biology 2023 (~140 citations)",
+          "Co-first Cell Systems in revision; 3rd of 11 on Nature Immunology 2022",
+          "NIH T32 fellowship; funded R01 renewal with authored computational sections"
+        ]
+      },
+      "finance": {
+        "holistic_score": 5,
+        "included": false,
+        "rationale": "No finance footprint.",
+        "stage_relative_score": 5,
+        "sub_scores": {
+          "breadth": 5,
+          "impact": 10,
+          "pedigree": 40,
+          "selectivity": 30,
+          "trajectory": 50
+        },
+        "top_evidence": []
+      },
+      "general": {
+        "holistic_score": 72,
+        "included": true,
+        "rationale": "T3 degrees followed by a T2 postdoc on a training fellowship, a first-author top-venue paper within two years of the PhD, a cited first-author strong-venue paper, a used software package and grant writing that was funded. Narrow by design; no elite fellowship.",
+        "stage_relative_score": 72,
+        "sub_scores": {
+          "breadth": 58,
+          "impact": 66,
+          "pedigree": 68,
+          "selectivity": 66,
+          "trajectory": 72
+        },
+        "top_evidence": [
+          "First-author Nature Methods (accepted 2026)",
+          "First-author Genome Biology 2023, ~140 citations",
+          "Open-source package with ~2,100 downloads; computational sections of a funded R01 renewal"
+        ]
+      },
+      "tech": {
+        "holistic_score": 40,
+        "included": false,
+        "rationale": "Substantial computational-methods work and a released Python package; no software-engineering role or product.",
+        "stage_relative_score": 40,
+        "sub_scores": {
+          "breadth": 40,
+          "impact": 45,
+          "pedigree": 50,
+          "selectivity": 45,
+          "trajectory": 60
+        },
+        "top_evidence": []
+      }
+    },
+    "signals": {
+      "career_stage": "early",
+      "has_quantified_impact": true,
+      "highest_institution_tier": "T2",
+      "highest_org_tier": "A",
+      "max_impact_scale": "team",
+      "months_internship": 0,
+      "primary_domain": "academia",
+      "sustained_org_tier": "A",
+      "top_role_selectivity": "highly_selective",
+      "trajectory": "accelerating",
+      "years_fulltime": 5.1
+    },
+    "skills": {
+      "certifications": [],
+      "domain": [
+        "variational inference",
+        "single-cell RNA-seq and ATAC-seq analysis",
+        "spatial transcriptomics (introductory)",
+        "computational genomics"
+      ],
+      "keyword_stuffing_suspected": false,
+      "spoken_languages": [],
+      "technical": [
+        "Python",
+        "PyTorch",
+        "scanpy",
+        "scvi-tools",
+        "R",
+        "Seurat",
+        "Bioconductor",
+        "Snakemake",
+        "Nextflow",
+        "Slurm"
+      ]
+    },
+    "strengths": [
+      "First-author Nature Methods paper accepted within two years of the PhD, with the accuracy gain stated (71% to 86%)",
+      "First-author Genome Biology paper with ~140 citations and a middle-author Nature Immunology paper from the PhD",
+      "Released package with ~2,100 downloads and ~180 stars, plus authored sections of a funded R01 renewal",
+      "Co-supervises three students and reviews for the field's main journals",
+      "Every research bullet carries a number"
+    ],
+    "verdict": "A productive early postdoc with a first-author Nature Methods paper and a used package; held until a spelled-out web address is removed from the text.",
+    "weaknesses": [
+      "No national fellowship as the primary awardee: a T32 slot and a GRFP honorable mention",
+      "T3 PhD and undergraduate institutions, visible on a faculty search",
+      "The Cell Systems paper is in revision and the bioRxiv preprint is unreviewed",
+      "A spelled-out repository address sits in a bullet and must be removed before the text is published"
+    ]
+  },
+  "card_sha256": "83324ec4c602d3fbed510725b5d7755dd75040255bb9ff12a2cce274b734a57f",
+  "category_relevance": {
+    "academia": 1,
+    "finance": 0,
+    "general": 1,
+    "tech": 0.3
+  },
+  "created_at": "2026-10-03T12:54:00Z",
+  "deleted_at": null,
+  "duplicate_of": null,
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+5f7c9f15",
+    "verdict": {
+      "estimated_career_stage": "early",
+      "is_resume": true,
+      "language": "en",
+      "prompt_injection_detected": false,
+      "reason": "Résumé with dated roles and education.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "spelled-out-url-in-b",
+  "held_reason": "pii",
+  "id": "wgud6o5gtm",
+  "kind": "user",
+  "metrics": {
+    "char_count": 3887,
+    "columns_detected": 1,
+    "extraction_quality": 0.96,
+    "font_count": 2,
+    "image_count": 0,
+    "pages": 2,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 539
+  },
+  "owner_hash": "b51d91204d778ecb0afafc72b4de5fee9c8428f617114471cd2855f11e8fbe67",
+  "primary": "academia",
+  "rejected_reason": null,
+  "schema": 1,
+  "scores": {
+    "academia": 74,
+    "general": 70
+  },
+  "source": {
+    "client_version": "fixtures",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 1
+  },
+  "stage": "early",
+  "status": "held",
+  "superseded_by": null,
+  "supersedes": null,
+  "text_sha256": "14b91fe4145738b5e281b1cdc035824fb278ce1c9e0d3075e5a3fa330b3e0fc0",
+  "top_signal": "Nature Methods 1st",
+  "updated_at": "2026-10-03T12:54:00Z",
+  "usage": {
+    "analysis_usd": 0.17728,
+    "gate_usd": 0.0016,
+    "latency_ms": 1
+  },
+  "versions": {
+    "analyst_model": "claude-opus-5-5",
+    "analyst_prompt": "analyst.v1+6dbc77ff",
+    "fell_back": false,
+    "gate_prompt": "gate.v1+5f7c9f15",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "visibility": "anonymous"
+}

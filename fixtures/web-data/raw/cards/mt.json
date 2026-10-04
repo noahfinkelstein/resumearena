@@ -1,0 +1,113 @@
+{
+  "mt5xeujjcu": {
+    "card": {
+      "awards": [
+        {
+          "name": "Regional case competition semifinalist",
+          "scope": "regional",
+          "selectivity": "modest"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "early",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2020,
+          "field": "Business Administration (Marketing)",
+          "gpa_band": "3.5-3.69",
+          "honors": [],
+          "in_progress": false,
+          "institution": "Colorado State University",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 33,
+          "employment_type": "full_time",
+          "highlights": [
+            "Attribution work moved 18% of paid social budget to search; blended cost per order $31 to $26",
+            "Email changes raised click rate 1.9% to 2.4% on a ~900k list",
+            "Built the dashboard that replaced a 40-slide monthly deck"
+          ],
+          "impact_scale": "team",
+          "org": "Summit Trail Outfitters",
+          "org_tier": "C",
+          "role": "Marketing Analyst",
+          "role_selectivity": "modest",
+          "seniority": "junior",
+          "years": "2024-present"
+        },
+        {
+          "duration_months": 22,
+          "employment_type": "full_time",
+          "highlights": [
+            "Acquisition reporting for an app with ~2M monthly active users",
+            "Wrote the UTM tagging guide the team adopted"
+          ],
+          "impact_scale": "team",
+          "org": "Brightline Software",
+          "org_tier": "C",
+          "role": "Associate Marketing Analyst",
+          "role_selectivity": "modest",
+          "seniority": "junior",
+          "years": "2022-2023"
+        },
+        {
+          "duration_months": 24,
+          "employment_type": "full_time",
+          "highlights": [
+            "Reporting and timelines for six small-business clients"
+          ],
+          "impact_scale": "individual",
+          "org": "Ridgeline Creative",
+          "org_tier": "C",
+          "role": "Marketing Coordinator",
+          "role_selectivity": "modest",
+          "seniority": "junior",
+          "years": "2020-2022"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Competitor content audit and campaign recap deck"
+          ],
+          "impact_scale": "individual",
+          "org": "Colorado Tourism Office",
+          "org_tier": "C",
+          "role": "Marketing Intern",
+          "role_selectivity": "modest",
+          "seniority": "intern",
+          "years": "2019-2019"
+        }
+      ],
+      "headline": "Marketing analyst, 3 years across three employers after a T3 degree; budget shift cut cost per order $31 to $26",
+      "leadership": [],
+      "notable": [],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "SQL (BigQuery)",
+        "Google Analytics 4",
+        "Looker Studio",
+        "Paid media analysis",
+        "A/B test readouts",
+        "Klaviyo",
+        "Google Ads",
+        "Meta Ads Manager"
+      ],
+      "top_signal": "CPO $31→$26",
+      "years_fulltime": 3.8
+    },
+    "st": "early"
+  }
+}

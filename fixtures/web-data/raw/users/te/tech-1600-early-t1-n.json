@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:05:00Z",
+  "handle": "tech-1600-early-t1-n",
+  "key_exposed": false,
+  "owner_hash": "62f88b73846555b7ddb8e0d9d27d6959d630ed55d5a5efb42cc6fd289beaa733",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:05:00Z",
+      "current": true,
+      "id": "4jyb7vrzw7"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

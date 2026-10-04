@@ -1,0 +1,105 @@
+{
+  "udyten5veu": {
+    "card": {
+      "awards": [
+        {
+          "name": "SHRM-CP",
+          "scope": "national",
+          "selectivity": "modest"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "mid",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2020,
+          "field": "Human Resource Management",
+          "gpa_band": "3.0-3.49",
+          "honors": [],
+          "in_progress": false,
+          "institution": "Grand Valley State University",
+          "institution_tier": "T4"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 32,
+          "employment_type": "full_time",
+          "highlights": [
+            "Retention program: first-year RN turnover 31% to 22%, division turnover 19% to 14%",
+            "Compensation review of 42 job codes covering ~$3.1M of annual payroll, approved and implemented",
+            "~90 employee-relations cases a year; offer-to-acceptance time 9 days to 4"
+          ],
+          "impact_scale": "org",
+          "org": "Lakeshore Health System",
+          "org_tier": "C",
+          "role": "HR Business Partner, Nursing Division",
+          "role_selectivity": "modest",
+          "seniority": "mid",
+          "years": "2024-present"
+        },
+        {
+          "duration_months": 32,
+          "employment_type": "full_time",
+          "highlights": [
+            "Leave-processing errors ~12 to 3 a month after rewriting the intake checklist",
+            "HRIS data cleanup for ~700 records, 98% clean on first validation"
+          ],
+          "impact_scale": "team",
+          "org": "Lakeshore Health System",
+          "org_tier": "C",
+          "role": "HR Generalist, Shared Services",
+          "role_selectivity": "modest",
+          "seniority": "junior",
+          "years": "2021-2024"
+        },
+        {
+          "duration_months": 13,
+          "employment_type": "full_time",
+          "highlights": [
+            "Onboarding for ~60 hires a month during the pandemic surge"
+          ],
+          "impact_scale": "team",
+          "org": "Lakeshore Health System",
+          "org_tier": "C",
+          "role": "HR Coordinator, Talent Acquisition",
+          "role_selectivity": "modest",
+          "seniority": "junior",
+          "years": "2020-2021"
+        }
+      ],
+      "headline": "HR business partner for a 1,200-person nursing division, 5 years at a regional hospital system; RN turnover 31% to 22%",
+      "leadership": [
+        "Supports a Chief Nursing Officer and 38 nurse managers",
+        "Board member of a regional HR association chapter"
+      ],
+      "notable": [
+        "Division turnover outcome with before-and-after numbers over two fiscal years",
+        "Three promotions inside one employer in five years"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Employee relations",
+        "Retention analysis",
+        "Compensation review",
+        "Workforce dashboards",
+        "Workday HCM",
+        "Power BI",
+        "Leave administration",
+        "Crucial Conversations facilitation"
+      ],
+      "top_signal": "RN turnover 31→22%",
+      "years_fulltime": 6.3
+    },
+    "st": "mid"
+  }
+}

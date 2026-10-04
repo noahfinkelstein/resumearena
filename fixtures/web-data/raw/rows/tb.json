@@ -1,0 +1,38 @@
+{
+  "tbaag4phg4": {
+    "c": {
+      "general": 1,
+      "tech": 0.95
+    },
+    "ch": "a42390c8296feb491fcb536ce7652e6fb4c6746242353d1b946f0148f62f55df",
+    "h": "tech-1300-early-juni",
+    "p": "tech",
+    "s": "analyzed",
+    "sc": {
+      "general": 46,
+      "tech": 46
+    },
+    "sig": "9h to 2h reconcile",
+    "ss": {
+      "general": [
+        35,
+        45,
+        42,
+        25,
+        35,
+        52
+      ],
+      "tech": [
+        35,
+        45,
+        44,
+        25,
+        30,
+        53
+      ]
+    },
+    "st": "early",
+    "t": 1791028920,
+    "v": "handle"
+  }
+}

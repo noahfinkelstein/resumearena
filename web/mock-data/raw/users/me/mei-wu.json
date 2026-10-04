@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-09-21T14:20:11Z",
+  "handle": "mei-wu",
+  "key_exposed": false,
+  "owner_hash": "7270340ccb27b31ce50ac5ba98e79f10b1d3ecdde84df458f24368f79e9b3eba",
+  "resumes": [
+    {
+      "created_at": "2026-09-21T14:20:11Z",
+      "current": true,
+      "id": "m27yidjdbx"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

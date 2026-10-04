@@ -1,0 +1,55 @@
+{
+  "category": "academia",
+  "cols": [
+    "rank",
+    "id",
+    "identity",
+    "tier",
+    "r",
+    "pm",
+    "w",
+    "l",
+    "d",
+    "stage",
+    "sig",
+    "d7",
+    "top"
+  ],
+  "page": 1,
+  "pages": 1,
+  "partition": "stage-early",
+  "rows": [
+    [
+      1,
+      "m2lekeeycg",
+      "anon-m2lekee",
+      "candidate",
+      1633,
+      192,
+      9,
+      4,
+      3,
+      "early",
+      "5 1st-author pubs",
+      0,
+      0.5
+    ],
+    [
+      2,
+      "cdrjnfxuqr",
+      "anon-cdrjnfx",
+      "contender",
+      1242,
+      174,
+      5,
+      13,
+      7,
+      "early",
+      "2 mid-author pubs",
+      0,
+      1
+    ]
+  ],
+  "schema": 1,
+  "total": 2
+}

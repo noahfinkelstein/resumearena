@@ -1,0 +1,152 @@
+{
+  "wjddmk5w4b": {
+    "card": {
+      "awards": [
+        {
+          "name": "National regional leadership award (1 of 3)",
+          "scope": "national",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Local business journal 40 Under 40",
+          "scope": "regional",
+          "selectivity": "selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "senior",
+      "education": [
+        {
+          "degree_level": "master",
+          "end_year": 2020,
+          "field": "Public Administration (nonprofit management)",
+          "gpa_band": "3.7-3.89",
+          "honors": [],
+          "in_progress": false,
+          "institution": "Georgia State University",
+          "institution_tier": "T3"
+        },
+        {
+          "degree_level": "bachelor",
+          "end_year": 2013,
+          "field": "Building Science",
+          "gpa_band": "3.0-3.49",
+          "honors": [],
+          "in_progress": false,
+          "institution": "Auburn University",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 58,
+          "employment_type": "full_time",
+          "highlights": [
+            "Home completions 60 to 190 a year; budget $8.2M to $15M; 80 staff, 7 direct reports",
+            "First regional capital campaign: $4.0M against a $3.5M goal in 20 months; funded a 32-home development",
+            "Staff turnover 24% to 13%; hurricane response repaired 95 homes with $2.1M secured"
+          ],
+          "impact_scale": "org",
+          "org": "Habitat for Humanity International, Southeast Region",
+          "org_tier": "B",
+          "role": "Regional Director",
+          "role_selectivity": "selective",
+          "seniority": "director",
+          "years": "2022-present"
+        },
+        {
+          "duration_months": 46,
+          "employment_type": "full_time",
+          "highlights": [
+            "14 staff and ~12,000 volunteers a year",
+            "Cycle time per home 14 weeks to 9; cost per home down ~$6,000",
+            "Recordable safety incidents 11 to 2"
+          ],
+          "impact_scale": "org",
+          "org": "Habitat for Humanity International, Southeast Region",
+          "org_tier": "B",
+          "role": "Director of Construction and Programs",
+          "role_selectivity": "modest",
+          "seniority": "director",
+          "years": "2018-2021"
+        },
+        {
+          "duration_months": 21,
+          "employment_type": "full_time",
+          "highlights": [
+            "Affiliate on-time reporting 55% to 95%; led two mergers of four organizations"
+          ],
+          "impact_scale": "org",
+          "org": "Habitat for Humanity International, Southeast Region",
+          "org_tier": "B",
+          "role": "Affiliate Support Manager",
+          "role_selectivity": "modest",
+          "seniority": "manager",
+          "years": "2016-2018"
+        },
+        {
+          "duration_months": 22,
+          "employment_type": "full_time",
+          "highlights": [
+            "20-25 builds a year with 4 staff and ~2,500 volunteers"
+          ],
+          "impact_scale": "team",
+          "org": "Habitat for Humanity of Greater Birmingham",
+          "org_tier": "C",
+          "role": "Construction Manager",
+          "role_selectivity": "modest",
+          "seniority": "manager",
+          "years": "2014-2016"
+        },
+        {
+          "duration_months": 12,
+          "employment_type": "volunteer",
+          "highlights": [
+            "Site supervisor on 12 homes"
+          ],
+          "impact_scale": "team",
+          "org": "Habitat for Humanity (AmeriCorps)",
+          "org_tier": "C",
+          "role": "AmeriCorps Member, site supervisor",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2013-2014"
+        }
+      ],
+      "headline": "Regional director at a national housing nonprofit, 12 years; 80 staff, $15M budget; output 60 to 190 homes a year",
+      "leadership": [
+        "Leads an 80-person region with 7 direct reports and an $15M budget",
+        "Finance committee chair on a statewide housing coalition board",
+        "Testified twice before a state legislative committee; the trust fund expansion passed"
+      ],
+      "notable": [
+        "Tripled regional output and nearly doubled the budget in four years, with the numbers stated",
+        "Capital campaign closed at 114% of goal",
+        "Highest regional engagement score two years running after cutting turnover from 24% to 13%"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Nonprofit operations and finance",
+        "Capital campaigns",
+        "Construction management",
+        "Government contract compliance",
+        "Program evaluation",
+        "Legislative testimony",
+        "Salesforce NPSP",
+        "Procore",
+        "Spanish (professional)"
+      ],
+      "top_signal": "60→190 homes/year",
+      "years_fulltime": 13.2
+    },
+    "st": "senior"
+  }
+}

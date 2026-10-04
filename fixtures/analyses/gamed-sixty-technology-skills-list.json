@@ -1,0 +1,460 @@
+{
+  "analysis_confidence": 0.9,
+  "ats": {
+    "detected": {
+      "action_verb_ratio": 0.9,
+      "bullet_count": 16,
+      "bullet_marker_consistent": true,
+      "contact_at_top": true,
+      "date_format_consistent": true,
+      "date_formats_seen": [
+        "MMM YYYY"
+      ],
+      "has_email": true,
+      "has_location": true,
+      "has_phone": true,
+      "has_profile_link": true,
+      "has_street_address": false,
+      "has_summary_section": true,
+      "nonstandard_headings": [
+        "CORE COMPETENCIES"
+      ],
+      "quantified_bullet_ratio": 0.15,
+      "reverse_chronological": true,
+      "section_order": [
+        "Summary",
+        "Skills",
+        "Skills",
+        "Experience",
+        "Projects",
+        "Education",
+        "Certifications"
+      ],
+      "skill_bars_or_ratings": false,
+      "standard_headings": [
+        "PROFESSIONAL SUMMARY",
+        "TECHNICAL SKILLS",
+        "PROFESSIONAL EXPERIENCE",
+        "PROJECTS",
+        "EDUCATION",
+        "CERTIFICATIONS"
+      ],
+      "uses_tables_suspected": false
+    },
+    "factors": {
+      "consistency": {
+        "note": "One date format (MMM YYYY)",
+        "score": 100
+      },
+      "contact_info": {
+        "note": "Email, phone, city and two profile links",
+        "score": 100
+      },
+      "formatting": {
+        "note": "Standard headings and one bullet glyph; 3 fonts; a keyword banner under the contact line",
+        "score": 90
+      },
+      "keyword_alignment": {
+        "note": "Stuffing suspected: about 70 technologies in the list, a competencies block and repeated phrases (\"scalable, high-performance\") across bullets; discounted",
+        "score": 45
+      },
+      "length": {
+        "note": "2 pages at three years",
+        "score": 100
+      },
+      "parseability": {
+        "note": "Single-column 2-page PDF, extraction quality 0.95; contact placeholders on line 2",
+        "score": 100
+      },
+      "quantification": {
+        "note": "About 15% of bullets carry a number tied to an outcome; most restate the skills list",
+        "score": 40
+      }
+    },
+    "fixes": [
+      {
+        "factor": "keyword_alignment",
+        "fix": "Cut the skills section to the 10 to 12 technologies that appear in a bullet with an outcome; delete Core Competencies",
+        "issue": "About 70 technologies across 8 lines plus a competencies block repeating the summary",
+        "priority": "high"
+      },
+      {
+        "factor": "quantification",
+        "fix": "Before: Built RESTful APIs and microservices with Node.js, Express and PostgreSQL → After: Built __ APIs serving __ requests/day for __ clients; p95 latency __ ms",
+        "issue": "Only the replatform bullet states a result",
+        "priority": "high"
+      },
+      {
+        "factor": "formatting",
+        "fix": "Replace both with one sentence: role, three years, nine clients, the one measured result",
+        "issue": "The keyword banner under the contact line and the adjective-heavy summary read as filler",
+        "priority": "medium"
+      },
+      {
+        "factor": "quantification",
+        "fix": "Add a scale signal to each project or cut to the one with real use",
+        "issue": "Projects have no users, stars or adoption",
+        "priority": "medium"
+      }
+    ],
+    "score": 78,
+    "target_role_used": "Full stack developer"
+  },
+  "awards": [],
+  "card": {
+    "awards": [],
+    "card_version": "1.0",
+    "career_stage": "early",
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2023,
+        "field": "Information Technology",
+        "gpa_band": "not_listed",
+        "honors": [],
+        "in_progress": false,
+        "institution": "University of North Texas",
+        "institution_tier": "T3"
+      }
+    ],
+    "experiences": [
+      {
+        "duration_months": 28,
+        "employment_type": "full_time",
+        "highlights": [
+          "React and Node.js applications for 9 agency clients",
+          "E-commerce replatform improved page load time 35%"
+        ],
+        "impact_scale": "team",
+        "org": "Brightwater Digital",
+        "org_tier": "C",
+        "role": "Full Stack Developer",
+        "role_selectivity": "modest",
+        "seniority": "mid",
+        "years": "2024-present"
+      },
+      {
+        "duration_months": 10,
+        "employment_type": "full_time",
+        "highlights": [
+          "Marketing sites for 14 clients"
+        ],
+        "impact_scale": "team",
+        "org": "Brightwater Digital",
+        "org_tier": "C",
+        "role": "Junior Web Developer",
+        "role_selectivity": "modest",
+        "seniority": "junior",
+        "years": "2023-2024"
+      }
+    ],
+    "headline": "Full-stack developer, 3 years at a mid-size agency; one client replatform with a 35% load-time gain; T3 IT degree",
+    "leadership": [
+      "Mentors one junior developer"
+    ],
+    "notable": [],
+    "projects": [
+      {
+        "descriptor": "Task-management web app with JWT auth and CI on AWS",
+        "highlight": "No users stated",
+        "kind": "software",
+        "scale_signal": "none stated",
+        "technical_depth": "standard"
+      },
+      {
+        "descriptor": "Developer portfolio platform on Next.js and GraphQL",
+        "highlight": "No users stated",
+        "kind": "software",
+        "scale_signal": "none stated",
+        "technical_depth": "standard"
+      },
+      {
+        "descriptor": "React Native shopping-list app with a Node.js API",
+        "highlight": "No users stated",
+        "kind": "software",
+        "scale_signal": "none stated",
+        "technical_depth": "standard"
+      }
+    ],
+    "publications_summary": {
+      "citation_signal": "not stated",
+      "count_total": 0,
+      "first_author_count": 0,
+      "strong_venue_count": 0,
+      "top_venue_count": 0,
+      "venues": []
+    },
+    "skills_top": [
+      "React",
+      "Node.js",
+      "TypeScript",
+      "PostgreSQL",
+      "AWS",
+      "Docker",
+      "Next.js",
+      "Jest",
+      "Cypress",
+      "WordPress"
+    ],
+    "top_signal": "Agency full-stack",
+    "years_fulltime": 3.2
+  },
+  "category_relevance": {
+    "academia": 0,
+    "finance": 0,
+    "general": 1,
+    "tech": 1
+  },
+  "education": [
+    {
+      "degree_level": "bachelor",
+      "end_year": 2023,
+      "field": "Information Technology",
+      "gpa": null,
+      "gpa_band": "not_listed",
+      "gpa_scale": null,
+      "honors": [],
+      "in_progress": false,
+      "institution": "University of North Texas",
+      "institution_tier": "T3",
+      "notes": "GPA omitted",
+      "start_year": null
+    }
+  ],
+  "experiences": [
+    {
+      "bullets_condensed": [
+        "Builds React and Node.js applications for 9 agency clients",
+        "E-commerce replatform for a regional retailer; page load time improved 35% after launch",
+        "REST APIs and services on PostgreSQL, deployed on AWS with Docker and CI pipelines",
+        "Mentors one junior developer"
+      ],
+      "duration_months": 28,
+      "employment_type": "full_time",
+      "end": "present",
+      "impact_scale": "team",
+      "is_current": true,
+      "org": "Brightwater Digital",
+      "org_tier": "C",
+      "org_type": "private_company",
+      "ownership": "owned_component",
+      "quantified_impact": true,
+      "role": "Full Stack Developer",
+      "role_selectivity": "modest",
+      "seniority": "mid",
+      "start": "2024-06",
+      "team_or_division": null
+    },
+    {
+      "bullets_condensed": [
+        "WordPress and React marketing sites for 14 clients",
+        "Maintained REST integrations between client CMS platforms and marketing tools"
+      ],
+      "duration_months": 10,
+      "employment_type": "full_time",
+      "end": "2024-05",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "Brightwater Digital",
+      "org_tier": "C",
+      "org_type": "private_company",
+      "ownership": "contributed",
+      "quantified_impact": false,
+      "role": "Junior Web Developer",
+      "role_selectivity": "modest",
+      "seniority": "junior",
+      "start": "2023-08",
+      "team_or_division": null
+    }
+  ],
+  "input": {
+    "is_resume": true,
+    "language": "en",
+    "parse_confidence": 0.95,
+    "placeholders_seen": [
+      "name",
+      "email",
+      "phone",
+      "url"
+    ],
+    "word_count_estimate": 570
+  },
+  "leadership": [],
+  "projects": [
+    {
+      "description_condensed": "Task-management app with REST API, JWT auth and a CI pipeline on AWS; no users stated",
+      "has_external_validation": false,
+      "kind": "software",
+      "name": "TaskFlow",
+      "quantified_impact": false,
+      "scale_signal": "none stated",
+      "technical_depth": "standard"
+    },
+    {
+      "description_condensed": "Developer portfolio platform on Next.js, GraphQL and PostgreSQL; described only in adjectives",
+      "has_external_validation": false,
+      "kind": "software",
+      "name": "DevLink",
+      "quantified_impact": false,
+      "scale_signal": "none stated",
+      "technical_depth": "standard"
+    },
+    {
+      "description_condensed": "React Native shopping-list app with a Node.js API on AWS; no users stated",
+      "has_external_validation": false,
+      "kind": "software",
+      "name": "ShopSync",
+      "quantified_impact": false,
+      "scale_signal": "none stated",
+      "technical_depth": "standard"
+    }
+  ],
+  "publications": [],
+  "red_flags": [
+    {
+      "detail": "About 70 technologies across 8 skills lines, a competencies block and bullets reusing the same six terms",
+      "location": "Technical Skills / Core Competencies",
+      "severity": "medium",
+      "type": "keyword_stuffing"
+    },
+    {
+      "detail": "\"Results-driven\" and \"proven ability to deliver\" stand in for outcomes",
+      "location": "Professional Summary",
+      "severity": "low",
+      "type": "self_description_as_evidence"
+    }
+  ],
+  "residual_pii": {
+    "email_count": 0,
+    "name_suspected": false,
+    "other_identifiers": [],
+    "phone_count": 0,
+    "street_address_suspected": false,
+    "url_count": 0
+  },
+  "schema_version": "1.1",
+  "scores": {
+    "academia": {
+      "holistic_score": 2,
+      "included": false,
+      "rationale": "No research output.",
+      "stage_relative_score": 2,
+      "sub_scores": {
+        "breadth": 5,
+        "impact": 5,
+        "pedigree": 25,
+        "selectivity": 10,
+        "trajectory": 30
+      },
+      "top_evidence": []
+    },
+    "finance": {
+      "holistic_score": 3,
+      "included": false,
+      "rationale": "No finance footprint.",
+      "stage_relative_score": 3,
+      "sub_scores": {
+        "breadth": 5,
+        "impact": 10,
+        "pedigree": 25,
+        "selectivity": 10,
+        "trajectory": 30
+      },
+      "top_evidence": []
+    },
+    "general": {
+      "holistic_score": 36,
+      "included": true,
+      "rationale": "Three years at a mid-size agency with one measured outcome (35% faster page load for one client); the rest of the page is a 70-technology list and bullets that repeat the same six keywords.",
+      "stage_relative_score": 36,
+      "sub_scores": {
+        "breadth": 25,
+        "impact": 30,
+        "pedigree": 35,
+        "selectivity": 20,
+        "trajectory": 45
+      },
+      "top_evidence": [
+        "Full Stack Developer, 3 years at an agency; promoted from junior after 10 months",
+        "One quantified outcome: page load time improved 35% on a replatform",
+        "Skills section of about 70 technologies across 8 lines"
+      ]
+    },
+    "tech": {
+      "holistic_score": 37,
+      "included": true,
+      "rationale": "A C-tier agency developer with ordinary delivery work; keyword density is discounted (about 70 technologies, a competencies block and bullets reusing the same terms), leaving one measured result and three unvalidated side projects.",
+      "stage_relative_score": 38,
+      "sub_scores": {
+        "breadth": 25,
+        "impact": 32,
+        "pedigree": 35,
+        "selectivity": 22,
+        "trajectory": 45
+      },
+      "top_evidence": [
+        "Replatform with a 35% page-load improvement is the only outcome",
+        "Core competencies block repeats the summary and the bullets",
+        "Three personal projects with no users or adoption stated"
+      ]
+    }
+  },
+  "signals": {
+    "career_stage": "early",
+    "has_quantified_impact": true,
+    "highest_institution_tier": "T3",
+    "highest_org_tier": "C",
+    "max_impact_scale": "team",
+    "months_internship": 0,
+    "primary_domain": "tech",
+    "sustained_org_tier": "C",
+    "top_role_selectivity": "modest",
+    "trajectory": "steady",
+    "years_fulltime": 3.2
+  },
+  "skills": {
+    "certifications": [
+      "AWS Certified Developer – Associate",
+      "Certified ScrumMaster",
+      "freeCodeCamp Responsive Web Design"
+    ],
+    "domain": [
+      "Agency web development",
+      "E-commerce replatforming"
+    ],
+    "keyword_stuffing_suspected": true,
+    "spoken_languages": [],
+    "technical": [
+      "JavaScript",
+      "TypeScript",
+      "React",
+      "Next.js",
+      "Node.js",
+      "Express",
+      "PostgreSQL",
+      "MongoDB",
+      "AWS",
+      "Docker",
+      "Terraform",
+      "GitHub Actions",
+      "Jest",
+      "Cypress",
+      "Tailwind CSS",
+      "WordPress",
+      "PHP",
+      "React Native"
+    ]
+  },
+  "strengths": [
+    "Three years of continuous agency delivery with promotion from junior after ten months",
+    "One measured client outcome: a replatform that improved page load time 35%",
+    "AWS Developer Associate and Scrum certifications are earned, not pending"
+  ],
+  "verdict": "An ordinary agency developer record buried under a 70-technology list; one measured outcome survives the discounting.",
+  "weaknesses": [
+    "Skills section lists about 70 technologies, most of which appear in no bullet",
+    "Bullets repeat \"scalable, high-performance\" and the same framework names instead of outcomes",
+    "Projects are described in adjectives with no users or adoption",
+    "Summary opens with self-descriptions (\"results-driven\", \"proven ability\")"
+  ]
+}

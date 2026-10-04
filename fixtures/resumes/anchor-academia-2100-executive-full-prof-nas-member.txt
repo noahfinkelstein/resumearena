@@ -1,0 +1,76 @@
+[name]
+Professor and Chair, Department of Chemical Engineering, Stanford University
+Stanford, CA · [email] · [phone] · [url]
+
+Condensed curriculum vitae (full CV, approximately 40 pages, available on request).
+
+ACADEMIC APPOINTMENTS
+2021–present  Chair, Department of Chemical Engineering, Stanford University (34 faculty, about 180 graduate students, annual research expenditure about $45M)
+2016–present  Founding Director, Stanford Center for Electrochemical Energy Materials (11 faculty across 4 departments; about $12M a year in sponsored research; 60 graduate students and postdocs)
+2012–present  Professor of Chemical Engineering and, by courtesy, of Materials Science and Engineering, Stanford University
+2007–2012  Associate Professor (with tenure), Department of Chemical Engineering, Stanford University
+2001–2007  Assistant Professor, Department of Chemical Engineering, Stanford University
+1999–2001  Postdoctoral Fellow, Department of Chemistry, University of California, Berkeley
+
+EDUCATION
+1999  Ph.D., Chemical Engineering, Massachusetts Institute of Technology
+1994  B.S.E., Chemical Engineering, summa cum laude, Princeton University
+
+HONORS AND AWARDS (selected)
+2024  Kavli Prize in Nanoscience (shared with two co-laureates)
+2019  Member, National Academy of Sciences
+2017  Member, National Academy of Engineering
+2016  Fellow, American Academy of Arts and Sciences
+2015  ACS Award in Pure Chemistry
+2013  Fellow, Materials Research Society
+2010  Alan T. Waterman Award, National Science Foundation
+2008  MacArthur Fellowship
+2004  Packard Fellowship for Science and Engineering
+2003  NSF CAREER Award
+2002  Alfred P. Sloan Research Fellowship
+2000  Miller Research Fellowship, University of California, Berkeley (declined for faculty position)
+Highly Cited Researcher, Clarivate, every year 2016–2025
+
+RESEARCH
+Interfacial electrochemistry and nanostructured materials for energy storage and conversion: solid-state electrolytes, operando characterization of electrode interfaces, and design rules for fast-ion conductors. Roughly 200 peer-reviewed papers (about 60 in Nature, Science, Nature-family journals, JACS, or PNAS); approximately 60,000 citations; h-index 118 (Google Scholar, 2026). Fourteen issued US patents; two licensed to a battery manufacturer and one forming the basis of a company I co-founded in 2014 (acquired 2020).
+
+SELECTED PUBLICATIONS (of about 200; corresponding author on all listed)
+1. Design rules for lithium superionic conductors from lattice dynamics. Nature, 2023. About 1,400 citations.
+2. Operando imaging of dendrite nucleation at solid electrolyte interfaces. Science, 2021. About 1,900 citations.
+3. A ceramic-polymer composite electrolyte with ionic conductivity above 10 mS/cm at room temperature. Nature Energy, 2019. About 2,600 citations.
+4. Anion-framework engineering of sulfide electrolytes. Nature Materials, 2017. About 2,100 citations.
+5. Interfacial charge transfer at oxide cathodes probed by ambient-pressure X-ray spectroscopy. JACS, 2015. About 1,200 citations.
+6. Grain-boundary resistance in garnet electrolytes. Nature Communications, 2014. About 1,700 citations.
+7. Nanoscale phase separation in lithium iron phosphate during cycling. Science, 2011. About 3,200 citations.
+8. Surface reconstruction of layered oxide cathodes. Nature Materials, 2010. About 2,800 citations.
+9. Electrochemical strain microscopy of ion transport. PNAS, 2008. About 900 citations.
+10. Templated growth of mesoporous metal oxides for electrocatalysis. JACS, 2004. About 1,100 citations.
+Also: 3 Annual Reviews articles; 2 book chapters; co-editor of one Springer volume (2018).
+
+MENTORING
+Supervised 42 Ph.D. students to completion and 38 postdoctoral fellows. Fifteen former students and postdocs now hold faculty positions (including at MIT, Berkeley, Caltech, ETH Zurich, Tsinghua, Michigan, Northwestern, UT Austin); eleven are in industrial research leadership; two founded companies. Three former students have received NSF CAREER awards and one a Sloan Fellowship.
+
+PROFESSIONAL SERVICE (selected)
+2022–present  Member, Board on Energy and Environmental Systems, National Academies
+2020–present  Associate Editor, Journal of the American Chemical Society
+2018–2021  Chair, Basic Energy Sciences Advisory Committee subcommittee on energy storage, US Department of Energy
+2014–2019  Editorial board, Nature Energy
+2012–2016  Director, DOE Energy Frontier Research Center on interfacial ion transport (five institutions, $19M over four years)
+Program committee chair, Materials Research Society Fall Meeting, 2016. Reviewer for NSF, DOE, NIH, ERC, and about 25 journals.
+
+INVITED LECTURES (selected from about 300)
+Kavli Prize Lecture, Oslo, 2024 · Plenary, International Meeting on Lithium Batteries, 2022 · Faraday Discussions opening lecture, 2021 · Priestley Medal Symposium invited talk, 2019 · MRS Fall Meeting plenary, 2017 · Gordon Research Conference on Electrochemistry, chair 2015 · Named lectureships at Caltech, Cornell, Delft, Kyoto, Northwestern, Penn, Toronto, Wisconsin
+
+TEACHING
+Undergraduate thermodynamics (annually since 2001; about 110 students a year); graduate electrochemical engineering (developed 2006; now taught at four other universities from the published notes). Stanford School of Engineering teaching award, 2009 and 2018.
+
+ENTREPRENEURSHIP AND ADVISING
+Co-founder and scientific adviser, solid-state battery materials company (2014–2020; Series B; acquired by a major automotive supplier in 2020). Scientific advisory boards of three energy-storage companies and one national laboratory directorate. Expert witness in two patent matters (2017, 2022).
+
+LEADERSHIP OUTCOMES AS CHAIR AND CENTER DIRECTOR
+• Department: hired 9 faculty in five years (5 women, 3 from under-represented groups); doctoral applications up 60%; two new interdisciplinary degree programs launched; $80M building renovation funded and under construction.
+• Center: grew from 4 to 11 faculty; raised a $25M endowment gift and about $70M in cumulative sponsored research; 14 center-affiliated start-ups; annual industry symposium with 300 attendees.
+• Established the department's postdoctoral teaching fellowship (18 fellows to date; 12 now faculty).
+
+SKILLS AND LANGUAGES
+Electrochemical characterization, operando X-ray and electron microscopy, solid-state synthesis, materials informatics. English (native), German (fluent), Japanese (conversational).

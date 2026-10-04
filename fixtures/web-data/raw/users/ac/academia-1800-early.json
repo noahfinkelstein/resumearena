@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:26:00Z",
+  "handle": "academia-1800-early",
+  "key_exposed": false,
+  "owner_hash": "464c4879a182fe1fcd31839a605e5e05c4b7599fc6902be017e94506028af6ca",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:26:00Z",
+      "current": true,
+      "id": "m2lekeeycg"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

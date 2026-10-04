@@ -1,0 +1,32 @@
+{
+  "expect": {
+    "gate": "pass",
+    "status": "analyzed"
+  },
+  "group": "gamed",
+  "intended_anchor": null,
+  "intended_categories": [
+    "general",
+    "tech"
+  ],
+  "intended_stage": "mid",
+  "metrics": {
+    "char_count": 4207,
+    "columns_detected": 1,
+    "extraction_quality": 0.97,
+    "font_count": 2,
+    "image_count": 0,
+    "pages": 2,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 616
+  },
+  "slug": "gamed-hidden-keyword-block-at-end"
+}

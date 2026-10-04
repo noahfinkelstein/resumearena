@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:12:00Z",
+  "handle": "finance-1300-early-f",
+  "key_exposed": false,
+  "owner_hash": "5864fb95cad9b019997ac1c6f86fd62f159f22b6ec57f3516e818e5b561825e7",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:12:00Z",
+      "current": true,
+      "id": "2elgnjj7jt"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

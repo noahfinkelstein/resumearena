@@ -1,0 +1,98 @@
+{
+  "categories": [
+    "general",
+    "finance",
+    "tech",
+    "academia"
+  ],
+  "limits": {
+    "max_chars": 15000,
+    "max_file_bytes": 10485760,
+    "max_submissions_per_hour": 20,
+    "min_chars": 400
+  },
+  "models": {
+    "analyst": "claude-opus-5-5",
+    "analyst_effort": "high",
+    "gate": "claude-haiku-4-5",
+    "judge": "claude-sonnet-5-5",
+    "judge_effort": "low"
+  },
+  "pause_message": "",
+  "paused": false,
+  "provisional_blurb": "Not yet placed. The rating is a guess until placement finishes.",
+  "stages": [
+    "student",
+    "new_grad",
+    "early",
+    "mid",
+    "senior",
+    "executive"
+  ],
+  "tiers": [
+    {
+      "blurb": "Below 1200. Where most placements start.",
+      "key": "entrant",
+      "label": "Entrant",
+      "min": -1000000000,
+      "numeral": "I"
+    },
+    {
+      "blurb": "1200–1399. Preferred by the judge more often than not.",
+      "key": "contender",
+      "label": "Contender",
+      "min": 1200,
+      "numeral": "II"
+    },
+    {
+      "blurb": "1400–1599. Consistently preferred by the judge.",
+      "key": "challenger",
+      "label": "Challenger",
+      "min": 1400,
+      "numeral": "III"
+    },
+    {
+      "blurb": "1600–1799. Above anything the rubric alone can award.",
+      "key": "candidate",
+      "label": "Candidate",
+      "min": 1600,
+      "numeral": "IV"
+    },
+    {
+      "blurb": "1800–1999. Wins against strong fields.",
+      "key": "expert",
+      "label": "Expert",
+      "min": 1800,
+      "numeral": "V"
+    },
+    {
+      "blurb": "2000–2199. Beats records a recruiter would mention unprompted.",
+      "key": "master",
+      "label": "Master",
+      "min": 2000,
+      "numeral": "VI"
+    },
+    {
+      "blurb": "2200–2399. Rarely loses to anyone outside this tier.",
+      "key": "grandmaster",
+      "label": "Grandmaster",
+      "min": 2200,
+      "numeral": "VII"
+    },
+    {
+      "blurb": "2400 and above. Seldom more than a few dozen at a time.",
+      "key": "laureate",
+      "label": "Laureate",
+      "min": 2400,
+      "numeral": "VIII"
+    }
+  ],
+  "versions": {
+    "analyst_prompt": "analyst.v1+9e8f7a6b",
+    "engine": "0.1.0",
+    "gate_prompt": "gate.v1+1a2b3c4d",
+    "judge_prompt": "judge.v1+5c4d3e2f",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  }
+}

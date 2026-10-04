@@ -1,0 +1,41 @@
+{
+  "category": "general",
+  "medians": {
+    "breadth": 55,
+    "impact": 61,
+    "pedigree": 58,
+    "selectivity": 60,
+    "stage_relative": 62,
+    "trajectory": 64
+  },
+  "page_size": 100,
+  "pages": 3,
+  "stages": {
+    "early": {
+      "pages": 1,
+      "total": 41
+    },
+    "executive": {
+      "pages": 1,
+      "total": 29
+    },
+    "mid": {
+      "pages": 1,
+      "total": 45
+    },
+    "new_grad": {
+      "pages": 1,
+      "total": 30
+    },
+    "senior": {
+      "pages": 1,
+      "total": 23
+    },
+    "student": {
+      "pages": 1,
+      "total": 81
+    }
+  },
+  "total": 249,
+  "updated_at": "2026-10-03T14:20:11Z"
+}

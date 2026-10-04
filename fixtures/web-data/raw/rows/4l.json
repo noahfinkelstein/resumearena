@@ -1,0 +1,38 @@
+{
+  "4lbszeut6z": {
+    "c": {
+      "academia": 1,
+      "general": 1
+    },
+    "ch": "3bde9c6ae820d97c8e82bdfa110af27cb6a843646bd581371045ee393ec36092",
+    "h": "academic-cv-exactly",
+    "p": "academia",
+    "s": "analyzed",
+    "sc": {
+      "academia": 69,
+      "general": 66
+    },
+    "sig": "AER + 30 papers",
+    "ss": {
+      "academia": [
+        78,
+        66,
+        66,
+        72,
+        35,
+        70
+      ],
+      "general": [
+        78,
+        65,
+        62,
+        72,
+        35,
+        68
+      ]
+    },
+    "st": "senior",
+    "t": 1791032100,
+    "v": "anonymous"
+  }
+}

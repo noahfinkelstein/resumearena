@@ -1,0 +1,70 @@
+{
+  "category": "finance",
+  "cols": [
+    "rank",
+    "id",
+    "identity",
+    "tier",
+    "r",
+    "pm",
+    "w",
+    "l",
+    "d",
+    "stage",
+    "sig",
+    "d7",
+    "top"
+  ],
+  "page": 1,
+  "pages": 1,
+  "partition": "stage-early",
+  "rows": [
+    [
+      1,
+      "ki4jslasr3",
+      "anon-ki4jsla",
+      "candidate",
+      1651,
+      186,
+      11,
+      3,
+      7,
+      "early",
+      "Megafund PE assoc.",
+      0,
+      0.3333
+    ],
+    [
+      2,
+      "2elgnjj7jt",
+      "anon-2elgnjj",
+      "contender",
+      1240,
+      203,
+      5,
+      9,
+      2,
+      "early",
+      "$1.4B div forecast",
+      0,
+      0.6667
+    ],
+    [
+      3,
+      "bswap4rgut",
+      "world-class-superlat",
+      "entrant",
+      1013,
+      215,
+      3,
+      10,
+      2,
+      "early",
+      "WM analyst, 2 yrs",
+      0,
+      1
+    ]
+  ],
+  "schema": 1,
+  "total": 3
+}

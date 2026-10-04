@@ -1,0 +1,407 @@
+{
+  "analysis_confidence": 0.93,
+  "ats": {
+    "detected": {
+      "action_verb_ratio": 0.75,
+      "bullet_count": 12,
+      "bullet_marker_consistent": true,
+      "contact_at_top": true,
+      "date_format_consistent": true,
+      "date_formats_seen": [
+        "Month YYYY",
+        "YYYY"
+      ],
+      "has_email": true,
+      "has_location": true,
+      "has_phone": true,
+      "has_profile_link": false,
+      "has_street_address": false,
+      "has_summary_section": true,
+      "nonstandard_headings": [
+        "CAMPUS INVOLVEMENT"
+      ],
+      "quantified_bullet_ratio": 0.08,
+      "reverse_chronological": true,
+      "section_order": [
+        "Summary",
+        "Education",
+        "Experience",
+        "Leadership",
+        "Skills",
+        "Awards"
+      ],
+      "skill_bars_or_ratings": false,
+      "standard_headings": [
+        "OBJECTIVE",
+        "EDUCATION",
+        "EXPERIENCE",
+        "SKILLS",
+        "OTHER"
+      ],
+      "uses_tables_suspected": false
+    },
+    "factors": {
+      "consistency": {
+        "note": "Month YYYY and YYYY-to-present used consistently by section; every role dated",
+        "score": 100
+      },
+      "contact_info": {
+        "note": "Phone, email and city present; no profile link",
+        "score": 85
+      },
+      "formatting": {
+        "note": "Standard headings, reverse-chronological; objective paragraph; layout not verified (docx)",
+        "score": 90
+      },
+      "keyword_alignment": {
+        "note": "For a communications internship: writing, content planning, analytics and campaign work appear in no bullet; Canva and social platforms only in the list",
+        "score": 44
+      },
+      "length": {
+        "note": "One page equivalent for a student",
+        "score": 100
+      },
+      "parseability": {
+        "note": "Standard headings, contact in the first two lines; layout not verified (docx, extraction 0.95)",
+        "score": 100
+      },
+      "quantification": {
+        "note": "2 of 12 bullets contain a number (team size, group size), neither tied to an outcome",
+        "score": 40
+      }
+    },
+    "fixes": [
+      {
+        "factor": "quantification",
+        "fix": "Before: \"Helped run the camp's parent updates page\" → After: \"Ran a parent updates page for __ families; posted __ times a week; __ parents engaged per post\"",
+        "issue": "No bullet states a result; the camp page and the trainer role both have numbers available",
+        "priority": "high"
+      },
+      {
+        "factor": "keyword_alignment",
+        "fix": "Add one class or club deliverable with scope: a press release, a social campaign with reach, or an event with attendance",
+        "issue": "Nothing on the page shows writing, content or campaign work for the target internship",
+        "priority": "high"
+      },
+      {
+        "factor": "formatting",
+        "fix": "Replace it with one line naming the target internship and the trainer certification",
+        "issue": "Objective paragraph restates the heading",
+        "priority": "medium"
+      },
+      {
+        "factor": "contact_info",
+        "fix": "Add a link to a simple portfolio with two writing samples",
+        "issue": "No portfolio or profile link",
+        "priority": "low"
+      }
+    ],
+    "score": 77,
+    "target_role_used": "Communications, social media or events intern"
+  },
+  "awards": [],
+  "card": {
+    "awards": [],
+    "card_version": "1.0",
+    "career_stage": "student",
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2028,
+        "field": "Communication Studies",
+        "gpa_band": "not_listed",
+        "honors": [
+          "Dean's List (one semester)"
+        ],
+        "in_progress": true,
+        "institution": "University of North Carolina at Greensboro",
+        "institution_tier": "T4"
+      }
+    ],
+    "experiences": [
+      {
+        "duration_months": 26,
+        "employment_type": "part_time",
+        "highlights": [
+          "Certified barista trainer in 2025; store partner of the month once"
+        ],
+        "impact_scale": "individual",
+        "org": "Starbucks",
+        "org_tier": "C",
+        "role": "Barista",
+        "role_selectivity": "modest",
+        "seniority": "other",
+        "years": "2024-present"
+      },
+      {
+        "duration_months": 3,
+        "employment_type": "part_time",
+        "highlights": [
+          "Supervised groups of ~15 children; helped plan a talent show"
+        ],
+        "impact_scale": "individual",
+        "org": "City parks and recreation department",
+        "org_tier": "C",
+        "role": "Summer Camp Counselor",
+        "role_selectivity": "modest",
+        "seniority": "other",
+        "years": "2024"
+      },
+      {
+        "duration_months": 21,
+        "employment_type": "volunteer",
+        "highlights": [
+          "Weekly campus tours for prospective students"
+        ],
+        "impact_scale": "individual",
+        "org": "University admissions office",
+        "org_tier": "C",
+        "role": "Volunteer campus tour guide",
+        "role_selectivity": "modest",
+        "seniority": "other",
+        "years": "2025-present"
+      }
+    ],
+    "headline": "Communications sophomore at a T4 regional university; part-time barista and former camp counselor; two club memberships",
+    "leadership": [],
+    "notable": [],
+    "projects": [],
+    "publications_summary": {
+      "citation_signal": "not stated",
+      "count_total": 0,
+      "first_author_count": 0,
+      "strong_venue_count": 0,
+      "top_venue_count": 0,
+      "venues": []
+    },
+    "skills_top": [
+      "Microsoft Word",
+      "PowerPoint",
+      "Canva",
+      "Google Workspace",
+      "Social media (Instagram, TikTok, Facebook)",
+      "Customer service"
+    ],
+    "top_signal": "Comms sophomore",
+    "years_fulltime": 0
+  },
+  "category_relevance": {
+    "academia": 0.02,
+    "finance": 0,
+    "general": 1,
+    "tech": 0
+  },
+  "education": [
+    {
+      "degree_level": "bachelor",
+      "end_year": 2028,
+      "field": "Communication Studies",
+      "gpa": null,
+      "gpa_band": "not_listed",
+      "gpa_scale": null,
+      "honors": [
+        "Dean's List, Spring 2025"
+      ],
+      "in_progress": true,
+      "institution": "University of North Carolina at Greensboro",
+      "institution_tier": "T4",
+      "notes": "Introductory coursework listed; GPA omitted",
+      "start_year": 2024
+    }
+  ],
+  "experiences": [
+    {
+      "bullets_condensed": [
+        "Drinks, orders and register on morning and weekend shifts; teams of 6-8",
+        "Certified barista trainer in 2025; onboarded new partners",
+        "Partner of the month, March 2026"
+      ],
+      "duration_months": 26,
+      "employment_type": "part_time",
+      "end": "present",
+      "impact_scale": "individual",
+      "is_current": true,
+      "org": "Starbucks",
+      "org_tier": "C",
+      "org_type": "public_company",
+      "ownership": "supported",
+      "quantified_impact": false,
+      "role": "Barista",
+      "role_selectivity": "modest",
+      "seniority": "other",
+      "start": "2024-08",
+      "team_or_division": "Retail store"
+    },
+    {
+      "bullets_condensed": [
+        "Supervised groups of ~15 children ages 8-11",
+        "Helped plan arts and crafts sessions and a talent show"
+      ],
+      "duration_months": 3,
+      "employment_type": "part_time",
+      "end": "2024-08",
+      "impact_scale": "individual",
+      "is_current": false,
+      "org": "City of Greensboro Parks and Recreation",
+      "org_tier": "C",
+      "org_type": "government",
+      "ownership": "supported",
+      "quantified_impact": false,
+      "role": "Summer Camp Counselor",
+      "role_selectivity": "modest",
+      "seniority": "other",
+      "start": "2024-06",
+      "team_or_division": "Summer camp"
+    },
+    {
+      "bullets_condensed": [
+        "Weekly campus tours for prospective students and families"
+      ],
+      "duration_months": 21,
+      "employment_type": "volunteer",
+      "end": "present",
+      "impact_scale": "individual",
+      "is_current": true,
+      "org": "UNCG Office of Admissions",
+      "org_tier": "C",
+      "org_type": "university",
+      "ownership": "supported",
+      "quantified_impact": false,
+      "role": "Volunteer tour guide",
+      "role_selectivity": "modest",
+      "seniority": "other",
+      "start": "2025-01",
+      "team_or_division": "Campus tours"
+    }
+  ],
+  "input": {
+    "is_resume": true,
+    "language": "en",
+    "parse_confidence": 0.96,
+    "placeholders_seen": [
+      "name",
+      "email",
+      "phone"
+    ],
+    "word_count_estimate": 330
+  },
+  "leadership": [],
+  "projects": [],
+  "publications": [],
+  "red_flags": [],
+  "residual_pii": {
+    "email_count": 0,
+    "name_suspected": false,
+    "other_identifiers": [],
+    "phone_count": 0,
+    "street_address_suspected": false,
+    "url_count": 0
+  },
+  "schema_version": "1.1",
+  "scores": {
+    "academia": {
+      "holistic_score": 8,
+      "included": false,
+      "rationale": "No research footprint.",
+      "stage_relative_score": 8,
+      "sub_scores": {
+        "breadth": 5,
+        "impact": 5,
+        "pedigree": 15,
+        "selectivity": 5,
+        "trajectory": 40
+      },
+      "top_evidence": []
+    },
+    "finance": {
+      "holistic_score": 5,
+      "included": false,
+      "rationale": "No finance footprint.",
+      "stage_relative_score": 5,
+      "sub_scores": {
+        "breadth": 5,
+        "impact": 5,
+        "pedigree": 10,
+        "selectivity": 5,
+        "trajectory": 40
+      },
+      "top_evidence": []
+    },
+    "general": {
+      "holistic_score": 26,
+      "included": true,
+      "rationale": "T4 regional university with GPA omitted, service jobs described as duties, two club memberships without roles, and a short tool list. The trainer certification and a tour-guide role are the only signs of being chosen for anything.",
+      "stage_relative_score": 25,
+      "sub_scores": {
+        "breadth": 12,
+        "impact": 8,
+        "pedigree": 18,
+        "selectivity": 10,
+        "trajectory": 40
+      },
+      "top_evidence": [
+        "Communications sophomore, GPA omitted",
+        "Barista since 2024; camp counselor one summer",
+        "Two club memberships without roles"
+      ]
+    },
+    "tech": {
+      "holistic_score": 5,
+      "included": false,
+      "rationale": "No technical footprint.",
+      "stage_relative_score": 5,
+      "sub_scores": {
+        "breadth": 5,
+        "impact": 5,
+        "pedigree": 10,
+        "selectivity": 5,
+        "trajectory": 40
+      },
+      "top_evidence": []
+    }
+  },
+  "signals": {
+    "career_stage": "student",
+    "has_quantified_impact": false,
+    "highest_institution_tier": "T4",
+    "highest_org_tier": "C",
+    "max_impact_scale": "individual",
+    "months_internship": 0,
+    "primary_domain": "other",
+    "sustained_org_tier": "C",
+    "top_role_selectivity": "modest",
+    "trajectory": "too_early",
+    "years_fulltime": 0
+  },
+  "skills": {
+    "certifications": [
+      "CPR and First Aid (2024)",
+      "Starbucks barista trainer (2025)"
+    ],
+    "domain": [
+      "social media (Instagram, TikTok, Facebook)",
+      "customer service"
+    ],
+    "keyword_stuffing_suspected": false,
+    "spoken_languages": [],
+    "technical": [
+      "Microsoft Word",
+      "PowerPoint",
+      "Excel (basic)",
+      "Canva",
+      "Google Workspace"
+    ]
+  },
+  "strengths": [
+    "Held the same part-time job for two years and was certified as a trainer within one",
+    "Named store partner of the month, a small selection by others",
+    "Weekly volunteer tour guiding shows sustained public-speaking practice"
+  ],
+  "verdict": "A sparse but sincere sophomore record of service jobs and club memberships with no outcomes or selections yet.",
+  "weaknesses": [
+    "GPA omitted at a T4 university",
+    "Both club memberships are listed without a role or an output",
+    "No bullet contains an outcome; the skills list is generic office and social tools",
+    "Nothing on the page relates to the target communications internship beyond coursework names"
+  ]
+}

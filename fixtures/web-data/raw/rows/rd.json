@@ -1,0 +1,38 @@
+{
+  "rd44paml4q": {
+    "c": {
+      "general": 1,
+      "tech": 0.6
+    },
+    "ch": "cd0a5b3cb8262047520e19c26575fc47d6906368efea32b718cd022e821d5b21",
+    "h": "general-2100-executi",
+    "p": "general",
+    "s": "analyzed",
+    "sc": {
+      "general": 96,
+      "tech": 93
+    },
+    "sig": "Founder-CEO, IPO",
+    "ss": {
+      "general": [
+        88,
+        98,
+        98,
+        98,
+        80,
+        98
+      ],
+      "tech": [
+        75,
+        95,
+        97,
+        94,
+        70,
+        95
+      ]
+    },
+    "st": "executive",
+    "t": 1791031140,
+    "v": "anonymous"
+  }
+}

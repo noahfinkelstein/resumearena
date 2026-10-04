@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T11:56:11Z",
+  "handle": "m-castellan",
+  "key_exposed": false,
+  "owner_hash": "3e299c57dfdff75a50fb8a0ea95ecf13063c21cfb7e68f558b3aa8715c6efe5a",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T11:56:11Z",
+      "current": true,
+      "id": "x6ppa2a7mq"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

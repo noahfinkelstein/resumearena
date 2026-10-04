@@ -1,0 +1,157 @@
+{
+  "m2lekeeycg": {
+    "card": {
+      "awards": [
+        {
+          "name": "Damon Runyon Fellowship Award",
+          "scope": "national",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "Distinguished Dissertation Award",
+          "scope": "institutional",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Cosyne selected talk (~8% of abstracts)",
+          "scope": "international",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Rackham Predoctoral Fellowship",
+          "scope": "institutional",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Phi Beta Kappa",
+          "scope": "national",
+          "selectivity": "selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "early",
+      "education": [
+        {
+          "degree_level": "phd",
+          "end_year": 2024,
+          "field": "Neuroscience",
+          "gpa_band": "not_listed",
+          "honors": [
+            "Distinguished Dissertation Award (1 of 10 university-wide)",
+            "Rackham Predoctoral Fellowship"
+          ],
+          "in_progress": false,
+          "institution": "University of Michigan",
+          "institution_tier": "T2"
+        },
+        {
+          "degree_level": "bachelor",
+          "end_year": 2019,
+          "field": "Biology and Mathematics",
+          "gpa_band": "not_listed",
+          "honors": [
+            "summa cum laude",
+            "Phi Beta Kappa"
+          ],
+          "in_progress": false,
+          "institution": "University of Rochester",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 25,
+          "employment_type": "fellowship",
+          "highlights": [
+            "Leads a ~1,500-neuron Neuropixels plus chemogenetics project in an HHMI lab",
+            "Built the spike-sorting and alignment pipeline used by 5 lab members, ~2 TB/week",
+            "Supervises a rotation student and an undergraduate"
+          ],
+          "impact_scale": "team",
+          "org": "Massachusetts Institute of Technology",
+          "org_tier": "A",
+          "role": "Postdoctoral Fellow, Brain and Cognitive Sciences",
+          "role_selectivity": "highly_selective",
+          "seniority": "postdoc",
+          "years": "2024-present"
+        },
+        {
+          "duration_months": 60,
+          "employment_type": "full_time",
+          "highlights": [
+            "Five first-author papers incl. Nature Neuroscience, Nature Communications and Neuron",
+            "Established the lab two-photon rig and analysis stack",
+            "Mentored 4 undergraduates (2 co-authors) and 2 rotation students"
+          ],
+          "impact_scale": "industry",
+          "org": "University of Michigan",
+          "org_tier": "B",
+          "role": "Graduate Student, Neuroscience",
+          "role_selectivity": "selective",
+          "seniority": "phd_student",
+          "years": "2019-2024"
+        },
+        {
+          "duration_months": 36,
+          "employment_type": "part_time",
+          "highlights": [
+            "Honors thesis; second author on the resulting paper"
+          ],
+          "impact_scale": "team",
+          "org": "University of Rochester",
+          "org_tier": "B",
+          "role": "Undergraduate Researcher",
+          "role_selectivity": "modest",
+          "seniority": "research_assistant",
+          "years": "2016-2019"
+        }
+      ],
+      "headline": "Postdoc at a T1 institute on a named national fellowship; 5 first-author papers incl. 2 Nature-family; ~900 citations",
+      "leadership": [
+        "Co-organized a graduate neuroscience symposium with 120 attendees",
+        "Mentored 4 undergraduates and 2 rotation students; 2 became co-authors",
+        "Reviewer for Nature Neuroscience, Neuron, eLife and others; ~20 manuscripts"
+      ],
+      "notable": [
+        "Five first-author papers by the end of the PhD, two in Nature-family journals and one in Neuron",
+        "Middle author on a Science paper",
+        "Named three-year national postdoctoral fellowship",
+        "Invited talks at four universities within two years of the PhD",
+        "~900 citations stated"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "~900 citations claimed",
+        "count_total": 9,
+        "first_author_count": 6,
+        "strong_venue_count": 3,
+        "top_venue_count": 3,
+        "venues": [
+          "Nature Neuroscience",
+          "Nature Communications",
+          "Neuron",
+          "Science",
+          "Journal of Neuroscience",
+          "eNeuro",
+          "Current Biology",
+          "Journal of Neurophysiology",
+          "bioRxiv"
+        ]
+      },
+      "skills_top": [
+        "Neuropixels electrophysiology",
+        "Two-photon calcium imaging",
+        "Optogenetics and chemogenetics",
+        "Rodent behavior",
+        "Python",
+        "PyTorch",
+        "Kilosort",
+        "Latent-variable behavioral models",
+        "MATLAB"
+      ],
+      "top_signal": "5 1st-author pubs",
+      "years_fulltime": 4.6
+    },
+    "st": "early"
+  }
+}

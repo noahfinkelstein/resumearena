@@ -1,0 +1,671 @@
+{
+  "analysis_confidence": 0.92,
+  "ats": {
+    "detected": {
+      "action_verb_ratio": 0.7,
+      "bullet_count": 11,
+      "bullet_marker_consistent": true,
+      "contact_at_top": true,
+      "date_format_consistent": false,
+      "date_formats_seen": [
+        "YYYY",
+        "YYYY-YYYY",
+        "MMM YYYY"
+      ],
+      "has_email": true,
+      "has_location": true,
+      "has_phone": true,
+      "has_profile_link": true,
+      "has_street_address": false,
+      "has_summary_section": false,
+      "nonstandard_headings": [
+        "Curriculum Vitae",
+        "Invited Talks",
+        "References"
+      ],
+      "quantified_bullet_ratio": 0.55,
+      "reverse_chronological": true,
+      "section_order": [
+        "Experience",
+        "Education",
+        "Awards",
+        "Publications",
+        "Experience",
+        "Leadership",
+        "Skills"
+      ],
+      "skill_bars_or_ratings": false,
+      "standard_headings": [
+        "Appointments",
+        "Education",
+        "Fellowships and Awards",
+        "Publications",
+        "Research Experience",
+        "Service",
+        "Technical Skills"
+      ],
+      "uses_tables_suspected": true
+    },
+    "factors": {
+      "consistency": {
+        "note": "Year ranges and Month YYYY both used; author positions stated consistently",
+        "score": 90
+      },
+      "contact_info": {
+        "note": "Email, phone, city and a profile link at the top",
+        "score": 100
+      },
+      "formatting": {
+        "note": "Mixed list styles: year-prefixed lines, numbered publications and bullets; reverse-chronological throughout",
+        "score": 85
+      },
+      "keyword_alignment": {
+        "note": "Electrophysiology, imaging, perturbation and modeling competencies are all evidenced in the publication and research lines",
+        "score": 90
+      },
+      "length": {
+        "note": "Three pages; an academic CV with eight publications is scored on organization, which is clear",
+        "score": 90
+      },
+      "parseability": {
+        "note": "Single column with standard CV headings; year-prefixed rows under Appointments and Awards read as column-aligned fragments",
+        "score": 90
+      },
+      "quantification": {
+        "note": "Citation counts, neuron counts, data volumes and class sizes appear in about half the lines",
+        "score": 80
+      }
+    },
+    "fixes": [
+      {
+        "factor": "parseability",
+        "fix": "Put the year range after the entry title on the same line, separated by a comma, so each row reads as one sentence.",
+        "issue": "Year-prefixed rows under Appointments and Awards parse as two-column fragments",
+        "priority": "medium"
+      },
+      {
+        "factor": "consistency",
+        "fix": "Use YYYY-YYYY for every range, including the research experience entries.",
+        "issue": "Three date formats across sections",
+        "priority": "low"
+      },
+      {
+        "factor": "formatting",
+        "fix": "Remove both lines; the document type is obvious and references are requested separately.",
+        "issue": "The CURRICULUM VITAE label and the references line add nothing",
+        "priority": "low"
+      }
+    ],
+    "score": 88,
+    "target_role_used": "Tenure-track assistant professor, systems neuroscience"
+  },
+  "awards": [
+    {
+      "issuer": "Damon Runyon Cancer Research Foundation",
+      "name": "Damon Runyon Fellowship Award",
+      "pool_estimate": "~15 awarded per cycle nationally",
+      "scope": "national",
+      "selectivity": "highly_selective",
+      "verifiable": true,
+      "year": 2024
+    },
+    {
+      "issuer": "University of Michigan",
+      "name": "ProQuest Distinguished Dissertation Award",
+      "pool_estimate": "1 of 10 university-wide",
+      "scope": "institutional",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2024
+    },
+    {
+      "issuer": "University of Michigan",
+      "name": "Rackham Predoctoral Fellowship",
+      "pool_estimate": "university-wide final-year fellowship",
+      "scope": "institutional",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2023
+    },
+    {
+      "issuer": "Cosyne",
+      "name": "Cosyne selected talk",
+      "pool_estimate": "~8% of submitted abstracts",
+      "scope": "international",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2023
+    },
+    {
+      "issuer": "Society for Neuroscience",
+      "name": "SfN Trainee Professional Development Award",
+      "pool_estimate": "several hundred per year",
+      "scope": "national",
+      "selectivity": "modest",
+      "verifiable": true,
+      "year": 2022
+    },
+    {
+      "issuer": "University of Rochester",
+      "name": "Phi Beta Kappa; summa cum laude",
+      "pool_estimate": "top ~10% of the class",
+      "scope": "institutional",
+      "selectivity": "selective",
+      "verifiable": true,
+      "year": 2019
+    }
+  ],
+  "card": {
+    "awards": [
+      {
+        "name": "Damon Runyon Fellowship Award",
+        "scope": "national",
+        "selectivity": "highly_selective"
+      },
+      {
+        "name": "Distinguished Dissertation Award",
+        "scope": "institutional",
+        "selectivity": "selective"
+      },
+      {
+        "name": "Cosyne selected talk (~8% of abstracts)",
+        "scope": "international",
+        "selectivity": "selective"
+      },
+      {
+        "name": "Rackham Predoctoral Fellowship",
+        "scope": "institutional",
+        "selectivity": "selective"
+      },
+      {
+        "name": "Phi Beta Kappa",
+        "scope": "national",
+        "selectivity": "selective"
+      }
+    ],
+    "card_version": "1.0",
+    "career_stage": "early",
+    "education": [
+      {
+        "degree_level": "phd",
+        "end_year": 2024,
+        "field": "Neuroscience",
+        "gpa_band": "not_listed",
+        "honors": [
+          "Distinguished Dissertation Award (1 of 10 university-wide)",
+          "Rackham Predoctoral Fellowship"
+        ],
+        "in_progress": false,
+        "institution": "University of Michigan",
+        "institution_tier": "T2"
+      },
+      {
+        "degree_level": "bachelor",
+        "end_year": 2019,
+        "field": "Biology and Mathematics",
+        "gpa_band": "not_listed",
+        "honors": [
+          "summa cum laude",
+          "Phi Beta Kappa"
+        ],
+        "in_progress": false,
+        "institution": "University of Rochester",
+        "institution_tier": "T3"
+      }
+    ],
+    "experiences": [
+      {
+        "duration_months": 25,
+        "employment_type": "fellowship",
+        "highlights": [
+          "Leads a ~1,500-neuron Neuropixels plus chemogenetics project in an HHMI lab",
+          "Built the spike-sorting and alignment pipeline used by 5 lab members, ~2 TB/week",
+          "Supervises a rotation student and an undergraduate"
+        ],
+        "impact_scale": "team",
+        "org": "Massachusetts Institute of Technology",
+        "org_tier": "A",
+        "role": "Postdoctoral Fellow, Brain and Cognitive Sciences",
+        "role_selectivity": "highly_selective",
+        "seniority": "postdoc",
+        "years": "2024-present"
+      },
+      {
+        "duration_months": 60,
+        "employment_type": "full_time",
+        "highlights": [
+          "Five first-author papers incl. Nature Neuroscience, Nature Communications and Neuron",
+          "Established the lab two-photon rig and analysis stack",
+          "Mentored 4 undergraduates (2 co-authors) and 2 rotation students"
+        ],
+        "impact_scale": "industry",
+        "org": "University of Michigan",
+        "org_tier": "B",
+        "role": "Graduate Student, Neuroscience",
+        "role_selectivity": "selective",
+        "seniority": "phd_student",
+        "years": "2019-2024"
+      },
+      {
+        "duration_months": 36,
+        "employment_type": "part_time",
+        "highlights": [
+          "Honors thesis; second author on the resulting paper"
+        ],
+        "impact_scale": "team",
+        "org": "University of Rochester",
+        "org_tier": "B",
+        "role": "Undergraduate Researcher",
+        "role_selectivity": "modest",
+        "seniority": "research_assistant",
+        "years": "2016-2019"
+      }
+    ],
+    "headline": "Postdoc at a T1 institute on a named national fellowship; 5 first-author papers incl. 2 Nature-family; ~900 citations",
+    "leadership": [
+      "Co-organized a graduate neuroscience symposium with 120 attendees",
+      "Mentored 4 undergraduates and 2 rotation students; 2 became co-authors",
+      "Reviewer for Nature Neuroscience, Neuron, eLife and others; ~20 manuscripts"
+    ],
+    "notable": [
+      "Five first-author papers by the end of the PhD, two in Nature-family journals and one in Neuron",
+      "Middle author on a Science paper",
+      "Named three-year national postdoctoral fellowship",
+      "Invited talks at four universities within two years of the PhD",
+      "~900 citations stated"
+    ],
+    "projects": [],
+    "publications_summary": {
+      "citation_signal": "~900 citations claimed",
+      "count_total": 9,
+      "first_author_count": 6,
+      "strong_venue_count": 3,
+      "top_venue_count": 3,
+      "venues": [
+        "Nature Neuroscience",
+        "Nature Communications",
+        "Neuron",
+        "Science",
+        "Journal of Neuroscience",
+        "eNeuro",
+        "Current Biology",
+        "Journal of Neurophysiology",
+        "bioRxiv"
+      ]
+    },
+    "skills_top": [
+      "Neuropixels electrophysiology",
+      "Two-photon calcium imaging",
+      "Optogenetics and chemogenetics",
+      "Rodent behavior",
+      "Python",
+      "PyTorch",
+      "Kilosort",
+      "Latent-variable behavioral models",
+      "MATLAB"
+    ],
+    "top_signal": "5 1st-author pubs",
+    "years_fulltime": 4.6
+  },
+  "category_relevance": {
+    "academia": 1,
+    "finance": 0,
+    "general": 1,
+    "tech": 0.25
+  },
+  "education": [
+    {
+      "degree_level": "phd",
+      "end_year": 2024,
+      "field": "Neuroscience",
+      "gpa": null,
+      "gpa_band": "not_listed",
+      "gpa_scale": null,
+      "honors": [
+        "ProQuest Distinguished Dissertation Award",
+        "Rackham Predoctoral Fellowship"
+      ],
+      "in_progress": false,
+      "institution": "University of Michigan",
+      "institution_tier": "T2",
+      "notes": "Dissertation on thalamocortical control of evidence accumulation",
+      "start_year": 2019
+    },
+    {
+      "degree_level": "bachelor",
+      "end_year": 2019,
+      "field": "Biology and Mathematics",
+      "gpa": null,
+      "gpa_band": "not_listed",
+      "gpa_scale": null,
+      "honors": [
+        "summa cum laude",
+        "Phi Beta Kappa"
+      ],
+      "in_progress": false,
+      "institution": "University of Rochester",
+      "institution_tier": "T3",
+      "notes": "Honors thesis",
+      "start_year": 2015
+    }
+  ],
+  "experiences": [
+    {
+      "bullets_condensed": [
+        "Leads Neuropixels (~1,500 neurons) plus chemogenetics project in a foraging task",
+        "Spike-sorting and alignment pipeline used by 5 members; ~2 TB/week",
+        "Supervises 1 rotation student and 1 undergraduate",
+        "Won a 3-year national fellowship on a belief-updating proposal"
+      ],
+      "duration_months": 25,
+      "employment_type": "fellowship",
+      "end": "present",
+      "impact_scale": "team",
+      "is_current": true,
+      "org": "Massachusetts Institute of Technology",
+      "org_tier": "A",
+      "org_type": "university",
+      "ownership": "led",
+      "quantified_impact": true,
+      "role": "Postdoctoral Fellow",
+      "role_selectivity": "highly_selective",
+      "seniority": "postdoc",
+      "start": "2024-09",
+      "team_or_division": "Brain and Cognitive Sciences, HHMI investigator lab"
+    },
+    {
+      "bullets_condensed": [
+        "5 first-author papers; established the lab two-photon rig and analysis stack",
+        "Mentored 4 undergraduates (2 co-authors) and 2 rotation students",
+        "Graduate instructor for 2 terms, 70 students per section"
+      ],
+      "duration_months": 60,
+      "employment_type": "full_time",
+      "end": "2024-08",
+      "impact_scale": "industry",
+      "is_current": false,
+      "org": "University of Michigan",
+      "org_tier": "B",
+      "org_type": "university",
+      "ownership": "led",
+      "quantified_impact": true,
+      "role": "Graduate Student",
+      "role_selectivity": "selective",
+      "seniority": "phd_student",
+      "start": "2019-09",
+      "team_or_division": "Neuroscience Graduate Program"
+    },
+    {
+      "bullets_condensed": [
+        "Honors thesis on history biases; second author on the paper"
+      ],
+      "duration_months": 36,
+      "employment_type": "part_time",
+      "end": "2019",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "University of Rochester",
+      "org_tier": "B",
+      "org_type": "university",
+      "ownership": "contributed",
+      "quantified_impact": false,
+      "role": "Undergraduate Researcher",
+      "role_selectivity": "modest",
+      "seniority": "research_assistant",
+      "start": "2016",
+      "team_or_division": null
+    }
+  ],
+  "input": {
+    "is_resume": true,
+    "language": "en",
+    "parse_confidence": 0.96,
+    "placeholders_seen": [
+      "name",
+      "email",
+      "phone",
+      "url"
+    ],
+    "word_count_estimate": 584
+  },
+  "leadership": [
+    {
+      "budget_or_scale": "120 attendees",
+      "elected_or_appointed": "appointed",
+      "highlight": "Co-organized the 2022 symposium",
+      "org": "Michigan Neuroscience Graduate Student Symposium",
+      "people_led": null,
+      "role": "Co-organizer"
+    },
+    {
+      "budget_or_scale": "5 undergraduates, 3 rotation students",
+      "elected_or_appointed": "appointed",
+      "highlight": "Two mentees became co-authors",
+      "org": "MIT and University of Michigan labs",
+      "people_led": 8,
+      "role": "Mentor"
+    }
+  ],
+  "projects": [],
+  "publications": [
+    {
+      "author_count": null,
+      "author_position": "first",
+      "citations_claimed": 190,
+      "field": "Systems neuroscience",
+      "kind": "journal",
+      "venue": "Nature Neuroscience",
+      "venue_tier": "top",
+      "year": 2024
+    },
+    {
+      "author_count": null,
+      "author_position": "first",
+      "citations_claimed": 140,
+      "field": "Systems neuroscience",
+      "kind": "journal",
+      "venue": "Nature Communications",
+      "venue_tier": "top",
+      "year": 2023
+    },
+    {
+      "author_count": null,
+      "author_position": "first",
+      "citations_claimed": 260,
+      "field": "Systems neuroscience",
+      "kind": "journal",
+      "venue": "Neuron",
+      "venue_tier": "strong",
+      "year": 2022
+    },
+    {
+      "author_count": 11,
+      "author_position": "middle",
+      "citations_claimed": 210,
+      "field": "Systems neuroscience",
+      "kind": "journal",
+      "venue": "Science",
+      "venue_tier": "top",
+      "year": 2022
+    },
+    {
+      "author_count": null,
+      "author_position": "first",
+      "citations_claimed": null,
+      "field": "Systems neuroscience",
+      "kind": "journal",
+      "venue": "Journal of Neuroscience",
+      "venue_tier": "strong",
+      "year": 2021
+    },
+    {
+      "author_count": null,
+      "author_position": "first",
+      "citations_claimed": null,
+      "field": "Neuroscience methods",
+      "kind": "journal",
+      "venue": "eNeuro",
+      "venue_tier": "standard",
+      "year": 2020
+    },
+    {
+      "author_count": 6,
+      "author_position": "middle",
+      "citations_claimed": null,
+      "field": "Systems neuroscience",
+      "kind": "journal",
+      "venue": "Current Biology",
+      "venue_tier": "strong",
+      "year": 2021
+    },
+    {
+      "author_count": null,
+      "author_position": "second",
+      "citations_claimed": null,
+      "field": "Systems neuroscience",
+      "kind": "journal",
+      "venue": "Journal of Neurophysiology",
+      "venue_tier": "standard",
+      "year": 2020
+    },
+    {
+      "author_count": null,
+      "author_position": "first",
+      "citations_claimed": null,
+      "field": "Systems neuroscience",
+      "kind": "preprint",
+      "venue": "bioRxiv",
+      "venue_tier": "preprint",
+      "year": 2025
+    }
+  ],
+  "red_flags": [],
+  "residual_pii": {
+    "email_count": 0,
+    "name_suspected": false,
+    "other_identifiers": [],
+    "phone_count": 0,
+    "street_address_suspected": false,
+    "url_count": 0
+  },
+  "schema_version": "1.1",
+  "scores": {
+    "academia": {
+      "holistic_score": 84,
+      "included": true,
+      "rationale": "Postdoc at a T1 institute with a named national fellowship, five first-author papers for the stage including two Nature-family and one Neuron, a Science middle authorship, ~900 citations and four invited university talks; the PhD institution is T2.",
+      "stage_relative_score": 89,
+      "sub_scores": {
+        "breadth": 40,
+        "impact": 88,
+        "pedigree": 78,
+        "selectivity": 90,
+        "trajectory": 90
+      },
+      "top_evidence": [
+        "First-author Nature Neuroscience 2024, ~190 citations",
+        "Damon Runyon Fellowship 2024-2027",
+        "Five first-author papers by PhD completion; ~900 citations total"
+      ]
+    },
+    "finance": {
+      "holistic_score": 2,
+      "included": false,
+      "rationale": "No finance footprint.",
+      "stage_relative_score": 2,
+      "sub_scores": {
+        "breadth": 2,
+        "impact": 5,
+        "pedigree": 20,
+        "selectivity": 10,
+        "trajectory": 10
+      },
+      "top_evidence": []
+    },
+    "general": {
+      "holistic_score": 80,
+      "included": true,
+      "rationale": "Five first-author papers including Nature-family and Neuron plus a Science middle authorship, ~900 citations, a named three-year national fellowship, invited talks at four universities; T2 PhD and a T3 undergraduate.",
+      "stage_relative_score": 86,
+      "sub_scores": {
+        "breadth": 45,
+        "impact": 84,
+        "pedigree": 80,
+        "selectivity": 88,
+        "trajectory": 88
+      },
+      "top_evidence": [
+        "First-author Nature Neuroscience, Nature Communications and Neuron",
+        "Damon Runyon Fellowship, ~15 awarded nationally",
+        "Invited talks at four universities within two years"
+      ]
+    },
+    "tech": {
+      "holistic_score": 32,
+      "included": false,
+      "rationale": "Strong scientific computing and a shared pipeline; no software role or CS venue.",
+      "stage_relative_score": 30,
+      "sub_scores": {
+        "breadth": 20,
+        "impact": 45,
+        "pedigree": 50,
+        "selectivity": 40,
+        "trajectory": 40
+      },
+      "top_evidence": []
+    }
+  },
+  "signals": {
+    "career_stage": "early",
+    "has_quantified_impact": true,
+    "highest_institution_tier": "T1",
+    "highest_org_tier": "A",
+    "max_impact_scale": "industry",
+    "months_internship": 0,
+    "primary_domain": "academia",
+    "sustained_org_tier": "A",
+    "top_role_selectivity": "highly_selective",
+    "trajectory": "accelerating",
+    "years_fulltime": 4.6
+  },
+  "skills": {
+    "certifications": [],
+    "domain": [
+      "Systems neuroscience",
+      "Decision making",
+      "Thalamocortical circuits",
+      "Latent-variable models of behavior"
+    ],
+    "keyword_stuffing_suspected": false,
+    "spoken_languages": [],
+    "technical": [
+      "Neuropixels",
+      "Two-photon calcium imaging",
+      "Optogenetics",
+      "Chemogenetics",
+      "Stereotaxic surgery",
+      "Python",
+      "NumPy",
+      "PyTorch",
+      "scikit-learn",
+      "MATLAB",
+      "Kilosort",
+      "Suite2p",
+      "High-performance computing"
+    ]
+  },
+  "strengths": [
+    "Five first-author papers by the end of the PhD, two in Nature-family journals and one in Neuron",
+    "Named three-year national postdoctoral fellowship with the pool size stated",
+    "Approximately 900 citations with per-paper counts given",
+    "Invited talks at four universities and a selected Cosyne talk",
+    "Mentoring record with two mentees as co-authors and a shared pipeline used by five lab members"
+  ],
+  "verdict": "Postdoc with a named national fellowship and five first-author papers including two Nature-family; output well ahead of the stage, pedigree a step behind.",
+  "weaknesses": [
+    "PhD institution is T2 and the undergraduate institution T3; pedigree trails the output",
+    "Postdoc project has no paper yet; the only 2025 output is a preprint under review",
+    "The CV is three pages with a references line and a label heading that add nothing",
+    "Teaching is two terms as an instructor; no teaching award or course designed"
+  ]
+}

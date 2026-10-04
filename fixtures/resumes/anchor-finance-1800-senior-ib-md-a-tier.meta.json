@@ -1,0 +1,32 @@
+{
+  "expect": {
+    "gate": "pass",
+    "status": "analyzed"
+  },
+  "group": "anchor",
+  "intended_anchor": 1800,
+  "intended_categories": [
+    "general",
+    "finance"
+  ],
+  "intended_stage": "senior",
+  "metrics": {
+    "char_count": 5461,
+    "columns_detected": 1,
+    "extraction_quality": 0.97,
+    "font_count": 2,
+    "image_count": 0,
+    "pages": 2,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 815
+  },
+  "slug": "anchor-finance-1800-senior-ib-md-a-tier"
+}

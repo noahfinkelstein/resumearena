@@ -1,0 +1,38 @@
+{
+  "ds7exl67uy": {
+    "c": {
+      "general": 1,
+      "tech": 0.5
+    },
+    "ch": "a8dbcf9b2b251218ceaf980604122a8d046a9c8ed297cda2508cb771b50ce652",
+    "h": "tech-1100-new-grad-b",
+    "p": "tech",
+    "s": "analyzed",
+    "sc": {
+      "general": 24,
+      "tech": 24
+    },
+    "sig": "IT help desk",
+    "ss": {
+      "general": [
+        18,
+        30,
+        15,
+        12,
+        20,
+        28
+      ],
+      "tech": [
+        15,
+        30,
+        12,
+        10,
+        18,
+        30
+      ]
+    },
+    "st": "new_grad",
+    "t": 1791028860,
+    "v": "handle"
+  }
+}

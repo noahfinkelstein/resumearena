@@ -1,0 +1,48 @@
+[name]
+[email] · [phone] · [url]
+Sacramento, CA
+
+SUMMARY
+Priyanka Venkataraman brings three years of backend engineering experience at DoorDash, where she has worked on order-fulfillment services in Kotlin and Go. She is looking for a backend or infrastructure role where she can own a service end to end and keep working on scheduling and dispatch problems.
+
+EXPERIENCE
+
+DoorDash — San Francisco, CA (remote from Sacramento)
+Software Engineer, Fulfillment Platform · Jul 2023 – Present
+• Own the dasher-assignment retry service, which re-dispatches orders when an assignment is declined or times out; handles about 4M retries per day.
+• Reduced the median time to reassign a declined order from 38 s to 21 s by replacing a fixed polling interval with event-driven triggers from the assignment service.
+• Built the batching feature that groups nearby orders from the same merchant; raised batched-order share in the two pilot markets from 9% to 14% and cut average dasher wait time at pickup by 1.5 minutes.
+• Migrated the service from a shared Postgres instance to CockroachDB as part of the platform's multi-region initiative; wrote the dual-write and verification tooling used by three other teams.
+• On-call rotation member (one week in six); authored 5 runbooks and led the post-incident review for a 2025 assignment outage.
+• Mentored a 2025 summer intern whose project shipped to production.
+• Designed the fairness constraint that prevents the same dasher from receiving more than two consecutive retried offers; reduced the offer-decline rate in retry traffic by 6 points.
+• Ran the service's 2026 cost review and cut its compute spend by about 18% by moving the retry scheduler from per-order timers to a time-wheel.
+• Wrote the team's onboarding guide and the architecture doc for the retry service; both are linked from the platform wiki.
+
+DoorDash — San Francisco, CA
+Software Engineering Intern, Logistics · Jun 2022 – Sep 2022
+• Built an internal dashboard for assignment-latency metrics used by the on-call team; returned with a full-time offer.
+• Presented the dashboard at the logistics organization's intern showcase.
+
+UC Davis Department of Computer Science
+Teaching Assistant, Introduction to Algorithms · Sep 2022 – Jun 2023
+• Led two discussion sections per week for about 60 students and held office hours.
+• Wrote and graded two programming assignments on graph algorithms.
+
+EDUCATION
+University of California, Davis
+B.S. Computer Science, June 2023 · GPA 3.7/4.0 · Dean's Honors List (4 quarters)
+Relevant coursework: Algorithms, Operating Systems, Distributed Systems, Databases, Machine Learning
+
+PROJECTS
+• Open-source Kotlin library for structured retry policies with jitter and circuit breaking; about 180 stars.
+• Hackathon: 2nd place at HackDavis 2022 (team of 4) for a food-rescue routing app.
+• Course project: a Paxos-based replicated log in Go with a test harness that injects partitions and clock skew.
+
+VOLUNTEERING
+• Facilitator, Girls Who Code club at a Sacramento high school, weekly, 2024 – Present
+• Mentor, Rewriting the Code, 2025 – Present
+
+SKILLS
+Kotlin, Go, Java, Python, SQL · gRPC, Kafka, PostgreSQL, CockroachDB, Redis · Kubernetes, Terraform, AWS · Grafana, Datadog
+Certifications: AWS Certified Developer – Associate (2024)

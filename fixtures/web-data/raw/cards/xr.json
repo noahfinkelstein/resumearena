@@ -1,0 +1,89 @@
+{
+  "xr3uglaj43": {
+    "card": {
+      "awards": [],
+      "card_version": "1.0",
+      "career_stage": "new_grad",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2025,
+          "field": "Finance",
+          "gpa_band": "3.0-3.49",
+          "honors": [],
+          "in_progress": false,
+          "institution": "The Ohio State University (Fisher)",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 4,
+          "employment_type": "full_time",
+          "highlights": [
+            "12-month rotation across branch operations, consumer lending and small business banking",
+            "Built an Excel weekly deposit-growth report for the regional manager"
+          ],
+          "impact_scale": "individual",
+          "org": "Huntington National Bank",
+          "org_tier": "C",
+          "role": "Retail Banking Rotational Program Associate",
+          "role_selectivity": "modest",
+          "seniority": "new_grad",
+          "years": "2025-present"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Prepared client paperwork and quarterly review materials for one advisor"
+          ],
+          "impact_scale": "individual",
+          "org": "Edward Jones",
+          "org_tier": "C",
+          "role": "Wealth Management Intern",
+          "role_selectivity": "modest",
+          "seniority": "intern",
+          "years": "2024-2024"
+        },
+        {
+          "duration_months": 33,
+          "employment_type": "part_time",
+          "highlights": [
+            "Service desk; trained new part-time associates"
+          ],
+          "impact_scale": "individual",
+          "org": "Kroger",
+          "org_tier": "D",
+          "role": "Customer Service Associate",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2021-2024"
+        }
+      ],
+      "headline": "New graduate in finance from a T3 state flagship; retail-bank rotational associate after a wealth-management internship",
+      "leadership": [
+        "Treasurer of a student investment club for two years; managed the club budget and dues"
+      ],
+      "notable": [],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Excel",
+        "Bloomberg Market Concepts",
+        "PowerPoint",
+        "Spanish (conversational)"
+      ],
+      "top_signal": "Bank rotational",
+      "years_fulltime": 0.3
+    },
+    "st": "new_grad"
+  }
+}

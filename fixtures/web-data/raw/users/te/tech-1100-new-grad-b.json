@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:01:00Z",
+  "handle": "tech-1100-new-grad-b",
+  "key_exposed": false,
+  "owner_hash": "d2a6976e763e39c7d27d9863d6fae08b02e4b5d4a0613cf65f23feb16c069192",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:01:00Z",
+      "current": true,
+      "id": "ds7exl67uy"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

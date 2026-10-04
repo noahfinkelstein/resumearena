@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-09-21T14:20:11Z",
+  "handle": "ravi-iyer",
+  "key_exposed": false,
+  "owner_hash": "6f570b04a42f1d74409839b51920e76581ac213c1f6102b51301d4cf38462ef0",
+  "resumes": [
+    {
+      "created_at": "2026-09-21T14:20:11Z",
+      "current": true,
+      "id": "x63yoqqpnq"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

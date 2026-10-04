@@ -1,0 +1,109 @@
+{
+  "z7rc26crkt": {
+    "card": {
+      "awards": [
+        {
+          "name": "Regional hackathon top-10 finalist (~110 teams)",
+          "scope": "regional",
+          "selectivity": "selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "student",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2027,
+          "field": "Computer Science",
+          "gpa_band": "3.7-3.89",
+          "honors": [
+            "Dean's Honor List (3 semesters)"
+          ],
+          "in_progress": true,
+          "institution": "The University of Texas at Austin",
+          "institution_tier": "T2"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Telemetry export path in a C++ control-plane daemon; collection interval 60 s to 10 s on a 48-port switch",
+            "pytest harness over 140 CLI commands found 3 defects before the release cut",
+            "Fixed a memory growth issue; RSS flat over a 72-hour soak"
+          ],
+          "impact_scale": "team",
+          "org": "Cisco Systems",
+          "org_tier": "B",
+          "role": "Software Engineering Intern, Enterprise Networking",
+          "role_selectivity": "selective",
+          "seniority": "intern",
+          "years": "2026"
+        },
+        {
+          "duration_months": 14,
+          "employment_type": "part_time",
+          "highlights": [
+            "Two weekly sections of ~25 students; 6 autograder suites used by ~400 students a semester",
+            "Section evaluations 4.7 / 5"
+          ],
+          "impact_scale": "team",
+          "org": "The University of Texas at Austin",
+          "org_tier": "B",
+          "role": "Undergraduate Teaching Assistant, Data Structures",
+          "role_selectivity": "selective",
+          "seniority": "other",
+          "years": "2025-present"
+        }
+      ],
+      "headline": "CS junior at a T2 public university (3.7-3.89); SWE intern at a B-tier networking company; extension with 300 users",
+      "leadership": [],
+      "notable": [
+        "Shipped a browser extension with ~300 weekly users and 41 public reviews",
+        "Internship fixes shipped before a release cut at a large networking company"
+      ],
+      "projects": [
+        {
+          "descriptor": "Browser extension for grouping and suspending idle tabs (TypeScript)",
+          "highlight": "35% memory reduction on a 40-tab session; 9 releases; Playwright suite of ~60 cases",
+          "kind": "software",
+          "scale_signal": "~300 weekly active users, 4.6 stars across 41 reviews",
+          "technical_depth": "standard"
+        },
+        {
+          "descriptor": "Operating-systems course kernel: priority donation, user-program loader, buffer cache",
+          "highlight": "Passed 100% of the course test suite",
+          "kind": "software",
+          "scale_signal": "none stated",
+          "technical_depth": "standard"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "C++",
+        "Python",
+        "TypeScript",
+        "Java",
+        "pytest",
+        "Linux",
+        "Git",
+        "Docker",
+        "GDB",
+        "Wireshark",
+        "PostgreSQL",
+        "SQL"
+      ],
+      "top_signal": "B-tier SWE intern",
+      "years_fulltime": 0
+    },
+    "st": "student"
+  }
+}

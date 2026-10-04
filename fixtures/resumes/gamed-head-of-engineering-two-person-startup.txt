@@ -1,0 +1,45 @@
+[name]
+Austin, TX · [email] · [phone] · [url] · [url]
+
+HEAD OF ENGINEERING / CTO
+
+Technology leader with experience building products from zero to launch, leading engineering strategy, and owning the full stack. Currently CTO and Head of Engineering at Loopwise, an early-stage startup building scheduling software for independent fitness instructors.
+
+EXPERIENCE
+
+Loopwise — Austin, TX
+Co-founder, CTO and Head of Engineering (Feb 2025 – Present)
+Loopwise is a two-person company (my co-founder handles sales and design; I handle everything technical). We are bootstrapped and pre-revenue, with 14 instructors on a free beta.
+• Set the engineering strategy and technical roadmap for the company.
+• Architected and built the entire platform: a Next.js web app, a Node.js and PostgreSQL backend, Stripe integration (test mode), and a Twilio-based SMS reminder service.
+• Lead all engineering hiring plans; defined the job descriptions for our first two engineering hires, to be opened once we raise a pre-seed round.
+• Own infrastructure on a single cloud provider: CI with GitHub Actions, containerized deploys, monitoring with an uptime checker; uptime 99.6% over the last six months.
+• Shipped 11 releases in nine months; beta users book about 60 sessions a week through the product.
+• Run weekly product planning with my co-founder and conduct user interviews with beta instructors (22 interviews so far).
+• Wrote the technical section of our pre-seed deck and the data-handling policy requested by two beta gyms.
+
+Pinecrest Digital — Austin, TX
+Junior Software Engineer (Jan 2024 – Jan 2025)
+Digital agency (about 35 people) building websites and small web apps for local businesses.
+• Built and maintained client sites in React and WordPress; delivered 9 client projects during the year.
+• Implemented a booking widget for a chain of three dental clinics that is still in use.
+• Fixed bugs and wrote tests on an internal time-tracking tool used by about 30 staff.
+• Participated in code reviews and the weekly sprint ceremonies.
+
+Texas State University — San Marcos, TX
+Teaching Assistant, Introduction to Web Development (Aug 2023 – Dec 2023)
+• Held weekly lab sessions for 28 students and graded assignments.
+
+PROJECTS
+Loopwise platform (2025 – Present) — Next.js, TypeScript, Node.js, PostgreSQL, Prisma, Stripe, Twilio
+Scheduling, payments (not yet live), and SMS reminders for independent fitness instructors. About 9,000 lines of TypeScript; 14 beta users; 60 bookings a week.
+
+Pantry (2023) — React Native, Firebase
+A grocery list app built as a senior project; about 40 downloads among friends and classmates.
+
+EDUCATION
+Texas State University — B.S. Computer Science, December 2023
+GPA 3.1/4.0
+
+SKILLS
+TypeScript, JavaScript, Node.js, React, Next.js, PostgreSQL, Prisma, REST APIs, Stripe, Twilio, GitHub Actions, Docker, basic AWS, engineering leadership, technical strategy, product roadmapping

@@ -1,0 +1,135 @@
+{
+  "dtxtsp6zgw": {
+    "card": {
+      "awards": [
+        {
+          "name": "ICPC North America Championship, 1st place",
+          "scope": "national",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "Putnam rank 71 of 3,988",
+          "scope": "national",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "USACO Platinum",
+          "scope": "national",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "MIT Battlecode 5th of 420",
+          "scope": "international",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "MIT Pokerbots 11th of 230",
+          "scope": "institutional",
+          "selectivity": "selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "student",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2028,
+          "field": "Computer Science and Engineering",
+          "gpa_band": "4.0",
+          "honors": [],
+          "in_progress": true,
+          "institution": "Massachusetts Institute of Technology",
+          "institution_tier": "T1"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Volatility-surface fitter rewritten in C++: 41 ms to 2.3 ms per update",
+            "Order-book replay harness over 1.2 TB/day used by three traders",
+            "Return offer"
+          ],
+          "impact_scale": "team",
+          "org": "Citadel Securities",
+          "org_tier": "S",
+          "role": "Quantitative Developer Intern",
+          "role_selectivity": "elite",
+          "seniority": "intern",
+          "years": "2026-2026"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Incremental build cache cut median build time 34%",
+            "Found and fixed a 7% CPU regression",
+            "Return offer"
+          ],
+          "impact_scale": "team",
+          "org": "Jane Street",
+          "org_tier": "S",
+          "role": "Software Engineering Intern",
+          "role_selectivity": "elite",
+          "seniority": "intern",
+          "years": "2025-2025"
+        },
+        {
+          "duration_months": 13,
+          "employment_type": "part_time",
+          "highlights": [
+            "Wrote a 6k-line Rust symbolic executor; found two unknown ordering bugs"
+          ],
+          "impact_scale": "team",
+          "org": "MIT CSAIL",
+          "org_tier": "A",
+          "role": "Undergraduate Researcher, systems group",
+          "role_selectivity": "selective",
+          "seniority": "research_assistant",
+          "years": "2025-present"
+        }
+      ],
+      "headline": "CS junior at a T1 university; interned at two S-tier trading firms with return offers; ICPC North America champion",
+      "leadership": [
+        "Problem setter, university informatics tournament 2026",
+        "Lab assistant for the operating systems course"
+      ],
+      "notable": [
+        "Return offers from two S-tier trading firms before junior year",
+        "ICPC North America champion 2026 and Putnam top 100",
+        "Perfect GPA at a T1 university"
+      ],
+      "projects": [
+        {
+          "descriptor": "Sharded Multi-Raft key-value store in Go with a TLA+ reconfiguration model",
+          "highlight": "2,000 consecutive clean fault-injection runs under the race detector",
+          "kind": "software",
+          "scale_signal": "120k ops/s on 15 nodes",
+          "technical_depth": "exceptional"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "C++",
+        "Rust",
+        "Go",
+        "OCaml",
+        "Python",
+        "TLA+",
+        "Linux systems",
+        "Bazel"
+      ],
+      "top_signal": "ICPC NAC champion",
+      "years_fulltime": 0
+    },
+    "st": "student"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:46:00Z",
+  "handle": "sixty-technology-ski",
+  "key_exposed": false,
+  "owner_hash": "70845d1fe8c80193a28ccefa3de33637b451b54b011316ac8ecd4dea737d8b04",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:46:00Z",
+      "current": true,
+      "id": "izeq5q5wwc"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:37:00Z",
+  "handle": "general-1900-new-gra",
+  "key_exposed": false,
+  "owner_hash": "dc5d28b1e7f8e49650fd1ea49a8e736d4ba4c958e9debbdfea7497e11ba186be",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:37:00Z",
+      "current": true,
+      "id": "htlomrj2dn"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

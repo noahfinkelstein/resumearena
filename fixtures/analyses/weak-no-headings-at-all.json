@@ -1,0 +1,489 @@
+{
+  "analysis_confidence": 0.82,
+  "ats": {
+    "detected": {
+      "action_verb_ratio": 0.35,
+      "bullet_count": 0,
+      "bullet_marker_consistent": true,
+      "contact_at_top": true,
+      "date_format_consistent": false,
+      "date_formats_seen": [
+        "Month YYYY",
+        "YYYY"
+      ],
+      "has_email": true,
+      "has_location": true,
+      "has_phone": true,
+      "has_profile_link": false,
+      "has_street_address": false,
+      "has_summary_section": true,
+      "nonstandard_headings": [],
+      "quantified_bullet_ratio": 0.7,
+      "reverse_chronological": true,
+      "section_order": [],
+      "skill_bars_or_ratings": false,
+      "standard_headings": [],
+      "uses_tables_suspected": false
+    },
+    "factors": {
+      "consistency": {
+        "note": "Month and year given for every role; \"since August 2023\" and \"from June 2020 to July 2023\" styles mixed but unambiguous",
+        "score": 90
+      },
+      "contact_info": {
+        "note": "Email, phone and city on the second line; no profile link",
+        "score": 85
+      },
+      "formatting": {
+        "note": "No standard headings; no bullets; dates embedded in sentences; roles are recoverable but only by reading",
+        "score": 70
+      },
+      "keyword_alignment": {
+        "note": "Lab-manager competencies (budget, husbandry, compliance, training, CRISPR, microscopy) are present in context; data analysis and grant support are thin",
+        "score": 76
+      },
+      "length": {
+        "note": "Pasted text, about two pages equivalent for a mid-career record; organization, not length, is the problem",
+        "score": 100
+      },
+      "parseability": {
+        "note": "Pasted text, so layout not verified; no section headings at all, so a parser cannot map sections and must infer roles from prose",
+        "score": 90
+      },
+      "quantification": {
+        "note": "The prose carries numbers throughout (budget, colony size, samples per year, students trained, authorship positions)",
+        "score": 100
+      }
+    },
+    "fixes": [
+      {
+        "factor": "formatting",
+        "fix": "Rebuild with Education, Experience, Publications, Skills headings; one bullet per fact, e.g. \"Managed a ~$180,000 operating budget and a 2,400-fish colony across 160 tanks\"",
+        "issue": "The document has no headings and no bullets; every fact is inside a paragraph",
+        "priority": "high"
+      },
+      {
+        "factor": "parseability",
+        "fix": "Put \"Month YYYY – Month YYYY\" on its own line beside each role title",
+        "issue": "Dates are embedded in sentences (\"Since August 2023\", \"From June 2020 to July 2023\")",
+        "priority": "high"
+      },
+      {
+        "factor": "formatting",
+        "fix": "Add a Publications section listing each paper with journal, year and author position",
+        "issue": "Publications are mentioned inside job paragraphs with author position only",
+        "priority": "medium"
+      },
+      {
+        "factor": "contact_info",
+        "fix": "Add a link to a public publication profile",
+        "issue": "No profile or publication link",
+        "priority": "medium"
+      },
+      {
+        "factor": "keyword_alignment",
+        "fix": "If applicable, add a bullet on grant renewals, animal protocols or manuscripts supported",
+        "issue": "Grant and manuscript support work is not mentioned",
+        "priority": "low"
+      }
+    ],
+    "score": 88,
+    "target_role_used": "Senior laboratory manager or research specialist"
+  },
+  "awards": [],
+  "card": {
+    "awards": [],
+    "card_version": "1.0",
+    "career_stage": "mid",
+    "education": [
+      {
+        "degree_level": "master",
+        "end_year": 2020,
+        "field": "Biology",
+        "gpa_band": "not_listed",
+        "honors": [],
+        "in_progress": false,
+        "institution": "Iowa State University",
+        "institution_tier": "T3"
+      },
+      {
+        "degree_level": "bachelor",
+        "end_year": 2018,
+        "field": "Biology",
+        "gpa_band": "not_listed",
+        "honors": [],
+        "in_progress": false,
+        "institution": "University of Northern Iowa",
+        "institution_tier": "T4"
+      }
+    ],
+    "experiences": [
+      {
+        "duration_months": 38,
+        "employment_type": "full_time",
+        "highlights": [
+          "Runs a lab of 1 PI, 2 postdocs, 5 graduate students; ~$180,000 operating budget; 2,400-fish zebrafish colony",
+          "Three consecutive safety inspections with no citations; supervised 2 completed honors theses",
+          "Fourth of 7 authors on a 2025 Developmental Biology paper (genotyping and imaging)"
+        ],
+        "impact_scale": "team",
+        "org": "University of Minnesota, developmental biology laboratory",
+        "org_tier": "B",
+        "role": "Laboratory Manager",
+        "role_selectivity": "modest",
+        "seniority": "other",
+        "years": "2023-present"
+      },
+      {
+        "duration_months": 38,
+        "employment_type": "full_time",
+        "highlights": [
+          "~6,000 genotyping samples a year; 1,100-line seed stock; trained 7 students",
+          "Third of 5 authors on a 2022 Plant Physiology paper (mutant lines and phenotyping)"
+        ],
+        "impact_scale": "team",
+        "org": "Iowa State University, plant genetics laboratory",
+        "org_tier": "B",
+        "role": "Laboratory Manager and Research Technician",
+        "role_selectivity": "modest",
+        "seniority": "other",
+        "years": "2020-2023"
+      },
+      {
+        "duration_months": 20,
+        "employment_type": "part_time",
+        "highlights": [
+          "Two sections of ~24 students per term, four semesters"
+        ],
+        "impact_scale": "team",
+        "org": "Iowa State University",
+        "org_tier": "B",
+        "role": "Teaching Assistant, introductory biology labs",
+        "role_selectivity": "modest",
+        "seniority": "other",
+        "years": "2018-2020"
+      }
+    ],
+    "headline": "Lab manager, 6 years across two university biology labs; T3 master's; middle author on two standard-venue papers",
+    "leadership": [
+      "Manages the day-to-day operation of a 10-person lab with a ~$180,000 budget",
+      "Supervised two completed undergraduate honors theses"
+    ],
+    "notable": [
+      "Two middle-author papers in standard journals from two different labs",
+      "Zebrafish colony of ~2,400 fish across 160 tanks maintained with one part-time technician"
+    ],
+    "projects": [],
+    "publications_summary": {
+      "citation_signal": "not stated",
+      "count_total": 2,
+      "first_author_count": 0,
+      "strong_venue_count": 0,
+      "top_venue_count": 0,
+      "venues": [
+        "Developmental Biology",
+        "Plant Physiology"
+      ]
+    },
+    "skills_top": [
+      "CRISPR/Cas9 mutagenesis",
+      "PCR and qPCR",
+      "In situ hybridization",
+      "Confocal microscopy",
+      "Zebrafish husbandry",
+      "Arabidopsis husbandry",
+      "Cloning",
+      "Immunohistochemistry",
+      "R (basic statistics)",
+      "ImageJ/Fiji"
+    ],
+    "top_signal": "Lab manager, 6 yrs",
+    "years_fulltime": 6.3
+  },
+  "category_relevance": {
+    "academia": 0.6,
+    "finance": 0,
+    "general": 1,
+    "tech": 0.05
+  },
+  "education": [
+    {
+      "degree_level": "master",
+      "end_year": 2020,
+      "field": "Biology",
+      "gpa": null,
+      "gpa_band": "not_listed",
+      "gpa_scale": null,
+      "honors": [],
+      "in_progress": false,
+      "institution": "Iowa State University",
+      "institution_tier": "T3",
+      "notes": "Thesis on root hair development in Arabidopsis under phosphate limitation; departmental TA support",
+      "start_year": 2018
+    },
+    {
+      "degree_level": "bachelor",
+      "end_year": 2018,
+      "field": "Biology",
+      "gpa": null,
+      "gpa_band": "not_listed",
+      "gpa_scale": null,
+      "honors": [],
+      "in_progress": false,
+      "institution": "University of Northern Iowa",
+      "institution_tier": "T4",
+      "notes": "",
+      "start_year": 2014
+    }
+  ],
+  "experiences": [
+    {
+      "bullets_condensed": [
+        "Day-to-day operation for 1 PI, 2 postdocs, 5 graduate students and 3-5 undergraduates; ~$180,000 budget",
+        "Zebrafish colony of ~2,400 fish across 160 tanks with a part-time technician; SOPs and chemical hygiene plan",
+        "Safety officer: three consecutive EHS inspections with no citations",
+        "CRISPR mutagenesis and in situ hybridization; genotyping and imaging for a 2025 Developmental Biology paper (4th of 7)"
+      ],
+      "duration_months": 38,
+      "employment_type": "full_time",
+      "end": "present",
+      "impact_scale": "team",
+      "is_current": true,
+      "org": "University of Minnesota",
+      "org_tier": "B",
+      "org_type": "university",
+      "ownership": "owned_component",
+      "quantified_impact": true,
+      "role": "Laboratory Manager",
+      "role_selectivity": "modest",
+      "seniority": "other",
+      "start": "2023-08",
+      "team_or_division": "Developmental biology laboratory"
+    },
+    {
+      "bullets_condensed": [
+        "Growth chambers, greenhouse space and a 1,100-line seed stock for a 6-person lab",
+        "DNA extraction and PCR genotyping for ~6,000 samples a year; equipment service contracts",
+        "Trained 7 graduate and undergraduate students",
+        "Mutant lines and phenotyping for a 2022 Plant Physiology paper (3rd of 5)"
+      ],
+      "duration_months": 38,
+      "employment_type": "full_time",
+      "end": "2023-07",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "Iowa State University",
+      "org_tier": "B",
+      "org_type": "university",
+      "ownership": "owned_component",
+      "quantified_impact": true,
+      "role": "Laboratory Manager and Research Technician",
+      "role_selectivity": "modest",
+      "seniority": "other",
+      "start": "2020-06",
+      "team_or_division": "Plant genetics laboratory"
+    },
+    {
+      "bullets_condensed": [
+        "Two sections of ~24 students per term for four semesters"
+      ],
+      "duration_months": 20,
+      "employment_type": "part_time",
+      "end": "2020-05",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "Iowa State University",
+      "org_tier": "B",
+      "org_type": "university",
+      "ownership": "supported",
+      "quantified_impact": false,
+      "role": "Teaching Assistant",
+      "role_selectivity": "modest",
+      "seniority": "other",
+      "start": "2018-08",
+      "team_or_division": "Introductory biology laboratories"
+    }
+  ],
+  "input": {
+    "is_resume": true,
+    "language": "en",
+    "parse_confidence": 0.78,
+    "placeholders_seen": [
+      "name",
+      "email",
+      "phone"
+    ],
+    "word_count_estimate": 520
+  },
+  "leadership": [
+    {
+      "budget_or_scale": "~$180,000 operating budget; 10-person lab",
+      "elected_or_appointed": "appointed",
+      "highlight": "Supervised two completed undergraduate honors theses, 2024 and 2025",
+      "org": "University of Minnesota developmental biology lab",
+      "people_led": 4,
+      "role": "Laboratory manager"
+    }
+  ],
+  "projects": [],
+  "publications": [
+    {
+      "author_count": 7,
+      "author_position": "middle",
+      "citations_claimed": null,
+      "field": "developmental biology",
+      "kind": "journal",
+      "venue": "Developmental Biology",
+      "venue_tier": "standard",
+      "year": 2025
+    },
+    {
+      "author_count": 5,
+      "author_position": "middle",
+      "citations_claimed": null,
+      "field": "plant genetics",
+      "kind": "journal",
+      "venue": "Plant Physiology",
+      "venue_tier": "standard",
+      "year": 2022
+    },
+    {
+      "author_count": 1,
+      "author_position": "sole",
+      "citations_claimed": null,
+      "field": "plant biology",
+      "kind": "thesis",
+      "venue": "Iowa State University (thesis)",
+      "venue_tier": "unknown",
+      "year": 2020
+    }
+  ],
+  "red_flags": [],
+  "residual_pii": {
+    "email_count": 0,
+    "name_suspected": false,
+    "other_identifiers": [],
+    "phone_count": 0,
+    "street_address_suspected": false,
+    "url_count": 0
+  },
+  "schema_version": "1.1",
+  "scores": {
+    "academia": {
+      "holistic_score": 47,
+      "included": true,
+      "rationale": "A staff-scientist track rather than a research track: two middle-author standard-venue papers across six years, a master's thesis without publication, two conference posters, no fellowship or first-author work. Operational contribution is real and quantified.",
+      "stage_relative_score": 48,
+      "sub_scores": {
+        "breadth": 35,
+        "impact": 38,
+        "pedigree": 40,
+        "selectivity": 30,
+        "trajectory": 42
+      },
+      "top_evidence": [
+        "Middle author, Developmental Biology 2025 and Plant Physiology 2022",
+        "Master's thesis on Arabidopsis root hair development, unpublished",
+        "Posters at a regional zebrafish meeting and a plant biology meeting"
+      ]
+    },
+    "finance": {
+      "holistic_score": 8,
+      "included": false,
+      "rationale": "No finance footprint beyond a lab budget.",
+      "stage_relative_score": 8,
+      "sub_scores": {
+        "breadth": 10,
+        "impact": 10,
+        "pedigree": 25,
+        "selectivity": 10,
+        "trajectory": 40
+      },
+      "top_evidence": []
+    },
+    "general": {
+      "holistic_score": 48,
+      "included": true,
+      "rationale": "Six years running two university labs with real operational scope (budget, colony, students trained) and two middle-author papers; T3 master's and T4 bachelor's; no promotion or selection beyond the lab. The prose format hides a competent mid-career technician record.",
+      "stage_relative_score": 50,
+      "sub_scores": {
+        "breadth": 38,
+        "impact": 40,
+        "pedigree": 40,
+        "selectivity": 30,
+        "trajectory": 42
+      },
+      "top_evidence": [
+        "Runs a 10-person lab with a ~$180,000 budget and a 2,400-fish colony",
+        "Middle author on Developmental Biology (2025) and Plant Physiology (2022) papers",
+        "Trained 7 students; supervised 2 honors theses"
+      ]
+    },
+    "tech": {
+      "holistic_score": 12,
+      "included": false,
+      "rationale": "Basic R and image analysis; no software role.",
+      "stage_relative_score": 12,
+      "sub_scores": {
+        "breadth": 20,
+        "impact": 20,
+        "pedigree": 30,
+        "selectivity": 15,
+        "trajectory": 40
+      },
+      "top_evidence": []
+    }
+  },
+  "signals": {
+    "career_stage": "mid",
+    "has_quantified_impact": true,
+    "highest_institution_tier": "T3",
+    "highest_org_tier": "B",
+    "max_impact_scale": "team",
+    "months_internship": 0,
+    "primary_domain": "academia",
+    "sustained_org_tier": "B",
+    "top_role_selectivity": "modest",
+    "trajectory": "flat",
+    "years_fulltime": 6.3
+  },
+  "skills": {
+    "certifications": [
+      "Laboratory animal care (university program)"
+    ],
+    "domain": [
+      "zebrafish husbandry",
+      "Arabidopsis husbandry",
+      "laboratory safety and compliance",
+      "lab budgeting and procurement"
+    ],
+    "keyword_stuffing_suspected": false,
+    "spoken_languages": [],
+    "technical": [
+      "CRISPR/Cas9 mutagenesis",
+      "PCR",
+      "qPCR",
+      "cloning",
+      "in situ hybridization",
+      "immunohistochemistry",
+      "confocal microscopy",
+      "widefield fluorescence microscopy",
+      "R (basic statistics)",
+      "ImageJ",
+      "Fiji"
+    ]
+  },
+  "strengths": [
+    "Operational scope is quantified: ~$180,000 budget, 2,400-fish colony across 160 tanks, ~6,000 genotyping samples a year",
+    "Three consecutive safety inspections with no citations",
+    "Middle author on two standard-venue papers from two different labs, with the specific contribution named",
+    "Trained 7 students and supervised two completed honors theses"
+  ],
+  "verdict": "A quantified six-year lab-manager record buried in headingless prose; competent, flat, and formatted to fail a parser.",
+  "weaknesses": [
+    "No section headings, bullets or date lines; the whole record is prose and will parse poorly",
+    "Six years without a title change or a move toward a scientist role; trajectory is flat",
+    "No first-author publication; the master's thesis was never published",
+    "T3 master's and T4 bachelor's with no honors or fellowships listed"
+  ]
+}

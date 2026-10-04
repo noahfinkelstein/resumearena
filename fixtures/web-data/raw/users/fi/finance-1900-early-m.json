@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:17:00Z",
+  "handle": "finance-1900-early-m",
+  "key_exposed": false,
+  "owner_hash": "d9b6dad12f7cf653f432215bae837448cb3d308a6202bb2b7d2014f9081e00dc",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:17:00Z",
+      "current": true,
+      "id": "ki4jslasr3"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

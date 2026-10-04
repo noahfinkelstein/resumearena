@@ -1,0 +1,74 @@
+{
+  "cd3ywxohut": {
+    "c": {
+      "academia": 1,
+      "general": 1
+    },
+    "ch": "5802ed408c95f6f7c11318ecd48c70413c6f110ab08fb8a99ce73538fe940437",
+    "h": "academia-1900-senior",
+    "p": "academia",
+    "s": "analyzed",
+    "sc": {
+      "academia": 88,
+      "general": 86
+    },
+    "sig": "NSF CAREER, h=30",
+    "ss": {
+      "academia": [
+        80,
+        85,
+        86,
+        90,
+        62,
+        91
+      ],
+      "general": [
+        80,
+        84,
+        84,
+        88,
+        60,
+        89
+      ]
+    },
+    "st": "senior",
+    "t": 1791030420,
+    "v": "anonymous"
+  },
+  "cdrjnfxuqr": {
+    "c": {
+      "academia": 1,
+      "general": 1
+    },
+    "ch": "c868d9bf5f8ebfc2b95be0b607120a98dead4e3c51751ad9d68fedfc1ea7e894",
+    "h": "academia-1400-early",
+    "p": "academia",
+    "s": "analyzed",
+    "sc": {
+      "academia": 51,
+      "general": 50
+    },
+    "sig": "2 mid-author pubs",
+    "ss": {
+      "academia": [
+        40,
+        50,
+        48,
+        28,
+        35,
+        57
+      ],
+      "general": [
+        42,
+        48,
+        45,
+        30,
+        40,
+        55
+      ]
+    },
+    "st": "early",
+    "t": 1791030180,
+    "v": "anonymous"
+  }
+}

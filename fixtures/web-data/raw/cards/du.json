@@ -1,0 +1,115 @@
+{
+  "duzpgc2iik": {
+    "card": {
+      "awards": [
+        {
+          "name": "NSF REU placement",
+          "scope": "national",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Undergraduate research grant",
+          "scope": "institutional",
+          "selectivity": "modest"
+        },
+        {
+          "name": "Dean's List, 5 semesters",
+          "scope": "institutional",
+          "selectivity": "modest"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "student",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2027,
+          "field": "Physics",
+          "gpa_band": "3.7-3.89",
+          "honors": [
+            "Honors Program",
+            "Dean's List"
+          ],
+          "in_progress": true,
+          "institution": "University of Colorado Boulder",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 2,
+          "employment_type": "part_time",
+          "highlights": [
+            "Measured 2 nT field drift over 8 hours; identified the 50 Hz source"
+          ],
+          "impact_scale": "individual",
+          "org": "University of Colorado Boulder physics department",
+          "org_tier": "B",
+          "role": "Honors thesis student",
+          "role_selectivity": "selective",
+          "seniority": "research_assistant",
+          "years": "2026-present"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Built a 780 nm laser system now in daily use",
+            "Data for a workshop paper (4th of 6 authors)"
+          ],
+          "impact_scale": "team",
+          "org": "University of Michigan (NSF REU)",
+          "org_tier": "A",
+          "role": "REU student, ultracold atoms lab",
+          "role_selectivity": "selective",
+          "seniority": "research_assistant",
+          "years": "2025-2025"
+        },
+        {
+          "duration_months": 5,
+          "employment_type": "part_time",
+          "highlights": [
+            "RF resonator and vacuum work"
+          ],
+          "impact_scale": "individual",
+          "org": "University of Colorado Boulder atomic physics group",
+          "org_tier": "B",
+          "role": "Research Assistant",
+          "role_selectivity": "modest",
+          "seniority": "research_assistant",
+          "years": "2025-2025"
+        }
+      ],
+      "headline": "Physics senior at a T3 flagship; NSF REU at a T2 with a middle-author workshop paper; honors thesis in progress",
+      "leadership": [
+        "Learning assistant for two recitation sections of 25",
+        "Outreach coordinator, physics student society"
+      ],
+      "notable": [
+        "Middle author on a workshop paper before senior year"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 1,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": [
+          "Midwest Cold Atom Workshop"
+        ]
+      },
+      "skills_top": [
+        "Optics alignment",
+        "Laser stabilization",
+        "Vacuum systems",
+        "Python",
+        "LabVIEW",
+        "RF electronics"
+      ],
+      "top_signal": "NSF REU alumnus",
+      "years_fulltime": 0
+    },
+    "st": "student"
+  }
+}

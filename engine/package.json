@@ -1,0 +1,15 @@
+{
+  "name": "@resumearena/engine",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "ResumeArena engine: submit, rerank, build-indexes, maintenance. Runs on Node 24 with native type stripping (no build step).",
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.131.0",
+    "@resumearena/shared": "workspace:*"
+  }
+}

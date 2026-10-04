@@ -1,0 +1,48 @@
+{
+  "e2foy26uvx": {
+    "c": {
+      "academia": 0.7,
+      "general": 1,
+      "tech": 1
+    },
+    "ch": "79916f685d3a6af1ce63038b1ec019e83d260cdcf944215f12251ccaf41de1d0",
+    "h": "tech-2100-senior-pri",
+    "p": "tech",
+    "s": "analyzed",
+    "sc": {
+      "academia": 90,
+      "general": 95,
+      "tech": 97
+    },
+    "sig": "ICML best paper",
+    "ss": {
+      "academia": [
+        90,
+        85,
+        92,
+        92,
+        70,
+        90
+      ],
+      "general": [
+        92,
+        94,
+        95,
+        95,
+        86,
+        97
+      ],
+      "tech": [
+        93,
+        95,
+        96,
+        96,
+        85,
+        98
+      ]
+    },
+    "st": "senior",
+    "t": 1791029340,
+    "v": "anonymous"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:51:00Z",
+  "handle": "fabricated-rhodes-io",
+  "key_exposed": false,
+  "owner_hash": "6ab3abd0e4f4c5118c4dbd7a678bfa43063b6a4736f5a96be36d6672d6bc4361",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:51:00Z",
+      "current": true,
+      "id": "62ijw6i4r3"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

@@ -1,0 +1,134 @@
+{
+  "htlomrj2dn": {
+    "card": {
+      "awards": [
+        {
+          "name": "Rhodes Scholarship",
+          "scope": "national",
+          "selectivity": "elite"
+        },
+        {
+          "name": "Truman Scholarship",
+          "scope": "national",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "Phi Beta Kappa, junior election",
+          "scope": "institutional",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "Department best-thesis prize",
+          "scope": "institutional",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Dean's Research Fellowship",
+          "scope": "institutional",
+          "selectivity": "selective"
+        },
+        {
+          "name": "CRCA Scholar-Athlete",
+          "scope": "national",
+          "selectivity": "modest"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "new_grad",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2026,
+          "field": "Ethics, Politics, and Economics",
+          "gpa_band": "3.9-3.99",
+          "honors": [
+            "summa cum laude",
+            "Phi Beta Kappa",
+            "Department thesis prize"
+          ],
+          "in_progress": false,
+          "institution": "Yale University",
+          "institution_tier": "T2"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 50,
+          "employment_type": "founder",
+          "highlights": [
+            "Grew from 40 to about 3,000 students across 14 schools",
+            "Raised $610,000; $240,000 budget; 3 staff and 210 volunteers",
+            "91% college enrollment in the first two cohorts vs 68% baseline"
+          ],
+          "impact_scale": "org",
+          "org": "Mentoring nonprofit (founded)",
+          "org_tier": "C",
+          "role": "Founder and Executive Director",
+          "role_selectivity": "selective",
+          "seniority": "founder",
+          "years": "2022-present"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Transfer-policy memo used in committee questions"
+          ],
+          "impact_scale": "team",
+          "org": "Office of a United States Senator",
+          "org_tier": "B",
+          "role": "Policy Intern, Education and Labor",
+          "role_selectivity": "selective",
+          "seniority": "intern",
+          "years": "2025-2025"
+        },
+        {
+          "duration_months": 21,
+          "employment_type": "part_time",
+          "highlights": [
+            "Coauthor on a working paper presented at APSA 2025"
+          ],
+          "impact_scale": "team",
+          "org": "Yale Institution for Social and Policy Studies",
+          "org_tier": "A",
+          "role": "Research Assistant",
+          "role_selectivity": "modest",
+          "seniority": "research_assistant",
+          "years": "2023-2025"
+        }
+      ],
+      "headline": "T2 new grad, summa cum laude; Rhodes and Truman Scholar; D-I crew captain; founded a 3,000-student nonprofit",
+      "leadership": [
+        "Founded and runs a 14-school nonprofit with 210 volunteers and a $240k budget",
+        "Captain of a 46-athlete Division I crew; stroke of a championship eight",
+        "Elected treasurer managing a $400,000 student activities budget",
+        "Chaired a grants committee allocating $85,000"
+      ],
+      "notable": [
+        "Rhodes and Truman selections in consecutive years",
+        "Nonprofit founded at 18 now serving 3,000 students",
+        "Division I captain with a summa cum laude degree"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "one working paper, not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Nonprofit leadership",
+        "Fundraising",
+        "Education policy",
+        "Stata",
+        "R",
+        "Spanish"
+      ],
+      "top_signal": "Rhodes Scholar",
+      "years_fulltime": 0.4
+    },
+    "st": "new_grad"
+  }
+}

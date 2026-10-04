@@ -1,0 +1,144 @@
+{
+  "4jyb7vrzw7": {
+    "card": {
+      "awards": [
+        {
+          "name": "HackMIT grand prize",
+          "scope": "national",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Company recognition award for a launch",
+          "scope": "company",
+          "selectivity": "modest"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "early",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2024,
+          "field": "Computer Science (ML concentration)",
+          "gpa_band": "3.9-3.99",
+          "honors": [
+            "University Honors",
+            "Dean's List, every semester"
+          ],
+          "in_progress": false,
+          "institution": "Carnegie Mellon University",
+          "institution_tier": "T1"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 15,
+          "employment_type": "full_time",
+          "highlights": [
+            "Shipped a feed re-ranking stage: +0.8% daily active engagement, +1.2% sessions per user in A/B; at 100% traffic",
+            "Owns the feature-logging path; p95 latency 2.4 s to 0.9 s",
+            "Primary on-call one week in five; led mitigation of two SEV3 incidents"
+          ],
+          "impact_scale": "org",
+          "org": "Meta",
+          "org_tier": "A",
+          "role": "Software Engineer, Feed Ranking",
+          "role_selectivity": "selective",
+          "seniority": "new_grad",
+          "years": "2024-present"
+        },
+        {
+          "duration_months": 4,
+          "employment_type": "internship",
+          "highlights": [
+            "Built a query-cost estimator shipped to public preview; false positives 22% to 9%"
+          ],
+          "impact_scale": "team",
+          "org": "Microsoft",
+          "org_tier": "A",
+          "role": "Software Engineering Intern, Azure Monitor",
+          "role_selectivity": "selective",
+          "seniority": "intern",
+          "years": "2023-2023"
+        },
+        {
+          "duration_months": 9,
+          "employment_type": "part_time",
+          "highlights": [
+            "Built a sparse-attention benchmark harness used in a NeurIPS workshop paper (second author)"
+          ],
+          "impact_scale": "team",
+          "org": "Carnegie Mellon University",
+          "org_tier": "B",
+          "role": "Undergraduate Research Assistant",
+          "role_selectivity": "modest",
+          "seniority": "research_assistant",
+          "years": "2022-2023"
+        },
+        {
+          "duration_months": 5,
+          "employment_type": "part_time",
+          "highlights": [
+            "Weekly recitation of 30 students"
+          ],
+          "impact_scale": "individual",
+          "org": "Carnegie Mellon University",
+          "org_tier": "B",
+          "role": "Teaching Assistant, Computer Systems",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2023-2023"
+        }
+      ],
+      "headline": "Engineer at an A-tier social company, 2 years after a T1 CS degree; A/B-tested ranking launch; HackMIT grand prize",
+      "leadership": [
+        "Mentored a summer intern whose project was adopted into the team dashboard"
+      ],
+      "notable": [
+        "A/B-tested ranking launch with stated engagement lift in the first year",
+        "HackMIT grand prize",
+        "Second author on a NeurIPS workshop paper as an undergraduate"
+      ],
+      "projects": [
+        {
+          "descriptor": "Raft-based replicated key-value store (course final, team of 2)",
+          "highlight": "Log compaction and membership changes; 100% on the partition-injection suite",
+          "kind": "software",
+          "scale_signal": "none stated",
+          "technical_depth": "substantial"
+        },
+        {
+          "descriptor": "Contributor to a major open-source ML framework (profiler)",
+          "highlight": "Fixed a double-counted CUDA event on nested profiler ranges",
+          "kind": "software",
+          "scale_signal": "3 merged pull requests",
+          "technical_depth": "standard"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 1,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": [
+          "NeurIPS workshop"
+        ]
+      },
+      "skills_top": [
+        "Python",
+        "C++",
+        "PyTorch",
+        "A/B experimentation",
+        "Go",
+        "Spark",
+        "gRPC",
+        "Kubernetes",
+        "On-call operations"
+      ],
+      "top_signal": "+0.8% DAU A/B win",
+      "years_fulltime": 1.2
+    },
+    "st": "early"
+  }
+}

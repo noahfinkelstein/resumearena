@@ -1,0 +1,112 @@
+{
+  "hxq66qvixj": {
+    "card": {
+      "awards": [],
+      "card_version": "1.0",
+      "career_stage": "new_grad",
+      "education": [
+        {
+          "degree_level": "master",
+          "end_year": 2026,
+          "field": "Materials Science and Engineering",
+          "gpa_band": "3.5-3.69",
+          "honors": [],
+          "in_progress": false,
+          "institution": "The Ohio State University",
+          "institution_tier": "T3"
+        },
+        {
+          "degree_level": "bachelor",
+          "end_year": 2024,
+          "field": "Materials Science and Engineering",
+          "gpa_band": "3.0-3.49",
+          "honors": [],
+          "in_progress": false,
+          "institution": "The Ohio State University",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 12,
+          "employment_type": "part_time",
+          "highlights": [
+            "~120 additively manufactured superalloy specimens across 4 heat treatments; SEM, EBSD, microhardness",
+            "Found a hardness plateau after 8 hours of aging that informed a follow-on study",
+            "First-author manuscript in preparation; trained 2 undergraduates"
+          ],
+          "impact_scale": "individual",
+          "org": "The Ohio State University, alloys laboratory",
+          "org_tier": "B",
+          "role": "Graduate Research Assistant",
+          "role_selectivity": "modest",
+          "seniority": "research_assistant",
+          "years": "2025-2026"
+        },
+        {
+          "duration_months": 21,
+          "employment_type": "part_time",
+          "highlights": [
+            "Lab sections of ~48 and ~30 students over four semesters"
+          ],
+          "impact_scale": "team",
+          "org": "The Ohio State University",
+          "org_tier": "B",
+          "role": "Graduate Teaching Assistant",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2024-2026"
+        },
+        {
+          "duration_months": 5,
+          "employment_type": "part_time",
+          "highlights": [
+            "Assisted with tensile testing and fractography"
+          ],
+          "impact_scale": "individual",
+          "org": "The Ohio State University, alloys laboratory",
+          "org_tier": "B",
+          "role": "Undergraduate Research Assistant",
+          "role_selectivity": "modest",
+          "seniority": "research_assistant",
+          "years": "2024"
+        }
+      ],
+      "headline": "Materials science master's graduate from a T3 state university; defended thesis, no publication; four semesters as a TA",
+      "leadership": [],
+      "notable": [],
+      "projects": [
+        {
+          "descriptor": "Senior capstone: corrosion testing of coated fasteners for an equipment sponsor",
+          "highlight": "Team project presented at a college showcase",
+          "kind": "research",
+          "scale_signal": "none stated",
+          "technical_depth": "standard"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "SEM",
+        "EBSD",
+        "Vickers microhardness",
+        "Metallographic preparation",
+        "Heat treatment",
+        "MATLAB",
+        "OIM Analysis",
+        "Tensile testing",
+        "XRD (basic)",
+        "Thermo-Calc (introductory)"
+      ],
+      "top_signal": "MS thesis, no pub",
+      "years_fulltime": 0
+    },
+    "st": "new_grad"
+  }
+}

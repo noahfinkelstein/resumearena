@@ -1,0 +1,39 @@
+[name]
+New York, NY · [email] · [phone] · [url]
+
+EXPERIENCE
+
+Warburg Pincus — Associate, Technology and Business Services (Jul 2024 – Present), New York, NY
+• Two closed investments: a $700M growth buyout of a vertical software company (co-led the operating model and the customer cohort analysis; sat on the diligence steering committee) and a $260M growth equity investment in a payments business (built the unit-economics model and the 100-day plan with the CFO).
+• Diligence lead on a $1.5B take-private of a healthcare IT company: ran the commercial and technical workstreams across four advisers, owned the base and downside cases presented to the investment committee; the firm submitted a final-round bid.
+• Portfolio support for the software investment: monthly board materials, pricing work that added approximately $9M of annualized revenue in the first year of ownership, and the hiring process for a VP of Finance.
+• Sourced and screened about 80 companies in vertical software; six advanced to first-round investment committee memos, and one became the $260M investment above.
+• Built the group's reusable SaaS cohort-analysis template (retention curves, net revenue retention bridges, payback by cohort) from raw billing data; used on five diligence processes in 2025.
+• Co-wrote the sector thesis on vertical software for regulated industries presented at the 2025 annual investor meeting.
+• Mentor two first-year analysts in the summer associate pipeline; interview for the pre-MBA associate class.
+
+Evercore — Analyst, Mergers and Acquisitions (Jul 2022 – Jun 2024), New York, NY
+• Top-bucket ranking both years.
+• Closed transactions: $4.2B sale of a public industrial software company to a strategic acquirer (model, fairness opinion materials, management presentations); $1.1B sale of a sponsor-owned data business (sole analyst on the model and the 40-party buyer process); $650M divestiture of a healthcare services unit (carve-out financials and transition service agreement analysis).
+• Built the group's standard merger model, adopted across the technology team's 2023 pitch work.
+• Staffed on 20+ pitches; the group converted five into mandates during the two years, two of which were the transactions above.
+• Trained the 2023 incoming analyst class on the group's model conventions (two sessions, 14 analysts).
+
+Evercore — Summer Analyst, Mergers and Acquisitions (Jun 2021 – Aug 2021)
+• Return offer; built the comparable company analysis for a live $2B sell-side.
+
+Morgan Stanley — Sophomore Summer Analyst, Investment Banking Division (Jun 2020 – Aug 2020)
+• Early-insight program; supported the healthcare group on a follow-on offering.
+
+EDUCATION
+
+University of Pennsylvania, The Wharton School — B.S. in Economics, Concentrations in Finance and Statistics, May 2022
+GPA 3.92/4.0, summa cum laude. Joseph Wharton Scholars. Dean's List all semesters.
+Wharton Undergraduate Finance Club, co-president (2021–2022; 400 members). Penn Women in Finance, mentor.
+Penn Investment Alliance, portfolio manager for the technology sector (student fund with approximately $600,000 under management; sector returned 14% versus a 9% benchmark in 2021).
+
+ADDITIONAL
+• CFA Level II passed (2023).
+• Guest speaker at Wharton's sophomore banking workshop, 2024 and 2025.
+• Skills: LBO and merger modeling, cohort and unit-economics analysis, Capital IQ, Pitchbook, SQL (basic), Python (pandas) for diligence data work.
+• Interests: distance running (three marathons), chess.

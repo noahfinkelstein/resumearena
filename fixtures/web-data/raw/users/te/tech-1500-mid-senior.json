@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:04:00Z",
+  "handle": "tech-1500-mid-senior",
+  "key_exposed": false,
+  "owner_hash": "73fa82b9077e4e0e33603d35f765339e004e1a97d73d252c2c75e340be4d81d2",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:04:00Z",
+      "current": true,
+      "id": "upfqinv6ti"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

@@ -1,0 +1,38 @@
+{
+  "izeq5q5wwc": {
+    "c": {
+      "general": 1,
+      "tech": 1
+    },
+    "ch": "52ddcf876fedac82ad41f63be3e23ac542e41351cbca0748bbbb7ece6fb611da",
+    "h": "sixty-technology-ski",
+    "p": "tech",
+    "s": "analyzed",
+    "sc": {
+      "general": 34,
+      "tech": 36
+    },
+    "sig": "Agency full-stack",
+    "ss": {
+      "general": [
+        35,
+        45,
+        30,
+        20,
+        25,
+        36
+      ],
+      "tech": [
+        35,
+        45,
+        32,
+        22,
+        25,
+        38
+      ]
+    },
+    "st": "early",
+    "t": 1791031560,
+    "v": "handle"
+  }
+}

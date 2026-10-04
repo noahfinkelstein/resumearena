@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-09-21T14:20:11Z",
+  "handle": "marco-chen",
+  "key_exposed": false,
+  "owner_hash": "c78fbf30756a000e234ae6595992b2265e92aea22749605b68c5d55c9d6b66c3",
+  "resumes": [
+    {
+      "created_at": "2026-09-21T14:20:11Z",
+      "current": true,
+      "id": "a4vvsruflk"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

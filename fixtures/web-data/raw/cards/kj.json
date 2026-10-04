@@ -1,0 +1,107 @@
+{
+  "kjkdcdj5yr": {
+    "card": {
+      "awards": [
+        {
+          "name": "Business Honors Program admission",
+          "scope": "institutional",
+          "selectivity": "selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "student",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2028,
+          "field": "Finance",
+          "gpa_band": "3.7-3.89",
+          "honors": [
+            "Business Honors Program",
+            "University Honors"
+          ],
+          "in_progress": true,
+          "institution": "University of Texas at Austin (McCombs)",
+          "institution_tier": "T2"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "QoE on $180M, $45M and $320M transactions",
+            "Found $2.1M of non-recurring expenses for the adjusted EBITDA schedule",
+            "Return offer for 2027"
+          ],
+          "impact_scale": "team",
+          "org": "KPMG",
+          "org_tier": "B",
+          "role": "Financial Due Diligence Intern, Transaction Services",
+          "role_selectivity": "selective",
+          "seniority": "intern",
+          "years": "2026-2026"
+        },
+        {
+          "duration_months": 13,
+          "employment_type": "part_time",
+          "highlights": [
+            "Selected 8 of 94 applicants",
+            "Approved pitch up 18% vs 9% benchmark"
+          ],
+          "impact_scale": "team",
+          "org": "Student-run investment fund (~$900k AUM)",
+          "org_tier": "C",
+          "role": "Analyst, Industrials",
+          "role_selectivity": "selective",
+          "seniority": "analyst",
+          "years": "2025-present"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Spread 15 middle-market borrowers; covenant tracker adopted"
+          ],
+          "impact_scale": "team",
+          "org": "Texas Capital Bank",
+          "org_tier": "C",
+          "role": "Summer Analyst, Commercial Banking",
+          "role_selectivity": "modest",
+          "seniority": "intern",
+          "years": "2025-2025"
+        }
+      ],
+      "headline": "Finance junior in a T2 honors program; Big-4 transaction services intern with a return offer; $900k student-fund analyst",
+      "leadership": [
+        "Vice President of Education, undergraduate finance association; 10-week prep series for 60 students"
+      ],
+      "notable": [
+        "Student-fund pitch returned 18% against a 9% benchmark",
+        "Big-4 return offer as a rising junior"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Excel modeling",
+        "Quality of earnings",
+        "NWC analysis",
+        "Comps",
+        "DCF",
+        "Capital IQ",
+        "Bloomberg",
+        "Credit spreading"
+      ],
+      "top_signal": "Big-4 TS intern",
+      "years_fulltime": 0
+    },
+    "st": "student"
+  }
+}

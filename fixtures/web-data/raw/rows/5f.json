@@ -1,0 +1,38 @@
+{
+  "5fj3akcjfx": {
+    "c": {
+      "academia": 1,
+      "general": 1
+    },
+    "ch": "99523928bf6202e9fa3d3e55c44adc71610234b919d48b965b9b98ca278e8a12",
+    "h": "academia-1600-mid-as",
+    "p": "academia",
+    "s": "analyzed",
+    "sc": {
+      "academia": 72,
+      "general": 66
+    },
+    "sig": "NSF PI, 12 papers",
+    "ss": {
+      "academia": [
+        72,
+        68,
+        62,
+        72,
+        40,
+        75
+      ],
+      "general": [
+        72,
+        65,
+        55,
+        70,
+        40,
+        70
+      ]
+    },
+    "st": "mid",
+    "t": 1791030300,
+    "v": "handle"
+  }
+}

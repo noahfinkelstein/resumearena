@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:40:00Z",
+  "handle": "duty-only-bullets-no",
+  "key_exposed": false,
+  "owner_hash": "a7c273f453cb231d92259a3a0a6f4ddec93d4e1b5795bd1918fde181bf9f0911",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:40:00Z",
+      "current": true,
+      "id": "37sazldmbg"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

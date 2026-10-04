@@ -1,0 +1,147 @@
+{
+  "5fj3akcjfx": {
+    "card": {
+      "awards": [
+        {
+          "name": "NSF Graduate Research Fellowship",
+          "scope": "national",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "NSF research grant as PI",
+          "scope": "national",
+          "selectivity": "highly_selective"
+        },
+        {
+          "name": "ACS inorganic division young investigator symposium",
+          "scope": "national",
+          "selectivity": "selective"
+        },
+        {
+          "name": "ACS PRF Doctoral New Investigator",
+          "scope": "national",
+          "selectivity": "selective"
+        },
+        {
+          "name": "University dissertation fellowship",
+          "scope": "institutional",
+          "selectivity": "selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "mid",
+      "education": [
+        {
+          "degree_level": "phd",
+          "end_year": 2023,
+          "field": "Chemistry",
+          "gpa_band": "not_listed",
+          "honors": [
+            "NSF GRFP"
+          ],
+          "in_progress": false,
+          "institution": "University of Wisconsin–Madison",
+          "institution_tier": "T2"
+        },
+        {
+          "degree_level": "bachelor",
+          "end_year": 2018,
+          "field": "Chemistry",
+          "gpa_band": "not_listed",
+          "honors": [
+            "summa cum laude",
+            "Phi Beta Kappa"
+          ],
+          "in_progress": false,
+          "institution": "Macalester College",
+          "institution_tier": "T4"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 14,
+          "employment_type": "full_time",
+          "highlights": [
+            "NSF CHE grant as PI ($540k) plus ACS PRF ($110k)",
+            "Group of 3 PhD students and 2 undergraduates",
+            "Two corresponding-author papers in year one"
+          ],
+          "impact_scale": "team",
+          "org": "University of Utah",
+          "org_tier": "B",
+          "role": "Assistant Professor of Chemistry",
+          "role_selectivity": "highly_selective",
+          "seniority": "faculty",
+          "years": "2025-present"
+        },
+        {
+          "duration_months": 23,
+          "employment_type": "fellowship",
+          "highlights": [
+            "First-author JACS paper; coauthor on JACS and Nature Chemistry papers"
+          ],
+          "impact_scale": "team",
+          "org": "California Institute of Technology",
+          "org_tier": "A",
+          "role": "Postdoctoral Scholar",
+          "role_selectivity": "highly_selective",
+          "seniority": "postdoc",
+          "years": "2023-2025"
+        },
+        {
+          "duration_months": 60,
+          "employment_type": "fellowship",
+          "highlights": [
+            "Three first-author papers; NSF GRFP"
+          ],
+          "impact_scale": "team",
+          "org": "University of Wisconsin–Madison",
+          "org_tier": "A",
+          "role": "PhD student",
+          "role_selectivity": "highly_selective",
+          "seniority": "phd_student",
+          "years": "2018-2023"
+        }
+      ],
+      "headline": "Chemistry assistant professor at a T3 R1; T2 PhD with NSF GRFP, T1 postdoc; 12 papers, 4 first-author; NSF PI",
+      "leadership": [
+        "Principal investigator of a 5-person group with $1.75M in grants and start-up",
+        "Graduate admissions committee; faculty advisor to the graduate student council"
+      ],
+      "notable": [
+        "NSF grant as PI in the second faculty year",
+        "Five top-venue papers by five years past the PhD start"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "about 620 citations claimed; h-index 9",
+        "count_total": 12,
+        "first_author_count": 4,
+        "strong_venue_count": 1,
+        "top_venue_count": 5,
+        "venues": [
+          "J. Am. Chem. Soc.",
+          "Nature Chemistry",
+          "Angew. Chem. Int. Ed.",
+          "Chem. Sci.",
+          "Organometallics",
+          "Inorg. Chem.",
+          "J. Org. Chem.",
+          "Dalton Trans.",
+          "Inorg. Chim. Acta"
+        ]
+      },
+      "skills_top": [
+        "First-row metal catalysis",
+        "C–H functionalization",
+        "Operando XAS",
+        "EPR",
+        "Photoredox catalysis",
+        "Reaction kinetics"
+      ],
+      "top_signal": "NSF PI, 12 papers",
+      "years_fulltime": 5.7
+    },
+    "st": "mid"
+  }
+}

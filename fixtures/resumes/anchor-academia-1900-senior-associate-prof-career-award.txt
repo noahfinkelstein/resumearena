@@ -1,0 +1,87 @@
+[name]
+Baltimore, MD · [email] · [phone] · [url]
+
+ACADEMIC APPOINTMENTS
+Johns Hopkins University, Whiting School of Engineering — Baltimore, MD
+Associate Professor (with tenure), Department of Electrical and Computer Engineering, July 2023 – Present
+Assistant Professor, Department of Electrical and Computer Engineering, July 2017 – June 2023
+Secondary appointment, Department of Computer Science, 2020 – Present
+Affiliated faculty, Mathematical Institute for Data Science and the Laboratory for Computational Sensing and Robotics
+
+EDUCATION
+Ph.D., Electrical Engineering, University of Illinois Urbana-Champaign, 2015
+Dissertation on sparse signal recovery for coherent imaging systems; Beckman Institute graduate fellow
+M.S., Electrical Engineering, University of Illinois Urbana-Champaign, 2012
+B.S., Electrical and Computer Engineering, Georgia Institute of Technology, 2010, highest honors
+
+POSTDOCTORAL TRAINING
+Postdoctoral Research Associate, Department of Statistics, Columbia University, 2015 – 2017
+
+RESEARCH
+Computational imaging and statistical signal processing: inverse problems with learned priors, sparse and low-rank recovery, uncertainty quantification for medical and scientific imaging. The group currently has 7 Ph.D. students, 2 postdoctoral fellows and 4 undergraduate researchers.
+
+HONORS AND AWARDS
+- NSF CAREER Award, 2019
+- Best Paper Award, IEEE International Conference on Computational Photography, 2021
+- IEEE Signal Processing Society Early Career Technical Achievement Award, 2024
+- Johns Hopkins Catalyst Award, 2019
+- Whiting School of Engineering Excellence in Teaching Award, 2022
+- Senior Member, IEEE, 2021
+- Finalist, Young Author Best Paper Award, IEEE Transactions on Signal Processing, 2017 (as doctoral author)
+
+RESEARCH FUNDING (as principal investigator unless noted)
+- NSF CAREER: learned priors for scientific imaging, 2019 – 2024, $548,000
+- NIH R01 (co-PI with a radiology faculty member): uncertainty-aware reconstruction for low-dose CT, 2022 – 2027, $2.6M (PI share $1.3M)
+- DARPA seedling: compressive imaging for low-light sensing, 2020 – 2022, $740,000
+- NSF CCF Medium (lead PI, 3 institutions): algorithmic foundations of self-supervised inverse problems, 2023 – 2027, $1.2M (JHU share $650,000)
+- Industry gifts and awards (two imaging companies, one cloud provider): $410,000 total since 2018
+Total external funding as PI or co-PI: about $5.5M; as PI: about $3.4M
+
+PUBLICATIONS
+50 peer-reviewed publications (22 journal, 28 conference); 15 at top venues (IEEE Transactions on Signal Processing, IEEE Transactions on Image Processing, SIAM Journal on Imaging Sciences, NeurIPS, ICML, CVPR, ICLR); h-index 30; about 4,200 citations as of September 2026.
+
+Selected (student authors from my group in positions 1 – 2 on most):
+1. IEEE Transactions on Signal Processing, 2025 — last author — self-supervised reconstruction with calibrated uncertainty
+2. NeurIPS 2024 — last author — plug-and-play priors with convergence guarantees under model mismatch
+3. CVPR 2024 — last author — joint denoising and super-resolution for low-light scientific cameras
+4. SIAM Journal on Imaging Sciences, 2023 — last author — provable recovery with learned proximal operators
+5. ICML 2023 — second author (collaborator's student first) — diffusion priors for linear inverse problems
+6. IEEE Transactions on Image Processing, 2022 — last author — unrolled networks for coherent imaging
+7. IEEE ICCP 2021 — last author — single-shot compressive hyperspectral imaging (Best Paper Award)
+8. ICLR 2021 — last author — equivariant imaging without ground truth
+9. IEEE Transactions on Signal Processing, 2019 — sole author — sharp phase-transition bounds for structured sparse recovery
+10. IEEE Transactions on Signal Processing, 2016 — first author — sparse recovery for coherent imaging (from the dissertation)
+
+STUDENTS SUPERVISED
+- 8 Ph.D. graduates (2021 – 2026): 3 now in faculty positions (two R1 universities, one liberal-arts college), 4 in industry research (imaging, semiconductor, cloud), 1 postdoctoral fellow
+- 3 former postdoctoral fellows, all now in tenure-track positions
+- 7 current Ph.D. students, 2 current postdoctoral fellows
+- Supervised 19 undergraduate researchers; 6 are coauthors on published papers
+
+TEACHING
+- Developed and teach the graduate course Computational Imaging (enrollment about 45) and the undergraduate course Signals and Systems (enrollment about 120)
+- Co-developed the department's first-year design course module on imaging sensors, 2021
+- Mean teaching evaluation 4.6 / 5 across 14 course offerings
+- Lecturer, IEEE Signal Processing Society summer school on computational imaging, 2023 and 2025
+
+PROFESSIONAL SERVICE
+- Associate Editor, IEEE Transactions on Computational Imaging, 2022 – Present
+- Area Chair: NeurIPS 2023, 2024, 2025; ICML 2024, 2025; CVPR 2025
+- Technical Program Committee: IEEE ICCP (2020 – 2025), ICASSP (2018 – 2024)
+- General Co-Chair, IEEE International Conference on Computational Photography, 2026
+- NSF review panels (CCF, ECCS): 6 panels since 2018
+- Member, IEEE Signal Processing Society Computational Imaging Technical Committee, 2020 – Present
+
+INVITED TALKS (selected, 2023 – 2026)
+Stanford Electrical Engineering seminar (2026); MIT Computational Imaging seminar (2025); Caltech IST seminar (2025); SIAM Conference on Imaging Science plenary-track minisymposium (2024); EPFL Center for Imaging (2024); Max Planck Institute for Intelligent Systems (2023); 24 invited talks since 2018.
+
+UNIVERSITY SERVICE
+- Director of Graduate Admissions, ECE, 2022 – 2025 (about 900 applications a year)
+- Faculty search committee chair, ECE, 2024 – 2025
+- Whiting School diversity and climate committee, 2019 – 2022
+
+PATENTS
+- Three granted US patents on compressive and computational imaging systems (2019, 2022, 2024), licensed to one imaging-sensor company
+
+PROFESSIONAL MEMBERSHIPS
+IEEE (Senior Member), SIAM, Optica

@@ -1,0 +1,697 @@
+{
+  "analysis": {
+    "analysis_confidence": 0.94,
+    "ats": {
+      "detected": {
+        "action_verb_ratio": 0.92,
+        "bullet_count": 36,
+        "bullet_marker_consistent": true,
+        "contact_at_top": true,
+        "date_format_consistent": true,
+        "date_formats_seen": [
+          "Mon YYYY"
+        ],
+        "has_email": true,
+        "has_location": true,
+        "has_phone": true,
+        "has_profile_link": true,
+        "has_street_address": false,
+        "has_summary_section": true,
+        "nonstandard_headings": [
+          "SELECTED TALKS AND WRITING",
+          "SELECTED TECHNICAL WORK"
+        ],
+        "quantified_bullet_ratio": 0.86,
+        "reverse_chronological": true,
+        "section_order": [
+          "Summary",
+          "Experience",
+          "Education",
+          "Publications",
+          "Projects",
+          "Skills",
+          "Awards"
+        ],
+        "skill_bars_or_ratings": false,
+        "standard_headings": [
+          "SUMMARY",
+          "EXPERIENCE",
+          "EDUCATION",
+          "PATENTS",
+          "SKILLS",
+          "RECOGNITION"
+        ],
+        "uses_tables_suspected": false
+      },
+      "factors": {
+        "consistency": {
+          "note": "Mon YYYY throughout; every role dated; titles match the scope described",
+          "score": 100
+        },
+        "contact_info": {
+          "note": "City, email, phone and a profile link in the header",
+          "score": 100
+        },
+        "formatting": {
+          "note": "Standard headings, reverse-chronological, one bullet glyph, two fonts; a few bullets run past 45 words",
+          "score": 95
+        },
+        "keyword_alignment": {
+          "note": "Go, Kubernetes, scheduling, reliability, capacity planning, mentoring and roadmap work all appear in bullets with outcomes; cloud-provider services not named",
+          "score": 92
+        },
+        "length": {
+          "note": "Two pages for a senior engineer",
+          "score": 100
+        },
+        "parseability": {
+          "note": "Single column, clean text layer (0.95), standard headings, contact in the first two lines",
+          "score": 100
+        },
+        "quantification": {
+          "note": "31 of 36 bullets carry a number tied to an outcome; action verbs throughout",
+          "score": 100
+        }
+      },
+      "fixes": [
+        {
+          "factor": "formatting",
+          "fix": "Split the longest bullets (the utilization and roadmap lines) into two each; keep one number per bullet",
+          "issue": "Four bullets exceed 45 words and read as paragraphs",
+          "priority": "medium"
+        },
+        {
+          "factor": "parseability",
+          "fix": "Rename it \"Projects\" or fold the three items into the staff-engineer role",
+          "issue": "\"Selected Technical Work\" is a heading some parsers will not map",
+          "priority": "low"
+        },
+        {
+          "factor": "keyword_alignment",
+          "fix": "If relevant, add one bullet naming the cloud or on-prem provisioning tooling used for the multi-region rollout",
+          "issue": "Cloud platforms and Terraform-style tooling are absent though capacity planning is described",
+          "priority": "low"
+        }
+      ],
+      "score": 98,
+      "target_role_used": "Staff or principal infrastructure engineer, compute platforms"
+    },
+    "awards": [
+      {
+        "issuer": "NVIDIA",
+        "name": "NVIDIA Infrastructure Excellence Award (team)",
+        "pool_estimate": "internal team award, pool not stated",
+        "scope": "company",
+        "selectivity": "modest",
+        "verifiable": false,
+        "year": 2024
+      }
+    ],
+    "card": {
+      "awards": [
+        {
+          "name": "Company infrastructure excellence award (team)",
+          "scope": "company",
+          "selectivity": "modest"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "senior",
+      "education": [
+        {
+          "degree_level": "master",
+          "end_year": 2016,
+          "field": "Computer Sciences",
+          "gpa_band": "not_listed",
+          "honors": [],
+          "in_progress": false,
+          "institution": "University of Wisconsin–Madison",
+          "institution_tier": "T2"
+        },
+        {
+          "degree_level": "bachelor",
+          "end_year": 2014,
+          "field": "Computer Sciences and Mathematics",
+          "gpa_band": "not_listed",
+          "honors": [],
+          "in_progress": false,
+          "institution": "University of Wisconsin–Madison",
+          "institution_tier": "T2"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 45,
+          "employment_type": "full_time",
+          "highlights": [
+            "Tech lead for the internal scheduler over ~60,000 GPUs; 11 engineers build on it, 5 mentored directly",
+            "Gang scheduling with topology-aware placement: utilization 61% to 78% in 14 months, ~$140M of avoided hardware",
+            "p50 interactive queue wait 41 min to 6 min; 99.95% scheduler availability over 24 months"
+          ],
+          "impact_scale": "org",
+          "org": "NVIDIA",
+          "org_tier": "A",
+          "role": "Staff Software Engineer, Compute Platform Infrastructure",
+          "role_selectivity": "highly_selective",
+          "seniority": "staff",
+          "years": "2023-present"
+        },
+        {
+          "duration_months": 46,
+          "employment_type": "full_time",
+          "highlights": [
+            "Built the GPU-hour accounting service for ~180 cost centers; system of record for capacity planning",
+            "Led a 4-engineer state-store migration: failover 25 min to under 90 s",
+            "Node-health subsystem cut jobs failing on bad hardware by 70%; promoted to staff (1 of 3 in a 90-person org)"
+          ],
+          "impact_scale": "org",
+          "org": "NVIDIA",
+          "org_tier": "A",
+          "role": "Senior Software Engineer, Compute Platform Infrastructure",
+          "role_selectivity": "selective",
+          "seniority": "senior",
+          "years": "2019-2022"
+        },
+        {
+          "duration_months": 32,
+          "employment_type": "full_time",
+          "highlights": [
+            "Owned CI for a 2,000-developer codebase; commit-to-test 3.5 h to 55 min",
+            "Memory profiler adopted by 6 teams; caught a 12% RAM regression before a customer sample"
+          ],
+          "impact_scale": "org",
+          "org": "Qualcomm",
+          "org_tier": "B",
+          "role": "Software Engineer, Modem Platform Software",
+          "role_selectivity": "selective",
+          "seniority": "junior",
+          "years": "2016-2019"
+        },
+        {
+          "duration_months": 21,
+          "employment_type": "part_time",
+          "highlights": [
+            "Trace-driven scheduler simulator; second author on a HotCloud workshop paper"
+          ],
+          "impact_scale": "individual",
+          "org": "University of Wisconsin–Madison",
+          "org_tier": "B",
+          "role": "Graduate Research Assistant, Systems Group",
+          "role_selectivity": "selective",
+          "seniority": "research_assistant",
+          "years": "2014-2016"
+        }
+      ],
+      "headline": "Staff engineer at an A-tier chip company, 10 years; tech lead for a ~60,000-GPU scheduling platform; 2 granted patents",
+      "leadership": [
+        "Design authority for a platform used by ~400 engineers; ~40 design reviews a year",
+        "Mentored 5 engineers over three years; 3 promoted, 1 to senior staff"
+      ],
+      "notable": [
+        "Fleet utilization 61% to 78% on ~60,000 GPUs, stated as ~$140M of avoided purchases",
+        "Two granted US patents on accelerator scheduling and accounting (one as first inventor)",
+        "Staff at an A-tier company at year 6.5 from graduation, 1 of 3 staff promotions in a 90-person org",
+        "Keynote-track talk to ~900 attendees at an internal conference; KubeCon co-presenter"
+      ],
+      "projects": [
+        {
+          "descriptor": "Internal gang scheduler (Go, ~45k lines, 2 regions, Raft-replicated placement log)",
+          "highlight": "Topology-aware placement cut all-reduce time on 512-GPU jobs by 18%",
+          "kind": "software",
+          "scale_signal": "~9,000 scheduling decisions a minute; ~60,000 GPUs",
+          "technical_depth": "exceptional"
+        },
+        {
+          "descriptor": "Streaming GPU-hour cost attribution pipeline (Kafka, Flink)",
+          "highlight": "Attributes usage to cost centers within 15 minutes",
+          "kind": "software",
+          "scale_signal": "~1.4 million GPU-hours a day",
+          "technical_depth": "substantial"
+        },
+        {
+          "descriptor": "Contributions to an open-source Kubernetes scheduler-plugins repository",
+          "highlight": "Topology-aware scheduling plugin, 2021-2024",
+          "kind": "software",
+          "scale_signal": "14 merged pull requests",
+          "technical_depth": "substantial"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 1,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": [
+          "HotCloud"
+        ]
+      },
+      "skills_top": [
+        "Go",
+        "C++",
+        "Kubernetes",
+        "Slurm",
+        "etcd",
+        "gRPC",
+        "Linux scheduling and cgroups",
+        "NCCL",
+        "InfiniBand topology",
+        "Python",
+        "Kafka",
+        "Flink"
+      ],
+      "top_signal": "60k-GPU scheduler",
+      "years_fulltime": 10.3
+    },
+    "category_relevance": {
+      "academia": 0.22,
+      "finance": 0.02,
+      "general": 1,
+      "tech": 1
+    },
+    "education": [
+      {
+        "degree_level": "master",
+        "end_year": 2016,
+        "field": "Computer Sciences",
+        "gpa": null,
+        "gpa_band": "not_listed",
+        "gpa_scale": null,
+        "honors": [],
+        "in_progress": false,
+        "institution": "University of Wisconsin–Madison",
+        "institution_tier": "T2",
+        "notes": "Distributed systems focus; thesis on straggler mitigation in cluster schedulers",
+        "start_year": 2014
+      },
+      {
+        "degree_level": "bachelor",
+        "end_year": 2014,
+        "field": "Computer Sciences and Mathematics",
+        "gpa": null,
+        "gpa_band": "not_listed",
+        "gpa_scale": null,
+        "honors": [],
+        "in_progress": false,
+        "institution": "University of Wisconsin–Madison",
+        "institution_tier": "T2",
+        "notes": "",
+        "start_year": 2010
+      }
+    ],
+    "experiences": [
+      {
+        "bullets_condensed": [
+          "Tech lead for the scheduler over ~60,000 GPUs; 11 engineers on two teams; 5 mentored",
+          "Gang scheduling and topology-aware placement: utilization 61% to 78% in 14 months, ~$140M avoided hardware",
+          "Fairness-weighted queue: p50 interactive wait 41 min to 6 min, batch throughput within 2%",
+          "99.95% availability over 24 months; incidents from 4 a quarter to under 1; time-to-mitigate 58 to 14 min"
+        ],
+        "duration_months": 45,
+        "employment_type": "full_time",
+        "end": "present",
+        "impact_scale": "org",
+        "is_current": true,
+        "org": "NVIDIA",
+        "org_tier": "A",
+        "org_type": "public_company",
+        "ownership": "led",
+        "quantified_impact": true,
+        "role": "Staff Software Engineer",
+        "role_selectivity": "highly_selective",
+        "seniority": "staff",
+        "start": "2023-01",
+        "team_or_division": "Compute Platform Infrastructure"
+      },
+      {
+        "bullets_condensed": [
+          "Built the GPU-hour accounting service for ~180 cost centers; system of record since 2021",
+          "Led a 4-engineer state-store migration; failover 25 min to under 90 s",
+          "Node-health subsystem cut jobs failing on bad hardware by 70%",
+          "Quota enforcement with burst credits; over-subscription incidents weekly to ~quarterly"
+        ],
+        "duration_months": 46,
+        "employment_type": "full_time",
+        "end": "2022-12",
+        "impact_scale": "org",
+        "is_current": false,
+        "org": "NVIDIA",
+        "org_tier": "A",
+        "org_type": "public_company",
+        "ownership": "led",
+        "quantified_impact": true,
+        "role": "Senior Software Engineer",
+        "role_selectivity": "selective",
+        "seniority": "senior",
+        "start": "2019-03",
+        "team_or_division": "Compute Platform Infrastructure"
+      },
+      {
+        "bullets_condensed": [
+          "Owned build and CI for a 2,000-developer codebase; commit-to-test 3.5 h to 55 min",
+          "Memory-profiling tool adopted by 6 teams; found a 12% RAM regression pre-sample",
+          "Co-maintained an RTOS scheduler port; 40+ defects fixed before silicon bring-up",
+          "Broken-build hours per week ~30 to under 5"
+        ],
+        "duration_months": 32,
+        "employment_type": "full_time",
+        "end": "2019-02",
+        "impact_scale": "org",
+        "is_current": false,
+        "org": "Qualcomm",
+        "org_tier": "B",
+        "org_type": "public_company",
+        "ownership": "owned_component",
+        "quantified_impact": true,
+        "role": "Software Engineer",
+        "role_selectivity": "selective",
+        "seniority": "junior",
+        "start": "2016-07",
+        "team_or_division": "Modem Platform Software"
+      },
+      {
+        "bullets_condensed": [
+          "Trace-driven cluster-scheduler simulator over 2 months of industry traces",
+          "Second of four authors on a HotCloud 2016 workshop paper"
+        ],
+        "duration_months": 21,
+        "employment_type": "part_time",
+        "end": "2016-05",
+        "impact_scale": "individual",
+        "is_current": false,
+        "org": "University of Wisconsin–Madison",
+        "org_tier": "B",
+        "org_type": "university",
+        "ownership": "contributed",
+        "quantified_impact": false,
+        "role": "Graduate Research Assistant",
+        "role_selectivity": "selective",
+        "seniority": "research_assistant",
+        "start": "2014-09",
+        "team_or_division": "Systems Group"
+      }
+    ],
+    "input": {
+      "is_resume": true,
+      "language": "en",
+      "parse_confidence": 0.95,
+      "placeholders_seen": [
+        "name",
+        "email",
+        "phone",
+        "url"
+      ],
+      "word_count_estimate": 910
+    },
+    "leadership": [
+      {
+        "budget_or_scale": "~60,000 GPUs; platform used by ~400 engineers",
+        "elected_or_appointed": "appointed",
+        "highlight": "Roadmap adopted by a ~400-engineer organization; ~40 design reviews a year; 5 mentees, 3 promoted",
+        "org": "NVIDIA Compute Platform Infrastructure",
+        "people_led": 11,
+        "role": "Technical lead and design authority"
+      }
+    ],
+    "projects": [
+      {
+        "description_condensed": "Go, ~45k lines, two regions, state in etcd with a Raft-replicated placement log; ~9,000 scheduling decisions a minute at peak; topology model over NVLink, InfiniBand and racks",
+        "has_external_validation": true,
+        "kind": "software",
+        "name": "Gang scheduler",
+        "quantified_impact": true,
+        "scale_signal": "~60,000 GPUs; ~9,000 decisions a minute",
+        "technical_depth": "exceptional"
+      },
+      {
+        "description_condensed": "Streaming attribution of ~1.4 million GPU-hours a day to cost centers within 15 minutes (Kafka, Flink)",
+        "has_external_validation": true,
+        "kind": "software",
+        "name": "Cost accounting pipeline",
+        "quantified_impact": true,
+        "scale_signal": "~1.4 million GPU-hours a day",
+        "technical_depth": "substantial"
+      },
+      {
+        "description_condensed": "Topology-aware scheduling plugin; 14 merged pull requests 2021-2024",
+        "has_external_validation": true,
+        "kind": "software",
+        "name": "Kubernetes scheduler-plugins contributions",
+        "quantified_impact": false,
+        "scale_signal": "14 merged pull requests",
+        "technical_depth": "substantial"
+      },
+      {
+        "description_condensed": "Replays 30 days of production job traces in ~20 minutes; the gate for every policy change since 2020",
+        "has_external_validation": false,
+        "kind": "software",
+        "name": "Scheduler simulation harness",
+        "quantified_impact": true,
+        "scale_signal": "internal gate since 2020",
+        "technical_depth": "substantial"
+      }
+    ],
+    "publications": [
+      {
+        "author_count": 4,
+        "author_position": "second",
+        "citations_claimed": null,
+        "field": "cluster scheduling",
+        "kind": "workshop",
+        "venue": "HotCloud",
+        "venue_tier": "workshop",
+        "year": 2016
+      },
+      {
+        "author_count": null,
+        "author_position": "first",
+        "citations_claimed": null,
+        "field": "topology-aware placement of multi-node accelerator jobs",
+        "kind": "patent",
+        "venue": "US patent",
+        "venue_tier": "unknown",
+        "year": 2024
+      },
+      {
+        "author_count": 3,
+        "author_position": "second",
+        "citations_claimed": null,
+        "field": "incremental resource accounting for shared accelerator clusters",
+        "kind": "patent",
+        "venue": "US patent",
+        "venue_tier": "unknown",
+        "year": 2022
+      }
+    ],
+    "red_flags": [],
+    "residual_pii": {
+      "email_count": 0,
+      "name_suspected": false,
+      "other_identifiers": [],
+      "phone_count": 0,
+      "street_address_suspected": false,
+      "url_count": 0
+    },
+    "schema_version": "1.1",
+    "scores": {
+      "academia": {
+        "holistic_score": 30,
+        "included": false,
+        "rationale": "A master's thesis, one workshop paper and patents; no research track since 2016.",
+        "stage_relative_score": 30,
+        "sub_scores": {
+          "breadth": 30,
+          "impact": 35,
+          "pedigree": 55,
+          "selectivity": 40,
+          "trajectory": 50
+        },
+        "top_evidence": []
+      },
+      "finance": {
+        "holistic_score": 15,
+        "included": false,
+        "rationale": "No finance footprint; cost figures are engineering outcomes.",
+        "stage_relative_score": 15,
+        "sub_scores": {
+          "breadth": 20,
+          "impact": 40,
+          "pedigree": 45,
+          "selectivity": 30,
+          "trajectory": 60
+        },
+        "top_evidence": []
+      },
+      "general": {
+        "holistic_score": 86,
+        "included": true,
+        "rationale": "Staff engineer at an A-tier company by year 6.5, owning a platform with org-level outcomes stated in dollars and utilization points, two granted patents, and mentoring with promotion results. T2 education; no elite external selection.",
+        "stage_relative_score": 86,
+        "sub_scores": {
+          "breadth": 58,
+          "impact": 88,
+          "pedigree": 70,
+          "selectivity": 66,
+          "trajectory": 80
+        },
+        "top_evidence": [
+          "Utilization 61% to 78% on ~60,000 GPUs, ~$140M avoided hardware",
+          "Staff promotion: 1 of 3 in a 90-person organization",
+          "Two granted US patents, one as first inventor"
+        ]
+      },
+      "tech": {
+        "holistic_score": 88,
+        "included": true,
+        "rationale": "Tech lead of a ~60,000-GPU scheduler with repeated org-level numbers (utilization, queue wait, availability, failover), staff at an A-tier company in about 6.5 years (ahead of the 8-11 year band), two patents, OSS contributions. No S-tier selection, no top-venue paper.",
+        "stage_relative_score": 88,
+        "sub_scores": {
+          "breadth": 60,
+          "impact": 90,
+          "pedigree": 72,
+          "selectivity": 70,
+          "trajectory": 82
+        },
+        "top_evidence": [
+          "Tech lead for a scheduler over ~60,000 GPUs; utilization 61% to 78%",
+          "Staff at an A-tier company in ~6.5 years; 1 of 3 promotions in a 90-person org",
+          "p50 queue wait 41 min to 6 min; failover 25 min to under 90 s"
+        ]
+      }
+    },
+    "signals": {
+      "career_stage": "senior",
+      "has_quantified_impact": true,
+      "highest_institution_tier": "T2",
+      "highest_org_tier": "A",
+      "max_impact_scale": "org",
+      "months_internship": 0,
+      "primary_domain": "tech",
+      "sustained_org_tier": "A",
+      "top_role_selectivity": "highly_selective",
+      "trajectory": "accelerating",
+      "years_fulltime": 10.3
+    },
+    "skills": {
+      "certifications": [],
+      "domain": [
+        "GPU cluster scheduling",
+        "capacity planning",
+        "incident command",
+        "design review",
+        "technical mentoring"
+      ],
+      "keyword_stuffing_suspected": false,
+      "spoken_languages": [],
+      "technical": [
+        "Go",
+        "C++",
+        "Python",
+        "Rust",
+        "Kubernetes",
+        "Slurm",
+        "etcd",
+        "gRPC",
+        "Linux kernel scheduling",
+        "cgroups",
+        "NCCL",
+        "InfiniBand",
+        "Kafka",
+        "Flink"
+      ]
+    },
+    "strengths": [
+      "Utilization 61% to 78% on ~60,000 GPUs with a stated dollar equivalent (~$140M), the clearest org-level outcome on the page",
+      "Reliability and latency numbers at each level: 99.95% availability, p50 wait 41 min to 6 min, failover 25 min to under 90 s",
+      "Staff promotion at year 6.5, described as 1 of 3 in a 90-person organization, with mentees promoted",
+      "Two granted patents and 14 merged upstream pull requests tie the internal work to external artifacts"
+    ],
+    "verdict": "Staff-level ownership of a 60,000-GPU platform with repeated org-scale numbers and two patents; strong A-tier record without an S-tier or research line.",
+    "weaknesses": [
+      "No S-tier selection or top-venue publication; the hardest bar cleared is an A-tier staff promotion",
+      "Education is T2 with no honors or awards listed",
+      "The team award is unspecified in pool and criteria and adds little",
+      "Several bullets exceed 45 words, which costs skim speed on a two-page document"
+    ]
+  },
+  "card_sha256": "14387d53cfd2229119e199fa4a56822ab0ab1aff5dab77c6db2d996303b5d1d8",
+  "category_relevance": {
+    "academia": 0.22,
+    "finance": 0.02,
+    "general": 1,
+    "tech": 1
+  },
+  "created_at": "2026-10-03T12:06:00Z",
+  "deleted_at": null,
+  "duplicate_of": null,
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+5f7c9f15",
+    "verdict": {
+      "estimated_career_stage": "senior",
+      "is_resume": true,
+      "language": "en",
+      "prompt_injection_detected": false,
+      "reason": "Résumé with dated roles and education.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "tech-1800-senior-sta",
+  "held_reason": null,
+  "id": "3hmlhodjpd",
+  "kind": "user",
+  "metrics": {
+    "char_count": 6006,
+    "columns_detected": 1,
+    "extraction_quality": 0.95,
+    "font_count": 2,
+    "image_count": 0,
+    "pages": 2,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 907
+  },
+  "owner_hash": "10d13e93b72492d3939103d5bd8e43b53986bb028f5e156b90c7313036d463bf",
+  "primary": "tech",
+  "rejected_reason": null,
+  "schema": 1,
+  "scores": {
+    "general": 81,
+    "tech": 84
+  },
+  "source": {
+    "client_version": "fixtures",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 1
+  },
+  "stage": "senior",
+  "status": "analyzed",
+  "superseded_by": null,
+  "supersedes": null,
+  "text": "[name]\nSanta Clara, CA · [email] · [phone] · [url]\n\nSUMMARY\nStaff software engineer with ten years in systems and infrastructure, the last seven at NVIDIA. Technical lead for the company's internal GPU scheduling and cluster-management platform. Two granted patents. Comfortable owning a platform end to end: architecture, on-call, capacity planning, and the roadmap conversations with the teams that depend on it.\n\nEXPERIENCE\n\nNVIDIA — Santa Clara, CA\nStaff Software Engineer, Compute Platform Infrastructure | Jan 2023 – Present\n- Technical lead for the internal GPU scheduling platform that allocates roughly 60,000 GPUs across research, autonomous-vehicle and product-engineering workloads; 11 engineers across two teams build on it, 5 of whom I mentor directly\n- Designed and led the rollout of gang scheduling with topology-aware placement; raised fleet-wide GPU utilization from 61% to 78% over 14 months, equivalent to about $140M of avoided hardware purchases at internal cost rates\n- Replaced a per-job preemption policy with a fairness-weighted queue; p50 queue wait for interactive jobs fell from 41 minutes to 6 minutes while batch throughput held within 2%\n- Introduced a checkpoint-and-migrate path for long-running training jobs that cut lost compute from node failures by an estimated 9,000 GPU-hours per month\n- Own the platform's reliability: 99.95% scheduler availability over the last 24 months, down from 4 user-facing incidents per quarter to fewer than 1\n- Wrote the three-year technical roadmap adopted by the infrastructure organization (about 400 engineers) in 2025\n- Negotiated the platform's service contract with the 6 largest internal customers (research, AV simulation, product engineering); quota disputes escalated to leadership fell from roughly 2 a month to 1 a quarter\n- Ran the incident program for the platform: wrote the on-call runbooks, instituted blameless reviews, and brought median time-to-mitigate from 58 minutes to 14 minutes across 2024\n- Reviewed about 40 design documents a year as the platform's design authority; author of the internal placement-API standard used by 3 other scheduling systems\n\nSenior Software Engineer, Compute Platform Infrastructure | Mar 2019 – Dec 2022\n- Built the resource-accounting service that bills GPU-hours to about 180 internal cost centers; became the system of record for capacity planning in 2021\n- Led a 4-engineer migration of the scheduler's state store from a single-region database to a replicated store; cut failover time from 25 minutes to under 90 seconds and removed a class of lost-job incidents\n- Designed the node-health subsystem that drains degraded GPUs automatically; reduced jobs failing on bad hardware by 70%\n- Shipped quota enforcement with burst credits for 180 cost centers; over-subscription incidents dropped from weekly to roughly one a quarter and the finance team retired a manual chargeback spreadsheet\n- Wrote the scheduler's simulation harness, which replays 30 days of production job traces in about 20 minutes; it has been the gate for every policy change since 2020\n- Promoted to staff after the 2022 cycle; one of 3 promotions to staff in a 90-person organization that year\n\nQualcomm — San Diego, CA\nSoftware Engineer, Modem Platform Software | Jul 2016 – Feb 2019\n- Owned the build and continuous-integration pipeline for a 2,000-developer modem codebase; cut median commit-to-test time from 3.5 hours to 55 minutes by sharding and caching\n- Wrote the memory-profiling tool adopted by 6 teams to find a 12% RAM regression before a customer sample\n- Co-maintained the real-time scheduler port for a new DSP core and fixed 40+ defects ahead of the first silicon bring-up\n- Ran the weekly build-health review with 8 team leads; broken-build hours per week fell from about 30 to under 5\n\nUniversity of Wisconsin–Madison — Madison, WI\nGraduate Research Assistant, Systems Group | Sep 2014 – May 2016\n- Built a trace-driven simulator for cluster schedulers and evaluated three straggler-mitigation policies on 2 months of production traces from an industry partner\n- Co-authored a workshop paper (HotCloud 2016, second of four authors) on speculative execution for short jobs\n\nEDUCATION\nUniversity of Wisconsin–Madison — M.S. in Computer Sciences, 2016 (distributed systems focus; thesis on straggler mitigation in cluster schedulers)\nUniversity of Wisconsin–Madison — B.S. in Computer Sciences and Mathematics, 2014\n\nPATENTS\n- US patent granted 2024: topology-aware placement of multi-node accelerator jobs (first inventor)\n- US patent granted 2022: incremental resource accounting for shared accelerator clusters (second of three inventors)\n\nSELECTED TALKS AND WRITING\n- Internal NVIDIA engineering conference 2025: keynote-track talk on utilization gains from gang scheduling (about 900 attendees)\n- KubeCon North America 2024: co-presented a session on GPU scheduling in Kubernetes with the open-source scheduler working group\n- Contributor to the Kubernetes scheduler plugins repository (topology-aware scheduling plugin); 14 merged pull requests, 2021 – 2024\n\nSELECTED TECHNICAL WORK\n- Gang scheduler: Go, about 45k lines, 2 regions, state in etcd with a Raft-replicated placement log; handles about 9,000 scheduling decisions a minute at peak\n- Topology model: a fabric-aware placement cost function over NVLink, InfiniBand and rack boundaries; cut all-reduce time on 512-GPU jobs by 18% versus naive bin-packing\n- Cost accounting: a streaming pipeline (Kafka, Flink) that attributes about 1.4 million GPU-hours a day to cost centers within 15 minutes of use\n\nSKILLS\nLanguages: Go, C++, Python, Rust (working)\nSystems: Kubernetes, Slurm, etcd, gRPC, Linux kernel scheduling and cgroups, NCCL, InfiniBand fabric topology\nPractices: capacity planning, incident command, design review, technical mentoring\n\nRECOGNITION\n- NVIDIA Infrastructure Excellence Award, 2024 (team award for the utilization program)\n- Mentored 5 engineers over the last three years; 3 promoted, 1 to senior staff",
+  "text_sha256": "6d37eff00f02d9b52780382a5cbfdcad9aa331cec515f37f9cbbc9cd61902a18",
+  "top_signal": "60k-GPU scheduler",
+  "updated_at": "2026-10-03T12:06:00Z",
+  "usage": {
+    "analysis_usd": 0.17728,
+    "gate_usd": 0.0016,
+    "latency_ms": 1
+  },
+  "versions": {
+    "analyst_model": "claude-opus-5-5",
+    "analyst_prompt": "analyst.v1+6dbc77ff",
+    "fell_back": false,
+    "gate_prompt": "gate.v1+5f7c9f15",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "visibility": "handle"
+}

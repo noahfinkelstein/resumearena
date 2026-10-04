@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-09-21T14:20:11Z",
+  "handle": "sofia-said",
+  "key_exposed": false,
+  "owner_hash": "2a08ef46275c80e1948ce12eaa896d99842883978e18c31238595dfa9352ecd2",
+  "resumes": [
+    {
+      "created_at": "2026-09-21T14:20:11Z",
+      "current": true,
+      "id": "p4hafoublb"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

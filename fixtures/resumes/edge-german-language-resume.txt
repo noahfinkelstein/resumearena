@@ -1,0 +1,51 @@
+[name]
+München | [email] | [phone] | [url]
+
+PROFIL
+Softwareentwickler mit drei Jahren Berufserfahrung in der Entwicklung und im Betrieb von Backend-Diensten für ein mittelständisches Logistiksoftware-Unternehmen in München. Schwerpunkte: Java, Spring Boot, PostgreSQL und Kubernetes. Abgeschlossenes Bachelorstudium der Informatik an der Technischen Universität München. Ich suche eine Stelle als Backend-Entwickler in einem Produktteam mit eigener Verantwortung für einen Dienst.
+
+BERUFSERFAHRUNG
+
+Softwareentwickler, Isartal Logistik Software GmbH – München
+Oktober 2023 – heute
+- Entwicklung und Betrieb von Microservices für die Tourenplanung (Java 21, Spring Boot), die täglich rund 45.000 Lieferaufträge verarbeiten
+- Umstellung der Auftragsdatenbank von einer monolithischen Oracle-Installation auf PostgreSQL; Abfragezeiten im Berichtswesen um etwa 60 Prozent gesenkt
+- Einführung automatisierter Integrationstests mit Testcontainers; Testabdeckung des Kernmoduls von 41 auf 78 Prozent erhöht
+- Bereitschaftsdienst im wöchentlichen Wechsel mit vier Kolleginnen und Kollegen; Dokumentation der Störungsbehebung im internen Wiki
+- Einarbeitung von zwei Werkstudierenden und einem Auszubildenden; Durchführung der wöchentlichen Code-Reviews im Team
+
+Werkstudent Softwareentwicklung, Isartal Logistik Software GmbH – München
+März 2022 – September 2023
+- Entwicklung einer internen Weboberfläche zur Nachverfolgung von Sendungen (Angular, REST-Schnittstellen)
+- Aufbau der CI-Pipeline in GitLab für zwei Dienste; Build-Dauer von 25 auf 9 Minuten reduziert
+- Behebung von etwa 90 Fehlertickets aus dem Kundensupport innerhalb von 18 Monaten
+
+Praktikant, Siemens AG, Bereich Digital Industries – Erlangen
+August 2021 – Oktober 2021
+- Mitarbeit an einem Prototyp zur Zustandsüberwachung von Produktionsanlagen (Python, MQTT)
+- Auswertung von Sensordaten aus drei Testanlagen und Erstellung eines Abschlussberichts für die Fachabteilung
+
+AUSBILDUNG
+
+Technische Universität München
+Bachelor of Science Informatik, Oktober 2019 – September 2023, Abschlussnote 1,9
+Bachelorarbeit: Vergleich von Routing-Heuristiken für die Tourenplanung mit Zeitfenstern (Note 1,3)
+Schwerpunkte: Datenbanksysteme, Verteilte Systeme, Algorithmen und Datenstrukturen, Software Engineering
+
+Gymnasium Starnberg
+Allgemeine Hochschulreife, Juni 2019, Note 1,8
+
+KENNTNISSE
+Programmiersprachen: Java, Python, TypeScript, SQL
+Frameworks und Werkzeuge: Spring Boot, Angular, PostgreSQL, Docker, Kubernetes, GitLab CI, Testcontainers, Grafana, Kafka (Grundlagen)
+Methoden: Scrum, Code-Reviews, Domain-Driven Design (Grundlagen), Pair Programming
+Sprachen: Deutsch (Muttersprache), Englisch (verhandlungssicher, C1), Französisch (Grundkenntnisse)
+
+ZERTIFIKATE UND WEITERBILDUNG
+- Certified Kubernetes Application Developer (CKAD), 2025
+- Professional Scrum Developer I, 2024
+- Interner Workshop zu Domain-Driven Design, zweitägig, 2024
+
+ENGAGEMENT
+- Mentor beim Informatik-Schülerwettbewerb der TU München, 2024 und 2025
+- Mitglied der Freiwilligen Feuerwehr Starnberg seit 2017, Ausbildung zum Atemschutzgeräteträger 2020

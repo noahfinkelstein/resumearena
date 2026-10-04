@@ -1,0 +1,51 @@
+[name]
+[email] · [phone] · [url]
+Denver, CO
+
+SUMMARY
+Backend software engineer with five years of experience building messaging and billing services at Twilio. Go and Java, event-driven systems, PostgreSQL and Kafka. Looking for a senior backend role on a platform or infrastructure team.
+
+EXPERIENCE
+
+Twilio — Denver, CO
+Software Engineer II, Messaging Platform · Apr 2024 – Present
+• Own the message-status callback service that delivers delivery receipts to customer webhooks; handles about 1.2B callbacks per day across 3 regions.
+• Reduced callback retry storms during carrier outages by adding per-customer adaptive backoff; peak retry volume during the two largest incidents of 2025 fell by roughly 60%.
+• Led the migration of the service's state store from a sharded MySQL setup to DynamoDB over two quarters with no customer-visible downtime.
+• On-call for the messaging platform tier; wrote 6 runbooks and the post-incident reviews for 4 SEV-2 incidents.
+• Interview on the backend loop; have run about 40 coding interviews.
+• Designed the callback service's regional failover: traffic drains to the nearest healthy region within 90 seconds, verified in quarterly game days.
+• Cut the service's monthly infrastructure cost by about 22% by right-sizing the DynamoDB capacity mode and consolidating three idle Kafka consumer groups.
+• Wrote the team's design-review template; it is now used across the four messaging platform teams.
+
+Software Engineer, Billing Platform · Jun 2021 – Mar 2024
+• Built the usage-aggregation pipeline (Kafka Streams, Java) that rolls up per-message usage records into hourly billing events; processes roughly 900M records per day.
+• Fixed a double-counting bug under consumer rebalances that had been causing about $40k per month of credits; added idempotency keys and an end-to-end reconciliation job.
+• Implemented tax-jurisdiction lookup for 11 new countries in the invoicing service.
+• Added structured logging and tracing across the billing services, cutting mean time to identify the failing component from about 45 minutes to 10.
+• Built the invoice-preview API used by the customer console; p99 latency under 400 ms for accounts with up to 5M monthly messages.
+• Paired with the finance team on the month-end close runbook; the usage data reconciliation step dropped from 2 days to 4 hours.
+• Mentored two new graduates during their first six months on the team.
+
+Software Engineering Intern, Developer Tools · Jun 2020 – Aug 2020
+• Shipped a CLI command for replaying webhook events to a local endpoint; included in the public CLI release that fall.
+• Wrote the documentation page for the command; still the most-visited page in the CLI docs section.
+
+EDUCATION
+Purdue University — West Lafayette, IN
+B.S. Computer Science, May 2021 · GPA 3.5/4.0
+Teaching assistant, Data Structures (CS 251), two semesters
+Relevant coursework: Operating Systems, Distributed Systems, Databases, Compilers
+
+PROJECTS
+• Open-source Go library for rate limiting with sliding-window and token-bucket strategies; about 300 stars, used by two internal Twilio services.
+• Home lab: Kubernetes cluster on three mini PCs running a self-hosted observability stack.
+• Talk at a regional Go meetup on backpressure in event pipelines (2025, about 80 attendees).
+
+SKILLS
+Go, Java, Python · Kafka, Kafka Streams, PostgreSQL, MySQL, DynamoDB, Redis · AWS, Kubernetes, Terraform, Docker · gRPC, REST, OpenTelemetry, Datadog
+
+CERTIFICATIONS
+AWS Certified Solutions Architect – Associate (2023) · Certified Kubernetes Application Developer (2024)
+
+Keywords: Senior Software Engineer, Staff Software Engineer, Backend Engineer, Platform Engineer, Distributed Systems, Microservices, Go, Golang, Java, Python, Kafka, Kubernetes, AWS, Terraform, PostgreSQL, DynamoDB, Redis, gRPC, REST APIs, Event-Driven Architecture, System Design, Scalability, High Availability, Observability, Senior Software Engineer, Staff Software Engineer, Backend Engineer, Platform Engineer, Distributed Systems, Microservices, Go, Golang, Java, Python, Kafka, Kubernetes, AWS, Terraform, PostgreSQL, DynamoDB, Redis, gRPC, REST APIs, Event-Driven Architecture, System Design, Scalability, High Availability, Observability

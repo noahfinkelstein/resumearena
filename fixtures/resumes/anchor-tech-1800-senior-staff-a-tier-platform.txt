@@ -1,0 +1,66 @@
+[name]
+Santa Clara, CA · [email] · [phone] · [url]
+
+SUMMARY
+Staff software engineer with ten years in systems and infrastructure, the last seven at NVIDIA. Technical lead for the company's internal GPU scheduling and cluster-management platform. Two granted patents. Comfortable owning a platform end to end: architecture, on-call, capacity planning, and the roadmap conversations with the teams that depend on it.
+
+EXPERIENCE
+
+NVIDIA — Santa Clara, CA
+Staff Software Engineer, Compute Platform Infrastructure | Jan 2023 – Present
+- Technical lead for the internal GPU scheduling platform that allocates roughly 60,000 GPUs across research, autonomous-vehicle and product-engineering workloads; 11 engineers across two teams build on it, 5 of whom I mentor directly
+- Designed and led the rollout of gang scheduling with topology-aware placement; raised fleet-wide GPU utilization from 61% to 78% over 14 months, equivalent to about $140M of avoided hardware purchases at internal cost rates
+- Replaced a per-job preemption policy with a fairness-weighted queue; p50 queue wait for interactive jobs fell from 41 minutes to 6 minutes while batch throughput held within 2%
+- Introduced a checkpoint-and-migrate path for long-running training jobs that cut lost compute from node failures by an estimated 9,000 GPU-hours per month
+- Own the platform's reliability: 99.95% scheduler availability over the last 24 months, down from 4 user-facing incidents per quarter to fewer than 1
+- Wrote the three-year technical roadmap adopted by the infrastructure organization (about 400 engineers) in 2025
+- Negotiated the platform's service contract with the 6 largest internal customers (research, AV simulation, product engineering); quota disputes escalated to leadership fell from roughly 2 a month to 1 a quarter
+- Ran the incident program for the platform: wrote the on-call runbooks, instituted blameless reviews, and brought median time-to-mitigate from 58 minutes to 14 minutes across 2024
+- Reviewed about 40 design documents a year as the platform's design authority; author of the internal placement-API standard used by 3 other scheduling systems
+
+Senior Software Engineer, Compute Platform Infrastructure | Mar 2019 – Dec 2022
+- Built the resource-accounting service that bills GPU-hours to about 180 internal cost centers; became the system of record for capacity planning in 2021
+- Led a 4-engineer migration of the scheduler's state store from a single-region database to a replicated store; cut failover time from 25 minutes to under 90 seconds and removed a class of lost-job incidents
+- Designed the node-health subsystem that drains degraded GPUs automatically; reduced jobs failing on bad hardware by 70%
+- Shipped quota enforcement with burst credits for 180 cost centers; over-subscription incidents dropped from weekly to roughly one a quarter and the finance team retired a manual chargeback spreadsheet
+- Wrote the scheduler's simulation harness, which replays 30 days of production job traces in about 20 minutes; it has been the gate for every policy change since 2020
+- Promoted to staff after the 2022 cycle; one of 3 promotions to staff in a 90-person organization that year
+
+Qualcomm — San Diego, CA
+Software Engineer, Modem Platform Software | Jul 2016 – Feb 2019
+- Owned the build and continuous-integration pipeline for a 2,000-developer modem codebase; cut median commit-to-test time from 3.5 hours to 55 minutes by sharding and caching
+- Wrote the memory-profiling tool adopted by 6 teams to find a 12% RAM regression before a customer sample
+- Co-maintained the real-time scheduler port for a new DSP core and fixed 40+ defects ahead of the first silicon bring-up
+- Ran the weekly build-health review with 8 team leads; broken-build hours per week fell from about 30 to under 5
+
+University of Wisconsin–Madison — Madison, WI
+Graduate Research Assistant, Systems Group | Sep 2014 – May 2016
+- Built a trace-driven simulator for cluster schedulers and evaluated three straggler-mitigation policies on 2 months of production traces from an industry partner
+- Co-authored a workshop paper (HotCloud 2016, second of four authors) on speculative execution for short jobs
+
+EDUCATION
+University of Wisconsin–Madison — M.S. in Computer Sciences, 2016 (distributed systems focus; thesis on straggler mitigation in cluster schedulers)
+University of Wisconsin–Madison — B.S. in Computer Sciences and Mathematics, 2014
+
+PATENTS
+- US patent granted 2024: topology-aware placement of multi-node accelerator jobs (first inventor)
+- US patent granted 2022: incremental resource accounting for shared accelerator clusters (second of three inventors)
+
+SELECTED TALKS AND WRITING
+- Internal NVIDIA engineering conference 2025: keynote-track talk on utilization gains from gang scheduling (about 900 attendees)
+- KubeCon North America 2024: co-presented a session on GPU scheduling in Kubernetes with the open-source scheduler working group
+- Contributor to the Kubernetes scheduler plugins repository (topology-aware scheduling plugin); 14 merged pull requests, 2021 – 2024
+
+SELECTED TECHNICAL WORK
+- Gang scheduler: Go, about 45k lines, 2 regions, state in etcd with a Raft-replicated placement log; handles about 9,000 scheduling decisions a minute at peak
+- Topology model: a fabric-aware placement cost function over NVLink, InfiniBand and rack boundaries; cut all-reduce time on 512-GPU jobs by 18% versus naive bin-packing
+- Cost accounting: a streaming pipeline (Kafka, Flink) that attributes about 1.4 million GPU-hours a day to cost centers within 15 minutes of use
+
+SKILLS
+Languages: Go, C++, Python, Rust (working)
+Systems: Kubernetes, Slurm, etcd, gRPC, Linux kernel scheduling and cgroups, NCCL, InfiniBand fabric topology
+Practices: capacity planning, incident command, design review, technical mentoring
+
+RECOGNITION
+- NVIDIA Infrastructure Excellence Award, 2024 (team award for the utilization program)
+- Mentored 5 engineers over the last three years; 3 promoted, 1 to senior staff

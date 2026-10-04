@@ -1,0 +1,32 @@
+{
+  "expect": {
+    "gate": "pass",
+    "status": "analyzed"
+  },
+  "group": "anchor",
+  "intended_anchor": 1300,
+  "intended_categories": [
+    "general",
+    "academia"
+  ],
+  "intended_stage": "student",
+  "metrics": {
+    "char_count": 3108,
+    "columns_detected": 1,
+    "extraction_quality": 0.95,
+    "font_count": 2,
+    "image_count": 0,
+    "pages": 1,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 450
+  },
+  "slug": "anchor-academia-1300-student-honors-thesis-reu"
+}

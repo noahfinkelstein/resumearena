@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>ResumeArena · Where resumes are rated, not reviewed.</title>
+    <meta
+      name="description"
+      content="Upload a resume. It is scored, then matched head to head against others until a rating settles. Four ladders: general, finance, tech, academia. No accounts; anyone can watch, and entering takes a handle, not an email."
+    />
+    <meta property="og:title" content="ResumeArena" />
+    <meta property="og:description" content="A rated ladder for resumes." />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <script>
+      // Theme before first paint: stored choice, else the system preference.
+      (function () {
+        var t = null;
+        try {
+          t = localStorage.getItem('resumearena.theme');
+        } catch (e) {}
+        if (t !== 'paper' && t !== 'night') {
+          t = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches ? 'night' : 'paper';
+        }
+        document.documentElement.setAttribute('data-theme', t);
+      })();
+    </script>
+    <script>
+      // SPA redirect decoder: 404.html bounced /r/abc?x=1#h to /?/r/abc&x=1#h. Restore the real path.
+      (function (l) {
+        if (l.search[1] === '/') {
+          var decoded = l.search
+            .slice(1)
+            .split('&')
+            .map(function (s) {
+              return s.replace(/~and~/g, '&');
+            });
+          window.history.replaceState(null, null, l.pathname.slice(0, -1) + decoded.join('?') + l.hash);
+        }
+      })(window.location);
+    </script>
+    <script>
+      // A deploy between page load and a lazy import leaves stale chunk URLs; reload once, then give up.
+      window.addEventListener('vite:preloadError', function (event) {
+        var done = false;
+        try {
+          done = sessionStorage.getItem('resumearena.reloaded') === '1';
+          if (!done) sessionStorage.setItem('resumearena.reloaded', '1');
+        } catch (e) {}
+        if (!done) {
+          event.preventDefault();
+          location.reload();
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

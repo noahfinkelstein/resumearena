@@ -1,0 +1,55 @@
+{
+  "category": "finance",
+  "cols": [
+    "rank",
+    "id",
+    "identity",
+    "tier",
+    "r",
+    "pm",
+    "w",
+    "l",
+    "d",
+    "stage",
+    "sig",
+    "d7",
+    "top"
+  ],
+  "page": 1,
+  "pages": 1,
+  "partition": "stage-mid",
+  "rows": [
+    [
+      1,
+      "jocml7s5ue",
+      "finance-2000-mid-hed",
+      "expert",
+      1877,
+      185,
+      18,
+      3,
+      1,
+      "mid",
+      "$45M 3-yr P&L",
+      0,
+      0.5
+    ],
+    [
+      2,
+      "jz4cv4gtug",
+      "anon-jz4cv4g",
+      "challenger",
+      1465,
+      197,
+      10,
+      7,
+      3,
+      "mid",
+      "10 deals, ~$3B",
+      0,
+      1
+    ]
+  ],
+  "schema": 1,
+  "total": 2
+}

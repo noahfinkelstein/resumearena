@@ -1,0 +1,117 @@
+{
+  "etrkib4oit": {
+    "card": {
+      "awards": [],
+      "card_version": "1.0",
+      "career_stage": "student",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2028,
+          "field": "Computer Science",
+          "gpa_band": "3.5-3.69",
+          "honors": [
+            "Dean's List, 3 semesters"
+          ],
+          "in_progress": true,
+          "institution": "Arizona State University",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 16,
+          "employment_type": "part_time",
+          "highlights": [
+            "Top-five associate in the department for customer survey scores, one quarter"
+          ],
+          "impact_scale": "individual",
+          "org": "Best Buy",
+          "org_tier": "D",
+          "role": "Sales Associate (part-time)",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2025-present"
+        },
+        {
+          "duration_months": 14,
+          "employment_type": "part_time",
+          "highlights": [
+            "Tutors two introductory programming courses about 6 hours a week"
+          ],
+          "impact_scale": "individual",
+          "org": "Arizona State University, Engineering Tutoring Center",
+          "org_tier": "D",
+          "role": "Peer Tutor",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2025-present"
+        },
+        {
+          "duration_months": 1,
+          "employment_type": "volunteer",
+          "highlights": [
+            "Taught Scratch to middle-school students for two weeks"
+          ],
+          "impact_scale": "individual",
+          "org": "Community coding camp",
+          "org_tier": "D",
+          "role": "Volunteer Instructor",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2024-2024"
+        }
+      ],
+      "headline": "CS junior at a T3 state university, GPA 3.5; tutorial-grade projects; part-time retail job and peer tutoring",
+      "leadership": [
+        "Scrum master on a five-person course project",
+        "Intramural soccer captain; residence hall floor representative"
+      ],
+      "notable": [],
+      "projects": [
+        {
+          "descriptor": "Course team project: desktop study-group finder (team of 5)",
+          "highlight": "Scrum master; owned the database schema and data access layer",
+          "kind": "software",
+          "scale_signal": "none stated",
+          "technical_depth": "standard"
+        },
+        {
+          "descriptor": "Tutorial-based weather dashboard with a caching backend",
+          "highlight": "Added favorites, dark mode and an Express cache; deployed to free hosting",
+          "kind": "software",
+          "scale_signal": "none stated",
+          "technical_depth": "tutorial"
+        },
+        {
+          "descriptor": "Sudoku solver and generator with a GUI",
+          "highlight": "Constraint propagation before backtracking; pytest tests",
+          "kind": "software",
+          "scale_signal": "none stated",
+          "technical_depth": "tutorial"
+        }
+      ],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Java",
+        "Python",
+        "React",
+        "Node.js",
+        "Git",
+        "JUnit",
+        "pytest",
+        "C++"
+      ],
+      "top_signal": "CS junior, 3.5 GPA",
+      "years_fulltime": 0
+    },
+    "st": "student"
+  }
+}

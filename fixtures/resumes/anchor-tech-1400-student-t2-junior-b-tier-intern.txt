@@ -1,0 +1,44 @@
+[name]
+Austin, TX | [email] | [phone] | [url] | [url]
+
+EDUCATION
+The University of Texas at Austin — Austin, TX
+B.S. in Computer Science, expected May 2027 | GPA 3.82 / 4.00
+Dean's Honor List: Fall 2024, Spring 2025, Fall 2025
+Coursework: Operating Systems, Computer Networks, Algorithms and Complexity, Database Systems, Principles of Machine Learning, Computer Architecture
+
+EXPERIENCE
+Cisco Systems — Software Engineering Intern, Enterprise Networking (Catalyst switching software)
+San Jose, CA | May 2026 – August 2026
+- Implemented a telemetry export path for interface counters in a C++ control-plane daemon, reducing the collection interval from 60 seconds to 10 seconds on a 48-port test switch
+- Wrote a Python regression harness (pytest) covering 140 CLI commands; the harness found 3 defects that were fixed before the release branch cut
+- Profiled a memory growth issue in the event dispatcher and shipped a fix that held RSS flat over a 72-hour soak test
+- Presented the project to a 30-person engineering group at the end of the internship
+
+The University of Texas at Austin — Undergraduate Teaching Assistant, CS 314 Data Structures
+Austin, TX | August 2025 – Present
+- Lead two weekly discussion sections of roughly 25 students each and hold 4 office hours a week
+- Wrote 6 autograder test suites in Java used by about 400 students per semester
+- Course evaluations for my sections averaged 4.7 / 5 in Fall 2025
+
+PROJECTS
+TabTidy — browser extension for grouping and suspending idle tabs (TypeScript, Chrome Extension APIs)
+- About 300 weekly active users on the Chrome Web Store, 4.6-star average across 41 reviews
+- Suspends tabs idle for a configurable interval and restores them with scroll position intact; measured a 35% reduction in memory use on a 40-tab session
+- Shipped 9 releases since March 2025; handles issues and feature requests from users on the public repository
+- Wrote the end-to-end test suite with Playwright (about 60 cases) that runs on every pull request
+
+Pintos extension, CS 439 Operating Systems — implemented priority donation, a user-program loader and a buffer cache with write-behind; passed 100% of the course test suite
+
+AWARDS
+HackTX 2025 — Top 10 finalist out of about 110 teams for a campus dining wait-time predictor
+UT Austin College of Natural Sciences Dean's Honor List (3 semesters)
+
+SKILLS
+Languages: C++, Python, Java, TypeScript, Go (coursework), SQL
+Systems and tools: Linux, Git, Docker, pytest, GDB, Wireshark, PostgreSQL
+Concepts: networking protocols, concurrency, REST APIs, test automation
+
+ACTIVITIES
+Member, Texas Convergent (student product-building organization), 2025 – Present
+Volunteer mentor, Code Orange (introductory programming workshops for high-school students), 2025

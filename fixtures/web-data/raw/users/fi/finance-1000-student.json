@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:10:00Z",
+  "handle": "finance-1000-student",
+  "key_exposed": false,
+  "owner_hash": "b67ca73613a345a3ca49d800e776e447385a4bd3a112f17ce9b102799036bf40",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:10:00Z",
+      "current": true,
+      "id": "cejzwt6qej"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

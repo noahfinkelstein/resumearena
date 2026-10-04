@@ -1,0 +1,15 @@
+{
+  "created_at": "2026-10-03T12:25:00Z",
+  "handle": "academia-1600-mid-as",
+  "key_exposed": false,
+  "owner_hash": "b93d270c3c910baf6354494c6cf3269a818b4c1089f8f998fa442bd2e24b1989",
+  "resumes": [
+    {
+      "created_at": "2026-10-03T12:25:00Z",
+      "current": true,
+      "id": "5fj3akcjfx"
+    }
+  ],
+  "schema": 1,
+  "state": "active"
+}

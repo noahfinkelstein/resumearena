@@ -1,0 +1,55 @@
+{
+  "category": "finance",
+  "cols": [
+    "rank",
+    "id",
+    "identity",
+    "tier",
+    "r",
+    "pm",
+    "w",
+    "l",
+    "d",
+    "stage",
+    "sig",
+    "d7",
+    "top"
+  ],
+  "page": 1,
+  "pages": 1,
+  "partition": "stage-student",
+  "rows": [
+    [
+      1,
+      "kjkdcdj5yr",
+      "finance-1400-student",
+      "contender",
+      1301,
+      193,
+      7,
+      10,
+      3,
+      "student",
+      "Big-4 TS intern",
+      0,
+      0.5
+    ],
+    [
+      2,
+      "cejzwt6qej",
+      "anon-cejzwt6",
+      "entrant",
+      870,
+      229,
+      0,
+      16,
+      4,
+      "student",
+      "Summer bank teller",
+      0,
+      1
+    ]
+  ],
+  "schema": 1,
+  "total": 2
+}

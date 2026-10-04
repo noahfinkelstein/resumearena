@@ -1,0 +1,47 @@
+[name]
+Columbus, OH | [email] | [phone] | [url]
+
+EDUCATION
+The Ohio State University — Columbus, OH
+M.S. in Materials Science and Engineering, August 2026 | GPA 3.54
+Thesis: "Microstructural evolution of additively manufactured Inconel 718 under post-build heat treatment" (defended June 2026)
+Thesis committee of three faculty members; thesis supported by a departmental research assistantship for the final year
+
+The Ohio State University — Columbus, OH
+B.S. in Materials Science and Engineering, May 2024 | GPA 3.41
+Senior capstone: corrosion testing of coated fasteners for an agricultural equipment sponsor
+
+RESEARCH EXPERIENCE
+Graduate Research Assistant, Advanced Alloys Laboratory, The Ohio State University
+August 2025 – August 2026
+- Prepared, sectioned and polished about 120 laser-powder-bed-fusion Inconel 718 specimens across four heat-treatment schedules
+- Collected SEM and EBSD data on grain size, texture and precipitate distribution; performed Vickers microhardness mapping on every specimen set
+- Analyzed data in MATLAB and OIM Analysis; found a hardness plateau after 8 hours of aging that informed the lab's follow-on study
+- Maintained the laboratory's furnace calibration log and trained two undergraduate students on sample preparation
+- Manuscript based on the thesis in preparation for submission to a materials journal (first author, with adviser)
+
+Undergraduate Research Assistant, Advanced Alloys Laboratory
+January 2024 – May 2024
+- Assisted graduate students with tensile testing and fractography of welded steel coupons
+- Organized the lab's specimen inventory in a shared spreadsheet
+
+TEACHING EXPERIENCE
+Graduate Teaching Assistant, The Ohio State University, Department of Materials Science and Engineering
+August 2024 – May 2026 (four semesters)
+- Led laboratory sections for Introduction to Materials Science (about 48 students per semester) and Mechanical Behavior of Materials (about 30 students)
+- Graded lab reports and problem sets; held weekly office hours
+- Prepared demonstration specimens and maintained the teaching metallography laboratory
+
+SKILLS
+Characterization: SEM, EBSD, optical microscopy, XRD (basic), Vickers and Rockwell hardness testing, tensile testing (Instron), DSC
+Processing: heat treatment, metallographic sample preparation, basic machining
+Software: MATLAB, OIM Analysis, ImageJ, Thermo-Calc (introductory), Microsoft Office, LaTeX
+
+PRESENTATIONS
+- Departmental graduate research symposium, The Ohio State University, April 2026 (poster)
+- Capstone design showcase, College of Engineering, April 2024 (team presentation)
+
+MEMBERSHIPS AND ACTIVITIES
+- Student member, TMS (The Minerals, Metals and Materials Society), 2024 – Present
+- Student member, ASM International, Columbus chapter, 2023 – Present
+- Volunteer, engineering outreach day for middle-school students, 2024 and 2025

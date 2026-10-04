@@ -1,0 +1,41 @@
+[name]
+New York, NY | [email] | [phone] | [url]
+
+EDUCATION
+Princeton University — Princeton, NJ
+A.B. in Economics, Certificate in Finance, June 2026 | GPA 3.81 / 4.00
+Senior thesis (honors): "Private credit spreads and bank capital constraints, 2015 – 2024"; awarded the department's thesis prize for applied finance
+Coursework: Corporate Finance, Asset Pricing, Econometrics, Financial Accounting, Real Analysis, Game Theory
+Activities: Princeton Varsity Lightweight Rowing (2022 – 2024), Tiger Investments (student fund), Bendheim Center peer tutor
+
+EXPERIENCE
+
+Bank of America — Investment Banking Analyst, Healthcare Group
+New York, NY | July 2026 – Present
+- Received a full-time offer at the end of the 2025 summer analyst program; started in July 2026 on the healthcare coverage team
+- Staffed on a sell-side mandate for a $900M specialty-pharma services company and a $1.2B follow-on equity offering
+
+Bank of America — Investment Banking Summer Analyst, Healthcare Group
+New York, NY | June 2025 – August 2025
+- Built the operating model and LBO analysis for a $1.5B medical-device carve-out; the sponsor pitch advanced to a second-round management meeting
+- Ran the trading comparables for 18 healthcare services companies, updated weekly for 3 live pitches
+- Drafted 25 pages of a confidential information memorandum, including the industry section used in the final version
+- Ranked in the top bucket of the 42-person summer class; one of 31 to receive a return offer
+
+Tiger Investments (Princeton student-run fund, about $1.1M AUM) — Portfolio Manager
+Princeton, NJ | September 2024 – May 2026 (analyst from September 2023)
+- Led the 12-person healthcare and consumer sector team; the fund returned 14.2% in the 2025 calendar year against 11.8% for its benchmark
+- Pitched and won approval for 4 long positions; the largest returned 38% over 11 months
+- Rebuilt the fund's risk reporting in Excel and Python, adding sector exposure and factor tilt reports reviewed monthly by the faculty adviser
+
+Lincoln International — Investment Banking Summer Analyst, Business Services
+Chicago, IL | June 2024 – August 2024
+- Supported two sell-side processes for $150M to $300M founder-owned businesses: buyer lists of about 120 names, management presentation drafts and weekly process trackers
+- Built a precedent-transactions analysis covering 30 deals used in a fairness opinion
+
+LEADERSHIP
+- Captain, Princeton Lightweight Rowing second varsity eight, 2023 – 2024 season; Eastern Sprints bronze medal 2024
+- Co-president, Princeton Economics Society, 2025 – 2026; organized a 300-attendee alumni finance conference
+
+SKILLS AND INTERESTS
+Financial modeling (three-statement, LBO, merger), valuation, Excel, PowerPoint, Capital IQ, Bloomberg, FactSet, Python (pandas); conversational Spanish; marathon running (3:08 in 2025)

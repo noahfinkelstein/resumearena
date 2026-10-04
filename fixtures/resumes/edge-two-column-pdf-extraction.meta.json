@@ -1,0 +1,32 @@
+{
+  "expect": {
+    "gate": "pass",
+    "status": "analyzed"
+  },
+  "group": "edge",
+  "intended_anchor": null,
+  "intended_categories": [
+    "general",
+    "tech"
+  ],
+  "intended_stage": "mid",
+  "metrics": {
+    "char_count": 3703,
+    "columns_detected": 2,
+    "extraction_quality": 0.5,
+    "font_count": 3,
+    "image_count": 2,
+    "pages": 1,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 572
+  },
+  "slug": "edge-two-column-pdf-extraction"
+}

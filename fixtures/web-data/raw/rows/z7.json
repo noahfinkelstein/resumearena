@@ -1,0 +1,38 @@
+{
+  "z7rc26crkt": {
+    "c": {
+      "general": 1,
+      "tech": 0.95
+    },
+    "ch": "a7cb048923c9a69a95d345bd0bb5d1c3ede7f4e2d0bcec544947f89bed2035ec",
+    "h": "tech-1400-student-t2",
+    "p": "tech",
+    "s": "analyzed",
+    "sc": {
+      "general": 55,
+      "tech": 57
+    },
+    "sig": "B-tier SWE intern",
+    "ss": {
+      "general": [
+        60,
+        55,
+        38,
+        52,
+        50,
+        58
+      ],
+      "tech": [
+        62,
+        58,
+        40,
+        55,
+        48,
+        60
+      ]
+    },
+    "st": "student",
+    "t": 1791028980,
+    "v": "handle"
+  }
+}

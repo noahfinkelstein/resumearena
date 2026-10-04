@@ -1,0 +1,592 @@
+{
+  "analysis": {
+    "analysis_confidence": 0.94,
+    "ats": {
+      "detected": {
+        "action_verb_ratio": 0.87,
+        "bullet_count": 15,
+        "bullet_marker_consistent": true,
+        "contact_at_top": true,
+        "date_format_consistent": true,
+        "date_formats_seen": [
+          "Month YYYY"
+        ],
+        "has_email": true,
+        "has_location": true,
+        "has_phone": true,
+        "has_profile_link": true,
+        "has_street_address": false,
+        "has_summary_section": false,
+        "nonstandard_headings": [
+          "SKILLS AND INTERESTS"
+        ],
+        "quantified_bullet_ratio": 0.87,
+        "reverse_chronological": true,
+        "section_order": [
+          "Education",
+          "Experience",
+          "Leadership",
+          "Skills"
+        ],
+        "skill_bars_or_ratings": false,
+        "standard_headings": [
+          "EDUCATION",
+          "EXPERIENCE",
+          "LEADERSHIP"
+        ],
+        "uses_tables_suspected": false
+      },
+      "factors": {
+        "consistency": {
+          "note": "Month YYYY throughout; every role dated; titles match the work described",
+          "score": 100
+        },
+        "contact_info": {
+          "note": "City, email, phone and a profile link in the header",
+          "score": 100
+        },
+        "formatting": {
+          "note": "Standard headings, reverse-chronological, one bullet glyph, one font, no images",
+          "score": 100
+        },
+        "keyword_alignment": {
+          "note": "LBO, operating model, comps, precedents, CIM, Capital IQ and Bloomberg appear in bullets with outcomes; DCF and merger model named only in the skills line",
+          "score": 92
+        },
+        "length": {
+          "note": "One page for a new graduate",
+          "score": 100
+        },
+        "parseability": {
+          "note": "Single column, clean text layer (0.98), standard headings, contact in the first two lines",
+          "score": 100
+        },
+        "quantification": {
+          "note": "13 of 15 bullets carry a number tied to an outcome (deal sizes, returns, class rank, attendees)",
+          "score": 100
+        }
+      },
+      "fixes": [
+        {
+          "factor": "keyword_alignment",
+          "fix": "Add the valuation method to one deal bullet: \"Built the DCF and merger model for the $1.2B follow-on; sensitivity tables used in the committee memo\"",
+          "issue": "DCF and merger modeling are claimed only in the skills line",
+          "priority": "medium"
+        },
+        {
+          "factor": "formatting",
+          "fix": "Split into \"Skills\" and \"Interests\" headings",
+          "issue": "Skills and interests share one heading, so the marathon time sits next to Capital IQ",
+          "priority": "low"
+        },
+        {
+          "factor": "quantification",
+          "fix": "After the first deal closes, replace \"Staffed on\" with the deliverable and its result",
+          "issue": "The two full-time bullets describe staffing, not output",
+          "priority": "low"
+        }
+      ],
+      "score": 99,
+      "target_role_used": "Investment banking analyst; private equity associate recruiting"
+    },
+    "awards": [
+      {
+        "issuer": "Princeton Department of Economics",
+        "name": "Departmental thesis prize for applied finance",
+        "pool_estimate": "one prize among ~150 economics theses",
+        "scope": "institutional",
+        "selectivity": "selective",
+        "verifiable": true,
+        "year": 2026
+      },
+      {
+        "issuer": "Eastern Association of Rowing Colleges",
+        "name": "Eastern Sprints bronze medal, second varsity eight",
+        "pool_estimate": "top 3 of ~15 crews",
+        "scope": "regional",
+        "selectivity": "selective",
+        "verifiable": true,
+        "year": 2024
+      }
+    ],
+    "card": {
+      "awards": [
+        {
+          "name": "Departmental thesis prize for applied finance",
+          "scope": "institutional",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Eastern Sprints bronze medal (second varsity eight)",
+          "scope": "regional",
+          "selectivity": "selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "new_grad",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2026,
+          "field": "Economics, Certificate in Finance",
+          "gpa_band": "3.7-3.89",
+          "honors": [
+            "Honors senior thesis",
+            "Departmental thesis prize for applied finance"
+          ],
+          "in_progress": false,
+          "institution": "Princeton University",
+          "institution_tier": "T1"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 3,
+          "employment_type": "full_time",
+          "highlights": [
+            "Return offer from the 2025 summer class; staffed on a $900M sell-side and a $1.2B follow-on"
+          ],
+          "impact_scale": "team",
+          "org": "Bank of America",
+          "org_tier": "A",
+          "role": "Investment Banking Analyst, Healthcare",
+          "role_selectivity": "highly_selective",
+          "seniority": "analyst",
+          "years": "2026-present"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Operating model and LBO for a $1.5B medical-device carve-out; pitch advanced to a second-round meeting",
+            "Trading comps for 18 companies across 3 live pitches; 25 CIM pages drafted",
+            "Top bucket of a 42-person class; 1 of 31 return offers"
+          ],
+          "impact_scale": "team",
+          "org": "Bank of America",
+          "org_tier": "A",
+          "role": "Investment Banking Summer Analyst, Healthcare",
+          "role_selectivity": "highly_selective",
+          "seniority": "intern",
+          "years": "2025"
+        },
+        {
+          "duration_months": 21,
+          "employment_type": "part_time",
+          "highlights": [
+            "Led a 12-person sector team; fund returned 14.2% in 2025 vs 11.8% benchmark",
+            "4 approved long positions; largest returned 38% over 11 months",
+            "Rebuilt risk reporting in Excel and Python"
+          ],
+          "impact_scale": "team",
+          "org": "Student-run investment fund (~$1.1M AUM)",
+          "org_tier": "C",
+          "role": "Portfolio Manager, healthcare and consumer",
+          "role_selectivity": "selective",
+          "seniority": "other",
+          "years": "2024-2026"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Two sell-side processes for $150M-$300M businesses; ~120-name buyer lists",
+            "Precedent-transactions analysis of 30 deals used in a fairness opinion"
+          ],
+          "impact_scale": "team",
+          "org": "Lincoln International",
+          "org_tier": "B",
+          "role": "Investment Banking Summer Analyst, Business Services",
+          "role_selectivity": "selective",
+          "seniority": "intern",
+          "years": "2024"
+        }
+      ],
+      "headline": "T1 economics graduate (3.7-3.89, thesis prize); bulge-bracket IB summer converted to analyst; student-fund PM ($1.1M)",
+      "leadership": [
+        "Captain of a varsity lightweight rowing second eight; Eastern Sprints bronze 2024",
+        "Co-president of a university economics society; 300-attendee alumni finance conference"
+      ],
+      "notable": [
+        "Top bucket of a 42-person bulge-bracket summer class and a return offer",
+        "Ran the healthcare and consumer book of a ~$1.1M student fund that beat its benchmark",
+        "T1 economics degree with an honors thesis that won the departmental applied-finance prize",
+        "Varsity lightweight rowing captain with a regional championship medal"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Three-statement, LBO and merger modeling",
+        "Valuation",
+        "Excel",
+        "PowerPoint",
+        "Capital IQ",
+        "Bloomberg",
+        "FactSet",
+        "Python (pandas)"
+      ],
+      "top_signal": "BB IB return offer",
+      "years_fulltime": 0.3
+    },
+    "category_relevance": {
+      "academia": 0.1,
+      "finance": 1,
+      "general": 1,
+      "tech": 0.05
+    },
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2026,
+        "field": "Economics, Certificate in Finance",
+        "gpa": 3.81,
+        "gpa_band": "3.7-3.89",
+        "gpa_scale": 4,
+        "honors": [
+          "Honors senior thesis",
+          "Departmental thesis prize for applied finance"
+        ],
+        "in_progress": false,
+        "institution": "Princeton University",
+        "institution_tier": "T1",
+        "notes": "Thesis on private credit spreads and bank capital constraints; quantitative coursework incl. real analysis",
+        "start_year": 2022
+      }
+    ],
+    "experiences": [
+      {
+        "bullets_condensed": [
+          "Full-time seat from the 2025 summer program; started July 2026",
+          "Staffed on a $900M specialty-pharma services sell-side and a $1.2B follow-on offering"
+        ],
+        "duration_months": 3,
+        "employment_type": "full_time",
+        "end": "present",
+        "impact_scale": "team",
+        "is_current": true,
+        "org": "Bank of America",
+        "org_tier": "A",
+        "org_type": "bank",
+        "ownership": "supported",
+        "quantified_impact": false,
+        "role": "Investment Banking Analyst",
+        "role_selectivity": "highly_selective",
+        "seniority": "analyst",
+        "start": "2026-07",
+        "team_or_division": "Investment Banking, Healthcare Group"
+      },
+      {
+        "bullets_condensed": [
+          "Operating model and LBO for a $1.5B medical-device carve-out; pitch advanced to a second-round management meeting",
+          "Trading comps for 18 healthcare services companies, updated weekly for 3 live pitches",
+          "Drafted 25 CIM pages including the industry section used in the final version",
+          "Top bucket of a 42-person class; 1 of 31 return offers"
+        ],
+        "duration_months": 3,
+        "employment_type": "internship",
+        "end": "2025-08",
+        "impact_scale": "team",
+        "is_current": false,
+        "org": "Bank of America",
+        "org_tier": "A",
+        "org_type": "bank",
+        "ownership": "owned_component",
+        "quantified_impact": true,
+        "role": "Investment Banking Summer Analyst",
+        "role_selectivity": "highly_selective",
+        "seniority": "intern",
+        "start": "2025-06",
+        "team_or_division": "Investment Banking, Healthcare Group"
+      },
+      {
+        "bullets_condensed": [
+          "Led a 12-person sector team; fund returned 14.2% in calendar 2025 vs 11.8% benchmark",
+          "4 long positions approved; largest returned 38% over 11 months",
+          "Rebuilt risk reporting (sector exposure, factor tilts) in Excel and Python",
+          "Analyst from September 2023"
+        ],
+        "duration_months": 21,
+        "employment_type": "part_time",
+        "end": "2026-05",
+        "impact_scale": "team",
+        "is_current": false,
+        "org": "Tiger Investments (Princeton student-run fund)",
+        "org_tier": "C",
+        "org_type": "fund",
+        "ownership": "led",
+        "quantified_impact": true,
+        "role": "Portfolio Manager",
+        "role_selectivity": "selective",
+        "seniority": "other",
+        "start": "2024-09",
+        "team_or_division": "Healthcare and consumer"
+      },
+      {
+        "bullets_condensed": [
+          "Two sell-side processes for $150M-$300M founder-owned businesses; ~120-name buyer lists; weekly trackers",
+          "Precedent-transactions analysis of 30 deals used in a fairness opinion"
+        ],
+        "duration_months": 3,
+        "employment_type": "internship",
+        "end": "2024-08",
+        "impact_scale": "team",
+        "is_current": false,
+        "org": "Lincoln International",
+        "org_tier": "B",
+        "org_type": "bank",
+        "ownership": "supported",
+        "quantified_impact": true,
+        "role": "Investment Banking Summer Analyst",
+        "role_selectivity": "selective",
+        "seniority": "intern",
+        "start": "2024-06",
+        "team_or_division": "Business Services"
+      }
+    ],
+    "input": {
+      "is_resume": true,
+      "language": "en",
+      "parse_confidence": 0.98,
+      "placeholders_seen": [
+        "name",
+        "email",
+        "phone",
+        "url"
+      ],
+      "word_count_estimate": 430
+    },
+    "leadership": [
+      {
+        "budget_or_scale": "one boat; Eastern Sprints bronze 2024",
+        "elected_or_appointed": "elected",
+        "highlight": "Captained the second varsity eight to an Eastern Sprints bronze medal in 2024",
+        "org": "Princeton Lightweight Rowing",
+        "people_led": 9,
+        "role": "Captain, second varsity eight"
+      },
+      {
+        "budget_or_scale": "300-attendee alumni finance conference",
+        "elected_or_appointed": "elected",
+        "highlight": "Organized a 300-attendee alumni finance conference, 2025-2026",
+        "org": "Princeton Economics Society",
+        "people_led": null,
+        "role": "Co-president"
+      }
+    ],
+    "projects": [],
+    "publications": [],
+    "red_flags": [],
+    "residual_pii": {
+      "email_count": 0,
+      "name_suspected": false,
+      "other_identifiers": [],
+      "phone_count": 0,
+      "street_address_suspected": false,
+      "url_count": 0
+    },
+    "schema_version": "1.1",
+    "scores": {
+      "academia": {
+        "holistic_score": 30,
+        "included": false,
+        "rationale": "A prize-winning undergraduate thesis; no research track.",
+        "stage_relative_score": 30,
+        "sub_scores": {
+          "breadth": 30,
+          "impact": 25,
+          "pedigree": 70,
+          "selectivity": 45,
+          "trajectory": 55
+        },
+        "top_evidence": []
+      },
+      "finance": {
+        "holistic_score": 78,
+        "included": true,
+        "rationale": "The standard target-school path executed well: a middle-market summer, then a bulge-bracket healthcare summer at top bucket with a return offer, plus a student fund with real AUM, stated returns and 4 approved positions. Nothing S-tier yet; impact is intern-scale by definition.",
+        "stage_relative_score": 80,
+        "sub_scores": {
+          "breadth": 60,
+          "impact": 52,
+          "pedigree": 85,
+          "selectivity": 80,
+          "trajectory": 72
+        },
+        "top_evidence": [
+          "Bulge-bracket IB summer: top bucket, 1 of 31 return offers in a class of 42",
+          "Student fund PM: 14.2% vs 11.8% benchmark; 4 approved longs, best +38%",
+          "LBO and operating model for a $1.5B carve-out that reached a second-round meeting"
+        ]
+      },
+      "general": {
+        "holistic_score": 77,
+        "included": true,
+        "rationale": "T1 degree with a 3.81 and a prize-winning thesis, a bulge-bracket summer converted at top bucket, real portfolio responsibility in a student fund with stated returns, a varsity captaincy. Impact is team-scale, as expected before any full-time year.",
+        "stage_relative_score": 78,
+        "sub_scores": {
+          "breadth": 65,
+          "impact": 50,
+          "pedigree": 85,
+          "selectivity": 78,
+          "trajectory": 70
+        },
+        "top_evidence": [
+          "Top bucket of a 42-person bulge-bracket class; return offer",
+          "Princeton economics, 3.81, departmental thesis prize",
+          "Varsity rowing captain; Eastern Sprints bronze"
+        ]
+      },
+      "tech": {
+        "holistic_score": 15,
+        "included": false,
+        "rationale": "Python for fund risk reports; no engineering footprint.",
+        "stage_relative_score": 15,
+        "sub_scores": {
+          "breadth": 25,
+          "impact": 20,
+          "pedigree": 55,
+          "selectivity": 40,
+          "trajectory": 50
+        },
+        "top_evidence": []
+      }
+    },
+    "signals": {
+      "career_stage": "new_grad",
+      "has_quantified_impact": true,
+      "highest_institution_tier": "T1",
+      "highest_org_tier": "A",
+      "max_impact_scale": "team",
+      "months_internship": 6,
+      "primary_domain": "finance",
+      "sustained_org_tier": "unknown",
+      "top_role_selectivity": "highly_selective",
+      "trajectory": "accelerating",
+      "years_fulltime": 0.3
+    },
+    "skills": {
+      "certifications": [],
+      "domain": [
+        "three-statement modeling",
+        "LBO modeling",
+        "merger modeling",
+        "valuation",
+        "healthcare coverage"
+      ],
+      "keyword_stuffing_suspected": false,
+      "spoken_languages": [
+        "English",
+        "Spanish (conversational)"
+      ],
+      "technical": [
+        "Excel",
+        "PowerPoint",
+        "Capital IQ",
+        "Bloomberg",
+        "FactSet",
+        "Python (pandas)"
+      ]
+    },
+    "strengths": [
+      "Bulge-bracket healthcare summer at top bucket of 42 with a return offer, the hardest selection on the page",
+      "Student fund with real AUM and stated results: 14.2% vs an 11.8% benchmark, 4 approved positions, best +38%",
+      "Princeton economics with a 3.81 and the departmental thesis prize for applied finance",
+      "Every experience bullet carries a deal size, count or return",
+      "Varsity captaincy with a regional medal shows sustained commitment outside finance"
+    ],
+    "verdict": "The target-school banking path executed on schedule, with a top-bucket bulge-bracket summer and a student fund that beat its benchmark; nothing S-tier yet.",
+    "weaknesses": [
+      "Three months into the full-time seat; the two current bullets describe staffing rather than output",
+      "No S-tier selection (elite boutique, megafund or GS/MS/JPM) on the page",
+      "DCF and merger modeling appear only in the skills line, never in a bullet",
+      "The student fund is small (~$1.1M), so the returns are directional rather than a track record"
+    ]
+  },
+  "card_sha256": "9ab1981ba8000dd984bad6b558e3a4cc985fb3a060b4876fd96825ee7be21a98",
+  "category_relevance": {
+    "academia": 0.1,
+    "finance": 1,
+    "general": 1,
+    "tech": 0.05
+  },
+  "created_at": "2026-10-03T12:15:00Z",
+  "deleted_at": null,
+  "duplicate_of": null,
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+5f7c9f15",
+    "verdict": {
+      "estimated_career_stage": "new_grad",
+      "is_resume": true,
+      "language": "en",
+      "prompt_injection_detected": false,
+      "reason": "Résumé with dated roles and education.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "finance-1600-new-gra",
+  "held_reason": null,
+  "id": "lujxpyjxdh",
+  "kind": "user",
+  "metrics": {
+    "char_count": 2827,
+    "columns_detected": 1,
+    "extraction_quality": 0.98,
+    "font_count": 1,
+    "image_count": 0,
+    "pages": 1,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 426
+  },
+  "owner_hash": "9d0050df30d6377be41492ab6ca57dfb9be3c266d7542ca706ebb56a4b228f8a",
+  "primary": "finance",
+  "rejected_reason": null,
+  "schema": 1,
+  "scores": {
+    "finance": 77,
+    "general": 74
+  },
+  "source": {
+    "client_version": "fixtures",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 1
+  },
+  "stage": "new_grad",
+  "status": "analyzed",
+  "superseded_by": null,
+  "supersedes": null,
+  "text": "[name]\nNew York, NY | [email] | [phone] | [url]\n\nEDUCATION\nPrinceton University — Princeton, NJ\nA.B. in Economics, Certificate in Finance, June 2026 | GPA 3.81 / 4.00\nSenior thesis (honors): \"Private credit spreads and bank capital constraints, 2015 – 2024\"; awarded the department's thesis prize for applied finance\nCoursework: Corporate Finance, Asset Pricing, Econometrics, Financial Accounting, Real Analysis, Game Theory\nActivities: Princeton Varsity Lightweight Rowing (2022 – 2024), Tiger Investments (student fund), Bendheim Center peer tutor\n\nEXPERIENCE\n\nBank of America — Investment Banking Analyst, Healthcare Group\nNew York, NY | July 2026 – Present\n- Received a full-time offer at the end of the 2025 summer analyst program; started in July 2026 on the healthcare coverage team\n- Staffed on a sell-side mandate for a $900M specialty-pharma services company and a $1.2B follow-on equity offering\n\nBank of America — Investment Banking Summer Analyst, Healthcare Group\nNew York, NY | June 2025 – August 2025\n- Built the operating model and LBO analysis for a $1.5B medical-device carve-out; the sponsor pitch advanced to a second-round management meeting\n- Ran the trading comparables for 18 healthcare services companies, updated weekly for 3 live pitches\n- Drafted 25 pages of a confidential information memorandum, including the industry section used in the final version\n- Ranked in the top bucket of the 42-person summer class; one of 31 to receive a return offer\n\nTiger Investments (Princeton student-run fund, about $1.1M AUM) — Portfolio Manager\nPrinceton, NJ | September 2024 – May 2026 (analyst from September 2023)\n- Led the 12-person healthcare and consumer sector team; the fund returned 14.2% in the 2025 calendar year against 11.8% for its benchmark\n- Pitched and won approval for 4 long positions; the largest returned 38% over 11 months\n- Rebuilt the fund's risk reporting in Excel and Python, adding sector exposure and factor tilt reports reviewed monthly by the faculty adviser\n\nLincoln International — Investment Banking Summer Analyst, Business Services\nChicago, IL | June 2024 – August 2024\n- Supported two sell-side processes for $150M to $300M founder-owned businesses: buyer lists of about 120 names, management presentation drafts and weekly process trackers\n- Built a precedent-transactions analysis covering 30 deals used in a fairness opinion\n\nLEADERSHIP\n- Captain, Princeton Lightweight Rowing second varsity eight, 2023 – 2024 season; Eastern Sprints bronze medal 2024\n- Co-president, Princeton Economics Society, 2025 – 2026; organized a 300-attendee alumni finance conference\n\nSKILLS AND INTERESTS\nFinancial modeling (three-statement, LBO, merger), valuation, Excel, PowerPoint, Capital IQ, Bloomberg, FactSet, Python (pandas); conversational Spanish; marathon running (3:08 in 2025)",
+  "text_sha256": "8e653522da7d4ccd87425d165785e13ce3795c6b85b52317d47a8ab8a7ec65f8",
+  "top_signal": "BB IB return offer",
+  "updated_at": "2026-10-03T12:15:00Z",
+  "usage": {
+    "analysis_usd": 0.17728,
+    "gate_usd": 0.0016,
+    "latency_ms": 0
+  },
+  "versions": {
+    "analyst_model": "claude-opus-5-5",
+    "analyst_prompt": "analyst.v1+6dbc77ff",
+    "fell_back": false,
+    "gate_prompt": "gate.v1+5f7c9f15",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "visibility": "handle"
+}

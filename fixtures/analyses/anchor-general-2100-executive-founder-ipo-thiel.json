@@ -1,0 +1,524 @@
+{
+  "analysis_confidence": 0.95,
+  "ats": {
+    "detected": {
+      "action_verb_ratio": 0.72,
+      "bullet_count": 29,
+      "bullet_marker_consistent": true,
+      "contact_at_top": true,
+      "date_format_consistent": true,
+      "date_formats_seen": [
+        "Mon YYYY",
+        "YYYY"
+      ],
+      "has_email": true,
+      "has_location": true,
+      "has_phone": true,
+      "has_profile_link": true,
+      "has_street_address": false,
+      "has_summary_section": true,
+      "nonstandard_headings": [
+        "BOARD AND ADVISORY ROLES",
+        "PUBLIC SPEAKING AND WRITING"
+      ],
+      "quantified_bullet_ratio": 0.9,
+      "reverse_chronological": true,
+      "section_order": [
+        "Summary",
+        "Experience",
+        "Leadership",
+        "Awards",
+        "Publications",
+        "Skills"
+      ],
+      "skill_bars_or_ratings": false,
+      "standard_headings": [
+        "SUMMARY",
+        "EXPERIENCE",
+        "HONORS",
+        "TECHNICAL SKILLS",
+        "OTHER"
+      ],
+      "uses_tables_suspected": false
+    },
+    "factors": {
+      "consistency": {
+        "note": "Mon YYYY and YYYY used consistently; every role dated",
+        "score": 100
+      },
+      "contact_info": {
+        "note": "City, email, phone and a profile link in the header",
+        "score": 100
+      },
+      "formatting": {
+        "note": "Standard headings, reverse-chronological; one bullet glyph; several bullets exceed 45 words; an unconventional \"phases\" sub-list",
+        "score": 95
+      },
+      "keyword_alignment": {
+        "note": "CEO competencies (P&L, fundraising, governance, hiring, M&A, product) appear with numbers; marketing and sales leadership are implied rather than stated",
+        "score": 92
+      },
+      "length": {
+        "note": "Two pages for an executive",
+        "score": 100
+      },
+      "parseability": {
+        "note": "Single column, clean text layer (0.96), standard headings, contact in the first two lines",
+        "score": 100
+      },
+      "quantification": {
+        "note": "26 of 29 bullets carry a number (users, revenue, headcount, capital, margins)",
+        "score": 100
+      }
+    },
+    "fixes": [
+      {
+        "factor": "formatting",
+        "fix": "Cut the phases list to one line per phase and split the longest bullets",
+        "issue": "The \"phases of the company\" sub-list and several 50-word bullets slow a skim",
+        "priority": "low"
+      },
+      {
+        "factor": "keyword_alignment",
+        "fix": "Add one bullet on the sales or marketing organization: size, model and a growth figure it owns",
+        "issue": "Go-to-market leadership is implied by revenue growth but never named",
+        "priority": "low"
+      },
+      {
+        "factor": "parseability",
+        "fix": "Rename to \"Board Roles\" and \"Publications and Talks\"",
+        "issue": "\"Board and Advisory Roles\" and \"Public Speaking and Writing\" are headings parsers map inconsistently",
+        "priority": "low"
+      }
+    ],
+    "score": 98,
+    "target_role_used": "Public-company chief executive; board director"
+  },
+  "awards": [
+    {
+      "issuer": "Thiel Foundation",
+      "name": "Thiel Fellowship",
+      "pool_estimate": "~20 fellows from several thousand applicants",
+      "scope": "international",
+      "selectivity": "elite",
+      "verifiable": true,
+      "year": 2014
+    },
+    {
+      "issuer": "Forbes",
+      "name": "Forbes 30 Under 30, Consumer Technology",
+      "pool_estimate": "30 per category; nominated list",
+      "scope": "national",
+      "selectivity": "highly_selective",
+      "verifiable": true,
+      "year": 2019
+    },
+    {
+      "issuer": "Fortune",
+      "name": "Fortune 40 Under 40",
+      "pool_estimate": "40 nationally; nominated list",
+      "scope": "national",
+      "selectivity": "highly_selective",
+      "verifiable": true,
+      "year": 2024
+    },
+    {
+      "issuer": "EY",
+      "name": "EY Entrepreneur Of The Year, Bay Area",
+      "pool_estimate": "regional winner among nominated founders",
+      "scope": "regional",
+      "selectivity": "highly_selective",
+      "verifiable": true,
+      "year": 2023
+    }
+  ],
+  "card": {
+    "awards": [
+      {
+        "name": "Thiel Fellowship",
+        "scope": "international",
+        "selectivity": "elite"
+      },
+      {
+        "name": "EY Entrepreneur Of The Year, regional",
+        "scope": "regional",
+        "selectivity": "highly_selective"
+      },
+      {
+        "name": "Fortune 40 Under 40",
+        "scope": "national",
+        "selectivity": "highly_selective"
+      },
+      {
+        "name": "Forbes 30 Under 30",
+        "scope": "national",
+        "selectivity": "highly_selective"
+      }
+    ],
+    "card_version": "1.0",
+    "career_stage": "executive",
+    "education": [
+      {
+        "degree_level": "other",
+        "end_year": null,
+        "field": "Computer Science (left after sophomore year for a Thiel Fellowship)",
+        "gpa_band": "not_listed",
+        "honors": [],
+        "in_progress": false,
+        "institution": "Stanford University",
+        "institution_tier": "T1"
+      }
+    ],
+    "experiences": [
+      {
+        "duration_months": 151,
+        "employment_type": "founder",
+        "highlights": [
+          "2 to 1,100 employees; 30M monthly active users, 2.1M paying subscribers; ~$410M revenue in fiscal 2025 (+44%), FCF-positive since 2022",
+          "~$380M raised from Founders Fund, Sequoia, a16z, Tiger Global and Coatue; IPO in 2024 at ~$3B, $520M raised",
+          "Still owns product and ships code: architected the collaborative-editing engine; ~40 merged pull requests in 2025"
+        ],
+        "impact_scale": "global",
+        "org": "Public consumer note-taking software company (founded 2014, listed 2024)",
+        "org_tier": "A",
+        "role": "Co-founder, Chief Executive Officer and Chair",
+        "role_selectivity": "elite",
+        "seniority": "founder",
+        "years": "2014-present"
+      },
+      {
+        "duration_months": 18,
+        "employment_type": "part_time",
+        "highlights": [
+          "Built the first product version in the dorm; 11,000 users before leaving",
+          "TA for introductory programming"
+        ],
+        "impact_scale": "team",
+        "org": "Stanford University",
+        "org_tier": "A",
+        "role": "Undergraduate and course teaching assistant",
+        "role_selectivity": "selective",
+        "seniority": "other",
+        "years": "2012-2014"
+      }
+    ],
+    "headline": "Founder-CEO and chair of a public consumer-software company (IPO ~$3B); 30M users, ~$410M revenue; Thiel Fellow",
+    "leadership": [
+      "CEO of a 1,100-person public company; built an 8-person executive team, 6 with 4+ years tenure",
+      "Chair of a public-company board; independent director at another listed software company",
+      "Led a 2022 restructuring (12% reduction) and returned to growth within three quarters",
+      "Board member of a national computer-science education nonprofit"
+    ],
+    "notable": [
+      "Founded at 19 on a Thiel Fellowship and led the company to a ~$3B IPO twelve years later",
+      "30 million monthly active users and ~$410M of revenue, free-cash-flow positive since 2022",
+      "Raised ~$380M from five named top-tier lead investors across seed to Series D",
+      "Still writes production code in the sync layer while serving as CEO and board chair",
+      "Two acquisitions as a public company integrated within two quarters each"
+    ],
+    "projects": [
+      {
+        "descriptor": "Collaborative-editing and sync engine (CRDT-based) used across all clients of a 30M-user product",
+        "highlight": "Architected and wrote the first version; author of the sync-conflict library still in use",
+        "kind": "software",
+        "scale_signal": "30M monthly active users",
+        "technical_depth": "exceptional"
+      },
+      {
+        "descriptor": "Angel portfolio of ~25 early-stage software companies",
+        "highlight": "Personal investing alongside the operating role",
+        "kind": "business",
+        "scale_signal": "2 acquired, 1 public",
+        "technical_depth": "unclear"
+      }
+    ],
+    "publications_summary": {
+      "citation_signal": "cited in two academic papers",
+      "count_total": 1,
+      "first_author_count": 0,
+      "strong_venue_count": 0,
+      "top_venue_count": 0,
+      "venues": [
+        "engineering blog"
+      ]
+    },
+    "skills_top": [
+      "Product leadership",
+      "Distributed sync and CRDTs",
+      "TypeScript",
+      "Rust",
+      "Swift",
+      "Kotlin",
+      "Mobile architecture",
+      "Capital markets and fundraising",
+      "Public-company governance",
+      "Product analytics",
+      "SQL"
+    ],
+    "top_signal": "Founder-CEO, IPO",
+    "years_fulltime": 12.6
+  },
+  "category_relevance": {
+    "academia": 0,
+    "finance": 0.2,
+    "general": 1,
+    "tech": 0.6
+  },
+  "education": [
+    {
+      "degree_level": "other",
+      "end_year": null,
+      "field": "Computer Science (incomplete; left after sophomore year)",
+      "gpa": null,
+      "gpa_band": "not_listed",
+      "gpa_scale": null,
+      "honors": [],
+      "in_progress": false,
+      "institution": "Stanford University",
+      "institution_tier": "T1",
+      "notes": "Left to accept the Thiel Fellowship in 2014; TA for introductory programming",
+      "start_year": 2012
+    }
+  ],
+  "experiences": [
+    {
+      "bullets_condensed": [
+        "Grew the company from 2 to 1,100 employees; 30M monthly active users; 2.1M paying subscribers",
+        "~$410M revenue in fiscal 2025, +44% YoY; FCF-positive since 2022; 81% gross margin",
+        "~$380M raised across seed to Series D from five named top-tier leads; IPO May 2024 at ~$3B, $520M raised",
+        "Owns product and still commits code; executive team of 8; two acquisitions (~$190M) integrated in two quarters each"
+      ],
+      "duration_months": 151,
+      "employment_type": "founder",
+      "end": "present",
+      "impact_scale": "global",
+      "is_current": true,
+      "org": "Lumen Notes, Inc.",
+      "org_tier": "A",
+      "org_type": "public_company",
+      "ownership": "led",
+      "quantified_impact": true,
+      "role": "Co-founder, Chief Executive Officer and Chair of the Board",
+      "role_selectivity": "elite",
+      "seniority": "founder",
+      "start": "2014-03",
+      "team_or_division": null
+    },
+    {
+      "bullets_condensed": [
+        "Built the first product version as a dorm side project; 11,000 users before leaving",
+        "TA for CS 106A, Winter 2014"
+      ],
+      "duration_months": 18,
+      "employment_type": "part_time",
+      "end": "2014-03",
+      "impact_scale": "team",
+      "is_current": false,
+      "org": "Stanford University",
+      "org_tier": "A",
+      "org_type": "university",
+      "ownership": "led",
+      "quantified_impact": true,
+      "role": "Undergraduate; teaching assistant, introductory programming",
+      "role_selectivity": "selective",
+      "seniority": "other",
+      "start": "2012-09",
+      "team_or_division": "Computer Science"
+    }
+  ],
+  "input": {
+    "is_resume": true,
+    "language": "en",
+    "parse_confidence": 0.96,
+    "placeholders_seen": [
+      "name",
+      "email",
+      "phone",
+      "url"
+    ],
+    "word_count_estimate": 790
+  },
+  "leadership": [
+    {
+      "budget_or_scale": "~$410M revenue; 4 offices; 8 direct reports",
+      "elected_or_appointed": "founded",
+      "highlight": "Executive team of 8 built from scratch, 6 with more than 4 years tenure; 7% voluntary attrition in 2025",
+      "org": "Lumen Notes, Inc.",
+      "people_led": 1100,
+      "role": "Chief Executive Officer and Chair"
+    },
+    {
+      "budget_or_scale": "compensation committee",
+      "elected_or_appointed": "appointed",
+      "highlight": "Independent board seat at another listed company since 2025",
+      "org": "Publicly traded developer-tools company",
+      "people_led": null,
+      "role": "Independent director"
+    },
+    {
+      "budget_or_scale": "not stated",
+      "elected_or_appointed": "appointed",
+      "highlight": "Board member since 2020",
+      "org": "National computer-science education nonprofit",
+      "people_led": null,
+      "role": "Board member"
+    }
+  ],
+  "projects": [
+    {
+      "description_condensed": "CRDT-based engine shipped in 2017 and used by every client of a 30M-user product; the founder architected it, wrote the first version and still maintains the sync-conflict library",
+      "has_external_validation": true,
+      "kind": "software",
+      "name": "Collaborative-editing and sync engine",
+      "quantified_impact": true,
+      "scale_signal": "30M monthly active users",
+      "technical_depth": "exceptional"
+    },
+    {
+      "description_condensed": "~25 early-stage software investments; 2 acquired, 1 public",
+      "has_external_validation": true,
+      "kind": "business",
+      "name": "Angel portfolio",
+      "quantified_impact": true,
+      "scale_signal": "~25 companies",
+      "technical_depth": "unclear"
+    }
+  ],
+  "publications": [
+    {
+      "author_count": 1,
+      "author_position": "sole",
+      "citations_claimed": null,
+      "field": "CRDTs in consumer sync systems; cited in two academic papers",
+      "kind": "other",
+      "venue": "engineering blog",
+      "venue_tier": "unknown",
+      "year": 2018
+    }
+  ],
+  "red_flags": [],
+  "residual_pii": {
+    "email_count": 0,
+    "name_suspected": false,
+    "other_identifiers": [],
+    "phone_count": 0,
+    "street_address_suspected": false,
+    "url_count": 0
+  },
+  "schema_version": "1.1",
+  "scores": {
+    "academia": {
+      "holistic_score": 10,
+      "included": false,
+      "rationale": "No research track; one engineering post cited in two papers.",
+      "stage_relative_score": 10,
+      "sub_scores": {
+        "breadth": 10,
+        "impact": 30,
+        "pedigree": 50,
+        "selectivity": 60,
+        "trajectory": 60
+      },
+      "top_evidence": []
+    },
+    "finance": {
+      "holistic_score": 60,
+      "included": false,
+      "rationale": "Raised ~$380M and led an IPO as an operator; no investing or finance role beyond angel checks.",
+      "stage_relative_score": 60,
+      "sub_scores": {
+        "breadth": 40,
+        "impact": 85,
+        "pedigree": 70,
+        "selectivity": 85,
+        "trajectory": 90
+      },
+      "top_evidence": []
+    },
+    "general": {
+      "holistic_score": 98,
+      "included": true,
+      "rationale": "Thiel Fellow who built a company from a dorm project to a ~$3B IPO with 30M users and ~$410M of revenue, funded by five named top-tier investors, and still chairs the board. Every number is company-scale and public; the incomplete degree is the only pedigree gap.",
+      "stage_relative_score": 98,
+      "sub_scores": {
+        "breadth": 80,
+        "impact": 98,
+        "pedigree": 88,
+        "selectivity": 98,
+        "trajectory": 98
+      },
+      "top_evidence": [
+        "IPO in 2024 at ~$3B; 30M monthly active users; ~$410M revenue",
+        "~$380M from Founders Fund, Sequoia, a16z, Tiger Global and Coatue",
+        "Thiel Fellowship at 19; CEO and chair of a 1,100-person public company"
+      ]
+    },
+    "tech": {
+      "holistic_score": 94,
+      "included": true,
+      "rationale": "Founder-engineer who architected the sync engine of a 30M-user product and still commits to it, with a company outcome at the top of the scale. Below the general score because the technical record is one product with no research, OSS or S-tier engineering selection.",
+      "stage_relative_score": 95,
+      "sub_scores": {
+        "breadth": 70,
+        "impact": 97,
+        "pedigree": 75,
+        "selectivity": 94,
+        "trajectory": 95
+      },
+      "top_evidence": [
+        "Architected a CRDT-based collaborative-editing engine used by 30M users",
+        "~40 merged pull requests in 2025 while CEO; author of the sync-conflict library",
+        "Thiel Fellow; product used by 30M people and 48,000 paying organizations"
+      ]
+    }
+  },
+  "signals": {
+    "career_stage": "executive",
+    "has_quantified_impact": true,
+    "highest_institution_tier": "T1",
+    "highest_org_tier": "A",
+    "max_impact_scale": "global",
+    "months_internship": 0,
+    "primary_domain": "tech",
+    "sustained_org_tier": "A",
+    "top_role_selectivity": "elite",
+    "trajectory": "accelerating",
+    "years_fulltime": 12.6
+  },
+  "skills": {
+    "certifications": [],
+    "domain": [
+      "consumer software",
+      "product leadership",
+      "fundraising and capital markets",
+      "public-company governance",
+      "international expansion",
+      "M&A integration"
+    ],
+    "keyword_stuffing_suspected": false,
+    "spoken_languages": [],
+    "technical": [
+      "TypeScript",
+      "Rust",
+      "Swift",
+      "Kotlin",
+      "SQL",
+      "CRDTs and distributed sync",
+      "mobile architecture",
+      "product analytics"
+    ]
+  },
+  "strengths": [
+    "Company outcome at the top of the scale: ~$3B IPO, 30M monthly active users, ~$410M revenue growing 44%, free-cash-flow positive",
+    "Capital raised from five named top-tier lead investors (Founders Fund, Sequoia, a16z, Tiger Global, Coatue) across seed to Series D",
+    "Thiel Fellowship at 19, the elite early selection that started the record",
+    "Still writes production code in the sync layer and architected the core engine, which keeps the technical claim credible",
+    "Public-company execution with numbers: two acquisitions integrated in two quarters each, 7% attrition, guidance met six quarters running"
+  ],
+  "verdict": "A dorm project taken to a ~$3B IPO with 30M users by a Thiel Fellow who still ships code; a record that would be remarked on in any field.",
+  "weaknesses": [
+    "No completed degree; immaterial to the outcome but visible in a pedigree column",
+    "The technical line rests on one product; no research, open-source or outside engineering validation",
+    "Several bullets exceed 50 words and the \"phases\" list is unusual on a résumé"
+  ]
+}

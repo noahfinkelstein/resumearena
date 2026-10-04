@@ -1,0 +1,32 @@
+{
+  "expect": {
+    "gate": "pass",
+    "status": "analyzed"
+  },
+  "group": "anchor",
+  "intended_anchor": 2100,
+  "intended_categories": [
+    "general",
+    "finance"
+  ],
+  "intended_stage": "senior",
+  "metrics": {
+    "char_count": 5801,
+    "columns_detected": 1,
+    "extraction_quality": 0.98,
+    "font_count": 1,
+    "image_count": 0,
+    "pages": 2,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 1
+    },
+    "source": "pdf",
+    "word_count": 891
+  },
+  "slug": "anchor-finance-2100-senior-founding-partner-fund"
+}

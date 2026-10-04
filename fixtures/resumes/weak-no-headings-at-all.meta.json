@@ -1,0 +1,32 @@
+{
+  "expect": {
+    "gate": "pass",
+    "status": "analyzed"
+  },
+  "group": "weak",
+  "intended_anchor": null,
+  "intended_categories": [
+    "general",
+    "academia"
+  ],
+  "intended_stage": "mid",
+  "metrics": {
+    "char_count": 3377,
+    "columns_detected": 0,
+    "extraction_quality": 1,
+    "font_count": 0,
+    "image_count": 0,
+    "pages": 2,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 0
+    },
+    "source": "paste",
+    "word_count": 520
+  },
+  "slug": "weak-no-headings-at-all"
+}

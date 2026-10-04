@@ -1,0 +1,194 @@
+{
+  "cat": "academia",
+  "id": "p4cb33anln",
+  "lin": "p4cb33anln",
+  "placed": true,
+  "points": [
+    [
+      "2026-09-21",
+      2062,
+      220,
+      "p"
+    ],
+    [
+      "2026-09-21",
+      2152,
+      118,
+      "p"
+    ],
+    [
+      "2026-09-22",
+      2162.2,
+      77.4,
+      "m"
+    ],
+    [
+      "2026-09-23",
+      2152.23,
+      77.4,
+      "m"
+    ],
+    [
+      "2026-09-24",
+      2142.6,
+      77.4,
+      "m"
+    ],
+    [
+      "2026-09-25",
+      2150.92,
+      77.4,
+      "s"
+    ],
+    [
+      "2026-09-26",
+      2142.58,
+      77.4,
+      "m"
+    ],
+    [
+      "2026-09-27",
+      2146.58,
+      77.4,
+      "m"
+    ],
+    [
+      "2026-09-28",
+      2147.09,
+      77.4,
+      "m"
+    ],
+    [
+      "2026-09-29",
+      2144.42,
+      77.4,
+      "s"
+    ],
+    [
+      "2026-09-30",
+      2138.74,
+      77.4,
+      "m"
+    ],
+    [
+      "2026-10-01",
+      2147.97,
+      77.4,
+      "m"
+    ],
+    [
+      "2026-10-02",
+      2152.69,
+      77.4,
+      "m"
+    ],
+    [
+      "2026-10-03",
+      2222,
+      77.4,
+      "s"
+    ]
+  ],
+  "recent": [
+    {
+      "at": "2026-10-03T12:50:11Z",
+      "dr": 9,
+      "k": "refine",
+      "m": "3af02df4b370cdff",
+      "note": "First: owned a 40k rps migration with a p99 number. Second: strong A-tier record but smaller scope.",
+      "o": "W",
+      "opp": "a44dwwkkg3",
+      "opp_r": 2254
+    },
+    {
+      "at": "2026-10-03T11:20:11Z",
+      "dr": 0,
+      "k": "refine",
+      "m": "067740724071c229",
+      "note": "Close on pedigree; the first record’s sustained tier and quantified bullets decide it.",
+      "o": "D",
+      "opp": "z5x3s523uy",
+      "opp_r": 2221
+    },
+    {
+      "at": "2026-10-03T09:50:11Z",
+      "dr": 7,
+      "k": "placement",
+      "m": "c8576d3e8b73dc0a",
+      "note": "Close on pedigree; the first record’s sustained tier and quantified bullets decide it.",
+      "o": "W",
+      "opp": "x6v3zqqpb4",
+      "opp_r": 2209
+    },
+    {
+      "at": "2026-10-03T08:20:11Z",
+      "dr": 10,
+      "k": "placement",
+      "m": "4d4a2c1fa1c0ddb2",
+      "note": "Second: first-author publication at a top venue. First: solid industry bullets without a comparable peak.",
+      "o": "W",
+      "opp": "anchrtgaaa",
+      "opp_r": 2198
+    },
+    {
+      "at": "2026-10-03T06:50:11Z",
+      "dr": 0,
+      "k": "placement",
+      "m": "d10b15097722786a",
+      "note": "Close on pedigree; the first record’s sustained tier and quantified bullets decide it.",
+      "o": "D",
+      "opp": "a4vvsruflk",
+      "opp_r": 2196
+    },
+    {
+      "at": "2026-10-03T05:20:11Z",
+      "dr": -14,
+      "k": "placement",
+      "m": "b194ef800580560f",
+      "note": "Broader ownership at the same company tier; the second record’s projects are smaller in scope.",
+      "o": "L",
+      "opp": "z5b63axu73",
+      "opp_r": 2192
+    },
+    {
+      "at": "2026-10-03T03:50:11Z",
+      "dr": 7,
+      "k": "placement",
+      "m": "c6d1d453211663fb",
+      "note": "First: owned a 40k rps migration with a p99 number. Second: strong A-tier record but smaller scope.",
+      "o": "W",
+      "opp": "a44dwwkkg3",
+      "opp_r": 2254
+    },
+    {
+      "at": "2026-10-03T02:20:11Z",
+      "dr": 12,
+      "k": "placement",
+      "m": "57614ffe90fe55e2",
+      "note": "Broader ownership at the same company tier; the second record’s projects are smaller in scope.",
+      "o": "W",
+      "opp": "z5x3s523uy",
+      "opp_r": 2221
+    },
+    {
+      "at": "2026-10-03T00:50:11Z",
+      "dr": -8,
+      "k": "placement",
+      "m": "5321724cf5aaa467",
+      "note": "Close on pedigree; the first record’s sustained tier and quantified bullets decide it.",
+      "o": "L",
+      "opp": "x6v3zqqpb4",
+      "opp_r": 2209
+    },
+    {
+      "at": "2026-10-02T23:20:11Z",
+      "dr": 13,
+      "k": "placement",
+      "m": "4001609babfe785a",
+      "note": "Close on pedigree; the first record’s sustained tier and quantified bullets decide it.",
+      "o": "W",
+      "opp": "x6dhf3nvv2",
+      "opp_r": 2198
+    }
+  ]
+}

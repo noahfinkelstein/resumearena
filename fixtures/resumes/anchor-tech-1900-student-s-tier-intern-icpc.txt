@@ -1,0 +1,52 @@
+[name]
+[email] | [phone] | [url] | [url]
+
+EDUCATION
+Massachusetts Institute of Technology, Cambridge, MA
+S.B. Computer Science and Engineering (Course 6-3), expected June 2028
+GPA 5.0/5.0
+Coursework: 6.5840 Distributed Systems, 6.1810 Operating Systems, 6.1220 Design and Analysis of Algorithms, 6.5210 Advanced Algorithms, 18.650 Statistics for Applications, 6.1910 Computation Structures
+
+EXPERIENCE
+Citadel Securities, Chicago, IL
+Quantitative Developer Intern, Options Market Making · June 2026 – August 2026
+- Rewrote the per-underlying volatility-surface fitter on the equity options desk from Python to C++; fit time fell from 41 ms to 2.3 ms per update, allowing the desk to refit on every underlying tick rather than on a 100 ms timer.
+- Built a replay harness that reconstructs order-book state from 1.2 TB/day of exchange feeds; used by three traders to backtest quoting parameter changes.
+- Profiled the desk's Python research tooling and removed a serialization bottleneck; a typical end-of-day parameter sweep went from 55 minutes to 12.
+- Received a return offer.
+
+Jane Street, New York, NY
+Software Engineering Intern · June 2025 – August 2025
+- Implemented an incremental build-graph cache for the firm's OCaml monorepo build system; median incremental build time on the benchmark suite dropped 34%.
+- Added structured tracing to the market-data normalization path and found a 7% CPU regression introduced two releases earlier; fix merged to production.
+- Wrote the design note and the migration plan for rolling the cache out to the firm's second build cluster; adopted after the internship ended.
+- Received a return offer.
+
+MIT CSAIL, Parallel and Distributed Operating Systems group
+Undergraduate Researcher · September 2025 – Present
+- Working on a verified file-system crash-consistency checker; wrote the symbolic executor front end (about 6k lines of Rust) and found two previously unknown ordering bugs in an existing research file system.
+- Presenting the checker at the group's weekly meeting; a workshop submission is planned for spring 2027.
+
+PROJECTS
+Sharded, linearizable key-value store (6.5840 final project, extended)
+- Multi-Raft implementation in Go with dynamic shard rebalancing, lease-based reads and snapshot transfer; sustains 120k ops/s across 5 shards on a 15-node cluster and passes 2,000 consecutive runs of the course's fault-injection tests under the race detector.
+- Extended the course spec with a Paxos-based configuration service and a formal TLA+ model of the reconfiguration protocol; model-checked to 9 steps with no invariant violations.
+
+AWARDS
+- ICPC North America Championship 2026: 1st place (team of 3); advanced to the ICPC World Finals
+- William Lowell Putnam Mathematical Competition 2025: rank 71 of 3,988
+- USA Computing Olympiad: Platinum division (2023)
+- MIT Battlecode 2026: 5th place of 420 teams
+- MIT Undergraduate Research Opportunities Program award (funded), 2025–26
+
+TEACHING AND SERVICE
+- Lab assistant, 6.1810 Operating Systems, Fall 2026
+- Problem setter, MIT Informatics Tournament 2026
+- Grader, 6.1220 Design and Analysis of Algorithms, Spring 2026
+
+ACTIVITIES
+- MIT Pokerbots 2025: 11th place of 230 teams
+- Member, MIT Running Club
+
+SKILLS
+C++, Rust, Go, OCaml, Python · Linux systems programming, lock-free data structures, distributed consensus, TLA+ · Git, Bazel, perf, gdb

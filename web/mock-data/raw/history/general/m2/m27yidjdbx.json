@@ -1,0 +1,194 @@
+{
+  "cat": "general",
+  "id": "m27yidjdbx",
+  "lin": "m27yidjdbx",
+  "placed": true,
+  "points": [
+    [
+      "2026-09-21",
+      2148,
+      220,
+      "p"
+    ],
+    [
+      "2026-09-21",
+      2238,
+      118,
+      "p"
+    ],
+    [
+      "2026-09-22",
+      2249.28,
+      70.3,
+      "m"
+    ],
+    [
+      "2026-09-23",
+      2239.36,
+      70.3,
+      "m"
+    ],
+    [
+      "2026-09-24",
+      2251.55,
+      70.3,
+      "m"
+    ],
+    [
+      "2026-09-25",
+      2255.83,
+      70.3,
+      "s"
+    ],
+    [
+      "2026-09-26",
+      2255.24,
+      70.3,
+      "m"
+    ],
+    [
+      "2026-09-27",
+      2262.33,
+      70.3,
+      "m"
+    ],
+    [
+      "2026-09-28",
+      2250.63,
+      70.3,
+      "m"
+    ],
+    [
+      "2026-09-29",
+      2252.39,
+      70.3,
+      "s"
+    ],
+    [
+      "2026-09-30",
+      2260.93,
+      70.3,
+      "m"
+    ],
+    [
+      "2026-10-01",
+      2254.41,
+      70.3,
+      "m"
+    ],
+    [
+      "2026-10-02",
+      2249.81,
+      70.3,
+      "m"
+    ],
+    [
+      "2026-10-03",
+      2308,
+      70.3,
+      "s"
+    ]
+  ],
+  "recent": [
+    {
+      "at": "2026-10-03T12:50:11Z",
+      "dr": 6,
+      "k": "refine",
+      "m": "25f0044dbd0c99be",
+      "note": "Close on pedigree; the first record’s sustained tier and quantified bullets decide it.",
+      "o": "W",
+      "opp": "k7v2m4syfl",
+      "opp_r": 2395
+    },
+    {
+      "at": "2026-10-03T11:20:11Z",
+      "dr": 0,
+      "k": "refine",
+      "m": "4485e94a72a3b097",
+      "note": "Second: first-author publication at a top venue. First: solid industry bullets without a comparable peak.",
+      "o": "D",
+      "opp": "x63yoqqpnq",
+      "opp_r": 2388
+    },
+    {
+      "at": "2026-10-03T09:50:11Z",
+      "dr": 12,
+      "k": "placement",
+      "m": "0e617bdf47129216",
+      "note": "Close on pedigree; the first record’s sustained tier and quantified bullets decide it.",
+      "o": "W",
+      "opp": "p4hafoublb",
+      "opp_r": 2361
+    },
+    {
+      "at": "2026-10-03T08:20:11Z",
+      "dr": 7,
+      "k": "placement",
+      "m": "9ddbc8361d36d8ea",
+      "note": "First: owned a 40k rps migration with a p99 number. Second: strong A-tier record but smaller scope.",
+      "o": "W",
+      "opp": "anchrtgaaa",
+      "opp_r": 2357
+    },
+    {
+      "at": "2026-10-03T06:50:11Z",
+      "dr": 7,
+      "k": "placement",
+      "m": "13f6a36b0806440c",
+      "note": "Second: first-author publication at a top venue. First: solid industry bullets without a comparable peak.",
+      "o": "W",
+      "opp": "a4rtjsmyhf",
+      "opp_r": 2351
+    },
+    {
+      "at": "2026-10-03T05:20:11Z",
+      "dr": -7,
+      "k": "placement",
+      "m": "beb065f309f16998",
+      "note": "Broader ownership at the same company tier; the second record’s projects are smaller in scope.",
+      "o": "L",
+      "opp": "m24bxnzbo7",
+      "opp_r": 2344
+    },
+    {
+      "at": "2026-10-03T03:50:11Z",
+      "dr": 14,
+      "k": "placement",
+      "m": "04401dd95a758959",
+      "note": "Broader ownership at the same company tier; the second record’s projects are smaller in scope.",
+      "o": "W",
+      "opp": "k7v2m4syfl",
+      "opp_r": 2395
+    },
+    {
+      "at": "2026-10-03T02:20:11Z",
+      "dr": 5,
+      "k": "placement",
+      "m": "1b070e6246576446",
+      "note": "First: owned a 40k rps migration with a p99 number. Second: strong A-tier record but smaller scope.",
+      "o": "W",
+      "opp": "x63yoqqpnq",
+      "opp_r": 2388
+    },
+    {
+      "at": "2026-10-03T00:50:11Z",
+      "dr": -11,
+      "k": "placement",
+      "m": "5af06d6e493523a0",
+      "note": "First: owned a 40k rps migration with a p99 number. Second: strong A-tier record but smaller scope.",
+      "o": "L",
+      "opp": "p4hafoublb",
+      "opp_r": 2361
+    },
+    {
+      "at": "2026-10-02T23:20:11Z",
+      "dr": -7,
+      "k": "placement",
+      "m": "1717fc1559fa64ad",
+      "note": "First: owned a 40k rps migration with a p99 number. Second: strong A-tier record but smaller scope.",
+      "o": "L",
+      "opp": "p4cb33anln",
+      "opp_r": 2357
+    }
+  ]
+}

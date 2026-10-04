@@ -1,0 +1,111 @@
+{
+  "jz4cv4gtug": {
+    "card": {
+      "awards": [
+        {
+          "name": "CFA Charterholder",
+          "scope": "international",
+          "selectivity": "selective"
+        },
+        {
+          "name": "Top-bucket associate ranking",
+          "scope": "company",
+          "selectivity": "selective"
+        }
+      ],
+      "card_version": "1.0",
+      "career_stage": "mid",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2020,
+          "field": "Finance, Investment and Banking",
+          "gpa_band": "3.5-3.69",
+          "honors": [],
+          "in_progress": false,
+          "institution": "University of Wisconsin–Madison",
+          "institution_tier": "T3"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 28,
+          "employment_type": "full_time",
+          "highlights": [
+            "Day-to-day associate on a $640M sale: model, CIM, data room, 61-party buyer list",
+            "Manages 2 analysts; model-review checklist cut senior-review error findings from 6 to 2 per deal",
+            "Top-bucket associate 2024; two pitches converted into mandates in 2025"
+          ],
+          "impact_scale": "org",
+          "org": "Robert W. Baird & Co.",
+          "org_tier": "B",
+          "role": "Associate, Investment Banking (Industrial Technology)",
+          "role_selectivity": "selective",
+          "seniority": "associate",
+          "years": "2023-present"
+        },
+        {
+          "duration_months": 36,
+          "employment_type": "full_time",
+          "highlights": [
+            "Lead analyst on a $520M sell-side and a $220M recapitalization",
+            "Built the group LBO template; first-draft model time from 3 days to 1"
+          ],
+          "impact_scale": "org",
+          "org": "Robert W. Baird & Co.",
+          "org_tier": "B",
+          "role": "Analyst, Investment Banking",
+          "role_selectivity": "selective",
+          "seniority": "analyst",
+          "years": "2020-2023"
+        },
+        {
+          "duration_months": 3,
+          "employment_type": "internship",
+          "highlights": [
+            "Precedent transactions for an industrial distributor sale"
+          ],
+          "impact_scale": "team",
+          "org": "Robert W. Baird & Co.",
+          "org_tier": "B",
+          "role": "Summer Analyst, Investment Banking",
+          "role_selectivity": "selective",
+          "seniority": "intern",
+          "years": "2019-2019"
+        }
+      ],
+      "headline": "Investment banking associate, 5 years at a B-tier middle-market bank; 10 closed deals, ~$3B aggregate; CFA charterholder",
+      "leadership": [
+        "Manages two first-year analysts; both top-half in the 2025 review",
+        "Vice president of a university investment banking club"
+      ],
+      "notable": [
+        "Ten closed transactions with named roles, about $3B aggregate",
+        "CFA charter earned while in banking",
+        "Analyst-to-associate promotion at the same bank with a top-bucket ranking"
+      ],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "LBO modeling",
+        "Merger modeling",
+        "DCF valuation",
+        "Sell-side process management",
+        "Due diligence coordination",
+        "Capital IQ",
+        "FactSet",
+        "Excel VBA"
+      ],
+      "top_signal": "10 deals, ~$3B",
+      "years_fulltime": 5.3
+    },
+    "st": "mid"
+  }
+}

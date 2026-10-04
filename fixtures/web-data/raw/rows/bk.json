@@ -1,0 +1,28 @@
+{
+  "bkpaevkhpb": {
+    "c": {
+      "general": 1
+    },
+    "ch": "74ab3934f86072bf2d5d5a8955afd0006333d7e951d66a3381d009a4f53317d9",
+    "h": "general-1100-new-gra",
+    "p": "general",
+    "s": "analyzed",
+    "sc": {
+      "general": 23
+    },
+    "sig": "Agency coordinator",
+    "ss": {
+      "general": [
+        15,
+        30,
+        10,
+        8,
+        18,
+        28
+      ]
+    },
+    "st": "new_grad",
+    "t": 1791030660,
+    "v": "handle"
+  }
+}

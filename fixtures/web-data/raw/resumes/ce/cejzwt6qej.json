@@ -1,0 +1,484 @@
+{
+  "analysis": {
+    "analysis_confidence": 0.9,
+    "ats": {
+      "detected": {
+        "action_verb_ratio": 0.85,
+        "bullet_count": 17,
+        "bullet_marker_consistent": true,
+        "contact_at_top": true,
+        "date_format_consistent": false,
+        "date_formats_seen": [
+          "Month YYYY",
+          "YYYY"
+        ],
+        "has_email": true,
+        "has_location": true,
+        "has_phone": true,
+        "has_profile_link": false,
+        "has_street_address": false,
+        "has_summary_section": true,
+        "nonstandard_headings": [],
+        "quantified_bullet_ratio": 0,
+        "reverse_chronological": true,
+        "section_order": [
+          "Summary",
+          "Education",
+          "Experience",
+          "Leadership",
+          "Skills"
+        ],
+        "skill_bars_or_ratings": false,
+        "standard_headings": [
+          "OBJECTIVE",
+          "EDUCATION",
+          "WORK EXPERIENCE",
+          "ACTIVITIES",
+          "SKILLS"
+        ],
+        "uses_tables_suspected": false
+      },
+      "factors": {
+        "consistency": {
+          "note": "Two date formats (Month YYYY and YYYY - Present)",
+          "score": 80
+        },
+        "contact_info": {
+          "note": "Email, phone and city present; no profile link",
+          "score": 85
+        },
+        "formatting": {
+          "note": "Objective, Education, Work Experience, Activities, Skills in a conventional order; one bullet marker",
+          "score": 90
+        },
+        "keyword_alignment": {
+          "note": "Finance internship target: no modeling, valuation or markets terms in any bullet; Excel appears only in the skills list",
+          "score": 45
+        },
+        "length": {
+          "note": "1 page for a student",
+          "score": 100
+        },
+        "parseability": {
+          "note": "Pasted text: layout not verified; standard headings; contact placeholders on line 2",
+          "score": 100
+        },
+        "quantification": {
+          "note": "No bullet contains a number tied to an outcome",
+          "score": 10
+        }
+      },
+      "fixes": [
+        {
+          "factor": "quantification",
+          "fix": "Before: Processed deposits, withdrawals, check cashing and loan payments → After: Processed about __ transactions a day with a balanced drawer on __ of __ shifts",
+          "issue": "No bullet states a number; the teller role has countable work",
+          "priority": "high"
+        },
+        {
+          "factor": "keyword_alignment",
+          "fix": "Add one line describing the stock simulation result and one on a coursework project, e.g. \"Built a 3-statement model for a case company in Excel\"",
+          "issue": "Nothing on the page shows Excel or finance coursework applied",
+          "priority": "high"
+        },
+        {
+          "factor": "consistency",
+          "fix": "Use one format for every entry, including activities",
+          "issue": "Dates mix \"Month YYYY\" with bare years",
+          "priority": "medium"
+        },
+        {
+          "factor": "contact_info",
+          "fix": "Add a LinkedIn placeholder next to the email and phone",
+          "issue": "No profile link",
+          "priority": "low"
+        }
+      ],
+      "score": 70,
+      "target_role_used": "Finance or banking summer intern"
+    },
+    "awards": [],
+    "card": {
+      "awards": [],
+      "card_version": "1.0",
+      "career_stage": "student",
+      "education": [
+        {
+          "degree_level": "bachelor",
+          "end_year": 2028,
+          "field": "Business Administration",
+          "gpa_band": "not_listed",
+          "honors": [],
+          "in_progress": true,
+          "institution": "Western Illinois University",
+          "institution_tier": "T4"
+        },
+        {
+          "degree_level": "associate",
+          "end_year": 2026,
+          "field": "Arts",
+          "gpa_band": "not_listed",
+          "honors": [],
+          "in_progress": false,
+          "institution": "Spoon River College",
+          "institution_tier": "T4"
+        }
+      ],
+      "experiences": [
+        {
+          "duration_months": 3,
+          "employment_type": "full_time",
+          "highlights": [
+            "Transactions, drawer balancing and referrals during a summer"
+          ],
+          "impact_scale": "individual",
+          "org": "First Prairie Community Bank",
+          "org_tier": "C",
+          "role": "Teller",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2026-2026"
+        },
+        {
+          "duration_months": 25,
+          "employment_type": "part_time",
+          "highlights": [
+            "Trains new servers on the point-of-sale system"
+          ],
+          "impact_scale": "individual",
+          "org": "Riverbend Grill",
+          "org_tier": "D",
+          "role": "Server",
+          "role_selectivity": "modest",
+          "seniority": "other",
+          "years": "2024-present"
+        }
+      ],
+      "headline": "Business administration junior at a T4 regional university; summer bank teller; restaurant server; finance club member",
+      "leadership": [
+        "Finance club member; stock market simulation participant"
+      ],
+      "notable": [],
+      "projects": [],
+      "publications_summary": {
+        "citation_signal": "not stated",
+        "count_total": 0,
+        "first_author_count": 0,
+        "strong_venue_count": 0,
+        "top_venue_count": 0,
+        "venues": []
+      },
+      "skills_top": [
+        "Excel",
+        "PowerPoint",
+        "Cash handling",
+        "Customer service"
+      ],
+      "top_signal": "Summer bank teller",
+      "years_fulltime": 0
+    },
+    "category_relevance": {
+      "academia": 0,
+      "finance": 0.4,
+      "general": 1,
+      "tech": 0
+    },
+    "education": [
+      {
+        "degree_level": "bachelor",
+        "end_year": 2028,
+        "field": "Business Administration",
+        "gpa": null,
+        "gpa_band": "not_listed",
+        "gpa_scale": null,
+        "honors": [],
+        "in_progress": true,
+        "institution": "Western Illinois University",
+        "institution_tier": "T4",
+        "notes": "GPA omitted; transfer from a community college",
+        "start_year": null
+      },
+      {
+        "degree_level": "associate",
+        "end_year": 2026,
+        "field": "Arts",
+        "gpa": null,
+        "gpa_band": "not_listed",
+        "gpa_scale": null,
+        "honors": [],
+        "in_progress": false,
+        "institution": "Spoon River College",
+        "institution_tier": "T4",
+        "notes": "Transferred 60 credits",
+        "start_year": null
+      }
+    ],
+    "experiences": [
+      {
+        "bullets_condensed": [
+          "Processed deposits, withdrawals, check cashing and loan payments",
+          "Balanced the cash drawer each shift",
+          "Referred customers to personal bankers; supported a savings promotion"
+        ],
+        "duration_months": 3,
+        "employment_type": "full_time",
+        "end": "2026-08",
+        "impact_scale": "individual",
+        "is_current": false,
+        "org": "First Prairie Community Bank",
+        "org_tier": "C",
+        "org_type": "bank",
+        "ownership": "supported",
+        "quantified_impact": false,
+        "role": "Teller",
+        "role_selectivity": "modest",
+        "seniority": "other",
+        "start": "2026-05",
+        "team_or_division": null
+      },
+      {
+        "bullets_condensed": [
+          "Serves tables and handles payments in a casual dining restaurant",
+          "Trains new servers on the point-of-sale system",
+          "Works weekends while enrolled full time"
+        ],
+        "duration_months": 25,
+        "employment_type": "part_time",
+        "end": "present",
+        "impact_scale": "individual",
+        "is_current": true,
+        "org": "Riverbend Grill",
+        "org_tier": "D",
+        "org_type": "private_company",
+        "ownership": "supported",
+        "quantified_impact": false,
+        "role": "Server",
+        "role_selectivity": "modest",
+        "seniority": "other",
+        "start": "2024-09",
+        "team_or_division": null
+      }
+    ],
+    "input": {
+      "is_resume": true,
+      "language": "en",
+      "parse_confidence": 0.97,
+      "placeholders_seen": [
+        "name",
+        "email",
+        "phone"
+      ],
+      "word_count_estimate": 330
+    },
+    "leadership": [
+      {
+        "budget_or_scale": "not stated",
+        "elected_or_appointed": "self_declared",
+        "highlight": "Attends meetings; participated in a stock simulation and a budgeting workshop",
+        "org": "Finance Club, Western Illinois University",
+        "people_led": null,
+        "role": "Member"
+      }
+    ],
+    "projects": [],
+    "publications": [],
+    "red_flags": [],
+    "residual_pii": {
+      "email_count": 0,
+      "name_suspected": false,
+      "other_identifiers": [],
+      "phone_count": 0,
+      "street_address_suspected": false,
+      "url_count": 0
+    },
+    "schema_version": "1.1",
+    "scores": {
+      "academia": {
+        "holistic_score": 5,
+        "included": false,
+        "rationale": "No research or academic output.",
+        "stage_relative_score": 5,
+        "sub_scores": {
+          "breadth": 8,
+          "impact": 5,
+          "pedigree": 8,
+          "selectivity": 5,
+          "trajectory": 30
+        },
+        "top_evidence": []
+      },
+      "finance": {
+        "holistic_score": 25,
+        "included": true,
+        "rationale": "Non-target school, teller summer and finance-club membership put this at the entry anchor; no deal, market or modeling exposure; skills are Excel and PowerPoint.",
+        "stage_relative_score": 24,
+        "sub_scores": {
+          "breadth": 10,
+          "impact": 6,
+          "pedigree": 10,
+          "selectivity": 5,
+          "trajectory": 40
+        },
+        "top_evidence": [
+          "Bank teller, summer 2026",
+          "Finance Club member; stock market simulation",
+          "Coursework: Principles of Finance, accounting, statistics"
+        ]
+      },
+      "general": {
+        "holistic_score": 24,
+        "included": true,
+        "rationale": "Regional university with GPA omitted, a summer teller job and a server job; club membership without office; every bullet is a duty.",
+        "stage_relative_score": 22,
+        "sub_scores": {
+          "breadth": 15,
+          "impact": 8,
+          "pedigree": 10,
+          "selectivity": 6,
+          "trajectory": 40
+        },
+        "top_evidence": [
+          "Teller, one summer at a community bank",
+          "Server while enrolled full time",
+          "Finance Club member"
+        ]
+      },
+      "tech": {
+        "holistic_score": 5,
+        "included": false,
+        "rationale": "No technical footprint.",
+        "stage_relative_score": 5,
+        "sub_scores": {
+          "breadth": 8,
+          "impact": 5,
+          "pedigree": 8,
+          "selectivity": 5,
+          "trajectory": 30
+        },
+        "top_evidence": []
+      }
+    },
+    "signals": {
+      "career_stage": "student",
+      "has_quantified_impact": false,
+      "highest_institution_tier": "T4",
+      "highest_org_tier": "C",
+      "max_impact_scale": "individual",
+      "months_internship": 0,
+      "primary_domain": "finance",
+      "sustained_org_tier": "D",
+      "top_role_selectivity": "modest",
+      "trajectory": "too_early",
+      "years_fulltime": 0
+    },
+    "skills": {
+      "certifications": [],
+      "domain": [
+        "Cash handling",
+        "Customer service"
+      ],
+      "keyword_stuffing_suspected": false,
+      "spoken_languages": [
+        "English",
+        "Spanish (conversational)"
+      ],
+      "technical": [
+        "Microsoft Excel",
+        "Microsoft PowerPoint",
+        "Microsoft Word"
+      ]
+    },
+    "strengths": [
+      "A summer teller job gives real cash-handling and customer exposure at a bank",
+      "Works weekends through the school year while enrolled full time",
+      "Finance club membership and a stock simulation show interest in the field"
+    ],
+    "verdict": "An entry-level business student with a teller summer and a club membership; nothing yet distinguishes it from the pool of first finance applicants.",
+    "weaknesses": [
+      "GPA omitted at a regional university",
+      "Every bullet describes a duty; none states a number or an outcome",
+      "No modeling, valuation or markets exposure anywhere on the page",
+      "Club membership without an officer role"
+    ]
+  },
+  "card_sha256": "57a79cd11aeae068f0fbbc8dfae069c2f2d0f20656afa1da0983f2cb8e1c43c1",
+  "category_relevance": {
+    "academia": 0,
+    "finance": 0.4,
+    "general": 1,
+    "tech": 0
+  },
+  "created_at": "2026-10-03T12:10:00Z",
+  "deleted_at": null,
+  "duplicate_of": null,
+  "gate": {
+    "model": "claude-haiku-4-5",
+    "prompt": "gate.v1+5f7c9f15",
+    "verdict": {
+      "estimated_career_stage": "student",
+      "is_resume": true,
+      "language": "en",
+      "prompt_injection_detected": false,
+      "reason": "Résumé with dated roles and education.",
+      "spam_or_abuse": false
+    }
+  },
+  "handle": "finance-1000-student",
+  "held_reason": null,
+  "id": "cejzwt6qej",
+  "kind": "user",
+  "metrics": {
+    "char_count": 2320,
+    "columns_detected": 0,
+    "extraction_quality": 1,
+    "font_count": 0,
+    "image_count": 0,
+    "pages": 1,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 0
+    },
+    "source": "paste",
+    "word_count": 330
+  },
+  "owner_hash": "b67ca73613a345a3ca49d800e776e447385a4bd3a112f17ce9b102799036bf40",
+  "primary": "finance",
+  "rejected_reason": null,
+  "schema": 1,
+  "scores": {
+    "finance": 20,
+    "general": 19
+  },
+  "source": {
+    "client_version": "fixtures",
+    "issue_number": null,
+    "kind": "dispatch",
+    "run_id": 1
+  },
+  "stage": "student",
+  "status": "analyzed",
+  "superseded_by": null,
+  "supersedes": null,
+  "text": "[name]\n[email] | [phone]\nMacomb, IL\n\nOBJECTIVE\nBusiness administration student seeking a summer 2027 internship in banking or finance where I can apply my customer service experience and coursework.\n\nEDUCATION\nWestern Illinois University, Macomb, IL\nBachelor of Business, Business Administration, expected May 2028\nRelevant coursework: Principles of Finance, Financial Accounting, Managerial Accounting, Business Statistics, Microeconomics, Macroeconomics, Business Law\n\nSpoon River College, Canton, IL\nAssociate in Arts, May 2026 (transferred 60 credits)\n\nWORK EXPERIENCE\nFirst Prairie Community Bank, Galesburg, IL\nTeller, May 2026 - August 2026\n- Processed deposits, withdrawals, check cashing and loan payments for customers\n- Balanced cash drawer at the end of each shift\n- Answered customer questions about account types and referred customers to personal bankers\n- Followed bank procedures for identification and large transactions\n- Completed the bank's two-week teller training program\n- Helped with the branch's back-to-school savings promotion\n- Assisted with opening and closing the branch when scheduled\n- Promoted customer referrals for new checking accounts during the summer campaign\n- Scanned and filed daily transaction documents\n\nRiverbend Grill, Macomb, IL\nServer, September 2024 - Present\n- Take orders and serve food and drinks in a busy casual dining restaurant\n- Handle cash and card payments and close out checks\n- Train new servers on the point of sale system\n- Work weekend shifts while attending classes full time\n- Help the manager count bar and kitchen inventory at the end of each month\n\nACTIVITIES\nFinance Club, Western Illinois University, Member, Fall 2025 - Present\n- Attend weekly meetings and guest speaker events\n- Participated in the club's stock market simulation competition\n- Volunteered at the club's budgeting workshop for first-year students\n\nVolunteer, Macomb Area Food Pantry, monthly, 2025 - Present\nIntramural Soccer, 2024 - Present\nMember, Student Government Association (general assembly), 2025 - Present\n\nSKILLS\nMicrosoft Excel (formulas, pivot tables, charts), Microsoft PowerPoint, Microsoft Word, cash handling, customer service, time management, teamwork\nLanguages: English (native), Spanish (conversational)\nCertifications: Bloomberg Market Concepts (in progress)",
+  "text_sha256": "5c45803b67ca5661685a2adb61233710e6a802d933dbe52d91299966316380b3",
+  "top_signal": "Summer bank teller",
+  "updated_at": "2026-10-03T12:10:00Z",
+  "usage": {
+    "analysis_usd": 0.17728,
+    "gate_usd": 0.0016,
+    "latency_ms": 0
+  },
+  "versions": {
+    "analyst_model": "claude-opus-5-5",
+    "analyst_prompt": "analyst.v1+6dbc77ff",
+    "fell_back": false,
+    "gate_prompt": "gate.v1+5f7c9f15",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "visibility": "anonymous"
+}

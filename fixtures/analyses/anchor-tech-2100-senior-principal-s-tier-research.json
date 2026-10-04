@@ -1,0 +1,730 @@
+{
+  "analysis_confidence": 0.95,
+  "ats": {
+    "detected": {
+      "action_verb_ratio": 0.9,
+      "bullet_count": 34,
+      "bullet_marker_consistent": true,
+      "contact_at_top": true,
+      "date_format_consistent": true,
+      "date_formats_seen": [
+        "Mon YYYY"
+      ],
+      "has_email": true,
+      "has_location": true,
+      "has_phone": true,
+      "has_profile_link": true,
+      "has_street_address": false,
+      "has_summary_section": true,
+      "nonstandard_headings": [
+        "HONORS AND SERVICE",
+        "OPEN SOURCE"
+      ],
+      "quantified_bullet_ratio": 0.82,
+      "reverse_chronological": true,
+      "section_order": [
+        "Summary",
+        "Experience",
+        "Education",
+        "Publications",
+        "Projects",
+        "Awards",
+        "Publications",
+        "Skills"
+      ],
+      "skill_bars_or_ratings": false,
+      "standard_headings": [
+        "PROFILE",
+        "EXPERIENCE",
+        "EDUCATION",
+        "SELECTED PUBLICATIONS",
+        "PATENTS",
+        "SKILLS"
+      ],
+      "uses_tables_suspected": false
+    },
+    "factors": {
+      "consistency": {
+        "note": "Mon YYYY throughout; every role dated; titles match the stated scope",
+        "score": 100
+      },
+      "contact_info": {
+        "note": "City, email, phone and two profile links in the header",
+        "score": 100
+      },
+      "formatting": {
+        "note": "Standard headings and reverse-chronological order; three font families; one bullet glyph",
+        "score": 90
+      },
+      "keyword_alignment": {
+        "note": "Distributed training, ML systems, capacity planning, team leadership, PyTorch, JAX, CUDA and Kubernetes all appear in bullets with outcomes",
+        "score": 100
+      },
+      "length": {
+        "note": "Two pages for a senior leader",
+        "score": 100
+      },
+      "parseability": {
+        "note": "Single column, clean text layer (0.94), standard headings, contact in the first two lines",
+        "score": 100
+      },
+      "quantification": {
+        "note": "28 of 34 bullets carry a number tied to an outcome; action verbs throughout",
+        "score": 100
+      }
+    },
+    "fixes": [
+      {
+        "factor": "formatting",
+        "fix": "Reduce to two: one for headings, one for body",
+        "issue": "Three font families on a two-page document",
+        "priority": "low"
+      },
+      {
+        "factor": "parseability",
+        "fix": "Split into \"Awards\" and \"Professional Service\" so parsers map both",
+        "issue": "\"Honors and Service\" mixes awards with committee work under one heading",
+        "priority": "low"
+      },
+      {
+        "factor": "length",
+        "fix": "Keep the count in the Patents section and drop it from the Google Brain bullet",
+        "issue": "Patents are listed twice (experience bullet and a Patents section)",
+        "priority": "low"
+      }
+    ],
+    "score": 99,
+    "target_role_used": "Head or VP of ML infrastructure; distinguished engineer"
+  },
+  "awards": [
+    {
+      "issuer": "ICML",
+      "name": "ICML Best Paper Award",
+      "pool_estimate": "1-3 of ~3,000 submissions",
+      "scope": "international",
+      "selectivity": "elite",
+      "verifiable": true,
+      "year": 2019
+    },
+    {
+      "issuer": "NSF",
+      "name": "NSF Graduate Research Fellowship",
+      "pool_estimate": "~2,000 of ~13,000 applicants",
+      "scope": "national",
+      "selectivity": "highly_selective",
+      "verifiable": true,
+      "year": 2011
+    },
+    {
+      "issuer": "Google",
+      "name": "Google Research award for distributed systems",
+      "pool_estimate": "internal, pool not stated",
+      "scope": "company",
+      "selectivity": "selective",
+      "verifiable": false,
+      "year": 2018
+    },
+    {
+      "issuer": "UC Berkeley EECS",
+      "name": "Outstanding Graduate Student Instructor Award",
+      "pool_estimate": "departmental",
+      "scope": "institutional",
+      "selectivity": "modest",
+      "verifiable": true,
+      "year": 2013
+    }
+  ],
+  "card": {
+    "awards": [
+      {
+        "name": "ICML Best Paper Award",
+        "scope": "international",
+        "selectivity": "elite"
+      },
+      {
+        "name": "NSF Graduate Research Fellowship",
+        "scope": "national",
+        "selectivity": "highly_selective"
+      },
+      {
+        "name": "Industry research award for distributed systems",
+        "scope": "company",
+        "selectivity": "selective"
+      },
+      {
+        "name": "Departmental outstanding graduate instructor award",
+        "scope": "institutional",
+        "selectivity": "modest"
+      }
+    ],
+    "card_version": "1.0",
+    "career_stage": "senior",
+    "education": [
+      {
+        "degree_level": "phd",
+        "end_year": 2015,
+        "field": "Computer Science (systems)",
+        "gpa_band": "not_listed",
+        "honors": [],
+        "in_progress": false,
+        "institution": "University of California, Berkeley",
+        "institution_tier": "T1"
+      },
+      {
+        "degree_level": "bachelor",
+        "end_year": 2010,
+        "field": "Electrical Engineering and Computer Sciences",
+        "gpa_band": "not_listed",
+        "honors": [
+          "high honors"
+        ],
+        "in_progress": false,
+        "institution": "University of California, Berkeley",
+        "institution_tier": "T1"
+      }
+    ],
+    "experiences": [
+      {
+        "duration_months": 44,
+        "employment_type": "full_time",
+        "highlights": [
+          "Leads 30 people across 3 teams running the systems under every frontier training run",
+          "Multi-datacenter migration: model-FLOP utilization 38% to 52% on the largest runs",
+          "Recovery after hardware faults 47 min to 4 min; failed-run compute waste down ~80%"
+        ],
+        "impact_scale": "industry",
+        "org": "OpenAI",
+        "org_tier": "S",
+        "role": "Head of Training Infrastructure",
+        "role_selectivity": "elite",
+        "seniority": "director",
+        "years": "2023-present"
+      },
+      {
+        "duration_months": 17,
+        "employment_type": "full_time",
+        "highlights": [
+          "Pipeline-parallel runtime; removed straggler stalls worth ~11% of step time",
+          "Built the first training-run observability stack, adopted across research"
+        ],
+        "impact_scale": "org",
+        "org": "OpenAI",
+        "org_tier": "S",
+        "role": "Member of Technical Staff, Scaling",
+        "role_selectivity": "elite",
+        "seniority": "principal",
+        "years": "2021-2023"
+      },
+      {
+        "duration_months": 50,
+        "employment_type": "full_time",
+        "highlights": [
+          "Led a systems research group of 6 researchers and 4 engineers",
+          "First-author ICML paper on communication scheduling adopted in the production TPU runtime; best paper; ~2,100 citations",
+          "Optimizer-state sharding: 3.6x less memory per accelerator; default in an internal library used by 200+ researchers"
+        ],
+        "impact_scale": "industry",
+        "org": "Google Brain (Google Research)",
+        "org_tier": "A",
+        "role": "Senior Research Scientist",
+        "role_selectivity": "highly_selective",
+        "seniority": "senior",
+        "years": "2017-2021"
+      },
+      {
+        "duration_months": 24,
+        "employment_type": "full_time",
+        "highlights": [
+          "Distributed training algorithms and TPU-pod scheduling research"
+        ],
+        "impact_scale": "org",
+        "org": "Google Brain (Google Research)",
+        "org_tier": "A",
+        "role": "Research Scientist",
+        "role_selectivity": "highly_selective",
+        "seniority": "mid",
+        "years": "2015-2017"
+      },
+      {
+        "duration_months": 57,
+        "employment_type": "fellowship",
+        "highlights": [
+          "Two first-author top-venue systems papers (NSDI, SOSP) and a strong-venue paper (EuroSys)",
+          "NSF Graduate Research Fellowship; departmental outstanding GSI award"
+        ],
+        "impact_scale": "industry",
+        "org": "University of California, Berkeley",
+        "org_tier": "A",
+        "role": "Graduate Student Researcher, systems lab",
+        "role_selectivity": "highly_selective",
+        "seniority": "phd_student",
+        "years": "2010-2015"
+      }
+    ],
+    "headline": "Head of a 30-person training-infrastructure org at an S-tier lab; ex-Google Brain; ICML best paper; ~7,400 citations",
+    "leadership": [
+      "Head of a 30-person organization grown from 9 in two years; 4 reports now managers",
+      "Area chair at NeurIPS and ICML; program committee at OSDI and MLSys",
+      "Research-scientist hiring and promotion committees at an A-tier lab, 2019-2021"
+    ],
+    "notable": [
+      "ICML best paper (first author) adopted in a production TPU runtime; ~2,100 citations on that paper",
+      "Runs the training infrastructure for an S-tier lab: utilization 38% to 52%, recovery 47 min to 4 min",
+      "23 peer-reviewed papers, ~7,400 citations, 11 granted patents",
+      "Open-source library with ~6,000 stars used by external training frameworks",
+      "Five first-author top-venue papers across ICML, OSDI, SOSP and NSDI"
+    ],
+    "projects": [
+      {
+        "descriptor": "Open-source distributed-training scheduling library released by an A-tier research lab",
+        "highlight": "Original author, 2019",
+        "kind": "software",
+        "scale_signal": "~6,000 stars; used in at least 3 external training frameworks",
+        "technical_depth": "exceptional"
+      },
+      {
+        "descriptor": "Cluster-scheduler simulator released with a top-venue systems paper",
+        "highlight": "Maintained 2016-2021",
+        "kind": "software",
+        "scale_signal": "reused in ~40 follow-up papers",
+        "technical_depth": "substantial"
+      }
+    ],
+    "publications_summary": {
+      "citation_signal": "~7,400 citations claimed, h-index 24",
+      "count_total": 23,
+      "first_author_count": 5,
+      "strong_venue_count": 3,
+      "top_venue_count": 7,
+      "venues": [
+        "ICML",
+        "NeurIPS",
+        "OSDI",
+        "SOSP",
+        "NSDI",
+        "MLSys",
+        "EuroSys"
+      ]
+    },
+    "skills_top": [
+      "Distributed training systems",
+      "ML systems and compilers",
+      "Python",
+      "C++",
+      "CUDA",
+      "JAX",
+      "PyTorch",
+      "Kubernetes",
+      "Capacity planning",
+      "Organizational leadership"
+    ],
+    "top_signal": "ICML best paper",
+    "years_fulltime": 13.6
+  },
+  "category_relevance": {
+    "academia": 0.7,
+    "finance": 0.03,
+    "general": 1,
+    "tech": 1
+  },
+  "education": [
+    {
+      "degree_level": "phd",
+      "end_year": 2015,
+      "field": "Computer Science (systems)",
+      "gpa": null,
+      "gpa_band": "not_listed",
+      "gpa_scale": null,
+      "honors": [],
+      "in_progress": false,
+      "institution": "University of California, Berkeley",
+      "institution_tier": "T1",
+      "notes": "Dissertation on scheduling for data-parallel analytics; NSF GRFP 2011-2014",
+      "start_year": 2010
+    },
+    {
+      "degree_level": "bachelor",
+      "end_year": 2010,
+      "field": "Electrical Engineering and Computer Sciences",
+      "gpa": null,
+      "gpa_band": "not_listed",
+      "gpa_scale": null,
+      "honors": [
+        "high honors"
+      ],
+      "in_progress": false,
+      "institution": "University of California, Berkeley",
+      "institution_tier": "T1",
+      "notes": "",
+      "start_year": 2006
+    }
+  ],
+  "experiences": [
+    {
+      "bullets_condensed": [
+        "Leads 30 people across 3 teams responsible for the systems under every frontier training run",
+        "Multi-datacenter migration: model-FLOP utilization 38% to 52% on the largest runs",
+        "Asynchronous checkpointing and elastic restart: recovery 47 min to 4 min; waste down ~80%",
+        "Grew the org from 9 to 30; author of the capacity model for the 2025 and 2026 buildouts"
+      ],
+      "duration_months": 44,
+      "employment_type": "full_time",
+      "end": "present",
+      "impact_scale": "industry",
+      "is_current": true,
+      "org": "OpenAI",
+      "org_tier": "S",
+      "org_type": "research_lab",
+      "ownership": "led",
+      "quantified_impact": true,
+      "role": "Head of Training Infrastructure",
+      "role_selectivity": "elite",
+      "seniority": "director",
+      "start": "2023-02",
+      "team_or_division": "Training Infrastructure"
+    },
+    {
+      "bullets_condensed": [
+        "Designed the pipeline-parallel runtime; removed straggler stalls worth ~11% of step time",
+        "Built the first training-run observability stack, adopted across the research org"
+      ],
+      "duration_months": 17,
+      "employment_type": "full_time",
+      "end": "2023-01",
+      "impact_scale": "org",
+      "is_current": false,
+      "org": "OpenAI",
+      "org_tier": "S",
+      "org_type": "research_lab",
+      "ownership": "led",
+      "quantified_impact": true,
+      "role": "Member of Technical Staff",
+      "role_selectivity": "elite",
+      "seniority": "principal",
+      "start": "2021-09",
+      "team_or_division": "Scaling"
+    },
+    {
+      "bullets_condensed": [
+        "Led a 6-researcher, 4-engineer group on distributed training and TPU-pod scheduling",
+        "First-author ICML 2019 paper adopted in the production TPU runtime; best paper; ~2,100 citations",
+        "Optimizer-state sharding: 3.6x less memory per accelerator; default in a library used by 200+ researchers",
+        "Collective-communication scheduling cut flagship training time ~23%; 11 granted patents over the period"
+      ],
+      "duration_months": 50,
+      "employment_type": "full_time",
+      "end": "2021-08",
+      "impact_scale": "industry",
+      "is_current": false,
+      "org": "Google Brain (Google Research)",
+      "org_tier": "A",
+      "org_type": "research_lab",
+      "ownership": "led",
+      "quantified_impact": true,
+      "role": "Senior Research Scientist",
+      "role_selectivity": "highly_selective",
+      "seniority": "senior",
+      "start": "2017-07",
+      "team_or_division": "Systems research"
+    },
+    {
+      "bullets_condensed": [
+        "Distributed training algorithms and compiler-level scheduling for TPU pods"
+      ],
+      "duration_months": 24,
+      "employment_type": "full_time",
+      "end": "2017-06",
+      "impact_scale": "org",
+      "is_current": false,
+      "org": "Google Brain (Google Research)",
+      "org_tier": "A",
+      "org_type": "research_lab",
+      "ownership": "contributed",
+      "quantified_impact": false,
+      "role": "Research Scientist",
+      "role_selectivity": "highly_selective",
+      "seniority": "mid",
+      "start": "2015-07",
+      "team_or_division": "Systems research"
+    },
+    {
+      "bullets_condensed": [
+        "Two first-author top-venue systems papers (NSDI 2013, SOSP 2015) and a EuroSys 2014 paper",
+        "TA for graduate distributed systems; departmental outstanding GSI award 2013"
+      ],
+      "duration_months": 57,
+      "employment_type": "fellowship",
+      "end": "2015-05",
+      "impact_scale": "industry",
+      "is_current": false,
+      "org": "University of California, Berkeley",
+      "org_tier": "A",
+      "org_type": "university",
+      "ownership": "led",
+      "quantified_impact": false,
+      "role": "Graduate Student Researcher",
+      "role_selectivity": "highly_selective",
+      "seniority": "phd_student",
+      "start": "2010-08",
+      "team_or_division": "RISELab / AMPLab"
+    }
+  ],
+  "input": {
+    "is_resume": true,
+    "language": "en",
+    "parse_confidence": 0.95,
+    "placeholders_seen": [
+      "name",
+      "email",
+      "phone",
+      "url"
+    ],
+    "word_count_estimate": 930
+  },
+  "leadership": [
+    {
+      "budget_or_scale": "3 teams; multi-year accelerator agreements",
+      "elected_or_appointed": "appointed",
+      "highlight": "Grew the org from 9 to 30 in two years; 4 direct reports now managers",
+      "org": "OpenAI Training Infrastructure",
+      "people_led": 30,
+      "role": "Head of organization"
+    },
+    {
+      "budget_or_scale": "top-venue review service 2020-2024",
+      "elected_or_appointed": "appointed",
+      "highlight": "Area chair NeurIPS 2022 and ICML 2023; PC at OSDI 2021 and MLSys 2020-2024",
+      "org": "NeurIPS / ICML / OSDI / MLSys",
+      "people_led": null,
+      "role": "Area chair and program committee member"
+    }
+  ],
+  "projects": [
+    {
+      "description_condensed": "Open-source library released by Google Research in 2019; ~6,000 stars; used in at least 3 external training frameworks",
+      "has_external_validation": true,
+      "kind": "software",
+      "name": "Distributed-training scheduling library",
+      "quantified_impact": true,
+      "scale_signal": "~6,000 stars; 3+ external frameworks",
+      "technical_depth": "exceptional"
+    },
+    {
+      "description_condensed": "Released with the SOSP 2015 paper; maintained 2016-2021; cited and reused in ~40 follow-up papers",
+      "has_external_validation": true,
+      "kind": "research",
+      "name": "Cluster-scheduler simulator",
+      "quantified_impact": true,
+      "scale_signal": "~40 follow-up papers",
+      "technical_depth": "substantial"
+    }
+  ],
+  "publications": [
+    {
+      "author_count": null,
+      "author_position": "first",
+      "citations_claimed": 2100,
+      "field": "distributed training",
+      "kind": "conference",
+      "venue": "ICML",
+      "venue_tier": "top",
+      "year": 2019
+    },
+    {
+      "author_count": null,
+      "author_position": "second",
+      "citations_claimed": null,
+      "field": "optimizer-state sharding",
+      "kind": "conference",
+      "venue": "NeurIPS",
+      "venue_tier": "top",
+      "year": 2020
+    },
+    {
+      "author_count": null,
+      "author_position": "first",
+      "citations_claimed": null,
+      "field": "accelerator cluster scheduling",
+      "kind": "conference",
+      "venue": "OSDI",
+      "venue_tier": "top",
+      "year": 2018
+    },
+    {
+      "author_count": null,
+      "author_position": "first",
+      "citations_claimed": null,
+      "field": "data-parallel scheduling",
+      "kind": "conference",
+      "venue": "SOSP",
+      "venue_tier": "top",
+      "year": 2015
+    },
+    {
+      "author_count": null,
+      "author_position": "first",
+      "citations_claimed": null,
+      "field": "straggler mitigation",
+      "kind": "conference",
+      "venue": "NSDI",
+      "venue_tier": "top",
+      "year": 2013
+    },
+    {
+      "author_count": null,
+      "author_position": "last",
+      "citations_claimed": null,
+      "field": "elastic training runtime",
+      "kind": "conference",
+      "venue": "SOSP",
+      "venue_tier": "top",
+      "year": 2021
+    },
+    {
+      "author_count": null,
+      "author_position": "second",
+      "citations_claimed": null,
+      "field": "communication-computation overlap",
+      "kind": "conference",
+      "venue": "MLSys",
+      "venue_tier": "strong",
+      "year": 2020
+    },
+    {
+      "author_count": null,
+      "author_position": "first",
+      "citations_claimed": null,
+      "field": "fair sharing in analytics clusters",
+      "kind": "conference",
+      "venue": "EuroSys",
+      "venue_tier": "strong",
+      "year": 2014
+    }
+  ],
+  "red_flags": [],
+  "residual_pii": {
+    "email_count": 0,
+    "name_suspected": false,
+    "other_identifiers": [],
+    "phone_count": 0,
+    "street_address_suspected": false,
+    "url_count": 0
+  },
+  "schema_version": "1.1",
+  "scores": {
+    "academia": {
+      "holistic_score": 90,
+      "included": true,
+      "rationale": "Six top-venue papers (five first-author), an ICML best paper, ~7,400 citations and an h-index of 24, area-chair service at NeurIPS and ICML. Industry rather than faculty track since 2015, which limits grants, students and recent first-author output.",
+      "stage_relative_score": 90,
+      "sub_scores": {
+        "breadth": 70,
+        "impact": 92,
+        "pedigree": 90,
+        "selectivity": 92,
+        "trajectory": 85
+      },
+      "top_evidence": [
+        "ICML 2019 best paper, first author, ~2,100 citations",
+        "~7,400 citations, h-index 24, 23 peer-reviewed papers",
+        "Area chair at NeurIPS 2022 and ICML 2023"
+      ]
+    },
+    "finance": {
+      "holistic_score": 20,
+      "included": false,
+      "rationale": "No finance footprint; compute agreements are an engineering responsibility.",
+      "stage_relative_score": 20,
+      "sub_scores": {
+        "breadth": 20,
+        "impact": 50,
+        "pedigree": 60,
+        "selectivity": 60,
+        "trajectory": 70
+      },
+      "top_evidence": []
+    },
+    "general": {
+      "holistic_score": 97,
+      "included": true,
+      "rationale": "T1 PhD, A-tier research lab then S-tier lab leadership, an ICML best paper, ~7,400 citations, 11 patents, and infrastructure outcomes at the scale of an entire frontier lab. Research, systems and organizational leadership each with external validation.",
+      "stage_relative_score": 97,
+      "sub_scores": {
+        "breadth": 86,
+        "impact": 95,
+        "pedigree": 92,
+        "selectivity": 95,
+        "trajectory": 94
+      },
+      "top_evidence": [
+        "ICML best paper adopted in a production TPU runtime; ~2,100 citations",
+        "Head of a 30-person organization at an S-tier lab; utilization 38% to 52%",
+        "23 papers, ~7,400 citations, 11 granted patents"
+      ]
+    },
+    "tech": {
+      "holistic_score": 98,
+      "included": true,
+      "rationale": "Repeated S/A-tier selection (Google Brain, OpenAI leadership), a top-venue best paper whose method shipped in production, systems with industry-level reach (utilization and recovery gains across a frontier lab), a 6,000-star library, and 11 patents.",
+      "stage_relative_score": 98,
+      "sub_scores": {
+        "breadth": 85,
+        "impact": 96,
+        "pedigree": 93,
+        "selectivity": 96,
+        "trajectory": 95
+      },
+      "top_evidence": [
+        "Head of Training Infrastructure at an S-tier lab: 30 people, utilization 38% to 52%",
+        "First-author ICML best paper adopted in the production TPU runtime",
+        "Five first-author top-venue systems papers; 6,000-star open-source library"
+      ]
+    }
+  },
+  "signals": {
+    "career_stage": "senior",
+    "has_quantified_impact": true,
+    "highest_institution_tier": "T1",
+    "highest_org_tier": "S",
+    "max_impact_scale": "industry",
+    "months_internship": 0,
+    "primary_domain": "tech",
+    "sustained_org_tier": "S",
+    "top_role_selectivity": "elite",
+    "trajectory": "accelerating",
+    "years_fulltime": 13.6
+  },
+  "skills": {
+    "certifications": [],
+    "domain": [
+      "distributed systems",
+      "ML systems and compilers",
+      "large-scale training",
+      "capacity planning",
+      "organizational leadership"
+    ],
+    "keyword_stuffing_suspected": false,
+    "spoken_languages": [],
+    "technical": [
+      "Python",
+      "C++",
+      "CUDA",
+      "JAX",
+      "PyTorch",
+      "Kubernetes"
+    ]
+  },
+  "strengths": [
+    "ICML 2019 best paper as first author, adopted in a production TPU runtime, ~2,100 citations on that paper alone",
+    "Infrastructure outcomes at frontier-lab scale: model-FLOP utilization 38% to 52%, fault recovery 47 min to 4 min",
+    "Five first-author top-venue systems papers plus 11 granted patents and a ~6,000-star open-source library",
+    "Organizational growth with results: 9 to 30 people in two years, 4 reports now managers",
+    "T1 PhD with an NSF GRFP and A-tier then S-tier employers without a gap"
+  ],
+  "verdict": "A record that would be remarked on in any field: a best-paper method that shipped in production, then the infrastructure org of an S-tier lab, all with numbers.",
+  "weaknesses": [
+    "First-author research output stops in 2019; recent papers are last-author or absent, so the academic line is now historical",
+    "Patents and talks are described in aggregate rather than individually",
+    "Three font families and a doubled patents mention cost a little on a document that is otherwise tight"
+  ]
+}

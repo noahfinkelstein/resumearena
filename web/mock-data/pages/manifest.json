@@ -1,0 +1,34 @@
+{
+  "build_id": "412345678.1",
+  "built_at": "2026-10-03T14:20:11Z",
+  "commit": "bc2558c71b62a78f1af752017e6633c49cc47ae3",
+  "counts": {
+    "matches": 23456,
+    "rated": {
+      "academia": 59,
+      "finance": 63,
+      "general": 249,
+      "tech": 56
+    },
+    "resumes": 252,
+    "users": 250
+  },
+  "data_sha": "c0856e8a460936aa67f7fd4d877a3a7483c8df21",
+  "page_size": 100,
+  "pages": {
+    "academia": 1,
+    "finance": 1,
+    "general": 3,
+    "tech": 1
+  },
+  "partitions": [
+    "all",
+    "stage-student",
+    "stage-new_grad",
+    "stage-early",
+    "stage-mid",
+    "stage-senior",
+    "stage-executive"
+  ],
+  "schema": 1
+}

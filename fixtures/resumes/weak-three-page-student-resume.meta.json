@@ -1,0 +1,32 @@
+{
+  "expect": {
+    "gate": "pass",
+    "status": "analyzed"
+  },
+  "group": "weak",
+  "intended_anchor": null,
+  "intended_categories": [
+    "general",
+    "tech"
+  ],
+  "intended_stage": "student",
+  "metrics": {
+    "char_count": 8201,
+    "columns_detected": 1,
+    "extraction_quality": 0.97,
+    "font_count": 2,
+    "image_count": 0,
+    "pages": 3,
+    "redactions": {
+      "address": 0,
+      "email": 1,
+      "manual": 0,
+      "name": 1,
+      "phone": 1,
+      "url": 2
+    },
+    "source": "pdf",
+    "word_count": 1177
+  },
+  "slug": "weak-three-page-student-resume"
+}
