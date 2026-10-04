@@ -88,3 +88,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           RA_LLM_MODE: mock
         run: node engine/src/cli.ts record-failure --workflow rerank --run "$RA_RUN_ID" || true
+# Re-indexed 2026-10-04: GitHub did not register this workflow from the branch-creating push until the file changed.
