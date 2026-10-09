@@ -36,7 +36,7 @@
     "submissions_last_hour": 0,
     "token_expires": "2027-10-01"
   },
-  "last_deploy_requested_at": "2026-10-08T11:26:26Z",
+  "last_deploy_requested_at": "2026-10-09T11:23:04Z",
   "last_rerank": {
     "at": "2026-10-09T06:07:34Z",
     "changed": false,
@@ -95,7 +95,7 @@
     "placement": 0
   },
   "schema": 1,
-  "updated_at": "2026-10-09T06:07:35Z",
+  "updated_at": "2026-10-09T11:23:04Z",
   "versions": {
     "analyst_prompt": "analyst.v1+6dbc77ff",
     "engine": "0.1.0",
