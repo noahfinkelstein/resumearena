@@ -1,0 +1,113 @@
+{
+  "daily_budget_usd": 25,
+  "est_submission_cost_usd": 0.2,
+  "hard_stop_multiplier": 1.15,
+  "max_submissions_per_hour": 20,
+  "max_text_chars": 15000,
+  "min_text_chars": 400,
+  "models": {
+    "analyst": "claude-opus-5-5",
+    "analyst_effort": "high",
+    "gate": "claude-haiku-4-5",
+    "judge": "claude-sonnet-5-5",
+    "judge_effort": "low"
+  },
+  "pause_message": "",
+  "paused": false,
+  "prices_usd_per_mtok": {
+    "claude-haiku-4-5": {
+      "cache_read": 0.1,
+      "cache_write_1h": 2,
+      "cache_write_5m": 1.25,
+      "input": 1,
+      "output": 5
+    },
+    "claude-opus-4-8": {
+      "cache_read": 0.5,
+      "cache_write_1h": 10,
+      "cache_write_5m": 6.25,
+      "input": 5,
+      "output": 25
+    },
+    "claude-opus-5-5": {
+      "cache_read": 0.2,
+      "cache_write_1h": 8,
+      "cache_write_5m": 5,
+      "input": 4,
+      "output": 20
+    },
+    "claude-sonnet-5-5": {
+      "cache_read": 0.2,
+      "cache_write_1h": 4,
+      "cache_write_5m": 2.5,
+      "input": 2,
+      "output": 10
+    }
+  },
+  "prompts": {
+    "analyst": "analyst.v1",
+    "gate": "gate.v1",
+    "judge": "judge.v1",
+    "schema": "1.1",
+    "taxonomy": "2026-10"
+  },
+  "rating": {
+    "category_relevance_min": 0.35,
+    "drift_alert_residual": 0.08,
+    "drift_max_shift": 10,
+    "drift_min_games": 150,
+    "drift_mode": "anchors",
+    "est_cost_per_match_usd": 0.0165,
+    "judge_concurrency": 8,
+    "max_deferred_analyses_per_run": 6,
+    "max_placements_per_run": 25,
+    "max_refine_matches_per_run": 120,
+    "min_refine_batch": 12,
+    "opponent_mix": {
+      "anchor": 0.1,
+      "crosscheck": 0.2,
+      "local": 0.7
+    },
+    "placement_rounds_domain": [
+      3,
+      3
+    ],
+    "placement_rounds_general": [
+      3,
+      3,
+      2
+    ],
+    "priority_weights": {
+      "A": 0,
+      "J": 0.25,
+      "S": 1,
+      "T": 1.5,
+      "U": 3,
+      "V": 0.75
+    },
+    "rd_ceiling": 350,
+    "rd_floor": 50,
+    "rd_inflation_c": 6,
+    "rd_initial": 350,
+    "rd_initial_domain": 220,
+    "rd_initial_with_prior": 250,
+    "rd_revision_min": 180,
+    "refine_cooldown_hours": 6,
+    "revision_rounds_domain": [
+      3
+    ],
+    "revision_rounds_general": [
+      3,
+      2
+    ],
+    "soft_wall_clock_minutes": 35
+  },
+  "refine_budget_share": 0.4,
+  "retention": {
+    "arena_pool_size": 80,
+    "history_points": 60,
+    "history_recent": 10,
+    "min_deploy_interval_minutes": 6
+  },
+  "schema": 1
+}
