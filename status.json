@@ -2,7 +2,7 @@
   "budget": {
     "analysis_usd": 0,
     "daily_usd": 25,
-    "day": "2026-11-13",
+    "day": "2026-11-14",
     "exhausted": false,
     "hard_stopped": false,
     "refine_spent_usd": 0,
@@ -38,12 +38,12 @@
   },
   "last_deploy_requested_at": "2026-11-13T04:24:06Z",
   "last_rerank": {
-    "at": "2026-11-13T23:52:59Z",
+    "at": "2026-11-14T00:19:46Z",
     "changed": false,
     "duration_s": 0,
     "matches": 0,
     "placements_completed": 0,
-    "run_id": 43530332069,
+    "run_id": 43533419827,
     "state": "ok",
     "trigger": "schedule",
     "waves": 0
@@ -95,7 +95,7 @@
     "placement": 0
   },
   "schema": 1,
-  "updated_at": "2026-11-13T23:53:00Z",
+  "updated_at": "2026-11-14T00:19:47Z",
   "versions": {
     "analyst_prompt": "analyst.v1+6dbc77ff",
     "engine": "0.1.0",
