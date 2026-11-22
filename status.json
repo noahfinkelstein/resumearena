@@ -38,12 +38,12 @@
   },
   "last_deploy_requested_at": "2026-11-22T04:24:13Z",
   "last_rerank": {
-    "at": "2026-11-22T18:19:03Z",
+    "at": "2026-11-22T18:28:03Z",
     "changed": false,
     "duration_s": 0,
     "matches": 0,
     "placements_completed": 0,
-    "run_id": 45054354840,
+    "run_id": 45055222402,
     "state": "ok",
     "trigger": "schedule",
     "waves": 0
@@ -95,7 +95,7 @@
     "placement": 0
   },
   "schema": 1,
-  "updated_at": "2026-11-22T18:19:04Z",
+  "updated_at": "2026-11-22T18:28:04Z",
   "versions": {
     "analyst_prompt": "analyst.v1+6dbc77ff",
     "engine": "0.1.0",
